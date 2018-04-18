@@ -19,4 +19,7 @@ after_success:
       docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD";
       docker push $DOCKER_ORGANIZATION/$DOCKER_REPO;
     fi
+<<<<<<< HEAD
   
+=======
+>>>>>>> 3c412938502d5e740b5933bace24751ed9cb48ed
