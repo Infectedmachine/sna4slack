@@ -1,4 +1,4 @@
-# sna4slack [![Build Status](https://travis-ci.com/softeng-inf-uniba/progetto1718-dijkstra.svg?token=mh8tmD3vdjv9iRRBL5pB&branch=master)](https://travis-ci.com/softeng-inf-uniba/progetto1718-dijkstra) [![codecov](https://codecov.io/gh/softeng-inf-uniba/base1718/branch/master/graph/badge.svg?token=KwXhgTMYEj)](https://codecov.io/gh/softeng-inf-uniba/base1718)
+# sna4slack [![Build Status](https://travis-ci.com/softeng-inf-uniba/progetto1718-dijkstra.svg?token=mh8tmD3vdjv9iRRBL5pB&branch=master)](https://travis-ci.com/softeng-inf-uniba/progetto1718-dijkstra)
 La struttura della repository si presenta nel seguente modo:
 ```
 |–– config
@@ -19,7 +19,6 @@ La struttura della repository si presenta nel seguente modo:
 |–– Assegnazione progetto.md
 |–– Guida per lo studente.md
 |–– README.md
-|–– Workflow progetto.xml
 |–– gradlew
 |–– gradle.bat
 |–– settings.gradle
