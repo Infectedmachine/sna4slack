@@ -1,4 +1,4 @@
-# sna4slack [![Build Status](https://travis-ci.com/softeng-inf-uniba/progetto1718-dijkstra.svg?token=mh8tmD3vdjv9iRRBL5pB&branch=master)](https://travis-ci.com/softeng-inf-uniba/progetto1718-dijkstra)
+﻿# sna4slack [![Build Status](https://travis-ci.com/softeng-inf-uniba/progetto1718-dijkstra.svg?token=mh8tmD3vdjv9iRRBL5pB&branch=master)](https://travis-ci.com/softeng-inf-uniba/progetto1718-dijkstra)
 La struttura della repository si presenta nel seguente modo:
 ```
 |–– config
@@ -38,6 +38,5 @@ Nel seguito si dettagliano i ruoli dei diversi componenti:
 - **Guida per lo studente.md:** elenca e descrive tutti i passi di configurazione necessari per attivare l’intero flusso di lavoro dietro lo sviluppo del progetto;
 - **gradlew & gradlew.bat**: sono i file eseguibili di *Gradle*, rispettivamente per Unix e per Windows. Vengono generati automaticamente da Eclipse;
 - **settings.gradle**: file di configurazione di *Gradle*. Anche quest’ultimo viene generato automaticamente da Eclipse.
-- **Workflow progetto.xml**: modella il flusso di lavoro, attraverso un diagramma di attività in UML, per svolgere il progetto assegnato.
 
 In alcune cartelle è possibile notare la presenza di un unico file nascosto “.keep”: questo ha il solo scopo di richiedere a Git l’inclusione delle cartelle in cui è contenuto (Git esclude dal *versioning* le cartelle vuote). Pertanto, il file può essere ignorato o eventualmente cancellato nel momento in cui si inserisca almeno un altro file all’interno della cartella.
