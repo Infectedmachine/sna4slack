@@ -1,10 +1,17 @@
 package slackpack;
+<<<<<<< HEAD
 import slackpack.Member;
+=======
+
+>>>>>>> 1ab2b2beda9e2dc85c37aa57f8a4919f09eff1c7
 import java.util.ArrayList;
 
 import org.json.simple.JSONObject;
 
+<<<<<<< HEAD
 import slackpack.WSParser;
+=======
+>>>>>>> 1ab2b2beda9e2dc85c37aa57f8a4919f09eff1c7
 
 public class ArrayMember {
 	
