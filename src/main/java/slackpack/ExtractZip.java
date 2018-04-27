@@ -11,7 +11,7 @@ import java.io.File;
 public class ExtractZip {
 	
 
-	public static void unzip(String source) {
+	public ExtractZip(String source) {
 
 		String destination = source.replace(".zip", "");
 		destination = destination.replace("\\", File.separator);
