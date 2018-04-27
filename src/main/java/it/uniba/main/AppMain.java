@@ -1,5 +1,7 @@
 package it.uniba.main;
 
+import slackpack.*;
+
 /**
  * The main class for the project. It must be customized to meet the project
  * assignment specifications.
@@ -7,14 +9,14 @@ package it.uniba.main;
  * <b>DO NOT RENAME</b>
  */
 public final class AppMain {
-
+		
 	/**
 	 * Private constructor. Change if needed.
 	 */
 	private AppMain() {
 
 	}
-
+	
 	/**
 	 * This is the main entry of the application.
 	 *
@@ -22,7 +24,15 @@ public final class AppMain {
 	 *            The command-line arguments.
 	 */
 	public static void main(final String[] args) {
-		System.out.println("Hello world.");
+		if (args.length == 0) {
+			
+			Helper.stampaLogo();
+			Helper.stampaHelp();
+			
+		}
+		else {
+			
+		}
 	}
 
 }
