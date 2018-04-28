@@ -1,5 +1,5 @@
 package it.uniba.main;
-
+import java.util.Scanner;
 import slackpack.*;
 
 /**
@@ -31,6 +31,9 @@ public final class AppMain {
 			
 		}
 		else {
+
+			Commander command = new Commander(args);
+			
 			
 		}
 	}
