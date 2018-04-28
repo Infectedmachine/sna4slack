@@ -16,8 +16,7 @@ ArrayList<Channel> channels;
 	@SuppressWarnings("unchecked")
 	public ArrayChannel(String filedir, ArrayMember marr) {
 		
-		filedir.concat("/channels.json");
-		
+				
 		WSParser parser = new WSParser(filedir);
 		this.channels = new ArrayList<Channel>(); 
 		

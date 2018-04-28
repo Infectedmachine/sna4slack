@@ -1,5 +1,17 @@
+/**
+* <p>Title: sna4slack</p>
+* <p>Description: Analizzatore file zip di esportazione Slack Workspace</p>
+* <p>Copyright: None    (c)2018</p>
+* <p>Company: Dipartimento di Informatica, Università degli studi di Bari</p>
+* <p>Class description: Classe AppMain
+* 
+* @author Dijkstra Group
+* @version 0.1
+*/
+
 package it.uniba.main;
-import java.util.Scanner;
+
+
 import slackpack.*;
 
 /**
@@ -24,7 +36,7 @@ public final class AppMain {
 	 *            The command-line arguments.
 	 */
 	public static void main(final String[] args) {
-		if (args.length == 0) {
+		if (args.length == 0 || args[0].equals("help")) {
 			
 			Helper.stampaLogo();
 			Helper.stampaHelp();
@@ -32,6 +44,7 @@ public final class AppMain {
 		}
 		else {
 
+			@SuppressWarnings("unused")
 			Commander command = new Commander(args);
 			
 			

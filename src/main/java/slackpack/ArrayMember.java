@@ -16,7 +16,6 @@ public class ArrayMember {
 	
 	public ArrayMember(String filedir) {
 		
-		filedir.concat("/users.json");
 		
 		WSParser parser = new WSParser(filedir);
 		this.members = new ArrayList<Member>(); 
