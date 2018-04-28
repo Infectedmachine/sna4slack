@@ -10,6 +10,7 @@ import java.io.File;
 
 public class ExtractZip {
 	
+	String dirsource;
 
 	public ExtractZip(String source) {
 
@@ -26,10 +27,14 @@ public class ExtractZip {
 			System.out.println("File estratto in ");
 			System.out.println(destination);
 			System.out.println("\n");
+			
+			
 		// 	StampaHelp.stampaHelp();
 		} catch (ZipException e) {
 			e.printStackTrace();
 		}
+		
+		this.dirsource=destination;
 	}
 
 }
