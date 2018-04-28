@@ -27,7 +27,7 @@ public class Commander {
 			Members = new ArrayMember(dir);
 			dir=dir.replace("/users.json","/channels.json");
 			ArrayChannel Channels = new ArrayChannel(dir,Members);
-			for (Object obj : Channels.channels) {  //stampa solo i nomi dei canali
+			for (Object obj : Channels.channels) {  //stampa solo i nomi dei canali, leggera modifica del metodo printArray
 				Channel cobj = (Channel) obj; 
 				System.out.println(cobj.getName());
 			}
