@@ -45,8 +45,8 @@ public class ArrayMember {
 		for (Object obj : this.members) {
 			Member mobj = (Member) obj; 
 			System.out.println(mobj.getRealName()); 
-			System.out.println(mobj.getName()); 
-			System.out.println(mobj.getID());
+		//	System.out.println(mobj.getName()); 
+		//	System.out.println(mobj.getID());
 		}
 	}
 	
