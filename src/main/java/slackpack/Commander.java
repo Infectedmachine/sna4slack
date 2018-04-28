@@ -32,6 +32,26 @@ public class Commander {
 				System.out.println(cobj.getName());
 			}
 			break;
+			case "-cm": //stampa i membri di un canale
+				zipdir = (InputCommand[0]);
+				Z = new ExtractZip(zipdir);
+				dir = Z.dirsource;
+				dir=dir.concat("/users.json");
+				Members = new ArrayMember(dir);
+				dir=dir.replace("/users.json","/channels.json");
+				ArrayChannel channels = new ArrayChannel(dir,Members);
+				for (Object obj : channels.channels) {
+					Channel cobj = (Channel) obj;
+					if (cobj.getName().equals(InputCommand[2])) {
+						System.out.println(cobj.getName() + ":\n");
+						for (Object chMembers : cobj.getMembersList()) {
+							Member mobj = (Member) chMembers;
+							System.out.println(mobj.getRealName() + "\n");
+						}
+					}
+				}
+				
+			
 		}
 	}
 }
