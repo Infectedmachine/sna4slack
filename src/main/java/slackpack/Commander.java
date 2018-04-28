@@ -10,7 +10,10 @@ public class Commander {
 			
 			switch (InputCommand[1]) {
 			case "-m":
-				ArrayMember Members = new ArrayMember(InputCommand[0]);
+				String zipdir = (InputCommand[0]);
+				ExtractZip Z = new ExtractZip(zipdir);
+				String dir = Z.dirsource;				
+				ArrayMember Members = new ArrayMember(dir);
 				Members.printArray();
 				break;
 			//case ""
