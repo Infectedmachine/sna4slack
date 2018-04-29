@@ -58,7 +58,10 @@ public class Commander {
 			Channels = new ArrayChannel(dir, Members); 
 			Channels.printArray(); 
 			break;
-			
+		
+		default: 
+			Helper.stampaLogo();
+			Helper.stampaHelp();
 		}
 	}
 }
