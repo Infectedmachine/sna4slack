@@ -24,7 +24,7 @@ public class ExtractZip {
 				zipFile.setPassword(password);
 			}
 			zipFile.extractAll(destination);
-			System.out.println("File estratto in ");
+			System.out.println("WORKSPACE FILES EXTRACTED IN THE FOLLOWING DIRECTORY:  ");
 			System.out.println(destination);
 			System.out.println("\n");
 			
