@@ -47,10 +47,17 @@ ArrayList<Channel> channels;
 		for (Object obj : this.channels) {
 			Channel cobj = (Channel) obj; 
 			System.out.println(cobj.getName() + ":\n"); 
-		//	System.out.println(cobj.getIDCreator()); 
-		//	System.out.println(cobj.getID());
 			cobj.printMembersList();
 			System.out.println("\n");
+		}
+	}
+	
+	public void printChannels() {
+		
+		for ( Object obj : this.channels) {
+			Channel cobj = (Channel) obj; 
+			System.out.println(cobj.getName());
+			
 		}
 	}
 	

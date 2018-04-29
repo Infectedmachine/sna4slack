@@ -11,7 +11,7 @@ public class Commander {
 	public Commander(String[] InputCommand) {
 
 		switch (InputCommand[1]) {
-		case "-m": // stampa tutti i nomi dei membri del workspace
+		case "-m": // PRINT ALL MEMBERS NAME OF A WORKSPACE
 			String zipdir = (InputCommand[0]);
 			ExtractZip Z = new ExtractZip(zipdir);
 			String dir = Z.dirsource;
@@ -19,7 +19,8 @@ public class Commander {
 			ArrayMember Members = new ArrayMember(dir);
 			Members.printArray();
 			break;
-		case "-c": // stampa tutti i nomi dei canali
+			
+		case "-c": // PRINT ALL CHANNELS NAMES OF A WORKSPACE
 			zipdir = (InputCommand[0]);
 			Z = new ExtractZip(zipdir);
 			dir = Z.dirsource;
@@ -27,13 +28,10 @@ public class Commander {
 			Members = new ArrayMember(dir);
 			dir = dir.replace("/users.json", "/channels.json");
 			ArrayChannel Channels = new ArrayChannel(dir, Members);
-			for (Object obj : Channels.channels) { // stampa solo i nomi dei canali, leggera modifica del metodo
-													// printArray
-				Channel cobj = (Channel) obj;
-				System.out.println(cobj.getName());
-			}
+			Channels.printChannels();
 			break;
-		case "-cm": // stampa i membri di un canale
+			
+		case "-cm": // PRINT MEMBERS OF A SINGLE CHANNEL
 			zipdir = (InputCommand[0]);
 			Z = new ExtractZip(zipdir);
 			dir = Z.dirsource;
@@ -49,6 +47,7 @@ public class Commander {
 				}
 			}
 			break; 
+			
 		case "-mc": // PRINT MEMBERS LIST PER CHANNEL
 			zipdir = (InputCommand[0]); 
 			Z = new ExtractZip(zipdir);
