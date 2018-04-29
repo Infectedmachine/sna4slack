@@ -35,7 +35,9 @@ public final class AppMain {
 	 * @param args
 	 *            The command-line arguments.
 	 */
-	public static void main(final String[] args) {
+	public static void main(final String[] args) {	
+		
+		
 		if (args.length == 0 || args[0].equals("help")) {
 			
 			Helper.stampaLogo();
