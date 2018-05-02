@@ -8,10 +8,20 @@ import org.json.simple.JSONObject;
 public class ArrayChannel {
 ArrayList<Channel> channels; 
 	
-	public ArrayChannel() {
+	public ArrayChannel(String filedir) {
 		
-		this.channels = null; 
+		WSParser parser = new WSParser(filedir); 
+		this.channels = new ArrayList<Channel>(); 
+		for (Object obj : parser.Array()) {
+			JSONObject jobj = (JSONObject) obj;
+			Channel cobj = new Channel();  
+			cobj.setName((String) jobj.get("name"));
+			cobj.setID((String)jobj.get("id"));
+			cobj.setIDCreator((String)jobj.get("creator"));
+			channels.add(cobj);
+		}
 	}
+	
 	
 	@SuppressWarnings("unchecked")
 	public ArrayChannel(String filedir, ArrayMember marr) {

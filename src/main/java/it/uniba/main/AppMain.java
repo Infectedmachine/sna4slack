@@ -42,14 +42,11 @@ public final class AppMain {
 			
 			Helper.stampaLogo();
 			Helper.stampaHelp();
-			
 		}
 		else {
 
 			@SuppressWarnings("unused")
 			Commander command = new Commander(args);
-			
-			
 		}
 	}
 

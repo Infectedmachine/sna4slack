@@ -21,17 +21,16 @@ public class WSParser {
 			this.jarr = (JSONArray) parser.parse(new FileReader(filedir));
 			
 			} catch (FileNotFoundException e) {
-			e.printStackTrace();
+				System.out.println("JSON File not found");
 			} catch (IOException e) {
-			e.printStackTrace();
+				System.out.println("PARSE IOEXCEPTION");
 			} catch (ParseException e) {
-			e.printStackTrace();
+				System.out.println("PARSE EXCEPTION");
 			}
 
 	}
 	
 	public JSONArray Array() {
 		return this.jarr; 
-	}
-	
+	}	
 }

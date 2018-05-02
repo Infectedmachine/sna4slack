@@ -3,6 +3,7 @@ package slackpack;
 public interface Helper {
 	  
 		public static void stampaHelp() {
+			System.out.println("PLEASE TYPE COMMANDS LIKE THIS: <directory> <command>\n"); 
 	        System.out.print("ns/path/file.zip\tPercorso locale del file, deve essere il primo parametro\n");
 	        System.out.print("-m\t\t\tVisualizza tutti i membri del workspace\n");
 	        System.out.print("-c\t\t\tVisualizza tutti i canali del workspace\n");

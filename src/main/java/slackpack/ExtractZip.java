@@ -31,10 +31,9 @@ public class ExtractZip {
 			
 		// 	StampaHelp.stampaHelp();
 		} catch (ZipException e) {
-			e.printStackTrace();
+			System.out.println("\nERROR: WRONG DIRECTORY");
 		}
 		
 		this.dirsource=destination;
 	}
-
 }
