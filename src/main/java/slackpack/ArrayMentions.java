@@ -1,16 +1,18 @@
 package slackpack;
+
 import java.util.ArrayList;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import org.json.simple.JSONObject; 
+import org.json.simple.JSONObject;
 
 public class ArrayMentions {
-	
-	ArrayList<Mention> mentions; 
-	
 
-	public ArrayMentions(String filedir) {	// CONSTRUCTOR
+	ArrayList<Mention> mentions;
+	
+	// CONSTRUCTOR
+	public ArrayMentions(String filedir) { 
+		
 		WSParser parser = new WSParser(filedir);
 		this.mentions = new ArrayList<Mention>();
 		for (Object obj : parser.Array()) {
@@ -20,51 +22,41 @@ public class ArrayMentions {
 			String user = (String) jobj.get("user");
 			String sub_type = (String) jobj.get("subtype");
 			
+			mobj.setFROM(user);	// It adds the author of the message
+			
 			ArrayList<String> tmp = new ArrayList<String>();
-			
-			mobj.setFROM(user); //aggiunge l'autore del messaggio
-			
-			if (sub_type == null) {	// significa che non è un messaggio di invio file
-				Pattern findMention = Pattern.compile("<@.+?>");  // trova tutto ciò che c'è tra <@ >
-				Matcher matcher = findMention.matcher(text);
-				while (matcher.find()) {				
-					tmp.add(matcher.group().subSequence(2, matcher.group().length()-1).toString());	
-					mobj.setTO(tmp);				
+			if (sub_type == null) { // It means the message it's not the type "file_share"
+				Pattern findMention = Pattern.compile("<@.+?>");
+				Matcher matcher = findMention.matcher(text);	// It finds every occurrences of "<@ >"
+				while (matcher.find()) {
+					tmp.add(matcher.group().subSequence(2, matcher.group().length() - 1).toString());	// It adds a trimmed string(without "<@" ">") to a tmp list   
+					mobj.setTO(tmp);
 				}
-				mentions.add(mobj);
+			mentions.add(mobj);
 			}
-			
-			
+
 		}
-		
+
 	}
-	
+
 	public void setArray(ArrayList<Mention> marr) {
-		
-		this.mentions = marr; 
+
+		this.mentions = marr;
 	}
-	
-	public ArrayList<Mention> getMentions(){
-		
-		return this.mentions; 
+
+	public ArrayList<Mention> getMentions() {
+
+		return this.mentions;
 	}
-	
+
 	public void printMentions() {
-		
-		for ( Object obj : this.mentions) {
-			Mention mobj = (Mention) obj; 
+
+		for (Object obj : this.mentions) {
+			Mention mobj = (Mention) obj;
 			System.out.println(mobj.getFROM());
 			System.out.println(mobj.getTO());
-			
-		}	
+
+		}
 	}
-	
-	/*
-	 * @REMEBER TO DELETE
-	public static void main(String[] args) {
-		ArrayMentions Arr = new ArrayMentions("C:\\Users\\Davide\\Downloads\\ingsw1718\\general\\2018-04-18.json");
-		Arr.printMentions();
-	}
-	 */
 
 }
