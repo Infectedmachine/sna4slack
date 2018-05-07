@@ -10,6 +10,11 @@ public class ArrayMentions {
 
 	ArrayList<Mention> mentions;
 
+	public ArrayMentions() {
+
+		this.mentions = new ArrayList<Mention>(); 
+	}
+
 	// NEW CONSTRUCTOR 2.0
 	public ArrayMentions(String filedir, ArrayMember members) {
 
@@ -29,7 +34,7 @@ public class ArrayMentions {
 			if (sub_type == null) {
 				Pattern findmention = Pattern.compile("<@.+?>");
 				Matcher match = findmention.matcher(text);
-				while (match.find()) { 
+				while (match.find()) {
 					tmp = match.group().subSequence(2, match.group().length() - 1).toString();
 					if (mobj.getFROM().length() == 0) {
 						mobj.setFROM(getNameFROM(user, members.getArray()));
@@ -48,7 +53,7 @@ public class ArrayMentions {
 						merge(mobj);
 					}
 				}
-				flag = false; 
+				flag = false;
 			}
 
 		}
@@ -61,36 +66,41 @@ public class ArrayMentions {
 
 		ArrayList<String> tmparr = new ArrayList<String>();
 
-		for (Object obj : this.mentions) {
-			Mention mention = (Mention) obj;
+		if (this.mentions.size() == 0) {
+			this.mentions.add(mobj);
+		} else {
+			for (Object obj : this.mentions) {
+				Mention mention = (Mention) obj;
 
-			if (mention.getFROM().equals(mobj.getFROM()) && FROMflag == false) { // IF BOTH 'FROM' ARE EQUALS THEN CHECK
-																					// FOR 'TO' DOUBLES
-				FROMflag = true;
-				for (String to_i : mobj.getTO()) { // CHECK IF ANY 'TO' FROM MOBJ IS PRESENT IN THE MAIN MANTION OBJ OF
-													// THE ARRAY
-					for (String to_j : mention.getTO()) {
-						if (to_i.equals(to_j)) {
-							flag = true;
+				if (mention.getFROM().equals(mobj.getFROM()) && FROMflag == false) { // IF BOTH 'FROM' ARE EQUALS THEN
+																						// CHECK
+																						// FOR 'TO' DOUBLES
+					FROMflag = true;
+					for (String to_i : mobj.getTO()) { // CHECK IF ANY 'TO' FROM MOBJ IS PRESENT IN THE MAIN MANTION OBJ
+														// OF
+														// THE ARRAY
+						for (String to_j : mention.getTO()) {
+							if (to_i.equals(to_j)) {
+								flag = true;
+							}
 						}
+						if (flag == false) { // IF IT IS PRESENT THEN IGNORE IT, IF NOT ADD IT TO THE TEMP ARRAY
+							tmparr.add(to_i);
+						}
+						flag = false;
 					}
-					if (flag == false) { // IF IT IS PRESENT THEN IGNORE IT, IF NOT ADD IT TO THE TEMP ARRAY
-						tmparr.add(to_i);
-					}
-					flag = false;
-				}
-				if (tmparr.size() > 0) {
-					for (String s : tmparr) {
-						mention.addTO(s); // ADD EVERY NEW 'TO' TO THE MAIN MENTION OBJ
+					if (tmparr.size() > 0) {
+						for (String s : tmparr) {
+							mention.addTO(s); // ADD EVERY NEW 'TO' TO THE MAIN MENTION OBJ
+						}
 					}
 				}
 			}
+			if (FROMflag == false) {
+				this.mentions.add(mobj); // IF NONE OF 'FROM' WAS PRESENT IN THE MAIN MENTION ARRAY THEN WHOLE MENTION
+											// OBJ TO IT
+			}
 		}
-		if (FROMflag == false) {
-			this.mentions.add(mobj); // IF NONE OF 'FROM' WAS PRESENT IN THE MAIN MENTION ARRAY THEN WHOLE MENTION
-										// OBJ TO IT
-		}
-
 	}
 
 	public void setArray(ArrayList<Mention> marr) {
