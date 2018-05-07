@@ -1,4 +1,6 @@
 package slackpack;
+import java.io.File; 
+import java.util.HashMap; 
 
 public class Commander {
 
@@ -61,6 +63,29 @@ public class Commander {
 				channels = new ArrayChannel(dir, members);
 				channels.printArray();
 				break;
+				
+			case "@m": // PRINT @MENTIONS LIST - ALL/CHANNEL
+				//CHECK IF THERE IS A CHANNEL NAME RIGHT AFTER THE COMMAND TO RESTRICT MENTIONS TO ONLY SPECIFIED CHANNEL
+				// IF NOT LIST THEM ALL 
+				File ch = new File(dir.concat("/" + InputCommand[2])); 
+				File[] files = ch.listFiles(); 
+				members = new ArrayMember(dir.concat("/users.json")); 
+				
+				if (InputCommand.length > 2 && ch.isDirectory()) { // IF CHANNEL IS SPECIFIED CHECK IF IT'S A VALID DIRECTORY
+					HashMap<String, ArrayMentions> chmentions = new HashMap<String, ArrayMentions>(); // THE HASHMAP WILL STORE FILES AND FOR EACH HIS MENTIONS
+					for (File file : files) {
+						ArrayMentions datementions = new ArrayMentions(file.getCanonicalPath(), members);
+						if(datementions.mentions != null) {
+							datementions.printMentions(); // TEST
+						}
+						
+						System.out.println("END OF SINGLE JSON FILE...");
+						chmentions.put(file.getName(),datementions); 
+					}
+					 
+				}
+				
+				break; 
 
 			default:
 				Helper.stampaLogo();
