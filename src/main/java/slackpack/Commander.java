@@ -108,7 +108,7 @@ public class Commander {
 						}
 
 					} else {
-						System.out.println("\n THERE IS NO CHANNELS BY THIS NAME");
+						System.out.println("\n THERE IS NO CHANNEL BY THIS NAME");
 						Helper.stampaLogo();
 						Helper.stampaHelp();
 					}
