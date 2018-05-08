@@ -2,6 +2,7 @@ package slackpack;
 
 import java.io.File;
 import java.util.HashMap;
+import java.util.ArrayList;
 
 public class Commander {
 
@@ -52,8 +53,11 @@ public class Commander {
 						Helper.stampaLogo();
 						Helper.stampaHelp();
 					}
-				} else
+				} else {
 					System.out.println("\n Please type a valid command"); // LESS OR MORE ARGUMENTS IN THE COMMAND
+					Helper.stampaLogo();
+					Helper.stampaHelp();
+				}
 
 				break;
 
@@ -65,49 +69,86 @@ public class Commander {
 				channels.printArray();
 				break;
 
-			case "@m": // PRINT @MENTIONS LIST - ALL/CHANNEL
+			case "@m":
+				// PRINT @MENTIONS LIST - ALL/CHANNEL
 				// CHECK IF THERE IS A CHANNEL NAME RIGHT AFTER THE COMMAND TO RESTRICT MENTIONS
 				// TO ONLY SPECIFIED CHANNEL
 				// IF NOT LIST THEM ALL
-				File ch = new File(dir.concat("/" + InputCommand[2]));
-				File[] files = ch.listFiles();
-				members = new ArrayMember(dir.concat("/users.json"));
+				if (InputCommand.length == 3) {
+					File ch = new File(dir.concat("/" + InputCommand[2]));
+					// IF CHANNEL IS SPECIFIED CHECK IF IT'S A VALID
+					// DIRECTORY
+					if (ch.isDirectory()) {
+						File[] files = ch.listFiles();
+						members = new ArrayMember(dir.concat("/users.json"));
+						// THE HASHMAP WILL STORE JSON FILES AND FOR EACH HIS MENTIONS
+						HashMap<String, ArrayMentions> chmentions = new HashMap<String, ArrayMentions>();
+						ArrayMentions marrglobal = new ArrayMentions();
 
-				if (InputCommand.length > 2 && ch.isDirectory()) { // IF CHANNEL IS SPECIFIED CHECK IF IT'S A VALID
-																	// DIRECTORY
-					HashMap<String, ArrayMentions> chmentions = new HashMap<String, ArrayMentions>(); // THE HASHMAP
-																										// WILL STORE
-																										// FILES AND FOR
-																										// EACH HIS
-																										// MENTIONS
-					ArrayMentions marrglobal = new ArrayMentions();
-
-					for (File file : files) {
-						ArrayMentions datementions = new ArrayMentions(file.getCanonicalPath(), members);
-						/*
-						 * if(datementions.mentions != null) { datementions.printMentions(); // TEST }
-						 */
-						// System.out.println("END OF SINGLE JSON FILE...");
-						chmentions.put(file.getName(), datementions);
-					}
-					for (Object keyobj : chmentions.keySet()) {
-						String key = keyobj.toString();
-						ArrayMentions value = chmentions.get(keyobj);
-						// MERGE EVERY SINGLE MENTION OBJ TO THE MAIN @M.ARRAY
-						if (marrglobal.getMentions().size() == 0) {
-							marrglobal.setArray(value.getMentions());
-						} else {
-							for (Object o : value.getMentions()) {
-								Mention mobj = (Mention) o;
-								marrglobal.merge(mobj);
+						for (File file : files) {
+							ArrayMentions datementions = new ArrayMentions(file.getCanonicalPath(), members);
+							chmentions.put(file.getName(), datementions);
+						}
+						for (Object keyobj : chmentions.keySet()) {
+							ArrayMentions value = chmentions.get(keyobj);
+							// MERGE EVERY SINGLE MENTION OBJ TO THE MAIN @M.ARRAY
+							if (marrglobal.getMentions().size() == 0) {
+								marrglobal.setArray(value.getMentions());
+							} else {
+								for (Object o : value.getMentions()) {
+									Mention mobj = (Mention) o;
+									marrglobal.merge(mobj);
+								}
 							}
 						}
-						//System.out.println(key);
-						//value.printMentions();
+						if (marrglobal.getMentions().size() > 0) {
+							marrglobal.printMentions();
+						} else {
+							System.out.println("\n NONE MENTIONS IN THIS CHANNEL");
+						}
 
+					} else {
+						System.out.println("\n THERE IS NO CHANNELS BY THIS NAME");
+						Helper.stampaLogo();
+						Helper.stampaHelp();
 					}
-					marrglobal.printMentions();
-
+				} else if (InputCommand.length == 2) {
+					members = new ArrayMember(dir.concat("/users.json"));
+					ArrayMentions marrglobal = new ArrayMentions();
+					ArrayList<ArrayMentions> buffer = new ArrayList<ArrayMentions>();
+					// THIS ALGORITHM WILL FIND EVERY JSON CHAT FILE AND FILL THE BUFFER
+					File ws = new File(dir);
+					File[] wsfiles = ws.listFiles();
+					for (File wsfile : wsfiles) {
+						if (wsfile.isDirectory()) {
+							File[] chfiles = wsfile.listFiles();
+							for (File jfile : chfiles) {
+								ArrayMentions datementions = new ArrayMentions(jfile.getCanonicalPath(), members);
+								buffer.add(datementions);
+							}
+						}
+					}
+					// MERGE EVERY SINGLE MENTION FROM THE BUFFER TO THE GLOBAL MENTIONS ARRAY
+					for (Object buffobj : buffer) {
+						ArrayMentions marr = (ArrayMentions) buffobj;
+						if (marrglobal.getMentions().size() == 0) {
+							marrglobal.setArray(marr.getMentions());
+						} else {
+							for (Object mobj : marr.getMentions()) {
+								Mention mention = (Mention) mobj;
+								marrglobal.merge(mention);
+							}
+						}
+					}
+					if (marrglobal.getMentions().size() > 0) {
+						marrglobal.printMentions();
+					} else {
+						System.out.println("\n NONE MENTIONS IN THIS WORKSPACE");
+					}
+				} else {
+					System.out.println("\n Please type a valid command"); // LESS OR MORE ARGUMENTS IN THE COMMAND
+					Helper.stampaLogo();
+					Helper.stampaHelp();
 				}
 
 				break;
