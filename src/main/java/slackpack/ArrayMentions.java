@@ -12,7 +12,7 @@ public class ArrayMentions {
 
 	public ArrayMentions() {
 
-		this.mentions = new ArrayList<Mention>(); 
+		this.mentions = new ArrayList<Mention>();
 	}
 
 	// NEW CONSTRUCTOR 2.0
@@ -38,10 +38,11 @@ public class ArrayMentions {
 					tmp = match.group().subSequence(2, match.group().length() - 1).toString();
 					if (mobj.getFROM().length() == 0) {
 						mobj.setFROM(getNameFROM(user, members.getArray()));
-						mobj.addTO(getNameFROM(tmp, members.getArray()));
+						if (checkDoubles(mobj, getNameFROM(tmp, members.getArray())) == false)
+							mobj.addTO(getNameFROM(tmp, members.getArray()));
 						flag = true;
 					} else {
-						if (checkDoubles(mobj, tmp) == false) {
+						if (checkDoubles(mobj, getNameFROM(tmp, members.getArray())) == false) {
 							mobj.addTO(getNameFROM(tmp, members.getArray()));
 						}
 					}
@@ -103,6 +104,13 @@ public class ArrayMentions {
 		}
 	}
 
+	public void mergeArray(ArrayList<Mention> marr) {
+
+		for (Mention mention : marr) {
+			merge(mention);
+		}
+	}
+
 	public void setArray(ArrayList<Mention> marr) {
 
 		this.mentions = marr;
@@ -130,9 +138,13 @@ public class ArrayMentions {
 
 	public boolean checkDoubles(Mention mention, String value) {
 
-		for (String tmp : mention.getTO()) {
-			if (tmp.equals(value))
-				return true;
+		if (mention.getFROM().equals(value))
+			return true;
+		else {
+			for (String tmp : mention.getTO()) {
+				if (tmp.equals(value))
+					return true;
+			}
 
 		}
 
