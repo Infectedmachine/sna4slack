@@ -81,7 +81,13 @@ public class Commander {
 					if (marrglobal.getMentions().size() > 0) {
 						marrglobal.printMentions();
 					} else {
+<<<<<<< HEAD
 						System.out.println("\n NONE MENTIONS IN THIS CHANNEL");
+=======
+						System.out.println("\n THERE IS NO CHANNEL BY THIS NAME");
+						Helper.stampaLogo();
+						Helper.stampaHelp();
+>>>>>>> e36302b7b18aba5e26a9af6a8c09615cd17c4e88
 					}
 				} else if (InputCommand.length == 2) {
 					JFileScanner jfiles = new JFileScanner(dir);
