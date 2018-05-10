@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="it"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>AppMain.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">SNA4Slack</a> &gt; <a href="index.source.html" class="el_package">it.uniba.main</a> &gt; <span class="el_source">AppMain.java</span></div><h1>AppMain.java</h1><pre class="source lang-java linenums">/**
+* &lt;p&gt;Title: sna4slack&lt;/p&gt;
+* &lt;p&gt;Description: Analizzatore file zip di esportazione Slack Workspace&lt;/p&gt;
+* &lt;p&gt;Copyright: None    (c)2018&lt;/p&gt;
+* &lt;p&gt;Company: Dipartimento di Informatica, Università degli studi di Bari&lt;/p&gt;
+* &lt;p&gt;Class description: Classe AppMain
+* 
+* @author Dijkstra Group
+* @version 0.1
+*/
+
+package it.uniba.main;
+
+
+import slackpack.*;
+
+/**
+ * The main class for the project. It must be customized to meet the project
+ * assignment specifications.
+ * 
+ * &lt;b&gt;DO NOT RENAME&lt;/b&gt;
+ */
+public final class AppMain {
+		
+	/**
+	 * Private constructor. Change if needed.
+	 */
+	private AppMain() {
+
+	}
+	
+	/**
+	 * This is the main entry of the application.
+	 *
+	 * @param args
+	 *            The command-line arguments.
+	 */
+	public static void main(final String[] args) {	
+		
+		
+<span class="nc bnc" id="L41" title="All 4 branches missed.">		if (args.length == 0 || args[0].equals(&quot;help&quot;)) {</span>
+			
+<span class="nc" id="L43">			Helper.stampaLogo();</span>
+<span class="nc" id="L44">			Helper.stampaHelp();</span>
+		}
+		else {
+
+			@SuppressWarnings(&quot;unused&quot;)
+<span class="nc" id="L49">			Commander command = new Commander(args);</span>
+		}
+<span class="nc" id="L51">	}</span>
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.0.201801022044</span></div></body></html>

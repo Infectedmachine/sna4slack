@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="it"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Commander.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">SNA4Slack</a> &gt; <a href="index.source.html" class="el_package">slackpack</a> &gt; <span class="el_source">Commander.java</span></div><h1>Commander.java</h1><pre class="source lang-java linenums">package slackpack;
+
+import java.io.File;
+
+public class Commander {
+
+	String workspacedir;
+
+<span class="nc" id="L9">	public Commander(String[] InputCommand) {</span>
+
+		try {
+<span class="nc" id="L12">			String zipdir = (InputCommand[0]); // THIS BLOCK OF INSTRUTIONS TAKES FILEDIRECTORY NAME FROM THE COMMAND</span>
+<span class="nc" id="L13">			ExtractZip Z = new ExtractZip(zipdir); // AND EXTRACT IT IN THE SAME DIRECTORY IN A FOLDER WITH THE SAME</span>
+													// NAME
+<span class="nc" id="L15">			String dir = Z.dirsource;// AT THE END IT SAVES THE FOLDERNAME WHERE EXTRACTED FOLDER IS</span>
+<span class="nc" id="L16">			this.workspacedir = dir; // SAVE THE WORKSPACE DIRECTORY FOR ANY OTHER USE</span>
+
+<span class="nc bnc" id="L18" title="All 7 branches missed.">			switch (InputCommand[1]) {</span>
+			case &quot;-m&quot;: // PRINT ALL MEMBERS NAME OF A WORKSPACE
+<span class="nc" id="L20">				dir = dir.concat(&quot;/users.json&quot;);// ADDS TO THE FOLDERNAME JSON'S FILE NAME</span>
+<span class="nc" id="L21">				ArrayMember members = new ArrayMember(dir);// PROCIDE TO CREATE AN ARRAY WITH ALL MEMBERS OF A WORKSPACE</span>
+<span class="nc" id="L22">				members.printArray();</span>
+<span class="nc" id="L23">				break;</span>
+
+			case &quot;-c&quot;: // PRINT ALL CHANNELS NAMES OF A WORKSPACE
+<span class="nc" id="L26">				dir = dir.concat(&quot;/users.json&quot;);</span>
+<span class="nc" id="L27">				members = new ArrayMember(dir);</span>
+<span class="nc" id="L28">				dir = dir.replace(&quot;/users.json&quot;, &quot;/channels.json&quot;);</span>
+<span class="nc" id="L29">				ArrayChannel channels = new ArrayChannel(dir);</span>
+<span class="nc" id="L30">				channels.printChannels();</span>
+<span class="nc" id="L31">				break;</span>
+
+			case &quot;-cm&quot;: // PRINT MEMBERS OF A SINGLE CHANNEL
+<span class="nc bnc" id="L34" title="All 2 branches missed.">				if (InputCommand.length == 3) {</span>
+<span class="nc" id="L35">					dir = dir.concat(&quot;/users.json&quot;);</span>
+<span class="nc" id="L36">					members = new ArrayMember(dir);</span>
+<span class="nc" id="L37">					dir = dir.replace(&quot;/users.json&quot;, &quot;/channels.json&quot;);</span>
+<span class="nc" id="L38">					channels = new ArrayChannel(dir, members);</span>
+<span class="nc" id="L39">					int counter = 0; // SET A COUNTER TO CHECK IF THERE IS ANY CHANNEL BY THIS NAME</span>
+<span class="nc bnc" id="L40" title="All 2 branches missed.">					for (Object obj : channels.channels) {</span>
+<span class="nc" id="L41">						Channel cobj = (Channel) obj;</span>
+<span class="nc bnc" id="L42" title="All 2 branches missed.">						if (cobj.getName().equals(InputCommand[2])) { // CHECK FOR CHANNELS WITH THE SAME NAME</span>
+<span class="nc" id="L43">							System.out.println(cobj.getName() + &quot;:\n&quot;);</span>
+<span class="nc" id="L44">							cobj.printMembersList();</span>
+<span class="nc" id="L45">							counter = 1; // A CHANNEL WAS FOUND</span>
+						}
+<span class="nc" id="L47">					}</span>
+<span class="nc bnc" id="L48" title="All 2 branches missed.">					if (counter == 0) { // IF NONE CHANNEL WAS FOUND MEANS THERE IS NO SUCH ONE OR INVALID NAME</span>
+<span class="nc" id="L49">						System.out.println(</span>
+								&quot;\n NONE CHANNEL BY THIS NAME. Please type a valid Channel's Name after command&quot;);
+<span class="nc" id="L51">						Helper.stampaLogo();</span>
+<span class="nc" id="L52">						Helper.stampaHelp();</span>
+					}
+<span class="nc" id="L54">				} else {</span>
+<span class="nc" id="L55">					System.out.println(&quot;\n Please type a valid command&quot;); // LESS OR MORE ARGUMENTS IN THE COMMAND</span>
+<span class="nc" id="L56">					Helper.stampaLogo();</span>
+<span class="nc" id="L57">					Helper.stampaHelp();</span>
+				}
+
+<span class="nc" id="L60">				break;</span>
+
+			case &quot;-mc&quot;: // PRINT MEMBERS LIST PER CHANNEL
+<span class="nc" id="L63">				dir = dir.concat(&quot;/users.json&quot;);</span>
+<span class="nc" id="L64">				members = new ArrayMember(dir);</span>
+<span class="nc" id="L65">				dir = dir.replace(&quot;/users.json&quot;, &quot;/channels.json&quot;);</span>
+<span class="nc" id="L66">				channels = new ArrayChannel(dir, members);</span>
+<span class="nc" id="L67">				channels.printArray();</span>
+<span class="nc" id="L68">				break;</span>
+
+			case &quot;@m&quot;:
+<span class="nc bnc" id="L71" title="All 2 branches missed.">				if (InputCommand.length == 3) {</span>
+<span class="nc" id="L72">					JFileScanner jfiles = new JFileScanner(dir.concat(&quot;/&quot; + InputCommand[2]));</span>
+<span class="nc" id="L73">					members = new ArrayMember(dir.concat(&quot;/users.json&quot;));</span>
+<span class="nc" id="L74">					ArrayMentions marrglobal = new ArrayMentions();</span>
+<span class="nc bnc" id="L75" title="All 2 branches missed.">					for (File file : jfiles.getArray()) {</span>
+<span class="nc" id="L76">						ArrayMentions jmarr = new ArrayMentions(file.getCanonicalPath(), members);</span>
+<span class="nc" id="L77">						marrglobal.mergeArray(jmarr.getMentions());</span>
+<span class="nc" id="L78">					}</span>
+<span class="nc bnc" id="L79" title="All 2 branches missed.">					if (marrglobal.getMentions().size() &gt; 0) {</span>
+<span class="nc" id="L80">						marrglobal.printMentions();</span>
+					} else {
+<span class="nc" id="L82">						System.out.println(&quot;\n NONE MENTIONS IN THIS CHANNEL&quot;);</span>
+<span class="nc" id="L83">						System.out.println(&quot;\n THERE IS NO CHANNEL BY THIS NAME&quot;);</span>
+<span class="nc" id="L84">						Helper.stampaLogo();</span>
+<span class="nc" id="L85">						Helper.stampaHelp();</span>
+					}
+<span class="nc bnc" id="L87" title="All 2 branches missed.">				} else if (InputCommand.length == 2) {</span>
+<span class="nc" id="L88">					JFileScanner jfiles = new JFileScanner(dir);</span>
+<span class="nc" id="L89">					members = new ArrayMember(dir.concat(&quot;/users.json&quot;));</span>
+<span class="nc" id="L90">					ArrayMentions marrglobal = new ArrayMentions();</span>
+<span class="nc bnc" id="L91" title="All 2 branches missed.">					for (File file : jfiles.getArray()) {</span>
+<span class="nc" id="L92">						ArrayMentions jmarr = new ArrayMentions(file.getCanonicalPath(), members);</span>
+<span class="nc" id="L93">						marrglobal.mergeArray(jmarr.getMentions());</span>
+<span class="nc" id="L94">					}</span>
+<span class="nc bnc" id="L95" title="All 2 branches missed.">					if (marrglobal.getMentions().size() &gt; 0) {</span>
+<span class="nc" id="L96">						marrglobal.printMentions();</span>
+					} else {
+<span class="nc" id="L98">						System.out.println(&quot;\nNONE MENTIONS IN THIS WORKSPACE&quot;);</span>
+					}
+<span class="nc" id="L100">				} else {</span>
+<span class="nc" id="L101">					System.out.println(&quot;\nPlease type a valid command&quot;);</span>
+<span class="nc" id="L102">					Helper.stampaLogo();</span>
+<span class="nc" id="L103">					Helper.stampaHelp();</span>
+				}
+<span class="nc" id="L105">				break;</span>
+			case &quot;@mf&quot;:
+<span class="nc bnc" id="L107" title="All 2 branches missed.">				if (InputCommand.length == 4) {</span>
+
+<span class="nc" id="L109">					JFileScanner jfiles = new JFileScanner(dir.concat(&quot;/&quot; + InputCommand[3]));</span>
+<span class="nc" id="L110">					members = new ArrayMember(dir.concat(&quot;/users.json&quot;));</span>
+<span class="nc" id="L111">					ArrayMentions marrglobal = new ArrayMentions();</span>
+<span class="nc bnc" id="L112" title="All 2 branches missed.">					for (File file : jfiles.getArray()) {</span>
+<span class="nc" id="L113">						ArrayMentions jmarr = new ArrayMentions(file.getCanonicalPath(), members);</span>
+<span class="nc" id="L114">						marrglobal.mergeArray(jmarr.getMentions());</span>
+<span class="nc" id="L115">					}</span>
+<span class="nc bnc" id="L116" title="All 2 branches missed.">					if (marrglobal.getMentions().size() &gt; 0) {</span>
+<span class="nc bnc" id="L117" title="All 2 branches missed.">						if (marrglobal.checkUser(InputCommand[2]))</span>
+<span class="nc" id="L118">							marrglobal.printMentionsOf(InputCommand[2]);</span>
+						else {
+<span class="nc" id="L120">							System.out.println(&quot;\n THERE IS NO USER BY THIS NAME&quot;);</span>
+<span class="nc" id="L121">							Helper.stampaLogo();</span>
+<span class="nc" id="L122">							Helper.stampaHelp();</span>
+						}
+					} else {
+<span class="nc" id="L125">						System.out.println(&quot;\n NONE MENTIONS IN THIS CHANNEL BY THIS MEMBER&quot;);</span>
+<span class="nc" id="L126">						Helper.stampaLogo();</span>
+<span class="nc" id="L127">						Helper.stampaHelp();</span>
+					}
+
+<span class="nc bnc" id="L130" title="All 2 branches missed.">				} else if (InputCommand.length == 3) {</span>
+
+<span class="nc" id="L132">					JFileScanner jfiles = new JFileScanner(dir);</span>
+<span class="nc" id="L133">					members = new ArrayMember(dir.concat(&quot;/users.json&quot;));</span>
+<span class="nc" id="L134">					ArrayMentions marrglobal = new ArrayMentions();</span>
+<span class="nc bnc" id="L135" title="All 2 branches missed.">					for (File file : jfiles.getArray()) {</span>
+<span class="nc" id="L136">						ArrayMentions jmarr = new ArrayMentions(file.getCanonicalPath(), members);</span>
+<span class="nc" id="L137">						marrglobal.mergeArray(jmarr.getMentions());</span>
+<span class="nc" id="L138">					}</span>
+<span class="nc bnc" id="L139" title="All 2 branches missed.">					if (marrglobal.getMentions().size() &gt; 0) {</span>
+<span class="nc bnc" id="L140" title="All 2 branches missed.">						if (marrglobal.checkUser(InputCommand[2]))</span>
+<span class="nc" id="L141">							marrglobal.printMentionsOf(InputCommand[2]);</span>
+						else {
+<span class="nc" id="L143">							System.out.println(&quot;\n THERE IS NO USER BY THIS NAME&quot;);</span>
+<span class="nc" id="L144">							Helper.stampaLogo();</span>
+<span class="nc" id="L145">							Helper.stampaHelp();</span>
+						}
+					} else {
+<span class="nc" id="L148">						System.out.println(&quot;\nNONE MENTIONS IN THIS WORKSPACE BY THIS MEMBER&quot;);</span>
+					}
+
+<span class="nc" id="L151">				} else {</span>
+<span class="nc" id="L152">					System.out.println(&quot;\nPlease type a valid command&quot;);</span>
+<span class="nc" id="L153">					Helper.stampaLogo();</span>
+<span class="nc" id="L154">					Helper.stampaHelp();</span>
+				}
+
+<span class="nc" id="L157">				break;</span>
+			default:
+<span class="nc" id="L159">				Helper.stampaLogo();</span>
+<span class="nc" id="L160">				Helper.stampaHelp();</span>
+			}
+<span class="nc" id="L162">		} catch (Exception e) {</span>
+
+<span class="nc" id="L164">			System.out.println(&quot;\nERROR: WRONG COMMAND, Please type HELP for Command List&quot;);</span>
+<span class="nc" id="L165">			Helper.stampaLogo();</span>
+<span class="nc" id="L166">			Helper.stampaHelp();</span>
+<span class="nc" id="L167">		}</span>
+
+<span class="nc" id="L169">	}</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.0.201801022044</span></div></body></html>

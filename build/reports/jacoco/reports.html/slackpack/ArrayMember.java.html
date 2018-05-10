@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="it"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>ArrayMember.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">SNA4Slack</a> &gt; <a href="index.source.html" class="el_package">slackpack</a> &gt; <span class="el_source">ArrayMember.java</span></div><h1>ArrayMember.java</h1><pre class="source lang-java linenums">package slackpack;
+
+import slackpack.Member;
+import java.util.ArrayList;
+
+import org.json.simple.JSONObject;
+
+public class ArrayMember {
+	
+	ArrayList&lt;Member&gt; members; 
+	
+<span class="nc" id="L12">	public ArrayMember() {</span>
+		
+<span class="nc" id="L14">		this.members = null; </span>
+<span class="nc" id="L15">	}</span>
+	
+<span class="nc" id="L17">	public ArrayMember(String filedir) {</span>
+		
+		
+<span class="nc" id="L20">		WSParser parser = new WSParser(filedir);</span>
+<span class="nc" id="L21">		this.members = new ArrayList&lt;Member&gt;(); </span>
+		
+<span class="nc bnc" id="L23" title="All 2 branches missed.">		for (Object obj : parser.Array()) {</span>
+<span class="nc" id="L24">			JSONObject jobj = (JSONObject) obj;</span>
+<span class="nc" id="L25">			Member mobj = new Member();  </span>
+<span class="nc" id="L26">			mobj.setRealName((String) jobj.get(&quot;real_name&quot;));</span>
+<span class="nc" id="L27">			mobj.setName((String) jobj.get(&quot;name&quot;));</span>
+<span class="nc" id="L28">			mobj.setID((String)jobj.get(&quot;id&quot;));</span>
+<span class="nc" id="L29">			members.add(mobj);</span>
+<span class="nc" id="L30">		}</span>
+<span class="nc" id="L31">	}</span>
+	
+	public ArrayList&lt;Member&gt; getArray() {
+		
+<span class="nc" id="L35">		return this.members; </span>
+	}
+	
+	public void setArray(ArrayList&lt;Member&gt; marr) {
+		
+<span class="nc" id="L40">		this.members = marr; </span>
+<span class="nc" id="L41">	}</span>
+	
+	public void printArray() {
+		
+<span class="nc bnc" id="L45" title="All 2 branches missed.">		for (Object obj : this.members) {</span>
+<span class="nc" id="L46">			Member mobj = (Member) obj; </span>
+<span class="nc" id="L47">			System.out.println(mobj.getRealName()); </span>
+		//	System.out.println(mobj.getName()); 
+		//	System.out.println(mobj.getID());
+<span class="nc" id="L50">		}</span>
+<span class="nc" id="L51">	}</span>
+	
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.0.201801022044</span></div></body></html>

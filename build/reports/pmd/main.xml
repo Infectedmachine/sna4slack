@@ -1,0 +1,863 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.8.1" timestamp="2018-05-10T19:52:56.550">
+<file name="C:\Users\Davide\ing\progetto1718-dijkstra\src\main\java\it\uniba\example\utils\strings\StringUtils.java">
+<violation beginline="39" endline="39" begincolumn="39" endcolumn="57" rule="LawOfDemeter" ruleset="Coupling" package="it.uniba.example.utils.strings" class="StringUtils" method="isNullOrBlank" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="39" endline="39" begincolumn="39" endcolumn="46" rule="InefficientEmptyStringCheck" ruleset="String and StringBuffer" package="it.uniba.example.utils.strings" class="StringUtils" method="isNullOrBlank" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/strings.html#InefficientEmptyStringCheck" priority="3">
+String.trim().length()==0 is an inefficient way to validate an empty String.
+</violation>
+</file>
+<file name="C:\Users\Davide\ing\progetto1718-dijkstra\src\main\java\it\uniba\main\AppMain.java">
+<violation beginline="41" endline="41" begincolumn="41" endcolumn="62" rule="LawOfDemeter" ruleset="Coupling" package="it.uniba.main" class="AppMain" method="main" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="41" endline="41" begincolumn="41" endcolumn="62" rule="LawOfDemeter" ruleset="Coupling" package="it.uniba.main" class="AppMain" method="main" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="48" endline="49" begincolumn="25" endcolumn="63" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="it.uniba.main" class="AppMain" method="main" variable="command" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'command' could be declared final
+</violation>
+</file>
+<file name="C:\Users\Davide\ing\progetto1718-dijkstra\src\main\java\slackpack\ArrayChannel.java">
+<violation beginline="8" endline="8" begincolumn="9" endcolumn="26" rule="LooseCoupling" ruleset="Type Resolution" package="slackpack" class="ArrayChannel" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/typeresolution.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="8" endline="8" begincolumn="9" endcolumn="26" rule="LooseCoupling" ruleset="Coupling" package="slackpack" class="ArrayChannel" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="10" endline="10" begincolumn="29" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayChannel" method="ArrayChannel" variable="filedir" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'filedir' is not assigned and could be declared final
+</violation>
+<violation beginline="12" endline="12" begincolumn="17" endcolumn="55" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayChannel" method="ArrayChannel" variable="parser" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'parser' could be declared final
+</violation>
+<violation beginline="14" endline="14" begincolumn="22" endcolumn="31" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayChannel" method="ArrayChannel" variable="obj" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'obj' could be declared final
+</violation>
+<violation beginline="15" endline="15" begincolumn="25" endcolumn="58" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayChannel" method="ArrayChannel" variable="jobj" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'jobj' could be declared final
+</violation>
+<violation beginline="16" endline="16" begincolumn="40" endcolumn="52" rule="AvoidInstantiatingObjectsInLoops" ruleset="Optimization" package="slackpack" class="ArrayChannel" method="ArrayChannel" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#AvoidInstantiatingObjectsInLoops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="16" endline="16" begincolumn="25" endcolumn="52" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayChannel" method="ArrayChannel" variable="cobj" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'cobj' could be declared final
+</violation>
+<violation beginline="25" endline="25" begincolumn="29" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayChannel" method="ArrayChannel" variable="filedir" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'filedir' is not assigned and could be declared final
+</violation>
+<violation beginline="25" endline="25" begincolumn="45" endcolumn="60" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayChannel" method="ArrayChannel" variable="marr" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'marr' is not assigned and could be declared final
+</violation>
+<violation beginline="27" endline="27" begincolumn="17" endcolumn="55" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayChannel" method="ArrayChannel" variable="parser" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'parser' could be declared final
+</violation>
+<violation beginline="30" endline="30" begincolumn="22" endcolumn="31" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayChannel" method="ArrayChannel" variable="obj" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'obj' could be declared final
+</violation>
+<violation beginline="31" endline="31" begincolumn="25" endcolumn="58" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayChannel" method="ArrayChannel" variable="jobj" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'jobj' could be declared final
+</violation>
+<violation beginline="32" endline="32" begincolumn="40" endcolumn="52" rule="AvoidInstantiatingObjectsInLoops" ruleset="Optimization" package="slackpack" class="ArrayChannel" method="ArrayChannel" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#AvoidInstantiatingObjectsInLoops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="32" endline="32" begincolumn="25" endcolumn="52" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayChannel" method="ArrayChannel" variable="cobj" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'cobj' could be declared final
+</violation>
+<violation beginline="36" endline="36" begincolumn="25" endcolumn="93" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayChannel" method="ArrayChannel" variable="idmembers" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'idmembers' could be declared final
+</violation>
+<violation beginline="42" endline="42" begincolumn="16" endcolumn="33" rule="LooseCoupling" ruleset="Type Resolution" package="slackpack" class="ArrayChannel" method="getArray" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/typeresolution.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="42" endline="42" begincolumn="16" endcolumn="33" rule="LooseCoupling" ruleset="Coupling" package="slackpack" class="ArrayChannel" method="getArray" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="47" endline="47" begincolumn="30" endcolumn="47" rule="LooseCoupling" ruleset="Type Resolution" package="slackpack" class="ArrayChannel" method="setArray" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/typeresolution.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="47" endline="47" begincolumn="30" endcolumn="47" rule="LooseCoupling" ruleset="Coupling" package="slackpack" class="ArrayChannel" method="setArray" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="47" endline="47" begincolumn="30" endcolumn="52" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayChannel" method="setArray" variable="carr" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'carr' is not assigned and could be declared final
+</violation>
+<violation beginline="54" endline="54" begincolumn="22" endcolumn="31" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayChannel" method="printArray" variable="obj" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'obj' could be declared final
+</violation>
+<violation beginline="55" endline="55" begincolumn="25" endcolumn="52" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayChannel" method="printArray" variable="cobj" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'cobj' could be declared final
+</violation>
+<violation beginline="56" endline="56" begincolumn="44" endcolumn="57" rule="LawOfDemeter" ruleset="Coupling" package="slackpack" class="ArrayChannel" method="printArray" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="57" endline="57" begincolumn="25" endcolumn="47" rule="LawOfDemeter" ruleset="Coupling" package="slackpack" class="ArrayChannel" method="printArray" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="64" endline="64" begincolumn="22" endcolumn="31" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayChannel" method="printChannels" variable="obj" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'obj' could be declared final
+</violation>
+<violation beginline="65" endline="65" begincolumn="25" endcolumn="52" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayChannel" method="printChannels" variable="cobj" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'cobj' could be declared final
+</violation>
+<violation beginline="66" endline="66" begincolumn="44" endcolumn="57" rule="LawOfDemeter" ruleset="Coupling" package="slackpack" class="ArrayChannel" method="printChannels" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="71" endline="71" begincolumn="35" endcolumn="45" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayChannel" method="getChannel" variable="name" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'name' is not assigned and could be declared final
+</violation>
+<violation beginline="73" endline="73" begincolumn="21" endcolumn="35" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayChannel" method="getChannel" variable="channel" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'channel' could be declared final
+</violation>
+<violation beginline="74" endline="75" begincolumn="25" endcolumn="47" rule="IfStmtsMustUseBraces" ruleset="Braces" package="slackpack" class="ArrayChannel" method="getChannel" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="74" endline="74" begincolumn="28" endcolumn="57" rule="LawOfDemeter" ruleset="Coupling" package="slackpack" class="ArrayChannel" method="getChannel" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+</file>
+<file name="C:\Users\Davide\ing\progetto1718-dijkstra\src\main\java\slackpack\ArrayMember.java">
+<violation beginline="3" endline="3" begincolumn="1" endcolumn="24" rule="ImportFromSamePackage" ruleset="Import Statements" package="slackpack" class="ArrayMember" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/imports.html#ImportFromSamePackage" priority="3">
+No need to import a type that lives in the same package
+</violation>
+<violation beginline="10" endline="10" begincolumn="9" endcolumn="25" rule="LooseCoupling" ruleset="Type Resolution" package="slackpack" class="ArrayMember" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/typeresolution.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="10" endline="10" begincolumn="9" endcolumn="25" rule="LooseCoupling" ruleset="Coupling" package="slackpack" class="ArrayMember" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="17" endline="17" begincolumn="28" endcolumn="41" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMember" method="ArrayMember" variable="filedir" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'filedir' is not assigned and could be declared final
+</violation>
+<violation beginline="20" endline="20" begincolumn="17" endcolumn="55" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMember" method="ArrayMember" variable="parser" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'parser' could be declared final
+</violation>
+<violation beginline="23" endline="23" begincolumn="22" endcolumn="31" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMember" method="ArrayMember" variable="obj" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'obj' could be declared final
+</violation>
+<violation beginline="24" endline="24" begincolumn="25" endcolumn="58" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMember" method="ArrayMember" variable="jobj" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'jobj' could be declared final
+</violation>
+<violation beginline="25" endline="25" begincolumn="39" endcolumn="50" rule="AvoidInstantiatingObjectsInLoops" ruleset="Optimization" package="slackpack" class="ArrayMember" method="ArrayMember" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#AvoidInstantiatingObjectsInLoops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="25" endline="25" begincolumn="25" endcolumn="50" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMember" method="ArrayMember" variable="mobj" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'mobj' could be declared final
+</violation>
+<violation beginline="33" endline="33" begincolumn="16" endcolumn="32" rule="LooseCoupling" ruleset="Type Resolution" package="slackpack" class="ArrayMember" method="getArray" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/typeresolution.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="33" endline="33" begincolumn="16" endcolumn="32" rule="LooseCoupling" ruleset="Coupling" package="slackpack" class="ArrayMember" method="getArray" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="38" endline="38" begincolumn="30" endcolumn="46" rule="LooseCoupling" ruleset="Type Resolution" package="slackpack" class="ArrayMember" method="setArray" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/typeresolution.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="38" endline="38" begincolumn="30" endcolumn="46" rule="LooseCoupling" ruleset="Coupling" package="slackpack" class="ArrayMember" method="setArray" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="38" endline="38" begincolumn="30" endcolumn="51" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMember" method="setArray" variable="marr" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'marr' is not assigned and could be declared final
+</violation>
+<violation beginline="45" endline="45" begincolumn="22" endcolumn="31" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMember" method="printArray" variable="obj" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'obj' could be declared final
+</violation>
+<violation beginline="46" endline="46" begincolumn="25" endcolumn="50" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMember" method="printArray" variable="mobj" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'mobj' could be declared final
+</violation>
+<violation beginline="47" endline="47" begincolumn="44" endcolumn="61" rule="LawOfDemeter" ruleset="Coupling" package="slackpack" class="ArrayMember" method="printArray" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+</file>
+<file name="C:\Users\Davide\ing\progetto1718-dijkstra\src\main\java\slackpack\ArrayMentions.java">
+<violation beginline="9" endline="185" begincolumn="8" endcolumn="1" rule="CyclomaticComplexity" ruleset="Code Size" package="slackpack" class="ArrayMentions" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/codesize.html#CyclomaticComplexity" priority="3">
+The class 'ArrayMentions' has a Cyclomatic Complexity of 4 (Highest = 12).
+</violation>
+<violation beginline="9" endline="185" begincolumn="8" endcolumn="1" rule="ModifiedCyclomaticComplexity" ruleset="Code Size" package="slackpack" class="ArrayMentions" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/codesize.html#ModifiedCyclomaticComplexity" priority="3">
+The class 'ArrayMentions' has a Modified Cyclomatic Complexity of 4 (Highest = 11).
+</violation>
+<violation beginline="9" endline="185" begincolumn="8" endcolumn="1" rule="StdCyclomaticComplexity" ruleset="Code Size" package="slackpack" class="ArrayMentions" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/codesize.html#StdCyclomaticComplexity" priority="3">
+The class 'ArrayMentions' has a Standard Cyclomatic Complexity of 4 (Highest = 11).
+</violation>
+<violation beginline="11" endline="11" begincolumn="9" endcolumn="26" rule="LooseCoupling" ruleset="Type Resolution" package="slackpack" class="ArrayMentions" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/typeresolution.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="11" endline="11" begincolumn="9" endcolumn="26" rule="LooseCoupling" ruleset="Coupling" package="slackpack" class="ArrayMentions" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="19" endline="19" begincolumn="30" endcolumn="43" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMentions" method="ArrayMentions" variable="filedir" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'filedir' is not assigned and could be declared final
+</violation>
+<violation beginline="19" endline="19" begincolumn="46" endcolumn="64" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMentions" method="ArrayMentions" variable="members" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'members' is not assigned and could be declared final
+</violation>
+<violation beginline="21" endline="21" begincolumn="17" endcolumn="55" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMentions" method="ArrayMentions" variable="parser" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'parser' could be declared final
+</violation>
+<violation beginline="25" endline="25" begincolumn="22" endcolumn="31" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMentions" method="ArrayMentions" variable="obj" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'obj' could be declared final
+</violation>
+<violation beginline="26" endline="26" begincolumn="25" endcolumn="58" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMentions" method="ArrayMentions" variable="jobj" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'jobj' could be declared final
+</violation>
+<violation beginline="27" endline="27" begincolumn="40" endcolumn="52" rule="AvoidInstantiatingObjectsInLoops" ruleset="Optimization" package="slackpack" class="ArrayMentions" method="ArrayMentions" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#AvoidInstantiatingObjectsInLoops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="27" endline="27" begincolumn="25" endcolumn="52" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMentions" method="ArrayMentions" variable="mobj" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'mobj' could be declared final
+</violation>
+<violation beginline="28" endline="28" begincolumn="25" endcolumn="63" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMentions" method="ArrayMentions" variable="text" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'text' could be declared final
+</violation>
+<violation beginline="29" endline="29" begincolumn="25" endcolumn="63" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMentions" method="ArrayMentions" variable="user" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'user' could be declared final
+</violation>
+<violation beginline="30" endline="30" begincolumn="25" endcolumn="70" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMentions" method="ArrayMentions" variable="sub_type" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'sub_type' could be declared final
+</violation>
+<violation beginline="30" endline="30" begincolumn="32" endcolumn="39" rule="VariableNamingConventions" ruleset="Naming" package="slackpack" class="ArrayMentions" method="ArrayMentions" variable="sub_type" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/naming.html#VariableNamingConventions" priority="1">
+Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'sub_type' is not final.
+</violation>
+<violation beginline="35" endline="35" begincolumn="33" endcolumn="79" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMentions" method="ArrayMentions" variable="findmention" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'findmention' could be declared final
+</violation>
+<violation beginline="36" endline="36" begincolumn="33" endcolumn="73" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMentions" method="ArrayMentions" variable="match" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'match' could be declared final
+</violation>
+<violation beginline="40" endline="40" begincolumn="62" endcolumn="98" rule="ConstructorCallsOverridableMethod" ruleset="Design" package="slackpack" class="ArrayMentions" method="ArrayMentions" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/design.html#ConstructorCallsOverridableMethod" priority="1">
+Overridable method 'getNameFROM' called during object construction
+</violation>
+<violation beginline="41" endline="41" begincolumn="113" endcolumn="117" rule="SimplifyBooleanExpressions" ruleset="Design" package="slackpack" class="ArrayMentions" method="ArrayMentions" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/design.html#SimplifyBooleanExpressions" priority="3">
+Avoid unnecessary comparisons in boolean expressions
+</violation>
+<violation beginline="41" endline="42" begincolumn="49" endcolumn="105" rule="IfStmtsMustUseBraces" ruleset="Braces" package="slackpack" class="ArrayMentions" method="ArrayMentions" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="41" endline="41" begincolumn="53" endcolumn="108" rule="ConstructorCallsOverridableMethod" ruleset="Design" package="slackpack" class="ArrayMentions" method="ArrayMentions" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/design.html#ConstructorCallsOverridableMethod" priority="1">
+Overridable method 'checkDoubles' called during object construction
+</violation>
+<violation beginline="41" endline="41" begincolumn="72" endcolumn="107" rule="ConstructorCallsOverridableMethod" ruleset="Design" package="slackpack" class="ArrayMentions" method="ArrayMentions" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/design.html#ConstructorCallsOverridableMethod" priority="1">
+Overridable method 'getNameFROM' called during object construction
+</violation>
+<violation beginline="42" endline="42" begincolumn="68" endcolumn="103" rule="ConstructorCallsOverridableMethod" ruleset="Design" package="slackpack" class="ArrayMentions" method="ArrayMentions" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/design.html#ConstructorCallsOverridableMethod" priority="1">
+Overridable method 'getNameFROM' called during object construction
+</violation>
+<violation beginline="45" endline="45" begincolumn="113" endcolumn="117" rule="SimplifyBooleanExpressions" ruleset="Design" package="slackpack" class="ArrayMentions" method="ArrayMentions" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/design.html#SimplifyBooleanExpressions" priority="3">
+Avoid unnecessary comparisons in boolean expressions
+</violation>
+<violation beginline="45" endline="45" begincolumn="53" endcolumn="108" rule="ConstructorCallsOverridableMethod" ruleset="Design" package="slackpack" class="ArrayMentions" method="ArrayMentions" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/design.html#ConstructorCallsOverridableMethod" priority="1">
+Overridable method 'checkDoubles' called during object construction
+</violation>
+<violation beginline="45" endline="45" begincolumn="72" endcolumn="107" rule="ConstructorCallsOverridableMethod" ruleset="Design" package="slackpack" class="ArrayMentions" method="ArrayMentions" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/design.html#ConstructorCallsOverridableMethod" priority="1">
+Overridable method 'getNameFROM' called during object construction
+</violation>
+<violation beginline="46" endline="46" begincolumn="68" endcolumn="103" rule="ConstructorCallsOverridableMethod" ruleset="Design" package="slackpack" class="ArrayMentions" method="ArrayMentions" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/design.html#ConstructorCallsOverridableMethod" priority="1">
+Overridable method 'getNameFROM' called during object construction
+</violation>
+<violation beginline="50" endline="50" begincolumn="45" endcolumn="48" rule="SimplifyBooleanExpressions" ruleset="Design" package="slackpack" class="ArrayMentions" method="ArrayMentions" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/design.html#SimplifyBooleanExpressions" priority="3">
+Avoid unnecessary comparisons in boolean expressions
+</violation>
+<violation beginline="54" endline="54" begincolumn="49" endcolumn="59" rule="ConstructorCallsOverridableMethod" ruleset="Design" package="slackpack" class="ArrayMentions" method="ArrayMentions" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/design.html#ConstructorCallsOverridableMethod" priority="1">
+Overridable method 'merge' called during object construction
+</violation>
+<violation beginline="63" endline="63" begincolumn="27" endcolumn="38" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMentions" method="merge" variable="mobj" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'mobj' is not assigned and could be declared final
+</violation>
+<violation beginline="63" endline="105" begincolumn="16" endcolumn="9" rule="CyclomaticComplexity" ruleset="Code Size" package="slackpack" class="ArrayMentions" method="merge" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/codesize.html#CyclomaticComplexity" priority="3">
+The method 'merge' has a Cyclomatic Complexity of 12.
+</violation>
+<violation beginline="63" endline="105" begincolumn="16" endcolumn="9" rule="ModifiedCyclomaticComplexity" ruleset="Code Size" package="slackpack" class="ArrayMentions" method="merge" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/codesize.html#ModifiedCyclomaticComplexity" priority="3">
+The method 'merge' has a Modified Cyclomatic Complexity of 11.
+</violation>
+<violation beginline="63" endline="105" begincolumn="16" endcolumn="9" rule="StdCyclomaticComplexity" ruleset="Code Size" package="slackpack" class="ArrayMentions" method="merge" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/codesize.html#StdCyclomaticComplexity" priority="3">
+The method 'merge' has a Standard Cyclomatic Complexity of 11.
+</violation>
+<violation beginline="66" endline="66" begincolumn="25" endcolumn="32" rule="VariableNamingConventions" ruleset="Naming" package="slackpack" class="ArrayMentions" method="merge" variable="FROMflag" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/naming.html#VariableNamingConventions" priority="1">
+Variables should start with a lowercase character, 'FROMflag' starts with uppercase character.
+</violation>
+<violation beginline="68" endline="68" begincolumn="17" endcolumn="66" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMentions" method="merge" variable="tmparr" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'tmparr' could be declared final
+</violation>
+<violation beginline="73" endline="73" begincolumn="30" endcolumn="39" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMentions" method="merge" variable="obj" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'obj' could be declared final
+</violation>
+<violation beginline="74" endline="74" begincolumn="33" endcolumn="63" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMentions" method="merge" variable="mention" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'mention' could be declared final
+</violation>
+<violation beginline="76" endline="76" begincolumn="93" endcolumn="97" rule="SimplifyBooleanExpressions" ruleset="Design" package="slackpack" class="ArrayMentions" method="merge" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/design.html#SimplifyBooleanExpressions" priority="3">
+Avoid unnecessary comparisons in boolean expressions
+</violation>
+<violation beginline="76" endline="76" begincolumn="37" endcolumn="76" rule="LawOfDemeter" ruleset="Coupling" package="slackpack" class="ArrayMentions" method="merge" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="76" endline="76" begincolumn="37" endcolumn="76" rule="LawOfDemeter" ruleset="Coupling" package="slackpack" class="ArrayMentions" method="merge" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="80" endline="80" begincolumn="46" endcolumn="56" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMentions" method="merge" variable="to_i" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'to_i' could be declared final
+</violation>
+<violation beginline="80" endline="80" begincolumn="53" endcolumn="56" rule="VariableNamingConventions" ruleset="Naming" package="slackpack" class="ArrayMentions" method="merge" variable="to_i" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/naming.html#VariableNamingConventions" priority="1">
+Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'to_i' is not final.
+</violation>
+<violation beginline="83" endline="83" begincolumn="54" endcolumn="64" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMentions" method="merge" variable="to_j" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'to_j' could be declared final
+</violation>
+<violation beginline="83" endline="83" begincolumn="61" endcolumn="64" rule="VariableNamingConventions" ruleset="Naming" package="slackpack" class="ArrayMentions" method="merge" variable="to_j" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/naming.html#VariableNamingConventions" priority="1">
+Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'to_j' is not final.
+</violation>
+<violation beginline="83" endline="83" begincolumn="68" endcolumn="82" rule="LawOfDemeter" ruleset="Coupling" package="slackpack" class="ArrayMentions" method="merge" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="88" endline="88" begincolumn="61" endcolumn="65" rule="SimplifyBooleanExpressions" ruleset="Design" package="slackpack" class="ArrayMentions" method="merge" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/design.html#SimplifyBooleanExpressions" priority="3">
+Avoid unnecessary comparisons in boolean expressions
+</violation>
+<violation beginline="93" endline="93" begincolumn="45" endcolumn="55" rule="UseCollectionIsEmpty" ruleset="Design" package="slackpack" class="ArrayMentions" method="merge" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/design.html#UseCollectionIsEmpty" priority="3">
+Substitute calls to size() == 0 (or size() != 0, size() &gt; 0, size() &lt; 1) with calls to isEmpty()
+</violation>
+<violation beginline="94" endline="94" begincolumn="54" endcolumn="61" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMentions" method="merge" variable="s" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 's' could be declared final
+</violation>
+<violation beginline="95" endline="95" begincolumn="57" endcolumn="72" rule="LawOfDemeter" ruleset="Coupling" package="slackpack" class="ArrayMentions" method="merge" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="100" endline="100" begincolumn="41" endcolumn="45" rule="SimplifyBooleanExpressions" ruleset="Design" package="slackpack" class="ArrayMentions" method="merge" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/design.html#SimplifyBooleanExpressions" priority="3">
+Avoid unnecessary comparisons in boolean expressions
+</violation>
+<violation beginline="107" endline="107" begincolumn="32" endcolumn="49" rule="LooseCoupling" ruleset="Type Resolution" package="slackpack" class="ArrayMentions" method="mergeArray" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/typeresolution.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="107" endline="107" begincolumn="32" endcolumn="49" rule="LooseCoupling" ruleset="Coupling" package="slackpack" class="ArrayMentions" method="mergeArray" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="107" endline="107" begincolumn="32" endcolumn="54" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMentions" method="mergeArray" variable="marr" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'marr' is not assigned and could be declared final
+</violation>
+<violation beginline="109" endline="109" begincolumn="22" endcolumn="36" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMentions" method="mergeArray" variable="mention" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'mention' could be declared final
+</violation>
+<violation beginline="114" endline="114" begincolumn="30" endcolumn="47" rule="LooseCoupling" ruleset="Type Resolution" package="slackpack" class="ArrayMentions" method="setArray" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/typeresolution.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="114" endline="114" begincolumn="30" endcolumn="47" rule="LooseCoupling" ruleset="Coupling" package="slackpack" class="ArrayMentions" method="setArray" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="114" endline="114" begincolumn="30" endcolumn="52" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMentions" method="setArray" variable="marr" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'marr' is not assigned and could be declared final
+</violation>
+<violation beginline="119" endline="119" begincolumn="16" endcolumn="33" rule="LooseCoupling" ruleset="Type Resolution" package="slackpack" class="ArrayMentions" method="getMentions" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/typeresolution.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="119" endline="119" begincolumn="16" endcolumn="33" rule="LooseCoupling" ruleset="Coupling" package="slackpack" class="ArrayMentions" method="getMentions" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="127" endline="127" begincolumn="30" endcolumn="39" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMentions" method="printMentions" variable="obj" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'obj' could be declared final
+</violation>
+<violation beginline="128" endline="128" begincolumn="33" endcolumn="60" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMentions" method="printMentions" variable="mobj" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'mobj' could be declared final
+</violation>
+<violation beginline="129" endline="129" begincolumn="64" endcolumn="77" rule="LawOfDemeter" ruleset="Coupling" package="slackpack" class="ArrayMentions" method="printMentions" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="130" endline="130" begincolumn="62" endcolumn="73" rule="LawOfDemeter" ruleset="Coupling" package="slackpack" class="ArrayMentions" method="printMentions" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="139" endline="139" begincolumn="37" endcolumn="47" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMentions" method="printMentionsOf" variable="from" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'from' is not assigned and could be declared final
+</violation>
+<violation beginline="141" endline="141" begincolumn="22" endcolumn="31" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMentions" method="printMentionsOf" variable="obj" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'obj' could be declared final
+</violation>
+<violation beginline="142" endline="142" begincolumn="25" endcolumn="52" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMentions" method="printMentionsOf" variable="mobj" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'mobj' could be declared final
+</violation>
+<violation beginline="143" endline="143" begincolumn="29" endcolumn="55" rule="LawOfDemeter" ruleset="Coupling" package="slackpack" class="ArrayMentions" method="printMentionsOf" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="143" endline="143" begincolumn="29" endcolumn="55" rule="LawOfDemeter" ruleset="Coupling" package="slackpack" class="ArrayMentions" method="printMentionsOf" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="144" endline="144" begincolumn="38" endcolumn="46" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMentions" method="printMentionsOf" variable="to" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'to' could be declared final
+</violation>
+<violation beginline="144" endline="144" begincolumn="50" endcolumn="61" rule="LawOfDemeter" ruleset="Coupling" package="slackpack" class="ArrayMentions" method="printMentionsOf" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="145" endline="145" begincolumn="48" endcolumn="49" rule="ShortVariable" ruleset="Naming" package="slackpack" class="ArrayMentions" method="printMentionsOf" variable="TO" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like TO
+</violation>
+<violation beginline="145" endline="145" begincolumn="41" endcolumn="63" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMentions" method="printMentionsOf" variable="TO" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'TO' could be declared final
+</violation>
+<violation beginline="145" endline="145" begincolumn="48" endcolumn="49" rule="VariableNamingConventions" ruleset="Naming" package="slackpack" class="ArrayMentions" method="printMentionsOf" variable="TO" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/naming.html#VariableNamingConventions" priority="1">
+Variables should start with a lowercase character, 'TO' starts with uppercase character.
+</violation>
+<violation beginline="152" endline="152" begincolumn="34" endcolumn="44" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMentions" method="checkUser" variable="user" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'user' is not assigned and could be declared final
+</violation>
+<violation beginline="154" endline="154" begincolumn="22" endcolumn="36" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMentions" method="checkUser" variable="mention" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'mention' could be declared final
+</violation>
+<violation beginline="155" endline="156" begincolumn="25" endcolumn="44" rule="IfStmtsMustUseBraces" ruleset="Braces" package="slackpack" class="ArrayMentions" method="checkUser" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="155" endline="155" begincolumn="29" endcolumn="58" rule="LawOfDemeter" ruleset="Coupling" package="slackpack" class="ArrayMentions" method="checkUser" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="161" endline="161" begincolumn="37" endcolumn="51" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMentions" method="checkDoubles" variable="mention" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'mention' is not assigned and could be declared final
+</violation>
+<violation beginline="161" endline="161" begincolumn="54" endcolumn="65" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMentions" method="checkDoubles" variable="value" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'value' is not assigned and could be declared final
+</violation>
+<violation beginline="163" endline="163" begincolumn="21" endcolumn="51" rule="LawOfDemeter" ruleset="Coupling" package="slackpack" class="ArrayMentions" method="checkDoubles" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="164" endline="164" begincolumn="25" endcolumn="36" rule="IfElseStmtsMustUseBraces" ruleset="Braces" package="slackpack" class="ArrayMentions" method="checkDoubles" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/braces.html#IfElseStmtsMustUseBraces" priority="3">
+Avoid using if...else statements without curly braces
+</violation>
+<violation beginline="166" endline="166" begincolumn="30" endcolumn="39" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMentions" method="checkDoubles" variable="tmp" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'tmp' could be declared final
+</violation>
+<violation beginline="167" endline="168" begincolumn="33" endcolumn="52" rule="IfStmtsMustUseBraces" ruleset="Braces" package="slackpack" class="ArrayMentions" method="checkDoubles" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="176" endline="176" begincolumn="46" endcolumn="62" rule="LooseCoupling" ruleset="Type Resolution" package="slackpack" class="ArrayMentions" method="getNameFROM" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/typeresolution.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="176" endline="176" begincolumn="46" endcolumn="62" rule="LooseCoupling" ruleset="Coupling" package="slackpack" class="ArrayMentions" method="getNameFROM" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="176" endline="176" begincolumn="42" endcolumn="43" rule="ShortVariable" ruleset="Naming" package="slackpack" class="ArrayMentions" method="getNameFROM" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="176" endline="176" begincolumn="64" endcolumn="75" rule="VariableNamingConventions" ruleset="Naming" package="slackpack" class="ArrayMentions" method="getNameFROM" variable="member_array" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/naming.html#VariableNamingConventions" priority="1">
+Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'member_array' is not final.
+</violation>
+<violation beginline="176" endline="176" begincolumn="35" endcolumn="43" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMentions" method="getNameFROM" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'id' is not assigned and could be declared final
+</violation>
+<violation beginline="176" endline="176" begincolumn="46" endcolumn="75" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMentions" method="getNameFROM" variable="member_array" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'member_array' is not assigned and could be declared final
+</violation>
+<violation beginline="177" endline="177" begincolumn="35" endcolumn="46" rule="StringInstantiation" ruleset="String and StringBuffer" package="slackpack" class="ArrayMentions" method="getNameFROM" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/strings.html#StringInstantiation" priority="2">
+Avoid instantiating String objects; this is usually unnecessary.
+</violation>
+<violation beginline="178" endline="178" begincolumn="22" endcolumn="29" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMentions" method="getNameFROM" variable="e" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'e' could be declared final
+</violation>
+<violation beginline="179" endline="179" begincolumn="25" endcolumn="48" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ArrayMentions" method="getNameFROM" variable="mobj" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'mobj' could be declared final
+</violation>
+<violation beginline="180" endline="181" begincolumn="25" endcolumn="58" rule="IfStmtsMustUseBraces" ruleset="Braces" package="slackpack" class="ArrayMentions" method="getNameFROM" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/braces.html#IfStmtsMustUseBraces" priority="3">
+Avoid using if statements without curly braces
+</violation>
+<violation beginline="180" endline="180" begincolumn="29" endcolumn="51" rule="LawOfDemeter" ruleset="Coupling" package="slackpack" class="ArrayMentions" method="getNameFROM" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="180" endline="180" begincolumn="29" endcolumn="51" rule="LawOfDemeter" ruleset="Coupling" package="slackpack" class="ArrayMentions" method="getNameFROM" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="181" endline="181" begincolumn="44" endcolumn="57" rule="LawOfDemeter" ruleset="Coupling" package="slackpack" class="ArrayMentions" method="getNameFROM" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+</file>
+<file name="C:\Users\Davide\ing\progetto1718-dijkstra\src\main\java\slackpack\Channel.java">
+<violation beginline="3" endline="3" begincolumn="1" endcolumn="24" rule="ImportFromSamePackage" ruleset="Import Statements" package="slackpack" class="Channel" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/imports.html#ImportFromSamePackage" priority="3">
+No need to import a type that lives in the same package
+</violation>
+<violation beginline="7" endline="7" begincolumn="17" endcolumn="26" rule="VariableNamingConventions" ruleset="Naming" package="slackpack" class="Channel" variable="id_channel" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/naming.html#VariableNamingConventions" priority="1">
+Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'id_channel' is not final.
+</violation>
+<violation beginline="8" endline="8" begincolumn="17" endcolumn="28" rule="VariableNamingConventions" ruleset="Naming" package="slackpack" class="Channel" variable="name_channel" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/naming.html#VariableNamingConventions" priority="1">
+Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'name_channel' is not final.
+</violation>
+<violation beginline="9" endline="9" begincolumn="17" endcolumn="26" rule="VariableNamingConventions" ruleset="Naming" package="slackpack" class="Channel" variable="id_creator" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/naming.html#VariableNamingConventions" priority="1">
+Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'id_creator' is not final.
+</violation>
+<violation beginline="10" endline="10" begincolumn="10" endcolumn="26" rule="LooseCoupling" ruleset="Type Resolution" package="slackpack" class="Channel" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/typeresolution.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="10" endline="10" begincolumn="10" endcolumn="26" rule="LooseCoupling" ruleset="Coupling" package="slackpack" class="Channel" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="20" endline="20" begincolumn="29" endcolumn="39" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="slackpack" class="Channel" method="setName" variable="name" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'name' is not assigned and could be declared final
+</violation>
+<violation beginline="26" endline="26" begincolumn="34" endcolumn="35" rule="ShortVariable" ruleset="Naming" package="slackpack" class="Channel" method="setID" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="26" endline="26" begincolumn="27" endcolumn="35" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="slackpack" class="Channel" method="setID" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'id' is not assigned and could be declared final
+</violation>
+<violation beginline="33" endline="33" begincolumn="41" endcolumn="42" rule="ShortVariable" ruleset="Naming" package="slackpack" class="Channel" method="setIDCreator" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="33" endline="33" begincolumn="34" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="slackpack" class="Channel" method="setIDCreator" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'id' is not assigned and could be declared final
+</violation>
+<violation beginline="38" endline="38" begincolumn="31" endcolumn="47" rule="LooseCoupling" ruleset="Type Resolution" package="slackpack" class="Channel" method="addMArray" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/typeresolution.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="38" endline="38" begincolumn="31" endcolumn="47" rule="LooseCoupling" ruleset="Coupling" package="slackpack" class="Channel" method="addMArray" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="38" endline="38" begincolumn="31" endcolumn="55" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="slackpack" class="Channel" method="addMArray" variable="members" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'members' is not assigned and could be declared final
+</violation>
+<violation beginline="44" endline="44" begincolumn="16" endcolumn="32" rule="LooseCoupling" ruleset="Type Resolution" package="slackpack" class="Channel" method="getMembersList" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/typeresolution.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="44" endline="44" begincolumn="16" endcolumn="32" rule="LooseCoupling" ruleset="Coupling" package="slackpack" class="Channel" method="getMembersList" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="52" endline="52" begincolumn="18" endcolumn="30" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="Channel" method="printMembersList" variable="member" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'member' could be declared final
+</violation>
+<violation beginline="53" endline="53" begincolumn="24" endcolumn="24" rule="ShortVariable" ruleset="Naming" package="slackpack" class="Channel" method="printMembersList" variable="m" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like m
+</violation>
+<violation beginline="53" endline="53" begincolumn="17" endcolumn="42" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="Channel" method="printMembersList" variable="m" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'm' could be declared final
+</violation>
+<violation beginline="54" endline="54" begincolumn="36" endcolumn="50" rule="LawOfDemeter" ruleset="Coupling" package="slackpack" class="Channel" method="printMembersList" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="75" endline="75" begincolumn="16" endcolumn="32" rule="LooseCoupling" ruleset="Type Resolution" package="slackpack" class="Channel" method="convertIDtoNAME" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/typeresolution.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="75" endline="75" begincolumn="16" endcolumn="32" rule="LooseCoupling" ruleset="Coupling" package="slackpack" class="Channel" method="convertIDtoNAME" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="75" endline="75" begincolumn="50" endcolumn="66" rule="LooseCoupling" ruleset="Type Resolution" package="slackpack" class="Channel" method="convertIDtoNAME" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/typeresolution.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="75" endline="75" begincolumn="50" endcolumn="66" rule="LooseCoupling" ruleset="Coupling" package="slackpack" class="Channel" method="convertIDtoNAME" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="75" endline="75" begincolumn="75" endcolumn="91" rule="LooseCoupling" ruleset="Type Resolution" package="slackpack" class="Channel" method="convertIDtoNAME" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/typeresolution.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="75" endline="75" begincolumn="75" endcolumn="91" rule="LooseCoupling" ruleset="Coupling" package="slackpack" class="Channel" method="convertIDtoNAME" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="75" endline="75" begincolumn="50" endcolumn="72" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="slackpack" class="Channel" method="convertIDtoNAME" variable="idarr" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'idarr' is not assigned and could be declared final
+</violation>
+<violation beginline="75" endline="75" begincolumn="75" endcolumn="96" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="slackpack" class="Channel" method="convertIDtoNAME" variable="marr" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'marr' is not assigned and could be declared final
+</violation>
+<violation beginline="77" endline="77" begincolumn="17" endcolumn="72" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="Channel" method="convertIDtoNAME" variable="convertedarr" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'convertedarr' could be declared final
+</violation>
+<violation beginline="79" endline="79" begincolumn="22" endcolumn="33" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="Channel" method="convertIDtoNAME" variable="obj_i" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'obj_i' could be declared final
+</violation>
+<violation beginline="79" endline="79" begincolumn="29" endcolumn="33" rule="VariableNamingConventions" ruleset="Naming" package="slackpack" class="Channel" method="convertIDtoNAME" variable="obj_i" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/naming.html#VariableNamingConventions" priority="1">
+Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'obj_i' is not final.
+</violation>
+<violation beginline="81" endline="81" begincolumn="25" endcolumn="55" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="Channel" method="convertIDtoNAME" variable="mobj_id" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'mobj_id' could be declared final
+</violation>
+<violation beginline="81" endline="81" begincolumn="32" endcolumn="38" rule="VariableNamingConventions" ruleset="Naming" package="slackpack" class="Channel" method="convertIDtoNAME" variable="mobj_id" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/naming.html#VariableNamingConventions" priority="1">
+Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'mobj_id' is not final.
+</violation>
+<violation beginline="82" endline="82" begincolumn="30" endcolumn="41" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="Channel" method="convertIDtoNAME" variable="obj_j" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'obj_j' could be declared final
+</violation>
+<violation beginline="82" endline="82" begincolumn="37" endcolumn="41" rule="VariableNamingConventions" ruleset="Naming" package="slackpack" class="Channel" method="convertIDtoNAME" variable="obj_j" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/naming.html#VariableNamingConventions" priority="1">
+Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'obj_j' is not final.
+</violation>
+<violation beginline="84" endline="84" begincolumn="33" endcolumn="65" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="Channel" method="convertIDtoNAME" variable="mobj_marr" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'mobj_marr' could be declared final
+</violation>
+<violation beginline="84" endline="84" begincolumn="40" endcolumn="48" rule="VariableNamingConventions" ruleset="Naming" package="slackpack" class="Channel" method="convertIDtoNAME" variable="mobj_marr" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/naming.html#VariableNamingConventions" priority="1">
+Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'mobj_marr' is not final.
+</violation>
+<violation beginline="85" endline="85" begincolumn="36" endcolumn="68" rule="LawOfDemeter" ruleset="Coupling" package="slackpack" class="Channel" method="convertIDtoNAME" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+<violation beginline="85" endline="85" begincolumn="51" endcolumn="67" rule="LawOfDemeter" ruleset="Coupling" package="slackpack" class="Channel" method="convertIDtoNAME" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (object not created locally)
+</violation>
+</file>
+<file name="C:\Users\Davide\ing\progetto1718-dijkstra\src\main\java\slackpack\Commander.java">
+<violation beginline="5" endline="170" begincolumn="8" endcolumn="1" rule="CyclomaticComplexity" ruleset="Code Size" package="slackpack" class="Commander" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/codesize.html#CyclomaticComplexity" priority="3">
+The class 'Commander' has a Cyclomatic Complexity of 27 (Highest = 26).
+</violation>
+<violation beginline="5" endline="170" begincolumn="8" endcolumn="1" rule="ModifiedCyclomaticComplexity" ruleset="Code Size" package="slackpack" class="Commander" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/codesize.html#ModifiedCyclomaticComplexity" priority="3">
+The class 'Commander' has a Modified Cyclomatic Complexity of 22 (Highest = 21).
+</violation>
+<violation beginline="5" endline="170" begincolumn="8" endcolumn="1" rule="StdCyclomaticComplexity" ruleset="Code Size" package="slackpack" class="Commander" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/codesize.html#StdCyclomaticComplexity" priority="3">
+The class 'Commander' has a Standard Cyclomatic Complexity of 27 (Highest = 26).
+</violation>
+<violation beginline="9" endline="9" begincolumn="26" endcolumn="46" rule="UseVarargs" ruleset="Design" package="slackpack" class="Commander" method="Commander" variable="InputCommand" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/design.html#UseVarargs" priority="4">
+Consider using varargs for methods or constructors which take an array the last parameter.
+</violation>
+<violation beginline="9" endline="9" begincolumn="26" endcolumn="46" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="slackpack" class="Commander" method="Commander" variable="InputCommand" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'InputCommand' is not assigned and could be declared final
+</violation>
+<violation beginline="9" endline="169" begincolumn="16" endcolumn="9" rule="CyclomaticComplexity" ruleset="Code Size" package="slackpack" class="Commander" method="Commander" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/codesize.html#CyclomaticComplexity" priority="3">
+The constructor 'Commander' has a Cyclomatic Complexity of 26.
+</violation>
+<violation beginline="9" endline="169" begincolumn="16" endcolumn="9" rule="ModifiedCyclomaticComplexity" ruleset="Code Size" package="slackpack" class="Commander" method="Commander" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/codesize.html#ModifiedCyclomaticComplexity" priority="3">
+The constructor 'Commander' has a Modified Cyclomatic Complexity of 21.
+</violation>
+<violation beginline="9" endline="169" begincolumn="16" endcolumn="9" rule="StdCyclomaticComplexity" ruleset="Code Size" package="slackpack" class="Commander" method="Commander" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/codesize.html#StdCyclomaticComplexity" priority="3">
+The constructor 'Commander' has a Standard Cyclomatic Complexity of 26.
+</violation>
+<violation beginline="9" endline="169" begincolumn="16" endcolumn="9" rule="NcssConstructorCount" ruleset="Code Size" package="slackpack" class="Commander" method="Commander" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/codesize.html#NcssConstructorCount" priority="3">
+The constructor with 1 parameters has an NCSS line count of 132
+</violation>
+<violation beginline="9" endline="9" begincolumn="35" endcolumn="46" rule="VariableNamingConventions" ruleset="Naming" package="slackpack" class="Commander" method="Commander" variable="InputCommand" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/naming.html#VariableNamingConventions" priority="1">
+Variables should start with a lowercase character, 'InputCommand' starts with uppercase character.
+</violation>
+<violation beginline="12" endline="12" begincolumn="25" endcolumn="57" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="Commander" method="Commander" variable="zipdir" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'zipdir' could be declared final
+</violation>
+<violation beginline="12" endline="12" begincolumn="42" endcolumn="56" rule="UselessParentheses" ruleset="Unnecessary" package="slackpack" class="Commander" method="Commander" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="13" endline="13" begincolumn="36" endcolumn="36" rule="ShortVariable" ruleset="Naming" package="slackpack" class="Commander" method="Commander" variable="Z" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like Z
+</violation>
+<violation beginline="13" endline="13" begincolumn="25" endcolumn="61" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="Commander" method="Commander" variable="Z" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'Z' could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="36" endcolumn="36" rule="VariableNamingConventions" ruleset="Naming" package="slackpack" class="Commander" method="Commander" variable="Z" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/naming.html#VariableNamingConventions" priority="1">
+Variables should start with a lowercase character, 'Z' starts with uppercase character.
+</violation>
+<violation beginline="18" endline="161" begincolumn="25" endcolumn="25" rule="SwitchDensity" ruleset="Design" package="slackpack" class="Commander" method="Commander" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/design.html#SwitchDensity" priority="3">
+A high ratio of statements to labels in a switch statement.  Consider refactoring.
+</violation>
+<violation beginline="18" endline="161" begincolumn="25" endcolumn="25" rule="MissingBreakInSwitch" ruleset="Design" package="slackpack" class="Commander" method="Commander" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/design.html#MissingBreakInSwitch" priority="3">
+A switch statement does not contain a break
+</violation>
+<violation beginline="20" endline="20" begincolumn="50" endcolumn="62" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="slackpack" class="Commander" method="Commander" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;/users.json&quot; appears 11 times in this file; the first occurrence is on line 20
+</violation>
+<violation beginline="40" endline="40" begincolumn="46" endcolumn="55" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="Commander" method="Commander" variable="obj" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'obj' could be declared final
+</violation>
+<violation beginline="41" endline="41" begincolumn="49" endcolumn="76" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="Commander" method="Commander" variable="cobj" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'cobj' could be declared final
+</violation>
+<violation beginline="72" endline="72" begincolumn="41" endcolumn="113" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="Commander" method="Commander" variable="jfiles" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'jfiles' could be declared final
+</violation>
+<violation beginline="74" endline="74" begincolumn="41" endcolumn="86" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="Commander" method="Commander" variable="marrglobal" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'marrglobal' could be declared final
+</violation>
+<violation beginline="75" endline="75" begincolumn="46" endcolumn="54" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="Commander" method="Commander" variable="file" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'file' could be declared final
+</violation>
+<violation beginline="76" endline="76" begincolumn="71" endcolumn="121" rule="AvoidInstantiatingObjectsInLoops" ruleset="Optimization" package="slackpack" class="Commander" method="Commander" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#AvoidInstantiatingObjectsInLoops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="76" endline="76" begincolumn="49" endcolumn="121" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="Commander" method="Commander" variable="jmarr" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'jmarr' could be declared final
+</violation>
+<violation beginline="88" endline="88" begincolumn="41" endcolumn="83" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="Commander" method="Commander" variable="jfiles" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'jfiles' could be declared final
+</violation>
+<violation beginline="90" endline="90" begincolumn="41" endcolumn="86" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="Commander" method="Commander" variable="marrglobal" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'marrglobal' could be declared final
+</violation>
+<violation beginline="91" endline="91" begincolumn="46" endcolumn="54" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="Commander" method="Commander" variable="file" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'file' could be declared final
+</violation>
+<violation beginline="92" endline="92" begincolumn="71" endcolumn="121" rule="AvoidInstantiatingObjectsInLoops" ruleset="Optimization" package="slackpack" class="Commander" method="Commander" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#AvoidInstantiatingObjectsInLoops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="92" endline="92" begincolumn="49" endcolumn="121" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="Commander" method="Commander" variable="jmarr" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'jmarr' could be declared final
+</violation>
+<violation beginline="109" endline="109" begincolumn="41" endcolumn="113" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="Commander" method="Commander" variable="jfiles" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'jfiles' could be declared final
+</violation>
+<violation beginline="111" endline="111" begincolumn="41" endcolumn="86" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="Commander" method="Commander" variable="marrglobal" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'marrglobal' could be declared final
+</violation>
+<violation beginline="112" endline="112" begincolumn="46" endcolumn="54" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="Commander" method="Commander" variable="file" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'file' could be declared final
+</violation>
+<violation beginline="113" endline="113" begincolumn="71" endcolumn="121" rule="AvoidInstantiatingObjectsInLoops" ruleset="Optimization" package="slackpack" class="Commander" method="Commander" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#AvoidInstantiatingObjectsInLoops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="113" endline="113" begincolumn="49" endcolumn="121" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="Commander" method="Commander" variable="jmarr" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'jmarr' could be declared final
+</violation>
+<violation beginline="118" endline="118" begincolumn="57" endcolumn="100" rule="IfElseStmtsMustUseBraces" ruleset="Braces" package="slackpack" class="Commander" method="Commander" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/braces.html#IfElseStmtsMustUseBraces" priority="3">
+Avoid using if...else statements without curly braces
+</violation>
+<violation beginline="132" endline="132" begincolumn="41" endcolumn="83" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="Commander" method="Commander" variable="jfiles" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'jfiles' could be declared final
+</violation>
+<violation beginline="134" endline="134" begincolumn="41" endcolumn="86" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="Commander" method="Commander" variable="marrglobal" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'marrglobal' could be declared final
+</violation>
+<violation beginline="135" endline="135" begincolumn="46" endcolumn="54" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="Commander" method="Commander" variable="file" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'file' could be declared final
+</violation>
+<violation beginline="136" endline="136" begincolumn="71" endcolumn="121" rule="AvoidInstantiatingObjectsInLoops" ruleset="Optimization" package="slackpack" class="Commander" method="Commander" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#AvoidInstantiatingObjectsInLoops" priority="3">
+Avoid instantiating new objects inside loops
+</violation>
+<violation beginline="136" endline="136" begincolumn="49" endcolumn="121" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="Commander" method="Commander" variable="jmarr" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'jmarr' could be declared final
+</violation>
+<violation beginline="141" endline="141" begincolumn="57" endcolumn="100" rule="IfElseStmtsMustUseBraces" ruleset="Braces" package="slackpack" class="Commander" method="Commander" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/braces.html#IfElseStmtsMustUseBraces" priority="3">
+Avoid using if...else statements without curly braces
+</violation>
+<violation beginline="162" endline="162" begincolumn="26" endcolumn="34" rule="AvoidCatchingGenericException" ruleset="Strict Exceptions" package="slackpack" class="Commander" method="Commander" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/strictexception.html#AvoidCatchingGenericException" priority="3">
+Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+</violation>
+</file>
+<file name="C:\Users\Davide\ing\progetto1718-dijkstra\src\main\java\slackpack\ExtractZip.java">
+<violation beginline="15" endline="15" begincolumn="27" endcolumn="39" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="slackpack" class="ExtractZip" method="ExtractZip" variable="source" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'source' is not assigned and could be declared final
+</violation>
+<violation beginline="19" endline="19" begincolumn="17" endcolumn="36" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ExtractZip" method="ExtractZip" variable="password" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'password' could be declared final
+</violation>
+<violation beginline="22" endline="22" begincolumn="25" endcolumn="61" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="ExtractZip" method="ExtractZip" variable="zipFile" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'zipFile' could be declared final
+</violation>
+</file>
+<file name="C:\Users\Davide\ing\progetto1718-dijkstra\src\main\java\slackpack\Helper.java">
+<violation beginline="5" endline="17" begincolumn="31" endcolumn="13" rule="UnnecessaryModifier" ruleset="Unnecessary" package="slackpack" class="Helper" method="stampaHelp" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/unnecessary.html#UnnecessaryModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+<violation beginline="19" endline="27" begincolumn="27" endcolumn="13" rule="UnnecessaryModifier" ruleset="Unnecessary" package="slackpack" class="Helper" method="stampaLogo" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/unnecessary.html#UnnecessaryModifier" priority="3">
+Avoid modifiers which are implied by the context
+</violation>
+</file>
+<file name="C:\Users\Davide\ing\progetto1718-dijkstra\src\main\java\slackpack\JFileScanner.java">
+<violation beginline="8" endline="8" begincolumn="17" endcolumn="31" rule="LooseCoupling" ruleset="Type Resolution" package="slackpack" class="JFileScanner" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/typeresolution.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="8" endline="8" begincolumn="17" endcolumn="31" rule="LooseCoupling" ruleset="Coupling" package="slackpack" class="JFileScanner" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="8" endline="8" begincolumn="33" endcolumn="38" rule="ImmutableField" ruleset="Design" package="slackpack" class="JFileScanner" variable="jfiles" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/design.html#ImmutableField" priority="3">
+Private field 'jfiles' could be made final; it is only initialized in the declaration or constructor.
+</violation>
+<violation beginline="10" endline="10" begincolumn="29" endcolumn="38" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="slackpack" class="JFileScanner" method="JFileScanner" variable="dir" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'dir' is not assigned and could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="25" endcolumn="49" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="JFileScanner" method="JFileScanner" variable="file" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'file' could be declared final
+</violation>
+<violation beginline="14" endline="14" begincolumn="25" endcolumn="43" rule="ConstructorCallsOverridableMethod" ruleset="Design" package="slackpack" class="JFileScanner" method="JFileScanner" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/design.html#ConstructorCallsOverridableMethod" priority="1">
+Overridable method 'scanDirectory' called during object construction
+</violation>
+<violation beginline="15" endline="15" begincolumn="26" endcolumn="34" rule="AvoidCatchingGenericException" ruleset="Strict Exceptions" package="slackpack" class="JFileScanner" method="JFileScanner" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/strictexception.html#AvoidCatchingGenericException" priority="3">
+Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+</violation>
+<violation beginline="20" endline="20" begincolumn="35" endcolumn="42" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="slackpack" class="JFileScanner" method="scanDirectory" variable="dir" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'dir' is not assigned and could be declared final
+</violation>
+<violation beginline="22" endline="22" begincolumn="25" endcolumn="54" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="JFileScanner" method="scanDirectory" variable="files" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'files' could be declared final
+</violation>
+<violation beginline="23" endline="23" begincolumn="30" endcolumn="38" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="slackpack" class="JFileScanner" method="scanDirectory" variable="file" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'file' could be declared final
+</violation>
+<violation beginline="26" endline="28" begincolumn="172" endcolumn="33" rule="EmptyIfStmt" ruleset="Empty Code" package="slackpack" class="JFileScanner" method="scanDirectory" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/empty.html#EmptyIfStmt" priority="3">
+Avoid empty if statements
+</violation>
+<violation beginline="26" endline="26" begincolumn="43" endcolumn="77" rule="LawOfDemeter" ruleset="Coupling" package="slackpack" class="JFileScanner" method="scanDirectory" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="26" endline="26" begincolumn="83" endcolumn="120" rule="LawOfDemeter" ruleset="Coupling" package="slackpack" class="JFileScanner" method="scanDirectory" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="26" endline="26" begincolumn="125" endcolumn="170" rule="LawOfDemeter" ruleset="Coupling" package="slackpack" class="JFileScanner" method="scanDirectory" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="32" endline="32" begincolumn="26" endcolumn="34" rule="AvoidCatchingGenericException" ruleset="Strict Exceptions" package="slackpack" class="JFileScanner" method="scanDirectory" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/strictexception.html#AvoidCatchingGenericException" priority="3">
+Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+</violation>
+<violation beginline="38" endline="38" begincolumn="16" endcolumn="30" rule="LooseCoupling" ruleset="Type Resolution" package="slackpack" class="JFileScanner" method="getArray" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/typeresolution.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="38" endline="38" begincolumn="16" endcolumn="30" rule="LooseCoupling" ruleset="Coupling" package="slackpack" class="JFileScanner" method="getArray" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+</file>
+<file name="C:\Users\Davide\ing\progetto1718-dijkstra\src\main\java\slackpack\Member.java">
+<violation beginline="5" endline="5" begincolumn="17" endcolumn="25" rule="VariableNamingConventions" ruleset="Naming" package="slackpack" class="Member" variable="id_member" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/naming.html#VariableNamingConventions" priority="1">
+Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'id_member' is not final.
+</violation>
+<violation beginline="6" endline="6" begincolumn="17" endcolumn="27" rule="VariableNamingConventions" ruleset="Naming" package="slackpack" class="Member" variable="name_member" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/naming.html#VariableNamingConventions" priority="1">
+Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'name_member' is not final.
+</violation>
+<violation beginline="7" endline="7" begincolumn="17" endcolumn="25" rule="VariableNamingConventions" ruleset="Naming" package="slackpack" class="Member" variable="real_name" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/naming.html#VariableNamingConventions" priority="1">
+Only variables that are final should contain underscores (except for underscores in standard prefix/suffix), 'real_name' is not final.
+</violation>
+<violation beginline="19" endline="19" begincolumn="33" endcolumn="47" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="slackpack" class="Member" method="setRealName" variable="realname" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'realname' is not assigned and could be declared final
+</violation>
+<violation beginline="25" endline="25" begincolumn="29" endcolumn="39" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="slackpack" class="Member" method="setName" variable="name" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'name' is not assigned and could be declared final
+</violation>
+<violation beginline="32" endline="32" begincolumn="34" endcolumn="35" rule="ShortVariable" ruleset="Naming" package="slackpack" class="Member" method="setID" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like id
+</violation>
+<violation beginline="32" endline="32" begincolumn="27" endcolumn="35" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="slackpack" class="Member" method="setID" variable="id" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'id' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\Users\Davide\ing\progetto1718-dijkstra\src\main\java\slackpack\Mention.java">
+<violation beginline="7" endline="7" begincolumn="9" endcolumn="20" rule="SuspiciousConstantFieldName" ruleset="Naming" package="slackpack" class="Mention" variable="FROM" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/naming.html#SuspiciousConstantFieldName" priority="3">
+The field name indicates a constant but its modifiers do not
+</violation>
+<violation beginline="7" endline="7" begincolumn="16" endcolumn="19" rule="VariableNamingConventions" ruleset="Naming" package="slackpack" class="Mention" variable="FROM" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/naming.html#VariableNamingConventions" priority="1">
+Variables should start with a lowercase character, 'FROM' starts with uppercase character.
+</violation>
+<violation beginline="8" endline="8" begincolumn="9" endcolumn="25" rule="LooseCoupling" ruleset="Type Resolution" package="slackpack" class="Mention" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/typeresolution.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="8" endline="8" begincolumn="9" endcolumn="25" rule="LooseCoupling" ruleset="Coupling" package="slackpack" class="Mention" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="8" endline="8" begincolumn="27" endcolumn="28" rule="ShortVariable" ruleset="Naming" package="slackpack" class="Mention" variable="TO" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like TO
+</violation>
+<violation beginline="8" endline="8" begincolumn="9" endcolumn="29" rule="SuspiciousConstantFieldName" ruleset="Naming" package="slackpack" class="Mention" variable="TO" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/naming.html#SuspiciousConstantFieldName" priority="3">
+The field name indicates a constant but its modifiers do not
+</violation>
+<violation beginline="8" endline="8" begincolumn="27" endcolumn="28" rule="VariableNamingConventions" ruleset="Naming" package="slackpack" class="Mention" variable="TO" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/naming.html#VariableNamingConventions" priority="1">
+Variables should start with a lowercase character, 'TO' starts with uppercase character.
+</violation>
+<violation beginline="16" endline="16" begincolumn="29" endcolumn="40" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="slackpack" class="Mention" method="setFROM" variable="value" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'value' is not assigned and could be declared final
+</violation>
+<violation beginline="21" endline="21" begincolumn="27" endcolumn="43" rule="LooseCoupling" ruleset="Type Resolution" package="slackpack" class="Mention" method="setTO" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/typeresolution.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="21" endline="21" begincolumn="27" endcolumn="43" rule="LooseCoupling" ruleset="Coupling" package="slackpack" class="Mention" method="setTO" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="21" endline="21" begincolumn="27" endcolumn="47" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="slackpack" class="Mention" method="setTO" variable="arr" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'arr' is not assigned and could be declared final
+</violation>
+<violation beginline="31" endline="31" begincolumn="16" endcolumn="32" rule="LooseCoupling" ruleset="Type Resolution" package="slackpack" class="Mention" method="getTO" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/typeresolution.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="31" endline="31" begincolumn="16" endcolumn="32" rule="LooseCoupling" ruleset="Coupling" package="slackpack" class="Mention" method="getTO" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LooseCoupling" priority="3">
+Avoid using implementation types like 'ArrayList'; use the interface instead
+</violation>
+<violation beginline="36" endline="36" begincolumn="27" endcolumn="38" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="slackpack" class="Mention" method="addTO" variable="value" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'value' is not assigned and could be declared final
+</violation>
+</file>
+<file name="C:\Users\Davide\ing\progetto1718-dijkstra\src\main\java\slackpack\WSParser.java">
+<violation beginline="16" endline="16" begincolumn="25" endcolumn="38" rule="MethodArgumentCouldBeFinal" ruleset="Optimization" package="slackpack" class="WSParser" method="WSParser" variable="filedir" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'filedir' is not assigned and could be declared final
+</violation>
+<violation beginline="33" endline="33" begincolumn="26" endcolumn="32" rule="MethodNamingConventions" ruleset="Naming" package="slackpack" class="WSParser" method="Array" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/naming.html#MethodNamingConventions" priority="1">
+Method names should not start with capital letters
+</violation>
+</file>
+</pmd>
