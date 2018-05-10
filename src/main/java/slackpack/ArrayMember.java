@@ -86,4 +86,12 @@ public class ArrayMember {
 
 		return convertedarr;
 	}
+	
+	public boolean checkMemberByID(String id) {
+		for (Member member : getArray()) {
+			if (member.getID().equals(id))
+				return true; 
+		}
+		return false; 
+	}
 }

@@ -14,7 +14,7 @@ public class Channel {
 		setName("");
 		setIDCreator("");
 		setArchived(false); 
-		setArray(null);
+		setArray(new ArrayMember());
 	}
 	
 	public void setArchived(boolean flag) {

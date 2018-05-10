@@ -1,6 +1,7 @@
 package slackpack;
 
 import java.io.File;
+import java.util.ArrayList;
 
 public class Commander {
 
@@ -65,28 +66,35 @@ public class Commander {
 				if (InputCommand.length == 3) {
 					JFileScanner jfiles = new JFileScanner(dir.concat("/" + InputCommand[2]));
 					members = new ArrayMember(dir.concat("/users.json"));
+					channels = new ArrayChannel(dir.concat("/channels.json"), members);
 					ArrayMentions marrglobal = new ArrayMentions();
 					for (File file : jfiles.getArray()) {
-						ArrayMentions jmarr = new ArrayMentions(file.getCanonicalPath(), members);
-						marrglobal.mergeArray(jmarr.getMentions());
+						ArrayMentions jmarr = new ArrayMentions(file.getCanonicalPath(), members,
+								channels.getChannel(InputCommand[2]).getMembersList());
+						marrglobal.mergeArray(jmarr.getArray());
 					}
-					if (marrglobal.getMentions().size() > 0) {
+					if (marrglobal.getArray().size() > 0) {
 						marrglobal.printMentions();
 					} else {
 						System.out.println("\n NONE MENTIONS IN THIS CHANNEL");
-						System.out.println("\n THERE IS NO CHANNEL BY THIS NAME");
 						Helper.stampaLogo();
 						Helper.stampaHelp();
 					}
 				} else if (InputCommand.length == 2) {
-					JFileScanner jfiles = new JFileScanner(dir);
+					JFileScanner jfiles;
 					members = new ArrayMember(dir.concat("/users.json"));
+					channels = new ArrayChannel(dir.concat("/channels.json"), members);
+					ArrayList<String> channelslist = channels.getAllChannelsName();
 					ArrayMentions marrglobal = new ArrayMentions();
-					for (File file : jfiles.getArray()) {
-						ArrayMentions jmarr = new ArrayMentions(file.getCanonicalPath(), members);
-						marrglobal.mergeArray(jmarr.getMentions());
+					for (String channelname : channelslist) {
+						jfiles = new JFileScanner(dir.concat("/" + channelname));
+						for (File file : jfiles.getArray()) {
+							ArrayMentions jmarr = new ArrayMentions(file.getCanonicalPath(), members,
+									channels.getChannel(channelname).getMembersList());
+							marrglobal.mergeArray(jmarr.getArray());
+						}
 					}
-					if (marrglobal.getMentions().size() > 0) {
+					if (marrglobal.getArray().size() > 0) {
 						marrglobal.printMentions();
 					} else {
 						System.out.println("\nNONE MENTIONS IN THIS WORKSPACE");
@@ -102,12 +110,14 @@ public class Commander {
 
 					JFileScanner jfiles = new JFileScanner(dir.concat("/" + InputCommand[3]));
 					members = new ArrayMember(dir.concat("/users.json"));
+					channels = new ArrayChannel(dir.concat("/channels.json"), members);
 					ArrayMentions marrglobal = new ArrayMentions();
 					for (File file : jfiles.getArray()) {
-						ArrayMentions jmarr = new ArrayMentions(file.getCanonicalPath(), members);
-						marrglobal.mergeArray(jmarr.getMentions());
+						ArrayMentions jmarr = new ArrayMentions(file.getCanonicalPath(), members,
+								channels.getChannel(InputCommand[3]).getMembersList());
+						marrglobal.mergeArray(jmarr.getArray());
 					}
-					if (marrglobal.getMentions().size() > 0) {
+					if (marrglobal.getArray().size() > 0) {
 						if (marrglobal.checkUser(InputCommand[2]))
 							marrglobal.printMentionsOf(InputCommand[2]);
 						else {
@@ -123,14 +133,20 @@ public class Commander {
 
 				} else if (InputCommand.length == 3) {
 
-					JFileScanner jfiles = new JFileScanner(dir);
+					JFileScanner jfiles;
 					members = new ArrayMember(dir.concat("/users.json"));
+					channels = new ArrayChannel(dir.concat("/channels.json"), members);
+					ArrayList<String> channelslist = channels.getAllChannelsName();
 					ArrayMentions marrglobal = new ArrayMentions();
-					for (File file : jfiles.getArray()) {
-						ArrayMentions jmarr = new ArrayMentions(file.getCanonicalPath(), members);
-						marrglobal.mergeArray(jmarr.getMentions());
+					for (String channelname : channelslist) {
+						jfiles = new JFileScanner(dir.concat("/" + channelname));
+						for (File file : jfiles.getArray()) {
+							ArrayMentions jmarr = new ArrayMentions(file.getCanonicalPath(), members,
+									channels.getChannel(channelname).getMembersList());
+							marrglobal.mergeArray(jmarr.getArray());
+						}
 					}
-					if (marrglobal.getMentions().size() > 0) {
+					if (marrglobal.getArray().size() > 0) {
 						if (marrglobal.checkUser(InputCommand[2]))
 							marrglobal.printMentionsOf(InputCommand[2]);
 						else {

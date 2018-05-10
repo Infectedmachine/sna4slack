@@ -16,7 +16,7 @@ public class ArrayMentions {
 	}
 
 	// NEW CONSTRUCTOR 2.0
-	public ArrayMentions(String filedir, ArrayMember members) {
+	public ArrayMentions(String filedir, ArrayMember globalmembers, ArrayMember members) {
 
 		WSParser parser = new WSParser(filedir);
 		this.mentions = new ArrayList<Mention>();
@@ -26,30 +26,32 @@ public class ArrayMentions {
 			JSONObject jobj = (JSONObject) obj;
 			Mention mobj = new Mention();
 			String text = (String) jobj.get("text");
-			String user = (String) jobj.get("user");
+			String iduser = (String) jobj.get("user");
 			String sub_type = (String) jobj.get("subtype");
 
-			String tmp;
+			String textmention;
 
 			if (sub_type == null) {
 				Pattern findmention = Pattern.compile("<@.+?>");
 				Matcher match = findmention.matcher(text);
 				while (match.find()) {
-					tmp = match.group().subSequence(2, match.group().length() - 1).toString();
-					if (mobj.getFROM().length() == 0) {
-						mobj.setFROM(getNameFROM(user, members.getArray()));
-						if (checkDoubles(mobj, getNameFROM(tmp, members.getArray())) == false)
-							mobj.addTO(getNameFROM(tmp, members.getArray()));
-						flag = true;
-					} else {
-						if (checkDoubles(mobj, getNameFROM(tmp, members.getArray())) == false) {
-							mobj.addTO(getNameFROM(tmp, members.getArray()));
+					textmention = match.group().subSequence(2, match.group().length() - 1).toString();
+					if (members.checkMemberByID(textmention)) {
+						if (mobj.getFROM().length() == 0) {
+							mobj.setFROM(getNameFROM(iduser, globalmembers.getArray()));
+							if (checkDoubles(mobj, getNameFROM(textmention, members.getArray())) == false)
+								mobj.addTO(getNameFROM(textmention, members.getArray()));
+							flag = true;
+						} else {
+							if (checkDoubles(mobj, getNameFROM(textmention, members.getArray())) == false) {
+								mobj.addTO(getNameFROM(textmention, members.getArray()));
+							}
 						}
 					}
 				}
 				if (flag == true) {
-					if (this.mentions.size() == 0) {
-						this.mentions.add(mobj);
+					if (getArray().size() == 0) {
+						getArray().add(mobj);
 					} else {
 						merge(mobj);
 					}
@@ -116,7 +118,7 @@ public class ArrayMentions {
 		this.mentions = marr;
 	}
 
-	public ArrayList<Mention> getMentions() {
+	public ArrayList<Mention> getArray() {
 
 		return this.mentions;
 	}
@@ -124,7 +126,7 @@ public class ArrayMentions {
 	public void printMentions() {
 
 		if (this.mentions.size() > 0) {
-			for (Object obj : this.mentions) {
+			for (Object obj : getArray()) {
 				Mention mobj = (Mention) obj;
 				System.out.println("FROM : " + mobj.getFROM());
 				System.out.println("TO : " + mobj.getTO());
@@ -138,7 +140,7 @@ public class ArrayMentions {
 
 	public void printMentionsOf(String from) {
 
-		for (Object obj : this.mentions) {
+		for (Object obj : getArray()) {
 			Mention mobj = (Mention) obj;
 			if (mobj.getFROM().equals(from)) {
 				for (Object to : mobj.getTO()) {
@@ -151,7 +153,7 @@ public class ArrayMentions {
 
 	public boolean checkUser(String user) {
 
-		for (Mention mention : this.mentions) {
+		for (Mention mention : getArray()) {
 			if (mention.getFROM().equals(user))
 				return true;
 		}

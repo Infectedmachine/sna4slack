@@ -18,10 +18,12 @@ public class ArrayChannel {
 			cobj.setName((String) jobj.get("name"));
 			cobj.setID((String) jobj.get("id"));
 			cobj.setIDCreator((String) jobj.get("creator"));
+			cobj.setArchived((boolean) jobj.get("is_archived"));
 			addChannel(cobj);
 		}
 	}
 
+	@SuppressWarnings("unchecked")
 	public ArrayChannel(String filedir, ArrayMember marr) {
 
 		WSParser parser = new WSParser(filedir);
@@ -89,6 +91,13 @@ public class ArrayChannel {
 				return true; 
 		}
 		return false; 
+	}
+	
+	public ArrayList<String> getAllChannelsName(){
+		ArrayList<String> allchannelslist = new ArrayList<String>();
+		for (Channel channel : getArray()) 
+			allchannelslist.add(channel.getName()); 
+		return allchannelslist; 
 	}
 
 }
