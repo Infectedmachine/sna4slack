@@ -135,18 +135,22 @@ public class ArrayMentions {
 		}
 
 	}
-	
+
 	public void printMentionsOf(String from) {
-		for (Object obj : this.mentions) {
-			Mention mobj = (Mention) obj;
-			if(mobj.getFROM().equals(from)) {
-				for (Object to : mobj.getTO()) {
-				String TO = (String) to;
-				System.out.println("FROM : " + from + " TO : " + TO);
-				System.out.println("\n");
-				}
+		boolean flag = true;
+			for (Object obj : this.mentions) {
+				Mention mobj = (Mention) obj;
+				if (mobj.getFROM().equals(from)) {
+					for (Object to : mobj.getTO()) {
+						String TO = (String) to;
+						System.out.println("FROM : " + from + " TO : " + TO);
+						System.out.println("\n");
+						flag = true;
+					}
+				} else
+					flag = false;
 			}
-		}
+		if (flag == false) System.out.println("THIS USER IS NOT IN THIS WORKSPACE");
 	}
 
 	public boolean checkDoubles(Mention mention, String value) {
