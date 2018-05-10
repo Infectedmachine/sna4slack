@@ -36,16 +36,10 @@ public class Commander {
 					members = new ArrayMember(dir);
 					dir = dir.replace("/users.json", "/channels.json");
 					channels = new ArrayChannel(dir, members);
-					int counter = 0; // SET A COUNTER TO CHECK IF THERE IS ANY CHANNEL BY THIS NAME
-					for (Object obj : channels.channels) {
-						Channel cobj = (Channel) obj;
-						if (cobj.getName().equals(InputCommand[2])) { // CHECK FOR CHANNELS WITH THE SAME NAME
-							System.out.println(cobj.getName() + ":\n");
-							cobj.printMembersList();
-							counter = 1; // A CHANNEL WAS FOUND
-						}
-					}
-					if (counter == 0) { // IF NONE CHANNEL WAS FOUND MEANS THERE IS NO SUCH ONE OR INVALID NAME
+					if (channels.checkChannel(InputCommand[2])) {
+						System.out.println(channels.getChannel(InputCommand[2]).getName() + ":\n");
+						channels.getChannel(InputCommand[2]).printMembersList();
+					} else {
 						System.out.println(
 								"\n NONE CHANNEL BY THIS NAME. Please type a valid Channel's Name after command");
 						Helper.stampaLogo();

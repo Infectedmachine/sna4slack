@@ -5,38 +5,42 @@ import java.util.ArrayList;
 import org.json.simple.JSONObject;
 
 public class ArrayChannel {
+
 	ArrayList<Channel> channels;
 
 	public ArrayChannel(String filedir) {
 
 		WSParser parser = new WSParser(filedir);
-		this.channels = new ArrayList<Channel>();
+		setArray(new ArrayList<Channel>());
 		for (Object obj : parser.Array()) {
 			JSONObject jobj = (JSONObject) obj;
 			Channel cobj = new Channel();
 			cobj.setName((String) jobj.get("name"));
 			cobj.setID((String) jobj.get("id"));
 			cobj.setIDCreator((String) jobj.get("creator"));
-			channels.add(cobj);
+			addChannel(cobj);
 		}
 	}
 
-	@SuppressWarnings("unchecked")
 	public ArrayChannel(String filedir, ArrayMember marr) {
 
 		WSParser parser = new WSParser(filedir);
-		this.channels = new ArrayList<Channel>();
-
+		setArray(new ArrayList<Channel>());
 		for (Object obj : parser.Array()) {
 			JSONObject jobj = (JSONObject) obj;
 			Channel cobj = new Channel();
 			cobj.setName((String) jobj.get("name"));
 			cobj.setID((String) jobj.get("id"));
 			cobj.setIDCreator((String) jobj.get("creator"));
+			cobj.setArchived((boolean) jobj.get("is_archived"));
 			ArrayList<String> idmembers = (ArrayList<String>) jobj.get("members");
-			cobj.addMArray(cobj.convertIDtoNAME(idmembers, marr.getArray()));
-			channels.add(cobj);
+			cobj.setArray(marr.getMembersbyID(idmembers));
+			addChannel(cobj);
 		}
+	}
+
+	public void addChannel(Channel channel) {
+		getArray().add(channel);
 	}
 
 	public ArrayList<Channel> getArray() {
@@ -51,30 +55,40 @@ public class ArrayChannel {
 
 	public void printArray() {
 
-		for (Object obj : this.channels) {
-			Channel cobj = (Channel) obj;
-			System.out.println(cobj.getName() + ":\n");
-			cobj.printMembersList();
+		for (Channel channel : getArray()) {
+			if (channel.getArchived())
+				System.out.println(channel.getName() + " [ARCHIVED] :\n");
+			else
+				System.out.println(channel.getName() + ":\n");
+			channel.printMembersList();
 			System.out.println("\n");
 		}
 	}
 
 	public void printChannels() {
 
-		for (Object obj : this.channels) {
-			Channel cobj = (Channel) obj;
-			System.out.println(cobj.getName());
+		for (Channel channel : getArray()) {
+			System.out.println(channel.getName());
 
 		}
 	}
 
 	public Channel getChannel(String name) {
-		
-		for(Channel channel : getArray()) {
-			if(channel.getName().equals(name))
-				return channel; 
+
+		for (Channel channel : getArray()) {
+			if (channel.getName().equals(name))
+				return channel;
 		}
-		return null; 
+		return null;
+	}
+	
+	public boolean checkChannel(String name) {
+		
+		for (Channel channel : getArray()) {
+			if(channel.getName().equals(name))
+				return true; 
+		}
+		return false; 
 	}
 
 }
