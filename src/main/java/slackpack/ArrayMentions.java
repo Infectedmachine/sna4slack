@@ -137,20 +137,25 @@ public class ArrayMentions {
 	}
 
 	public void printMentionsOf(String from) {
-		boolean flag = true;
-			for (Object obj : this.mentions) {
-				Mention mobj = (Mention) obj;
-				if (mobj.getFROM().equals(from)) {
-					for (Object to : mobj.getTO()) {
-						String TO = (String) to;
-						System.out.println("FROM : " + from + " TO : " + TO);
-						System.out.println("\n");
-						flag = true;
-					}
-				} else
-					flag = false;
+
+		for (Object obj : this.mentions) {
+			Mention mobj = (Mention) obj;
+			if (mobj.getFROM().equals(from)) {
+				for (Object to : mobj.getTO()) {
+					String TO = (String) to;
+					System.out.println("FROM: " + from + " TO: " + TO);
+				}
 			}
-		if (flag == false) System.out.println("THIS USER IS NOT IN THIS WORKSPACE");
+		}
+	}
+
+	public boolean checkUser(String user) {
+
+		for (Mention mention : this.mentions) {
+			if (mention.getFROM().equals(user))
+				return true;
+		}
+		return false;
 	}
 
 	public boolean checkDoubles(Mention mention, String value) {

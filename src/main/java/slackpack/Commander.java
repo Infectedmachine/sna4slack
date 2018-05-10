@@ -2,7 +2,6 @@ package slackpack;
 
 import java.io.File;
 
-
 public class Commander {
 
 	String workspacedir;
@@ -106,7 +105,7 @@ public class Commander {
 				break;
 			case "@mf":
 				if (InputCommand.length == 4) {
-					
+
 					JFileScanner jfiles = new JFileScanner(dir.concat("/" + InputCommand[3]));
 					members = new ArrayMember(dir.concat("/users.json"));
 					ArrayMentions marrglobal = new ArrayMentions();
@@ -115,15 +114,21 @@ public class Commander {
 						marrglobal.mergeArray(jmarr.getMentions());
 					}
 					if (marrglobal.getMentions().size() > 0) {
-						marrglobal.printMentionsOf(InputCommand[2]);
+						if (marrglobal.checkUser(InputCommand[2]))
+							marrglobal.printMentionsOf(InputCommand[2]);
+						else {
+							System.out.println("\n THERE IS NO USER BY THIS NAME");
+							Helper.stampaLogo();
+							Helper.stampaHelp();
+						}
 					} else {
 						System.out.println("\n NONE MENTIONS IN THIS CHANNEL BY THIS MEMBER");
 						Helper.stampaLogo();
 						Helper.stampaHelp();
 					}
-					
+
 				} else if (InputCommand.length == 3) {
-					
+
 					JFileScanner jfiles = new JFileScanner(dir);
 					members = new ArrayMember(dir.concat("/users.json"));
 					ArrayMentions marrglobal = new ArrayMentions();
@@ -132,17 +137,23 @@ public class Commander {
 						marrglobal.mergeArray(jmarr.getMentions());
 					}
 					if (marrglobal.getMentions().size() > 0) {
-						marrglobal.printMentionsOf(InputCommand[2]);
+						if (marrglobal.checkUser(InputCommand[2]))
+							marrglobal.printMentionsOf(InputCommand[2]);
+						else {
+							System.out.println("\n THERE IS NO USER BY THIS NAME");
+							Helper.stampaLogo();
+							Helper.stampaHelp();
+						}
 					} else {
 						System.out.println("\nNONE MENTIONS IN THIS WORKSPACE BY THIS MEMBER");
 					}
-					
+
 				} else {
 					System.out.println("\nPlease type a valid command");
 					Helper.stampaLogo();
 					Helper.stampaHelp();
-				}				
-				
+				}
+
 				break;
 			default:
 				Helper.stampaLogo();
