@@ -140,9 +140,11 @@ public class ArrayMentions {
 		for (Object obj : this.mentions) {
 			Mention mobj = (Mention) obj;
 			if(mobj.getFROM().equals(from)) {
-				System.out.println("FROM : " + mobj.getFROM());
-				System.out.println("TO : " + mobj.getTO());
+				for (Object to : mobj.getTO()) {
+				String TO = (String) to;
+				System.out.println("FROM : " + from + " TO : " + TO);
 				System.out.println("\n");
+				}
 			}
 		}
 	}
