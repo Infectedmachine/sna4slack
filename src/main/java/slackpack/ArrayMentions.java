@@ -135,6 +135,17 @@ public class ArrayMentions {
 		}
 
 	}
+	
+	public void printMentionsOf(String from) {
+		for (Object obj : this.mentions) {
+			Mention mobj = (Mention) obj;
+			if(mobj.getFROM().equals(from)) {
+				System.out.println("FROM : " + mobj.getFROM());
+				System.out.println("TO : " + mobj.getTO());
+				System.out.println("\n");
+			}
+		}
+	}
 
 	public boolean checkDoubles(Mention mention, String value) {
 
