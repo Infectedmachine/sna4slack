@@ -1,8 +1,7 @@
 package slackpack;
 
 import java.io.File;
-import java.util.HashMap;
-import java.util.ArrayList;
+
 
 public class Commander {
 
@@ -105,8 +104,46 @@ public class Commander {
 					Helper.stampaHelp();
 				}
 				break;
-
-
+			case "@mf":
+				if (InputCommand.length == 4) {
+					
+					JFileScanner jfiles = new JFileScanner(dir.concat("/" + InputCommand[3]));
+					members = new ArrayMember(dir.concat("/users.json"));
+					ArrayMentions marrglobal = new ArrayMentions();
+					for (File file : jfiles.getArray()) {
+						ArrayMentions jmarr = new ArrayMentions(file.getCanonicalPath(), members);
+						marrglobal.mergeArray(jmarr.getMentions());
+					}
+					if (marrglobal.getMentions().size() > 0) {
+						marrglobal.printMentionsOf(InputCommand[2]);
+					} else {
+						System.out.println("\n NONE MENTIONS IN THIS CHANNEL BY THIS MEMBER");
+						Helper.stampaLogo();
+						Helper.stampaHelp();
+					}
+					
+				} else if (InputCommand.length == 3) {
+					
+					JFileScanner jfiles = new JFileScanner(dir);
+					members = new ArrayMember(dir.concat("/users.json"));
+					ArrayMentions marrglobal = new ArrayMentions();
+					for (File file : jfiles.getArray()) {
+						ArrayMentions jmarr = new ArrayMentions(file.getCanonicalPath(), members);
+						marrglobal.mergeArray(jmarr.getMentions());
+					}
+					if (marrglobal.getMentions().size() > 0) {
+						marrglobal.printMentionsOf(InputCommand[2]);
+					} else {
+						System.out.println("\nNONE MENTIONS IN THIS WORKSPACE BY THIS MEMBER");
+					}
+					
+				} else {
+					System.out.println("\nPlease type a valid command");
+					Helper.stampaLogo();
+					Helper.stampaHelp();
+				}				
+				
+				break;
 			default:
 				Helper.stampaLogo();
 				Helper.stampaHelp();
