@@ -54,18 +54,8 @@ public class ArrayMember {
 	public void printArray() {
 
 		if (getArray().size() > 0) {
-			for (Member mobj : getArray()) {
-				if (mobj.getDisplayName().length() > 0)
-					System.out.println(mobj.getDisplayName());
-				else if (mobj.getRealName().length() > 0) {
-					if (!mobj.getDeleted())
-						System.out.println(mobj.getRealName());
-					else
-						System.out.println(mobj.getRealName() + "	[DELETED]");
-				} else if (!mobj.getDeleted())
-					System.out.println(mobj.getName());
-				else
-					System.out.println(mobj.getName() + "	[DELETED]");
+			for (Member member : getArray()) {
+				System.out.println(member.getNameByPriority());
 			}
 		} else
 			System.out.println("NONE MEMBERS");

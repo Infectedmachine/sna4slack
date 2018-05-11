@@ -19,7 +19,7 @@ public class ArrayMentions {
 	public ArrayMentions(String filedir, ArrayMember globalmembers, ArrayMember members) {
 
 		WSParser parser = new WSParser(filedir);
-		this.mentions = new ArrayList<Mention>();
+		setArray(new ArrayList<Mention>());
 		boolean flag = false;
 
 		for (Object obj : parser.Array()) {
@@ -69,10 +69,10 @@ public class ArrayMentions {
 
 		ArrayList<String> tmparr = new ArrayList<String>();
 
-		if (this.mentions.size() == 0) {
-			this.mentions.add(mobj);
+		if (getArray().size() == 0) {
+			getArray().add(mobj);
 		} else {
-			for (Object obj : this.mentions) {
+			for (Object obj : getArray()) {
 				Mention mention = (Mention) obj;
 
 				if (mention.getFROM().equals(mobj.getFROM()) && FROMflag == false) { // IF BOTH 'FROM' ARE EQUALS THEN
@@ -100,8 +100,8 @@ public class ArrayMentions {
 				}
 			}
 			if (FROMflag == false) {
-				this.mentions.add(mobj); // IF NONE OF 'FROM' WAS PRESENT IN THE MAIN MENTION ARRAY THEN WHOLE MENTION
-											// OBJ TO IT
+				getArray().add(mobj); // IF NONE OF 'FROM' WAS PRESENT IN THE MAIN MENTION ARRAY THEN WHOLE MENTION
+										// OBJ TO IT
 			}
 		}
 	}
@@ -125,15 +125,12 @@ public class ArrayMentions {
 
 	public void printMentions() {
 
-		if (this.mentions.size() > 0) {
-			for (Object obj : getArray()) {
-				Mention mobj = (Mention) obj;
-				System.out.println("FROM : " + mobj.getFROM());
-				System.out.println("TO : " + mobj.getTO());
+		if (getArray().size() > 0) {
+			for (Mention mention : getArray()) {
+				for (String TO : mention.getTO())
+					System.out.println("FROM: " + mention.getFROM() + " TO: " + TO);
 				System.out.println("\n");
-
 			}
-
 		}
 
 	}
@@ -180,7 +177,7 @@ public class ArrayMentions {
 		for (Object e : member_array) {
 			Member mobj = (Member) e;
 			if (mobj.getID().equals(id))
-				nameFROM = mobj.getName();
+				nameFROM = mobj.getNameByPriority();
 		}
 		return nameFROM;
 	}
