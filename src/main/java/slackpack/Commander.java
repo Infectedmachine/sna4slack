@@ -181,11 +181,14 @@ public class Commander {
 					if (marrglobal.getArray().size() > 0) {
 						if (marrglobal.checkUserTo(InputCommand[2])) 
 							marrglobal.printMentionTo(InputCommand[2]);
-						else
+						else {
 							System.out.println("THIS USER WAS NEVER MENTIONED IN THIS CHANNEL");
+							Helper.stampaLogo();
+							Helper.stampaHelp();
+						}
 						
 					} else {
-						System.out.println("\n NONE MENTIONS IN THIS CHANNEL");
+						System.out.println("\n NONE MENTIONS IN THIS CHANNEL TO THIS MEMBER");
 						Helper.stampaLogo();
 						Helper.stampaHelp();
 					}
@@ -208,10 +211,15 @@ public class Commander {
 					if (marrglobal.getArray().size() > 0) {
 						if (marrglobal.checkUserTo(InputCommand[2])) 
 							marrglobal.printMentionTo(InputCommand[2]);
-						else
+						else {
 							System.out.println("THIS USER WAS NEVER MENTIONED IN THIS WORKSPACE");
+							Helper.stampaLogo();
+							Helper.stampaHelp();
+						}
 					} else {
-						System.out.println("\nNONE MENTIONS IN THIS WORKSPACE");
+						System.out.println("\nNONE MENTIONS IN THIS WORKSPACE TO THIS MEMBER");
+						Helper.stampaLogo();
+						Helper.stampaHelp();
 					}
 
 				} else {
