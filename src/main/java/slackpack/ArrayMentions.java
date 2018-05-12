@@ -163,7 +163,7 @@ public class ArrayMentions {
 		for (Mention mobj : getArray()) {
 			for(String to : mobj.getTO()) {
 				if (to.equals(user)) {
-					System.out.println("FROM : " + mobj.getFROM() + " TO : " + user + "\n\n");
+					System.out.println("FROM : " + mobj.getFROM() + " TO : " + user);
 				}
 				
 			}
