@@ -156,6 +156,33 @@ public class ArrayMentions {
 		}
 		return false;
 	}
+	
+
+	public void printMentionTo(String user) {
+
+		for (Mention mobj : getArray()) {
+			for(String to : mobj.getTO()) {
+				if (to.equals(user)) {
+					System.out.println("FROM : " + mobj.getFROM() + " TO : " + user);
+				}
+				
+			}
+		}
+	}
+	
+	public boolean checkUserTo(String user) {
+
+		boolean flag = false;
+		for (Mention mobj : getArray()) {
+			for(String to : mobj.getTO()) {
+				if (to.equals(user)) {
+					flag= true;
+				}
+				
+			}
+		}
+		return flag;
+	}
 
 	public boolean checkDoubles(Mention mention, String value) {
 

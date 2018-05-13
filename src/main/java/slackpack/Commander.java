@@ -165,6 +165,72 @@ public class Commander {
 				}
 
 				break;
+				
+			case "@mt":
+				if (InputCommand.length == 4) {
+
+					JFileScanner jfiles = new JFileScanner(dir.concat("/" + InputCommand[3]));
+					members = new ArrayMember(dir.concat("/users.json"));
+					channels = new ArrayChannel(dir.concat("/channels.json"), members);
+					ArrayMentions marrglobal = new ArrayMentions();
+					for (File file : jfiles.getArray()) {
+						ArrayMentions jmarr = new ArrayMentions(file.getCanonicalPath(), members,
+								channels.getChannel(InputCommand[3]).getMembersList());
+						marrglobal.mergeArray(jmarr.getArray());
+					}
+					if (marrglobal.getArray().size() > 0) {
+						if (marrglobal.checkUserTo(InputCommand[2])) 
+							marrglobal.printMentionTo(InputCommand[2]);
+						else {
+							System.out.println("THIS USER WAS NEVER MENTIONED IN THIS CHANNEL");
+							Helper.stampaLogo();
+							Helper.stampaHelp();
+						}
+						
+					} else {
+						System.out.println("\n NONE MENTIONS IN THIS CHANNEL TO THIS MEMBER");
+						Helper.stampaLogo();
+						Helper.stampaHelp();
+					}
+
+				} else if (InputCommand.length == 3) {
+
+					JFileScanner jfiles;
+					members = new ArrayMember(dir.concat("/users.json"));
+					channels = new ArrayChannel(dir.concat("/channels.json"), members);
+					ArrayList<String> channelslist = channels.getAllChannelsName();
+					ArrayMentions marrglobal = new ArrayMentions();
+					for (String channelname : channelslist) {
+						jfiles = new JFileScanner(dir.concat("/" + channelname));
+						for (File file : jfiles.getArray()) {
+							ArrayMentions jmarr = new ArrayMentions(file.getCanonicalPath(), members,
+									channels.getChannel(channelname).getMembersList());
+							marrglobal.mergeArray(jmarr.getArray());
+						}
+					}
+					if (marrglobal.getArray().size() > 0) {
+						if (marrglobal.checkUserTo(InputCommand[2])) 
+							marrglobal.printMentionTo(InputCommand[2]);
+						else {
+							System.out.println("THIS USER WAS NEVER MENTIONED IN THIS WORKSPACE");
+							Helper.stampaLogo();
+							Helper.stampaHelp();
+						}
+					} else {
+						System.out.println("\nNONE MENTIONS IN THIS WORKSPACE TO THIS MEMBER");
+						Helper.stampaLogo();
+						Helper.stampaHelp();
+					}
+
+				} else {
+					System.out.println("\nPlease type a valid command");
+					Helper.stampaLogo();
+					Helper.stampaHelp();
+				}
+
+				break;
+
+				
 			default:
 				Helper.stampaLogo();
 				Helper.stampaHelp();
