@@ -125,6 +125,11 @@ Una volta attivato, cliccate su **DETAILS** per vedere il _token privato_ associ
          - CI_NAME:travis-pro
          - COVERALLS_REPO_TOKEN=YOUR-PRIVATE-ALPHANUMERIC-TOKEN
    ```
+* Aggiungere in coda al file `.travis.yml` questo comando nel blocco _after_success:_:
+
+   ```yml
+   - ./gradlew jacocoTestReport coveralls  
+   ```
 
 ### Aggiornamento badge Coveralls in GitHub
 
