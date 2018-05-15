@@ -25,6 +25,11 @@ buildscript {
 	}
 }
 
+plugins {
+    id 'jacoco'
+    id 'com.github.kt3k.coveralls' version '2.6.3'
+}
+
 // Apply the java-library plugin to add support for Java Library
 apply plugin: 'java'
 apply plugin: 'application'
@@ -76,7 +81,7 @@ dependencies {
     compile 'com.google.guava:guava:21.0'
     
     // Compile all jars in the lib directory of the project
-    compile fileTree(dir:'lib', include: ['*.jar'])
+    //compile fileTree(dir:'lib', include: ['*.jar'])
     
     // JUnit Jupiter API and TestEngine implementation
     testCompile("org.junit.jupiter:junit-jupiter-api:5.0.0")
@@ -93,19 +98,12 @@ findbugs {
   sourceSets = [sourceSets.main]
 }
 
-tasks.withType(FindBugs) {
-    reports {
-        xml.enabled false
-        html.enabled true
-    }
-}
-
 pmd {
   ignoreFailures = true
-  //pmdTest.enabled=false
+  //pmdTest.enabled = false
   toolVersion = '5.8.1'
   consoleOutput = true
-  sourceSets = [sourceSets.main]
+  sourceSets = [sourceSets.main, sourceSets.test]
   ruleSets = [
             'java-basic',
             'java-braces',
@@ -122,7 +120,7 @@ pmd {
             'java-naming',
             'java-optimizations',
             'java-strictexception',
-             'java-strings',
+            'java-strings',
             'java-sunsecure',
             'java-typeresolution',
             'java-unnecessary',
@@ -162,6 +160,13 @@ task wrapper(type: Wrapper) {
 	gradleVersion = '4.6.1'
 }
 
+tasks.withType(FindBugs) {
+    reports {
+        xml.enabled false
+        html.enabled true
+    }
+}
+
 jacocoTestReport {
     // Show code coverage results
     group = "Reporting"
@@ -171,9 +176,9 @@ jacocoTestReport {
 
     reports {
         xml.enabled true
-        xml.destination "${buildDir}/reports/jacoco/report.xml"
+        xml.destination "${buildDir}/reports/jacoco/test/jacocoTestReport.xml"
         csv.enabled false
-        html.destination file("${buildDir}/reports/jacoco/reports.html")
+        html.destination file("${buildDir}/reports/jacoco/test/jacocoTestReport.html")
     }
 }
 
