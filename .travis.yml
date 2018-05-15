@@ -1,6 +1,6 @@
 global:
     - CI_NAME:travis-pro
-    - COVERALLS_REPO_TOKEN=
+    - COVERALLS_REPO_TOKEN= YbNF5RA69yJ9C6fdZwK62UEeMOgV8TKNG
 
 sudo: required
 
