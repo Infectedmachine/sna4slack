@@ -1,8 +1,8 @@
-﻿# sna4slack [![Build Status](https://travis-ci.com/softeng-inf-uniba/progetto1718-dijkstra.svg?token=mh8tmD3vdjv9iRRBL5pB&branch=master)](https://travis-ci.com/softeng-inf-uniba/progetto1718-dijkstra)
+﻿# sna4slack [![Build Status](https://travis-ci.com/softeng-inf-uniba/progetto1718-dijkstra.svg?token=mh8tmD3vdjv9iRRBL5pB&branch=master)](https://travis-ci.com/softeng-inf-uniba/progetto1718-dijkstra) [![Coverage Status](https://coveralls.io/repos/github/softeng-inf-uniba/progetto1718-dijkstra/badge.svg?t=EBFePN)](https://coveralls.io/github/softeng-inf-uniba/progetto1718-dijkstra)
 La struttura della repository si presenta nel seguente modo:
 ```
-|-- build
-|    |-- reports
+|–– build
+|    |–– reports
 |–– config
 |    |–– checkstyle
 |–– doc
@@ -15,7 +15,7 @@ La struttura della repository si presenta nel seguente modo:
 |–– src
 |    |–– main
 |    |–– test
-|-- .coveralls.yml
+|–– .coveralls.yml
 |–– .gitignore
 |–– .travis.yml
 |–– build.gradle
@@ -23,7 +23,7 @@ La struttura della repository si presenta nel seguente modo:
 |–– Guida per lo studente.md
 |–– README.md
 |–– gradlew
-|–– gradle.bat
+|–– gradlew.bat
 |–– settings.gradle
 ```
 
