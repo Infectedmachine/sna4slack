@@ -1,23 +1,29 @@
 package slackpack;
 
 import net.lingala.zip4j.exception.ZipException;
-
 import net.lingala.zip4j.core.ZipFile;
-
 import java.io.File;
 
-
-
-public class ExtractZip {
+public class Zip {	
+	private String dirpath;
 	
-	String dirsource;
-
-	public ExtractZip(String source) {
+	public Zip() {
+		this.setDirPath(""); 
+	}
+	
+	public final void setDirPath(String path) {
+		this.dirpath = path; 
+	}
+	
+	public String getDirPath() {
+		return this.dirpath; 
+	}
+	
+	public final void extractZip(String source) {
 
 		String destination = source.replace(".zip", "");
 		destination = destination.replace("\\", File.separator);
 		String password = "";
-
 		try {
 			ZipFile zipFile = new ZipFile(source);
 			if (zipFile.isEncrypted()) {
@@ -27,13 +33,9 @@ public class ExtractZip {
 			System.out.println("WORKSPACE FILES EXTRACTED IN THE FOLLOWING DIRECTORY:  ");
 			System.out.println(destination);
 			System.out.println("\n");
-			
-			
-		// 	StampaHelp.stampaHelp();
 		} catch (ZipException e) {
-			System.out.println("\nERROR: WRONG DIRECTORY");
+			System.out.println(e + "\nERROR: WRONG DIRECTORY");
 		}
-		
-		this.dirsource=destination;
+		this.setDirPath(destination);
 	}
 }

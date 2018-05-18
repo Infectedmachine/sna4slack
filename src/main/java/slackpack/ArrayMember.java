@@ -1,87 +1,78 @@
 package slackpack;
 
-import slackpack.Member;
 import java.util.ArrayList;
 
+import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
 
 public class ArrayMember {
-
-	ArrayList<Member> members;
+	private ArrayList<Member> members;
 
 	public ArrayMember() {
-
-		setArray(new ArrayList<Member>());
+		this.setArray(new ArrayList<Member>());
 	}
 
-	public ArrayMember(String filedir) {
-
-		WSParser parser = new WSParser(filedir);
-		setArray(new ArrayList<Member>());
-
-		for (Object obj : parser.Array()) {
-			JSONObject jobj = (JSONObject) obj;
-			JSONObject tmp = (JSONObject) jobj.get("profile");
-			Member mobj = new Member();
-			if (tmp.get("display_name") != null)
-				mobj.setDisplayName((String) tmp.get("display_name"));
-			else
-				mobj.setDisplayName("");
-			mobj.setRealName((String) tmp.get("real_name"));
-			mobj.setName((String) jobj.get("name"));
-			mobj.setID((String) jobj.get("id"));
-			if ((boolean) jobj.get("deleted"))
-				mobj.setDeleted(true);
-			addMember(mobj);
-
+	public final void fillArrayFromJSONArray(JSONArray jsonarray) throws Exception {
+		if (jsonarray == null)
+			throw new Exception("JSON FILE'S CONTENT IS NULL");
+		else {
+			for (Object obj : jsonarray) {
+				JSONObject json = (JSONObject) obj;
+				Member member = new Member();
+				member.fillMemberFromJSONObject(json);
+				this.addMember(member);
+			}
 		}
 	}
 
 	public void addMember(Member member) {
-		getArray().add(member);
+		this.getArray().add(member);
 	}
 
 	public ArrayList<Member> getArray() {
-
 		return this.members;
 	}
 
-	public void setArray(ArrayList<Member> marr) {
-
-		this.members = marr;
+	public final void setArray(ArrayList<Member> members) {
+		this.members = members;
 	}
 
 	public void printArray() {
-
-		if (getArray().size() > 0) {
-			for (Member member : getArray()) {
+		if (this.getArray().size() > 0) {
+			for (Member member : this.getArray()) {
 				System.out.println(member.getNameByPriority());
 			}
 		} else
 			System.out.println("NONE MEMBERS");
 	}
 
-	public ArrayMember getMembersbyID(ArrayList<String> idarr) {
-
-		ArrayMember convertedarr = new ArrayMember();
-
-		for (String id : idarr) {
-			for (Member member : getArray()) {
-				if (member.getID().equals(id)) {
-					convertedarr.addMember(member);
-				}
-			}
-
-		}
-
-		return convertedarr;
+	public ArrayMember extractMembersSelectedByIds(ArrayList<String> idarray) {
+		ArrayMember members = new ArrayMember();
+		for (String id : idarray)
+			if (this.checkMemberById(id))
+				members.addMember(this.getMemberById(id));
+		return members;
 	}
-	
-	public boolean checkMemberByID(String id) {
-		for (Member member : getArray()) {
-			if (member.getID().equals(id))
-				return true; 
+
+	public Member getMemberById(String id) {
+		for (Member member : this.getArray())
+			if (member.checkId(id))
+				return member;
+		return null;
+	}
+
+	public boolean checkMemberById(String id) {
+		for (Member member : this.getArray()) {
+			if (member.checkId(id))
+				return true;
 		}
-		return false; 
+		return false;
+	}
+
+	public Member getMemberByName(String name) throws Exception {
+		for (Member member : this.getArray())
+			if (member.getNameByPriority().equals(name))
+				return member;
+		throw new Exception ("NONE MEMBER BY THIS NAME");
 	}
 }

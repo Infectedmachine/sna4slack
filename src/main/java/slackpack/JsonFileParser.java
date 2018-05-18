@@ -3,22 +3,22 @@ package slackpack;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-
 import org.json.simple.JSONArray;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
-public class WSParser {
+public class JsonFileParser {
+	private JSONArray contentsarray; 
 	
-	JSONParser parser; 
-	JSONArray jarr; 
-	
-	public WSParser(String filedir) {
+	public JsonFileParser() {
+		this.setArray(new JSONArray()); 
+	}
+	public final void fillContentsFromJSONFileDir(String filedir) {
 		
-		this.parser = new JSONParser();
+		JSONParser parser = new JSONParser();
 		try {
 			
-			this.jarr = (JSONArray) parser.parse(new FileReader(filedir));
+			this.setArray((JSONArray) parser.parse(new FileReader(filedir)));
 			
 			} catch (FileNotFoundException e) {
 				System.out.println("JSON File not found");
@@ -30,7 +30,11 @@ public class WSParser {
 
 	}
 	
-	public JSONArray Array() {
-		return this.jarr; 
+	public final void setArray(JSONArray jsonarray) {
+		this.contentsarray = jsonarray; 
+	}
+	
+	public JSONArray getArray() {
+		return this.contentsarray; 
 	}	
 }

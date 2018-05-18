@@ -1,81 +1,83 @@
 package slackpack;
 
-public class Member {
+import org.json.simple.JSONObject;
 
-	String id;
-	String name;
-	String realname;
-	String displayname;
-	boolean deleted;
+public class Member {
+	private String id;
+	private String name;
+	private String realname;
+	private String displayname;
+	private boolean deleted;
 
 	public Member() {
-
-		setID("");
-		setName("");
-		setRealName("");
-		setDisplayName("");
-		setDeleted(false);
-
+		this.setID("");
+		this.setName("");
+		this.setRealName("");
+		this.setDisplayName("");
+		this.setDeleted(false);
 	}
 
-	public void setDisplayName(String name) {
-		this.displayname = name;
+	public final void fillMemberFromJSONObject(JSONObject user) {
+		JSONObject userprofile = (JSONObject) user.get("profile"); 
+		this.setRealName((String) user.get("real_name"));
+		this.setName((String) user.get("name"));
+		this.setID((String) user.get("id"));
+		if ((boolean) user.get("deleted"))
+			this.setDeleted(true);
+		if (userprofile.get("display_name") != null)
+			this.setDisplayName((String) userprofile.get("display_name"));
+	}
+
+	public final void setDisplayName(String displayname) {
+		this.displayname = displayname;
 	}
 
 	public String getDisplayName() {
 		return this.displayname;
 	}
 
-	public void setDeleted(boolean flag) {
+	public final void setDeleted(boolean flag) {
 		this.deleted = flag;
 	}
 
 	public boolean getDeleted() {
-
 		return this.deleted;
-
 	}
 
-	public void setRealName(String realname) {
-
+	public final void setRealName(String realname) {
 		this.realname = realname;
-
 	}
 
-	public void setName(String name) {
-
+	public final void setName(String name) {
 		this.name = name;
-
 	}
 
-	public void setID(String id) {
-
+	public final void setID(String id) {
 		this.id = id;
 	}
 
 	public String getID() {
-
 		return this.id;
 	}
 
 	public String getName() {
-
 		return this.name;
 	}
 
 	public String getRealName() {
-
 		return this.realname;
-
+	}
+	
+	public boolean checkId(String id) {
+		return (this.getID().equals(id) ? true : false); 
 	}
 
 	public String getNameByPriority() {
-		if (getDisplayName().length() > 0)
-			return getDisplayName();
-		else if (getRealName().length() > 0)
-			return getRealName();
+		if (this.getDisplayName().length() > 0)
+			return this.getDisplayName();
+		else if (this.getRealName().length() > 0)
+			return this.getRealName();
 		else
-			return getName();
+			return this.getName();
 	}
-
 }
