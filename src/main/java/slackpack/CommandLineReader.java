@@ -78,7 +78,7 @@ public class CommandLineReader {
 				this.setChannelName(inputcommand[3]);
 			} else
 				if (inputcommand.length == 3){
-					if (this.getInputCommand().equals("@m") || this.getInputCommand().equals("-cm"))
+					if (this.getInputCommand().matches("-cm|@m|@mw"))
 						this.setChannelName(inputcommand[2]);
 					else
 						this.setUsername(inputcommand[2]);
