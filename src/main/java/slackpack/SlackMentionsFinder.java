@@ -135,11 +135,12 @@ public class SlackMentionsFinder {
 				}
 			}
 		} else {
-			System.out.println("NONE MENTIONS BY THIS USER");
+			System.out.println("NONE MENTIONS TO THIS USER");
 		}
 	}
 
 	public void printNamedMentionsWithWeight() {
+		if (!this.getMentions().getArray().isEmpty()) {
 		for (Mention mention : this.getMentions().getArray()) {
 			for (String id : mention.getTO()) {
 				System.out.println("FROM: " + this.getMembers().getMemberById(mention.getFROM()).getNameByPriority()
@@ -147,6 +148,9 @@ public class SlackMentionsFinder {
 						+ mention.getWeight().get(id));
 			}
 			System.out.println("");
+		}
+		} else {
+			System.out.println("NONE MENTIONS");
 		}
 	}
 
