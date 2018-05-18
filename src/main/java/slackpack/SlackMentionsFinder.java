@@ -35,6 +35,15 @@ public class SlackMentionsFinder {
 		return this.getMentions().getArray().isEmpty();
 	}
 
+	public boolean isAbsent(String iduser) {
+		for (Mention mention : this.getMentions().getArray()) {
+			if (mention.getFROM().equals(iduser)) {
+				return false;
+			}
+		}
+		return true;
+	}
+
 	public final void executeFinderOnChannel(String channelname) throws Exception {
 		this.initializeMembers();
 		this.initializeChannels();
@@ -108,47 +117,55 @@ public class SlackMentionsFinder {
 
 	public void printNamedMentionsFROM(String iduser) {
 		if (!this.getMentions().getArray().isEmpty()) {
-			for (Mention mention : this.getMentions().getArray()) {
-				if (mention.getFROM().equals(iduser)) {
-					for (String id : mention.getTO()) {
-						System.out.println(
-								"FROM: " + this.getMembers().getMemberById(mention.getFROM()).getNameByPriority()
-										+ " TO: " + this.getMembers().getMemberById(id).getNameByPriority());
+			if (!this.isAbsent(iduser)) {
+				for (Mention mention : this.getMentions().getArray()) {
+					if (mention.getFROM().equals(iduser)) {
+						for (String id : mention.getTO()) {
+							System.out.println(
+									"FROM: " + this.getMembers().getMemberById(mention.getFROM()).getNameByPriority()
+											+ " TO: " + this.getMembers().getMemberById(id).getNameByPriority());
+						}
+						System.out.println("");
 					}
-					System.out.println("");
 				}
+			} else {
+				System.out.println("NONE MENTION BY THIS USER");
 			}
 		} else {
-			System.out.println("NONE MENTIONS BY THIS USER");
+			System.out.println("NONE MENTIONS");
 		}
 	}
 
 	public void printNamedMentionsTO(String iduser) {
 		if (!this.getMentions().getArray().isEmpty()) {
-			for (Mention mention : this.getMentions().getArray()) {
-				for (String id : mention.getTO()) {
-					if (id.equals(iduser)) {
-						System.out.println(
-								"FROM: " + this.getMembers().getMemberById(mention.getFROM()).getNameByPriority()
-										+ " TO: " + this.getMembers().getMemberById(id).getNameByPriority());
+			if (!this.isAbsent(iduser)) {
+				for (Mention mention : this.getMentions().getArray()) {
+					for (String id : mention.getTO()) {
+						if (id.equals(iduser)) {
+							System.out.println(
+									"FROM: " + this.getMembers().getMemberById(mention.getFROM()).getNameByPriority()
+											+ " TO: " + this.getMembers().getMemberById(id).getNameByPriority());
+						}
 					}
 				}
+			} else {
+				System.out.println("NONE MENTION TO THIS USER");
 			}
 		} else {
-			System.out.println("NONE MENTIONS TO THIS USER");
+			System.out.println("NONE MENTIONS");
 		}
 	}
 
 	public void printNamedMentionsWithWeight() {
 		if (!this.getMentions().getArray().isEmpty()) {
-		for (Mention mention : this.getMentions().getArray()) {
-			for (String id : mention.getTO()) {
-				System.out.println("FROM: " + this.getMembers().getMemberById(mention.getFROM()).getNameByPriority()
-						+ " TO: " + this.getMembers().getMemberById(id).getNameByPriority() + " WEIGHT: "
-						+ mention.getWeight().get(id));
+			for (Mention mention : this.getMentions().getArray()) {
+				for (String id : mention.getTO()) {
+					System.out.println("FROM: " + this.getMembers().getMemberById(mention.getFROM()).getNameByPriority()
+							+ " TO: " + this.getMembers().getMemberById(id).getNameByPriority() + " WEIGHT: "
+							+ mention.getWeight().get(id));
+				}
+				System.out.println("");
 			}
-			System.out.println("");
-		}
 		} else {
 			System.out.println("NONE MENTIONS");
 		}
@@ -156,36 +173,44 @@ public class SlackMentionsFinder {
 
 	public void printNamedMentionsWithWeightFROM(String iduser) {
 		if (!this.getMentions().getArray().isEmpty()) {
-			for (Mention mention : this.getMentions().getArray()) {
-				if (mention.getFROM().equals(iduser)) {
-					for (String id : mention.getTO()) {
-						System.out.println(
-								"FROM: " + this.getMembers().getMemberById(mention.getFROM()).getNameByPriority()
-										+ " TO: " + this.getMembers().getMemberById(id).getNameByPriority()
-										+ " WEIGHT: " + mention.getWeight().get(id));
+			if (!this.isAbsent(iduser)) {
+				for (Mention mention : this.getMentions().getArray()) {
+					if (mention.getFROM().equals(iduser)) {
+						for (String id : mention.getTO()) {
+							System.out.println(
+									"FROM: " + this.getMembers().getMemberById(mention.getFROM()).getNameByPriority()
+											+ " TO: " + this.getMembers().getMemberById(id).getNameByPriority()
+											+ " WEIGHT: " + mention.getWeight().get(id));
+						}
+						System.out.println("");
 					}
-					System.out.println("");
 				}
+			} else {
+				System.out.println("NONE MENTION BY THIS USER");
 			}
 		} else {
-			System.out.println("NONE MENTIONS BY THIS USER");
+			System.out.println("NONE MENTIONS");
 		}
 	}
 
 	public void printNamedMentionsWhithWheightTO(String iduser) {
 		if (!this.getMentions().getArray().isEmpty()) {
-			for (Mention mention : this.getMentions().getArray()) {
-				for (String id : mention.getTO()) {
-					if (id.equals(iduser)) {
-						System.out.println(
-								"FROM: " + this.getMembers().getMemberById(mention.getFROM()).getNameByPriority()
-										+ " TO: " + this.getMembers().getMemberById(id).getNameByPriority()
-										+ " WEIGHT: " + mention.getWeight().get(id));
+			if (!this.isAbsent(iduser)) {
+				for (Mention mention : this.getMentions().getArray()) {
+					for (String id : mention.getTO()) {
+						if (id.equals(iduser)) {
+							System.out.println(
+									"FROM: " + this.getMembers().getMemberById(mention.getFROM()).getNameByPriority()
+											+ " TO: " + this.getMembers().getMemberById(id).getNameByPriority()
+											+ " WEIGHT: " + mention.getWeight().get(id));
+						}
 					}
 				}
+			} else {
+				System.out.println("NONE MENTION TO THIS USER");
 			}
 		} else {
-			System.out.println("NONE MENTIONS TO THIS USER");
+			System.out.println("NONE MENTIONS");
 		}
 	}
 
