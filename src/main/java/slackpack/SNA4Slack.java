@@ -269,6 +269,22 @@ public class SNA4Slack {
 							.getMemberByName(SNA4Slack.this.getCommand().getUsername()).getID());
 				}
 			});
+			this.getCommandsTable().put("@mtw", new Command() {
+				@Override
+				public void runCommand() throws Exception {
+					SNA4Slack.this.extractZipFile();
+					SNA4Slack.this.initializeSlackMentionsFinder();
+					if (SNA4Slack.this.getCommand().getChannelName().isEmpty()) {
+						SNA4Slack.this.getMentions().executeFinderOnWorkspace();
+
+					} else {
+						SNA4Slack.this.getMentions()
+								.executeFinderOnChannel(SNA4Slack.this.getCommand().getChannelName());
+					}
+					SNA4Slack.this.getMentions().printNamedMentionsWhithWheightTO(SNA4Slack.this.getMentions().getMembers()
+							.getMemberByName(SNA4Slack.this.getCommand().getUsername()).getID());
+				}
+			});
 		}
 
 	}
