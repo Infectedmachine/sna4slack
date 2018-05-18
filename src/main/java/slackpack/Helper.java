@@ -17,6 +17,8 @@ public interface Helper {
 	        System.out.print("@mt <membro> <canale>\tVisualizza tutti i mention del canale che arrivano ad un membro\n");
 	        System.out.print("@mw\t\t\tVisualizza tutti i mention del workspace col relativo peso\n");
 	        System.out.print("@mw <canale>\t\tVisualizza tutti i mention del canale col relativo peso\n");
+	        System.out.print("@mfw <membro>\t\tVisualizza tutti i mention pesati del workspace che partono da un membro\n");
+	        System.out.print("@mfw <membro> <canale>\tVisualizza tutti i mention pesati del canale che partono da un membro\n");
 	        System.out.print("help\t\t\tVisualizza lista comandi\n");
 	        System.out.print("ns/path/file.zip -cm dijkstra (Esempio per visualizzare i membri del gruppo dijkstra)\n");
 	        System.out.print("\n<N.B. Docker: Creare una directory virtuale all'interno del conteiner>\n");

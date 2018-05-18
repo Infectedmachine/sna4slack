@@ -30,7 +30,8 @@ public class CommandLineReader {
 		this.CommandTable.put("@m", "MENTIONS");
 		this.CommandTable.put("@mf", "MENTIONS_FROM");
 		this.CommandTable.put("@mt", "MENTIONS_TO");
-		this.CommandTable.put("@mw", "MENTIONS_WIEGHT");
+		this.CommandTable.put("@mw", "MENTIONS_WEIGHT");
+		this.CommandTable.put("@mfw", "MENTIONS_FROM_WEIGHT");
 	}
 
 	public final void setWorkspaceDir(String workspacedir) {

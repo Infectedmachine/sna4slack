@@ -154,6 +154,24 @@ public class SlackMentionsFinder {
 		}
 	}
 
+	public void printNamedMentionsWithWeightFROM(String iduser) {
+		if (!this.getMentions().getArray().isEmpty()) {
+			for (Mention mention : this.getMentions().getArray()) {
+				if (mention.getFROM().equals(iduser)) {
+					for (String id : mention.getTO()) {
+						System.out.println(
+								"FROM: " + this.getMembers().getMemberById(mention.getFROM()).getNameByPriority()
+										+ " TO: " + this.getMembers().getMemberById(id).getNameByPriority()
+										+ " WEIGHT: " + mention.getWeight().get(id));
+					}
+					System.out.println("");
+				}
+			}
+		} else {
+			System.out.println("NONE MENTIONS BY THIS USER");
+		}
+	}
+
 	public final void setWorkspaceDir(String dir) {
 		this.workspacedir = dir;
 	}
