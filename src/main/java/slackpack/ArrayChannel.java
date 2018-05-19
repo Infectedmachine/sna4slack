@@ -29,7 +29,6 @@ public class ArrayChannel {
 	}
 
 	private final void setMembersArray(ArrayMember slackmembers) {
-		this.slackmembers = new ArrayMember();
 		this.slackmembers = slackmembers;
 	}
 
