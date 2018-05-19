@@ -36,7 +36,7 @@ public class JFileScanner {
 				}
 			}
 		} catch (Exception e) {
-			System.out.println("\nWRONG WORKSPACE DIRECTORY");
+			System.out.println("\nWRONG CHANNEL NAME");
 		}
 	}
 
