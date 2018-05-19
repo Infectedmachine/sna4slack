@@ -35,10 +35,21 @@ public class SlackMentionsFinder {
 		return this.getMentions().getArray().isEmpty();
 	}
 
-	public boolean isAbsent(String iduser) {
+	public boolean isAbsentFrom(String iduser) {
 		for (Mention mention : this.getMentions().getArray()) {
 			if (mention.getFROM().equals(iduser)) {
 				return false;
+			}
+		}
+		return true;
+	}
+
+	public boolean isAbsentTo(String iduser) {
+		for (Mention mention : this.getMentions().getArray()) {
+			for (String id : mention.getTO()) {
+				if (id.equals(iduser)) {
+					return false;
+				}
 			}
 		}
 		return true;
@@ -116,7 +127,7 @@ public class SlackMentionsFinder {
 	}
 
 	public void printNamedMentionsFROM(String iduser) {
-		if (!this.getMentions().getArray().isEmpty() && !this.isAbsent(iduser)) {
+		if (!this.getMentions().getArray().isEmpty() && !this.isAbsentFrom(iduser)) {
 				for (Mention mention : this.getMentions().getArray()) {
 					if (mention.getFROM().equals(iduser)) {
 						for (String id : mention.getTO()) {
@@ -133,7 +144,7 @@ public class SlackMentionsFinder {
 	}
 
 	public void printNamedMentionsTO(String iduser) {
-		if (!this.getMentions().getArray().isEmpty()) {
+		if (!this.getMentions().getArray().isEmpty() && !this.isAbsentTo(iduser)) {
 				for (Mention mention : this.getMentions().getArray()) {
 					for (String id : mention.getTO()) {
 						if (id.equals(iduser)) {
@@ -164,7 +175,7 @@ public class SlackMentionsFinder {
 	}
 
 	public void printNamedMentionsWithWeightFROM(String iduser) {
-		if (!this.getMentions().getArray().isEmpty() && !this.isAbsent(iduser)) {
+		if (!this.getMentions().getArray().isEmpty() && !this.isAbsentFrom(iduser)) {
 				for (Mention mention : this.getMentions().getArray()) {
 					if (mention.getFROM().equals(iduser)) {
 						for (String id : mention.getTO()) {
@@ -182,7 +193,7 @@ public class SlackMentionsFinder {
 	}
 
 	public void printNamedMentionsWhithWheightTO(String iduser) {
-		if (!this.getMentions().getArray().isEmpty()) {
+		if (!this.getMentions().getArray().isEmpty() && !this.isAbsentTo(iduser)) {
 				for (Mention mention : this.getMentions().getArray()) {
 					for (String id : mention.getTO()) {
 						if (id.equals(iduser)) {
