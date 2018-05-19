@@ -116,8 +116,7 @@ public class SlackMentionsFinder {
 	}
 
 	public void printNamedMentionsFROM(String iduser) {
-		if (!this.getMentions().getArray().isEmpty()) {
-			if (!this.isAbsent(iduser)) {
+		if (!this.getMentions().getArray().isEmpty() && !this.isAbsent(iduser)) {
 				for (Mention mention : this.getMentions().getArray()) {
 					if (mention.getFROM().equals(iduser)) {
 						for (String id : mention.getTO()) {
@@ -128,17 +127,13 @@ public class SlackMentionsFinder {
 						System.out.println("");
 					}
 				}
-			} else {
-				System.out.println("NONE MENTION BY THIS USER");
-			}
 		} else {
-			System.out.println("NONE MENTIONS");
+			System.out.println("NONE MENTIONS BY THIS USER");
 		}
 	}
 
 	public void printNamedMentionsTO(String iduser) {
 		if (!this.getMentions().getArray().isEmpty()) {
-			if (!this.isAbsent(iduser)) {
 				for (Mention mention : this.getMentions().getArray()) {
 					for (String id : mention.getTO()) {
 						if (id.equals(iduser)) {
@@ -148,11 +143,8 @@ public class SlackMentionsFinder {
 						}
 					}
 				}
-			} else {
-				System.out.println("NONE MENTION TO THIS USER");
-			}
 		} else {
-			System.out.println("NONE MENTIONS");
+			System.out.println("NONE MENTIONS TO THIS USER");
 		}
 	}
 
@@ -172,8 +164,7 @@ public class SlackMentionsFinder {
 	}
 
 	public void printNamedMentionsWithWeightFROM(String iduser) {
-		if (!this.getMentions().getArray().isEmpty()) {
-			if (!this.isAbsent(iduser)) {
+		if (!this.getMentions().getArray().isEmpty() && !this.isAbsent(iduser)) {
 				for (Mention mention : this.getMentions().getArray()) {
 					if (mention.getFROM().equals(iduser)) {
 						for (String id : mention.getTO()) {
@@ -185,17 +176,13 @@ public class SlackMentionsFinder {
 						System.out.println("");
 					}
 				}
-			} else {
-				System.out.println("NONE MENTION BY THIS USER");
-			}
 		} else {
-			System.out.println("NONE MENTIONS");
+			System.out.println("NONE MENTIONS BY THIS USER");
 		}
 	}
 
 	public void printNamedMentionsWhithWheightTO(String iduser) {
 		if (!this.getMentions().getArray().isEmpty()) {
-			if (!this.isAbsent(iduser)) {
 				for (Mention mention : this.getMentions().getArray()) {
 					for (String id : mention.getTO()) {
 						if (id.equals(iduser)) {
@@ -206,11 +193,8 @@ public class SlackMentionsFinder {
 						}
 					}
 				}
-			} else {
-				System.out.println("NONE MENTION TO THIS USER");
-			}
 		} else {
-			System.out.println("NONE MENTIONS");
+			System.out.println("NONE MENTIONS TO THIS USER");
 		}
 	}
 
