@@ -1,27 +1,28 @@
 package slackpack;
 
-import org.json.simple.JSONObject; 
 import java.util.ArrayList;
+
+import org.json.simple.JSONObject;
 
 public class Channel {
 
 	private String id;
 	private String name;
 	private String idcreator;
-	private boolean archived; 
+	private boolean archived;
 	private ArrayMember channelmembers;
-	private ArrayMember slackmembers; 
-	
+	private ArrayMember slackmembers;
+
 	public Channel(ArrayMember slackmembers) {
 
 		setID("");
 		setName("");
 		setIDCreator("");
-		setArchived(false); 
+		setArchived(false);
 		setArray(new ArrayMember());
-		setSlackArray(slackmembers); 
+		setSlackArray(slackmembers);
 	}
-	
+
 	@SuppressWarnings("unchecked")
 	public final void fillChannelFromJSONObject(JSONObject channels) {
 		ArrayList<String> channelsmembersid = (ArrayList<String>) channels.get("members");
@@ -29,25 +30,24 @@ public class Channel {
 		this.setID((String) channels.get("id"));
 		this.setIDCreator((String) channels.get("creator"));
 		this.setArchived((boolean) channels.get("is_archived"));
-		this.setArray(this.getSlackArray().extractMembersSelectedByIds(channelsmembersid)); 
-		
+		this.setArray(this.getSlackArray().extractMembersSelectedByIds(channelsmembersid));
+
 	}
-	
+
 	private void setSlackArray(ArrayMember slackmembers) {
-		this.slackmembers = new ArrayMember(); 
-		this.slackmembers = slackmembers; 
+		this.slackmembers = slackmembers;
 	}
-	
+
 	private ArrayMember getSlackArray() {
-		return this.slackmembers; 
+		return this.slackmembers;
 	}
-	
+
 	public final void setArchived(boolean flag) {
-		this.archived = flag; 
+		this.archived = flag;
 	}
-	
+
 	public boolean getArchived() {
-		return this.archived; 
+		return this.archived;
 	}
 
 	public final void setName(String name) {

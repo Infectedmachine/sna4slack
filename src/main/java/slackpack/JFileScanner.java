@@ -24,15 +24,19 @@ public class JFileScanner {
 		try {
 			if (dir != null) {
 				File[] files = dir.listFiles();
-				for (File file : files) {
-					if (file.isDirectory()) {
-						scanDirectory(file);
-					} else if (file.getName().equals("users.json") || file.getName().equals("channels.json")
-							|| file.getName().equals("integration_logs.json")) {
-						// DO NOTHING
-					} else {
-						jfiles.add(file);
+				if (files != null) {
+					for (File file : files) {
+						if (file.isDirectory()) {
+							scanDirectory(file);
+						} else if (file.getName().equals("users.json") || file.getName().equals("channels.json")
+								|| file.getName().equals("integration_logs.json")) {
+							// DO NOTHING
+						} else {
+							jfiles.add(file);
+						}
 					}
+				} else {
+					System.out.println("\nWRONG CHANNEL NAME");
 				}
 			}
 		} catch (Exception e) {
