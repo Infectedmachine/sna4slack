@@ -4,7 +4,8 @@ import java.io.File;
 import java.util.ArrayList;
 
 /**
- * Gets all of the JSON files paths extracted from the directory specified in the constructor.
+ * Gets all of the JSON files paths extracted from the directory specified in
+ * the constructor.
  *
  * @author aleningi
  *
@@ -16,7 +17,6 @@ public class JFileScanner {
 	 */
 	private ArrayList<File> jfiles;
 
-
 	/**
 	 * Allocates the space for the only attribute of the class, an array of files.
 	 */
@@ -24,10 +24,11 @@ public class JFileScanner {
 		this.setArray(new ArrayList<File>());
 	}
 
-
 	/**
 	 * Allocates the space for the only attribute of the class and initializes it.
-	 * @param dir  path of directory.
+	 *
+	 * @param dir
+	 *            path of directory.
 	 */
 	public JFileScanner(final String dir) {
 		jfiles = new ArrayList<File>();
@@ -41,7 +42,9 @@ public class JFileScanner {
 
 	/**
 	 * Scans the directory for JSON files and adds them to jfiles.
-	 * @param dir  directory to work with.
+	 *
+	 * @param dir
+	 *            directory to work with.
 	 */
 	public void scanDirectory(final File dir) {
 		try {
@@ -51,7 +54,7 @@ public class JFileScanner {
 					for (File file : files) {
 						if (file.isDirectory()) {
 							scanDirectory(file);
-						} else if (!file.getName().matches("users.json|integration_logs.json|channels.json")){
+						} else if (!file.getName().matches("users.json|integration_logs.json|channels.json")) {
 							jfiles.add(file);
 						}
 					}
@@ -66,7 +69,9 @@ public class JFileScanner {
 
 	/**
 	 * Sets the class attribute to the specified parameter.
-	 * @param jsonfiles  array of files
+	 *
+	 * @param jsonfiles
+	 *            array of files
 	 */
 	public final void setArray(final ArrayList<File> jsonfiles) {
 		this.jfiles = jsonfiles;
@@ -74,7 +79,8 @@ public class JFileScanner {
 
 	/**
 	 * Returns the class attribute.
-	 * @return jfiles  array of files.
+	 *
+	 * @return jfiles array of files.
 	 */
 	public ArrayList<File> getArray() {
 		return this.jfiles;

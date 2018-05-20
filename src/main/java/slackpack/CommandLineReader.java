@@ -30,6 +30,22 @@ public class CommandLineReader {
 	 * Public constant, the max numbers of parameters.
 	 **/
 	public static final int MAX_PARAMETERS = 4;
+	/**
+	 * Public constant, the index of the workspace.
+	 **/
+	public static final int INDEX_WORKSPACE = 0;
+	/**
+	 * Public constant, the index of command.
+	 **/
+	public static final int INDEX_COMMAND = 1;
+	/**
+	 * Public constant, the index of user name.
+	 **/
+	public static final int INDEX_USERNAME = 2;
+	/**
+	 * Public constant, the index of channel name.
+	 **/
+	public static final int INDEX_CHNAME = 3;
 
 	/**
 	 * Public constructor.
@@ -151,17 +167,17 @@ public class CommandLineReader {
 		if (icommand.length < 2 || !isValidCommand(icommand[1])) {
 			throw new Exception("INVALID COMMAND");
 		} else {
-			this.setWorkspaceDir(icommand[0]);
-			this.setInputCommand(icommand[1]);
-			if (icommand.length == MAX_PARAMETERS) {
-				this.setUsername(icommand[2]);
-				this.setChannelName(icommand[3]);
+			this.setWorkspaceDir(icommand[INDEX_WORKSPACE]);			//position 0
+			this.setInputCommand(icommand[INDEX_COMMAND]);				//position 1
+			if (icommand.length == MAX_PARAMETERS) {					// 4
+				this.setUsername(icommand[INDEX_USERNAME]);				//position 2
+				this.setChannelName(icommand[INDEX_CHNAME]);			//position 3
 			} else
-				if (icommand.length == MAX_PARAMETERS - 1) {
+				if (icommand.length == MAX_PARAMETERS - 1) {			// 3
 					if (this.getInputCommand().matches("-cm|@m|@mw")) {
-						this.setChannelName(icommand[2]);
+						this.setChannelName(icommand[INDEX_USERNAME]);	//position 2
 					} else {
-						this.setUsername(icommand[2]);
+						this.setUsername(icommand[INDEX_USERNAME]);		//position 2
 					}
 			}
 		}
