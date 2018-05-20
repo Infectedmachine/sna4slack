@@ -51,10 +51,7 @@ public class JFileScanner {
 					for (File file : files) {
 						if (file.isDirectory()) {
 							scanDirectory(file);
-						} else if (file.getName().equals("users.json") || file.getName().equals("channels.json")
-								|| file.getName().equals("integration_logs.json")) {
-							// DO NOTHING
-						} else {
+						} else if (!file.getName().matches("users.json|integration_logs.json|channels.json")){
 							jfiles.add(file);
 						}
 					}
@@ -83,3 +80,4 @@ public class JFileScanner {
 		return this.jfiles;
 	}
 }
+
