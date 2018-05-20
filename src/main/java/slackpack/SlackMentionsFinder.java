@@ -2,19 +2,44 @@ package slackpack;
 
 import java.io.IOException;
 
+/**
+ * This class consists of the attributes and methods to find and print mentions.
+ **/
 public class SlackMentionsFinder {
+	/**
+	 * Private attribute mentions, an ArrayMentions.
+	 **/
 	private ArrayMentions mentions;
+	/**
+	 * Private attribute members, an ArrayMembers.
+	 **/
 	private ArrayMember members;
+	/**
+	 * Private attribute channels, an ArrayChannels.
+	 **/
 	private ArrayChannel channels;
+	/**
+	 * Private attribute workspacedir,the workspace path.
+	 **/
 	private String workspacedir;
 
-	public SlackMentionsFinder(String dir) {
+	/**
+	 * Public constructor.
+	 *
+	 * @param dir the path of the workspace
+	 **/
+	public SlackMentionsFinder(final String dir) {
 		this.setMentions(new ArrayMentions());
 		this.setMembers(new ArrayMember());
 		this.setChannels(new ArrayChannel(this.getMembers()));
 		this.setWorkspaceDir(dir);
 	}
 
+	/**
+	 * This method populates the mentions from all channels.
+	 *
+	 * @throws Exception IOException
+	 **/
 	public final void executeFinderOnWorkspace() throws Exception {
 		this.initializeMembers();
 		this.initializeChannels();
@@ -31,11 +56,23 @@ public class SlackMentionsFinder {
 
 	}
 
+	/**
+	 * This method checks if there are mentions.
+	 *
+	 * @return true if there are mentions in general.
+	 **/
 	public boolean isEmpty() {
 		return this.getMentions().getArray().isEmpty();
 	}
 
-	public boolean isAbsentFrom(String iduser) {
+	/**
+	 * This method checks if there is at least a mention made by iduser.
+	 *
+	 * @param iduser the member to be checked.
+	 *
+	 * @return true if there is a mentions from that user.
+	 **/
+	public boolean isAbsentFrom(final String iduser) {
 		for (Mention mention : this.getMentions().getArray()) {
 			if (mention.getFROM().equals(iduser)) {
 				return false;
@@ -44,7 +81,14 @@ public class SlackMentionsFinder {
 		return true;
 	}
 
-	public boolean isAbsentTo(String iduser) {
+	/**
+	 * This method checks if there is at least a mention made to iduser.
+	 *
+	 * @param iduser the member to be checked.
+	 *
+	 * @return true if there is a mentions to that user.
+	 **/
+	public boolean isAbsentTo(final String iduser) {
 		for (Mention mention : this.getMentions().getArray()) {
 			for (String id : mention.getTO()) {
 				if (id.equals(iduser)) {
@@ -55,7 +99,14 @@ public class SlackMentionsFinder {
 		return true;
 	}
 
-	public final void executeFinderOnChannel(String channelname) throws Exception {
+	/**
+	 * This method finds mentions only in the channel given in input.
+	 *
+	 * @param channelname the channel you want to search for mentions.
+	 *
+	 * @throws Exception IOException
+	 **/
+	public final void executeFinderOnChannel(final String channelname) throws Exception {
 		this.initializeMembers();
 		this.initializeChannels();
 		ArrayMentions mentionstofilter = new ArrayMentions();
@@ -68,8 +119,18 @@ public class SlackMentionsFinder {
 		this.setMentions(this.filterMentionsByChannel(mentionstofilter, channelname));
 	}
 
-	private ArrayMentions filterMentionsByChannel(ArrayMentions tofilter, String channelname) throws Exception {
-		ArrayMentions mentions = new ArrayMentions();
+	/**
+	 * Private method checks if there is at least a mention made by iduser.
+	 *
+	 * @param tofilter the mentions to be filtered.
+	 * @param channelname the channel of the wanted mentions
+	 *
+	 * @return mentions the list of mentions passed, but only in the channel selected.
+	 *
+	 * @throws Exception if the param are not valid
+	 **/
+	private ArrayMentions filterMentionsByChannel(final ArrayMentions tofilter, final String channelname) throws Exception {
+		ArrayMentions tmpmentions = new ArrayMentions();
 		for (Mention m : tofilter.getArray()) {
 			Mention mention = new Mention();
 			mention.setFROM(m.getFROM());
@@ -80,12 +141,15 @@ public class SlackMentionsFinder {
 				}
 			}
 			if (!mention.isEmptyTO()) {
-				mentions.add(mention);
+				tmpmentions.add(mention);
 			}
 		}
-		return mentions;
+		return tmpmentions;
 	}
 
+	/**
+	 * It initialize the users by getting them from JSON file.
+	 **/
 	public final void initializeMembers() {
 		JsonFileParser slackusers = new JsonFileParser();
 		slackusers.fillContentsFromJSONFileDir(this.getWorkspaceDir().concat("/users.json"));
@@ -96,6 +160,9 @@ public class SlackMentionsFinder {
 		}
 	}
 
+	/**
+	 * It initialize the channels by getting them from JSON file.
+	 **/
 	public final void initializeChannels() {
 		JsonFileParser slackusers = new JsonFileParser();
 		JsonFileParser slackchannels = new JsonFileParser();
@@ -108,10 +175,23 @@ public class SlackMentionsFinder {
 		}
 	}
 
-	private boolean isMemberOfChannel(String id, String channelname) throws Exception {
+	/**
+	 * It checks if the id is in channelname.
+	 *
+	 * @param id user to check.
+	 * @param channelname the channel where to check.
+	 *
+	 * @return true if the user belongs to that channel.
+	 *
+	 * @throws Exception if id is not a member of channel
+	 **/
+	private boolean isMemberOfChannel(final String id, final String channelname) throws Exception {
 		return this.getChannels().getChannel(channelname).getMembersList().checkMemberById(id);
 	}
 
+	/**
+	 * It prints all the mentions.
+	 **/
 	public void printNamedMentions() {
 		if (!this.getMentions().getArray().isEmpty()) {
 			for (Mention mention : this.getMentions().getArray()) {
@@ -126,7 +206,12 @@ public class SlackMentionsFinder {
 		}
 	}
 
-	public void printNamedMentionsFROM(String iduser) {
+	/**
+	 * It prints all the mentions from a user.
+	 *
+	 * @param iduser the user that wrote the mentions
+	 **/
+	public void printNamedMentionsFROM(final String iduser) {
 		if (!this.getMentions().getArray().isEmpty() && !this.isAbsentFrom(iduser)) {
 				for (Mention mention : this.getMentions().getArray()) {
 					if (mention.getFROM().equals(iduser)) {
@@ -143,7 +228,12 @@ public class SlackMentionsFinder {
 		}
 	}
 
-	public void printNamedMentionsTO(String iduser) {
+	/**
+	 * It prints all the mentions made to a user.
+	 *
+	 * @param iduser the user that received the mentions
+	 **/
+	public void printNamedMentionsTO(final String iduser) {
 		if (!this.getMentions().getArray().isEmpty() && !this.isAbsentTo(iduser)) {
 				for (Mention mention : this.getMentions().getArray()) {
 					for (String id : mention.getTO()) {
@@ -159,6 +249,10 @@ public class SlackMentionsFinder {
 		}
 	}
 
+	/**
+	 * It prints all the mentions from a user with weight.
+	 *
+	 **/
 	public void printNamedMentionsWithWeight() {
 		if (!this.getMentions().getArray().isEmpty()) {
 			for (Mention mention : this.getMentions().getArray()) {
@@ -174,7 +268,12 @@ public class SlackMentionsFinder {
 		}
 	}
 
-	public void printNamedMentionsWithWeightFROM(String iduser) {
+	/**
+	 * It prints all the mentions from a user with weight.
+	 *
+	 * @param iduser the user that wrote the mentions
+	 **/
+	public void printNamedMentionsWithWeightFROM(final String iduser) {
 		if (!this.getMentions().getArray().isEmpty() && !this.isAbsentFrom(iduser)) {
 				for (Mention mention : this.getMentions().getArray()) {
 					if (mention.getFROM().equals(iduser)) {
@@ -192,7 +291,12 @@ public class SlackMentionsFinder {
 		}
 	}
 
-	public void printNamedMentionsWhithWheightTO(String iduser) {
+	/**
+	 * It prints all the mentions made to a user with weight.
+	 *
+	 * @param iduser the user that received the mentions
+	 **/
+	public void printNamedMentionsWhithWheightTO(final String iduser) {
 		if (!this.getMentions().getArray().isEmpty() && !this.isAbsentTo(iduser)) {
 				for (Mention mention : this.getMentions().getArray()) {
 					for (String id : mention.getTO()) {
@@ -209,34 +313,66 @@ public class SlackMentionsFinder {
 		}
 	}
 
-	public final void setWorkspaceDir(String dir) {
+	/**
+	 * It sets the workspacedir.
+	 * @param dir the workspace path
+	 **/
+	public final void setWorkspaceDir(final String dir) {
 		this.workspacedir = dir;
 	}
 
+	/**
+	 * It sets all the mentions.
+	 * @param globalmentions all the mentions
+	 **/
+	public final void setMentions(final ArrayMentions globalmentions) {
+		this.mentions = globalmentions;
+	}
+
+	/**
+	 * It sets all the members.
+	 * @param globalmembers all the members
+	 **/
+	public final void setMembers(final ArrayMember globalmembers) {
+		this.members = globalmembers;
+	}
+
+	/**
+	 * It sets all the channels.
+	 * @param globalchannels all the channels
+	 **/
+	public final void setChannels(final ArrayChannel globalchannels) {
+		this.channels = globalchannels;
+	}
+
+	/**
+	 * It gets the workspace path.
+	 * @return workspacedir string
+	 **/
 	public final String getWorkspaceDir() {
 		return this.workspacedir;
 	}
 
-	public final void setMentions(ArrayMentions globalmentions) {
-		this.mentions = globalmentions;
-	}
-
-	public final void setMembers(ArrayMember members) {
-		this.members = members;
-	}
-
-	public final void setChannels(ArrayChannel channels) {
-		this.channels = channels;
-	}
-
+	/**
+	 * It gets the menions.
+	 * @return mentions Array
+	 **/
 	public ArrayMentions getMentions() {
 		return this.mentions;
 	}
 
+	/**
+	 * It gets the members.
+	 * @return members Array
+	 **/
 	public ArrayMember getMembers() {
 		return this.members;
 	}
 
+	/**
+	 * It gets the channels.
+	 * @return channels Array
+	 **/
 	public ArrayChannel getChannels() {
 		return this.channels;
 	}
