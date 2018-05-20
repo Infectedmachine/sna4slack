@@ -2,7 +2,7 @@
 * <p>Title: sna4slack</p>
 * <p>Description: Analizzatore file zip di esportazione Slack Workspace</p>
 * <p>Copyright: None    (c)2018</p>
-* <p>Company: Dipartimento di Informatica, Università degli studi di Bari</p>
+* <p>Company: Dipartimento di Informatica, Universitï¿½ degli studi di Bari</p>
 * <p>Class description: Classe AppMain
 *
 * @author Dijkstra Group
@@ -48,7 +48,7 @@ public final class AppMain {
 		}
 		SNA4Slack sna4slack = new SNA4Slack(command);
 		try {
-			sna4slack.RUN();
+			sna4slack.run();
 		} catch (Exception e) {
 			System.out.println(e);
 			Helper.stampaLogo();
