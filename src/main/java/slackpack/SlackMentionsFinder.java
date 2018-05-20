@@ -123,11 +123,11 @@ public class SlackMentionsFinder {
 	 * Private method checks if there is at least a mention made by iduser.
 	 *
 	 * @param tofilter the mentions to be filtered.
-	 * @param channelname the channel of the wanted mentions
+	 * @param chname the channel of the wanted mentions.
 	 *
 	 * @return mentions the list of mentions passed, but only in the channel selected.
 	 *
-	 * @throws Exception if the param are not valid
+	 * @throws Exception if the param are not valid.
 	 **/
 	private ArrayMentions filterMentionsByChannel(final ArrayMentions tofilter, final String chname) throws Exception {
 		ArrayMentions tmpmentions = new ArrayMentions();
@@ -183,7 +183,7 @@ public class SlackMentionsFinder {
 	 *
 	 * @return true if the user belongs to that channel.
 	 *
-	 * @throws Exception if id is not a member of channel
+	 * @throws Exception if id is not a member of channel.
 	 **/
 	private boolean isMemberOfChannel(final String id, final String channelname) throws Exception {
 		return this.getChannels().getChannel(channelname).getMembersList().checkMemberById(id);
@@ -209,7 +209,7 @@ public class SlackMentionsFinder {
 	/**
 	 * It prints all the mentions from a user.
 	 *
-	 * @param iduser the user that wrote the mentions
+	 * @param iduser the user that wrote the mentions.
 	 **/
 	public void printNamedMentionsFROM(final String iduser) {
 		if (!this.getMentions().getArray().isEmpty() && !this.isAbsentFrom(iduser)) {
@@ -231,7 +231,7 @@ public class SlackMentionsFinder {
 	/**
 	 * It prints all the mentions made to a user.
 	 *
-	 * @param iduser the user that received the mentions
+	 * @param iduser the user that received the mentions.
 	 **/
 	public void printNamedMentionsTO(final String iduser) {
 		if (!this.getMentions().getArray().isEmpty() && !this.isAbsentTo(iduser)) {
@@ -271,7 +271,7 @@ public class SlackMentionsFinder {
 	/**
 	 * It prints all the mentions from a user with weight.
 	 *
-	 * @param iduser the user that wrote the mentions
+	 * @param iduser the user that wrote the mentions.
 	 **/
 	public void printNamedMentionsWithWeightFROM(final String iduser) {
 		if (!this.getMentions().getArray().isEmpty() && !this.isAbsentFrom(iduser)) {
@@ -294,7 +294,7 @@ public class SlackMentionsFinder {
 	/**
 	 * It prints all the mentions made to a user with weight.
 	 *
-	 * @param iduser the user that received the mentions
+	 * @param iduser the user that received the mentions.
 	 **/
 	public void printNamedMentionsWhithWheightTO(final String iduser) {
 		if (!this.getMentions().getArray().isEmpty() && !this.isAbsentTo(iduser)) {
@@ -315,7 +315,7 @@ public class SlackMentionsFinder {
 
 	/**
 	 * It sets the workspacedir.
-	 * @param dir the workspace path
+	 * @param dir the workspace path.
 	 **/
 	public final void setWorkspaceDir(final String dir) {
 		this.workspacedir = dir;
@@ -323,7 +323,7 @@ public class SlackMentionsFinder {
 
 	/**
 	 * It sets all the mentions.
-	 * @param globalmentions all the mentions
+	 * @param globalmentions all the mentions.
 	 **/
 	public final void setMentions(final ArrayMentions globalmentions) {
 		this.mentions = globalmentions;
@@ -331,7 +331,7 @@ public class SlackMentionsFinder {
 
 	/**
 	 * It sets all the members.
-	 * @param globalmembers all the members
+	 * @param globalmembers all the members.
 	 **/
 	public final void setMembers(final ArrayMember globalmembers) {
 		this.members = globalmembers;
@@ -339,7 +339,7 @@ public class SlackMentionsFinder {
 
 	/**
 	 * It sets all the channels.
-	 * @param globalchannels all the channels
+	 * @param globalchannels all the channels.
 	 **/
 	public final void setChannels(final ArrayChannel globalchannels) {
 		this.channels = globalchannels;
@@ -347,7 +347,7 @@ public class SlackMentionsFinder {
 
 	/**
 	 * It gets the workspace path.
-	 * @return workspacedir string
+	 * @return workspacedir string.
 	 **/
 	public final String getWorkspaceDir() {
 		return this.workspacedir;
@@ -355,7 +355,7 @@ public class SlackMentionsFinder {
 
 	/**
 	 * It gets the menions.
-	 * @return mentions Array
+	 * @return mentions Array.
 	 **/
 	public ArrayMentions getMentions() {
 		return this.mentions;
@@ -363,7 +363,7 @@ public class SlackMentionsFinder {
 
 	/**
 	 * It gets the members.
-	 * @return members Array
+	 * @return members Array.
 	 **/
 	public ArrayMember getMembers() {
 		return this.members;
@@ -371,7 +371,7 @@ public class SlackMentionsFinder {
 
 	/**
 	 * It gets the channels.
-	 * @return channels Array
+	 * @return channels Array.
 	 **/
 	public ArrayChannel getChannels() {
 		return this.channels;
