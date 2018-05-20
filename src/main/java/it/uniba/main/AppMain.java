@@ -1,9 +1,9 @@
 /**
 * <p>Title: sna4slack</p>
-* <p>Description: Analizzatore file zip di esportazione Slack Workspace</p>
+* <p>Description: Analizzatore file zip di esportazione Slack Workspace.</p>
 * <p>Copyright: None(c)2018</p>
-* <p>Company: Dipartimento di Informatica, Università degli studi di Bari</p>
-* <p>Class description: Classe AppMain
+* <p>Company: Dipartimento di Informatica, Università degli studi di Bari.</p>
+* <p>Class description: Classe AppMain.
 *
 * @author Dijkstra Group
 * @version 0.1
@@ -16,7 +16,7 @@ import slackpack.Helper;
 import slackpack.SNA4Slack;
 
 /**
- * The main class
+ * The main class.
  */
 public final class AppMain {
 
