@@ -129,13 +129,13 @@ public class SlackMentionsFinder {
 	 *
 	 * @throws Exception if the param are not valid
 	 **/
-	private ArrayMentions filterMentionsByChannel(final ArrayMentions tofilter, final String channelname) throws Exception {
+	private ArrayMentions filterMentionsByChannel(final ArrayMentions tofilter, final String chname) throws Exception {
 		ArrayMentions tmpmentions = new ArrayMentions();
 		for (Mention m : tofilter.getArray()) {
 			Mention mention = new Mention();
 			mention.setFROM(m.getFROM());
 			for (String id : m.getTO()) {
-				if (this.isMemberOfChannel(id, channelname)) {
+				if (this.isMemberOfChannel(id, chname)) {
 					mention.addTO(id);
 					mention.getWeight().put(id, m.getWeight().get(id));
 				}
