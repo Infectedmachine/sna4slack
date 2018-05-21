@@ -5,15 +5,32 @@ import java.io.IOException;
 import java.util.ArrayList;
 
 import org.json.simple.JSONObject;
-
+/**
+ * Creates and manage an array of objects mention.
+ * @author aleningi
+ *
+ */
 public class ArrayMentions {
+	/**
+	 * Contains all of the mentions needed.
+	 */
 	private ArrayList<Mention> mentions;
 
+	/**
+	 * Allocates the space for the class attribute.
+	 */
 	public ArrayMentions() {
 		this.setArray(new ArrayList<Mention>());
 	}
 
-	public final void fillMentionsFromFileList(ArrayList<File> channelfiles) throws IOException {
+	/**
+	 * Finds and adds to the class attribute all of the mentions contained in
+	 * the given file array.
+	 *
+	 * @param channelfiles array of files containing the mentions.
+	 * @throws IOException standard IOException
+	 */
+	public final void fillMentionsFromFileList(final ArrayList<File> channelfiles) throws IOException {
 		JsonFileParser slackmessages = new JsonFileParser();
 		for (File file : channelfiles) {
 			slackmessages.fillContentsFromJSONFileDir(file.getCanonicalPath());
@@ -21,21 +38,31 @@ public class ArrayMentions {
 				JSONObject json = (JSONObject) obj;
 				Mention mention = new Mention();
 				mention.fillMentionFromJSONObject(json);
-					if(!mention.isEmptyTO()) {
+					if (!mention.isEmptyTO()) {
 						this.addByMerging(mention);
 					}
 				}
 			}
 	}
 
-	public final void add(Mention mention) {
+	/**
+	 * Adds a mention to the mentions array.
+	 *
+	 * @param mention object mention.
+	 */
+	public final void add(final Mention mention) {
 		this.getArray().add(mention);
 	}
 
-	public void addByMerging(Mention mentionToMerge) {
+	/**
+	 * Merges the given mention to the array of mentions.
+	 *
+	 * @param mentionToMerge mention to merge.
+	 */
+	public void addByMerging(final Mention mentionToMerge) {
 
 		boolean flag = false; // FLAG FOR 'TO'
-		boolean FROMflag = false; // FLAG FOR 'FROM'
+		boolean fromFlag = false; // FLAG FOR 'FROM'
 
 		ArrayList<String> arrayToAdd = new ArrayList<String>();
 
@@ -43,16 +70,16 @@ public class ArrayMentions {
 			this.getArray().add(mentionToMerge);
 		} else {
 			for (Mention mention : this.getArray()) {
-				if (mention.getFROM().equals(mentionToMerge.getFROM()) && FROMflag == false) {
-					FROMflag = true;
+				if (mention.getFROM().equals(mentionToMerge.getFROM()) && !fromFlag) {
+					fromFlag = true;
 					for (String i : mentionToMerge.getTO()) {
 						for (String j : mention.getTO()) {
 							if (i.equals(j)) {
 								flag = true;
-								mention.getWeight().put(j, (mention.getWeight().get(j))+1);
+								mention.getWeight().put(j, (mention.getWeight().get(j)) + 1);
 							}
 						}
-						if (flag == false) {
+						if (!flag) {
 							arrayToAdd.add(i);
 						}
 						flag = false;
@@ -65,22 +92,36 @@ public class ArrayMentions {
 					}
 				}
 			}
-			if (FROMflag == false) {
+			if (!fromFlag) {
 				getArray().add(mentionToMerge);
 			}
 		}
 	}
 
-	public void mergeArray(ArrayMentions marr) {
+	/**
+	 * Merges the given array to the class attribute array.
+	 *
+	 * @param marr  array to merge.
+	 */
+	public void mergeArray(final ArrayMentions marr) {
 		for (Mention mention : marr.getArray()) {
 			addByMerging(mention);
 		}
 	}
 
-	public final void setArray(ArrayList<Mention> mentions) {
-		this.mentions = mentions;
+	/**
+	 * Sets the class attribute array to the given array.
+	 *
+	 * @param marr given array.
+	 */
+	public final void setArray(final ArrayList<Mention> marr) {
+		this.mentions = marr;
 	}
 
+	/**
+	 * Returns the class attribute.
+	 * @return mentions.
+	 */
 	public ArrayList<Mention> getArray() {
 		return this.mentions;
 	}

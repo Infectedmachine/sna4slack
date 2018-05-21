@@ -11,13 +11,33 @@ import org.json.simple.JSONArray;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
+/**
+ * This class consists of the attributes and methods to parse a JSON file.
+ * Using org.json.simple API.
+ **/
 public class JsonFileParser {
+	/**
+	 * Private attribute contentsarray, an JSONArray that hold the content of a JSON file.
+	 **/
 	private JSONArray contentsarray;
 
+	/**
+	 * Public constructor.
+	 **/
 	public JsonFileParser() {
 		this.setArray(new JSONArray());
 	}
-	public final void fillContentsFromJSONFileDir(String filedir) {
+
+	/**
+	 * This method opens and parse JSON file in the path given in input.
+	 *
+	 * @param filedir the path of a JSON file.
+	 *
+	 * @exception FileNotFoundException
+	 * @exception IOException
+	 * @exception ParseException
+	 **/
+	public final void fillContentsFromJSONFileDir(final String filedir) {
 
 		JSONParser parser = new JSONParser();
 		try {
@@ -35,10 +55,18 @@ public class JsonFileParser {
 
 	}
 
-	public final void setArray(JSONArray jsonarray) {
+	/**
+	 * Sets the class contentsarray to the specified parameter.
+	 * @param jsonarray a JSONArray.
+	 */
+	public final void setArray(final JSONArray jsonarray) {
 		this.contentsarray = jsonarray;
 	}
 
+	/**
+	 * Returns the class contentsarray.
+	 * @return contentsarray a jsonarray.
+	 */
 	public JSONArray getArray() {
 		return this.contentsarray;
 	}

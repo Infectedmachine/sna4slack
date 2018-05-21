@@ -1,25 +1,46 @@
 package slackpack;
 
-import net.lingala.zip4j.exception.ZipException;
-import net.lingala.zip4j.core.ZipFile;
 import java.io.File;
 
-public class Zip {	
+import net.lingala.zip4j.core.ZipFile;
+import net.lingala.zip4j.exception.ZipException;
+/**
+ * This class consists of one String attribute end three methods used to uzip a file given its path.
+ **/
+public class Zip {
+	/**
+	 * Private attribute string, the path.
+	 **/
 	private String dirpath;
-	
+
+	/**
+	 * Constructor.
+	 **/
 	public Zip() {
-		this.setDirPath(""); 
+		this.setDirPath("");
 	}
-	
-	public final void setDirPath(String path) {
-		this.dirpath = path; 
+
+	/**
+	 * It sets the given string to dirpath.
+	 * @param path the String to be set
+	 **/
+	public final void setDirPath(final String path) {
+		this.dirpath = path;
 	}
-	
+
+	/**
+	 * It gets the path.
+	 * @return path string
+	 **/
 	public String getDirPath() {
-		return this.dirpath; 
+		return this.dirpath;
 	}
-	
-	public final void extractZip(String source) {
+
+	/**
+	 * Final method to extract a file given its path.
+	 * @param source the path string
+	 **/
+	public final void extractZip(final String source) {
 
 		String destination = source.replace(".zip", "");
 		destination = destination.replace("\\", File.separator);
@@ -39,3 +60,4 @@ public class Zip {
 		this.setDirPath(destination);
 	}
 }
+
