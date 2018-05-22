@@ -17,14 +17,13 @@ public class ZipTest {
 
 	private static Zip z1 = new Zip();
 	private static Zip z2 = new Zip();
-	private static File testFile = new File("res/file/test");
+	private static File testFile = new File("res/files/test");
 
 
 	@BeforeAll
 	static void setUpAll() {
-		z1.setDirPath("res/file/test.zip");
-		z2.extractZip("res/file/test.zip");
-		//System.out.println(dir);
+		z1.setDirPath("res/files/test.zip");
+		z2.extractZip("res/files/test.zip");
 	}
 
 	@AfterAll
@@ -44,7 +43,7 @@ public class ZipTest {
 
 	@Test
 	public void getDirPathTest() {
-		assertEquals("res/file/test.zip", z1.getDirPath());
+		assertEquals("res/files/test.zip", z1.getDirPath());
 	}
 
 	@Test
