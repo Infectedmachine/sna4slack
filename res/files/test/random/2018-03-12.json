@@ -1,0 +1,86 @@
+[
+    {
+        "user": "U9PBHQU3H",
+        "text": "<@U9PBHQU3H> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520858139.000306"
+    },
+    {
+        "user": "U9P5NTBML",
+        "text": "<@U9P5NTBML> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520858746.000325"
+    },
+    {
+        "user": "U9NA5GDFU",
+        "text": "<@U9NA5GDFU> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520858808.000314"
+    },
+    {
+        "user": "U9P61MA7Q",
+        "text": "<@U9P61MA7Q> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520860122.000575"
+    },
+    {
+        "user": "U9N84FF9R",
+        "text": "<@U9N84FF9R> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520861854.000690"
+    },
+    {
+        "user": "U9P6VLG6A",
+        "text": "<@U9P6VLG6A> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520862781.000373"
+    },
+    {
+        "user": "U9NBDU7B4",
+        "text": "<@U9NBDU7B4> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520862964.000815"
+    },
+    {
+        "user": "U9MML6PLG",
+        "text": "<@U9MML6PLG> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520863060.000218"
+    },
+    {
+        "user": "U9MQSS657",
+        "text": "<@U9MQSS657> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520863614.000341"
+    },
+    {
+        "user": "U9NAWRB2Q",
+        "text": "<@U9NAWRB2Q> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520863808.000576"
+    },
+    {
+        "user": "U9MR5LH25",
+        "text": "<@U9MR5LH25> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520864659.000603"
+    },
+    {
+        "user": "U9PDKF5JB",
+        "text": "<@U9PDKF5JB> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520864688.000052"
+    }
+]

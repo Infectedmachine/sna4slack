@@ -1,0 +1,57 @@
+[
+    {
+        "user": "U9PBHQU3H",
+        "text": "<@U9PBHQU3H> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520873198.000722"
+    },
+    {
+        "user": "U9PBHQU3H",
+        "purpose": "Colaianni Console Leo Lorusso",
+        "text": "<@U9PBHQU3H> set the channel purpose: Colaianni Console Leo Lorusso",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520873200.000511"
+    },
+    {
+        "user": "U9P61MA7Q",
+        "inviter": "U9PBHQU3H",
+        "text": "<@U9P61MA7Q> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520873200.000597"
+    },
+    {
+        "user": "U9PBHQU3H",
+        "purpose": "Colaianni Gianluca, Console Anna, Console Antonio, Leo Alessandro, Lorusso Alessia",
+        "text": "<@U9PBHQU3H> set the channel purpose: Colaianni Gianluca, Console Anna, Console Antonio, Leo Alessandro, Lorusso Alessia",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520883733.000712"
+    },
+    {
+        "user": "U9PBHQU3H",
+        "topic": "",
+        "text": "<@U9PBHQU3H> cleared channel topic",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1520883733.000715"
+    },
+    {
+        "user": "U9PBHQU3H",
+        "topic": "",
+        "text": "<@U9PBHQU3H> cleared channel topic",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1520883735.000599"
+    },
+    {
+        "user": "U9PBHQU3H",
+        "purpose": "Colaianni Gianluca, Console Anna, Console Antonio, Leo Alessandro, Lorusso Alessia",
+        "text": "<@U9PBHQU3H> set the channel purpose: Colaianni Gianluca, Console Anna, Console Antonio, Leo Alessandro, Lorusso Alessia",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520883735.000623"
+    }
+]

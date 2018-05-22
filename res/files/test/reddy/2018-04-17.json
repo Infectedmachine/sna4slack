@@ -1,0 +1,30 @@
+[
+    {
+        "type": "message",
+        "user": "U9NQ8RQ67",
+        "text": "Ragazzi io e Francesco abbiamo fatto quello che ha detto Fabio Calefato",
+        "thread_ts": "1523998532.000259",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "UA2DNR4F4",
+                "ts": "1523998712.000648"
+            },
+            {
+                "user": "U9NQ8RQ67",
+                "ts": "1524037537.000446"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1523998532.000259"
+    },
+    {
+        "type": "message",
+        "user": "UA2DNR4F4",
+        "text": "È un'operazione da fare in locale? Io domani ho l'esame, dopodiché posso procedere..",
+        "client_msg_id": "3e60e1ad-9c8e-4da8-b2f8-1e4300b6ca35",
+        "thread_ts": "1523998532.000259",
+        "parent_user_id": "U9NQ8RQ67",
+        "ts": "1523998712.000648"
+    }
+]

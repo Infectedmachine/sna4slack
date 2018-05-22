@@ -1,0 +1,43 @@
+[
+    {
+        "type": "message",
+        "user": "U9P1B28NM",
+        "text": "Ragazziii, buongiorno, confermato il day meeting domani?",
+        "client_msg_id": "66a06d20-2df5-4a9d-b031-c4ebb41f5396",
+        "thread_ts": "1524040519.000093",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U9PBHQU3H",
+                "ts": "1524042837.000080"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1524040519.000093",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9PBHQU3H",
+                    "U9P12DFBK"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9PBHQU3H",
+        "text": "Si, Anna confermato.",
+        "client_msg_id": "1e064cd4-c3b2-4ae9-b17f-38a91ad56480",
+        "thread_ts": "1524040519.000093",
+        "parent_user_id": "U9P1B28NM",
+        "ts": "1524042837.000080"
+    },
+    {
+        "type": "message",
+        "user": "U9N82V6JC",
+        "text": "Yes...:D",
+        "ts": "1524043388.000332"
+    }
+]

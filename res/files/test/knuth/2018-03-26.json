@@ -1,0 +1,46 @@
+[
+    {
+        "user": "U9BD7NMPC",
+        "text": "<@U9BD7NMPC> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1522066729.000441"
+    },
+    {
+        "user": "U9BD7NMPC",
+        "text": "<@U9BD7NMPC> un-archived the channel",
+        "type": "message",
+        "subtype": "channel_unarchive",
+        "ts": "1522066729.000450"
+    },
+    {
+        "user": "U9NAWS8CR",
+        "text": "<@U9NAWS8CR> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1522066850.000170"
+    },
+    {
+        "user": "U9L4K57T6",
+        "text": "<@U9L4K57T6> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1522066883.000362"
+    },
+    {
+        "user": "U9P5NKA7P",
+        "inviter": "U9NAWS8CR",
+        "text": "<@U9P5NKA7P> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1522132593.000011"
+    },
+    {
+        "user": "U9PVD2REK",
+        "inviter": "U9NAWS8CR",
+        "text": "<@U9PVD2REK> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1522132606.000155"
+    }
+]

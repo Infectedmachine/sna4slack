@@ -1,0 +1,56 @@
+[
+    {
+        "type": "message",
+        "user": "U9T55R65D",
+        "text": "No",
+        "client_msg_id": "bd58db84-eba4-493b-84b1-f08e8a76b213",
+        "ts": "1523259320.000223"
+    },
+    {
+        "type": "message",
+        "user": "U9MTNTYSD",
+        "text": "floydgroup",
+        "ts": "1523270665.000250"
+    },
+    {
+        "type": "message",
+        "user": "U9MTNTYSD",
+        "text": "Floyd1234",
+        "ts": "1523270671.000337"
+    },
+    {
+        "type": "message",
+        "user": "U9SUDJ8J2",
+        "text": "Ragazzi ma io su github classroom non vedo il nostro gruppo",
+        "client_msg_id": "9ba1e22b-c254-4620-95e6-276836d80285",
+        "ts": "1523295533.000513"
+    },
+    {
+        "type": "message",
+        "user": "U9PDKF5JB",
+        "text": "Ci pensiamo domani",
+        "client_msg_id": "41462b31-c2cc-46d0-9706-25ad16c0e9ee",
+        "ts": "1523302947.000416"
+    },
+    {
+        "type": "message",
+        "user": "U9PDKF5JB",
+        "text": "Domani 8.30? Io posso prendere i posti se venite presto",
+        "client_msg_id": "41526516-fb72-4d9a-8f7d-1b51c9b58d7a",
+        "ts": "1523302981.000278"
+    },
+    {
+        "type": "message",
+        "user": "U9SUDJ8J2",
+        "text": "Farò il possibile, ma prima delle 9 non credo di farcela",
+        "client_msg_id": "ab9b8f8f-7a39-4ab6-bf76-cd784ed7366a",
+        "ts": "1523303202.000170"
+    },
+    {
+        "type": "message",
+        "user": "U9PDKF5JB",
+        "text": "Abbiamo i posti",
+        "client_msg_id": "4d9c6c08-70b8-4080-b6d2-3671d91b652a",
+        "ts": "1523341459.000136"
+    }
+]

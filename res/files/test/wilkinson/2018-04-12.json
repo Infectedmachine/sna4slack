@@ -1,0 +1,19 @@
+[
+    {
+        "type": "message",
+        "user": "U9MQ541S4",
+        "text": "Aggiunto badge nel readme.md",
+        "client_msg_id": "35c8d80f-be1e-4852-ad13-c7f81ac29289",
+        "ts": "1523544516.000426",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9P9BGKU2",
+                    "U9NM7AYPN"
+                ],
+                "count": 2
+            }
+        ]
+    }
+]

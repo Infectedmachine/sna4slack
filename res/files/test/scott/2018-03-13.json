@@ -1,0 +1,130 @@
+[
+    {
+        "user": "U9P18U17X",
+        "text": "<@U9P18U17X> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520956997.000776"
+    },
+    {
+        "user": "U9P18U17X",
+        "purpose": "Amato Calò DiGiovanni",
+        "text": "<@U9P18U17X> set the channel purpose: Amato Calò DiGiovanni",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520956998.000265"
+    },
+    {
+        "user": "U9NJ4EYM7",
+        "text": "<@U9NJ4EYM7> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520957026.000708"
+    },
+    {
+        "type": "message",
+        "user": "U9NJ4EYM7",
+        "text": "Prova",
+        "client_msg_id": "d1e2edb0-b21e-4062-9f84-2bdc2d101a71",
+        "ts": "1520957214.000137"
+    },
+    {
+        "type": "message",
+        "user": "U9P18U17X",
+        "text": "Sa sa",
+        "client_msg_id": "CDCB2115-C416-4708-AD58-06A58AC08BB4",
+        "ts": "1520957247.000597"
+    },
+    {
+        "type": "message",
+        "user": "U9NJ4EYM7",
+        "text": "Microfono ok!",
+        "client_msg_id": "b7e1df46-82bf-4668-82f4-347d3538d90f",
+        "ts": "1520957266.000224"
+    },
+    {
+        "user": "U9NF6NSU8",
+        "text": "<@U9NF6NSU8> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520958616.001042"
+    },
+    {
+        "type": "message",
+        "user": "U9NF6NSU8",
+        "text": "Ci sono",
+        "client_msg_id": "dfeba5be-58d3-4c19-a580-1dfdb224156e",
+        "ts": "1520958625.000521"
+    },
+    {
+        "type": "message",
+        "user": "U9NJ4EYM7",
+        "text": "Committa",
+        "client_msg_id": "b2a0512c-1726-4d22-bf1a-249ba34b250e",
+        "ts": "1520958657.000824"
+    },
+    {
+        "type": "message",
+        "user": "U9NJ4EYM7",
+        "text": "Manlio",
+        "client_msg_id": "a0aab0ec-e889-41fc-a3c0-89359ae5724a",
+        "ts": "1520958661.000344"
+    },
+    {
+        "type": "message",
+        "user": "U9P18U17X",
+        "text": ":+1:",
+        "client_msg_id": "8DC34089-3C29-40F7-A5F4-99B1BBC44A25",
+        "ts": "1520958664.000045"
+    },
+    {
+        "user": "U9P18U17X",
+        "purpose": "Amato Calò Digiovanni",
+        "text": "<@U9P18U17X> set the channel purpose: Amato Calò Digiovanni",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520960939.000606"
+    },
+    {
+        "type": "message",
+        "user": "U9NF6NSU8",
+        "text": "Per fare le corna slack è il top",
+        "client_msg_id": "c6baadda-770b-485c-9962-c67dfa6b6e7a",
+        "ts": "1520962587.000136"
+    },
+    {
+        "type": "message",
+        "user": "U9NF6NSU8",
+        "text": "Chi cazzo ve lo controllerebbe :joy::joy:",
+        "client_msg_id": "056b4ace-fe59-4081-b411-a3464b01ee77",
+        "ts": "1520962608.000155"
+    },
+    {
+        "type": "message",
+        "user": "U9P18U17X",
+        "text": ":thinking_face::thinking_face::thinking_face:",
+        "client_msg_id": "49AB5CCE-A07C-4B02-B815-F8C3260C2EE7",
+        "ts": "1520970020.000593"
+    },
+    {
+        "type": "message",
+        "user": "U9NJ4EYM7",
+        "text": "Mettete na cazzo di foto",
+        "client_msg_id": "045f1ee6-d241-418a-9581-b56cf272153c",
+        "ts": "1520972669.000010"
+    },
+    {
+        "type": "message",
+        "user": "U9NJ4EYM7",
+        "text": "Che poi Lanubile si dispiace",
+        "client_msg_id": "ed468f51-8f9b-441a-9f2c-ca8f5be8050d",
+        "ts": "1520972678.000761"
+    },
+    {
+        "type": "message",
+        "user": "U9P18U17X",
+        "text": "Ne devo trovare una decente :sweat_smile:",
+        "client_msg_id": "4606E229-6904-4B61-B435-BAB4FD6B9178",
+        "ts": "1520976651.000253"
+    }
+]

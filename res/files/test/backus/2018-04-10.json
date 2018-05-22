@@ -1,0 +1,177 @@
+[
+    {
+        "user": "U9N8CNHK2",
+        "text": "<@U9N8CNHK2> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1523358762.000374"
+    },
+    {
+        "type": "message",
+        "user": "U9N8CNHK2",
+        "text": "<!channel> ho creato il team backus. Per cortesia, mi confermate velocemente che: 1) riuscite a vederlo e a fare join; 2) vedete il repository progetto1718-backus associato?",
+        "ts": "1523358807.000179"
+    },
+    {
+        "type": "message",
+        "user": "U9N8CNHK2",
+        "text": "ho bisogno di una risposta rapidissima, grazie",
+        "ts": "1523358818.000416"
+    },
+    {
+        "type": "message",
+        "user": "U9P60ACP7",
+        "text": "Abbiamo chiesto il join tutti e 3, per il momento non vediamo repository",
+        "client_msg_id": "4a2375c4-ebeb-49de-bbb3-e685960c002c",
+        "ts": "1523359563.000259"
+    },
+    {
+        "type": "message",
+        "user": "U9N8CNHK2",
+        "text": "adesso?",
+        "ts": "1523359840.000008"
+    },
+    {
+        "type": "message",
+        "user": "U9N8CNHK2",
+        "text": "ho accettato i vostri inviti a fare join",
+        "ts": "1523359847.000364"
+    },
+    {
+        "type": "message",
+        "user": "U9N8CNHK2",
+        "text": "<!channel> ci siete?",
+        "ts": "1523359863.000272"
+    },
+    {
+        "type": "message",
+        "user": "U9P60ACP7",
+        "text": "Ci siamo separati per andare a prendere l'autobus prof, ci dia qualche minuto",
+        "client_msg_id": "4193aa7c-ce6e-4738-b47c-2a75c8cce47f",
+        "ts": "1523359911.000282"
+    },
+    {
+        "type": "message",
+        "user": "U9P60ACP7",
+        "text": "Io non appena arrivo alla fermata controllo dal telefono",
+        "client_msg_id": "51c7effc-383a-4018-ab56-8afa9741855f",
+        "ts": "1523359921.000025"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U9P60ACP7> uploaded a file: <https:\/\/ingsw1718.slack.com\/files\/U9P60ACP7\/FA51DFN94\/img_20180410_133441.png|IMG_20180410_133441.png> and commented: Ok per me dovrebbe essere ok",
+        "file": {
+            "id": "FA51DFN94",
+            "created": 1523360107,
+            "timestamp": 1523360107,
+            "name": "IMG_20180410_133441.png",
+            "title": "IMG_20180410_133441.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U9P60ACP7",
+            "editable": false,
+            "size": 127923,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA51DFN94\/img_20180410_133441.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA51DFN94\/download\/img_20180410_133441.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA51DFN94-ec188dbce4\/img_20180410_133441_64.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA51DFN94-ec188dbce4\/img_20180410_133441_80.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA51DFN94-ec188dbce4\/img_20180410_133441_360.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA51DFN94-ec188dbce4\/img_20180410_133441_480.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA51DFN94-ec188dbce4\/img_20180410_133441_160.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA51DFN94-ec188dbce4\/img_20180410_133441_720.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA51DFN94-ec188dbce4\/img_20180410_133441_800.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_800_w": 800,
+            "thumb_800_h": 1422,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA51DFN94-ec188dbce4\/img_20180410_133441_960.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA51DFN94-ec188dbce4\/img_20180410_133441_1024.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 1080,
+            "original_h": 1920,
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/U9P60ACP7\/FA51DFN94\/img_20180410_133441.png",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-FA51DFN94-68b58bda47",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "FcA51DGL78",
+                "created": 1523360107,
+                "timestamp": 1523360107,
+                "user": "U9P60ACP7",
+                "is_intro": true,
+                "comment": "Ok per me dovrebbe essere ok"
+            }
+        },
+        "user": "U9P60ACP7",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "dongiovannidavide",
+        "bot_id": null,
+        "ts": "1523360111.000236"
+    },
+    {
+        "type": "message",
+        "user": "U9P0DMXGD",
+        "text": "Ragazzi risulta essere tutto in regola ora. Il gruppo backus è al completo, il repository è presente.",
+        "client_msg_id": "350ad73c-670b-46c0-910f-07da505a0f28",
+        "ts": "1523363738.000331",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9P60ACP7"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9NV9614K",
+        "text": "Anche a me risulta tutto al proprio posto",
+        "client_msg_id": "deffe6ca-0933-4fad-8de5-44debb9587fa",
+        "ts": "1523363818.000461",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9P60ACP7"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9P60ACP7",
+        "text": "Comunque apposto wagnu noi non dobbiamo fare più niente",
+        "client_msg_id": "1456808b-c4f3-44c3-91d9-9683fc5db802",
+        "ts": "1523364937.000536"
+    },
+    {
+        "type": "message",
+        "user": "U9P60ACP7",
+        "text": "Per mo sto fatto è in regola, possiamo continuare a vivere in funzione di map :pensive:",
+        "client_msg_id": "9abf0e18-b099-43d2-9f5b-1764e0400879",
+        "ts": "1523365010.000450"
+    }
+]

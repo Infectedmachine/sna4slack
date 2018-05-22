@@ -1,0 +1,33 @@
+[
+    {
+        "type": "message",
+        "user": "U9PJQ7YP6",
+        "text": ".",
+        "ts": "1521111213.000059"
+    },
+    {
+        "type": "message",
+        "user": "U9NQ1QL72",
+        "text": "colu",
+        "ts": "1521111295.000333"
+    },
+    {
+        "type": "message",
+        "user": "U9NQ1QL72",
+        "text": "leggi",
+        "ts": "1521111297.000430"
+    },
+    {
+        "type": "message",
+        "user": "U9PJQ7YP6",
+        "text": "colu",
+        "ts": "1521115455.000181"
+    },
+    {
+        "type": "message",
+        "user": "U9P373ASV",
+        "text": "?",
+        "client_msg_id": "53dbb442-9517-4540-927d-8984b0167d09",
+        "ts": "1521115477.000392"
+    }
+]

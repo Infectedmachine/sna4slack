@@ -1,0 +1,229 @@
+[
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<!everyone> Tutti i team sono stati formati anche su GitHub Classroom e tutti, o quasi, sono riusciti ad associarsi. Per recuperare il tempo perso nel troubleshooting di GitHub Classroom, vi chiedo di cercare di completare la configurazione dell'ambiente di lavoro seguendo la guida studente che ho mostrato a lezione e che trovate su ADA e ora anche nel repository del vostro team. In particolare mi aspetto che completiate i seguenti passi:  \n- Configurazione Travis CI\n- Aggiunta badges in GitHub (solo badge di Travis CI)\n- Configurazione locale del progetto \nPer ora saltate la parte riguardante CodeCov perché ci siamo accorti che con la licenza attuale non possiamo usare utenti multipli sebbene appartengano a una educational organization. Abbiamo fatto richiesta e aspettiamo risposta. \nSegnalate i problemi sul channel <#CA3EZFFGR|assistenza>. Se non sarà possibile risolverli in tempo reale ne discuteremo domani a lezione",
+        "ts": "1523434108.000105",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9P60ACP7",
+                    "U9N7WANGG",
+                    "UA2DNR4F4",
+                    "U9NDPBTNF",
+                    "U9NAWRB2Q",
+                    "U9PUPKP39",
+                    "U9NCNLL83",
+                    "U9NDHPVRS"
+                ],
+                "count": 8
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<!everyone> La parte di personalizzazione delle Environment Variables della Configurazione Travi CI richiede un'operazione da parte nostra reltiva a Docker. Vi avviso io quando ho completato la nostra parte per farvi proseguire",
+        "ts": "1523439037.000305",
+        "reactions": [
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "U9NCNLL83"
+                ],
+                "count": 1
+            },
+            {
+                "name": "+1::skin-tone-2",
+                "users": [
+                    "U9MNETCD6",
+                    "U9PUPKP39",
+                    "U9NAWRB2Q",
+                    "U9NDHPVRS",
+                    "U9N6Y2L9W"
+                ],
+                "count": 5
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "UA2P4MQ23"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<!everyone> Per completare la parte di competenza del docente, ho bisogno che ciascun gruppo pubblichi, *sullo Slack channel di gruppo*, il *Docker ID di registrazione* con cui un componente del gruppo si è registrato si è registrato su Docker in rappresentanza del gruppo. Questo mi permetterà di fare un ultimo passaggio di configurazione e sbloccherà la personalizzazione delle Environment variables. Mi auguro che possiate comunicarmi l'informazione entro il pomeriggio.",
+        "ts": "1523449160.000270"
+    },
+    {
+        "type": "message",
+        "user": "U9Q9CDE0P",
+        "text": "<@U9BD7NMPC> nella descrizione del gruppo oppure come messaggio?",
+        "client_msg_id": "1c9d3518-e8f7-4490-8471-c8582e4bb7d9",
+        "edited": {
+            "user": "U9Q9CDE0P",
+            "ts": "1523449441.000000"
+        },
+        "ts": "1523449224.000010"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<!everyone> Ho chiesto di scrivere il Docker di ID sul channel di gruppo. Quindi intendo come messaggio del channel non descrizione. Inoltre non ho chiesto messaggi privati. Grazie",
+        "ts": "1523449711.000186",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9PNDSW4R",
+                    "U9PAU9362",
+                    "U9PBHQU3H",
+                    "U9N7WANGG",
+                    "U9N8GRK3J",
+                    "U9NAWRB2Q",
+                    "UA2P4MQ23"
+                ],
+                "count": 7
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9NJ3PL4D",
+        "text": "ID Docker del gruppo <#C9NCNQ21H|perlis> : perlis1718",
+        "client_msg_id": "cf74e86c-c663-4f02-bac1-06df5063e237",
+        "ts": "1523451198.000627"
+    },
+    {
+        "type": "message",
+        "user": "U9CDZPXLN",
+        "text": "<!everyone> *scrivere il Docker ID sul channel _di gruppo_.*",
+        "edited": {
+            "user": "U9CDZPXLN",
+            "ts": "1523451311.000000"
+        },
+        "ts": "1523451246.000595"
+    },
+    {
+        "type": "message",
+        "user": "U9NJ3PL4D",
+        "text": "avevo frainteso, ho scritto nel nostro channel",
+        "client_msg_id": "4be6b6f1-d076-44b8-9f99-bbbc202ee64d",
+        "ts": "1523451388.000171",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9CDZPXLN",
+                    "U9P21SKA6"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9PUTB10X",
+        "text": "ID Docker scritto nel canale <#C9VV4Q74J|kahn>",
+        "client_msg_id": "14b309b5-08ff-4c93-b332-70c5e6da3f1b",
+        "ts": "1523454352.000207"
+    },
+    {
+        "type": "message",
+        "user": "U9L4K57T6",
+        "text": "ID Docher comunicato nel canale <#C9NQWH24T|knuth>",
+        "client_msg_id": "70d86d34-f6ec-4185-8e34-4e3388b4f479",
+        "ts": "1523456265.000850"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<!everyone> cosa non si capisce quando chiedo di scrivere l'iD Docker nel *channel DI GRUPPO*?",
+        "ts": "1523456870.000168",
+        "reactions": [
+            {
+                "name": "man-facepalming",
+                "users": [
+                    "U9P60ACP7",
+                    "U9NDPBTNF",
+                    "U9MNETCD6",
+                    "U9PDKF5JB",
+                    "U9NCNLL83"
+                ],
+                "count": 5
+            },
+            {
+                "name": "joy",
+                "users": [
+                    "U9NDPBTNF",
+                    "U9MNETCD6",
+                    "U9PNDSW4R",
+                    "U9MML6PLG",
+                    "U9PK8UJBA",
+                    "U9PNL8V9U",
+                    "U9NBGBT5F",
+                    "U9RF0QCFJ",
+                    "UA2DNR4F4",
+                    "U9PP54E4D",
+                    "U9P0DMXGD"
+                ],
+                "count": 11
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "che è diverso dal channel general",
+        "ts": "1523456890.000440"
+    },
+    {
+        "type": "message",
+        "user": "U9CDZPXLN",
+        "text": "<!everyone> Dovreste fare una piccola verifica, *uno per gruppo*:\n1. copiate il link seguente\n<https:\/\/github.com\/orgs\/softeng-inf-uniba\/teams\/NOME-TEAM\/repositories>\n2. incollatelo nel browser, *_ personalizzandolo col nome del vostro team_*\n3. *solo se compare l’errore* `This team doesn't have any repository` segnalate l’inconveniente nel canale <#CA3EZFFGR|assistenza> \naltrimenti, se vedete il nome del vostro repository, siete gia’ OK.\n\nmi raccomando, *una sola segnalazione per team*",
+        "edited": {
+            "user": "U9CDZPXLN",
+            "ts": "1523542876.000000"
+        },
+        "ts": "1523466678.000446"
+    },
+    {
+        "type": "message",
+        "user": "U9N82V6JC",
+        "text": "ID Docker scritto nel canale <#C9NEL4BRA|micali> attendiamo notizie per completare operazioni da fare",
+        "ts": "1523466684.000424"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<!everyone> Potete completare la personalizzazione delle Environment Variables della Configurazione Travi CI: \nDOCKER_ORGANIZATION: softenginfuniba\nDOCKER_PASSWORD: la sapete voi\nDOCKER_REPO: nome del vostro gruppo\/team\nDOCKER_USERNAME: quello che avete scelto voi e che mi avete scritto sul channel di gruppo",
+        "ts": "1523476235.000333",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9PK8UJBA",
+                    "U9XU0HF0W",
+                    "U9NAWRB2Q",
+                    "U9NJ3PL4D",
+                    "U9MNETCD6",
+                    "U9PK3NZ8F",
+                    "U9NDPBTNF",
+                    "U9N9XTY8H",
+                    "U9MQSS657",
+                    "U9P1B28NM",
+                    "U9NS9S2NQ",
+                    "UA2P4MQ23",
+                    "U9N7VA3NC",
+                    "U9NCNLL83"
+                ],
+                "count": 14
+            }
+        ]
+    }
+]

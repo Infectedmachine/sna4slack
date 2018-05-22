@@ -1,0 +1,14 @@
+[
+    {
+        "type": "message",
+        "user": "U9P0DMXGD",
+        "text": "Ragazzi mi confermate questo concetto: Un elemento ha visibilità protected quando è visibile soltanto a tutte le classi discendenti da una classe base. Se manca qualcosa ditemelo vi ringrazio.",
+        "ts": "1523779308.000069"
+    },
+    {
+        "type": "message",
+        "user": "U9NV9614K",
+        "text": "se un un elemento di una classe ha visibilità protected è visibile nel package in cui si trova la classe e in tutte le sottoclassi della classe in cui si trova",
+        "ts": "1523784805.000068"
+    }
+]

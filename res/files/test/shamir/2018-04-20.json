@@ -1,0 +1,75 @@
+[
+    {
+        "type": "message",
+        "user": "U9NGE229G",
+        "text": "Ragazzi badge Codecov rimosso, appena potete dategli un'occhiata",
+        "client_msg_id": "59a019ff-74cf-44ec-87a7-23dc33971101",
+        "ts": "1524221753.000220"
+    },
+    {
+        "type": "message",
+        "user": "U9Q3DHX0V",
+        "text": "vedo le modifiche",
+        "ts": "1524226008.000226"
+    },
+    {
+        "type": "message",
+        "user": "U9Q3DHX0V",
+        "text": "posso procedere io con workflow progetto.xml ?",
+        "edited": {
+            "user": "U9Q3DHX0V",
+            "ts": "1524226057.000000"
+        },
+        "ts": "1524226041.000321"
+    },
+    {
+        "type": "message",
+        "user": "U9PUAUSRM",
+        "text": "Fai pure",
+        "ts": "1524226126.000008"
+    },
+    {
+        "type": "message",
+        "user": "U9Q3DHX0V",
+        "text": "fatto ragazzi, quando potete date un'occhiata giusto per conferma",
+        "ts": "1524226586.000070",
+        "reactions": [
+            {
+                "name": "heavy_check_mark",
+                "users": [
+                    "U9NSNMBMG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9NBDU7B4",
+        "text": "Ho il PC occupato. Controllo tra un paio d'ore e vi dico",
+        "client_msg_id": "3764bf17-7679-4bdd-9e76-cc0e73b411a3",
+        "ts": "1524228693.000162",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9Q3DHX0V"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9PUAUSRM",
+        "text": "Controllato attentamente il diff dell'ultimo commit, non sembrano esserci problemi.",
+        "ts": "1524246794.000374"
+    },
+    {
+        "type": "message",
+        "user": "U9NBDU7B4",
+        "text": "Controllato. Tutto okay",
+        "client_msg_id": "d2b11cae-9da2-4258-bd5d-3a57f6f1dc1e",
+        "ts": "1524249235.000115"
+    }
+]

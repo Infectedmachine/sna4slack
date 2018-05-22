@@ -1,0 +1,16 @@
+[
+    {
+        "user": "U9B126ZME",
+        "text": "<@U9B126ZME> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1519118389.000385"
+    },
+    {
+        "user": "U9C1H5QLS",
+        "text": "<@U9C1H5QLS> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1519155071.000523"
+    }
+]

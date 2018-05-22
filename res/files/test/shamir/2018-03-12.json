@@ -1,0 +1,41 @@
+[
+    {
+        "user": "U9NBDU7B4",
+        "text": "<@U9NBDU7B4> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520878224.000393"
+    },
+    {
+        "user": "U9NBDU7B4",
+        "purpose": "Componenti: Forleo, Cafaro",
+        "text": "<@U9NBDU7B4> set the channel purpose: Componenti: Forleo, Cafaro",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520878225.000040"
+    },
+    {
+        "user": "U9NGE229G",
+        "inviter": "U9NBDU7B4",
+        "text": "<@U9NGE229G> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520878225.000098"
+    },
+    {
+        "user": "U9NBDU7B4",
+        "purpose": "Forleo, Cafaro",
+        "text": "<@U9NBDU7B4> set the channel purpose: Forleo, Cafaro",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520898301.000221"
+    },
+    {
+        "user": "U9NBDU7B4",
+        "topic": "",
+        "text": "<@U9NBDU7B4> cleared channel topic",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1520898301.000245"
+    }
+]

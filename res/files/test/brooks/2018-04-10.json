@@ -1,0 +1,162 @@
+[
+    {
+        "user": "U9N8CNHK2",
+        "text": "<@U9N8CNHK2> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1523359001.000379"
+    },
+    {
+        "type": "message",
+        "user": "U9N8CNHK2",
+        "text": "<!channel> ragazzi, sto creando il gruppo brooks",
+        "ts": "1523359034.000283"
+    },
+    {
+        "type": "message",
+        "user": "U9N8CNHK2",
+        "text": "ci siete?",
+        "ts": "1523359036.000352"
+    },
+    {
+        "type": "message",
+        "user": "U9N8CNHK2",
+        "text": "ho bisogno di conferma da parte vostra: riuscite a vederlo e a fare join?",
+        "ts": "1523359053.000203"
+    },
+    {
+        "type": "message",
+        "user": "U9NFLSSBW",
+        "text": "In momento che controllo ",
+        "client_msg_id": "A3A81CAD-E2EA-4FC0-97B1-34D1373CA3D7",
+        "ts": "1523359078.000123"
+    },
+    {
+        "type": "message",
+        "user": "U9NFLSSBW",
+        "text": "Io ancora non riesco a vedere tra i gruppi disponibili com cui poter fare Join",
+        "client_msg_id": "FDD337A0-3BE6-44B4-9CBE-C7F883E58FDE",
+        "ts": "1523359283.000026"
+    },
+    {
+        "type": "message",
+        "user": "U9N8CNHK2",
+        "text": "ok",
+        "ts": "1523359341.000055"
+    },
+    {
+        "type": "message",
+        "user": "U9NFLSSBW",
+        "text": "A vederlo ",
+        "client_msg_id": "2AD9F09A-1F71-4102-A8FD-7363333B5B4E",
+        "ts": "1523359584.000172"
+    },
+    {
+        "type": "message",
+        "user": "U9N8CNHK2",
+        "text": "ok, allora adesso faccia questo test",
+        "ts": "1523359693.000036"
+    },
+    {
+        "type": "message",
+        "user": "U9N8CNHK2",
+        "text": "1) clic su invitation link: <https:\/\/classroom.github.com\/g\/-uc4UzW->",
+        "ts": "1523359717.000028"
+    },
+    {
+        "type": "message",
+        "user": "U9N8CNHK2",
+        "text": "2) scegliere di associarsi a un team esistente, nella fattispecie il vostro è brooks",
+        "ts": "1523359751.000374"
+    },
+    {
+        "type": "message",
+        "user": "U9N8CNHK2",
+        "text": "per favore, può dirmi al volo se riesce?",
+        "ts": "1523359760.000405"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U9NFLSSBW> uploaded a file: <https:\/\/ingsw1718.slack.com\/files\/U9NFLSSBW\/FA56G53LP\/image_uploaded_from_ios.jpg|Slack for iOS Upload.jpg> and commented: Il gruppo lo vedo ma se provo a fare il join mi dice questo ...\n",
+        "file": {
+            "id": "FA56G53LP",
+            "created": 1523361438,
+            "timestamp": 1523361438,
+            "name": "Image uploaded from iOS.jpg",
+            "title": "Slack for iOS Upload.jpg",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U9NFLSSBW",
+            "editable": false,
+            "size": 108071,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA56G53LP\/image_uploaded_from_ios.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA56G53LP\/download\/image_uploaded_from_ios.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA56G53LP-695a0d6fbb\/image_uploaded_from_ios_64.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA56G53LP-695a0d6fbb\/image_uploaded_from_ios_80.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA56G53LP-695a0d6fbb\/image_uploaded_from_ios_360.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360_w": 360,
+            "thumb_360_h": 247,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA56G53LP-695a0d6fbb\/image_uploaded_from_ios_480.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_480_w": 480,
+            "thumb_480_h": 330,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA56G53LP-695a0d6fbb\/image_uploaded_from_ios_160.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA56G53LP-695a0d6fbb\/image_uploaded_from_ios_720.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720_w": 720,
+            "thumb_720_h": 494,
+            "image_exif_rotation": 1,
+            "original_w": 750,
+            "original_h": 515,
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/U9NFLSSBW\/FA56G53LP\/image_uploaded_from_ios.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-FA56G53LP-5ada7e6754",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "FcA3DXE63A",
+                "created": 1523361438,
+                "timestamp": 1523361438,
+                "user": "U9NFLSSBW",
+                "is_intro": true,
+                "comment": "Il gruppo lo vedo ma se provo a fare il join mi dice questo ...\n"
+            }
+        },
+        "user": "U9NFLSSBW",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "invito98",
+        "bot_id": null,
+        "upload_reply_to": "372674D8-F418-4A36-89FE-81F360BEBD22",
+        "ts": "1523361438.000387"
+    },
+    {
+        "type": "message",
+        "user": "U9NFLSSBW",
+        "text": "Mi scusi ma ero in treno e non prendeva bene ",
+        "client_msg_id": "048CD79C-8F1D-4FDD-AE2B-B17ED7DB3026",
+        "ts": "1523361452.000153"
+    },
+    {
+        "type": "message",
+        "user": "U9NFLSSBW",
+        "text": "Risolto ... ora sono riuscito a fare il join con successo ...",
+        "client_msg_id": "DCBAE968-2AB7-4E1C-BE84-14818FF86957",
+        "ts": "1523361606.000509"
+    },
+    {
+        "type": "message",
+        "user": "U9N8K4Z24",
+        "text": "Anche io sono riuscito ad effettuare il join, la ringrazio",
+        "client_msg_id": "82c0c9d4-84a3-4cbb-b425-2333d42d14fd",
+        "ts": "1523363178.000087"
+    }
+]

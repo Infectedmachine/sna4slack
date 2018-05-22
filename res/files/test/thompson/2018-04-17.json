@@ -1,0 +1,42 @@
+[
+    {
+        "type": "message",
+        "user": "U9NDPBTNF",
+        "text": "Lorenzo Capocchiano: <https:\/\/github.com\/lorenzokyne>\nMatteo Greco: <https:\/\/github.com\/mattskinosix>\nMirko Gallone: <https:\/\/github.com\/Mirko001>\nMarco Campaniello: <https:\/\/github.com\/marcocampaniello>\nFernando Granato: <https:\/\/github.com\/fergra1997>",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "lorenzokyne (Lorenzo Capocchiano)",
+                "title_link": "https:\/\/github.com\/lorenzokyne",
+                "text": "lorenzokyne has 3 repositories available. Follow their code on GitHub.",
+                "fallback": "GitHub: lorenzokyne (Lorenzo Capocchiano)",
+                "from_url": "https:\/\/github.com\/lorenzokyne",
+                "thumb_url": "https:\/\/avatars0.githubusercontent.com\/u\/32832267?s=400&v=4",
+                "thumb_width": 250,
+                "thumb_height": 250,
+                "service_icon": "https:\/\/a.slack-edge.com\/bfaba\/img\/unfurl_icons\/github.png",
+                "id": 1,
+                "original_url": "https:\/\/github.com\/lorenzokyne"
+            },
+            {
+                "service_name": "GitHub",
+                "title": "mattskinosix (Matteo Greco)",
+                "title_link": "https:\/\/github.com\/mattskinosix",
+                "text": "mattskinosix has 3 repositories available. Follow their code on GitHub.",
+                "fallback": "GitHub: mattskinosix (Matteo Greco)",
+                "from_url": "https:\/\/github.com\/mattskinosix",
+                "thumb_url": "https:\/\/avatars2.githubusercontent.com\/u\/30196683?s=400&v=4",
+                "thumb_width": 250,
+                "thumb_height": 250,
+                "service_icon": "https:\/\/a.slack-edge.com\/bfaba\/img\/unfurl_icons\/github.png",
+                "id": 2,
+                "original_url": "https:\/\/github.com\/mattskinosix"
+            }
+        ],
+        "edited": {
+            "user": "U9NDPBTNF",
+            "ts": "1523948680.000000"
+        },
+        "ts": "1523948623.000242"
+    }
+]

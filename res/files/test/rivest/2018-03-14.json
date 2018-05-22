@@ -1,0 +1,50 @@
+[
+    {
+        "user": "U9NG44DUJ",
+        "text": "<@U9NG44DUJ> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1521020870.000012"
+    },
+    {
+        "user": "U9P0XUJ4D",
+        "inviter": "U9NG44DUJ",
+        "text": "<@U9P0XUJ4D> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1521020870.000193"
+    },
+    {
+        "user": "U9PNBSH0E",
+        "inviter": "U9NG44DUJ",
+        "text": "<@U9PNBSH0E> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1521020870.000204"
+    },
+    {
+        "user": "U9NS9S2NQ",
+        "inviter": "U9NG44DUJ",
+        "text": "<@U9NS9S2NQ> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1521020870.000223"
+    },
+    {
+        "user": "U9NG44DUJ",
+        "purpose": "Lanotte - La Gioia - Bove - Pier Bale",
+        "text": "<@U9NG44DUJ> set the channel purpose: Lanotte - La Gioia - Bove - Pier Bale",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1521020870.000255",
+        "reactions": [
+            {
+                "name": "kissing_heart",
+                "users": [
+                    "U9NS9S2NQ"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

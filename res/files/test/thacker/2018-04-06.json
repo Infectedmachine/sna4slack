@@ -1,0 +1,35 @@
+[
+    {
+        "user": "UA2A3DUPN",
+        "inviter": "UA1PBUVC4",
+        "text": "<@UA2A3DUPN> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1523030868.000265"
+    },
+    {
+        "type": "message",
+        "user": "UA2P4MQ23",
+        "text": "Oleee",
+        "client_msg_id": "4bcdd642-75d7-4169-8e3a-4518a87160bb",
+        "ts": "1523031062.000221"
+    },
+    {
+        "type": "message",
+        "user": "UA1PBUVC4",
+        "text": "ho scritto su general",
+        "ts": "1523031143.000477"
+    },
+    {
+        "type": "message",
+        "user": "UA1PBUVC4",
+        "text": "dai un occhiata pure tu al pdf",
+        "ts": "1523031156.000384"
+    },
+    {
+        "type": "message",
+        "user": "UA1PBUVC4",
+        "text": "che non mi va di capire",
+        "ts": "1523031168.000373"
+    }
+]

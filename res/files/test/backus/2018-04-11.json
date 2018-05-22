@@ -1,0 +1,50 @@
+[
+    {
+        "type": "message",
+        "user": "U9P60ACP7",
+        "text": "backus1718",
+        "client_msg_id": "67792949-4759-4941-81d6-d4dd68bd9d08",
+        "ts": "1523449300.000262"
+    },
+    {
+        "type": "message",
+        "user": "U9P0DMXGD",
+        "text": "Ragazzi non so se avete letto il mess di Calefato, bene nulla di cui preoccuparsi tutto a posto.",
+        "ts": "1523467036.000152"
+    },
+    {
+        "type": "message",
+        "user": "U9P60ACP7",
+        "text": "Hai controllato tu?",
+        "client_msg_id": "c149764e-c42b-403a-9b99-15c1bfa9c49b",
+        "ts": "1523467110.000398"
+    },
+    {
+        "type": "message",
+        "user": "U9P0DMXGD",
+        "text": "Si",
+        "client_msg_id": "ae649a29-ee1b-48df-accb-c148af72dc5a",
+        "ts": "1523467134.000028"
+    },
+    {
+        "type": "message",
+        "user": "U9P60ACP7",
+        "text": "Okok",
+        "client_msg_id": "deb33c9a-7acb-4252-8d52-640ab5dd8917",
+        "ts": "1523467147.000680"
+    },
+    {
+        "type": "message",
+        "user": "U9P60ACP7",
+        "text": "Riuppo ID Docker: backus1718",
+        "client_msg_id": "fe520e9b-9f76-49b9-a866-7c6c7670b315",
+        "ts": "1523467169.000356"
+    },
+    {
+        "type": "message",
+        "user": "U9P60ACP7",
+        "text": "Raga facciamole domani le altre cose così le vediamo insieme",
+        "client_msg_id": "49075ead-b68c-4337-aabb-9bd6d3d73104",
+        "ts": "1523476339.000326"
+    }
+]

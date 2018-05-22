@@ -1,0 +1,54 @@
+[
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U9N6Y2L9W> uploaded a file: <https:\/\/ingsw1718.slack.com\/files\/U9N6Y2L9W\/F9R6LFWKX\/progit-en.1084.pdf|progit-en.1084.pdf>",
+        "file": {
+            "id": "F9R6LFWKX",
+            "created": 1521200599,
+            "timestamp": 1521200599,
+            "name": "progit-en.1084.pdf",
+            "title": "progit-en.1084.pdf",
+            "mimetype": "application\/pdf",
+            "filetype": "pdf",
+            "pretty_type": "PDF",
+            "user": "U9N6Y2L9W",
+            "editable": false,
+            "size": 7979049,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-F9R6LFWKX\/progit-en.1084.pdf?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-F9R6LFWKX\/download\/progit-en.1084.pdf?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-F9R6LFWKX-f686de19dd\/progit-en.1084_thumb_pdf.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_pdf_w": 770,
+            "thumb_pdf_h": 1011,
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/U9N6Y2L9W\/F9R6LFWKX\/progit-en.1084.pdf",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-F9R6LFWKX-c64d71a46f",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "reactions": [
+                {
+                    "name": "slightly_smiling_face",
+                    "users": [
+                        "U9NREC5DJ",
+                        "U9N9XTY8H"
+                    ],
+                    "count": 2
+                }
+            ]
+        },
+        "user": "U9N6Y2L9W",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "giovandimeo",
+        "bot_id": null,
+        "ts": "1521200601.000129"
+    }
+]

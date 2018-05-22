@@ -1,0 +1,51 @@
+[
+    {
+        "user": "U9T55R65D",
+        "inviter": "U9PDKF5JB",
+        "text": "<@U9T55R65D> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1523020024.000606"
+    },
+    {
+        "type": "message",
+        "user": "U9PDKF5JB",
+        "text": "Ciao alberto, come si chiama la ragazza che dobbiamo aggiungere?",
+        "client_msg_id": "6790c0f6-fc9a-4b76-a51b-384e96af9110",
+        "ts": "1523020082.000395"
+    },
+    {
+        "type": "message",
+        "user": "U9PDKF5JB",
+        "text": "(Sempre se alla fine confermate :sweat_smile: )",
+        "client_msg_id": "7238f617-fba2-4661-931f-8b32afe467f8",
+        "ts": "1523022974.000569"
+    },
+    {
+        "type": "message",
+        "user": "U9T55R65D",
+        "text": "Ciao...sisi ci siamo si chiama Anna eliotropio",
+        "client_msg_id": "7cd975d2-a570-4d28-909c-bd45815da6a1",
+        "ts": "1523026090.000445"
+    },
+    {
+        "user": "U9SUDJ8J2",
+        "inviter": "U9MTNTYSD",
+        "text": "<@U9SUDJ8J2> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1523031097.000308"
+    },
+    {
+        "type": "message",
+        "user": "U9MTNTYSD",
+        "text": "ok fatto",
+        "ts": "1523031108.000107"
+    },
+    {
+        "type": "message",
+        "user": "U9MTNTYSD",
+        "text": "ste poi cambia il canale e conferma al professore",
+        "ts": "1523031157.000050"
+    }
+]

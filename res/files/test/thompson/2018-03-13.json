@@ -1,0 +1,26 @@
+[
+    {
+        "user": "U9NBB7P4K",
+        "inviter": "U9NDPBTNF",
+        "text": "<@U9NBB7P4K> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520934165.000468"
+    },
+    {
+        "user": "U9NDPBTNF",
+        "purpose": "Campaniello - Capocchiano - Gallone - Granato - Greco",
+        "text": "<@U9NDPBTNF> set the channel purpose: Campaniello - Capocchiano - Gallone - Granato - Greco",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520938505.000232"
+    },
+    {
+        "user": "U9NDPBTNF",
+        "topic": "",
+        "text": "<@U9NDPBTNF> cleared channel topic",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1520938505.000254"
+    }
+]

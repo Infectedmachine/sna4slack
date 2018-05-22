@@ -1,0 +1,84 @@
+[
+    {
+        "user": "U9NDPBTNF",
+        "text": "<@U9NDPBTNF> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520883968.000357"
+    },
+    {
+        "user": "U9NDPBTNF",
+        "purpose": "Campaniello - Capocchiano - Granato",
+        "text": "<@U9NDPBTNF> set the channel purpose: Campaniello - Capocchiano - Granato",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520883968.000708"
+    },
+    {
+        "user": "U9PLQ0F47",
+        "inviter": "U9NDPBTNF",
+        "text": "<@U9PLQ0F47> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520883968.000743"
+    },
+    {
+        "user": "U9NJ8R37E",
+        "inviter": "U9NDPBTNF",
+        "text": "<@U9NJ8R37E> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520883969.000088"
+    },
+    {
+        "type": "message",
+        "user": "U9NDPBTNF",
+        "text": "Ciao",
+        "client_msg_id": "234ee0ff-c1ba-4784-a563-9a1f766a41e8",
+        "ts": "1520884084.000543"
+    },
+    {
+        "type": "message",
+        "user": "U9NJ8R37E",
+        "text": "Wajo",
+        "client_msg_id": "7fe07af4-7303-41d2-9258-2512cc3fb41b",
+        "ts": "1520884312.000402"
+    },
+    {
+        "user": "U9NDPBTNF",
+        "text": "<@U9NDPBTNF> archived the channel",
+        "type": "message",
+        "subtype": "channel_archive",
+        "ts": "1520886300.000069"
+    },
+    {
+        "user": "U9NDPBTNF",
+        "text": "<@U9NDPBTNF> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520886327.000699"
+    },
+    {
+        "user": "U9NDPBTNF",
+        "text": "<@U9NDPBTNF> un-archived the channel",
+        "type": "message",
+        "subtype": "channel_unarchive",
+        "ts": "1520886327.000716"
+    },
+    {
+        "user": "U9NJ8R37E",
+        "inviter": "U9NDPBTNF",
+        "text": "<@U9NJ8R37E> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520886365.000349"
+    },
+    {
+        "user": "U9PLQ0F47",
+        "inviter": "U9NDPBTNF",
+        "text": "<@U9PLQ0F47> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520886371.000051"
+    }
+]

@@ -1,0 +1,126 @@
+[
+    {
+        "user": "U9N8CNHK2",
+        "text": "<@U9N8CNHK2> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1523358234.000181"
+    },
+    {
+        "type": "message",
+        "user": "U9N8CNHK2",
+        "text": "<!channel> ho creato un team con vostro nome 'allen' e ho aggiunto uno di voi al team (Domenico Ancler). Mi confermate urgentemente che: Ancler vede la propria appartenenza al team e voi vedete il team tra quelli esistenti e potete fare richiesta di join?",
+        "ts": "1523358325.000334"
+    },
+    {
+        "type": "message",
+        "user": "U9N8CNHK2",
+        "text": "grazie",
+        "ts": "1523358328.000284"
+    },
+    {
+        "type": "message",
+        "user": "U9NTC20N6",
+        "text": "Confermo",
+        "client_msg_id": "4e4f9aef-d452-4dfa-9158-897f62db4394",
+        "ts": "1523358362.000064"
+    },
+    {
+        "type": "message",
+        "user": "U9N8CNHK2",
+        "text": "gli altri riescono a fare join?",
+        "ts": "1523358370.000299"
+    },
+    {
+        "type": "message",
+        "user": "U9N7VA3NC",
+        "text": "controllo subito",
+        "client_msg_id": "7703E45D-A9F7-433D-A824-CF02C0307E6F",
+        "ts": "1523358391.000313"
+    },
+    {
+        "type": "message",
+        "user": "U9N8CNHK2",
+        "text": "<@U9NQ3SVMH> <@U9PC1QR2R> <@U9NAWQD7B>",
+        "ts": "1523358400.000142"
+    },
+    {
+        "type": "message",
+        "user": "U9N8CNHK2",
+        "text": "controllate per favore",
+        "ts": "1523358407.000387"
+    },
+    {
+        "type": "message",
+        "user": "U9N8CNHK2",
+        "text": "e datemi anche conferma che riusciate a vedere il repository",
+        "ts": "1523358430.000207"
+    },
+    {
+        "type": "message",
+        "user": "U9NAWQD7B",
+        "text": "Controlliamo subito",
+        "client_msg_id": "E16300E3-619F-4DEB-AF09-FA95FE29BB5E",
+        "ts": "1523358458.000142"
+    },
+    {
+        "type": "message",
+        "user": "U9NTC20N6",
+        "text": "Confermo anche del repository",
+        "client_msg_id": "223caa13-b28f-4a91-8093-7fef553f9c8a",
+        "ts": "1523358527.000289"
+    },
+    {
+        "type": "message",
+        "user": "U9N7VA3NC",
+        "text": "Confermo che permette di fare join",
+        "client_msg_id": "6AEE05F3-793B-4189-8023-D52FA239FB13",
+        "ts": "1523358528.000233"
+    },
+    {
+        "type": "message",
+        "user": "U9NAWQD7B",
+        "text": "Anche per me",
+        "client_msg_id": "C40C2DBA-3D16-4F19-A8CA-594923BF3653",
+        "ts": "1523358618.000198"
+    },
+    {
+        "type": "message",
+        "user": "U9N8CNHK2",
+        "text": "<!channel> perfetto. Ho appena lasciato il vostro team, mi confermate che continuate a vedere sia il team che il repository=",
+        "ts": "1523358729.000239"
+    },
+    {
+        "type": "message",
+        "user": "U9N8CNHK2",
+        "text": "?",
+        "ts": "1523358731.000262"
+    },
+    {
+        "type": "message",
+        "user": "U9N7VA3NC",
+        "text": "Yes ",
+        "client_msg_id": "33B92A3C-0B6A-45BE-BE06-E0E7E291273E",
+        "ts": "1523358755.000360"
+    },
+    {
+        "type": "message",
+        "user": "U9NTC20N6",
+        "text": "Si",
+        "client_msg_id": "bf0db7f7-5a1e-48cf-9e4f-c13061fd82f8",
+        "ts": "1523358805.000006"
+    },
+    {
+        "type": "message",
+        "user": "U9N8CNHK2",
+        "text": "perfetto grazie. avete quindi il vostro gruppo e il vostro repository. Aspettate a comunicarlo agli altri, farò io una comunicazione ufficiale perchè probabilmente procederemo in questo modo e cioè creando (noi) i team mancanti.",
+        "ts": "1523358894.000271"
+    },
+    {
+        "type": "message",
+        "user": "U9N7VA3NC",
+        "text": "d’accordo ",
+        "client_msg_id": "DA9A5B2B-0954-484F-89E6-5CA3E97AE117",
+        "ts": "1523358910.000076"
+    }
+]

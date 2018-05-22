@@ -1,0 +1,58 @@
+[
+    {
+        "user": "U9BD7NMPC",
+        "text": "<@U9BD7NMPC> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1522253387.000859"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<!channel> Come mai avete creato questo gruppo due giorni fa? Senza chiedere il permesso? Temo che dovrò archiviarlo",
+        "ts": "1522253432.000304"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "Ah no, vi ho disarchiviato io. Ma vedo che è ancora da solo sul channel. Non è un buon segno",
+        "edited": {
+            "user": "U9BD7NMPC",
+            "ts": "1522253494.000000"
+        },
+        "ts": "1522253478.000791"
+    },
+    {
+        "user": "U9PUTB10X",
+        "text": "<@U9PUTB10X> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1522256662.000527"
+    },
+    {
+        "type": "message",
+        "user": "U9PUTB10X",
+        "text": "<@U9BD7NMPC> Professore Buonasera! Non capisco! Lunedi scorso, lei stesso ci disarchiviò e ci ha anche sentito! inoltre i membri di questo gruppo risultano tutti inscritti sia su slack che sul gruppo! In che senso è ancora solo sul channel?",
+        "client_msg_id": "8ac2eac9-34bb-4a47-816e-676596e23a27",
+        "ts": "1522257620.000139"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "Avevo dimenticato e poi me ne sono accorto. Non mi ero accorto del join dei suoi colleghi. Tutto bene, scusi se l'ho fatta agitare.",
+        "ts": "1522259419.000215"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "Mi levo dal gruppo",
+        "ts": "1522259458.000312"
+    },
+    {
+        "type": "message",
+        "user": "U9PUTB10X",
+        "text": "Non si preoccupi professore :slightly_smiling_face:",
+        "client_msg_id": "98c9e894-1129-4da5-a7d3-4baf498b5b4c",
+        "ts": "1522259861.000115"
+    }
+]

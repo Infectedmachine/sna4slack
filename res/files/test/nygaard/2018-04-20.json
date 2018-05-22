@@ -1,0 +1,21 @@
+[
+    {
+        "type": "message",
+        "user": "U9NREC5DJ",
+        "text": "Nel repository di Git è tutto in ordine.",
+        "ts": "1524244604.000434"
+    },
+    {
+        "type": "message",
+        "user": "U9N9XTY8H",
+        "text": "Bene, bene.",
+        "client_msg_id": "f9ad23b7-3ec6-4e15-8ed6-13685091c24f",
+        "ts": "1524244680.000558"
+    },
+    {
+        "type": "message",
+        "user": "U9PTV79DM",
+        "text": "Ho controllato e tutte le mofiche ci sono",
+        "ts": "1524248657.000763"
+    }
+]

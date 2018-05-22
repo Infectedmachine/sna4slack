@@ -1,0 +1,100 @@
+[
+    {
+        "user": "U9P6VLG6A",
+        "text": "<@U9P6VLG6A> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520863788.000368"
+    },
+    {
+        "user": "U9NAK1VB5",
+        "text": "<@U9NAK1VB5> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520869750.000301"
+    },
+    {
+        "user": "U9MML6PLG",
+        "inviter": "U9P6VLG6A",
+        "text": "<@U9MML6PLG> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520871727.000487"
+    },
+    {
+        "user": "U9P6VLG6A",
+        "purpose": "",
+        "text": "<@U9P6VLG6A> cleared channel purpose",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520871789.000237"
+    },
+    {
+        "user": "U9P6VLG6A",
+        "topic": "Componenti: Corsini, Di Pierro, Elia, Giovine",
+        "text": "<@U9P6VLG6A> set the channel topic: Componenti: Corsini, Di Pierro, Elia, Giovine",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1520871789.000268"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "salve",
+        "ts": "1520872573.000845"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "ma io ero già entrata andrè",
+        "ts": "1520872580.000347"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "credo che tu debba aggiungere il prof? :thinking_face:",
+        "ts": "1520872611.000185"
+    },
+    {
+        "type": "message",
+        "user": "U9P6VLG6A",
+        "text": "Non lo so... Al massimo ce lo dice domani",
+        "client_msg_id": "43b713a3-464f-4014-b558-9c355fafe27e",
+        "ts": "1520873149.000141"
+    },
+    {
+        "type": "message",
+        "user": "U9P6VLG6A",
+        "text": "Eri gia entrata ma non avevi fatto join",
+        "client_msg_id": "59f6256d-55ec-4391-8cbc-ab25491beeff",
+        "ts": "1520873175.000835"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "sisi scusa quando ho visto il set",
+        "ts": "1520873200.000674"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "pensavo fosse un'aggiunta",
+        "ts": "1520873207.000062"
+    },
+    {
+        "user": "U9P6VLG6A",
+        "purpose": "Componenti: Corsini, Di Pierro, Elia, Giovine",
+        "text": "<@U9P6VLG6A> set the channel purpose: Componenti: Corsini, Di Pierro, Elia, Giovine",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520876363.000143"
+    },
+    {
+        "user": "U9P6VLG6A",
+        "topic": "",
+        "text": "<@U9P6VLG6A> cleared channel topic",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1520876363.000160"
+    }
+]

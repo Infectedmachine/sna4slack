@@ -1,0 +1,18 @@
+[
+    {
+        "user": "U9P3A065A",
+        "purpose": "Iannotta, Diomede, Allamprese, Loperfido ",
+        "text": "<@U9P3A065A> set the channel purpose: Iannotta, Diomede, Allamprese, Loperfido ",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1521720295.000515"
+    },
+    {
+        "user": "U9P3A065A",
+        "topic": "",
+        "text": "<@U9P3A065A> cleared channel topic",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1521720295.000534"
+    }
+]

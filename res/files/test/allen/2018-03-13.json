@@ -1,0 +1,284 @@
+[
+    {
+        "user": "U9NQ3SVMH",
+        "text": "<@U9NQ3SVMH> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520931052.000348"
+    },
+    {
+        "type": "message",
+        "user": "U9NQ3SVMH",
+        "text": "sto gruppo",
+        "edited": {
+            "user": "U9NQ3SVMH",
+            "ts": "1520932041.000000"
+        },
+        "ts": "1520931423.000130",
+        "reactions": [
+            {
+                "name": "expressionless",
+                "users": [
+                    "U9NQ3SVMH"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U9N7VA3NC",
+        "inviter": "U9NQ3SVMH",
+        "text": "<@U9N7VA3NC> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520931439.000324"
+    },
+    {
+        "user": "U9NAWQD7B",
+        "inviter": "U9NQ3SVMH",
+        "text": "<@U9NAWQD7B> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520931640.000046"
+    },
+    {
+        "user": "U9NTC20N6",
+        "inviter": "U9NQ3SVMH",
+        "text": "<@U9NTC20N6> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520932400.000100"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U9NQ3SVMH> uploaded a file: <https:\/\/ingsw1718.slack.com\/files\/U9NQ3SVMH\/F9P1K6CFP\/img-20180313-wa0001.jpg|IMG-20180313-WA0001.jpg>",
+        "file": {
+            "id": "F9P1K6CFP",
+            "created": 1520932639,
+            "timestamp": 1520932639,
+            "name": "IMG-20180313-WA0001.jpg",
+            "title": "IMG-20180313-WA0001.jpg",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U9NQ3SVMH",
+            "editable": false,
+            "size": 43363,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-F9P1K6CFP\/img-20180313-wa0001.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-F9P1K6CFP\/download\/img-20180313-wa0001.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-F9P1K6CFP-97ed3a0db9\/img-20180313-wa0001_64.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-F9P1K6CFP-97ed3a0db9\/img-20180313-wa0001_80.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-F9P1K6CFP-97ed3a0db9\/img-20180313-wa0001_360.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360_w": 360,
+            "thumb_360_h": 316,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-F9P1K6CFP-97ed3a0db9\/img-20180313-wa0001_480.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_480_w": 480,
+            "thumb_480_h": 422,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-F9P1K6CFP-97ed3a0db9\/img-20180313-wa0001_160.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "image_exif_rotation": 1,
+            "original_w": 560,
+            "original_h": 492,
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/U9NQ3SVMH\/F9P1K6CFP\/img-20180313-wa0001.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-F9P1K6CFP-578d91cf0b",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U9NQ3SVMH",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "s.caputo29",
+        "bot_id": null,
+        "ts": "1520932641.000385"
+    },
+    {
+        "type": "message",
+        "user": "U9NQ3SVMH",
+        "text": "<@U9N84AWTA>",
+        "client_msg_id": "d5f5d700-381f-4d35-9811-3b5408dc74db",
+        "ts": "1520932664.000160"
+    },
+    {
+        "type": "message",
+        "user": "U9N7VA3NC",
+        "text": "ci sono ",
+        "client_msg_id": "274709B1-F57E-4465-BD9F-16B63AEF655F",
+        "ts": "1520932872.000340"
+    },
+    {
+        "type": "message",
+        "user": "U9NAWQD7B",
+        "text": "Hi, I'm here!",
+        "client_msg_id": "5C49B6A8-A28F-42BC-A643-9A76F37D3ECD",
+        "ts": "1520932969.000413"
+    },
+    {
+        "type": "message",
+        "user": "U9NQ3SVMH",
+        "text": "Se u fee",
+        "client_msg_id": "16a02d5b-46c4-4d32-a98f-e67fd68bf1ce",
+        "ts": "1520932986.000409",
+        "reactions": [
+            {
+                "name": "white_frowning_face",
+                "users": [
+                    "U9NAWQD7B"
+                ],
+                "count": 1
+            },
+            {
+                "name": "star-struck",
+                "users": [
+                    "U9NQ3SVMH"
+                ],
+                "count": 1
+            },
+            {
+                "name": "drooling_face",
+                "users": [
+                    "U9NQ3SVMH"
+                ],
+                "count": 1
+            },
+            {
+                "name": "tired_face",
+                "users": [
+                    "U9NQ3SVMH"
+                ],
+                "count": 1
+            },
+            {
+                "name": "hugging_face",
+                "users": [
+                    "U9NQ3SVMH"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9NTC20N6",
+        "text": "Hey, there! I'm using Slack.",
+        "client_msg_id": "e5b55d05-a5e3-406e-8a9f-b2a3b9634c21",
+        "ts": "1520933178.000133"
+    },
+    {
+        "type": "message",
+        "user": "U9NQ3SVMH",
+        "text": "Ehiii a me gli occhi",
+        "client_msg_id": "519d2ef1-a2ee-451d-9c7d-99b82e63c199",
+        "ts": "1520933430.000350"
+    },
+    {
+        "type": "message",
+        "user": "U9NQ3SVMH",
+        "text": "Z@lorenzo",
+        "client_msg_id": "ab15267a-7910-4351-903c-a73482538ea2",
+        "ts": "1520933601.000320"
+    },
+    {
+        "type": "message",
+        "user": "U9N7VA3NC",
+        "text": "ciao",
+        "client_msg_id": "9775A6BB-0EBA-4820-8A48-4354CA839C8D",
+        "ts": "1520933633.000131"
+    },
+    {
+        "type": "message",
+        "user": "U9NTC20N6",
+        "text": "Ma qua possiamo taggare anche persone che non stanno in questo gruppo?",
+        "client_msg_id": "791b79ca-1c91-4ce5-ae37-6bf9e1761bf5",
+        "ts": "1520934709.000097"
+    },
+    {
+        "type": "message",
+        "user": "U9NAWQD7B",
+        "text": "a quanto pare si",
+        "client_msg_id": "D7755BDF-203B-41B6-964E-DB59EFD74E13",
+        "ts": "1520934745.000549"
+    },
+    {
+        "type": "message",
+        "user": "U9NTC20N6",
+        "text": "Ma a voi arrivano notifiche quando stanno messaggi?",
+        "client_msg_id": "12991dfe-df51-4716-8c8c-a1b819dbc834",
+        "ts": "1520934786.000024"
+    },
+    {
+        "type": "message",
+        "user": "U9NAWQD7B",
+        "text": "Si",
+        "client_msg_id": "F34E4C25-FA8E-49BF-A726-2CFDDCCA7667",
+        "ts": "1520934798.000399"
+    },
+    {
+        "type": "message",
+        "user": "U9NQ3SVMH",
+        "text": "we wagliu bell stu grupp",
+        "ts": "1520935243.000504"
+    },
+    {
+        "type": "message",
+        "user": "U9NQ3SVMH",
+        "text": "marco dove sei ?",
+        "ts": "1520935625.000453",
+        "reactions": [
+            {
+                "name": "heart",
+                "users": [
+                    "U9PC1QR2R"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U9NTC20N6",
+        "topic": "",
+        "text": "<@U9NTC20N6> cleared channel topic",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1520941544.000036"
+    },
+    {
+        "user": "U9NTC20N6",
+        "purpose": "Ancler Domenico, Bruno Marco, Caputo Sandro, Casafina Lorenzo, Losito Riccardo",
+        "text": "<@U9NTC20N6> set the channel purpose: Ancler Domenico, Bruno Marco, Caputo Sandro, Casafina Lorenzo, Losito Riccardo",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520941544.000273"
+    },
+    {
+        "user": "U9NQ3SVMH",
+        "purpose": "Ancler, Bruno, Caputo, Casafina e Losito ",
+        "text": "<@U9NQ3SVMH> set the channel purpose: Ancler, Bruno, Caputo, Casafina e Losito ",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520959813.000777"
+    },
+    {
+        "user": "U9NQ3SVMH",
+        "topic": "",
+        "text": "<@U9NQ3SVMH> cleared channel topic",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1520959813.000785"
+    },
+    {
+        "user": "U9PC1QR2R",
+        "text": "<@U9PC1QR2R> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520965289.000641"
+    }
+]

@@ -1,0 +1,240 @@
+[
+    {
+        "type": "message",
+        "user": "U9NS5BECU",
+        "text": "Buongiorno, volevo chiedere se una volta caricati i file richiesti ieri sul repository sia necessario eliminare le \"vecchie copie\" di guida per lo studente e di travis. Grazie in anticipo per le risposte.",
+        "thread_ts": "1524132310.000381",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U9BD7NMPC",
+                "ts": "1524136535.000229"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1524132310.000381"
+    },
+    {
+        "type": "message",
+        "user": "U9JS0QR60",
+        "text": "buongiorno, io ho problemi con travis. con il mio gruppo, <#C9NK7QADT|liskov>, abbiamo appena terminato la consegna, ora sono andata sul mio account travis e mi dice che non ci sono repositories, ma a tutti gli altri del gruppo funziona tutto. su github funziona tutto e il ligin di travis lo ho fatto con github, quindi non capisco quale possa essere il problema... allego la schermata di travis",
+        "thread_ts": "1524136231.000387",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "U9BD7NMPC",
+                "ts": "1524136516.000096"
+            },
+            {
+                "user": "U9BD7NMPC",
+                "ts": "1524136581.000081"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1524136231.000387"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U9JS0QR60> uploaded a file: <https:\/\/ingsw1718.slack.com\/files\/U9JS0QR60\/FA9BG0Z9S\/assistenza2.png|assistenza2.png>",
+        "file": {
+            "id": "FA9BG0Z9S",
+            "created": 1524136319,
+            "timestamp": 1524136319,
+            "name": "assistenza2.png",
+            "title": "assistenza2.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U9JS0QR60",
+            "editable": false,
+            "size": 115236,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA9BG0Z9S\/assistenza2.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA9BG0Z9S\/download\/assistenza2.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA9BG0Z9S-3bbc5e5e03\/assistenza2_64.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA9BG0Z9S-3bbc5e5e03\/assistenza2_80.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA9BG0Z9S-3bbc5e5e03\/assistenza2_360.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360_w": 360,
+            "thumb_360_h": 202,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA9BG0Z9S-3bbc5e5e03\/assistenza2_480.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_480_w": 480,
+            "thumb_480_h": 270,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA9BG0Z9S-3bbc5e5e03\/assistenza2_160.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA9BG0Z9S-3bbc5e5e03\/assistenza2_720.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720_w": 720,
+            "thumb_720_h": 405,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA9BG0Z9S-3bbc5e5e03\/assistenza2_800.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_800_w": 800,
+            "thumb_800_h": 450,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA9BG0Z9S-3bbc5e5e03\/assistenza2_960.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_960_w": 960,
+            "thumb_960_h": 540,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA9BG0Z9S-3bbc5e5e03\/assistenza2_1024.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 576,
+            "image_exif_rotation": 1,
+            "original_w": 1366,
+            "original_h": 768,
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/U9JS0QR60\/FA9BG0Z9S\/assistenza2.png",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-FA9BG0Z9S-9f7e8f73fc",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1
+        },
+        "user": "U9JS0QR60",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "s.lorusso25",
+        "bot_id": null,
+        "ts": "1524136322.000304"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "Non era rivolto a lei il messaggio precedente che ho cancellato",
+        "thread_ts": "1524136231.000387",
+        "parent_user_id": "U9JS0QR60",
+        "ts": "1524136516.000096",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9JS0QR60"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "Da questa domanda intuisco che non ha capito come funzione il controllo di versione. E' proprio sicuro di voler continuare con la prova di esonero senza studiare quello che abbiamo fatto prima?",
+        "thread_ts": "1524132310.000381",
+        "parent_user_id": "U9NS5BECU",
+        "ts": "1524136535.000229"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "Mi limito a dirle che non posso essere di aiuto su un problema che sembra limitato solo a Lei",
+        "thread_ts": "1524136231.000387",
+        "parent_user_id": "U9JS0QR60",
+        "ts": "1524136581.000081"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@U9Q3DHX0V> commented on <@U9JS0QR60>’s file <https:\/\/ingsw1718.slack.com\/files\/U9JS0QR60\/FA9BG0Z9S\/assistenza2.png|assistenza2.png>: Prova ad accedere tramite <https:\/\/travis-ci.com\/>. <http:\/\/Travis-ci.org|Travis-ci.org> mostra solo repository pubbliche, .com anche quelle private",
+        "file": {
+            "id": "FA9BG0Z9S",
+            "created": 1524136319,
+            "timestamp": 1524136319,
+            "name": "assistenza2.png",
+            "title": "assistenza2.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U9JS0QR60",
+            "editable": false,
+            "size": 115236,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA9BG0Z9S\/assistenza2.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA9BG0Z9S\/download\/assistenza2.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA9BG0Z9S-3bbc5e5e03\/assistenza2_64.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA9BG0Z9S-3bbc5e5e03\/assistenza2_80.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA9BG0Z9S-3bbc5e5e03\/assistenza2_360.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360_w": 360,
+            "thumb_360_h": 202,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA9BG0Z9S-3bbc5e5e03\/assistenza2_480.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_480_w": 480,
+            "thumb_480_h": 270,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA9BG0Z9S-3bbc5e5e03\/assistenza2_160.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA9BG0Z9S-3bbc5e5e03\/assistenza2_720.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720_w": 720,
+            "thumb_720_h": 405,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA9BG0Z9S-3bbc5e5e03\/assistenza2_800.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_800_w": 800,
+            "thumb_800_h": 450,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA9BG0Z9S-3bbc5e5e03\/assistenza2_960.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_960_w": 960,
+            "thumb_960_h": 540,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA9BG0Z9S-3bbc5e5e03\/assistenza2_1024.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 576,
+            "image_exif_rotation": 1,
+            "original_w": 1366,
+            "original_h": 768,
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/U9JS0QR60\/FA9BG0Z9S\/assistenza2.png",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-FA9BG0Z9S-9f7e8f73fc",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1
+        },
+        "comment": {
+            "id": "FcA8TA3G4Q",
+            "created": 1524136905,
+            "timestamp": 1524136905,
+            "user": "U9Q3DHX0V",
+            "is_intro": false,
+            "comment": "Prova ad accedere tramite <https:\/\/travis-ci.com\/>. <http:\/\/Travis-ci.org|Travis-ci.org> mostra solo repository pubbliche, .com anche quelle private",
+            "reactions": [
+                {
+                    "name": "+1",
+                    "users": [
+                        "U9JS0QR60",
+                        "U9CDZPXLN",
+                        "U9NSNMBMG"
+                    ],
+                    "count": 3
+                }
+            ]
+        },
+        "is_intro": false,
+        "ts": "1524136905.000097"
+    },
+    {
+        "type": "message",
+        "user": "U9JS0QR60",
+        "text": "grazie mille, funziona",
+        "attachments": [
+            {
+                "fallback": "[April 19th, 2018 1:21 PM] : <@U9Q3DHX0V> commented on <@U9JS0QR60>’s file <https:\/\/ingsw1718.slack.com\/files\/U9JS0QR60\/FA9BG0Z9S\/assistenza2.png|assistenza2.png>: Prova ad accedere tramite <https:\/\/travis-ci.com\/>. <http:\/\/Travis-ci.org|Travis-ci.org> mostra solo repository pubbliche, .com anche quelle private",
+                "ts": "1524136905.000097",
+                "msg_subtype": "file_comment",
+                "channel_id": "CA3EZFFGR",
+                "channel_name": "assistenza",
+                "is_msg_unfurl": true,
+                "text": "<@U9Q3DHX0V> commented on <@U9JS0QR60>’s file <https:\/\/ingsw1718.slack.com\/files\/U9JS0QR60\/FA9BG0Z9S\/assistenza2.png|assistenza2.png>: Prova ad accedere tramite <https:\/\/travis-ci.com\/>. <http:\/\/Travis-ci.org|Travis-ci.org> mostra solo repository pubbliche, .com anche quelle private",
+                "color": "D0D0D0",
+                "from_url": "https:\/\/ingsw1718.slack.com\/archives\/CA3EZFFGR\/p1524136905000097",
+                "is_share": true,
+                "footer": "Posted in #assistenza"
+            }
+        ],
+        "ts": "1524136992.000376",
+        "reactions": [
+            {
+                "name": "v",
+                "users": [
+                    "U9Q3DHX0V"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

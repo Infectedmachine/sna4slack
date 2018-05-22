@@ -1,0 +1,69 @@
+[
+    {
+        "type": "message",
+        "user": "U9T6XT550",
+        "text": "Come posso accedere alla prova individuale per il laboratorio (no esonero) ?  <@U9BD7NMPC>",
+        "client_msg_id": "bf84cb42-ee75-45fe-8ebd-c5ba47bd3988",
+        "ts": "1521623888.000444"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "questo workspace è solo per chi sostiene la prova di esonero.",
+        "ts": "1521626896.000007"
+    },
+    {
+        "type": "message",
+        "user": "U9NSNMBMG",
+        "text": "<@U9BD7NMPC> giovedì 29 c'è lezione?",
+        "ts": "1521644682.000005"
+    },
+    {
+        "type": "message",
+        "user": "U9JS0QR60",
+        "text": "ho letto sulla pagina di studenti indipendenti che dal 29 al 3 le lezioni sono sospese... quindi non ci dovrebbe essere lezione nè giovedì 29 nè martedì 3, giusto professore?",
+        "ts": "1521646953.000853"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "Comunicazione arrivata oggi: \nvi comunico, a nome del Coordinatore, che le lezioni sono sospese da giovedì 29 marzo a martedì 3 aprile p.v. per le vacanze pasquali. Riprenderanno regolarmente mercoledì 4 aprile.\nCordiali saluti\nDott.ssa Marcella Cives\nResponsabile U.O Didattica e Servizi agli Studenti",
+        "ts": "1521647663.000093",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9NDPBTNF",
+                    "U9NCNLL83",
+                    "U9NDHPVRS",
+                    "U9PAU9362",
+                    "U9JS0QR60",
+                    "U9P3321UY",
+                    "U9N8GRK3J",
+                    "U9N7WANGG",
+                    "U9N6Y2L9W"
+                ],
+                "count": 9
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9PK8UJBA",
+        "text": "Professore domani dobbiamo portare il PC?",
+        "client_msg_id": "bcf4e425-a421-49d7-9a61-c2757dec5116",
+        "ts": "1521659026.000815"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "dobbiamo completare l'esercitazione sul controllo di versione",
+        "ts": "1521659071.000221"
+    },
+    {
+        "type": "message",
+        "user": "U9PK8UJBA",
+        "text": "ok grazie prof buona serata :slightly_smiling_face:",
+        "ts": "1521659442.000145"
+    }
+]

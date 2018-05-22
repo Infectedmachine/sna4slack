@@ -1,0 +1,136 @@
+[
+    {
+        "type": "message",
+        "user": "U9NQ8RQ67",
+        "text": "<https:\/\/github.com\/orgs\/softeng-inf-uniba\/teams\/reddy\/members>",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "Build software better, together",
+                "title_link": "https:\/\/github.com\/orgs\/softeng-inf-uniba\/teams\/reddy\/members",
+                "text": "GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.",
+                "fallback": "GitHub: Build software better, together",
+                "image_width": 1200,
+                "image_height": 620,
+                "from_url": "https:\/\/github.com\/orgs\/softeng-inf-uniba\/teams\/reddy\/members",
+                "service_icon": "https:\/\/a.slack-edge.com\/bfaba\/img\/unfurl_icons\/github.png",
+                "id": 1
+            }
+        ],
+        "ts": "1523345086.000397"
+    },
+    {
+        "type": "message",
+        "user": "U9NQ8RQ67",
+        "text": "Provate qua",
+        "ts": "1523345091.000097"
+    },
+    {
+        "type": "message",
+        "user": "U9NQ7UWBD",
+        "text": "<@UA2DNR4F4> accedi a git hub e su git hub classroom",
+        "ts": "1523350793.000300"
+    },
+    {
+        "type": "message",
+        "user": "U9NQ7UWBD",
+        "text": "poi vai su questo link:\n<https:\/\/ingsw1718.slack.com\/archives\/C9APF813J\/p1523272603000189>",
+        "attachments": [
+            {
+                "from_url": "https:\/\/ingsw1718.slack.com\/archives\/C9APF813J\/p1523272603000189",
+                "fallback": "[April 9th, 2018 4:16 AM] filippo.lanubile: <https:\/\/classroom.github.com\/g\/-uc4UzW->",
+                "ts": "1523272603.000189",
+                "author_id": "U9BD7NMPC",
+                "author_subname": "Filippo",
+                "channel_id": "C9APF813J",
+                "channel_name": "general",
+                "is_msg_unfurl": true,
+                "text": "<https:\/\/classroom.github.com\/g\/-uc4UzW->",
+                "author_name": "Filippo",
+                "author_link": "https:\/\/ingsw1718.slack.com\/team\/U9BD7NMPC",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2018-03-12\/328399380067_c21cc81494b19032a666_48.jpg",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "id": 1,
+                "footer": "Posted in #general"
+            }
+        ],
+        "ts": "1523350808.000025"
+    },
+    {
+        "type": "message",
+        "user": "U9NQ7UWBD",
+        "text": "in fondo alla pagina scrivi reddy e prova ad aggiungere nuovamente il gruppo",
+        "ts": "1523350850.000344"
+    },
+    {
+        "type": "message",
+        "user": "U9NQ7UWBD",
+        "text": "finché non ti da un mes di errore per gruppo già esistente",
+        "ts": "1523350877.000098"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U9NQ7UWBD> uploaded a file: <https:\/\/ingsw1718.slack.com\/files\/U9NQ7UWBD\/FA3UZEX43\/cattura.png|e poi cliccando questo link:>",
+        "file": {
+            "id": "FA3UZEX43",
+            "created": 1523350982,
+            "timestamp": 1523350982,
+            "name": "Cattura.PNG",
+            "title": "e poi cliccando questo link:",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U9NQ7UWBD",
+            "editable": false,
+            "size": 62946,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA3UZEX43\/cattura.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA3UZEX43\/download\/cattura.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA3UZEX43-3cc4738765\/cattura_64.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA3UZEX43-3cc4738765\/cattura_80.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA3UZEX43-3cc4738765\/cattura_360.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360_w": 360,
+            "thumb_360_h": 132,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA3UZEX43-3cc4738765\/cattura_480.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_480_w": 480,
+            "thumb_480_h": 176,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA3UZEX43-3cc4738765\/cattura_160.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA3UZEX43-3cc4738765\/cattura_720.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720_w": 720,
+            "thumb_720_h": 265,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA3UZEX43-3cc4738765\/cattura_800.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_800_w": 800,
+            "thumb_800_h": 294,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA3UZEX43-3cc4738765\/cattura_960.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_960_w": 960,
+            "thumb_960_h": 353,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA3UZEX43-3cc4738765\/cattura_1024.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 376,
+            "image_exif_rotation": 1,
+            "original_w": 1216,
+            "original_h": 447,
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/U9NQ7UWBD\/FA3UZEX43\/cattura.png",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-FA3UZEX43-2b0dcecfd7",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U9NQ7UWBD",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "inglettoa",
+        "bot_id": null,
+        "ts": "1523350984.000478"
+    }
+]

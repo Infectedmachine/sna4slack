@@ -1,0 +1,25 @@
+[
+    {
+        "user": "U9SNDGH0A",
+        "text": "<@U9SNDGH0A> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1523192455.000084"
+    },
+    {
+        "user": "UA11Q07AL",
+        "inviter": "U9SNDGH0A",
+        "text": "<@UA11Q07AL> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1523192456.000017"
+    },
+    {
+        "user": "UA2GU3SBX",
+        "inviter": "U9SNDGH0A",
+        "text": "<@UA2GU3SBX> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1523192456.000023"
+    }
+]

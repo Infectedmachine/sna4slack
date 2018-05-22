@@ -1,0 +1,42 @@
+[
+    {
+        "type": "message",
+        "user": "U9NSNMBMG",
+        "text": "Giovedì a fine lezione il prof ha detto che dovrà uppare una guida che noi includermo nella nostra repository, come prova. Noi eravamo dietro e non si è capito nulla, qualcuno sa di preciso cosa dobbiamo fare e per quando? Grazie",
+        "thread_ts": "1523786755.000081",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U9JS0QR60",
+                "ts": "1523787056.000030"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1523786755.000081"
+    },
+    {
+        "type": "message",
+        "user": "U9JS0QR60",
+        "text": "Penso intendesse per il lunedì in cui ci vedremo, quindi la prossima settimana, non per domani... Comunque non ha dato particolari dettagli, quando posterà il compito vedremo",
+        "client_msg_id": "53d601f9-a0b9-4220-9d7e-32ae81f121c4",
+        "thread_ts": "1523786755.000081",
+        "parent_user_id": "U9NSNMBMG",
+        "ts": "1523787056.000030",
+        "reactions": [
+            {
+                "name": "heavy_check_mark",
+                "users": [
+                    "U9NSNMBMG"
+                ],
+                "count": 1
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U9BD7NMPC"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

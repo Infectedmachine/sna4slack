@@ -1,0 +1,63 @@
+[
+    {
+        "user": "U9P5NTBML",
+        "text": "<@U9P5NTBML> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520871003.000769"
+    },
+    {
+        "user": "U9P5NTBML",
+        "purpose": "Ingegneria del software",
+        "text": "<@U9P5NTBML> set the channel purpose: Ingegneria del software",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520871004.000379"
+    },
+    {
+        "user": "U9L0877K5",
+        "inviter": "U9P5NTBML",
+        "text": "<@U9L0877K5> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520871104.000604"
+    },
+    {
+        "type": "message",
+        "user": "U9L0877K5",
+        "text": "Linka la biografia",
+        "client_msg_id": "1dd51d73-30b2-4dc0-8b79-3cb2a2aa0d93",
+        "ts": "1520874093.000170"
+    },
+    {
+        "type": "message",
+        "user": "U9P5NTBML",
+        "text": "Wut?",
+        "client_msg_id": "9c188d8a-44f0-4576-b81b-e736cf92a9e6",
+        "ts": "1520874374.000205"
+    },
+    {
+        "user": "U9P5NTBML",
+        "topic": "Nazar Chekalin",
+        "text": "<@U9P5NTBML> set the channel topic: Nazar Chekalin",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1520874393.000186"
+    },
+    {
+        "user": "U9P5NTBML",
+        "topic": "Nazar Chekalin , Davide Lapenta",
+        "text": "<@U9P5NTBML> set the channel topic: Nazar Chekalin , Davide Lapenta",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1520874455.000714"
+    },
+    {
+        "user": "U9P5NTBML",
+        "purpose": "Nazar Chekalin, Davide Lapenta",
+        "text": "<@U9P5NTBML> set the channel purpose: Nazar Chekalin, Davide Lapenta",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520876147.000604"
+    }
+]

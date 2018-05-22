@@ -1,0 +1,19 @@
+[
+    {
+        "type": "message",
+        "user": "U9L0877K5",
+        "text": "<http:\/\/score-contest.org\/2018\/projects\/sna4slack.php>",
+        "attachments": [
+            {
+                "title": "SCORE 2018 Project: SNA4Slack",
+                "title_link": "http:\/\/score-contest.org\/2018\/projects\/sna4slack.php",
+                "text": "SCORE is an ICSE 2018 software engineering contest for student teams",
+                "fallback": "SCORE 2018 Project: SNA4Slack",
+                "from_url": "http:\/\/score-contest.org\/2018\/projects\/sna4slack.php",
+                "service_name": "score-contest.org",
+                "id": 1
+            }
+        ],
+        "ts": "1523527907.000348"
+    }
+]

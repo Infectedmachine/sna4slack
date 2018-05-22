@@ -1,0 +1,48 @@
+[
+    {
+        "user": "U9P3A065A",
+        "text": "<@U9P3A065A> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1521017938.000130"
+    },
+    {
+        "user": "U9P3A065A",
+        "purpose": "Marco Iannotta, Francesco Diomede, Simone Allamprese",
+        "text": "<@U9P3A065A> set the channel purpose: Marco Iannotta, Francesco Diomede, Simone Allamprese",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1521017938.000260"
+    },
+    {
+        "user": "U9NSYMBB5",
+        "inviter": "U9P3A065A",
+        "text": "<@U9NSYMBB5> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1521017938.000267"
+    },
+    {
+        "user": "U9NUJDF7A",
+        "inviter": "U9P3A065A",
+        "text": "<@U9NUJDF7A> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1521017938.000301"
+    },
+    {
+        "user": "U9P3A065A",
+        "purpose": "Iannotta, Diomede, Allamprese",
+        "text": "<@U9P3A065A> set the channel purpose: Iannotta, Diomede, Allamprese",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1521024466.000105"
+    },
+    {
+        "type": "message",
+        "user": "U9NUJDF7A",
+        "text": "Hello",
+        "client_msg_id": "9637fe3b-dc51-482e-8673-5dcfe8b2a691",
+        "ts": "1521024677.000355"
+    }
+]

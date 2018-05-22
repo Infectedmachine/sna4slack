@@ -1,0 +1,10 @@
+[
+    {
+        "user": "U9NA5GDFU",
+        "purpose": "Ancona, Gianfelice, Calabrese, Distante",
+        "text": "<@U9NA5GDFU> set the channel purpose: Ancona, Gianfelice, Calabrese, Distante",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1521110950.000418"
+    }
+]

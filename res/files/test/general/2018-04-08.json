@@ -1,0 +1,67 @@
+[
+    {
+        "type": "message",
+        "user": "U9PDKF5JB",
+        "text": "<@U9BD7NMPC> ora il nostro gruppo è da 5.\nAbbiamo aggiunto <@U9T55R65D> <@U9SUDJ8J2>",
+        "client_msg_id": "de39dae9-5989-410c-8f4b-208e3cdb77a7",
+        "ts": "1523188764.000033",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9BD7NMPC"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9SNDGH0A",
+        "text": "Canale <#CA314S0EP|stearns> creato.",
+        "ts": "1523192545.000005"
+    },
+    {
+        "type": "message",
+        "user": "U9PK8UJBA",
+        "text": "professore domani serve il pc?",
+        "ts": "1523194518.000047",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9NBXPRDH"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "si",
+        "ts": "1523204883.000034",
+        "reactions": [
+            {
+                "name": "+1::skin-tone-2",
+                "users": [
+                    "U9NCNLL83",
+                    "U9MNETCD6"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "uno per gruppo basta",
+        "ts": "1523204893.000109"
+    },
+    {
+        "type": "message",
+        "user": "U9PK8UJBA",
+        "text": "ok grazie mille prof",
+        "ts": "1523214358.000033"
+    }
+]

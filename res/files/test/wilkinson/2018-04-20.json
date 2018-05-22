@@ -1,0 +1,110 @@
+[
+    {
+        "type": "message",
+        "user": "U9NM7AYPN",
+        "text": "Cancellare dal repository il file Workflow progetto.xml\nModificare il file README.md togliendo il badge di codecov e il riferimento al file rimosso",
+        "client_msg_id": "5605de32-05d2-4f09-bd4f-aef2761836db",
+        "ts": "1524226169.000045"
+    },
+    {
+        "type": "message",
+        "user": "U9MQ541S4",
+        "text": "Il badge è già stato tolto",
+        "client_msg_id": "794f1ec6-b2f1-448f-bf4d-f2f2f1c3725d",
+        "ts": "1524226598.000387"
+    },
+    {
+        "type": "message",
+        "user": "U9MQ541S4",
+        "text": "Bisogna cancellare il file workflow",
+        "client_msg_id": "7360ef15-028b-4a2c-bb23-7585fb1475ec",
+        "ts": "1524226628.000167"
+    },
+    {
+        "type": "message",
+        "user": "U9NM7AYPN",
+        "text": "E anche il suo riferimento nel file README.md",
+        "client_msg_id": "cd0821d8-6651-48dc-b48b-4abb4e377431",
+        "ts": "1524226693.000379",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9MQ541S4"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9MQ541S4",
+        "text": "Si ti serve una mano o sai già come operare ?",
+        "client_msg_id": "84a5a962-9ef6-4158-87b0-b6b69b0fefd1",
+        "ts": "1524226783.000170"
+    },
+    {
+        "type": "message",
+        "user": "U9NM7AYPN",
+        "text": "Nel caso avessi problemi vi informo",
+        "client_msg_id": "f71b409e-1a7d-4684-99e1-c9d506eab4be",
+        "ts": "1524226897.000478"
+    },
+    {
+        "type": "message",
+        "user": "U9NM7AYPN",
+        "text": "Eliminato file Worflow progetto.xml",
+        "client_msg_id": "08839150-5db0-4cb2-9b34-340fec4c256e",
+        "ts": "1524227090.000365"
+    },
+    {
+        "type": "message",
+        "user": "U9MQ541S4",
+        "text": "Dovrebbe essere terminata l'assegnazione dopo la modifica del readme.md , giusto?",
+        "client_msg_id": "b0c2e241-45d4-410b-8b78-5d21a6dffb89",
+        "ts": "1524227351.000512"
+    },
+    {
+        "type": "message",
+        "user": "U9MQ541S4",
+        "text": "O c'è qualche altra cosa da fare ?",
+        "client_msg_id": "2357e72e-e0c5-4c18-ad08-1799008c8040",
+        "ts": "1524227378.000331"
+    },
+    {
+        "type": "message",
+        "user": "U9NM7AYPN",
+        "text": "Ora ho eliminato anche il riferimento dal file README.md",
+        "client_msg_id": "8bedd4c5-8438-4236-9010-3a9859b59fcf",
+        "ts": "1524227413.000411"
+    },
+    {
+        "type": "message",
+        "user": "U9NM7AYPN",
+        "text": "Si ora l'assegnazione che ci ha dato il professore é terminata",
+        "client_msg_id": "ba66ed92-f951-42e4-8db6-4846429ffa30",
+        "ts": "1524227446.000179"
+    },
+    {
+        "type": "message",
+        "user": "U9P9BGKU2",
+        "text": "Ma devo fare qualcosa io oppure è stato già svolto tutto?",
+        "ts": "1524230934.000051"
+    },
+    {
+        "type": "message",
+        "user": "U9NM7AYPN",
+        "text": "Per il momento quello che il professore ci ha detto di fare è stato tutto svolto",
+        "client_msg_id": "128c9c42-df3c-448e-8aa8-b60e7c886b7c",
+        "ts": "1524232743.000012",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9P9BGKU2"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

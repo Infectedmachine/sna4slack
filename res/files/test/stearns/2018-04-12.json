@@ -1,0 +1,10 @@
+[
+    {
+        "user": "U9SNDGH0A",
+        "purpose": "Cicala, D'Errico, Lopes",
+        "text": "<@U9SNDGH0A> set the channel purpose: Cicala, D'Errico, Lopes",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1523533298.000003"
+    }
+]

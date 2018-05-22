@@ -1,0 +1,181 @@
+[
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<!everyone> Ho una nuova assegnazione da terminare entro OGGI. Dovete cancellare dal vostro repository il file Workflow progetto.xml e modificare il file README.md levando il badge di codecov e il riferimento al file rimosso (Workflow progetto.xml). Se tutto va bene dovrebbe risultare come in allegato con l'unica differenza che il riferimento al badge di Travis CI (build-passing) punta al nostro repository e non al vostro (nella guida per lo studente c'è scritto come fare a modificare il riferimento).",
+        "ts": "1524224226.000051"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U9BD7NMPC> uploaded a file: <https:\/\/ingsw1718.slack.com\/files\/U9BD7NMPC\/FAA7CMRCK\/readme.md|README.md>",
+        "file": {
+            "id": "FAA7CMRCK",
+            "created": 1524224242,
+            "timestamp": 1524224242,
+            "name": "README.md",
+            "title": "README.md",
+            "mimetype": "text\/plain",
+            "filetype": "markdown",
+            "pretty_type": "Markdown (raw)",
+            "user": "U9BD7NMPC",
+            "editable": true,
+            "size": 2895,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FAA7CMRCK\/readme.md?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FAA7CMRCK\/download\/readme.md?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/U9BD7NMPC\/FAA7CMRCK\/readme.md",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-FAA7CMRCK-45dcf158ba",
+            "edit_link": "https:\/\/ingsw1718.slack.com\/files\/U9BD7NMPC\/FAA7CMRCK\/readme.md\/edit",
+            "preview": "# sna4slack [![Build Status](https:\/\/travis-ci.com\/softeng-inf-uniba\/base1718.svg?token=qPSHqHRJS6eXDxLetTSE&branch=master)](https:\/\/travis-ci.com\/softeng-inf-uniba\/base1718) \r\nLa struttura della repository si presenta nel seguente modo:\r\n```\r\n|–– config\r\n|    |–– checkstyle\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-header cm-header-1\"># <\/span><span class=\"cm-header cm-header-1\">sna4slack<\/span><span class=\"cm-header cm-header-1\"> <\/span><span class=\"cm-link cm-header cm-header-1\">[<\/span><span class=\"cm-tag\">![Build Status]<\/span><span class=\"cm-string cm-url cm-header cm-header-1\">(<\/span><span class=\"cm-string cm-url cm-header cm-header-1\">https:\/\/travis-ci.com\/softeng-inf-uniba\/base1718.svg?token=qPSHqHRJS6eXDxLetTSE&amp;branch=master<\/span><span class=\"cm-string cm-url cm-header cm-header-1\">)<\/span><span class=\"cm-link cm-header cm-header-1\">]<\/span><span class=\"cm-string cm-url cm-header cm-header-1\">(<\/span><span class=\"cm-string cm-url cm-header cm-header-1\">https:\/\/travis-ci.com\/softeng-inf-uniba\/base1718<\/span><span class=\"cm-string cm-url cm-header cm-header-1\">)<\/span><span class=\"cm-header cm-header-1\"> <\/span><\/pre><\/div>\n<div><pre>La struttura della repository si presenta nel seguente modo:<\/pre><\/div>\n<div><pre><span class=\"cm-comment\">```<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-comment\">|––<\/span><span class=\"cm-comment\"> <\/span><span class=\"cm-comment\">config<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-comment\">|<\/span><span class=\"cm-comment\"> <\/span><span class=\"cm-comment\"> <\/span><span class=\"cm-comment\"> <\/span><span class=\"cm-comment\"> <\/span><span class=\"cm-comment\">|––<\/span><span class=\"cm-comment\"> <\/span><span class=\"cm-comment\">checkstyle<\/span><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 44,
+            "lines_more": 39,
+            "preview_is_truncated": true,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U9BD7NMPC",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "filippo.lanubile",
+        "bot_id": null,
+        "ts": "1524224243.000027"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<!everyone> Anche per questa assegnazione non c'è bisogno di creare un branch e di fare una pull request. Questi verranno fatti per le attività di sviluppo a partire dalla prossima settimana",
+        "ts": "1524225115.000245",
+        "reactions": [
+            {
+                "name": "heavy_check_mark",
+                "users": [
+                    "U9P0DMXGD",
+                    "U9Q9CDE0P",
+                    "U9P60ACP7",
+                    "U9P18U17X",
+                    "UA2P4MQ23"
+                ],
+                "count": 5
+            },
+            {
+                "name": "rocket",
+                "users": [
+                    "U9NQ1QL72"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9NAWRB2Q",
+        "text": "Possiamo fare un commit unico per l'eliminazione del file e la modifica del readme?",
+        "client_msg_id": "907e2fbf-8fad-4f3d-b716-0c808ec1ba2a",
+        "ts": "1524225197.000430"
+    },
+    {
+        "type": "message",
+        "user": "U9CDZPXLN",
+        "text": "È indifferente (per questo caso).",
+        "client_msg_id": "337a36b6-4687-42e7-8cf0-358dc88972a4",
+        "edited": {
+            "user": "U9CDZPXLN",
+            "ts": "1524226494.000000"
+        },
+        "ts": "1524225273.000458"
+    },
+    {
+        "type": "message",
+        "user": "U9NDHPVRS",
+        "text": "Salve volevo capire, le modifiche al file README.md è possibile farle direttamente dall'editor di github o dobbiamo farele con git?",
+        "ts": "1524230643.000617"
+    },
+    {
+        "type": "message",
+        "user": "U9P61MA7Q",
+        "text": "Buonasera professore, dopo i tre step:",
+        "ts": "1524232268.000590"
+    },
+    {
+        "type": "message",
+        "user": "U9P61MA7Q",
+        "text": "1. eliminare Worflow progetto, 2. Eliminare il badge di codecov 3. Eliminare la voce nell'indiece del README",
+        "ts": "1524232306.000283"
+    },
+    {
+        "type": "message",
+        "user": "U9P61MA7Q",
+        "text": "non dobbiamo cambiare, all'interno del README, il riferimento al repository posto nella stringa di Travis-CI",
+        "thread_ts": "1524232371.000333",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U9P6VLG6A",
+                "ts": "1524232566.000012"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1524232371.000333"
+    },
+    {
+        "type": "message",
+        "user": "U9CDZPXLN",
+        "text": "<@U9NDHPVRS> fatele con git",
+        "ts": "1524232393.000127"
+    },
+    {
+        "type": "message",
+        "user": "U9P6VLG6A",
+        "text": "No. Non devi cambiarlo il riferimento a travis-ci. Devi solo togliere il codice che si riferisce a codecov perche nn lo dobbiamo piu usare",
+        "client_msg_id": "0eda3799-727a-4c6f-a8ad-7ce31e951e63",
+        "thread_ts": "1524232371.000333",
+        "parent_user_id": "U9P61MA7Q",
+        "ts": "1524232566.000012"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<!everyone> In attesa del nostro incontro di pianificazione dello Sprint previsto per lunedì prossimo, vi annuncio che gli Sprint dureranno circa dieci giorni e dovrebbero essere tre con la seguente tempistica:",
+        "ts": "1524250163.000186"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "Sprint 1. 23\/4 - 03\/5 \nSprint 2. 03\/5  - 14\/5\nSprint 3. 14\/5 -  25\/5",
+        "ts": "1524250193.000530"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "Il tempo rimanente fino al primo appello sarà utilizzato per la redazione del report finale. Seguiranno istruzioni anche su questo",
+        "ts": "1524250266.000213"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "Ogni Sprint farà da filtro per quello successivo :slightly_smiling_face:",
+        "ts": "1524250293.000114",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9PNL8V9U",
+                    "U9N6Y2L9W",
+                    "U9PBHQU3H",
+                    "U9NBUHYJF"
+                ],
+                "count": 4
+            }
+        ]
+    }
+]

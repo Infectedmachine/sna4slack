@@ -1,0 +1,18 @@
+[
+    {
+        "user": "U9PQX9LAZ",
+        "purpose": "Ianuzziello, Hoxha, Ferrone, Di Luzio",
+        "text": "<@U9PQX9LAZ> set the channel purpose: Ianuzziello, Hoxha, Ferrone, Di Luzio",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1523377545.000518"
+    },
+    {
+        "user": "U9PQX9LAZ",
+        "topic": "",
+        "text": "<@U9PQX9LAZ> cleared channel topic",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1523377545.000533"
+    }
+]

@@ -1,0 +1,267 @@
+[
+    {
+        "type": "message",
+        "user": "U9MQSS657",
+        "text": "utente docker: richardhamming",
+        "ts": "1523270995.000406"
+    },
+    {
+        "type": "message",
+        "user": "U9MQSS657",
+        "text": "passw la metto dopo, appena il prof rende privati i gruppi",
+        "ts": "1523271021.000018"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "HO CLICKATO IO!",
+        "ts": "1523272663.000038"
+    },
+    {
+        "type": "message",
+        "user": "U9P6VLG6A",
+        "text": "Chi lo fa?",
+        "attachments": [
+            {
+                "fallback": "[April 9th, 2018 2:41 PM] filippo.lanubile: clccando di nuovo sull'invito potere ricreare il team secondo le regole",
+                "ts": "1523277673.000346",
+                "author_id": "U9BD7NMPC",
+                "author_subname": "Filippo",
+                "channel_id": "C9APF813J",
+                "channel_name": "general",
+                "is_msg_unfurl": true,
+                "text": "clccando di nuovo sull'invito potere ricreare il team secondo le regole",
+                "author_name": "Filippo",
+                "author_link": "https:\/\/ingsw1718.slack.com\/team\/U9BD7NMPC",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2018-03-12\/328399380067_c21cc81494b19032a666_48.jpg",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "color": "D0D0D0",
+                "from_url": "https:\/\/ingsw1718.slack.com\/archives\/C9APF813J\/p1523277673000346",
+                "is_share": true,
+                "footer": "Posted in #general"
+            }
+        ],
+        "thread_ts": "1523277703.000478",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "U9MQSS657",
+                "ts": "1523277740.000508"
+            },
+            {
+                "user": "U9P6VLG6A",
+                "ts": "1523278346.000438"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1523277703.000478"
+    },
+    {
+        "type": "message",
+        "user": "U9MQSS657",
+        "text": "Fallo tu",
+        "client_msg_id": "01a9d96a-84f9-440d-9dcc-2ab0bb0dc81b",
+        "edited": {
+            "user": "U9MQSS657",
+            "ts": "1523277897.000000"
+        },
+        "thread_ts": "1523277703.000478",
+        "parent_user_id": "U9P6VLG6A",
+        "ts": "1523277740.000508"
+    },
+    {
+        "type": "message",
+        "user": "U9P6VLG6A",
+        "text": "Sono in treno",
+        "client_msg_id": "5fadeab1-7cda-429e-83cd-56914f4eed91",
+        "thread_ts": "1523277703.000478",
+        "parent_user_id": "U9P6VLG6A",
+        "ts": "1523278346.000438"
+    },
+    {
+        "type": "message",
+        "user": "U9P6VLG6A",
+        "text": "Ma quindi che dobbiamo fare? Rimandiamo a domani?",
+        "client_msg_id": "ee84245c-821e-4773-b0ac-bafeaa2179a9",
+        "ts": "1523283399.000476"
+    },
+    {
+        "type": "message",
+        "user": "U9MQSS657",
+        "text": "si perchè i link non vanno, a meno che non ci siano aggiornamenti da parte sua",
+        "ts": "1523283528.000728"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "a me va adesso",
+        "ts": "1523286851.000300"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "però nn ho capito perchè nn mi accede al team",
+        "ts": "1523286897.000938"
+    },
+    {
+        "type": "message",
+        "user": "U9P6VLG6A",
+        "text": "Domani vediamo che dice...",
+        "client_msg_id": "480910f3-c4a0-4dd7-85e3-257ce4e9e8e3",
+        "edited": {
+            "user": "U9P6VLG6A",
+            "ts": "1523288114.000000"
+        },
+        "ts": "1523287701.000539"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "<https:\/\/github.com\/orgs\/softeng-inf-uniba\/teams\/hamming\/members>",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "Build software better, together",
+                "title_link": "https:\/\/github.com\/orgs\/softeng-inf-uniba\/teams\/hamming\/members",
+                "text": "GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.",
+                "fallback": "GitHub: Build software better, together",
+                "image_width": 1200,
+                "image_height": 620,
+                "from_url": "https:\/\/github.com\/orgs\/softeng-inf-uniba\/teams\/hamming\/members",
+                "service_icon": "https:\/\/a.slack-edge.com\/bfaba\/img\/unfurl_icons\/github.png",
+                "id": 1
+            }
+        ],
+        "ts": "1523288918.000119"
+    },
+    {
+        "type": "message",
+        "user": "U9P6VLG6A",
+        "text": "Mo... Ripetimi... Come si fa per vedere il canale?",
+        "client_msg_id": "69b289b9-419c-4630-8c0e-ec4b4ed5efab",
+        "ts": "1523289267.000569"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "vai su questo link che ti ho messo io",
+        "ts": "1523291201.000001"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "aspè",
+        "ts": "1523291207.000811"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "canale?",
+        "ts": "1523291213.000852"
+    },
+    {
+        "type": "message",
+        "user": "U9P6VLG6A",
+        "text": "Se vado sul tuo link mi dice errore 404",
+        "client_msg_id": "2ddebdfe-a8f1-4f2c-b8cb-d29bb0766115",
+        "ts": "1523291424.000543"
+    },
+    {
+        "type": "message",
+        "user": "U9P6VLG6A",
+        "text": "Su github classroom hai fatto altro?",
+        "client_msg_id": "d38e7d63-701e-4813-b6b7-a430fcd5ae99",
+        "ts": "1523291448.000144"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "wut? davvero?",
+        "ts": "1523292275.000524"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "mah",
+        "ts": "1523292276.000576"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "a me va",
+        "ts": "1523292278.000634"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "ah forse perchè ti devi iscrivere",
+        "ts": "1523292289.000590"
+    },
+    {
+        "type": "message",
+        "user": "U9P6VLG6A",
+        "text": "A classroom",
+        "client_msg_id": "f9ad8f47-94cd-4fb3-8856-5b91f1835325",
+        "ts": "1523292299.000545"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "<https:\/\/github.com\/orgs\/softeng-inf-uniba\/teams>",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "Build software better, together",
+                "title_link": "https:\/\/github.com\/orgs\/softeng-inf-uniba\/teams",
+                "text": "GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.",
+                "fallback": "GitHub: Build software better, together",
+                "image_width": 1200,
+                "image_height": 620,
+                "from_url": "https:\/\/github.com\/orgs\/softeng-inf-uniba\/teams",
+                "service_icon": "https:\/\/a.slack-edge.com\/bfaba\/img\/unfurl_icons\/github.png",
+                "id": 1
+            }
+        ],
+        "ts": "1523292314.000044"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "se vai qui và?",
+        "ts": "1523292318.000154"
+    },
+    {
+        "type": "message",
+        "user": "U9P6VLG6A",
+        "text": "Si infatti adesso ho fatto la richuesta di join al canale ma ancora nn mi ha accettato",
+        "client_msg_id": "776fc859-d590-452d-8bef-6aedc2ffc236",
+        "ts": "1523292332.000419"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "ide",
+        "ts": "1523292344.000497"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "m",
+        "ts": "1523292345.000264"
+    },
+    {
+        "type": "message",
+        "user": "U9P6VLG6A",
+        "text": "E nn ha accettato nemmeno te visto che risuktano 0 membri",
+        "client_msg_id": "65e83f6d-1a30-423d-bf0e-6da4f25d98ed",
+        "ts": "1523292352.000532"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "già",
+        "ts": "1523292437.000295"
+    }
+]

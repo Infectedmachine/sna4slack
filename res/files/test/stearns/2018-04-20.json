@@ -1,0 +1,162 @@
+[
+    {
+        "type": "message",
+        "user": "UA2GU3SBX",
+        "text": "Maurizio fai tu la modifica al file .travis.yml?",
+        "ts": "1524230333.000122"
+    },
+    {
+        "type": "message",
+        "user": "U9SNDGH0A",
+        "text": "Sì Filippo",
+        "ts": "1524230477.000623"
+    },
+    {
+        "type": "message",
+        "user": "U9SNDGH0A",
+        "text": "Nel frattempo vedete voi per il file readme.md?",
+        "ts": "1524230525.000080"
+    },
+    {
+        "type": "message",
+        "user": "UA11Q07AL",
+        "text": "Certo Mauri, ci organizziamo io e Filippo.",
+        "ts": "1524230560.000055"
+    },
+    {
+        "type": "message",
+        "user": "UA11Q07AL",
+        "text": "<@UA2GU3SBX> faccio io?",
+        "ts": "1524230585.000356"
+    },
+    {
+        "type": "message",
+        "user": "UA11Q07AL",
+        "text": "<@UA2GU3SBX> o te ne vuoi occupare tu?",
+        "ts": "1524230626.000268"
+    },
+    {
+        "type": "message",
+        "user": "UA2GU3SBX",
+        "text": "Per me è indifferente",
+        "ts": "1524230755.000299"
+    },
+    {
+        "type": "message",
+        "user": "UA11Q07AL",
+        "text": "Lo faccio io :wink:",
+        "ts": "1524231016.000160"
+    },
+    {
+        "type": "message",
+        "user": "UA2GU3SBX",
+        "text": "Raga ho aggiornato la guida dello studente",
+        "ts": "1524237133.000023"
+    },
+    {
+        "type": "message",
+        "user": "UA11Q07AL",
+        "text": "<@U9SNDGH0A> anch' io ho finito con il README.md",
+        "ts": "1524237196.000091"
+    },
+    {
+        "type": "message",
+        "user": "U9SNDGH0A",
+        "text": "Perfetto",
+        "ts": "1524237346.000258"
+    },
+    {
+        "type": "message",
+        "user": "U9SNDGH0A",
+        "text": "Rimane da eliminare il file del workflow, giusto? <@UA11Q07AL> <@UA2GU3SBX>",
+        "ts": "1524237869.000380"
+    },
+    {
+        "type": "message",
+        "user": "UA2GU3SBX",
+        "text": "si",
+        "ts": "1524237873.000137"
+    },
+    {
+        "type": "message",
+        "user": "UA11Q07AL",
+        "text": "sisi <@U9SNDGH0A>",
+        "ts": "1524238223.000661"
+    },
+    {
+        "type": "message",
+        "user": "U9SNDGH0A",
+        "text": "Va bene",
+        "ts": "1524238233.000135"
+    },
+    {
+        "type": "message",
+        "user": "U9SNDGH0A",
+        "text": "Ci penso io",
+        "ts": "1524238273.000393"
+    },
+    {
+        "type": "message",
+        "user": "UA11Q07AL",
+        "text": "perfetto:+1:",
+        "ts": "1524238320.000270"
+    },
+    {
+        "type": "message",
+        "user": "U9SNDGH0A",
+        "text": "Avete avuto problemi anche voi ad aggiornare in locale le modifiche fatte sul repository remoto?",
+        "edited": {
+            "user": "U9SNDGH0A",
+            "ts": "1524238694.000000"
+        },
+        "ts": "1524238686.000298"
+    },
+    {
+        "type": "message",
+        "user": "UA11Q07AL",
+        "text": "Sisi poi ho risolto con il reset e la fetch :thinking_face:",
+        "ts": "1524238809.000615"
+    },
+    {
+        "type": "message",
+        "user": "UA2GU3SBX",
+        "text": "si...",
+        "ts": "1524238813.000063"
+    },
+    {
+        "type": "message",
+        "user": "UA2GU3SBX",
+        "text": "a me non funzionava neanche quello! Io ho tagliato la testa al toro ed ho fatto l' rm e il clone di nuovo",
+        "ts": "1524238921.000773"
+    },
+    {
+        "type": "message",
+        "user": "U9SNDGH0A",
+        "text": "Apposto :smile:",
+        "ts": "1524238967.000147"
+    },
+    {
+        "type": "message",
+        "user": "U9SNDGH0A",
+        "text": "Sembra che la pull sia andata a me....",
+        "ts": "1524239047.000053"
+    },
+    {
+        "type": "message",
+        "user": "U9SNDGH0A",
+        "text": "Tutto fatto signori!",
+        "ts": "1524239766.000218"
+    },
+    {
+        "type": "message",
+        "user": "U9SNDGH0A",
+        "text": "Scusatemi, scappo a lavoro... Oggi rischio di essere licenziato :tired_face:",
+        "ts": "1524239820.000302"
+    },
+    {
+        "type": "message",
+        "user": "UA11Q07AL",
+        "text": "perfetto ragaa :wink::grin:",
+        "ts": "1524244707.000011"
+    }
+]

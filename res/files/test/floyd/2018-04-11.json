@@ -1,0 +1,124 @@
+[
+    {
+        "type": "message",
+        "user": "U9PDKF5JB",
+        "text": "Buongiorno ciurma",
+        "client_msg_id": "591967f8-7708-44ec-a82f-a473c0946994",
+        "ts": "1523442055.000234"
+    },
+    {
+        "type": "message",
+        "user": "U9PDKF5JB",
+        "text": "C'è da completare la configurazione delle roba che ha detto il prof su general",
+        "client_msg_id": "279cf9df-9c7c-4db9-b05d-df6e97575005",
+        "ts": "1523442102.000128"
+    },
+    {
+        "type": "message",
+        "user": "U9PDKF5JB",
+        "text": "Mi raccomando",
+        "client_msg_id": "5543ca7e-d9e0-4a73-aacc-838db001121b",
+        "ts": "1523442107.000124"
+    },
+    {
+        "type": "message",
+        "user": "U9T55R65D",
+        "text": "Ma docker per Windows home voi lo avete trovato?",
+        "client_msg_id": "4ce85815-18c7-4f5b-acc6-0ce749f4f050",
+        "ts": "1523450557.000538"
+    },
+    {
+        "type": "message",
+        "user": "U9T55R65D",
+        "text": "Quello che ho io mi apre un terminale poi nn so come aggire",
+        "client_msg_id": "6ebc4db4-e604-4c4d-b6e1-e86706af96ec",
+        "ts": "1523450581.000214"
+    },
+    {
+        "type": "message",
+        "user": "U9T55R65D",
+        "text": "Id docker: floydgroup",
+        "client_msg_id": "c38109d6-b325-46dd-bdbf-69b53ae3edcb",
+        "ts": "1523457029.000820"
+    },
+    {
+        "type": "message",
+        "user": "U9MTNTYSD",
+        "text": "ragazzi qualcuno di voi ha configurato travis ci? perche a quanto pare uno solo di ogni team deve farlo",
+        "ts": "1523457687.000694"
+    },
+    {
+        "type": "message",
+        "user": "U9PDKF5JB",
+        "text": "Ora provo a configurare e vi faccio sapere",
+        "client_msg_id": "df9afa39-1565-4b49-b8e4-9d28057de666",
+        "ts": "1523458010.000542"
+    },
+    {
+        "type": "message",
+        "user": "U9PDKF5JB",
+        "text": "travis ci lo sto configurando io",
+        "ts": "1523459593.000196"
+    },
+    {
+        "type": "message",
+        "subtype": "pinned_item",
+        "user": "U9PDKF5JB",
+        "item_type": "C",
+        "attachments": [
+            {
+                "fallback": "[April 11th, 2018 7:30 AM] a.greco109: Id docker: floydgroup",
+                "ts": "1523457029.000820",
+                "author_id": "U9T55R65D",
+                "author_subname": "Alberto Greco",
+                "channel_id": "C9NDE1PK6",
+                "channel_name": "floyd",
+                "is_msg_unfurl": true,
+                "text": "Id docker: floydgroup",
+                "author_name": "Alberto Greco",
+                "author_link": "https:\/\/ingsw1718.slack.com\/team\/U9T55R65D",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2018-03-31\/338969278724_f98da574c94617df0766_48.jpg",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "from_hidden_wksp": false
+            }
+        ],
+        "text": "<@U9PDKF5JB> pinned a message to this channel.",
+        "ts": "1523459980.000098"
+    },
+    {
+        "type": "message",
+        "user": "U9PDKF5JB",
+        "text": "anche io ho installato il toolbox e mi chiede di fare una cosa dal bios, insomma è un po' un casino...",
+        "attachments": [
+            {
+                "fallback": "[April 11th, 2018 2:42 PM] a.greco109: Ma docker per Windows home voi lo avete trovato?",
+                "ts": "1523450557.000538",
+                "author_id": "U9T55R65D",
+                "author_subname": "Alberto Greco",
+                "channel_id": "C9NDE1PK6",
+                "channel_name": "floyd",
+                "is_msg_unfurl": true,
+                "text": "Ma docker per Windows home voi lo avete trovato?",
+                "author_name": "Alberto Greco",
+                "author_link": "https:\/\/ingsw1718.slack.com\/team\/U9T55R65D",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2018-03-31\/338969278724_f98da574c94617df0766_48.jpg",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "color": "D0D0D0",
+                "from_url": "https:\/\/ingsw1718.slack.com\/archives\/C9NDE1PK6\/p1523450557000538",
+                "is_share": true,
+                "footer": "Posted in #floyd"
+            }
+        ],
+        "ts": "1523461584.000443"
+    },
+    {
+        "type": "message",
+        "user": "U9PDKF5JB",
+        "text": "comunque sia per andare avanti nella configurazione di travis ci devo aspettare che il prof finisca su docker",
+        "ts": "1523461644.000701"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "user": "U9NBNJFB3",
+        "text": "<@U9NBNJFB3> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1521110040.000331"
+    },
+    {
+        "user": "U9P18U17X",
+        "purpose": "Amato Calò Digiovanni Dibitonto",
+        "text": "<@U9P18U17X> set the channel purpose: Amato Calò Digiovanni Dibitonto",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1521110098.000383"
+    }
+]

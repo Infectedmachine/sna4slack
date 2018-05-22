@@ -1,0 +1,54 @@
+[
+    {
+        "user": "U9P6VLG6A",
+        "purpose": "Corsini, Di Pierro, Elia, Giovine",
+        "text": "<@U9P6VLG6A> set the channel purpose: Corsini, Di Pierro, Elia, Giovine",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520930306.000247"
+    },
+    {
+        "user": "U9P6VLG6A",
+        "topic": "",
+        "text": "<@U9P6VLG6A> cleared channel topic",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1520930306.000419"
+    },
+    {
+        "user": "U9P6VLG6A",
+        "topic": "",
+        "text": "<@U9P6VLG6A> cleared channel topic",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1520930369.000344"
+    },
+    {
+        "user": "U9P6VLG6A",
+        "purpose": "Acciaro, Corsini, Di Pierro, Elia, Giovine",
+        "text": "<@U9P6VLG6A> set the channel purpose: Acciaro, Corsini, Di Pierro, Elia, Giovine",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520930369.000484"
+    },
+    {
+        "user": "U9MQSS657",
+        "text": "<@U9MQSS657> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520930394.000107"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "ciao Emi",
+        "ts": "1520930401.000054"
+    },
+    {
+        "user": "U9NSX31U2",
+        "text": "<@U9NSX31U2> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520930448.000425"
+    }
+]

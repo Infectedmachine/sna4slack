@@ -1,0 +1,65 @@
+[
+    {
+        "user": "U9QLDMNDV",
+        "text": "<@U9QLDMNDV> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1521022468.000496"
+    },
+    {
+        "user": "U9NMMRZ09",
+        "inviter": "U9QLDMNDV",
+        "text": "<@U9NMMRZ09> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1521022469.000301"
+    },
+    {
+        "user": "U9QAFJUR5",
+        "inviter": "U9QLDMNDV",
+        "text": "<@U9QAFJUR5> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1521022469.000320"
+    },
+    {
+        "user": "U9Q9CDE0P",
+        "inviter": "U9QLDMNDV",
+        "text": "<@U9Q9CDE0P> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1521022469.000335"
+    },
+    {
+        "user": "U9PP54E4D",
+        "inviter": "U9QLDMNDV",
+        "text": "<@U9PP54E4D> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1521022469.000446"
+    },
+    {
+        "user": "U9QLDMNDV",
+        "purpose": "Bruno, Lupoli, Andrulli, Colagrande, Debellis",
+        "text": "<@U9QLDMNDV> set the channel purpose: Bruno, Lupoli, Andrulli, Colagrande, Debellis",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1521023170.000388",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9PP54E4D"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9PP54E4D",
+        "text": "Nel 1983 riceve il Premio Turing insieme a Ken Thompson, per il contributo dato allo sviluppo della teoria generica dei sistemi operativi e, in particolare, per l'implementazione di Unix, il prototipo dei moderni sistemi operativi Unix-like. Il discorso da lui pronunciato durante la cerimonia di premiazione si intitolava \"Reflections on Software Research\".",
+        "client_msg_id": "CDE1FBA4-C7FD-4EC7-9115-A89A2C61FA8B",
+        "ts": "1521023593.000067"
+    }
+]

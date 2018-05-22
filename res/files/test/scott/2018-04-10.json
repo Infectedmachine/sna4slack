@@ -1,0 +1,62 @@
+[
+    {
+        "type": "message",
+        "user": "U9P18U17X",
+        "text": "<@U9NF6NSU8> <@U9NBNJFB3> dovete unirvi al team",
+        "ts": "1523347500.000085"
+    },
+    {
+        "type": "message",
+        "user": "U9NBNJFB3",
+        "text": "Ma tu puoi invitare ?",
+        "client_msg_id": "dd5bde1c-8d1b-4fc5-a53e-dc4f1fdce31d",
+        "ts": "1523347652.000535"
+    },
+    {
+        "type": "message",
+        "user": "U9P18U17X",
+        "text": "no devi entrare dal link",
+        "ts": "1523347898.000480"
+    },
+    {
+        "type": "message",
+        "user": "U9P18U17X",
+        "text": "poi trova il team scott, entrando in members devi richiedere il join",
+        "ts": "1523347930.000068"
+    },
+    {
+        "type": "message",
+        "user": "U9NBNJFB3",
+        "text": "Okok ci sono",
+        "client_msg_id": "aa2c6469-3f5c-408b-8f1d-dedade436335",
+        "ts": "1523348195.000029"
+    },
+    {
+        "type": "message",
+        "user": "U9NJ4EYM7",
+        "text": "Mettete foto e nome in chiaro anche su github",
+        "client_msg_id": "de8480f0-cfff-4b85-89cb-f2e7a792d900",
+        "ts": "1523349009.000439"
+    },
+    {
+        "type": "message",
+        "user": "U9NJ4EYM7",
+        "text": "Ragazzi stiamo ricreando il gruppo, tenetevi pronti per effettuare dinuovo il join",
+        "client_msg_id": "e56e1cf4-bedc-456f-b953-ec89004e2660",
+        "ts": "1523350987.000038"
+    },
+    {
+        "type": "message",
+        "user": "U9NJ4EYM7",
+        "text": "Vi avviso quando rifare il join",
+        "client_msg_id": "923b0850-e1ad-4a08-af64-cd3424fec0bd",
+        "ts": "1523351129.000001"
+    },
+    {
+        "type": "message",
+        "user": "U9NJ4EYM7",
+        "text": "Ragazzi potete rifare il join al gruppo scott",
+        "client_msg_id": "872d4d39-a298-46f2-b183-248ec4f441c1",
+        "ts": "1523357555.000221"
+    }
+]

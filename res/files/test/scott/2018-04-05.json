@@ -1,0 +1,23 @@
+[
+    {
+        "type": "message",
+        "user": "U9NBNJFB3",
+        "text": "Raga ma voi state a lezione",
+        "client_msg_id": "f26218d2-8a30-426e-bb70-70c1a1d14792",
+        "ts": "1522924043.000076"
+    },
+    {
+        "type": "message",
+        "user": "U9NBNJFB3",
+        "text": "?",
+        "client_msg_id": "7f0aa2ba-4f16-425b-a09e-bbdcec4ddeeb",
+        "ts": "1522924051.000367"
+    },
+    {
+        "type": "message",
+        "user": "U9P18U17X",
+        "text": "Si",
+        "client_msg_id": "11483FB9-C413-4480-AD76-B54A464FD1B4",
+        "ts": "1522924094.000127"
+    }
+]

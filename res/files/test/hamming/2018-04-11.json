@@ -1,0 +1,51 @@
+[
+    {
+        "type": "message",
+        "user": "U9P6VLG6A",
+        "text": "<@U9MQSS657> letto il msg del prof?",
+        "client_msg_id": "0831db80-8fac-4014-b325-7c2af269cf27",
+        "ts": "1523449227.000403"
+    },
+    {
+        "type": "message",
+        "user": "U9P6VLG6A",
+        "text": "<@U9MQSS657> ",
+        "attachments": [
+            {
+                "fallback": "[April 11th, 2018 2:19 PM] filippo.lanubile: <!everyone> Per completare la parte di competenza del docente, ho bisogno che ciascun gruppo pubblichi, *sullo Slack channel di gruppo*, il *Docker ID di registrazione* con cui un componente del gruppo si è registrato si è registrato su Docker in rappresentanza del gruppo. Questo mi permetterà di fare un ultimo passaggio di configurazione e sbloccherà la personalizzazione delle Environment variables. Mi auguro che possiate comunicarmi l'informazione entro il pomeriggio.",
+                "ts": "1523449160.000270",
+                "author_id": "U9BD7NMPC",
+                "author_subname": "Filippo",
+                "channel_id": "C9APF813J",
+                "channel_name": "general",
+                "is_msg_unfurl": true,
+                "text": "<!everyone> Per completare la parte di competenza del docente, ho bisogno che ciascun gruppo pubblichi, *sullo Slack channel di gruppo*, il *Docker ID di registrazione* con cui un componente del gruppo si è registrato si è registrato su Docker in rappresentanza del gruppo. Questo mi permetterà di fare un ultimo passaggio di configurazione e sbloccherà la personalizzazione delle Environment variables. Mi auguro che possiate comunicarmi l'informazione entro il pomeriggio.",
+                "author_name": "Filippo",
+                "author_link": "https:\/\/ingsw1718.slack.com\/team\/U9BD7NMPC",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2018-03-12\/328399380067_c21cc81494b19032a666_48.jpg",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "color": "D0D0D0",
+                "from_url": "https:\/\/ingsw1718.slack.com\/archives\/C9APF813J\/p1523449160000270",
+                "is_share": true,
+                "footer": "Posted in #general"
+            }
+        ],
+        "ts": "1523449262.000338"
+    },
+    {
+        "type": "message",
+        "user": "U9MQSS657",
+        "text": "Docker ID: richardhamming",
+        "client_msg_id": "106ef852-a377-4008-aef3-6de3293794ed",
+        "ts": "1523450041.000271"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "Noi siamo apposto con tutto?",
+        "client_msg_id": "40d46411-21a8-47fd-b62d-0f748e6aa864",
+        "ts": "1523511772.000058"
+    }
+]

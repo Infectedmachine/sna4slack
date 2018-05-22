@@ -1,0 +1,51 @@
+[
+    {
+        "user": "U9N84FF9R",
+        "text": "<@U9N84FF9R> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520862065.000199"
+    },
+    {
+        "user": "U9N84FF9R",
+        "topic": "",
+        "text": "<@U9N84FF9R> cleared channel topic",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1520872237.000282"
+    },
+    {
+        "user": "U9N84FF9R",
+        "purpose": "Chirico, Ignomeriello, Didonna, Brunetta",
+        "text": "<@U9N84FF9R> set the channel purpose: Chirico, Ignomeriello, Didonna, Brunetta",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520872237.000283"
+    },
+    {
+        "user": "U9PC8DR8W",
+        "text": "<@U9PC8DR8W> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520876707.000659"
+    },
+    {
+        "type": "message",
+        "user": "U9PC8DR8W",
+        "text": "entrato",
+        "ts": "1520876714.000636"
+    },
+    {
+        "user": "U9NGME9QC",
+        "text": "<@U9NGME9QC> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520879258.000759"
+    },
+    {
+        "type": "message",
+        "user": "U9NGME9QC",
+        "text": "cinghiali",
+        "ts": "1520879262.000628"
+    }
+]

@@ -1,0 +1,32 @@
+[
+    {
+        "user": "U9MQ541S4",
+        "text": "<@U9MQ541S4> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520937752.000285"
+    },
+    {
+        "user": "U9NM7AYPN",
+        "inviter": "U9MQ541S4",
+        "text": "<@U9NM7AYPN> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520937753.000040"
+    },
+    {
+        "user": "U9MQ541S4",
+        "purpose": "Guerra , Brescia , Carrasso ",
+        "text": "<@U9MQ541S4> set the channel purpose: Guerra , Brescia , Carrasso ",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520937753.000088"
+    },
+    {
+        "user": "U9P9BGKU2",
+        "text": "<@U9P9BGKU2> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520967661.000296"
+    }
+]

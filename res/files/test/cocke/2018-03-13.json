@@ -1,0 +1,45 @@
+[
+    {
+        "user": "U9NS5BECU",
+        "text": "<@U9NS5BECU> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520957215.000632"
+    },
+    {
+        "user": "U9Q0RC3E2",
+        "inviter": "U9NS5BECU",
+        "text": "<@U9Q0RC3E2> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520957216.000281"
+    },
+    {
+        "user": "U9NS5BECU",
+        "purpose": "Liantonio, Cozzoli, Ardito",
+        "text": "<@U9NS5BECU> set the channel purpose: Liantonio, Cozzoli, Ardito",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520957216.000398"
+    },
+    {
+        "user": "U9P54QYLA",
+        "inviter": "U9NS5BECU",
+        "text": "<@U9P54QYLA> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520957216.000461"
+    },
+    {
+        "type": "message",
+        "user": "U9NS5BECU",
+        "text": "Buonasera ragazzacci birbantelli! Perdincibacco!!",
+        "ts": "1520957355.000600"
+    },
+    {
+        "type": "message",
+        "user": "U9NS5BECU",
+        "text": "1987, John Cocke, teoria dei compilatori; architettura dei grandi sistemi; sviluppo dei computer | RISC",
+        "ts": "1520957510.000217"
+    }
+]

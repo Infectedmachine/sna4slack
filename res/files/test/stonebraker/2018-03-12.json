@@ -1,0 +1,518 @@
+[
+    {
+        "user": "U9NDHPVRS",
+        "text": "<@U9NDHPVRS> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520872742.000453",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9NBXPRDH",
+                    "U9NEW0602"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "user": "U9NBUHYJF",
+        "inviter": "U9NDHPVRS",
+        "text": "<@U9NBUHYJF> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520872743.000019"
+    },
+    {
+        "user": "U9NDHPVRS",
+        "purpose": "Marianna Abbattista, Sante Altamura,  Fabrizio Lillo, Andrea Luigi Fantasia, Daniele Bufalo",
+        "text": "<@U9NDHPVRS> set the channel purpose: Marianna Abbattista, Sante Altamura,  Fabrizio Lillo, Andrea Luigi Fantasia, Daniele Bufalo",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520872743.000094",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9NBXPRDH"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U9NBXPRDH",
+        "inviter": "U9NDHPVRS",
+        "text": "<@U9NBXPRDH> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520872743.000184"
+    },
+    {
+        "user": "U9NEW0602",
+        "inviter": "U9NDHPVRS",
+        "text": "<@U9NEW0602> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520872743.000357"
+    },
+    {
+        "user": "U9NC7BF1R",
+        "inviter": "U9NDHPVRS",
+        "text": "<@U9NC7BF1R> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520872743.000533"
+    },
+    {
+        "type": "message",
+        "user": "U9NBXPRDH",
+        "text": "Yo",
+        "ts": "1520872786.000662"
+    },
+    {
+        "type": "message",
+        "user": "U9NDHPVRS",
+        "text": "raga ma se raggiungiamo 10k che succede",
+        "ts": "1520872882.000413"
+    },
+    {
+        "type": "message",
+        "user": "U9NBXPRDH",
+        "text": "succede che diventiamo famoszi",
+        "ts": "1520872897.000197"
+    },
+    {
+        "type": "message",
+        "user": "U9NC7BF1R",
+        "text": "cacc i sold",
+        "attachments": [
+            {
+                "fallback": "[March 12th, 2018 5:41 PM] m.abbattista13: raga ma se raggiungiamo 10k che succede",
+                "ts": "1520872882.000413",
+                "author_id": "U9NDHPVRS",
+                "author_subname": "Marianna Abbattista",
+                "channel_id": "C9NF85V1Q",
+                "channel_name": "stonebraker",
+                "is_msg_unfurl": true,
+                "text": "raga ma se raggiungiamo 10k che succede",
+                "author_name": "Marianna Abbattista",
+                "author_link": "https:\/\/ingsw1718.slack.com\/team\/U9NDHPVRS",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2018-03-12\/328401304579_693243c6140101667283_48.jpg",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "color": "D0D0D0",
+                "from_url": "https:\/\/ingsw1718.slack.com\/archives\/C9NF85V1Q\/p1520872882000413",
+                "is_share": true,
+                "footer": "Posted in #stonebraker"
+            }
+        ],
+        "thread_ts": "1520872903.000373",
+        "reply_count": 0,
+        "replies": [],
+        "ts": "1520872903.000373",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9NBXPRDH"
+                ],
+                "count": 1
+            },
+            {
+                "name": "sob",
+                "users": [
+                    "U9NDHPVRS"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9NBXPRDH",
+        "text": "Sto facendo share message",
+        "attachments": [
+            {
+                "fallback": "[March 12th, 2018 5:41 PM] fantasi92: cacc i sold",
+                "ts": "1520872903.000373",
+                "author_id": "U9NC7BF1R",
+                "author_subname": "Andrea Luigi Fantasia",
+                "channel_id": "C9NF85V1Q",
+                "channel_name": "stonebraker",
+                "is_msg_unfurl": true,
+                "is_thread_root_unfurl": true,
+                "text": "cacc i sold\n<https:\/\/ingsw1718.slack.com\/archives\/C9NF85V1Q\/p1520872882000413>",
+                "author_name": "Andrea Luigi Fantasia",
+                "author_link": "https:\/\/ingsw1718.slack.com\/team\/U9NC7BF1R",
+                "author_icon": "https:\/\/secure.gravatar.com\/avatar\/d35595477e371951637089825a0d53ce.jpg?s=48&d=https%3A%2F%2Fa.slack-edge.com%2F66f9%2Fimg%2Favatars%2Fava_0016-48.png",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "color": "D0D0D0",
+                "from_url": "https:\/\/ingsw1718.slack.com\/archives\/C9NF85V1Q\/p1520872903000373?thread_ts=1520872903000373&cid=C9NF85V1Q",
+                "is_share": true,
+                "footer": "Thread in #stonebraker"
+            }
+        ],
+        "ts": "1520873074.000761"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U9NDHPVRS> uploaded a file: <https:\/\/ingsw1718.slack.com\/files\/U9NDHPVRS\/F9NERH41J\/-.c|Untitled>",
+        "file": {
+            "id": "F9NERH41J",
+            "created": 1520873622,
+            "timestamp": 1520873622,
+            "name": "-.c",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "c",
+            "pretty_type": "C",
+            "user": "U9NDHPVRS",
+            "editable": true,
+            "size": 70,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-F9NERH41J\/-.c?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-F9NERH41J\/download\/-.c?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/U9NDHPVRS\/F9NERH41J\/-.c",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-F9NERH41J-7a657ba27e",
+            "edit_link": "https:\/\/ingsw1718.slack.com\/files\/U9NDHPVRS\/F9NERH41J\/-.c\/edit",
+            "preview": "int main void{\n\tprintf (\"Daniele Bufalo\");\n\tsystem (pause);\n\treturn;\n}",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-variable-3\">int<\/span> <span class=\"cm-variable\">main<\/span> <span class=\"cm-variable-3\">void<\/span>{<\/pre><\/div>\n<div><pre>\t<span class=\"cm-variable\">printf<\/span> (<span class=\"cm-string\">&quot;Daniele Bufalo&quot;<\/span>);<\/pre><\/div>\n<div><pre>\t<span class=\"cm-variable\">system<\/span> (<span class=\"cm-variable\">pause<\/span>);<\/pre><\/div>\n<div><pre>\t<span class=\"cm-keyword\">return<\/span>;<\/pre><\/div>\n<div><pre>}<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 5,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1
+        },
+        "user": "U9NDHPVRS",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "m.abbattista13",
+        "bot_id": null,
+        "ts": "1520873622.000603"
+    },
+    {
+        "type": "message",
+        "user": "U9NDHPVRS",
+        "text": "raha",
+        "ts": "1520873634.000597"
+    },
+    {
+        "type": "message",
+        "user": "U9NDHPVRS",
+        "text": "ma che figata è",
+        "ts": "1520873638.000327"
+    },
+    {
+        "type": "message",
+        "user": "U9NBXPRDH",
+        "text": "Ragaaa",
+        "client_msg_id": "a1816f44-e712-4d5d-a3bf-ffaceee00e1a",
+        "ts": "1520873783.000530"
+    },
+    {
+        "type": "message",
+        "user": "U9NBXPRDH",
+        "text": "Sto da cell",
+        "client_msg_id": "332af4e3-79ab-4ac4-ba5c-21cf51eb329a",
+        "ts": "1520873790.000074"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@U9NDHPVRS> commented on <@U9NDHPVRS>’s file <https:\/\/ingsw1718.slack.com\/files\/U9NDHPVRS\/F9NERH41J\/-.c|Untitled>: mi piace 10",
+        "file": {
+            "id": "F9NERH41J",
+            "created": 1520873622,
+            "timestamp": 1520873622,
+            "name": "-.c",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "c",
+            "pretty_type": "C",
+            "user": "U9NDHPVRS",
+            "editable": true,
+            "size": 70,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-F9NERH41J\/-.c?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-F9NERH41J\/download\/-.c?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/U9NDHPVRS\/F9NERH41J\/-.c",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-F9NERH41J-7a657ba27e",
+            "edit_link": "https:\/\/ingsw1718.slack.com\/files\/U9NDHPVRS\/F9NERH41J\/-.c\/edit",
+            "preview": "int main void{\n\tprintf (\"Daniele Bufalo\");\n\tsystem (pause);\n\treturn;\n}",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-variable-3\">int<\/span> <span class=\"cm-variable\">main<\/span> <span class=\"cm-variable-3\">void<\/span>{<\/pre><\/div>\n<div><pre>\t<span class=\"cm-variable\">printf<\/span> (<span class=\"cm-string\">&quot;Daniele Bufalo&quot;<\/span>);<\/pre><\/div>\n<div><pre>\t<span class=\"cm-variable\">system<\/span> (<span class=\"cm-variable\">pause<\/span>);<\/pre><\/div>\n<div><pre>\t<span class=\"cm-keyword\">return<\/span>;<\/pre><\/div>\n<div><pre>}<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 5,
+            "lines_more": 0,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1
+        },
+        "comment": {
+            "id": "Fc9NK7E64V",
+            "created": 1520873839,
+            "timestamp": 1520873839,
+            "user": "U9NDHPVRS",
+            "is_intro": false,
+            "comment": "mi piace 10"
+        },
+        "is_intro": false,
+        "ts": "1520873840.000012"
+    },
+    {
+        "type": "message",
+        "user": "U9NBXPRDH",
+        "text": "Marianna come hai fatto a scrivere in c",
+        "ts": "1520873847.000582"
+    },
+    {
+        "type": "message",
+        "user": "U9NDHPVRS",
+        "text": "ho fatto",
+        "ts": "1520873856.000631"
+    },
+    {
+        "type": "message",
+        "user": "U9NDHPVRS",
+        "text": "più",
+        "ts": "1520873859.000679"
+    },
+    {
+        "type": "message",
+        "user": "U9NDHPVRS",
+        "text": "e poi era tipo code",
+        "ts": "1520873864.000151"
+    },
+    {
+        "type": "message",
+        "user": "U9NDHPVRS",
+        "text": "e volevo vedere",
+        "ts": "1520873867.000479"
+    },
+    {
+        "type": "message",
+        "user": "U9NDHPVRS",
+        "text": "poi lo puoi scaricare e provarlo",
+        "ts": "1520873888.000241",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9NBXPRDH"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U9NBXPRDH> uploaded a file: <https:\/\/ingsw1718.slack.com\/files\/U9NBXPRDH\/F9NFQ2P0S\/-.txt|Untitled>",
+        "file": {
+            "id": "F9NFQ2P0S",
+            "created": 1520873967,
+            "timestamp": 1520873967,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U9NBXPRDH",
+            "editable": true,
+            "size": 166,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-F9NFQ2P0S\/-.txt?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-F9NFQ2P0S\/download\/-.txt?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/U9NBXPRDH\/F9NFQ2P0S\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-F9NFQ2P0S-dfce714a18",
+            "edit_link": "https:\/\/ingsw1718.slack.com\/files\/U9NBXPRDH\/F9NFQ2P0S\/-.txt\/edit",
+            "preview": "#include stdio.h\r\n#include stdlib.h\r\nint main void\r\n{\r\nint variabile;\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>#include stdio.h<\/pre><\/div>\n<div><pre>#include stdlib.h<\/pre><\/div>\n<div><pre>int main void<\/pre><\/div>\n<div><pre>{<\/pre><\/div>\n<div><pre>int variabile;<\/pre><\/div>\n<div><pre><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 10,
+            "lines_more": 5,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U9NBXPRDH",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "bufalo",
+        "bot_id": null,
+        "ts": "1520873968.000304"
+    },
+    {
+        "type": "message",
+        "user": "U9NBUHYJF",
+        "text": "Stonebraker è troppo bello",
+        "ts": "1520875288.000355"
+    },
+    {
+        "type": "message",
+        "user": "U9NDHPVRS",
+        "text": "raga togliete dalla descrizione i nomi ostri",
+        "ts": "1520877704.000694"
+    },
+    {
+        "type": "message",
+        "user": "U9NDHPVRS",
+        "text": "nostri",
+        "ts": "1520877707.000323"
+    },
+    {
+        "type": "message",
+        "user": "U9NDHPVRS",
+        "text": "io non posso mo",
+        "ts": "1520877710.000075"
+    },
+    {
+        "user": "U9NDHPVRS",
+        "purpose": " Abbattista, Altamura,   Lillo,  Fantasia, Bufalo",
+        "text": "<@U9NDHPVRS> set the channel purpose:  Abbattista, Altamura,   Lillo,  Fantasia, Bufalo",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520878544.000531"
+    },
+    {
+        "user": "U9NDHPVRS",
+        "topic": "",
+        "text": "<@U9NDHPVRS> cleared channel topic",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1520878544.000583"
+    },
+    {
+        "type": "message",
+        "subtype": "pinned_item",
+        "user": "U9NBXPRDH",
+        "item_type": "C",
+        "attachments": [
+            {
+                "fallback": "[March 12th, 2018 10:21 AM] sante_altamura97: Stonebraker è troppo bello",
+                "ts": "1520875288.000355",
+                "author_id": "U9NBUHYJF",
+                "author_subname": "Sante Altamura",
+                "channel_id": "C9NF85V1Q",
+                "channel_name": "stonebraker",
+                "is_msg_unfurl": true,
+                "text": "Stonebraker è troppo bello",
+                "author_name": "Sante Altamura",
+                "author_link": "https:\/\/ingsw1718.slack.com\/team\/U9NBUHYJF",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2018-03-12\/327953693473_420fb6433bd99d6b59d4_48.jpg",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "from_hidden_wksp": false
+            }
+        ],
+        "text": "<@U9NBXPRDH> pinned a message to this channel.",
+        "ts": "1520880172.000022"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U9NEW0602> uploaded a file: <https:\/\/ingsw1718.slack.com\/files\/U9NEW0602\/F9NKSGM5G\/img-20180310-wa0055.jpg|IMG-20180310-WA0055.jpg>",
+        "file": {
+            "id": "F9NKSGM5G",
+            "created": 1520885884,
+            "timestamp": 1520885884,
+            "name": "IMG-20180310-WA0055.jpg",
+            "title": "IMG-20180310-WA0055.jpg",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U9NEW0602",
+            "editable": false,
+            "size": 126584,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-F9NKSGM5G\/img-20180310-wa0055.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-F9NKSGM5G\/download\/img-20180310-wa0055.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-F9NKSGM5G-08c157b1ac\/img-20180310-wa0055_64.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-F9NKSGM5G-08c157b1ac\/img-20180310-wa0055_80.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-F9NKSGM5G-08c157b1ac\/img-20180310-wa0055_360.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-F9NKSGM5G-08c157b1ac\/img-20180310-wa0055_480.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-F9NKSGM5G-08c157b1ac\/img-20180310-wa0055_160.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-F9NKSGM5G-08c157b1ac\/img-20180310-wa0055_720.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-F9NKSGM5G-08c157b1ac\/img-20180310-wa0055_800.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_800_w": 800,
+            "thumb_800_h": 1422,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-F9NKSGM5G-08c157b1ac\/img-20180310-wa0055_960.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-F9NKSGM5G-08c157b1ac\/img-20180310-wa0055_1024.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 900,
+            "original_h": 1600,
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/U9NEW0602\/F9NKSGM5G\/img-20180310-wa0055.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-F9NKSGM5G-2593ec8ce3",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U9NEW0602",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "fabrizio.lillo97",
+        "bot_id": null,
+        "ts": "1520885889.000214"
+    },
+    {
+        "type": "message",
+        "user": "U9NEW0602",
+        "text": "Come ho fatto a vivere senza slack fino ad oggi",
+        "client_msg_id": "8698ebc2-1543-4a4b-b79f-84d1bc41d287",
+        "ts": "1520885969.000250",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9NBXPRDH"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

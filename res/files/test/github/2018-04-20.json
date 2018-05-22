@@ -1,0 +1,92 @@
+[
+    {
+        "user": "U9BD7NMPC",
+        "text": "<@U9BD7NMPC> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1524246576.000427"
+    },
+    {
+        "user": "U9BD7NMPC",
+        "purpose": "Mostra le attività sul repository base gestito dal docente",
+        "text": "<@U9BD7NMPC> set the channel purpose: Mostra le attività sul repository base gestito dal docente",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1524246577.000225"
+    },
+    {
+        "user": "UAAHRETFU",
+        "inviter": "U9BD7NMPC",
+        "text": "<@UAAHRETFU> was added to this conversation",
+        "type": "message",
+        "subtype": "app_conversation_join",
+        "ts": "1524246696.000177"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "\/github subscribe softeng-inf-uniba\/base1718",
+        "ts": "1524247206.000033"
+    },
+    {
+        "text": "",
+        "bot_id": "BABK6M10X",
+        "attachments": [
+            {
+                "text": "Subscribed <#CAAHQ56P4> to <https:\/\/github.com\/softeng-inf-uniba\/base1718|softeng-inf-uniba\/base1718>",
+                "id": 1,
+                "color": "24292f",
+                "fallback": "Subscribed <#CAAHQ56P4> to <https:\/\/github.com\/softeng-inf-uniba\/base1718|softeng-inf-uniba\/base1718>"
+            }
+        ],
+        "type": "message",
+        "subtype": "bot_message",
+        "ts": "1524247206.000046"
+    },
+    {
+        "type": "message",
+        "user": "UAAHRETFU",
+        "text": "",
+        "bot_id": "BAAAZG2DS",
+        "attachments": [
+            {
+                "fallback": "[softeng-inf-uniba\/base1718] Issue reopened by lanubile",
+                "pretext": "Issue reopened by lanubile",
+                "title": "#5 issue 4",
+                "footer": "<https:\/\/github.com\/softeng-inf-uniba\/base1718|softeng-inf-uniba\/base1718>",
+                "id": 1,
+                "title_link": "https:\/\/github.com\/softeng-inf-uniba\/base1718\/issues\/5",
+                "footer_icon": "https:\/\/assets-cdn.github.com\/favicon.ico",
+                "ts": 1520006411,
+                "color": "36a64f",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "ts": "1524247257.000168"
+    },
+    {
+        "type": "message",
+        "user": "UAAHRETFU",
+        "text": "",
+        "bot_id": "BAAAZG2DS",
+        "attachments": [
+            {
+                "fallback": "[softeng-inf-uniba\/base1718] Issue closed by lanubile",
+                "pretext": "Issue closed by lanubile",
+                "title": "#5 issue 4",
+                "footer": "<https:\/\/github.com\/softeng-inf-uniba\/base1718|softeng-inf-uniba\/base1718>",
+                "id": 1,
+                "title_link": "https:\/\/github.com\/softeng-inf-uniba\/base1718\/issues\/5",
+                "footer_icon": "https:\/\/assets-cdn.github.com\/favicon.ico",
+                "ts": 1520006411,
+                "color": "cb2431",
+                "mrkdwn_in": [
+                    "text"
+                ]
+            }
+        ],
+        "ts": "1524247282.000091"
+    }
+]

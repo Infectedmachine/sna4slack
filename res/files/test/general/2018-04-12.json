@@ -1,0 +1,245 @@
+[
+    {
+        "type": "message",
+        "user": "U9MUU9N57",
+        "text": "Sul pdf della guida dello studente, la parte finale della configurazione di Travis CI (in particolare l'aggiunta di badge per il controllo dei test su Travis CI) e la parte di Aggiunta badges in GitHub (escludendo la parte relativa a CodeCov) richiedono di effettuare la stessa operazione? Nel caso in cui coincidessero, lo effettuiamo solo una volta?",
+        "client_msg_id": "a6f08f37-7b6f-4472-aa3a-c0aa65dc59e5",
+        "ts": "1523523109.000200"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<@U9MUU9N57> Sì è una ridondanza della guida",
+        "ts": "1523523447.000091"
+    },
+    {
+        "type": "message",
+        "user": "U9PBHQU3H",
+        "text": "Chi non ha Windows 10 pro, è riuscito a installare correttamente Docker?",
+        "ts": "1523523569.000467"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<@U9PBHQU3H> Il sito di Docker riporta: \n&gt; * Requires Microsoft Windows 10 Professional or Enterprise 64-bit For previous versions get Docker Toolbox",
+        "thread_ts": "1523523986.000511",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U9PBHQU3H",
+                "ts": "1523524079.000206"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1523523986.000511"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "Docker Toolbox <https:\/\/docs.docker.com\/toolbox\/toolbox_install_windows\/>",
+        "attachments": [
+            {
+                "service_name": "Docker Documentation",
+                "title": "Install Docker Toolbox on Windows",
+                "title_link": "https:\/\/docs.docker.com\/toolbox\/toolbox_install_windows\/",
+                "text": "Docker Toolbox provides a way to use Docker on Windows systems that do not meet minimal system requirements for the Docker for Windows app. If you have not done so...",
+                "fallback": "Docker Documentation: Install Docker Toolbox on Windows",
+                "thumb_url": "https:\/\/docs.docker.com\/favicons\/docs@2x.ico",
+                "ts": 1523481996,
+                "from_url": "https:\/\/docs.docker.com\/toolbox\/toolbox_install_windows\/",
+                "thumb_width": 129,
+                "thumb_height": 128,
+                "service_icon": "https:\/\/docs.docker.com\/favicons\/docs@2x.ico",
+                "id": 1
+            }
+        ],
+        "ts": "1523524004.000033"
+    },
+    {
+        "type": "message",
+        "user": "U9PBHQU3H",
+        "text": "Anche così, mi crea diversi problemi. Adesso trovo qualcuno con cui confrontarmi di persona, la ringrazio",
+        "thread_ts": "1523523986.000511",
+        "parent_user_id": "U9BD7NMPC",
+        "ts": "1523524079.000206"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "Un'altra possibilità è attivare Linux Bash Shell on Windows 10 <https:\/\/docs.microsoft.com\/en-us\/windows\/wsl\/install-win10>",
+        "attachments": [
+            {
+                "title": "Install the Linux Subsystem on Windows 10",
+                "title_link": "https:\/\/docs.microsoft.com\/en-us\/windows\/wsl\/install-win10",
+                "text": "Installation instructions for the Linux Subsystem on Windows 10.",
+                "fallback": "Install the Linux Subsystem on Windows 10",
+                "thumb_url": "https:\/\/docs.microsoft.com\/_themes\/docs.theme\/master\/en-us\/_themes\/images\/microsoft-header.png",
+                "from_url": "https:\/\/docs.microsoft.com\/en-us\/windows\/wsl\/install-win10",
+                "thumb_width": 128,
+                "thumb_height": 128,
+                "service_icon": "https:\/\/docs.microsoft.com\/favicon.ico",
+                "service_name": "docs.microsoft.com",
+                "id": 1
+            }
+        ],
+        "ts": "1523524086.000161",
+        "reactions": [
+            {
+                "name": "rolling_on_the_floor_laughing",
+                "users": [
+                    "U9NQ3SVMH"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "e quindi installare Docker for Ubuntu",
+        "ts": "1523524101.000325"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<http:\/\/score-contest.org\/2018\/projects\/sna4slack.php>",
+        "attachments": [
+            {
+                "title": "SCORE 2018 Project: SNA4Slack",
+                "title_link": "http:\/\/score-contest.org\/2018\/projects\/sna4slack.php",
+                "text": "SCORE is an ICSE 2018 software engineering contest for student teams",
+                "fallback": "SCORE 2018 Project: SNA4Slack",
+                "from_url": "http:\/\/score-contest.org\/2018\/projects\/sna4slack.php",
+                "service_name": "score-contest.org",
+                "id": 1
+            }
+        ],
+        "ts": "1523528132.000289",
+        "reactions": [
+            {
+                "name": "+1::skin-tone-2",
+                "users": [
+                    "U9MNETCD6",
+                    "U9NCNLL83",
+                    "U9NDHPVRS",
+                    "U9L0877K5",
+                    "U9PNBSH0E"
+                ],
+                "count": 5
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<!everyone> Ci sono 4 gruppi che non hanno ancora provato a costruire il build automatico ereditato dal repository base. Invito a farlo: *engelbart, hopcroft, hamming, micali*",
+        "thread_ts": "1523536095.000100",
+        "reply_count": 4,
+        "replies": [
+            {
+                "user": "U9PBHQU3H",
+                "ts": "1523536166.000453"
+            },
+            {
+                "user": "U9NS5BECU",
+                "ts": "1523539341.000515"
+            },
+            {
+                "user": "U9PBHQU3H",
+                "ts": "1523541011.000759"
+            },
+            {
+                "user": "U9PK3NZ8F",
+                "ts": "1523544267.000934"
+            }
+        ],
+        "unread_count": 4,
+        "ts": "1523536095.000100"
+    },
+    {
+        "type": "message",
+        "user": "U9PBHQU3H",
+        "text": "<#C9NEL4BRA|micali> Ero sicura di averlo fatto stamattina. Adesso ricontrolliamo.",
+        "client_msg_id": "ae694944-6bfb-4a9d-b14c-7b69b780c692",
+        "thread_ts": "1523536095.000100",
+        "parent_user_id": "U9BD7NMPC",
+        "ts": "1523536166.000453"
+    },
+    {
+        "type": "message",
+        "user": "U9NS5BECU",
+        "text": "<#CA47B3L9K|hopcroft> scusi il ritardo prof, ma scioccamente non avevo salvato la modifica, adesso dovrebbe essere andato tutto bene.",
+        "thread_ts": "1523536095.000100",
+        "parent_user_id": "U9BD7NMPC",
+        "ts": "1523539341.000515"
+    },
+    {
+        "type": "message",
+        "user": "U9PBHQU3H",
+        "text": "<#C9NEL4BRA|micali> risolto",
+        "thread_ts": "1523536095.000100",
+        "parent_user_id": "U9BD7NMPC",
+        "ts": "1523541011.000759"
+    },
+    {
+        "type": "message",
+        "user": "U9PK3NZ8F",
+        "text": "<#C9NDCM4R1|engelbart> fatto!",
+        "thread_ts": "1523536095.000100",
+        "parent_user_id": "U9BD7NMPC",
+        "ts": "1523544267.000934"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "Ora tutti i gruppi hanno la build *passing* in verde :slightly_smiling_face: sul master branch. Dovrete conservare questo stato",
+        "ts": "1523547103.000160",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9MML6PLG",
+                    "U9NJ3PL4D",
+                    "U9N82V6JC",
+                    "U9PUAUSRM",
+                    "U9NCNLL83",
+                    "U9MNETCD6",
+                    "U9NG44DUJ",
+                    "U9PBHQU3H",
+                    "U9PK3NZ8F",
+                    "U9NS5BECU",
+                    "U9N6Y2L9W",
+                    "U9N9XTY8H",
+                    "U9PK8UJBA",
+                    "U9NAWRB2Q",
+                    "U9P1B28NM",
+                    "U9PUPKP39",
+                    "U9NBUHYJF",
+                    "U9PAU9362"
+                ],
+                "count": 18
+            },
+            {
+                "name": "rocket",
+                "users": [
+                    "U9NG44DUJ",
+                    "U9PDKF5JB",
+                    "U9P60ACP7",
+                    "U9NDHPVRS",
+                    "U9NQ1QL72",
+                    "U9PK8UJBA",
+                    "U9P61MA7Q"
+                ],
+                "count": 7
+            },
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "U9P0DMXGD",
+                    "U9PNL8V9U"
+                ],
+                "count": 2
+            }
+        ]
+    }
+]

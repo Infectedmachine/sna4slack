@@ -1,0 +1,618 @@
+[
+    {
+        "user": "U9PBHQU3H",
+        "text": "<@U9PBHQU3H> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520858139.000286"
+    },
+    {
+        "user": "U9P5NTBML",
+        "text": "<@U9P5NTBML> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520858746.000306"
+    },
+    {
+        "user": "U9NA5GDFU",
+        "text": "<@U9NA5GDFU> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520858808.000303"
+    },
+    {
+        "user": "U9P61MA7Q",
+        "text": "<@U9P61MA7Q> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520860122.000529"
+    },
+    {
+        "user": "U9N84FF9R",
+        "text": "<@U9N84FF9R> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520861854.000765"
+    },
+    {
+        "user": "U9P6VLG6A",
+        "text": "<@U9P6VLG6A> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520862781.000305"
+    },
+    {
+        "user": "U9NBDU7B4",
+        "text": "<@U9NBDU7B4> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520862964.000716"
+    },
+    {
+        "user": "U9MML6PLG",
+        "text": "<@U9MML6PLG> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520863060.000176"
+    },
+    {
+        "user": "U9MQSS657",
+        "text": "<@U9MQSS657> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520863614.000330"
+    },
+    {
+        "user": "U9NAWRB2Q",
+        "text": "<@U9NAWRB2Q> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520863808.000546"
+    },
+    {
+        "user": "U9MR5LH25",
+        "text": "<@U9MR5LH25> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520864659.000545"
+    },
+    {
+        "user": "U9PDKF5JB",
+        "text": "<@U9PDKF5JB> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520864688.000015"
+    },
+    {
+        "type": "message",
+        "user": "U9PDKF5JB",
+        "text": "Salve prof, si può comunicare qui il nome del gruppo per la creazione del canale dedicato?\n<@U9BD7NMPC>",
+        "ts": "1520866209.000823"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "sì",
+        "thread_ts": "1520869496.000928",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U9PDKF5JB",
+                "ts": "1520869797.000591"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1520869496.000928"
+    },
+    {
+        "type": "message",
+        "user": "U9P5NTBML",
+        "text": "Andrew_chi_chih_yao il nostro",
+        "client_msg_id": "3061cfbe-f27e-42c1-9917-5d933bbf0183",
+        "ts": "1520869703.000433"
+    },
+    {
+        "type": "message",
+        "user": "U9PDKF5JB",
+        "text": "Allora le comunico il nome del mio gruppo di lavoro:\nfloyd",
+        "thread_ts": "1520869496.000928",
+        "parent_user_id": "U9BD7NMPC",
+        "ts": "1520869797.000591"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "ma il nome del channel deve contenere solo il cognome, tutto minuscolo e senza spazi",
+        "ts": "1520869878.000068"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "voglio vederci quando lo dovrete scrivere e pronunciare :slightly_smiling_face:",
+        "ts": "1520869933.000176",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U9PDKF5JB",
+                    "U9PBHQU3H",
+                    "U9MTNTYSD"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9P5NTBML",
+        "text": "Ah quindi solo il cognome, allora vado a modificarlo",
+        "client_msg_id": "6b2e682e-6884-444f-97f7-6ad55f1bab67",
+        "ts": "1520870026.000834"
+    },
+    {
+        "type": "message",
+        "user": "U9P5NTBML",
+        "text": ":eyes:",
+        "client_msg_id": "3563ff12-2f90-4d12-a58e-b4fdad2beeaa",
+        "ts": "1520870037.000554"
+    },
+    {
+        "type": "message",
+        "user": "U9P5NTBML",
+        "text": "Allora il nostro è <#C9NBA4FM1|yao> . Easy",
+        "client_msg_id": "a5ee5598-3be9-4a43-ae47-56d769f2feb9",
+        "ts": "1520870168.000828"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "siete sicuri che è solo il cognome? Documentatevi e non sprecate il mio e vostro tempo",
+        "ts": "1520870247.000039"
+    },
+    {
+        "type": "message",
+        "user": "U9PDKF5JB",
+        "text": "Quindi il canale lo lascio pubblico fino alla prima iterazione?",
+        "ts": "1520870279.000984"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "ho mostrato e caricato la slide con le istruzioni per l'uso proprio per non dover rispondere",
+        "thread_ts": "1520871138.000495",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U9PDKF5JB",
+                "ts": "1520871861.000546"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1520871138.000495"
+    },
+    {
+        "type": "message",
+        "user": "U9P6VLG6A",
+        "text": "Channel del mio gruppo creato <#C9MMVQVL0|hamming>",
+        "client_msg_id": "6a539ef5-83cb-4919-960c-6bc3360813b3",
+        "ts": "1520871403.000376"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<!everyone> Nella descrizione del channel di gruppo, gradirei leggere i cognomi dei componenti del gruppo",
+        "ts": "1520871543.000281"
+    },
+    {
+        "type": "message",
+        "user": "U9NDHPVRS",
+        "text": "buonasera",
+        "thread_ts": "1520871565.000106",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U9BD7NMPC",
+                "ts": "1520871646.000182"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1520871565.000106"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "Gradirei anche che la creazione del channel sia annunciata su <#C9APF813J|general>",
+        "ts": "1520871579.000609"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "con un mention a me e ai componenti del gruppo",
+        "ts": "1520871614.000848"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "buonasera",
+        "thread_ts": "1520871565.000106",
+        "parent_user_id": "U9NDHPVRS",
+        "ts": "1520871646.000182"
+    },
+    {
+        "type": "message",
+        "user": "U9NBXPRDH",
+        "text": "Buonasera",
+        "ts": "1520871849.000567"
+    },
+    {
+        "type": "message",
+        "user": "U9PDKF5JB",
+        "text": "Sto chiedendo perché oltre a general e random vedo solo il canale creato da me (<#C9NDE1PK6|floyd>) e non gli altri, ho paura di aver sbagliato qualcosa",
+        "client_msg_id": "1b0b9ae6-fb78-49bf-be1c-c04fea7bebb9",
+        "thread_ts": "1520871138.000495",
+        "parent_user_id": "U9BD7NMPC",
+        "ts": "1520871861.000546"
+    },
+    {
+        "type": "message",
+        "user": "U9NDHPVRS",
+        "text": "channel del mio gruppo #stonebraker",
+        "ts": "1520871862.000468"
+    },
+    {
+        "type": "message",
+        "user": "U9NEW0602",
+        "text": "Buonasera.\nchannel del mio gruppo #stonebraker",
+        "client_msg_id": "6881c831-dfc3-47d0-a580-02a81e7ebb29",
+        "ts": "1520871962.000832"
+    },
+    {
+        "type": "message",
+        "user": "U9NDHPVRS",
+        "text": "fantastico sei",
+        "attachments": [
+            {
+                "fallback": "[March 12th, 2018 5:26 PM] fabrizio.lillo97: Buonasera.\nchannel del mio gruppo #stonebraker",
+                "ts": "1520871962.000832",
+                "author_id": "U9NEW0602",
+                "author_subname": "Fabrizio Lillo",
+                "channel_id": "C9APF813J",
+                "channel_name": "general",
+                "is_msg_unfurl": true,
+                "text": "Buonasera.\nchannel del mio gruppo #stonebraker",
+                "author_name": "Fabrizio Lillo",
+                "author_link": "https:\/\/ingsw1718.slack.com\/team\/U9NEW0602",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2018-03-12\/329560085111_5ee838865d5209c787d5_48.jpg",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "color": "D0D0D0",
+                "from_url": "https:\/\/ingsw1718.slack.com\/archives\/C9APF813J\/p1520871962000832",
+                "is_share": true,
+                "footer": "Posted in #general"
+            }
+        ],
+        "ts": "1520872026.000474"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "Per non raggiungere immediatamente i 10K di messaggi eviterei sul canale <#C9APF813J|general> saluti e complimenti vari",
+        "ts": "1520872109.000840"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "fate conto che ci siamo già salutati .-)",
+        "ts": "1520872148.000557"
+    },
+    {
+        "type": "message",
+        "user": "U9NAWRB2Q",
+        "text": "Prof <@U9BD7NMPC>  \nGruppo Codd creato \nmanca solo un utente che si iscriverà a breve a slack\nI cognomi sono nel topic del gruppo",
+        "client_msg_id": "49e41cea-a03e-4fb7-8aff-effec01ba9e3",
+        "ts": "1520872224.000083"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U9BD7NMPC> uploaded a file: <https:\/\/ingsw1718.slack.com\/files\/U9BD7NMPC\/F9MU5T63T\/uso_di_slack_nel_progetto.pdf|Uso di Slack nel progetto.pdf> and commented: sto caricando una nuova versione su ADA una versione versione sull'uso di Slack per il progetto. Carico anche qui",
+        "file": {
+            "id": "F9MU5T63T",
+            "created": 1520872230,
+            "timestamp": 1520872230,
+            "name": "Uso di Slack nel progetto.pdf",
+            "title": "Uso di Slack nel progetto.pdf",
+            "mimetype": "application\/pdf",
+            "filetype": "pdf",
+            "pretty_type": "PDF",
+            "user": "U9BD7NMPC",
+            "editable": false,
+            "size": 121232,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-F9MU5T63T\/uso_di_slack_nel_progetto.pdf?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-F9MU5T63T\/download\/uso_di_slack_nel_progetto.pdf?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-F9MU5T63T-a71ed4ac41\/uso_di_slack_nel_progetto_thumb_pdf.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_pdf_w": 1100,
+            "thumb_pdf_h": 825,
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/U9BD7NMPC\/F9MU5T63T\/uso_di_slack_nel_progetto.pdf",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-F9MU5T63T-f0a861a338",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "Fc9PGKCDGX",
+                "created": 1520872230,
+                "timestamp": 1520872230,
+                "user": "U9BD7NMPC",
+                "is_intro": true,
+                "comment": "sto caricando una nuova versione su ADA una versione versione sull'uso di Slack per il progetto. Carico anche qui"
+            },
+            "reactions": [
+                {
+                    "name": "+1",
+                    "users": [
+                        "U9PDKF5JB",
+                        "U9NDHPVRS",
+                        "U9NAWRB2Q",
+                        "U9NBXPRDH"
+                    ],
+                    "count": 4
+                }
+            ]
+        },
+        "user": "U9BD7NMPC",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "filippo.lanubile",
+        "bot_id": null,
+        "ts": "1520872232.000168"
+    },
+    {
+        "type": "message",
+        "user": "U9N84FF9R",
+        "text": "Prof <@U9BD7NMPC>, gruppo hellman creato, i cognomi sono in descrizione.",
+        "client_msg_id": "356dc5eb-fba3-4d54-ba11-1f0dfefd67fa",
+        "ts": "1520872318.000097"
+    },
+    {
+        "type": "message",
+        "user": "U9PDKF5JB",
+        "text": "<!everyone> <@U9BD7NMPC> gruppo <#C9NDE1PK6|floyd> creato",
+        "client_msg_id": "3e8a806f-8dac-492c-8a9e-28661fe7fe86",
+        "ts": "1520872415.000535"
+    },
+    {
+        "type": "message",
+        "user": "U9JS0QR60",
+        "text": "professore buonasera, una domanda... possiamo creare un gruppo con 3 persone ed aggiungerne altre entro il 12 aprile? o dobbiamo creare il gruppo quando abbiamo la certezza dei componenti?",
+        "ts": "1520872545.000494",
+        "reactions": [
+            {
+                "name": "slightly_smiling_face",
+                "users": [
+                    "U9PAU9362"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "no potete creare già ora, poi a lezione verificherò la situazione almeno una volta la settimana",
+        "ts": "1520872745.000642",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9JS0QR60",
+                    "U9PBHQU3H",
+                    "U9PAU9362"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "se volete vedere i canali-gruppi già creati cliccate su \"Channels\"",
+        "edited": {
+            "user": "U9BD7NMPC",
+            "ts": "1520872796.000000"
+        },
+        "thread_ts": "1520872782.000105",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U9PDKF5JB",
+                "ts": "1520872872.000796"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1520872782.000105",
+        "reactions": [
+            {
+                "name": "100",
+                "users": [
+                    "U9PDKF5JB"
+                ],
+                "count": 1
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U9JS0QR60"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9NDHPVRS",
+        "text": "<!everyone> <@U9BD7NMPC> gruppo <#C9NF85V1Q|stonebraker> creato:+1:",
+        "ts": "1520872841.000068"
+    },
+    {
+        "type": "message",
+        "user": "U9PDKF5JB",
+        "text": "Grazie",
+        "client_msg_id": "9303999b-a044-4007-aa9e-c5c9d0ebfc36",
+        "thread_ts": "1520872782.000105",
+        "parent_user_id": "U9BD7NMPC",
+        "ts": "1520872872.000796"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "non usate \"everyone\" se proprio non è super-importante",
+        "ts": "1520872902.000247"
+    },
+    {
+        "type": "message",
+        "user": "U9PBHQU3H",
+        "text": "Prof <@U9BD7NMPC> channel <#C9NEL4BRA|micali> creato. Cognomi in descrizione. Probabilmente si unirà una quinta ragazza.",
+        "client_msg_id": "ada8ed96-f775-4157-b126-ecff0a27925b",
+        "ts": "1520873277.000668"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "sarebbe meglio non nominarmi per l'annuncio della creazione del  channel di gruppo",
+        "ts": "1520873374.000181"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "Devo cercare di sopravvivere all'ondata di notifiche",
+        "ts": "1520873434.000312"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<!everyone> sappiate che chiederò a un componente del gruppo (per ogni gruppo) quando è stato vinto il TA e perché",
+        "ts": "1520873617.000439",
+        "reactions": [
+            {
+                "name": "scream",
+                "users": [
+                    "U9PDKF5JB",
+                    "U9PBHQU3H",
+                    "U9NQRSU7M",
+                    "U9PP54E4D"
+                ],
+                "count": 4
+            },
+            {
+                "name": "grinning",
+                "users": [
+                    "U9BD7NMPC"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9NJ3PL4D",
+        "text": "channel <#C9NCNQ21H|perlis> creato.",
+        "ts": "1520873808.000774"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<!everyone> vi ricordo che le foto associate ai profili sono gradite. So che non volete dispiacermi",
+        "ts": "1520874006.000789",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U9PAU9362",
+                    "U9PBHQU3H",
+                    "U9MML6PLG",
+                    "U9NCNLL83",
+                    "U9NBUHYJF",
+                    "U9MQ541S4",
+                    "U9NEW0602",
+                    "U9NDHPVRS"
+                ],
+                "count": 8
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9JS0QR60",
+        "text": "channel <#C9NK7QADT|liskov> creato",
+        "ts": "1520874207.000639"
+    },
+    {
+        "type": "message",
+        "user": "U9MU4674H",
+        "text": "channel <#C9NDCM4R1|engelbart> creato",
+        "ts": "1520875523.000790"
+    },
+    {
+        "type": "message",
+        "user": "U9NBDU7B4",
+        "text": "channel <#C9PCTK26A|shamir> creato",
+        "ts": "1520878272.000260"
+    },
+    {
+        "type": "message",
+        "user": "U9NDPBTNF",
+        "text": "<@U9BD7NMPC> channel <#C9N2WQ89X|thompson> creato",
+        "client_msg_id": "b7d52603-5690-41d9-8547-21bac98f9546",
+        "ts": "1520883991.000716"
+    },
+    {
+        "type": "message",
+        "user": "U9NJ8R37E",
+        "text": "<@U9NDPBTNF>",
+        "client_msg_id": "65ef7ff5-6b47-4e38-af97-c9c5a0cec2b5",
+        "ts": "1520886015.000625"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<@U9NDPBTNF> <@U9NJ8R37E> Avevo scritto pochi messaggi prima: sarebbe meglio non nominarmi per l'annuncio della creazione del  channel di gruppo",
+        "ts": "1520897140.000214"
+    },
+    {
+        "type": "message",
+        "user": "U9NDPBTNF",
+        "text": "Si é vero, avevo capito male mi scusi",
+        "attachments": [
+            {
+                "fallback": "[March 13th, 2018 12:25 AM] filippo.lanubile: <@U9NDPBTNF> <@U9NJ8R37E> Avevo scritto pochi messaggi prima: sarebbe meglio non nominarmi per l'annuncio della creazione del  channel di gruppo",
+                "ts": "1520897140.000214",
+                "author_id": "U9BD7NMPC",
+                "author_subname": "Filippo",
+                "channel_id": "C9APF813J",
+                "channel_name": "general",
+                "is_msg_unfurl": true,
+                "text": "<@U9NDPBTNF> <@U9NJ8R37E> Avevo scritto pochi messaggi prima: sarebbe meglio non nominarmi per l'annuncio della creazione del  channel di gruppo",
+                "author_name": "Filippo",
+                "author_link": "https:\/\/ingsw1718.slack.com\/team\/U9BD7NMPC",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2018-03-12\/328399380067_c21cc81494b19032a666_48.jpg",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "color": "D0D0D0",
+                "from_url": "https:\/\/ingsw1718.slack.com\/archives\/C9APF813J\/p1520897140000214",
+                "is_share": true,
+                "footer": "Posted in #general"
+            }
+        ],
+        "ts": "1520922760.000239"
+    }
+]

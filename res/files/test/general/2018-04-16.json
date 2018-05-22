@@ -1,0 +1,38 @@
+[
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "Ho caricato su ADA una versione semplificata, in quanto limitata ai preliminari, del workflow relativo al progetto",
+        "thread_ts": "1523902468.000311",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U9PBHQU3H",
+                "ts": "1523952194.000597"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1523902468.000311",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9JS0QR60",
+                    "U9MR5LH25",
+                    "U9PK8UJBA",
+                    "U9NDPBTNF",
+                    "U9NBUHYJF",
+                    "U9NCNLL83",
+                    "U9MNETCD6"
+                ],
+                "count": 7
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "E' nella sezione relativa alla modellazione del workflow",
+        "ts": "1523902499.000450"
+    }
+]

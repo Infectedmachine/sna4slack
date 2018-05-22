@@ -1,0 +1,21 @@
+[
+    {
+        "type": "message",
+        "user": "U9PC8DR8W",
+        "text": "ID docker: ingsw1718c",
+        "ts": "1523455565.000639"
+    },
+    {
+        "user": "U9BD7NMPC",
+        "text": "<@U9BD7NMPC> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1523480050.000143"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<!channel> risultano solo due di voi nel team hellman di GitHub Classroom.  Se domani prima che inizi la lezione continuerete a essere sotto la soglia di 3 membri dovrò cancellare il gruppo. Non rispondete qui perché sto per lasciare il channel",
+        "ts": "1523480154.000285"
+    }
+]

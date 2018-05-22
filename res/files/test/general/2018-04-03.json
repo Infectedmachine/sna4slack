@@ -1,0 +1,18 @@
+[
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "Professor <@U9BD7NMPC> domani servirà il computer?",
+        "client_msg_id": "0b3aac54-7d3f-4901-affb-fa22b768f73f",
+        "ts": "1522817523.000034",
+        "reactions": [
+            {
+                "name": "computer",
+                "users": [
+                    "U9P5NTBML"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

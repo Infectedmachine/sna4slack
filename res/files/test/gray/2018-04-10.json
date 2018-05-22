@@ -1,0 +1,89 @@
+[
+    {
+        "type": "message",
+        "user": "U9NQ80ZDH",
+        "text": "@everyone <https:\/\/github.com\/orgs\/softeng-inf-uniba\/teams\/gray>",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "Build software better, together",
+                "title_link": "https:\/\/github.com\/orgs\/softeng-inf-uniba\/teams\/gray",
+                "text": "GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.",
+                "fallback": "GitHub: Build software better, together",
+                "image_width": 1200,
+                "image_height": 620,
+                "from_url": "https:\/\/github.com\/orgs\/softeng-inf-uniba\/teams\/gray",
+                "service_icon": "https:\/\/a.slack-edge.com\/bfaba\/img\/unfurl_icons\/github.png",
+                "id": 1
+            }
+        ],
+        "ts": "1523347172.000270"
+    },
+    {
+        "type": "message",
+        "user": "U9NQ80ZDH",
+        "text": "<https:\/\/github.com\/orgs\/softeng-inf-uniba\/invitation?via_email=1>",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "Build software better, together",
+                "title_link": "https:\/\/github.com\/orgs\/softeng-inf-uniba\/invitation?via_email=1",
+                "text": "GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.",
+                "fallback": "GitHub: Build software better, together",
+                "image_width": 1200,
+                "image_height": 620,
+                "from_url": "https:\/\/github.com\/orgs\/softeng-inf-uniba\/invitation?via_email=1",
+                "service_icon": "https:\/\/a.slack-edge.com\/bfaba\/img\/unfurl_icons\/github.png",
+                "id": 1
+            }
+        ],
+        "ts": "1523347290.000048"
+    },
+    {
+        "type": "message",
+        "user": "U9NQ80ZDH",
+        "text": "<https:\/\/github.com\/orgs\/softeng-inf-uniba\/teams>",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "Build software better, together",
+                "title_link": "https:\/\/github.com\/orgs\/softeng-inf-uniba\/teams",
+                "text": "GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.",
+                "fallback": "GitHub: Build software better, together",
+                "image_width": 1200,
+                "image_height": 620,
+                "from_url": "https:\/\/github.com\/orgs\/softeng-inf-uniba\/teams",
+                "service_icon": "https:\/\/a.slack-edge.com\/bfaba\/img\/unfurl_icons\/github.png",
+                "id": 1
+            }
+        ],
+        "ts": "1523347346.000466"
+    },
+    {
+        "type": "message",
+        "user": "U9NQ80ZDH",
+        "text": "<https:\/\/github.com\/orgs\/softeng-inf-uniba\/teams>",
+        "ts": "1523347729.000362"
+    },
+    {
+        "type": "message",
+        "user": "U9NQ80ZDH",
+        "text": "<https:\/\/github.com\/softeng-inf-uniba>",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "Ingegneria del Software, Cdl Informatica, UNIBA",
+                "title_link": "https:\/\/github.com\/softeng-inf-uniba",
+                "text": "GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.",
+                "fallback": "GitHub: Ingegneria del Software, Cdl Informatica, UNIBA",
+                "from_url": "https:\/\/github.com\/softeng-inf-uniba",
+                "thumb_url": "https:\/\/avatars2.githubusercontent.com\/u\/32246946?s=280&v=4",
+                "thumb_width": 250,
+                "thumb_height": 250,
+                "service_icon": "https:\/\/a.slack-edge.com\/bfaba\/img\/unfurl_icons\/github.png",
+                "id": 1
+            }
+        ],
+        "ts": "1523347781.000284"
+    }
+]

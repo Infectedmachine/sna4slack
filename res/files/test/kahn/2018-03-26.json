@@ -1,0 +1,67 @@
+[
+    {
+        "user": "U9PUTB10X",
+        "text": "<@U9PUTB10X> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1522054454.000242"
+    },
+    {
+        "user": "U9PUTB10X",
+        "purpose": "Andrisani , Lovino , Cassano , Ferrara",
+        "text": "<@U9PUTB10X> set the channel purpose: Andrisani , Lovino , Cassano , Ferrara",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1522054455.000190"
+    },
+    {
+        "user": "U9PUTB10X",
+        "text": "<@U9PUTB10X> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1522058031.000022"
+    },
+    {
+        "user": "U9PUTB10X",
+        "text": "<@U9PUTB10X> archived the channel",
+        "type": "message",
+        "subtype": "channel_archive",
+        "ts": "1522058120.000524"
+    },
+    {
+        "user": "U9BD7NMPC",
+        "text": "<@U9BD7NMPC> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1522066470.000131"
+    },
+    {
+        "user": "U9BD7NMPC",
+        "text": "<@U9BD7NMPC> un-archived the channel",
+        "type": "message",
+        "subtype": "channel_unarchive",
+        "ts": "1522066470.000138"
+    },
+    {
+        "user": "U9PUTB10X",
+        "text": "<@U9PUTB10X> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1522066517.000196"
+    },
+    {
+        "user": "U9W4FCFEH",
+        "text": "<@U9W4FCFEH> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1522095039.000030"
+    },
+    {
+        "user": "U9VUKMBU4",
+        "inviter": "U9PUTB10X",
+        "text": "<@U9VUKMBU4> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1522131448.000275"
+    }
+]

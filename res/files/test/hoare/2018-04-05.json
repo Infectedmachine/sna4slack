@@ -1,0 +1,26 @@
+[
+    {
+        "user": "UA1JDS15Z",
+        "inviter": "U9N7WANGG",
+        "text": "<@UA1JDS15Z> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1522930059.000294"
+    },
+    {
+        "user": "U9N7WANGG",
+        "topic": "",
+        "text": "<@U9N7WANGG> cleared channel topic",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1522930186.000182"
+    },
+    {
+        "user": "U9N7WANGG",
+        "purpose": "Cristea, de Filippo, Cassiano, Angelelli",
+        "text": "<@U9N7WANGG> set the channel purpose: Cristea, de Filippo, Cassiano, Angelelli",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1522930186.000213"
+    }
+]

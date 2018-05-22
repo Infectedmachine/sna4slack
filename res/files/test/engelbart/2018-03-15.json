@@ -1,0 +1,17 @@
+[
+    {
+        "user": "U9NS88ZU4",
+        "text": "<@U9NS88ZU4> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1521111289.000250"
+    },
+    {
+        "user": "U9MU4674H",
+        "purpose": "Cinquepalmi, La Gala, De Stradis, Andreucci.",
+        "text": "<@U9MU4674H> set the channel purpose: Cinquepalmi, La Gala, De Stradis, Andreucci.",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1521111332.000440"
+    }
+]

@@ -1,0 +1,25 @@
+[
+    {
+        "user": "U9Q8J1MNF",
+        "text": "<@U9Q8J1MNF> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1521112994.000415",
+        "reactions": [
+            {
+                "name": "clock1130",
+                "users": [
+                    "U9NCMRU8H"
+                ],
+                "count": 1
+            },
+            {
+                "name": "banana",
+                "users": [
+                    "U9NCMRU8H"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

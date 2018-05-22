@@ -1,0 +1,116 @@
+[
+    {
+        "type": "message",
+        "user": "U9PDKF5JB",
+        "text": "Io per le 11 sono in uni",
+        "client_msg_id": "c88a72cc-29a9-47a1-98e0-ffc37c279ac3",
+        "ts": "1523521130.000340"
+    },
+    {
+        "type": "message",
+        "user": "U9T55R65D",
+        "text": "Io oggi nn ci sono",
+        "client_msg_id": "be46517b-dfb4-40fd-9a8f-cac7c3d2193f",
+        "ts": "1523523692.000253"
+    },
+    {
+        "type": "message",
+        "user": "U9MTNTYSD",
+        "text": "<http:\/\/score-contest.org\/2018\/projects\/sna4slack.php>",
+        "attachments": [
+            {
+                "title": "SCORE 2018 Project: SNA4Slack",
+                "title_link": "http:\/\/score-contest.org\/2018\/projects\/sna4slack.php",
+                "text": "SCORE is an ICSE 2018 software engineering contest for student teams",
+                "fallback": "SCORE 2018 Project: SNA4Slack",
+                "from_url": "http:\/\/score-contest.org\/2018\/projects\/sna4slack.php",
+                "service_name": "score-contest.org",
+                "id": 1
+            }
+        ],
+        "ts": "1523528067.000216"
+    },
+    {
+        "type": "message",
+        "user": "U9PDKF5JB",
+        "text": "ragazzi voi come avete configurato gradle e eclipse? io ho installato gradle ma su eclipse non mi compare...",
+        "ts": "1523552754.000603"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U9PDKF5JB> uploaded a file: <https:\/\/ingsw1718.slack.com\/files\/U9PDKF5JB\/FA59J7A5P\/sasa.png|err> and commented: mi da questo errore se faccio gradle -v sul prompt dei comandi, a voi dice niente?",
+        "file": {
+            "id": "FA59J7A5P",
+            "created": 1523553254,
+            "timestamp": 1523553254,
+            "name": "sasa.png",
+            "title": "err",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U9PDKF5JB",
+            "editable": false,
+            "size": 13955,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA59J7A5P\/sasa.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA59J7A5P\/download\/sasa.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA59J7A5P-111948e96d\/sasa_64.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA59J7A5P-111948e96d\/sasa_80.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA59J7A5P-111948e96d\/sasa_360.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360_w": 360,
+            "thumb_360_h": 199,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA59J7A5P-111948e96d\/sasa_160.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "image_exif_rotation": 1,
+            "original_w": 480,
+            "original_h": 265,
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/U9PDKF5JB\/FA59J7A5P\/sasa.png",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-FA59J7A5P-617dfb1429",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "FcA5NLTYTV",
+                "created": 1523553254,
+                "timestamp": 1523553254,
+                "user": "U9PDKF5JB",
+                "is_intro": true,
+                "comment": "mi da questo errore se faccio gradle -v sul prompt dei comandi, a voi dice niente?"
+            }
+        },
+        "user": "U9PDKF5JB",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "stefano.lacetera",
+        "bot_id": null,
+        "ts": "1523553256.000239"
+    },
+    {
+        "type": "message",
+        "user": "U9SUDJ8J2",
+        "text": "Si disinstalla la jdk e la jre che hai e installa la 8 update 162",
+        "client_msg_id": "0f3757fe-96c8-41d4-954f-44a0e291f88c",
+        "ts": "1523553812.000396"
+    },
+    {
+        "type": "message",
+        "user": "U9SUDJ8J2",
+        "text": "Se stai facendo map pure devi rifare il progetto perché cambiano le librerie",
+        "client_msg_id": "69987390-1673-4bdc-bc55-b02ec94b4818",
+        "ts": "1523553869.000198"
+    },
+    {
+        "type": "message",
+        "user": "U9PDKF5JB",
+        "text": "Ok grazie",
+        "client_msg_id": "d2c9e329-ad51-432f-bd14-ad80f33c5469",
+        "ts": "1523565420.000719"
+    }
+]

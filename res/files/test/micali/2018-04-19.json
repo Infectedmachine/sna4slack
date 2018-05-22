@@ -1,0 +1,56 @@
+[
+    {
+        "type": "message",
+        "user": "U9P61MA7Q",
+        "text": "Buongiorno gente :grin:",
+        "client_msg_id": "81f335cc-b1e0-4bdb-b9ed-f3a24b1aa283",
+        "ts": "1524132536.000075"
+    },
+    {
+        "type": "message",
+        "user": "U9P61MA7Q",
+        "text": "Allora, per la commit assegnata, io ed Alessandro ci occupiamo dell'aggiornamento della guida studente",
+        "client_msg_id": "373263ac-de70-42e0-af5c-87af726701d1",
+        "ts": "1524132588.000183"
+    },
+    {
+        "type": "message",
+        "user": "U9P61MA7Q",
+        "text": "E Antonio ed Anna del caricamento del nuovo .png relativo al badge aggiornato",
+        "client_msg_id": "c0c126a0-fe30-4339-9a88-79f1efdbfff5",
+        "ts": "1524132770.000103"
+    },
+    {
+        "type": "message",
+        "user": "U9P61MA7Q",
+        "text": "Alessia ha già committato l'aggiornamento  del file yml",
+        "client_msg_id": "058c4795-3cd9-47d1-b542-aba6cb00df94",
+        "ts": "1524132793.000329"
+    },
+    {
+        "type": "message",
+        "user": "U9P61MA7Q",
+        "text": "E ora Anna ed Antonio hanno terminato la loro commit",
+        "client_msg_id": "1cf1216c-db0b-4b61-a4b4-6d1a4dc9a38f",
+        "ts": "1524132807.000323"
+    },
+    {
+        "type": "message",
+        "user": "U9N82V6JC",
+        "text": "Commit guida eseguito",
+        "ts": "1524136915.000193"
+    },
+    {
+        "type": "message",
+        "user": "U9P61MA7Q",
+        "text": "Quindi, per il meeting di oggi, tutto fatto",
+        "client_msg_id": "134569bc-4d32-49de-b95b-c7dc24fc042b",
+        "ts": "1524137058.000032"
+    },
+    {
+        "type": "message",
+        "user": "U9N82V6JC",
+        "text": "ragazzi se leggete utassitant2 al commit sono io ma è un mio problema di gitbash",
+        "ts": "1524137235.000197"
+    }
+]

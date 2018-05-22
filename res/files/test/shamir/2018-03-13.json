@@ -1,0 +1,156 @@
+[
+    {
+        "user": "U9NSNMBMG",
+        "inviter": "U9NBDU7B4",
+        "text": "<@U9NSNMBMG> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520931158.000407"
+    },
+    {
+        "user": "U9NBDU7B4",
+        "topic": "",
+        "text": "<@U9NBDU7B4> cleared channel topic",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1520931192.000064"
+    },
+    {
+        "user": "U9NBDU7B4",
+        "purpose": "Forleo, Cafaro, Cicerello",
+        "text": "<@U9NBDU7B4> set the channel purpose: Forleo, Cafaro, Cicerello",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520931192.000103"
+    },
+    {
+        "user": "U9PUAUSRM",
+        "text": "<@U9PUAUSRM> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520936882.000090"
+    },
+    {
+        "user": "U9PUAUSRM",
+        "purpose": "Forleo, Cafaro, Cicerello, Lippolis",
+        "text": "<@U9PUAUSRM> set the channel purpose: Forleo, Cafaro, Cicerello, Lippolis",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520936904.000078"
+    },
+    {
+        "user": "U9PUAUSRM",
+        "topic": "",
+        "text": "<@U9PUAUSRM> cleared channel topic",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1520936904.000136"
+    },
+    {
+        "type": "message",
+        "user": "U9PUAUSRM",
+        "text": "Salve a tutti",
+        "ts": "1520959791.000058"
+    },
+    {
+        "type": "message",
+        "user": "U9NGE229G",
+        "text": "Ciao",
+        "client_msg_id": "c0f2a0b1-3439-48c2-81d3-a07e2ca6eb20",
+        "ts": "1520966792.000074"
+    },
+    {
+        "type": "message",
+        "user": "U9PUAUSRM",
+        "text": "Ciao, ci doveva essere un quinto o sbaglio?",
+        "ts": "1520967018.000712"
+    },
+    {
+        "type": "message",
+        "user": "U9NSNMBMG",
+        "text": "<@U9PUAUSRM> sei tu il quinto",
+        "ts": "1520967755.000097"
+    },
+    {
+        "type": "message",
+        "user": "U9PUAUSRM",
+        "text": "Intendo dire che ci sono solo 4 persone nel canale.",
+        "ts": "1520968145.000694"
+    },
+    {
+        "type": "message",
+        "user": "U9NSNMBMG",
+        "text": "si scusami non avevo capito, c'è il mio amico Pio che ancora deve iscriversi al canale",
+        "ts": "1520968198.000150"
+    },
+    {
+        "type": "message",
+        "user": "U9PUAUSRM",
+        "text": "Capito, poi magari quando siamo tutti ci facciamo una chiacchierata così ci presentiamo.",
+        "ts": "1520968295.000362"
+    },
+    {
+        "type": "message",
+        "user": "U9NGE229G",
+        "text": "<@U9PUAUSRM> ma sei di gioia vero?",
+        "client_msg_id": "dba1d91a-446f-4e7d-8f6e-d3be78ee00da",
+        "ts": "1520968438.000038"
+    },
+    {
+        "type": "message",
+        "user": "U9PUAUSRM",
+        "text": "Sì. L'avevo detto oppure devo cercare microspie? o.o",
+        "ts": "1520968581.000671"
+    },
+    {
+        "type": "message",
+        "user": "U9PUAUSRM",
+        "text": "Perchè non mi ricordo o.o",
+        "ts": "1520968650.000134"
+    },
+    {
+        "type": "message",
+        "user": "U9NGE229G",
+        "text": "Io non c'ero stamattina",
+        "client_msg_id": "e153a41e-91ab-4d4a-95a2-fbf2dab690d6",
+        "ts": "1520968741.000395"
+    },
+    {
+        "type": "message",
+        "user": "U9PUAUSRM",
+        "text": "Capito. Comunque sì sono di gioia, come mai? ^^",
+        "ts": "1520968769.000684"
+    },
+    {
+        "type": "message",
+        "user": "U9NGE229G",
+        "text": "Mi sembra di averti visto alla fermata del pullman",
+        "client_msg_id": "af431522-eb37-4044-a02b-05e0f6e5a8b7",
+        "ts": "1520969194.000532"
+    },
+    {
+        "type": "message",
+        "user": "U9PUAUSRM",
+        "text": "Probabilmente sì ^^",
+        "ts": "1520969321.000609"
+    },
+    {
+        "type": "message",
+        "user": "U9PUAUSRM",
+        "text": "quindi siamo concittadini?",
+        "ts": "1520969371.000681"
+    },
+    {
+        "type": "message",
+        "user": "U9NGE229G",
+        "text": "Sisi",
+        "client_msg_id": "4c7d1609-2a8a-4eac-91a4-e217bca096c0",
+        "ts": "1520969771.000761"
+    },
+    {
+        "type": "message",
+        "user": "U9PUAUSRM",
+        "text": "Ottimo, non dovrebbe servire, ma la possibilità di vederci facilmente faccia a faccia è un'ottima cosa.",
+        "ts": "1520970639.000503"
+    }
+]

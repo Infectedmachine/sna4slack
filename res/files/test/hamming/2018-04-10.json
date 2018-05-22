@@ -1,0 +1,26 @@
+[
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "adesso è arrivata a me la mail",
+        "ts": "1523368044.000629"
+    },
+    {
+        "type": "message",
+        "user": "U9MQSS657",
+        "text": "<!here> sto configurando Travis CI come da programma",
+        "ts": "1523373483.000102"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "ok",
+        "ts": "1523373491.000547"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "grazie",
+        "ts": "1523373493.000011"
+    }
+]

@@ -1,0 +1,79 @@
+[
+    {
+        "user": "U9L0877K5",
+        "topic": "Nazar Chekalin , Davide Lapenta, Fabrizio Ferrara, Giuseppe Angelini, Piera Amendola",
+        "text": "<@U9L0877K5> set the channel topic: Nazar Chekalin , Davide Lapenta, Fabrizio Ferrara, Giuseppe Angelini, Piera Amendola",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1521111303.000013"
+    },
+    {
+        "user": "U9P5NTBML",
+        "purpose": "Chekalin,Lapenta,Ferrara,Angelini,Amendola",
+        "text": "<@U9P5NTBML> set the channel purpose: Chekalin,Lapenta,Ferrara,Angelini,Amendola",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1521111309.000455"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U9L0877K5> uploaded a file: <https:\/\/ingsw1718.slack.com\/files\/U9L0877K5\/F9QBFJVDJ\/-.txt|Untitled>",
+        "file": {
+            "id": "F9QBFJVDJ",
+            "created": 1521115276,
+            "timestamp": 1521115276,
+            "name": "-.txt",
+            "title": "Untitled",
+            "mimetype": "text\/plain",
+            "filetype": "text",
+            "pretty_type": "Plain Text",
+            "user": "U9L0877K5",
+            "editable": true,
+            "size": 323,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-F9QBFJVDJ\/-.txt?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-F9QBFJVDJ\/download\/-.txt?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/U9L0877K5\/F9QBFJVDJ\/-.txt",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-F9QBFJVDJ-a552e7ff6a",
+            "edit_link": "https:\/\/ingsw1718.slack.com\/files\/U9L0877K5\/F9QBFJVDJ\/-.txt\/edit",
+            "preview": "git init demo2\r\ncd demo2\r\ntouch README.md\r\ngit add README.md\r\ngit commit -m \"Aggiungo file sul Master\"\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre>git init demo2<\/pre><\/div>\n<div><pre>cd demo2<\/pre><\/div>\n<div><pre>touch README.md<\/pre><\/div>\n<div><pre>git add README.md<\/pre><\/div>\n<div><pre>git commit -m &quot;Aggiungo file sul Master&quot;<\/pre><\/div>\n<div><pre><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 17,
+            "lines_more": 12,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "reactions": [
+                {
+                    "name": "eyes",
+                    "users": [
+                        "U9P5NTBML"
+                    ],
+                    "count": 1
+                },
+                {
+                    "name": "nerd_face",
+                    "users": [
+                        "U9P5NTBML"
+                    ],
+                    "count": 1
+                }
+            ]
+        },
+        "user": "U9L0877K5",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "lapenta.d",
+        "bot_id": null,
+        "ts": "1521115276.000458"
+    }
+]

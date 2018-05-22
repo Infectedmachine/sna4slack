@@ -1,0 +1,23 @@
+[
+    {
+        "type": "message",
+        "user": "U9NDPBTNF",
+        "text": "<https:\/\/github.com\/lorenzokyne\/Thompson>",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "lorenzokyne\/Thompson",
+                "title_link": "https:\/\/github.com\/lorenzokyne\/Thompson",
+                "text": "Thompson - Prova di una repository condivisa",
+                "fallback": "GitHub: lorenzokyne\/Thompson",
+                "from_url": "https:\/\/github.com\/lorenzokyne\/Thompson",
+                "thumb_url": "https:\/\/avatars0.githubusercontent.com\/u\/32832267?s=400&v=4",
+                "thumb_width": 250,
+                "thumb_height": 250,
+                "service_icon": "https:\/\/a.slack-edge.com\/bfaba\/img\/unfurl_icons\/github.png",
+                "id": 1
+            }
+        ],
+        "ts": "1521468581.000053"
+    }
+]

@@ -1,0 +1,36 @@
+[
+    {
+        "type": "message",
+        "user": "U9PBQ382J",
+        "text": "come ci organizziamo per quanto riguarda le indicazioni date dal prof?",
+        "ts": "1524069877.000540"
+    },
+    {
+        "type": "message",
+        "user": "U9T55R65D",
+        "text": "Solo uno deve farlo giusto?",
+        "client_msg_id": "be721a07-7f2c-4984-bd87-369334598e33",
+        "ts": "1524070343.000227"
+    },
+    {
+        "type": "message",
+        "user": "U9PBQ382J",
+        "text": "non so.. non ho visto bene tutte le modifiche da fare",
+        "ts": "1524070625.000188"
+    },
+    {
+        "type": "message",
+        "user": "U9PBQ382J",
+        "text": "potremmo anche incontrarci tutti nel caso",
+        "thread_ts": "1524070647.000757",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U9SUDJ8J2",
+                "ts": "1524125032.000174"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1524070647.000757"
+    }
+]

@@ -1,0 +1,442 @@
+[
+    {
+        "type": "message",
+        "user": "U9P6VLG6A",
+        "text": "Se volete appena arrivo a casa ci provo...",
+        "attachments": [
+            {
+                "fallback": "[April 12th, 2018 2:28 PM] filippo.lanubile: <!everyone> Ci sono 4 gruppi che non hanno ancora provato a costruire il build automatico ereditato dal repository base. Invito a farlo: *engelbart, hopcroft, hamming, micali*",
+                "ts": "1523536095.000100",
+                "author_id": "U9BD7NMPC",
+                "author_subname": "Filippo",
+                "channel_id": "C9APF813J",
+                "channel_name": "general",
+                "is_msg_unfurl": true,
+                "is_thread_root_unfurl": true,
+                "text": "<!everyone> Ci sono 4 gruppi che non hanno ancora provato a costruire il build automatico ereditato dal repository base. Invito a farlo: *engelbart, hopcroft, hamming, micali*",
+                "author_name": "Filippo",
+                "author_link": "https:\/\/ingsw1718.slack.com\/team\/U9BD7NMPC",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2018-03-12\/328399380067_c21cc81494b19032a666_48.jpg",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "color": "D0D0D0",
+                "from_url": "https:\/\/ingsw1718.slack.com\/archives\/C9APF813J\/p1523536095000100?thread_ts=1523536095000100&cid=C9APF813J",
+                "is_share": true,
+                "footer": "Thread in #general"
+            }
+        ],
+        "thread_ts": "1523536244.000296",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U9MQSS657",
+                "ts": "1523540610.000130"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1523536244.000296"
+    },
+    {
+        "type": "message",
+        "user": "U9MQSS657",
+        "text": "Spiegami come fai poi, perché non ho capito come attivare questo build automatico. Dipenderà dalle variabili inserite su travis?",
+        "client_msg_id": "0b111b26-098a-46b4-ab28-b878c551649e",
+        "thread_ts": "1523536244.000296",
+        "parent_user_id": "U9P6VLG6A",
+        "ts": "1523540610.000130"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U9MML6PLG> uploaded a file: <https:\/\/ingsw1718.slack.com\/files\/U9MML6PLG\/FA55PD33K\/image.png|image> and commented: raga mi esce questo se provo ad attivare il repository",
+        "file": {
+            "id": "FA55PD33K",
+            "created": 1523543525,
+            "timestamp": 1523543525,
+            "name": "image.png",
+            "title": "image",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U9MML6PLG",
+            "editable": false,
+            "size": 178390,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA55PD33K\/image.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA55PD33K\/download\/image.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA55PD33K-4736348886\/image_64.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA55PD33K-4736348886\/image_80.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA55PD33K-4736348886\/image_360.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360_w": 360,
+            "thumb_360_h": 202,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA55PD33K-4736348886\/image_480.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_480_w": 480,
+            "thumb_480_h": 270,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA55PD33K-4736348886\/image_160.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA55PD33K-4736348886\/image_720.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720_w": 720,
+            "thumb_720_h": 405,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA55PD33K-4736348886\/image_800.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_800_w": 800,
+            "thumb_800_h": 450,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA55PD33K-4736348886\/image_960.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_960_w": 960,
+            "thumb_960_h": 540,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA55PD33K-4736348886\/image_1024.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 576,
+            "image_exif_rotation": 1,
+            "original_w": 1366,
+            "original_h": 768,
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/U9MML6PLG\/FA55PD33K\/image.png",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-FA55PD33K-180d507680",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "FcA5EYDDKN",
+                "created": 1523543525,
+                "timestamp": 1523543525,
+                "user": "U9MML6PLG",
+                "is_intro": true,
+                "comment": "raga mi esce questo se provo ad attivare il repository"
+            }
+        },
+        "user": "U9MML6PLG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "dipierro.tiz",
+        "bot_id": null,
+        "ts": "1523543529.000011"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "raga io ho aggiunto sta cosa",
+        "ts": "1523545416.000638"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "nn so se è giusta",
+        "ts": "1523545424.000209"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U9MML6PLG> uploaded a file: <https:\/\/ingsw1718.slack.com\/files\/U9MML6PLG\/FA5SJTYG5\/image.png|image.png>",
+        "file": {
+            "id": "FA5SJTYG5",
+            "created": 1523545420,
+            "timestamp": 1523545420,
+            "name": "image.png",
+            "title": "image.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U9MML6PLG",
+            "editable": false,
+            "size": 182412,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA5SJTYG5\/image.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA5SJTYG5\/download\/image.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5SJTYG5-eb815fdac0\/image_64.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5SJTYG5-eb815fdac0\/image_80.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5SJTYG5-eb815fdac0\/image_360.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360_w": 360,
+            "thumb_360_h": 202,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5SJTYG5-eb815fdac0\/image_480.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_480_w": 480,
+            "thumb_480_h": 270,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5SJTYG5-eb815fdac0\/image_160.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5SJTYG5-eb815fdac0\/image_720.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720_w": 720,
+            "thumb_720_h": 405,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5SJTYG5-eb815fdac0\/image_800.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_800_w": 800,
+            "thumb_800_h": 450,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5SJTYG5-eb815fdac0\/image_960.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_960_w": 960,
+            "thumb_960_h": 540,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5SJTYG5-eb815fdac0\/image_1024.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 576,
+            "image_exif_rotation": 1,
+            "original_w": 1366,
+            "original_h": 768,
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/U9MML6PLG\/FA5SJTYG5\/image.png",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-FA5SJTYG5-cbc5c3f217",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U9MML6PLG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "dipierro.tiz",
+        "bot_id": null,
+        "ts": "1523545424.000317"
+    },
+    {
+        "type": "message",
+        "user": "U9P6VLG6A",
+        "text": "ecco gia state sbagliando...",
+        "ts": "1523545456.000225"
+    },
+    {
+        "type": "message",
+        "user": "U9P6VLG6A",
+        "text": "perche state facendo commit a cazzo?",
+        "ts": "1523545464.001056"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "perchè scus",
+        "ts": "1523545508.000939"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "io ho seguito la guida",
+        "ts": "1523545514.000796"
+    },
+    {
+        "type": "message",
+        "user": "U9P6VLG6A",
+        "text": "l'aveva fatto gia emilio",
+        "ts": "1523545551.000058"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "siccome è diverso",
+        "ts": "1523545573.001016"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "se noti",
+        "ts": "1523545592.000854"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "quello che ha copiato lui è nel repository base",
+        "ts": "1523545610.000736"
+    },
+    {
+        "type": "message",
+        "user": "U9P6VLG6A",
+        "text": "cmq con il tuo commit e' partita la verifica...",
+        "ts": "1523545622.000596"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "al max cancello quella cosa in + eh",
+        "ts": "1523545622.000886"
+    },
+    {
+        "type": "message",
+        "user": "U9P6VLG6A",
+        "text": "e adesso risulta che il building e' passato",
+        "ts": "1523545643.000543"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "a me nn risulta",
+        "ts": "1523545665.000606"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "passato",
+        "ts": "1523545669.000640"
+    },
+    {
+        "type": "message",
+        "user": "U9P6VLG6A",
+        "text": "ricarica..",
+        "ts": "1523545675.000596"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "ah ecco",
+        "ts": "1523545681.000070"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "e scusa allora non l'aveva fatto",
+        "ts": "1523545689.000033"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "l'ho fatto io mo",
+        "ts": "1523545695.000617"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "cmq sia",
+        "ts": "1523545968.000553"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "il commit serviva per buildare XD",
+        "ts": "1523545974.000184"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "quindi posso togliere la stringa che ho messo se preferite",
+        "ts": "1523545987.000550"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "basta che me lo dite",
+        "ts": "1523546021.000761"
+    },
+    {
+        "type": "message",
+        "user": "U9P6VLG6A",
+        "text": "no... va bene cosi...",
+        "ts": "1523546029.000887"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "appò",
+        "ts": "1523546035.000038"
+    },
+    {
+        "type": "message",
+        "user": "U9P6VLG6A",
+        "text": "allora secondo me visto che con il commit di tiziana e' uscito un secondo badge",
+        "ts": "1523546230.000116"
+    },
+    {
+        "type": "message",
+        "user": "U9P6VLG6A",
+        "text": "facciamo un revert",
+        "ts": "1523546233.000490"
+    },
+    {
+        "type": "message",
+        "user": "U9P6VLG6A",
+        "text": "e poi perfavore se dobbiamo fare qualcosa il master non tocchiamolo piu ma piuttosto facciamo un branch anche per le fesserie",
+        "ts": "1523546270.000533"
+    },
+    {
+        "type": "message",
+        "user": "U9MQSS657",
+        "text": "è comparso build pass su github",
+        "ts": "1523546343.000314"
+    },
+    {
+        "type": "message",
+        "user": "U9P6VLG6A",
+        "text": "si... ma non ho capito se siamo stati noi o il prof ha fatto qualcosa",
+        "ts": "1523546458.000447"
+    },
+    {
+        "type": "message",
+        "user": "U9MQSS657",
+        "text": "noi con il push, basta una push per il build automatico",
+        "ts": "1523546536.000790"
+    },
+    {
+        "type": "message",
+        "user": "U9P6VLG6A",
+        "text": "e perche a te non lha fatto?",
+        "ts": "1523546550.000241"
+    },
+    {
+        "type": "message",
+        "user": "U9MQSS657",
+        "text": "prima non andava perchè io avevo configurato ancora prima che i prof facessero le modifiche",
+        "ts": "1523546557.000549"
+    },
+    {
+        "type": "message",
+        "user": "U9P6VLG6A",
+        "text": "ah ok",
+        "ts": "1523546567.000324"
+    },
+    {
+        "type": "message",
+        "user": "U9MQSS657",
+        "text": "quindi il revert?",
+        "ts": "1523546595.000796"
+    },
+    {
+        "type": "message",
+        "user": "U9P6VLG6A",
+        "text": "aspe...",
+        "ts": "1523546624.000679"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "?",
+        "ts": "1523546645.000043"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "vuoi fare revert",
+        "ts": "1523546650.000762"
+    },
+    {
+        "type": "message",
+        "user": "U9P6VLG6A",
+        "text": "non lo so ancora...",
+        "ts": "1523546724.000512"
+    },
+    {
+        "type": "message",
+        "user": "U9P6VLG6A",
+        "text": "Il commit di tiziana lho cancellato perche il prof ha detto di aspettare per continuare la guida. Grazie a quel commit comunque possiamo dire che se non si fa un commit non parte la build di travis-ci... Quindi bene... Ma per favore non tocchiamo il master.. se foste stati coder di tnt vi avrei gia impiccato per averlo toccato :yum:",
+        "client_msg_id": "904aa9c3-7a1e-4d4c-a7c4-890b2da25c8f",
+        "ts": "1523549862.000649"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "se",
+        "ts": "1523556289.000027"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "non è che ho fatto chissà che",
+        "ts": "1523556302.000068"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "-.-",
+        "ts": "1523556303.000182"
+    }
+]

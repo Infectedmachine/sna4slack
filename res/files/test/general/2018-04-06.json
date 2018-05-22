@@ -1,0 +1,39 @@
+[
+    {
+        "type": "message",
+        "user": "UA1PBUVC4",
+        "text": "channel <#CA26BD085|thacker>  creato",
+        "ts": "1523031076.000323"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "Mi sono accorto che alcuni di voi avevano invitati colleghi a iscriversi al workspace senza la mia approvazione. Ho ristretto i permessi per evitare che succeda nuovamente",
+        "ts": "1523033361.000432"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<!everyone> Ricordo anche agli ultimi arrivati che sono *gradite* foto riconoscibili associate al profilo",
+        "ts": "1523033554.000502"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "*gradite* va letto come requisito _desiderabile (should)_",
+        "ts": "1523033670.000283"
+    },
+    {
+        "type": "message",
+        "user": "UA1PBUVC4",
+        "text": "si professore fatto",
+        "ts": "1523033714.000397"
+    },
+    {
+        "type": "message",
+        "user": "U9PNL8V9U",
+        "text": "<@U9BD7NMPC> ora il nostro gruppo è da 4. Abbiamo aggiunto <@UA2DNR4F4> ",
+        "client_msg_id": "EF57CE83-C0EF-4AC6-BA92-A7A25D96C605",
+        "ts": "1523040012.000229"
+    }
+]

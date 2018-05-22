@@ -1,0 +1,33 @@
+[
+    {
+        "user": "U9PNDSW4R",
+        "text": "<@U9PNDSW4R> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1521295549.000041"
+    },
+    {
+        "user": "U9PQNB3DF",
+        "inviter": "U9PNDSW4R",
+        "text": "<@U9PQNB3DF> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1521295549.000118"
+    },
+    {
+        "user": "U9PK8UJBA",
+        "inviter": "U9PNDSW4R",
+        "text": "<@U9PK8UJBA> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1521295550.000030"
+    },
+    {
+        "user": "U9PNDSW4R",
+        "purpose": "Componenti: Giovanni Figliuolo - Fabrizio Frasca - Perla Catucci",
+        "text": "<@U9PNDSW4R> set the channel purpose: Componenti: Giovanni Figliuolo - Fabrizio Frasca - Perla Catucci",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1521295580.000029"
+    }
+]

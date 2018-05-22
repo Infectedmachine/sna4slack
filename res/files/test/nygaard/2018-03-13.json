@@ -1,0 +1,203 @@
+[
+    {
+        "user": "U9N9XTY8H",
+        "text": "<@U9N9XTY8H> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520927111.000149"
+    },
+    {
+        "user": "U9N6Y2L9W",
+        "inviter": "U9N9XTY8H",
+        "text": "<@U9N6Y2L9W> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520927111.000325"
+    },
+    {
+        "user": "U9NREC5DJ",
+        "inviter": "U9N9XTY8H",
+        "text": "<@U9NREC5DJ> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520927111.000338"
+    },
+    {
+        "user": "U9N9XTY8H",
+        "purpose": "Lischio, Lagatta, Dimeo, Curci",
+        "text": "<@U9N9XTY8H> set the channel purpose: Lischio, Lagatta, Dimeo, Curci",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520927111.000357"
+    },
+    {
+        "user": "U9PTV79DM",
+        "inviter": "U9N9XTY8H",
+        "text": "<@U9PTV79DM> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520927112.000041"
+    },
+    {
+        "type": "message",
+        "user": "U9PTV79DM",
+        "text": "Salve",
+        "ts": "1520927140.000258"
+    },
+    {
+        "type": "message",
+        "user": "U9N9XTY8H",
+        "text": "Prova 1, 2, 3",
+        "ts": "1520927453.000303"
+    },
+    {
+        "type": "message",
+        "user": "U9PTV79DM",
+        "text": "<https:\/\/en.wikipedia.org\/wiki\/Kristen_Nygaard>",
+        "attachments": [
+            {
+                "image_url": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/b\/bb\/Kristen-Nygaard-SBLP-1997-head.png",
+                "image_width": 280,
+                "image_height": 392,
+                "image_bytes": 474815,
+                "title": "Kristen Nygaard",
+                "title_link": "https:\/\/en.wikipedia.org\/wiki\/Kristen_Nygaard",
+                "author_name": "Wikipedia",
+                "author_link": "https:\/\/en.wikipedia.org\/",
+                "text": "Kristen Nygaard (27 August 1926 – 10 August 2002) was a Norwegian computer scientist, programming language pioneer and politician. He was born in Oslo and died of a heart attack in 2002.",
+                "fallback": "wikipedia: Kristen Nygaard",
+                "service_icon": "https:\/\/a.slack-edge.com\/bfaba\/img\/unfurl_icons\/wikipedia.png",
+                "id": 1
+            }
+        ],
+        "ts": "1520927843.000204"
+    },
+    {
+        "type": "message",
+        "user": "U9PTV79DM",
+        "text": "2001 \tOle-Johan Dahl and\nKristen Nygaard \tFor ideas fundamental to the emergence of object-oriented programming, through their design of the programming languages Simula I and Simula 67.",
+        "ts": "1520928013.000226"
+    },
+    {
+        "type": "message",
+        "subtype": "pinned_item",
+        "user": "U9PTV79DM",
+        "item_type": "C",
+        "attachments": [
+            {
+                "image_url": "https:\/\/upload.wikimedia.org\/wikipedia\/commons\/b\/bb\/Kristen-Nygaard-SBLP-1997-head.png",
+                "image_width": 280,
+                "image_height": 392,
+                "image_bytes": 474815,
+                "title": "Kristen Nygaard",
+                "title_link": "https:\/\/en.wikipedia.org\/wiki\/Kristen_Nygaard",
+                "author_name": "Wikipedia",
+                "author_link": "https:\/\/en.wikipedia.org\/",
+                "text": "Kristen Nygaard (27 August 1926 – 10 August 2002) was a Norwegian computer scientist, programming language pioneer and politician. He was born in Oslo and died of a heart attack in 2002.",
+                "fallback": "wikipedia: Kristen Nygaard",
+                "service_icon": "https:\/\/a.slack-edge.com\/bfaba\/img\/unfurl_icons\/wikipedia.png",
+                "id": 1,
+                "from_hidden_wksp": false
+            }
+        ],
+        "text": "<@U9PTV79DM> pinned a message to this channel.",
+        "ts": "1520930766.000400"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U9N6Y2L9W> uploaded a file: <https:\/\/ingsw1718.slack.com\/files\/U9N6Y2L9W\/F9Q026LMV\/gitcheatsheet.pdf|gitcheatsheet.pdf>",
+        "file": {
+            "id": "F9Q026LMV",
+            "created": 1520934969,
+            "timestamp": 1520934969,
+            "name": "gitcheatsheet.pdf",
+            "title": "gitcheatsheet.pdf",
+            "mimetype": "application\/pdf",
+            "filetype": "pdf",
+            "pretty_type": "PDF",
+            "user": "U9N6Y2L9W",
+            "editable": false,
+            "size": 213073,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-F9Q026LMV\/gitcheatsheet.pdf?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-F9Q026LMV\/download\/gitcheatsheet.pdf?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-F9Q026LMV-44fecab01f\/gitcheatsheet_thumb_pdf.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_pdf_w": 910,
+            "thumb_pdf_h": 1286,
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/U9N6Y2L9W\/F9Q026LMV\/gitcheatsheet.pdf",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-F9Q026LMV-100a5ecdc7",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "pinned_to": [
+                "C9N72MJGY"
+            ]
+        },
+        "user": "U9N6Y2L9W",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "giovandimeo",
+        "bot_id": null,
+        "ts": "1520934971.000272"
+    },
+    {
+        "type": "message",
+        "subtype": "pinned_item",
+        "user": "U9PTV79DM",
+        "item_type": "F",
+        "text": "<@U9PTV79DM> pinned <@U9N6Y2L9W>’s PDF <https:\/\/ingsw1718.slack.com\/files\/U9N6Y2L9W\/F9Q026LMV\/gitcheatsheet.pdf|gitcheatsheet.pdf> to this channel.",
+        "item": {
+            "id": "F9Q026LMV",
+            "created": 1520934969,
+            "timestamp": 1520934969,
+            "name": "gitcheatsheet.pdf",
+            "title": "gitcheatsheet.pdf",
+            "mimetype": "application\/pdf",
+            "filetype": "pdf",
+            "pretty_type": "PDF",
+            "user": "U9N6Y2L9W",
+            "editable": false,
+            "size": 213073,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-F9Q026LMV\/gitcheatsheet.pdf?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-F9Q026LMV\/download\/gitcheatsheet.pdf?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-F9Q026LMV-44fecab01f\/gitcheatsheet_thumb_pdf.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_pdf_w": 910,
+            "thumb_pdf_h": 1286,
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/U9N6Y2L9W\/F9Q026LMV\/gitcheatsheet.pdf",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-F9Q026LMV-100a5ecdc7",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "pinned_to": [
+                "C9N72MJGY"
+            ]
+        },
+        "ts": "1520935192.000272",
+        "reactions": [
+            {
+                "name": "unicorn_face",
+                "users": [
+                    "U9N6Y2L9W",
+                    "U9NREC5DJ"
+                ],
+                "count": 2
+            }
+        ]
+    }
+]

@@ -1,0 +1,44 @@
+[
+    {
+        "user": "U9BD7NMPC",
+        "text": "<@U9BD7NMPC> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1523448560.000310"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<!channel> Ho modificato il nome del team e del repository levando il trattino perché docker non lo accetta. Ora il team e il repository su GiuHub si chiama *bernerslee*. <@U9N84AWTA> modifica anche il nome di questo channel",
+        "ts": "1523448639.000242"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "non mi rispondete su quuesto channel perché mi sto levando",
+        "ts": "1523448660.000353"
+    },
+    {
+        "user": "U9N84AWTA",
+        "topic": "",
+        "text": "<@U9N84AWTA> cleared channel topic",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1523448720.000044"
+    },
+    {
+        "user": "U9N84AWTA",
+        "old_name": "berners-lee",
+        "name": "bernerslee",
+        "text": "<@U9N84AWTA> has renamed the channel from \"berners-lee\" to \"bernerslee\"",
+        "type": "message",
+        "subtype": "channel_name",
+        "ts": "1523448720.000294"
+    },
+    {
+        "type": "message",
+        "user": "U9NRSQ859",
+        "text": "Docker ID : ulisse1996",
+        "ts": "1523449222.000283"
+    }
+]

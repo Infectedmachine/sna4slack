@@ -1,0 +1,24 @@
+[
+    {
+        "type": "message",
+        "user": "U9NQ1QL72",
+        "text": "sisi l'ho fatto cosi c'è solo quello di travis ci",
+        "edited": {
+            "user": "U9NQ1QL72",
+            "ts": "1524217104.000000"
+        },
+        "ts": "1524217079.000127"
+    },
+    {
+        "type": "message",
+        "user": "U9NQ1QL72",
+        "text": "ho modificato il repository come ha detto il professore",
+        "ts": "1524224836.000131"
+    },
+    {
+        "type": "message",
+        "user": "U9P3D2S8Z",
+        "text": "Perfetto, ho visto che l'ha specificato oggi",
+        "ts": "1524232697.000152"
+    }
+]

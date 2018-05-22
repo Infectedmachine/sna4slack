@@ -1,0 +1,31 @@
+[
+    {
+        "user": "U9PK7T62Y",
+        "inviter": "U9P5NTBML",
+        "text": "<@U9PK7T62Y> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1521024629.000397"
+    },
+    {
+        "user": "U9PPY2L5B",
+        "text": "<@U9PPY2L5B> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1521026041.000391"
+    },
+    {
+        "type": "message",
+        "user": "U9PPY2L5B",
+        "text": "yola",
+        "ts": "1521026046.000281"
+    },
+    {
+        "user": "U9L0877K5",
+        "purpose": "Chekalin,Lapenta,Ferrara,Angelini",
+        "text": "<@U9L0877K5> set the channel purpose: Chekalin,Lapenta,Ferrara,Angelini",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1521036338.000270"
+    }
+]

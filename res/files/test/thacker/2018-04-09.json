@@ -1,0 +1,114 @@
+[
+    {
+        "type": "message",
+        "user": "UA2P4MQ23",
+        "text": "dal link",
+        "ts": "1523278807.000086"
+    },
+    {
+        "type": "message",
+        "user": "UA2P4MQ23",
+        "text": "non esce nnt",
+        "ts": "1523278809.000571"
+    },
+    {
+        "type": "message",
+        "user": "UA2P4MQ23",
+        "text": "?",
+        "ts": "1523278813.000172"
+    },
+    {
+        "type": "message",
+        "user": "UA2P4MQ23",
+        "text": "<@UA1PBUVC4>",
+        "ts": "1523278818.000191"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@UA2P4MQ23> uploaded a file: <https:\/\/ingsw1718.slack.com\/files\/UA2P4MQ23\/FA3FC9DB4\/cattura.png|Cattura.PNG>",
+        "file": {
+            "id": "FA3FC9DB4",
+            "created": 1523280963,
+            "timestamp": 1523280963,
+            "name": "Cattura.PNG",
+            "title": "Cattura.PNG",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "UA2P4MQ23",
+            "editable": false,
+            "size": 65055,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA3FC9DB4\/cattura.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA3FC9DB4\/download\/cattura.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA3FC9DB4-5b386ab4f3\/cattura_64.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA3FC9DB4-5b386ab4f3\/cattura_80.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA3FC9DB4-5b386ab4f3\/cattura_360.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360_w": 360,
+            "thumb_360_h": 160,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA3FC9DB4-5b386ab4f3\/cattura_480.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_480_w": 480,
+            "thumb_480_h": 213,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA3FC9DB4-5b386ab4f3\/cattura_160.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA3FC9DB4-5b386ab4f3\/cattura_720.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720_w": 720,
+            "thumb_720_h": 319,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA3FC9DB4-5b386ab4f3\/cattura_800.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_800_w": 800,
+            "thumb_800_h": 355,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA3FC9DB4-5b386ab4f3\/cattura_960.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_960_w": 960,
+            "thumb_960_h": 426,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA3FC9DB4-5b386ab4f3\/cattura_1024.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 454,
+            "image_exif_rotation": 1,
+            "original_w": 1193,
+            "original_h": 529,
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/UA2P4MQ23\/FA3FC9DB4\/cattura.png",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-FA3FC9DB4-13f9187db7",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "UA2P4MQ23",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "g.caka",
+        "bot_id": null,
+        "ts": "1523280966.000258"
+    },
+    {
+        "type": "message",
+        "user": "UA2P4MQ23",
+        "text": "<@UA1PBUVC4> <@UA2A3DUPN>  avete risolto?",
+        "client_msg_id": "715b64dd-1285-46c1-89ab-f793b9c99a86",
+        "ts": "1523291680.000203"
+    },
+    {
+        "type": "message",
+        "user": "UA2A3DUPN",
+        "text": "no amo",
+        "ts": "1523291897.000071"
+    },
+    {
+        "type": "message",
+        "user": "UA2A3DUPN",
+        "text": "cmq, è un problema anche di altri",
+        "ts": "1523291922.000195"
+    },
+    {
+        "type": "message",
+        "user": "UA2A3DUPN",
+        "text": "vedi su general, che hanno commentato",
+        "ts": "1523291935.000587"
+    }
+]

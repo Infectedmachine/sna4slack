@@ -1,0 +1,65 @@
+[
+    {
+        "user": "U9NA5GDFU",
+        "text": "<@U9NA5GDFU> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1521052769.000103"
+    },
+    {
+        "user": "U9QMPRZAT",
+        "inviter": "U9NA5GDFU",
+        "text": "<@U9QMPRZAT> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1521052769.000594"
+    },
+    {
+        "user": "U9NQ7UWBD",
+        "inviter": "U9NA5GDFU",
+        "text": "<@U9NQ7UWBD> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1521052769.000749"
+    },
+    {
+        "user": "U9PHQJ3HV",
+        "inviter": "U9NA5GDFU",
+        "text": "<@U9PHQJ3HV> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1521052769.000781"
+    },
+    {
+        "user": "U9PGLDHV5",
+        "inviter": "U9NA5GDFU",
+        "text": "<@U9PGLDHV5> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1521052770.000008"
+    },
+    {
+        "user": "U9NA5GDFU",
+        "topic": "Ingletto, Ancona, Gianfelice, Calabrese, Distante",
+        "text": "<@U9NA5GDFU> set the channel topic: Ingletto, Ancona, Gianfelice, Calabrese, Distante",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1521052859.000101"
+    },
+    {
+        "user": "U9NA5GDFU",
+        "topic": "",
+        "text": "<@U9NA5GDFU> cleared channel topic",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1521052964.000533"
+    },
+    {
+        "user": "U9NA5GDFU",
+        "purpose": "Ingletto, Ancona, Gianfelice, Calabrese, Distante",
+        "text": "<@U9NA5GDFU> set the channel purpose: Ingletto, Ancona, Gianfelice, Calabrese, Distante",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1521052970.000656"
+    }
+]

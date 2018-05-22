@@ -1,0 +1,24 @@
+[
+    {
+        "type": "message",
+        "user": "U9P61MA7Q",
+        "text": "<@U9BD7NMPC> buongiorno professore, faccio io parte del gruppo Micali  purtroppo a causa di un malore allo stomaco ed all'intestino, non potrò essere presente",
+        "client_msg_id": "9fdf6657-2986-49a7-95a9-41daeb472d2f",
+        "ts": "1522912932.000421"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "la condizione necessaria è la presenza di *almeno un* componente del gruppo. Non mi interessano le giustifiche individuali",
+        "ts": "1522918411.000432",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9PP54E4D"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

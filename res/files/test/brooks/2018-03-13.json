@@ -1,0 +1,39 @@
+[
+    {
+        "user": "U9NFLSSBW",
+        "text": "<@U9NFLSSBW> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520931934.000317"
+    },
+    {
+        "user": "U9N8K4Z24",
+        "inviter": "U9NFLSSBW",
+        "text": "<@U9N8K4Z24> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520934560.000349"
+    },
+    {
+        "type": "message",
+        "user": "U9N8K4Z24",
+        "text": "Hello",
+        "ts": "1520934638.000365"
+    },
+    {
+        "user": "U9NFLSSBW",
+        "purpose": "Intini, D’oria, De cillis",
+        "text": "<@U9NFLSSBW> set the channel purpose: Intini, D’oria, De cillis",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520957810.000163"
+    },
+    {
+        "user": "U9Q9B1ELX",
+        "inviter": "U9NFLSSBW",
+        "text": "<@U9Q9B1ELX> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520963820.000511"
+    }
+]
