@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="it"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Zip.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">SNA4Slack</a> &gt; <a href="index.source.html" class="el_package">slackpack</a> &gt; <span class="el_source">Zip.java</span></div><h1>Zip.java</h1><pre class="source lang-java linenums">package slackpack;
+
+import java.io.File;
+
+import net.lingala.zip4j.core.ZipFile;
+import net.lingala.zip4j.exception.ZipException;
+/**
+ * This class consists of one String attribute end three methods used to uzip a file given its path.
+ **/
+public class Zip {
+	/**
+	 * Private attribute string, the path.
+	 **/
+	private String dirpath;
+
+	/**
+	 * Constructor.
+	 **/
+<span class="fc" id="L19">	public Zip() {</span>
+<span class="fc" id="L20">		this.setDirPath(&quot;&quot;);</span>
+<span class="fc" id="L21">	}</span>
+
+	/**
+	 * It sets the given string to dirpath.
+	 * @param path the String to be set
+	 **/
+	public final void setDirPath(final String path) {
+<span class="fc" id="L28">		this.dirpath = path;</span>
+<span class="fc" id="L29">	}</span>
+
+	/**
+	 * It gets the path.
+	 * @return path string
+	 **/
+	public String getDirPath() {
+<span class="fc" id="L36">		return this.dirpath;</span>
+	}
+
+	/**
+	 * Final method to extract a file given its path.
+	 * @param source the path string
+	 **/
+	public final void extractZip(final String source) {
+
+<span class="fc" id="L45">		String destination = source.replace(&quot;.zip&quot;, &quot;&quot;);</span>
+<span class="fc" id="L46">		destination = destination.replace(&quot;\\&quot;, File.separator);</span>
+<span class="fc" id="L47">		String password = &quot;&quot;;</span>
+		try {
+<span class="fc" id="L49">			ZipFile zipFile = new ZipFile(source);</span>
+<span class="pc bpc" id="L50" title="1 of 2 branches missed.">			if (zipFile.isEncrypted()) {</span>
+<span class="nc" id="L51">				zipFile.setPassword(password);</span>
+			}
+<span class="fc" id="L53">			zipFile.extractAll(destination);</span>
+<span class="fc" id="L54">			System.out.println(&quot;WORKSPACE FILES EXTRACTED IN THE FOLLOWING DIRECTORY:  &quot;);</span>
+<span class="fc" id="L55">			System.out.println(destination);</span>
+<span class="fc" id="L56">			System.out.println(&quot;\n&quot;);</span>
+<span class="nc" id="L57">		} catch (ZipException e) {</span>
+<span class="nc" id="L58">			System.out.println(e + &quot;\nERROR: WRONG DIRECTORY&quot;);</span>
+<span class="fc" id="L59">		}</span>
+<span class="fc" id="L60">		this.setDirPath(destination);</span>
+<span class="fc" id="L61">	}</span>
+}
+
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.0.201801022044</span></div></body></html>

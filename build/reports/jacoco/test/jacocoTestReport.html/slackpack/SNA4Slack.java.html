@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="it"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>SNA4Slack.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">SNA4Slack</a> &gt; <a href="index.source.html" class="el_package">slackpack</a> &gt; <span class="el_source">SNA4Slack.java</span></div><h1>SNA4Slack.java</h1><pre class="source lang-java linenums">package slackpack;
+
+import java.util.HashMap;
+
+/**
+ * Manages private sub class CommandsTable.
+ *
+ * @author aleningi
+ *
+ */
+interface Command {
+
+	/**
+	 * Contains software instruction that will be associated to a command.
+	 *
+	 * @throws Exception standard exception.
+	 */
+	void runCommand() throws Exception;
+}
+
+/**
+ * Manages SNA4Slack software input parameters.
+ *
+ * @author aleningi
+ *
+ */
+public class SNA4Slack {
+
+	/**
+	 * Members of workspace.
+	 */
+	private ArrayMember members;
+
+	/**
+	 * Channels of workspace.
+	 */
+	private ArrayChannel channels;
+
+	/**
+	 * Mentions of workspace.
+	 */
+	private SlackMentionsFinder mentions;
+
+	/**
+	 * zip file containing workspace.
+	 */
+	private Zip zipfile;
+
+	/**
+	 * Parser for members.
+	 */
+	private JsonFileParser jsonusers;
+
+	/**
+	 * Parser for channels.
+	 */
+	private JsonFileParser jsonchannels;
+
+	/**
+	 * Parser for mentions.
+	 */
+	private JsonFileParser jsonmentions;
+
+	/**
+	 * Software command interpreter.
+	 */
+	private CommandLineReader command;
+
+	/**
+	 * Allocate space needed by class attributes.
+	 * @param c commands.
+	 */
+<span class="fc" id="L73">	public SNA4Slack(final CommandLineReader c) {</span>
+<span class="fc" id="L74">		this.setMembers(new ArrayMember());</span>
+<span class="fc" id="L75">		this.setChannels(new ArrayChannel(this.getMembers()));</span>
+<span class="fc" id="L76">		this.setMentions(null);</span>
+<span class="fc" id="L77">		this.setZipFile(new Zip());</span>
+<span class="fc" id="L78">		this.setJsonUsers(new JsonFileParser());</span>
+<span class="fc" id="L79">		this.setJsonChannels(new JsonFileParser());</span>
+<span class="fc" id="L80">		this.setJsonMentions(new JsonFileParser());</span>
+<span class="fc" id="L81">		this.setCommand(c);</span>
+
+<span class="fc" id="L83">	}</span>
+
+	/**
+	 * Runs the software.
+	 *
+	 * @throws Exception standard exception.
+	 */
+	public final void run() throws Exception {
+<span class="nc" id="L91">		CommandsTable table = new CommandsTable();</span>
+<span class="nc" id="L92">		table.defaultCommandsTable();</span>
+<span class="nc" id="L93">		table.getCommandsTable().get(this.getCommand().getInputCommand()).runCommand();</span>
+<span class="nc" id="L94">	}</span>
+
+	/**
+	 * Initialize members.
+	 */
+	public final void initializeMembers() {
+		try {
+<span class="fc" id="L101">			this.getMembers().fillArrayFromJSONArray(this.getJsonUsers().getArray());</span>
+<span class="nc" id="L102">		} catch (Exception e) {</span>
+<span class="nc" id="L103">			System.out.println(e);</span>
+<span class="fc" id="L104">		}</span>
+<span class="fc" id="L105">	}</span>
+
+	/**
+	 * Initializes jsonusers.
+	 */
+	public final void initializeSlackUsers() {
+<span class="fc" id="L111">		this.getJsonUsers().fillContentsFromJSONFileDir(this.command.getWorkspaceDir().concat(&quot;/users.json&quot;));</span>
+<span class="fc" id="L112">	}</span>
+
+	/**
+	 * Initializes zipfile.
+	 */
+	public final void extractZipFile() {
+<span class="fc" id="L118">		this.zipfile.extractZip(this.command.getWorkspaceDir());</span>
+<span class="fc" id="L119">		this.command.setWorkspaceDir(this.zipfile.getDirPath());</span>
+<span class="fc" id="L120">	}</span>
+
+	/**
+	 * Initializes jsonchannels.
+	 */
+	public final void initializeSlackChannels() {
+<span class="fc" id="L126">		this.getJsonChannels().fillContentsFromJSONFileDir(this.command.getWorkspaceDir().concat(&quot;/channels.json&quot;));</span>
+<span class="fc" id="L127">	}</span>
+
+	/**
+	 * Initializes channels.
+	 */
+	public final void initializeChannels() {
+		try {
+<span class="fc" id="L134">			this.getChannels().fillArrayFromJSONArray(this.getJsonChannels().getArray());</span>
+<span class="nc" id="L135">		} catch (Exception e) {</span>
+<span class="nc" id="L136">			System.out.println(e);</span>
+<span class="fc" id="L137">		}</span>
+<span class="fc" id="L138">	}</span>
+
+	/**
+	 * Initializes mentions.
+	 */
+	public final void initializeSlackMentionsFinder() {
+<span class="fc" id="L144">		this.mentions = new SlackMentionsFinder(this.getCommand().getWorkspaceDir());</span>
+<span class="fc" id="L145">	}</span>
+
+	/**
+	 *
+	 * @param marr is assigned to members.
+	 */
+	public final void setMembers(final ArrayMember marr) {
+<span class="fc" id="L152">		this.members = marr;</span>
+<span class="fc" id="L153">	}</span>
+
+	/**
+	 *
+	 * @param carr is assigned to channels.
+	 */
+	public final void setChannels(final ArrayChannel carr) {
+<span class="fc" id="L160">		this.channels = carr;</span>
+<span class="fc" id="L161">	}</span>
+
+	/**
+	 *
+	 * @param menarr is assigned to mentions.
+	 */
+	public final void setMentions(final SlackMentionsFinder menarr) {
+<span class="fc" id="L168">		this.mentions = menarr;</span>
+<span class="fc" id="L169">	}</span>
+
+	/**
+	 *
+	 * @param zip is assigned to zipfile.
+	 */
+	public final void setZipFile(final Zip zip) {
+<span class="fc" id="L176">		this.zipfile = zip;</span>
+<span class="fc" id="L177">	}</span>
+
+	/**
+	 *
+	 * @param jusers is assigned to jsonusers.
+	 */
+	public final void setJsonUsers(final JsonFileParser jusers) {
+<span class="fc" id="L184">		this.jsonusers = jusers;</span>
+<span class="fc" id="L185">	}</span>
+
+	/**
+	 *
+	 * @param jchannels is assigned to jsonchannels.
+	 */
+	public final void setJsonChannels(final JsonFileParser jchannels) {
+<span class="fc" id="L192">		this.jsonchannels = jchannels;</span>
+<span class="fc" id="L193">	}</span>
+
+	/**
+	 *
+	 * @param jmentions is assigned to jsonmetions.
+	 */
+	public final void setJsonMentions(final JsonFileParser jmentions) {
+<span class="fc" id="L200">		this.jsonmentions = jmentions;</span>
+<span class="fc" id="L201">	}</span>
+
+	/**
+	 *
+	 * @param c is assigned to command.
+	 */
+	public final void setCommand(final CommandLineReader c) {
+<span class="fc" id="L208">		this.command = c;</span>
+<span class="fc" id="L209">	}</span>
+
+	/**
+	 *
+	 * @return command.
+	 */
+	public CommandLineReader getCommand() {
+<span class="fc" id="L216">		return this.command;</span>
+	}
+
+	/**
+	 *
+	 * @return members.
+	 */
+	public ArrayMember getMembers() {
+<span class="fc" id="L224">		return this.members;</span>
+	}
+
+	/**
+	 *
+	 * @return channels.
+	 */
+	public ArrayChannel getChannels() {
+<span class="fc" id="L232">		return this.channels;</span>
+	}
+
+	/**
+	 *
+	 * @return mentions.
+	 */
+	public SlackMentionsFinder getMentions() {
+<span class="fc" id="L240">		return this.mentions;</span>
+	}
+
+	/**
+	 *
+	 * @return zipfile.
+	 */
+	public Zip getZipFile() {
+<span class="nc" id="L248">		return this.zipfile;</span>
+	}
+
+	/**
+	 *
+	 * @return jsonusers.
+	 */
+	public JsonFileParser getJsonUsers() {
+<span class="fc" id="L256">		return this.jsonusers;</span>
+	}
+
+	/**
+	 *
+	 * @return jsonchannels.
+	 */
+	public JsonFileParser getJsonChannels() {
+<span class="fc" id="L264">		return this.jsonchannels;</span>
+	}
+
+	/**
+	 *
+	 * @return jsonmentions.
+	 */
+	public JsonFileParser getJsonMentions() {
+<span class="nc" id="L272">		return this.jsonmentions;</span>
+	}
+
+	/**
+	 * Sets software actions based on command receved.
+	 *
+	 * @author aleningi
+	 *
+	 */
+	private class CommandsTable {
+
+		/**
+		 * Contains an overrided function associated to the command received.
+		 */
+		private HashMap&lt;String, Command&gt; commandsTable;
+
+		/**
+		 * Allocates space needed by SubClass attribute.
+		 */
+<span class="nc" id="L291">		 CommandsTable() {</span>
+<span class="nc" id="L292">			this.setCommandsTable(new HashMap&lt;String, Command&gt;());</span>
+<span class="nc" id="L293">		}</span>
+
+		/**
+		 *
+		 * @param ctable is assigned to commandsTable.
+		 */
+		public final void setCommandsTable(final HashMap&lt;String, Command&gt; ctable) {
+<span class="nc" id="L300">			this.commandsTable = ctable;</span>
+<span class="nc" id="L301">		}</span>
+
+		/**
+		 *
+		 * @return commandsTable.
+		 */
+		public HashMap&lt;String, Command&gt; getCommandsTable() {
+<span class="nc" id="L308">			return this.commandsTable;</span>
+		}
+
+		/**
+		 * Overrides Command interface associating actions to commands.
+		 *
+		 * @throws Exception standard exception.
+		 */
+		public final void defaultCommandsTable() throws Exception {
+<span class="nc" id="L317">			this.getCommandsTable().put(&quot;-m&quot;, new Command() {</span>
+				@Override
+				public void runCommand() {
+<span class="nc" id="L320">					SNA4Slack.this.extractZipFile();</span>
+<span class="nc" id="L321">					SNA4Slack.this.initializeSlackUsers();</span>
+<span class="nc" id="L322">					SNA4Slack.this.initializeMembers();</span>
+<span class="nc" id="L323">					SNA4Slack.this.getMembers().printArray();</span>
+
+<span class="nc" id="L325">				}</span>
+			});
+<span class="nc" id="L327">			this.getCommandsTable().put(&quot;-c&quot;, new Command() {</span>
+				@Override
+				public void runCommand() {
+<span class="nc" id="L330">					SNA4Slack.this.extractZipFile();</span>
+<span class="nc" id="L331">					SNA4Slack.this.initializeSlackUsers();</span>
+<span class="nc" id="L332">					SNA4Slack.this.initializeMembers();</span>
+<span class="nc" id="L333">					SNA4Slack.this.initializeSlackChannels();</span>
+<span class="nc" id="L334">					SNA4Slack.this.initializeChannels();</span>
+<span class="nc" id="L335">					SNA4Slack.this.getChannels().printChannels();</span>
+<span class="nc" id="L336">				}</span>
+			});
+<span class="nc" id="L338">			this.getCommandsTable().put(&quot;-mc&quot;, new Command() {</span>
+				@Override
+				public void runCommand() {
+<span class="nc" id="L341">					SNA4Slack.this.extractZipFile();</span>
+<span class="nc" id="L342">					SNA4Slack.this.initializeSlackUsers();</span>
+<span class="nc" id="L343">					SNA4Slack.this.initializeMembers();</span>
+<span class="nc" id="L344">					SNA4Slack.this.initializeSlackChannels();</span>
+<span class="nc" id="L345">					SNA4Slack.this.initializeChannels();</span>
+<span class="nc" id="L346">					SNA4Slack.this.getChannels().printArray();</span>
+<span class="nc" id="L347">				}</span>
+			});
+<span class="nc" id="L349">			this.getCommandsTable().put(&quot;-cm&quot;, new Command() {</span>
+				@Override
+				public void runCommand() throws Exception {
+<span class="nc" id="L352">					SNA4Slack.this.extractZipFile();</span>
+<span class="nc" id="L353">					SNA4Slack.this.initializeSlackUsers();</span>
+<span class="nc" id="L354">					SNA4Slack.this.initializeMembers();</span>
+<span class="nc" id="L355">					SNA4Slack.this.initializeSlackChannels();</span>
+<span class="nc" id="L356">					SNA4Slack.this.initializeChannels();</span>
+<span class="nc" id="L357">					SNA4Slack.this.getChannels().getChannel(SNA4Slack.this.getCommand().getChannelName())</span>
+<span class="nc" id="L358">							.printMembersList();</span>
+<span class="nc" id="L359">				}</span>
+			});
+<span class="nc" id="L361">			this.getCommandsTable().put(&quot;@m&quot;, new Command() {</span>
+				@Override
+				public void runCommand() throws Exception {
+<span class="nc" id="L364">					SNA4Slack.this.extractZipFile();</span>
+<span class="nc" id="L365">					SNA4Slack.this.initializeSlackMentionsFinder();</span>
+<span class="nc bnc" id="L366" title="All 2 branches missed.">					if (SNA4Slack.this.getCommand().getChannelName().isEmpty()) {</span>
+<span class="nc" id="L367">						SNA4Slack.this.getMentions().executeFinderOnWorkspace();</span>
+
+					} else {
+<span class="nc" id="L370">						SNA4Slack.this.getMentions()</span>
+<span class="nc" id="L371">								.executeFinderOnChannel(SNA4Slack.this.getCommand().getChannelName());</span>
+					}
+<span class="nc" id="L373">					SNA4Slack.this.getMentions().printNamedMentions();</span>
+<span class="nc" id="L374">				}</span>
+			});
+<span class="nc" id="L376">			this.getCommandsTable().put(&quot;@mf&quot;, new Command() {</span>
+				@Override
+				public void runCommand() throws Exception {
+<span class="nc" id="L379">					SNA4Slack.this.extractZipFile();</span>
+<span class="nc" id="L380">					SNA4Slack.this.initializeSlackMentionsFinder();</span>
+<span class="nc bnc" id="L381" title="All 2 branches missed.">					if (SNA4Slack.this.getCommand().getChannelName().isEmpty()) {</span>
+<span class="nc" id="L382">						SNA4Slack.this.getMentions().executeFinderOnWorkspace();</span>
+
+					} else {
+<span class="nc" id="L385">						SNA4Slack.this.getMentions()</span>
+<span class="nc" id="L386">								.executeFinderOnChannel(SNA4Slack.this.getCommand().getChannelName());</span>
+					}
+<span class="nc" id="L388">					SNA4Slack.this.getMentions().printNamedMentionsFROM(SNA4Slack.this.getMentions().getMembers()</span>
+<span class="nc" id="L389">							.getMemberByName(SNA4Slack.this.getCommand().getUsername()).getID());</span>
+<span class="nc" id="L390">				}</span>
+			});
+<span class="nc" id="L392">			this.getCommandsTable().put(&quot;@mt&quot;, new Command() {</span>
+				@Override
+				public void runCommand() throws Exception {
+<span class="nc" id="L395">					SNA4Slack.this.extractZipFile();</span>
+<span class="nc" id="L396">					SNA4Slack.this.initializeSlackMentionsFinder();</span>
+<span class="nc bnc" id="L397" title="All 2 branches missed.">					if (SNA4Slack.this.getCommand().getChannelName().isEmpty()) {</span>
+<span class="nc" id="L398">						SNA4Slack.this.getMentions().executeFinderOnWorkspace();</span>
+
+					} else {
+<span class="nc" id="L401">						SNA4Slack.this.getMentions()</span>
+<span class="nc" id="L402">								.executeFinderOnChannel(SNA4Slack.this.getCommand().getChannelName());</span>
+					}
+<span class="nc" id="L404">					SNA4Slack.this.getMentions().printNamedMentionsTO(SNA4Slack.this.getMentions().getMembers()</span>
+<span class="nc" id="L405">							.getMemberByName(SNA4Slack.this.getCommand().getUsername()).getID());</span>
+<span class="nc" id="L406">				}</span>
+			});
+<span class="nc" id="L408">			this.getCommandsTable().put(&quot;@mw&quot;, new Command() {</span>
+				@Override
+				public void runCommand() throws Exception {
+<span class="nc" id="L411">					SNA4Slack.this.extractZipFile();</span>
+<span class="nc" id="L412">					SNA4Slack.this.initializeSlackMentionsFinder();</span>
+<span class="nc bnc" id="L413" title="All 2 branches missed.">					if (SNA4Slack.this.getCommand().getChannelName().isEmpty()) {</span>
+<span class="nc" id="L414">						SNA4Slack.this.getMentions().executeFinderOnWorkspace();</span>
+
+					} else {
+<span class="nc" id="L417">						SNA4Slack.this.getMentions()</span>
+<span class="nc" id="L418">								.executeFinderOnChannel(SNA4Slack.this.getCommand().getChannelName());</span>
+					}
+<span class="nc" id="L420">					SNA4Slack.this.getMentions().printNamedMentionsWithWeight();</span>
+<span class="nc" id="L421">				}</span>
+			});
+<span class="nc" id="L423">			this.getCommandsTable().put(&quot;@mfw&quot;, new Command() {</span>
+				@Override
+				public void runCommand() throws Exception {
+<span class="nc" id="L426">					SNA4Slack.this.extractZipFile();</span>
+<span class="nc" id="L427">					SNA4Slack.this.initializeSlackMentionsFinder();</span>
+<span class="nc bnc" id="L428" title="All 2 branches missed.">					if (SNA4Slack.this.getCommand().getChannelName().isEmpty()) {</span>
+<span class="nc" id="L429">						SNA4Slack.this.getMentions().executeFinderOnWorkspace();</span>
+
+					} else {
+<span class="nc" id="L432">						SNA4Slack.this.getMentions()</span>
+<span class="nc" id="L433">								.executeFinderOnChannel(SNA4Slack.this.getCommand().getChannelName());</span>
+					}
+<span class="nc" id="L435">					SNA4Slack.this.getMentions().</span>
+<span class="nc" id="L436">					printNamedMentionsWithWeightFROM(SNA4Slack.this.getMentions().</span>
+<span class="nc" id="L437">							getMembers().getMemberByName(SNA4Slack.this.getCommand().</span>
+<span class="nc" id="L438">									getUsername()).getID());</span>
+<span class="nc" id="L439">				}</span>
+			});
+<span class="nc" id="L441">			this.getCommandsTable().put(&quot;@mtw&quot;, new Command() {</span>
+				@Override
+				public void runCommand() throws Exception {
+<span class="nc" id="L444">					SNA4Slack.this.extractZipFile();</span>
+<span class="nc" id="L445">					SNA4Slack.this.initializeSlackMentionsFinder();</span>
+<span class="nc bnc" id="L446" title="All 2 branches missed.">					if (SNA4Slack.this.getCommand().getChannelName().isEmpty()) {</span>
+<span class="nc" id="L447">						SNA4Slack.this.getMentions().executeFinderOnWorkspace();</span>
+
+					} else {
+<span class="nc" id="L450">						SNA4Slack.this.getMentions()</span>
+<span class="nc" id="L451">								.executeFinderOnChannel(SNA4Slack.this.getCommand().getChannelName());</span>
+					}
+<span class="nc" id="L453">					SNA4Slack.this.getMentions().printNamedMentionsWhithWheightTO(SNA4Slack.this.getMentions().</span>
+<span class="nc" id="L454">							getMembers().getMemberByName(SNA4Slack.this.getCommand().</span>
+<span class="nc" id="L455">									getUsername()).getID());</span>
+<span class="nc" id="L456">				}</span>
+			});
+<span class="nc" id="L458">		}</span>
+
+	}
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.0.201801022044</span></div></body></html>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.8.1" timestamp="2018-05-23T13:12:54.992">
+<file name="C:\Users\Davide\ing\progetto1718-dijkstra\src\test\java\slackpack\test\CommandLineReaderTest.java">
+<violation beginline="26" endline="26" begincolumn="75" endcolumn="83" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="slackpack.test" class="CommandLineReaderTest" method="setUpAll" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;general&quot; appears 4 times in this file; the first occurrence is on line 26
+</violation>
+<violation beginline="26" endline="26" begincolumn="49" endcolumn="54" rule="AvoidDuplicateLiterals" ruleset="String and StringBuffer" package="slackpack.test" class="CommandLineReaderTest" method="setUpAll" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/strings.html#AvoidDuplicateLiterals" priority="3">
+The String literal &quot;path&quot; appears 4 times in this file; the first occurrence is on line 26
+</violation>
+<violation beginline="33" endline="33" begincolumn="26" endcolumn="34" rule="AvoidCatchingGenericException" ruleset="Strict Exceptions" package="slackpack.test" class="CommandLineReaderTest" method="setUpAll" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/strictexception.html#AvoidCatchingGenericException" priority="3">
+Avoid catching generic exceptions such as NullPointerException, RuntimeException, Exception in try-catch block
+</violation>
+<violation beginline="34" endline="34" begincolumn="62" endcolumn="62" rule="EmptyStatementNotInLoop" ruleset="Empty Code" package="slackpack.test" class="CommandLineReaderTest" method="setUpAll" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/empty.html#EmptyStatementNotInLoop" priority="3">
+An empty statement (semicolon) not part of a loop
+</violation>
+</file>
+<file name="C:\Users\Davide\ing\progetto1718-dijkstra\src\test\java\slackpack\test\SNA4SlackTest.java">
+<violation beginline="24" endline="24" begincolumn="39" endcolumn="47" rule="SignatureDeclareThrowsException" ruleset="Type Resolution" package="slackpack.test" class="SNA4SlackTest" method="setUpAll" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldnt explicitly throw java.lang.Exception
+</violation>
+<violation beginline="24" endline="24" begincolumn="39" endcolumn="47" rule="SignatureDeclareThrowsException" ruleset="Strict Exceptions" package="slackpack.test" class="SNA4SlackTest" method="setUpAll" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/strictexception.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldnt explicitly throw java.lang.Exception
+</violation>
+<violation beginline="34" endline="34" begincolumn="17" endcolumn="60" rule="LawOfDemeter" ruleset="Coupling" package="slackpack.test" class="SNA4SlackTest" method="setUpAll" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="44" endline="44" begincolumn="17" endcolumn="66" rule="LawOfDemeter" ruleset="Coupling" package="slackpack.test" class="SNA4SlackTest" method="checkMembers" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="44" endline="44" begincolumn="17" endcolumn="66" rule="LawOfDemeter" ruleset="Coupling" package="slackpack.test" class="SNA4SlackTest" method="checkMembers" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="44" endline="44" begincolumn="29" endcolumn="65" rule="LawOfDemeter" ruleset="Coupling" package="slackpack.test" class="SNA4SlackTest" method="checkMembers" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="44" endline="44" begincolumn="29" endcolumn="65" rule="LawOfDemeter" ruleset="Coupling" package="slackpack.test" class="SNA4SlackTest" method="checkMembers" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="49" endline="49" begincolumn="17" endcolumn="67" rule="LawOfDemeter" ruleset="Coupling" package="slackpack.test" class="SNA4SlackTest" method="checkChannels" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="49" endline="49" begincolumn="17" endcolumn="67" rule="LawOfDemeter" ruleset="Coupling" package="slackpack.test" class="SNA4SlackTest" method="checkChannels" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="49" endline="49" begincolumn="29" endcolumn="66" rule="LawOfDemeter" ruleset="Coupling" package="slackpack.test" class="SNA4SlackTest" method="checkChannels" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="49" endline="49" begincolumn="29" endcolumn="66" rule="LawOfDemeter" ruleset="Coupling" package="slackpack.test" class="SNA4SlackTest" method="checkChannels" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="53" endline="53" begincolumn="40" endcolumn="48" rule="SignatureDeclareThrowsException" ruleset="Type Resolution" package="slackpack.test" class="SNA4SlackTest" method="checkName" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/typeresolution.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldnt explicitly throw java.lang.Exception
+</violation>
+<violation beginline="53" endline="53" begincolumn="40" endcolumn="48" rule="SignatureDeclareThrowsException" ruleset="Strict Exceptions" package="slackpack.test" class="SNA4SlackTest" method="checkName" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/strictexception.html#SignatureDeclareThrowsException" priority="3">
+A method/constructor shouldnt explicitly throw java.lang.Exception
+</violation>
+<violation beginline="54" endline="54" begincolumn="17" endcolumn="93" rule="LawOfDemeter" ruleset="Coupling" package="slackpack.test" class="SNA4SlackTest" method="checkName" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="54" endline="54" begincolumn="17" endcolumn="93" rule="LawOfDemeter" ruleset="Coupling" package="slackpack.test" class="SNA4SlackTest" method="checkName" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="54" endline="54" begincolumn="28" endcolumn="92" rule="LawOfDemeter" ruleset="Coupling" package="slackpack.test" class="SNA4SlackTest" method="checkName" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="54" endline="54" begincolumn="28" endcolumn="92" rule="LawOfDemeter" ruleset="Coupling" package="slackpack.test" class="SNA4SlackTest" method="checkName" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="59" endline="59" begincolumn="17" endcolumn="56" rule="LawOfDemeter" ruleset="Coupling" package="slackpack.test" class="SNA4SlackTest" method="checkMentions" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="59" endline="59" begincolumn="29" endcolumn="55" rule="LawOfDemeter" ruleset="Coupling" package="slackpack.test" class="SNA4SlackTest" method="checkMentions" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="64" endline="64" begincolumn="17" endcolumn="72" rule="LawOfDemeter" ruleset="Coupling" package="slackpack.test" class="SNA4SlackTest" method="checkNotAbsentFrom" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="64" endline="64" begincolumn="29" endcolumn="71" rule="LawOfDemeter" ruleset="Coupling" package="slackpack.test" class="SNA4SlackTest" method="checkNotAbsentFrom" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="69" endline="69" begincolumn="17" endcolumn="71" rule="LawOfDemeter" ruleset="Coupling" package="slackpack.test" class="SNA4SlackTest" method="checkAbsentFrom" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="69" endline="69" begincolumn="28" endcolumn="70" rule="LawOfDemeter" ruleset="Coupling" package="slackpack.test" class="SNA4SlackTest" method="checkAbsentFrom" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="74" endline="74" begincolumn="17" endcolumn="70" rule="LawOfDemeter" ruleset="Coupling" package="slackpack.test" class="SNA4SlackTest" method="checkNotAbsentTo" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="74" endline="74" begincolumn="29" endcolumn="69" rule="LawOfDemeter" ruleset="Coupling" package="slackpack.test" class="SNA4SlackTest" method="checkNotAbsentTo" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="79" endline="79" begincolumn="17" endcolumn="69" rule="LawOfDemeter" ruleset="Coupling" package="slackpack.test" class="SNA4SlackTest" method="checkAbsentTo" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+<violation beginline="79" endline="79" begincolumn="28" endcolumn="68" rule="LawOfDemeter" ruleset="Coupling" package="slackpack.test" class="SNA4SlackTest" method="checkAbsentTo" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/coupling.html#LawOfDemeter" priority="3">
+Potential violation of Law of Demeter (method chain calls)
+</violation>
+</file>
+</pmd>

@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="it"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>ArrayMentions.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">SNA4Slack</a> &gt; <a href="index.source.html" class="el_package">slackpack</a> &gt; <span class="el_source">ArrayMentions.java</span></div><h1>ArrayMentions.java</h1><pre class="source lang-java linenums">package slackpack;
+
+import java.io.File;
+import java.io.IOException;
+import java.util.ArrayList;
+
+import org.json.simple.JSONObject;
+/**
+ * Creates and manage an array of objects mention.
+ * @author aleningi
+ *
+ */
+public class ArrayMentions {
+	/**
+	 * Contains all of the mentions needed.
+	 */
+	private ArrayList&lt;Mention&gt; mentions;
+
+	/**
+	 * Allocates the space for the class attribute.
+	 */
+<span class="fc" id="L22">	public ArrayMentions() {</span>
+<span class="fc" id="L23">		this.setArray(new ArrayList&lt;Mention&gt;());</span>
+<span class="fc" id="L24">	}</span>
+
+	/**
+	 * Finds and adds to the class attribute all of the mentions contained in
+	 * the given file array.
+	 *
+	 * @param channelfiles array of files containing the mentions.
+	 * @throws IOException standard IOException
+	 */
+	public final void fillMentionsFromFileList(final ArrayList&lt;File&gt; channelfiles) throws IOException {
+<span class="fc" id="L34">		JsonFileParser slackmessages = new JsonFileParser();</span>
+<span class="fc bfc" id="L35" title="All 2 branches covered.">		for (File file : channelfiles) {</span>
+<span class="fc" id="L36">			slackmessages.fillContentsFromJSONFileDir(file.getCanonicalPath());</span>
+<span class="fc bfc" id="L37" title="All 2 branches covered.">			for (Object obj : slackmessages.getArray()) {</span>
+<span class="fc" id="L38">				JSONObject json = (JSONObject) obj;</span>
+<span class="fc" id="L39">				Mention mention = new Mention();</span>
+<span class="fc" id="L40">				mention.fillMentionFromJSONObject(json);</span>
+<span class="fc bfc" id="L41" title="All 2 branches covered.">					if (!mention.isEmptyTO()) {</span>
+<span class="fc" id="L42">						this.addByMerging(mention);</span>
+					}
+<span class="fc" id="L44">				}</span>
+<span class="fc" id="L45">			}</span>
+<span class="fc" id="L46">	}</span>
+
+	/**
+	 * Adds a mention to the mentions array.
+	 *
+	 * @param mention object mention.
+	 */
+	public final void add(final Mention mention) {
+<span class="fc" id="L54">		this.getArray().add(mention);</span>
+<span class="fc" id="L55">	}</span>
+
+	/**
+	 * Merges the given mention to the array of mentions.
+	 *
+	 * @param mentionToMerge mention to merge.
+	 */
+	public void addByMerging(final Mention mentionToMerge) {
+
+<span class="fc" id="L64">		boolean flag = false; // FLAG FOR 'TO'</span>
+<span class="fc" id="L65">		boolean fromFlag = false; // FLAG FOR 'FROM'</span>
+
+<span class="fc" id="L67">		ArrayList&lt;String&gt; arrayToAdd = new ArrayList&lt;String&gt;();</span>
+
+<span class="fc bfc" id="L69" title="All 2 branches covered.">		if (this.getArray().isEmpty()) {</span>
+<span class="fc" id="L70">			this.getArray().add(mentionToMerge);</span>
+		} else {
+<span class="fc bfc" id="L72" title="All 2 branches covered.">			for (Mention mention : this.getArray()) {</span>
+<span class="pc bpc" id="L73" title="1 of 4 branches missed.">				if (mention.getFROM().equals(mentionToMerge.getFROM()) &amp;&amp; !fromFlag) {</span>
+<span class="fc" id="L74">					fromFlag = true;</span>
+<span class="fc bfc" id="L75" title="All 2 branches covered.">					for (String i : mentionToMerge.getTO()) {</span>
+<span class="fc bfc" id="L76" title="All 2 branches covered.">						for (String j : mention.getTO()) {</span>
+<span class="fc bfc" id="L77" title="All 2 branches covered.">							if (i.equals(j)) {</span>
+<span class="fc" id="L78">								flag = true;</span>
+<span class="fc" id="L79">								mention.getWeight().put(j, (mention.getWeight().get(j)) + 1);</span>
+							}
+<span class="fc" id="L81">						}</span>
+<span class="fc bfc" id="L82" title="All 2 branches covered.">						if (!flag) {</span>
+<span class="fc" id="L83">							arrayToAdd.add(i);</span>
+						}
+<span class="fc" id="L85">						flag = false;</span>
+<span class="fc" id="L86">					}</span>
+<span class="fc bfc" id="L87" title="All 2 branches covered.">					if (!arrayToAdd.isEmpty()) {</span>
+<span class="fc bfc" id="L88" title="All 2 branches covered.">						for (String s : arrayToAdd) {</span>
+<span class="fc" id="L89">							mention.addTO(s);</span>
+<span class="fc" id="L90">							mention.getWeight().put(s, (mentionToMerge.getWeight().get(s)));</span>
+<span class="fc" id="L91">						}</span>
+					}
+				}
+<span class="fc" id="L94">			}</span>
+<span class="fc bfc" id="L95" title="All 2 branches covered.">			if (!fromFlag) {</span>
+<span class="fc" id="L96">				getArray().add(mentionToMerge);</span>
+			}
+		}
+<span class="fc" id="L99">	}</span>
+
+	/**
+	 * Merges the given array to the class attribute array.
+	 *
+	 * @param marr  array to merge.
+	 */
+	public void mergeArray(final ArrayMentions marr) {
+<span class="fc bfc" id="L107" title="All 2 branches covered.">		for (Mention mention : marr.getArray()) {</span>
+<span class="fc" id="L108">			addByMerging(mention);</span>
+<span class="fc" id="L109">		}</span>
+<span class="fc" id="L110">	}</span>
+
+	/**
+	 * Sets the class attribute array to the given array.
+	 *
+	 * @param marr given array.
+	 */
+	public final void setArray(final ArrayList&lt;Mention&gt; marr) {
+<span class="fc" id="L118">		this.mentions = marr;</span>
+<span class="fc" id="L119">	}</span>
+
+	/**
+	 * Returns the class attribute.
+	 * @return mentions.
+	 */
+	public ArrayList&lt;Mention&gt; getArray() {
+<span class="fc" id="L126">		return this.mentions;</span>
+	}
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.0.201801022044</span></div></body></html>

@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="it"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Channel.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">SNA4Slack</a> &gt; <a href="index.source.html" class="el_package">slackpack</a> &gt; <span class="el_source">Channel.java</span></div><h1>Channel.java</h1><pre class="source lang-java linenums">package slackpack;
+
+import java.util.ArrayList;
+
+import org.json.simple.JSONObject;
+
+/**
+ * The class Channels consists of all the attributes of a channel.
+ **/
+public class Channel {
+
+	/**
+	 * Private attribute id of a channel.
+	 **/
+	private String id;
+	/**
+	 * Private attribute name of a channel.
+	 **/
+	private String name;
+	/**
+	 * Private attribute the id of the channel's creator.
+	 **/
+	private String idcreator;
+	/**
+	 * Private boolean attribute about archive status.
+	 **/
+	private boolean archived;
+	/**
+	 * Private attribute an ArrayMember of members per channel.
+	 **/
+	private ArrayMember channelmembers;
+	/**
+	 * Private attribute an ArrayMember of workspace members.
+	 **/
+	private ArrayMember slackmembers;
+
+	/**
+	 * Public constructor.
+	 *
+	 * @param slackmemb
+	 *            to be set as the list of members per channel.
+	 **/
+<span class="fc" id="L43">	public Channel(final ArrayMember slackmemb) {</span>
+
+<span class="fc" id="L45">		setID(&quot;&quot;);</span>
+<span class="fc" id="L46">		setName(&quot;&quot;);</span>
+<span class="fc" id="L47">		setIDCreator(&quot;&quot;);</span>
+<span class="fc" id="L48">		setArchived(false);</span>
+<span class="fc" id="L49">		setArray(new ArrayMember());</span>
+<span class="fc" id="L50">		setSlackArray(slackmemb);</span>
+<span class="fc" id="L51">	}</span>
+
+	/**
+	 * This method gets the channel information from the JSON file. The suppress
+	 * warning is to cast safely from obj to list.
+	 *
+	 * @param channels
+	 *            the JSON object created from parsing the file.
+	 *
+	 **/
+	@SuppressWarnings(&quot;unchecked&quot;)
+	public final void fillChannelFromJSONObject(final JSONObject channels) {
+<span class="fc" id="L63">		ArrayList&lt;String&gt; channelsmembersid = (ArrayList&lt;String&gt;) channels.get(&quot;members&quot;);</span>
+<span class="fc" id="L64">		this.setName((String) channels.get(&quot;name&quot;));</span>
+<span class="fc" id="L65">		this.setID((String) channels.get(&quot;id&quot;));</span>
+<span class="fc" id="L66">		this.setIDCreator((String) channels.get(&quot;creator&quot;));</span>
+<span class="fc" id="L67">		this.setArchived((boolean) channels.get(&quot;is_archived&quot;));</span>
+<span class="fc" id="L68">		this.setArray(this.getSlackArray().extractMembersSelectedByIds(channelsmembersid));</span>
+
+<span class="fc" id="L70">	}</span>
+
+	/**
+	 * Private method to set slackmemb.
+	 *
+	 * @param slackmemb
+	 *            The ArrayMember to be set
+	 **/
+	private void setSlackArray(final ArrayMember slackmemb) {
+<span class="fc" id="L79">		this.slackmembers = slackmemb;</span>
+<span class="fc" id="L80">	}</span>
+
+	/**
+	 * Private method to get channel's members.
+	 *
+	 * @return An ArrayMember of the channel.
+	 *
+	 **/
+	private ArrayMember getSlackArray() {
+<span class="fc" id="L89">		return this.slackmembers;</span>
+	}
+
+	/**
+	 * Public method to set the boolean archived.
+	 *
+	 * @param flag
+	 *            True if it is archived.
+	 **/
+	public final void setArchived(final boolean flag) {
+<span class="fc" id="L99">		this.archived = flag;</span>
+<span class="fc" id="L100">	}</span>
+
+	/**
+	 * Public method to get channel's archived status.
+	 *
+	 * @return boolean of channel's archived status.
+	 *
+	 **/
+	public boolean getArchived() {
+<span class="nc" id="L109">		return this.archived;</span>
+	}
+
+	/**
+	 * Public method to set name of a channel.
+	 *
+	 * @param n
+	 *            the name to be set.
+	 *
+	 **/
+	public final void setName(final String n) {
+<span class="fc" id="L120">		this.name = n;</span>
+<span class="fc" id="L121">	}</span>
+
+	/**
+	 * Public method to set id.
+	 *
+	 * @param code
+	 *            the id to be set.
+	 *
+	 **/
+	public final void setID(final String code) {
+<span class="fc" id="L131">		this.id = code;</span>
+<span class="fc" id="L132">	}</span>
+
+	/**
+	 * Public method to set idcreator.
+	 *
+	 * @param codecreator
+	 *            the idcreator to be set.
+	 *
+	 **/
+	public final void setIDCreator(final String codecreator) {
+<span class="fc" id="L142">		this.idcreator = codecreator;</span>
+<span class="fc" id="L143">	}</span>
+
+	/**
+	 * Public method to set channelmembers.
+	 *
+	 * @param channelmemb
+	 *            the ArrayMember to be set.
+	 *
+	 **/
+	public final void setArray(final ArrayMember channelmemb) {
+<span class="fc" id="L153">		this.channelmembers = channelmemb;</span>
+<span class="fc" id="L154">	}</span>
+
+	/**
+	 * Public method to get the list of members.
+	 *
+	 * @return the the list of members.
+	 *
+	 **/
+	public ArrayMember getMembersList() {
+<span class="fc" id="L163">		return this.channelmembers;</span>
+	}
+
+	/**
+	 * Public method to print the list of members.
+	 *
+	 **/
+	public void printMembersList() {
+<span class="nc" id="L171">		getMembersList().printArray();</span>
+<span class="nc" id="L172">	}</span>
+
+	/**
+	 * Public method to get the channel's name.
+	 *
+	 * @return name channel's name
+	 *
+	 **/
+	public String getName() {
+<span class="fc" id="L181">		return this.name;</span>
+	}
+
+	/**
+	 * Public method to get id.
+	 *
+	 * @return the id of channel.
+	 *
+	 **/
+	public String getID() {
+<span class="nc" id="L191">		return this.id;</span>
+	}
+
+	/**
+	 * Public method to get idcreator.
+	 *
+	 * @return the id of the channel's creator.
+	 *
+	 **/
+	public String getIDCreator() {
+<span class="nc" id="L201">		return this.idcreator;</span>
+	}
+}
+
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.0.201801022044</span></div></body></html>

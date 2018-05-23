@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<pmd version="5.8.1" timestamp="2018-05-22T10:37:10.278">
+<pmd version="5.8.1" timestamp="2018-05-23T13:12:51.568">
 <file name="C:\Users\Davide\ing\progetto1718-dijkstra\src\main\java\it\uniba\main\AppMain.java">
 <violation beginline="38" endline="38" begincolumn="17" endcolumn="67" rule="LocalVariableCouldBeFinal" ruleset="Optimization" package="it.uniba.main" class="AppMain" method="main" variable="command" externalInfoUrl="https://pmd.github.io/pmd-5.8.1/pmd-java/rules/java/optimizations.html#LocalVariableCouldBeFinal" priority="3">
 Local variable 'command' could be declared final

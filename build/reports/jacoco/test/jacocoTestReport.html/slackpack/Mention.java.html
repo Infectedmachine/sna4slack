@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="it"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Mention.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">SNA4Slack</a> &gt; <a href="index.source.html" class="el_package">slackpack</a> &gt; <span class="el_source">Mention.java</span></div><h1>Mention.java</h1><pre class="source lang-java linenums">package slackpack;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+import org.json.simple.JSONObject;
+
+/**
+ * Contains and manages the mention informations.
+ * @author aleningi
+ *
+ */
+public class Mention {
+
+	/**
+	 * Contains the ID of the mentions sender.
+	 */
+	private String from;
+
+	/**
+	 * Contains all of the ID of the mentioned users.
+	 */
+	private ArrayList&lt;String&gt; to;
+
+	/**
+	 * Contains all of the ID of the mentioned users associated to the number
+	 * of times they have been mentioned.
+	 */
+	private HashMap&lt;String, Integer&gt; weight;
+
+	/**
+	 * Allocates the class Attributes required memory.
+	 */
+<span class="fc" id="L36">	public Mention() {</span>
+<span class="fc" id="L37">		this.setFROM(&quot;&quot;);</span>
+<span class="fc" id="L38">		this.setTO(new ArrayList&lt;String&gt;());</span>
+<span class="fc" id="L39">		this.setWeight(new HashMap&lt;String, Integer&gt;());</span>
+<span class="fc" id="L40">	}</span>
+
+	/**
+	 * Finds and adds to the class attributes all of the mention contained
+	 * in the JSON object.
+	 * @param json JSON object.
+	 */
+	public final void fillMentionFromJSONObject(final JSONObject json) {
+<span class="fc bfc" id="L48" title="All 2 branches covered.">		if (json.get(&quot;subtype&quot;) == null) {</span>
+<span class="fc" id="L49">			this.setFROM((String) json.get(&quot;user&quot;));</span>
+<span class="fc" id="L50">			String text = (String) json.get(&quot;text&quot;);</span>
+<span class="fc" id="L51">			Pattern mentionpattern = Pattern.compile(&quot;&lt;@.+?&gt;&quot;);</span>
+<span class="fc" id="L52">			Matcher match = mentionpattern.matcher(text);</span>
+<span class="fc bfc" id="L53" title="All 2 branches covered.">			while (match.find()) {</span>
+<span class="fc" id="L54">				String idmentioneduser = match.group().subSequence(2, match.group().length() - 1).toString();</span>
+<span class="pc bpc" id="L55" title="1 of 2 branches missed.">				if (!this.checkUser(idmentioneduser)) {</span>
+<span class="fc" id="L56">					this.addTO(idmentioneduser);</span>
+<span class="fc" id="L57">					this.weight.put(idmentioneduser, 1);</span>
+				}
+<span class="fc" id="L59">			}</span>
+		}
+<span class="fc" id="L61">	}</span>
+
+	/**
+	 * Sets the class attribute weight.
+	 *
+	 * @param w  HashMap.
+	 */
+	private void setWeight(final HashMap&lt;String, Integer&gt; w) {
+<span class="fc" id="L69">		this.weight = w;</span>
+<span class="fc" id="L70">	}</span>
+
+	/**
+	 * Returns the class attribute weight.
+	 *
+	 * @return weight.
+	 */
+	public HashMap&lt;String, Integer&gt; getWeight() {
+<span class="fc" id="L78">		return this.weight;</span>
+	}
+
+	/**
+	 * Sets the class attribute from.
+	 *
+	 * @param value ID of the mention sender.
+	 */
+	public final void setFROM(final String value) {
+<span class="fc" id="L87">		this.from = value;</span>
+<span class="fc" id="L88">	}</span>
+
+	/**
+	 * Sets the class attribute to.
+	 *
+	 * @param arr  an array of mentioned users.
+	 */
+	public final void setTO(final ArrayList&lt;String&gt; arr) {
+<span class="fc" id="L96">		this.to = arr;</span>
+<span class="fc" id="L97">	}</span>
+
+	/**
+	 * Returns class attribute from.
+	 *
+	 * @return form.
+	 */
+	public String getFROM() {
+<span class="fc" id="L105">		return this.from;</span>
+	}
+
+	/**
+	 * Returns class attribute to.
+	 *
+	 * @return to.
+	 */
+	public ArrayList&lt;String&gt; getTO() {
+<span class="fc" id="L114">		return this.to;</span>
+	}
+
+	/**
+	 * Adds a mentioned user to the class attribute to.
+	 *
+	 * @param value  a mentioned user.
+	 */
+	public void addTO(final String value) {
+<span class="fc" id="L123">		this.to.add(value);</span>
+<span class="fc" id="L124">	}</span>
+
+	/**
+	 * Checks if a user is present in the mention informations.
+	 *
+	 * @param iduser user to check.
+	 * @return boolean value.
+	 */
+	public boolean checkUser(final String iduser) {
+<span class="pc bpc" id="L133" title="1 of 2 branches missed.">		if (this.getFROM().equals(iduser)) {</span>
+<span class="nc" id="L134">			return true;</span>
+		} else {
+<span class="fc bfc" id="L136" title="All 2 branches covered.">			for (String id : this.getTO()) {</span>
+<span class="pc bpc" id="L137" title="1 of 2 branches missed.">				if (id.equals(iduser)) {</span>
+<span class="nc" id="L138">					return true;</span>
+				}
+<span class="fc" id="L140">			}</span>
+		}
+<span class="fc" id="L142">		return false;</span>
+	}
+
+	/**
+	 * Checks if class attribute to is empty.
+	 *
+	 * @return boolean value.
+	 */
+	public boolean isEmptyTO() {
+<span class="fc" id="L151">		return (this.getTO().isEmpty());</span>
+	}
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.0.201801022044</span></div></body></html>

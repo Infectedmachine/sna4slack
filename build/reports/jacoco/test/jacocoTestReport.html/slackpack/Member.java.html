@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="it"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Member.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">SNA4Slack</a> &gt; <a href="index.source.html" class="el_package">slackpack</a> &gt; <span class="el_source">Member.java</span></div><h1>Member.java</h1><pre class="source lang-java linenums">package slackpack;
+
+import org.json.simple.JSONObject;
+
+/**
+ * Contains and manages all information of a member.
+ *
+ * @author aleningi
+ *
+ */
+public class Member {
+
+	/**
+	 * Member identifier code.
+	 */
+	private String id;
+
+	/**
+	 * Member nickname.
+	 */
+	private String name;
+
+	/**
+	 * Member name.
+	 */
+	private String realname;
+
+	/**
+	 * Member display name.
+	 */
+	private String displayname;
+
+	/**
+	 * Value that idicates if member is deleted.
+	 */
+	private boolean deleted;
+
+	/**
+	 * Allocate all of the space needed by class attributes.
+	 */
+<span class="fc" id="L41">	public Member() {</span>
+<span class="fc" id="L42">		this.setID(&quot;&quot;);</span>
+<span class="fc" id="L43">		this.setName(&quot;&quot;);</span>
+<span class="fc" id="L44">		this.setRealName(&quot;&quot;);</span>
+<span class="fc" id="L45">		this.setDisplayName(&quot;&quot;);</span>
+<span class="fc" id="L46">		this.setDeleted(false);</span>
+<span class="fc" id="L47">	}</span>
+
+	/**
+	 * Extracts all member informations contained inside JSON object.
+	 *
+	 * @param user JSON object.
+	 */
+	public final void fillMemberFromJSONObject(final JSONObject user) {
+<span class="fc" id="L55">		JSONObject userprofile = (JSONObject) user.get(&quot;profile&quot;);</span>
+<span class="fc" id="L56">		this.setRealName((String) user.get(&quot;real_name&quot;));</span>
+<span class="fc" id="L57">		this.setName((String) user.get(&quot;name&quot;));</span>
+<span class="fc" id="L58">		this.setID((String) user.get(&quot;id&quot;));</span>
+<span class="pc bpc" id="L59" title="1 of 2 branches missed.">		if ((boolean) user.get(&quot;deleted&quot;)) {</span>
+<span class="nc" id="L60">			this.setDeleted(true);</span>
+		}
+<span class="pc bpc" id="L62" title="1 of 2 branches missed.">		if (userprofile.get(&quot;display_name&quot;) != null) {</span>
+<span class="fc" id="L63">			this.setDisplayName((String) userprofile.get(&quot;display_name&quot;));</span>
+		}
+<span class="fc" id="L65">	}</span>
+
+	/**
+	 *
+	 * @param newdisplayname is set to class attribute displayname.
+	 */
+	public final void setDisplayName(final String newdisplayname) {
+<span class="fc" id="L72">		this.displayname = newdisplayname;</span>
+<span class="fc" id="L73">	}</span>
+
+	/**
+	 *
+	 * @return class attribute displayname.
+	 */
+	public String getDisplayName() {
+<span class="fc" id="L80">		return this.displayname;</span>
+	}
+
+	/**
+	 *
+	 * @param flag is set to class attribute deleted.
+	 */
+	public final void setDeleted(final boolean flag) {
+<span class="fc" id="L88">		this.deleted = flag;</span>
+<span class="fc" id="L89">	}</span>
+
+	/**
+	 *
+	 * @return class attribute deleted.
+	 */
+	public boolean getDeleted() {
+<span class="nc" id="L96">		return this.deleted;</span>
+	}
+
+	/**
+	 *
+	 * @param rname is set to class attribute realname.
+	 */
+	public final void setRealName(final String rname) {
+<span class="fc" id="L104">		this.realname = rname;</span>
+<span class="fc" id="L105">	}</span>
+
+	/**
+	 *
+	 * @param n is set to class attribute name.
+	 */
+	public final void setName(final String n) {
+<span class="fc" id="L112">		this.name = n;</span>
+<span class="fc" id="L113">	}</span>
+
+	/**
+	 *
+	 * @param newID is set to class attribute id.
+	 */
+	public final void setID(final String newID) {
+<span class="fc" id="L120">		this.id = newID;</span>
+<span class="fc" id="L121">	}</span>
+
+	/**
+	 *
+	 * @return class attribute id.
+	 */
+	public String getID() {
+<span class="fc" id="L128">		return this.id;</span>
+	}
+
+	/**
+	 *
+	 * @return class attribute name.
+	 */
+	public String getName() {
+<span class="nc" id="L136">		return this.name;</span>
+	}
+
+	/**
+	 *
+	 * @return class attribute realname.
+	 */
+	public String getRealName() {
+<span class="fc" id="L144">		return this.realname;</span>
+	}
+
+	/**
+	 *
+	 * @param newID to check.
+	 * @return boolean value.
+	 */
+	public boolean checkId(final String newID) {
+<span class="fc" id="L153">		return (this.getID().equals(newID));</span>
+	}
+
+	/**
+	 * Returns a member name based on priority position:
+	 * 1. displayname.
+	 * 2. realname.
+	 * 3. name.
+	 * @return Member name.
+	 */
+	public String getNameByPriority() {
+<span class="fc bfc" id="L164" title="All 2 branches covered.">		if (this.getDisplayName().length() &gt; 0) {</span>
+<span class="fc" id="L165">			return this.getDisplayName();</span>
+		} else {
+<span class="pc bpc" id="L167" title="1 of 2 branches missed.">			if (this.getRealName().length() &gt; 0) {</span>
+<span class="fc" id="L168">			return this.getRealName();</span>
+			} else {
+<span class="nc" id="L170">			return this.getName();</span>
+			}
+		}
+	}
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.0.201801022044</span></div></body></html>

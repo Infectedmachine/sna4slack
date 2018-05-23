@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="it"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>ArrayChannel.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">SNA4Slack</a> &gt; <a href="index.source.html" class="el_package">slackpack</a> &gt; <span class="el_source">ArrayChannel.java</span></div><h1>ArrayChannel.java</h1><pre class="source lang-java linenums">package slackpack;
+
+import java.util.ArrayList;
+
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+
+/**
+ * This class consists of a list of Channel and one ArrayMember.
+ **/
+public class ArrayChannel {
+	/**
+	 * Private attribute a list of channels.
+	 **/
+	private ArrayList&lt;Channel&gt; channels;
+	/**
+	 * Private attribute a list of channels.
+	 **/
+	private ArrayMember slackmembers;
+
+	/**
+	 * Public constructor.
+	 *
+	 * @param slackmemb
+	 *            the ArrayMember to be set
+	 **/
+<span class="fc" id="L27">	public ArrayChannel(final ArrayMember slackmemb) {</span>
+<span class="fc" id="L28">		this.setArray(new ArrayList&lt;Channel&gt;());</span>
+<span class="fc" id="L29">		this.setMembersArray(slackmemb);</span>
+<span class="fc" id="L30">	}</span>
+
+	/**
+	 * This method fills a JSONArray with channels.
+	 *
+	 * @param jsonarray
+	 *            to be set
+	 *
+	 * @throws Exception
+	 *             when the JSON file is empty
+	 **/
+	public final void fillArrayFromJSONArray(final JSONArray jsonarray) throws Exception {
+<span class="pc bpc" id="L42" title="1 of 2 branches missed.">		if (jsonarray == null) {</span>
+<span class="nc" id="L43">			throw new Exception(&quot;JSON FILE'S CONTENT IS NULL&quot;);</span>
+		} else {
+<span class="fc bfc" id="L45" title="All 2 branches covered.">			for (Object obj : jsonarray) {</span>
+<span class="fc" id="L46">				JSONObject json = (JSONObject) obj;</span>
+<span class="fc" id="L47">				Channel channel = new Channel(this.getSlackArray());</span>
+<span class="fc" id="L48">				channel.fillChannelFromJSONObject(json);</span>
+<span class="fc" id="L49">				this.addChannel(channel);</span>
+<span class="fc" id="L50">			}</span>
+		}
+<span class="fc" id="L52">	}</span>
+
+	/**
+	 * Private method to set slackmemb.
+	 *
+	 * @param slackmemb
+	 *            The ArrayMember to be set
+	 **/
+	private void setMembersArray(final ArrayMember slackmemb) {
+<span class="fc" id="L61">		this.slackmembers = slackmemb;</span>
+<span class="fc" id="L62">	}</span>
+
+	/**
+	 * Private method to get slackmembers.
+	 *
+	 * @return slackmembers the members of a channel
+	 **/
+	private ArrayMember getSlackArray() {
+<span class="fc" id="L70">		return this.slackmembers;</span>
+	}
+
+	/**
+	 * It adds a channel to the list of channels.
+	 *
+	 * @param channel
+	 *            the channel to be added
+	 **/
+	public void addChannel(final Channel channel) {
+<span class="fc" id="L80">		getArray().add(channel);</span>
+<span class="fc" id="L81">	}</span>
+
+	/**
+	 * It gets the list of channels.
+	 *
+	 * @return channels a list of channels.
+	 **/
+	public ArrayList&lt;Channel&gt; getArray() {
+<span class="fc" id="L89">		return this.channels;</span>
+	}
+
+	/**
+	 * It sets carr as the list of channels.
+	 *
+	 * @param carr
+	 *            the list of channels
+	 **/
+	public final void setArray(final ArrayList&lt;Channel&gt; carr) {
+<span class="fc" id="L99">		this.channels = carr;</span>
+<span class="fc" id="L100">	}</span>
+
+	/**
+	 * It prints all the names of the channels and their members. If the channels is
+	 * archived it's shown near the name.
+	 **/
+	public void printArray() {
+<span class="nc bnc" id="L107" title="All 2 branches missed.">		for (Channel channel : getArray()) {</span>
+<span class="nc bnc" id="L108" title="All 2 branches missed.">			if (channel.getArchived()) {</span>
+<span class="nc" id="L109">				System.out.println(channel.getName() + &quot; [ARCHIVED] :\n&quot;);</span>
+			} else {
+<span class="nc" id="L111">				System.out.println(channel.getName() + &quot;:\n&quot;);</span>
+			}
+<span class="nc" id="L113">			channel.printMembersList();</span>
+<span class="nc" id="L114">			System.out.println(&quot;\n&quot;);</span>
+<span class="nc" id="L115">		}</span>
+<span class="nc" id="L116">	}</span>
+
+	/**
+	 * It prints all channels' names.
+	 **/
+	public void printChannels() {
+<span class="nc bnc" id="L122" title="All 2 branches missed.">		for (String channel : this.getAllChannelsName()) {</span>
+<span class="nc" id="L123">			System.out.println(channel);</span>
+<span class="nc" id="L124">		}</span>
+<span class="nc" id="L125">	}</span>
+
+	/**
+	 * It gets the channel id given the name in input.
+	 *
+	 * @param name
+	 *            the name of the channel to be found.
+	 *
+	 * @return channel the id of the channel.
+	 *
+	 * @throws Exception
+	 *             when the channel doesn't exist.
+	 **/
+	public Channel getChannel(final String name) throws Exception {
+<span class="pc bpc" id="L139" title="1 of 2 branches missed.">		for (Channel channel : getArray()) {</span>
+<span class="fc bfc" id="L140" title="All 2 branches covered.">			if (channel.getName().equals(name)) {</span>
+<span class="fc" id="L141">				return channel;</span>
+			}
+<span class="fc" id="L143">		}</span>
+<span class="nc" id="L144">		throw new Exception(&quot;NONE CHANNEL BY THIS NAME&quot;);</span>
+	}
+
+	/**
+	 * It checks if a channel is present.
+	 *
+	 * @param name
+	 *            of the channel to check.
+	 *
+	 * @return true if it is present. false if it is not.
+	 *
+	 **/
+	public boolean checkChannel(final String name) {
+<span class="nc bnc" id="L157" title="All 2 branches missed.">		for (Channel channel : getArray()) {</span>
+<span class="nc bnc" id="L158" title="All 2 branches missed.">			if (channel.getName().equals(name)) {</span>
+<span class="nc" id="L159">				return true;</span>
+			}
+<span class="nc" id="L161">		}</span>
+<span class="nc" id="L162">		return false;</span>
+	}
+
+	/**
+	 * It gets a list of all channels by their name.
+	 *
+	 * @return allchannelslist a list with all channels' names
+	 **/
+	public ArrayList&lt;String&gt; getAllChannelsName() {
+<span class="fc" id="L171">		ArrayList&lt;String&gt; allchannelslist = new ArrayList&lt;String&gt;();</span>
+<span class="fc bfc" id="L172" title="All 2 branches covered.">		for (Channel channel : this.getArray()) {</span>
+<span class="fc" id="L173">			allchannelslist.add(channel.getName());</span>
+<span class="fc" id="L174">		}</span>
+<span class="fc" id="L175">		return allchannelslist;</span>
+	}
+}
+
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.0.201801022044</span></div></body></html>

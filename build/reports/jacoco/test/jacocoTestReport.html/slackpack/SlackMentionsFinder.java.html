@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="it"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>SlackMentionsFinder.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">SNA4Slack</a> &gt; <a href="index.source.html" class="el_package">slackpack</a> &gt; <span class="el_source">SlackMentionsFinder.java</span></div><h1>SlackMentionsFinder.java</h1><pre class="source lang-java linenums">package slackpack;
+
+import java.io.IOException;
+
+/**
+ * This class consists of the attributes and methods to find and print mentions.
+ **/
+public class SlackMentionsFinder {
+	/**
+	 * Private attribute mentions, an ArrayMentions.
+	 **/
+	private ArrayMentions mentions;
+	/**
+	 * Private attribute members, an ArrayMembers.
+	 **/
+	private ArrayMember members;
+	/**
+	 * Private attribute channels, an ArrayChannels.
+	 **/
+	private ArrayChannel channels;
+	/**
+	 * Private attribute workspacedir,the workspace path.
+	 **/
+	private String workspacedir;
+
+	/**
+	 * Public constructor.
+	 *
+	 * @param dir the path of the workspace
+	 **/
+<span class="fc" id="L31">	public SlackMentionsFinder(final String dir) {</span>
+<span class="fc" id="L32">		this.setMentions(new ArrayMentions());</span>
+<span class="fc" id="L33">		this.setMembers(new ArrayMember());</span>
+<span class="fc" id="L34">		this.setChannels(new ArrayChannel(this.getMembers()));</span>
+<span class="fc" id="L35">		this.setWorkspaceDir(dir);</span>
+<span class="fc" id="L36">	}</span>
+
+	/**
+	 * This method populates the mentions from all channels.
+	 *
+	 * @throws Exception IOException
+	 **/
+	public final void executeFinderOnWorkspace() throws Exception {
+<span class="fc" id="L44">		this.initializeMembers();</span>
+<span class="fc" id="L45">		this.initializeChannels();</span>
+<span class="fc bfc" id="L46" title="All 2 branches covered.">		for (String channelname : this.getChannels().getAllChannelsName()) {</span>
+<span class="fc" id="L47">			JFileScanner jfiles = new JFileScanner(this.getWorkspaceDir().concat(&quot;/&quot; + channelname));</span>
+<span class="fc" id="L48">			ArrayMentions mentionstofilter = new ArrayMentions();</span>
+			try {
+<span class="fc" id="L50">				mentionstofilter.fillMentionsFromFileList(jfiles.getArray());</span>
+<span class="nc" id="L51">			} catch (IOException e) {</span>
+<span class="nc" id="L52">				System.out.println(e);</span>
+<span class="fc" id="L53">			}</span>
+<span class="fc" id="L54">			this.getMentions().mergeArray(this.filterMentionsByChannel(mentionstofilter, channelname));</span>
+<span class="fc" id="L55">		}</span>
+
+<span class="fc" id="L57">	}</span>
+
+	/**
+	 * This method checks if there are mentions.
+	 *
+	 * @return true if there are mentions in general.
+	 **/
+	public boolean isEmpty() {
+<span class="fc" id="L65">		return this.getMentions().getArray().isEmpty();</span>
+	}
+
+	/**
+	 * This method checks if there is at least a mention made by iduser.
+	 *
+	 * @param iduser the member to be checked.
+	 *
+	 * @return true if there is a mentions from that user.
+	 **/
+	public boolean isAbsentFrom(final String iduser) {
+<span class="fc bfc" id="L76" title="All 2 branches covered.">		for (Mention mention : this.getMentions().getArray()) {</span>
+<span class="fc bfc" id="L77" title="All 2 branches covered.">			if (mention.getFROM().equals(iduser)) {</span>
+<span class="fc" id="L78">				return false;</span>
+			}
+<span class="fc" id="L80">		}</span>
+<span class="fc" id="L81">		return true;</span>
+	}
+
+	/**
+	 * This method checks if there is at least a mention made to iduser.
+	 *
+	 * @param iduser the member to be checked.
+	 *
+	 * @return true if there is a mentions to that user.
+	 **/
+	public boolean isAbsentTo(final String iduser) {
+<span class="fc bfc" id="L92" title="All 2 branches covered.">		for (Mention mention : this.getMentions().getArray()) {</span>
+<span class="fc bfc" id="L93" title="All 2 branches covered.">			for (String id : mention.getTO()) {</span>
+<span class="fc bfc" id="L94" title="All 2 branches covered.">				if (id.equals(iduser)) {</span>
+<span class="fc" id="L95">					return false;</span>
+				}
+<span class="fc" id="L97">			}</span>
+<span class="fc" id="L98">		}</span>
+<span class="fc" id="L99">		return true;</span>
+	}
+
+	/**
+	 * This method finds mentions only in the channel given in input.
+	 *
+	 * @param channelname the channel you want to search for mentions.
+	 *
+	 * @throws Exception IOException
+	 **/
+	public final void executeFinderOnChannel(final String channelname) throws Exception {
+<span class="nc" id="L110">		this.initializeMembers();</span>
+<span class="nc" id="L111">		this.initializeChannels();</span>
+<span class="nc" id="L112">		ArrayMentions mentionstofilter = new ArrayMentions();</span>
+<span class="nc" id="L113">		JFileScanner jfiles = new JFileScanner(this.getWorkspaceDir().concat(&quot;/&quot; + channelname));</span>
+		try {
+<span class="nc" id="L115">			mentionstofilter.fillMentionsFromFileList(jfiles.getArray());</span>
+<span class="nc" id="L116">		} catch (IOException e) {</span>
+<span class="nc" id="L117">			System.out.println(e);</span>
+<span class="nc" id="L118">		}</span>
+<span class="nc" id="L119">		this.setMentions(this.filterMentionsByChannel(mentionstofilter, channelname));</span>
+<span class="nc" id="L120">	}</span>
+
+	/**
+	 * Private method checks if there is at least a mention made by iduser.
+	 *
+	 * @param tofilter the mentions to be filtered.
+	 * @param chname the channel of the wanted mentions.
+	 *
+	 * @return mentions the list of mentions passed, but only in the channel selected.
+	 *
+	 * @throws Exception if the param are not valid.
+	 **/
+	private ArrayMentions filterMentionsByChannel(final ArrayMentions tofilter, final String chname) throws Exception {
+<span class="fc" id="L133">		ArrayMentions tmpmentions = new ArrayMentions();</span>
+<span class="fc bfc" id="L134" title="All 2 branches covered.">		for (Mention m : tofilter.getArray()) {</span>
+<span class="fc" id="L135">			Mention mention = new Mention();</span>
+<span class="fc" id="L136">			mention.setFROM(m.getFROM());</span>
+<span class="fc bfc" id="L137" title="All 2 branches covered.">			for (String id : m.getTO()) {</span>
+<span class="fc bfc" id="L138" title="All 2 branches covered.">				if (this.isMemberOfChannel(id, chname)) {</span>
+<span class="fc" id="L139">					mention.addTO(id);</span>
+<span class="fc" id="L140">					mention.getWeight().put(id, m.getWeight().get(id));</span>
+				}
+<span class="fc" id="L142">			}</span>
+<span class="fc bfc" id="L143" title="All 2 branches covered.">			if (!mention.isEmptyTO()) {</span>
+<span class="fc" id="L144">				tmpmentions.add(mention);</span>
+			}
+<span class="fc" id="L146">		}</span>
+<span class="fc" id="L147">		return tmpmentions;</span>
+	}
+
+	/**
+	 * It initialize the users by getting them from JSON file.
+	 **/
+	public final void initializeMembers() {
+<span class="fc" id="L154">		JsonFileParser slackusers = new JsonFileParser();</span>
+<span class="fc" id="L155">		slackusers.fillContentsFromJSONFileDir(this.getWorkspaceDir().concat(&quot;/users.json&quot;));</span>
+		try {
+<span class="fc" id="L157">			this.getMembers().fillArrayFromJSONArray(slackusers.getArray());</span>
+<span class="nc" id="L158">		} catch (Exception e) {</span>
+<span class="nc" id="L159">			System.out.println(e);</span>
+<span class="fc" id="L160">		}</span>
+<span class="fc" id="L161">	}</span>
+
+	/**
+	 * It initialize the channels by getting them from JSON file.
+	 **/
+	public final void initializeChannels() {
+<span class="fc" id="L167">		JsonFileParser slackusers = new JsonFileParser();</span>
+<span class="fc" id="L168">		JsonFileParser slackchannels = new JsonFileParser();</span>
+<span class="fc" id="L169">		slackusers.fillContentsFromJSONFileDir(this.getWorkspaceDir().concat(&quot;/users.json&quot;));</span>
+<span class="fc" id="L170">		slackchannels.fillContentsFromJSONFileDir(this.getWorkspaceDir().concat(&quot;/channels.json&quot;));</span>
+		try {
+<span class="fc" id="L172">			this.getChannels().fillArrayFromJSONArray(slackchannels.getArray());</span>
+<span class="nc" id="L173">		} catch (Exception e) {</span>
+<span class="nc" id="L174">			System.out.println(e);</span>
+<span class="fc" id="L175">		}</span>
+<span class="fc" id="L176">	}</span>
+
+	/**
+	 * It checks if the id is in channelname.
+	 *
+	 * @param id user to check.
+	 * @param channelname the channel where to check.
+	 *
+	 * @return true if the user belongs to that channel.
+	 *
+	 * @throws Exception if id is not a member of channel.
+	 **/
+	private boolean isMemberOfChannel(final String id, final String channelname) throws Exception {
+<span class="fc" id="L189">		return this.getChannels().getChannel(channelname).getMembersList().checkMemberById(id);</span>
+	}
+
+	/**
+	 * It prints all the mentions.
+	 **/
+	public void printNamedMentions() {
+<span class="nc bnc" id="L196" title="All 2 branches missed.">		if (!this.getMentions().getArray().isEmpty()) {</span>
+<span class="nc bnc" id="L197" title="All 2 branches missed.">			for (Mention mention : this.getMentions().getArray()) {</span>
+<span class="nc bnc" id="L198" title="All 2 branches missed.">				for (String id : mention.getTO()) {</span>
+<span class="nc" id="L199">					System.out.println(&quot;FROM: &quot; + this.getMembers().getMemberById(mention.getFROM()).getNameByPriority()</span>
+<span class="nc" id="L200">							+ &quot; TO: &quot; + this.getMembers().getMemberById(id).getNameByPriority());</span>
+<span class="nc" id="L201">				}</span>
+<span class="nc" id="L202">				System.out.println(&quot;&quot;);</span>
+<span class="nc" id="L203">			}</span>
+		} else {
+<span class="nc" id="L205">			System.out.println(&quot;NONE MENTIONS&quot;);</span>
+		}
+<span class="nc" id="L207">	}</span>
+
+	/**
+	 * It prints all the mentions from a user.
+	 *
+	 * @param iduser the user that wrote the mentions.
+	 **/
+	public void printNamedMentionsFROM(final String iduser) {
+<span class="nc bnc" id="L215" title="All 4 branches missed.">		if (!this.getMentions().getArray().isEmpty() &amp;&amp; !this.isAbsentFrom(iduser)) {</span>
+<span class="nc bnc" id="L216" title="All 2 branches missed.">				for (Mention mention : this.getMentions().getArray()) {</span>
+<span class="nc bnc" id="L217" title="All 2 branches missed.">					if (mention.getFROM().equals(iduser)) {</span>
+<span class="nc bnc" id="L218" title="All 2 branches missed.">						for (String id : mention.getTO()) {</span>
+<span class="nc" id="L219">							System.out.println(</span>
+<span class="nc" id="L220">									&quot;FROM: &quot; + this.getMembers().getMemberById(mention.getFROM()).getNameByPriority()</span>
+<span class="nc" id="L221">											+ &quot; TO: &quot; + this.getMembers().getMemberById(id).getNameByPriority());</span>
+<span class="nc" id="L222">						}</span>
+<span class="nc" id="L223">						System.out.println(&quot;&quot;);</span>
+					}
+<span class="nc" id="L225">				}</span>
+		} else {
+<span class="nc" id="L227">			System.out.println(&quot;NONE MENTIONS BY THIS USER&quot;);</span>
+		}
+<span class="nc" id="L229">	}</span>
+
+	/**
+	 * It prints all the mentions made to a user.
+	 *
+	 * @param iduser the user that received the mentions.
+	 **/
+	public void printNamedMentionsTO(final String iduser) {
+<span class="nc bnc" id="L237" title="All 4 branches missed.">		if (!this.getMentions().getArray().isEmpty() &amp;&amp; !this.isAbsentTo(iduser)) {</span>
+<span class="nc bnc" id="L238" title="All 2 branches missed.">				for (Mention mention : this.getMentions().getArray()) {</span>
+<span class="nc bnc" id="L239" title="All 2 branches missed.">					for (String id : mention.getTO()) {</span>
+<span class="nc bnc" id="L240" title="All 2 branches missed.">						if (id.equals(iduser)) {</span>
+<span class="nc" id="L241">							System.out.println(</span>
+<span class="nc" id="L242">									&quot;FROM: &quot; + this.getMembers().getMemberById(mention.getFROM()).getNameByPriority()</span>
+<span class="nc" id="L243">											+ &quot; TO: &quot; + this.getMembers().getMemberById(id).getNameByPriority());</span>
+						}
+<span class="nc" id="L245">					}</span>
+<span class="nc" id="L246">				}</span>
+		} else {
+<span class="nc" id="L248">			System.out.println(&quot;NONE MENTIONS TO THIS USER&quot;);</span>
+		}
+<span class="nc" id="L250">	}</span>
+
+	/**
+	 * It prints all the mentions from a user with weight.
+	 *
+	 **/
+	public void printNamedMentionsWithWeight() {
+<span class="nc bnc" id="L257" title="All 2 branches missed.">		if (!this.getMentions().getArray().isEmpty()) {</span>
+<span class="nc bnc" id="L258" title="All 2 branches missed.">			for (Mention mention : this.getMentions().getArray()) {</span>
+<span class="nc bnc" id="L259" title="All 2 branches missed.">				for (String id : mention.getTO()) {</span>
+<span class="nc" id="L260">					System.out.println(&quot;FROM: &quot; + this.getMembers().getMemberById(mention.getFROM()).getNameByPriority()</span>
+<span class="nc" id="L261">							+ &quot; TO: &quot; + this.getMembers().getMemberById(id).getNameByPriority() + &quot; WEIGHT: &quot;</span>
+<span class="nc" id="L262">							+ mention.getWeight().get(id));</span>
+<span class="nc" id="L263">				}</span>
+<span class="nc" id="L264">				System.out.println(&quot;&quot;);</span>
+<span class="nc" id="L265">			}</span>
+		} else {
+<span class="nc" id="L267">			System.out.println(&quot;NONE MENTIONS&quot;);</span>
+		}
+<span class="nc" id="L269">	}</span>
+
+	/**
+	 * It prints all the mentions from a user with weight.
+	 *
+	 * @param iduser the user that wrote the mentions.
+	 **/
+	public void printNamedMentionsWithWeightFROM(final String iduser) {
+<span class="nc bnc" id="L277" title="All 4 branches missed.">		if (!this.getMentions().getArray().isEmpty() &amp;&amp; !this.isAbsentFrom(iduser)) {</span>
+<span class="nc bnc" id="L278" title="All 2 branches missed.">				for (Mention mention : this.getMentions().getArray()) {</span>
+<span class="nc bnc" id="L279" title="All 2 branches missed.">					if (mention.getFROM().equals(iduser)) {</span>
+<span class="nc bnc" id="L280" title="All 2 branches missed.">						for (String id : mention.getTO()) {</span>
+<span class="nc" id="L281">							System.out.println(</span>
+<span class="nc" id="L282">									&quot;FROM: &quot; + this.getMembers().getMemberById(mention.getFROM()).getNameByPriority()</span>
+<span class="nc" id="L283">											+ &quot; TO: &quot; + this.getMembers().getMemberById(id).getNameByPriority()</span>
+<span class="nc" id="L284">											+ &quot; WEIGHT: &quot; + mention.getWeight().get(id));</span>
+<span class="nc" id="L285">						}</span>
+<span class="nc" id="L286">						System.out.println(&quot;&quot;);</span>
+					}
+<span class="nc" id="L288">				}</span>
+		} else {
+<span class="nc" id="L290">			System.out.println(&quot;NONE MENTIONS BY THIS USER&quot;);</span>
+		}
+<span class="nc" id="L292">	}</span>
+
+	/**
+	 * It prints all the mentions made to a user with weight.
+	 *
+	 * @param iduser the user that received the mentions.
+	 **/
+	public void printNamedMentionsWhithWheightTO(final String iduser) {
+<span class="nc bnc" id="L300" title="All 4 branches missed.">		if (!this.getMentions().getArray().isEmpty() &amp;&amp; !this.isAbsentTo(iduser)) {</span>
+<span class="nc bnc" id="L301" title="All 2 branches missed.">				for (Mention mention : this.getMentions().getArray()) {</span>
+<span class="nc bnc" id="L302" title="All 2 branches missed.">					for (String id : mention.getTO()) {</span>
+<span class="nc bnc" id="L303" title="All 2 branches missed.">						if (id.equals(iduser)) {</span>
+<span class="nc" id="L304">							System.out.println(</span>
+<span class="nc" id="L305">									&quot;FROM: &quot; + this.getMembers().getMemberById(mention.getFROM()).getNameByPriority()</span>
+<span class="nc" id="L306">											+ &quot; TO: &quot; + this.getMembers().getMemberById(id).getNameByPriority()</span>
+<span class="nc" id="L307">											+ &quot; WEIGHT: &quot; + mention.getWeight().get(id));</span>
+						}
+<span class="nc" id="L309">					}</span>
+<span class="nc" id="L310">				}</span>
+		} else {
+<span class="nc" id="L312">			System.out.println(&quot;NONE MENTIONS TO THIS USER&quot;);</span>
+		}
+<span class="nc" id="L314">	}</span>
+
+	/**
+	 * It sets the workspacedir.
+	 * @param dir the workspace path.
+	 **/
+	public final void setWorkspaceDir(final String dir) {
+<span class="fc" id="L321">		this.workspacedir = dir;</span>
+<span class="fc" id="L322">	}</span>
+
+	/**
+	 * It sets all the mentions.
+	 * @param globalmentions all the mentions.
+	 **/
+	public final void setMentions(final ArrayMentions globalmentions) {
+<span class="fc" id="L329">		this.mentions = globalmentions;</span>
+<span class="fc" id="L330">	}</span>
+
+	/**
+	 * It sets all the members.
+	 * @param globalmembers all the members.
+	 **/
+	public final void setMembers(final ArrayMember globalmembers) {
+<span class="fc" id="L337">		this.members = globalmembers;</span>
+<span class="fc" id="L338">	}</span>
+
+	/**
+	 * It sets all the channels.
+	 * @param globalchannels all the channels.
+	 **/
+	public final void setChannels(final ArrayChannel globalchannels) {
+<span class="fc" id="L345">		this.channels = globalchannels;</span>
+<span class="fc" id="L346">	}</span>
+
+	/**
+	 * It gets the workspace path.
+	 * @return workspacedir string.
+	 **/
+	public final String getWorkspaceDir() {
+<span class="fc" id="L353">		return this.workspacedir;</span>
+	}
+
+	/**
+	 * It gets the menions.
+	 * @return mentions Array.
+	 **/
+	public ArrayMentions getMentions() {
+<span class="fc" id="L361">		return this.mentions;</span>
+	}
+
+	/**
+	 * It gets the members.
+	 * @return members Array.
+	 **/
+	public ArrayMember getMembers() {
+<span class="fc" id="L369">		return this.members;</span>
+	}
+
+	/**
+	 * It gets the channels.
+	 * @return channels Array.
+	 **/
+	public ArrayChannel getChannels() {
+<span class="fc" id="L377">		return this.channels;</span>
+	}
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.0.201801022044</span></div></body></html>
