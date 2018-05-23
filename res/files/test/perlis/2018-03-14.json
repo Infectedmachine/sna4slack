@@ -1,0 +1,42 @@
+[
+    {
+        "type": "message",
+        "user": "U9NJ3PL4D",
+        "text": "A",
+        "client_msg_id": "dda4cb6b-9e86-4ba3-a7fd-df23c28ebba0",
+        "ts": "1521020794.000373"
+    },
+    {
+        "type": "message",
+        "user": "U9NJ3PL4D",
+        "text": "B",
+        "client_msg_id": "0e3cee3e-54ea-4f8f-a7da-40e61d469c49",
+        "ts": "1521020861.000195"
+    },
+    {
+        "user": "U9PGALKRR",
+        "text": "<@U9PGALKRR> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1521035419.000464"
+    },
+    {
+        "type": "message",
+        "user": "U9PGALKRR",
+        "text": "Alan J Perlis vinse il TA nel 1966 per la sua influenza nell’area delle tecniche di programmazione avanzata e per la costruzione di compilatori. La sua vittoria avvenne in particolare per il lavoro svolto come membro del team che sviluppò il linguaggio di programmazione ALGOL (diminutivo di linguaggio algoritmico, appartenente alla famiglia dei linguaggi imperativi).",
+        "client_msg_id": "869B6887-5827-4A49-A0BC-863B4525F606",
+        "ts": "1521036133.000754"
+    },
+    {
+        "type": "message",
+        "user": "U9P21SKA6",
+        "text": "Ci siamo",
+        "ts": "1521036429.000027"
+    },
+    {
+        "type": "message",
+        "user": "U9P21SKA6",
+        "text": ":sunglasses::top:",
+        "ts": "1521036440.000229"
+    }
+]

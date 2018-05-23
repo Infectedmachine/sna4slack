@@ -1,0 +1,71 @@
+[
+    {
+        "type": "message",
+        "user": "U9NBDU7B4",
+        "text": "Raga, ma ci vediamo per questi commit? Così ne parliamo un po' insieme",
+        "client_msg_id": "0739f40d-42a3-438e-aab4-b0eed9b90b19",
+        "ts": "1524070120.000162"
+    },
+    {
+        "type": "message",
+        "user": "U9NSNMBMG",
+        "text": "20 minuti e siamo da te",
+        "ts": "1524070231.000022"
+    },
+    {
+        "type": "message",
+        "user": "U9Q3DHX0V",
+        "text": "Va bene Giovanni, veniamo noi",
+        "ts": "1524070236.000506"
+    },
+    {
+        "type": "message",
+        "user": "U9NGE229G",
+        "text": "Si va benissimo",
+        "client_msg_id": "e99f84a2-ef55-4d60-9276-258943e9715d",
+        "ts": "1524070260.000675"
+    },
+    {
+        "type": "message",
+        "user": "U9NBDU7B4",
+        "text": "Che rapidità :sunglasses:",
+        "client_msg_id": "f394588a-ab6c-4675-94b9-eebb07cdbc19",
+        "ts": "1524070286.000358"
+    },
+    {
+        "type": "message",
+        "user": "U9NBDU7B4",
+        "text": "Intanto leggo un po' il da farsi",
+        "client_msg_id": "35bae492-cc11-4776-8c0f-33443cbc153e",
+        "ts": "1524070355.000685"
+    },
+    {
+        "type": "message",
+        "user": "U9NGE229G",
+        "text": "Perfetto anche io tra massimo mezz'ora sono da te il tempo di organizzarmi",
+        "client_msg_id": "9e359c54-c99c-4b30-97b2-266cb75846df",
+        "ts": "1524070406.000382",
+        "reactions": [
+            {
+                "name": "santa",
+                "users": [
+                    "U9NBDU7B4"
+                ],
+                "count": 1
+            },
+            {
+                "name": "unicorn_face",
+                "users": [
+                    "U9Q3DHX0V"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9PUAUSRM",
+        "text": "Buongiorno, ragazzi, ho appena letto. Vi raggiungo appena posso.",
+        "ts": "1524074092.000826"
+    }
+]

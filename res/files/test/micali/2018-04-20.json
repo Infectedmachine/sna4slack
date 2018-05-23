@@ -1,0 +1,45 @@
+[
+    {
+        "type": "message",
+        "user": "U9P61MA7Q",
+        "text": "commit di modifica del README.md fatto. Confermatemi se Github riporta la modifica",
+        "ts": "1524231961.000862"
+    },
+    {
+        "type": "message",
+        "user": "U9P61MA7Q",
+        "text": "e l'eliminazione del file Workflow progetto.xml",
+        "ts": "1524231977.000285"
+    },
+    {
+        "type": "message",
+        "user": "U9PBHQU3H",
+        "text": "Confermato, è tutto ok",
+        "client_msg_id": "2858e703-05e4-4a21-8c3c-6a2e89ab7897",
+        "ts": "1524234540.000638"
+    },
+    {
+        "type": "message",
+        "user": "U9P61MA7Q",
+        "text": "oooook :grin:",
+        "ts": "1524234601.000621"
+    },
+    {
+        "type": "message",
+        "user": "U9P12DFBK",
+        "text": "confermo anche io. :slightly_smiling_face:",
+        "ts": "1524234912.000251"
+    },
+    {
+        "type": "message",
+        "user": "U9P61MA7Q",
+        "text": "RETTIFICA: ho eliminato il paragrafo **Workflow.xml**, nel commit precedente non lo avevo eliminato",
+        "ts": "1524235220.000677"
+    },
+    {
+        "type": "message",
+        "user": "U9P61MA7Q",
+        "text": "La modifica dovrebbe risultare su github",
+        "ts": "1524235239.000094"
+    }
+]

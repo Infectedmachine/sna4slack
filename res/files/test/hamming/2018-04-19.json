@@ -1,0 +1,66 @@
+[
+    {
+        "type": "message",
+        "user": "U9MQSS657",
+        "text": "<!here> ho eseguito 3 commit, uno per ogni task richiesto dal prof. Ne ho fatto uno ulteriore che elimina il badge di codecov dal file README. Nel secondo commit se vedete una x rossa è perchè travis ha bloccato il build (non so perchè). Nella terza commit il build è passato. Ora attendo la build dopo il 4 commit.",
+        "ts": "1524158975.000224"
+    },
+    {
+        "type": "message",
+        "user": "U9MQSS657",
+        "text": "Ok, praticamente durante la build, se fate un altro commit, la build precedente viene cancellata (tutto ciò è segnalato su github con una x rossa vicino al commit, mentre su travis dice esplicitamente cancellata). Tutto qui.",
+        "ts": "1524159271.000120"
+    },
+    {
+        "type": "message",
+        "user": "U9MQSS657",
+        "text": "E' passata anche l'ultima build.",
+        "ts": "1524159321.000697"
+    },
+    {
+        "type": "message",
+        "user": "U9MQSS657",
+        "text": "Fate *git pull* da console per avere tutto aggiornato in locale. Dalla cartella del progetto ovviamente.",
+        "ts": "1524159468.000238"
+    },
+    {
+        "type": "message",
+        "user": "U9P6VLG6A",
+        "text": "Da travis si puo far partire la build anche di un vecchio commit",
+        "client_msg_id": "f7fb28f1-203b-4261-a303-07780cc65eeb",
+        "ts": "1524159535.000463"
+    },
+    {
+        "type": "message",
+        "user": "U9MQSS657",
+        "text": "yes",
+        "ts": "1524159577.000132"
+    },
+    {
+        "type": "message",
+        "user": "U9P6VLG6A",
+        "text": "Scusatemi raga'...",
+        "client_msg_id": "2d31f66f-cf9e-4865-9911-540ea7aa563e",
+        "ts": "1524159616.000161"
+    },
+    {
+        "type": "message",
+        "user": "U9P6VLG6A",
+        "text": "Nonna l'abbiamo portata a casa...",
+        "client_msg_id": "03b6f618-e147-4ecb-8d87-882a9dc4af47",
+        "ts": "1524159660.000433"
+    },
+    {
+        "type": "message",
+        "user": "U9P6VLG6A",
+        "text": "Non possiamo fare piu nulla",
+        "client_msg_id": "44be2fe7-49b9-4e13-a124-b3587b003de6",
+        "ts": "1524159672.000774"
+    },
+    {
+        "type": "message",
+        "user": "U9MQSS657",
+        "text": "Tranquillo Andrè",
+        "ts": "1524159875.000084"
+    }
+]

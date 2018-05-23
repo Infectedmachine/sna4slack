@@ -1,0 +1,76 @@
+[
+    {
+        "type": "message",
+        "user": "U9P61MA7Q",
+        "text": "Ragazzi, il prof. Caldaro ha inviato le direttivae per laodifica del file. Oggi pomeriggio post pranzo mi attivo e modifico, controllate git hub per la pull request",
+        "client_msg_id": "96ff5a54-42bd-4d72-a5b1-6bf459dbb34b",
+        "ts": "1523964993.000140"
+    },
+    {
+        "type": "message",
+        "user": "U9P61MA7Q",
+        "text": "Calefato:grin:",
+        "client_msg_id": "4181672c-e829-47e8-b50e-3d04a6e238ad",
+        "ts": "1523965006.000057"
+    },
+    {
+        "type": "message",
+        "user": "U9P61MA7Q",
+        "text": "Una cosa ragazzi: io domani non ci sarò, e torno giovedì, quindi non potrò monitorare la situazione in questi due giorni",
+        "client_msg_id": "f594236c-2ea8-4ead-9a5a-3a4b9177f50c",
+        "ts": "1523965961.000040"
+    },
+    {
+        "type": "message",
+        "user": "U9P61MA7Q",
+        "text": "Al più potrò tenere d'occhio slack",
+        "client_msg_id": "ad78a1a5-3330-4845-abda-8ffa58c02846",
+        "ts": "1523965970.000401",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9PBHQU3H",
+                    "U9P1B28NM"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9P61MA7Q",
+        "text": "Alessia ha aggiornato il file .travis come richiesto dal Prof. Calefato. Attendiamo altre istruzioni, come da lui annunciato",
+        "ts": "1523979461.000586",
+        "reactions": [
+            {
+                "name": "clap",
+                "users": [
+                    "U9P1B28NM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9PBHQU3H",
+        "text": "Vi prego, almeno voi chiamatemi Alex :joy::joy:",
+        "ts": "1523979548.000377",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U9P1B28NM"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9P61MA7Q",
+        "text": "Oooook :rolling_on_the_floor_laughing:",
+        "ts": "1523979565.000706"
+    }
+]

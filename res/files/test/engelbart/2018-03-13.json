@@ -1,0 +1,18 @@
+[
+    {
+        "user": "U9MU4674H",
+        "purpose": "Cinquepalmi, La Gala, De Stradis.",
+        "text": "<@U9MU4674H> set the channel purpose: Cinquepalmi, La Gala, De Stradis.",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520924419.000185"
+    },
+    {
+        "user": "U9MU4674H",
+        "topic": "",
+        "text": "<@U9MU4674H> cleared channel topic",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1520924419.000209"
+    }
+]

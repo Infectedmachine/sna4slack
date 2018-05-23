@@ -1,0 +1,12 @@
+[
+    {
+        "type": "message",
+        "user": "U9L0877K5",
+        "text": "pdw\ngit clone <https:\/\/github.com\/lapentad\/demo3.git>\ncd demo3\ngit status\ngit remote -v\n\n\/\/crezione issue su github\/\/\n\ngit branch issue#1\ngit checkout issue#1\nnano README.md\ngit add README.md\ngit commit -m \"Aggiungi descrizione Dijkstra\"\ngit push origin issue#1\n\n\/\/Visione su github della issue#1 creata e fare Merge pull request\/\/\n\ngit pull origin\ngit status\ngit checkout master\ngit branch -d issue#1",
+        "edited": {
+            "user": "U9L0877K5",
+            "ts": "1521463467.000000"
+        },
+        "ts": "1521463460.000068"
+    }
+]

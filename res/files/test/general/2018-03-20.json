@@ -1,0 +1,412 @@
+[
+    {
+        "type": "message",
+        "user": "U9RTC8JSE",
+        "text": "<@U9BD7NMPC> prof c'è lezione oggi?",
+        "client_msg_id": "32473fb4-a72b-4a03-9e6d-eedf178947cd",
+        "ts": "1521537825.000072"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "esercitazione e poi lezione",
+        "ts": "1521541439.000402"
+    },
+    {
+        "type": "message",
+        "user": "U9NDPBTNF",
+        "text": "Prof oggi era dalle 9:30",
+        "client_msg_id": "70dc530e-4bb3-4782-90f8-179d2e89bd23",
+        "ts": "1521541524.000279"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "scusatemi! Ero convinto che fosse alle 11:30",
+        "ts": "1521541555.000247",
+        "reactions": [
+            {
+                "name": "rocket",
+                "users": [
+                    "U9PQX9LAZ",
+                    "U9NQ1QL72",
+                    "U9P373ASV",
+                    "U9P3321UY",
+                    "U9PKEG3UK",
+                    "U9PJQ7YP6",
+                    "U9PK8UJBA",
+                    "U9NG44DUJ",
+                    "U9N8GRK3J",
+                    "U9NQ3SVMH",
+                    "U9NDHPVRS"
+                ],
+                "count": 11
+            },
+            {
+                "name": "woman-facepalming::skin-tone-2",
+                "users": [
+                    "U9NDHPVRS",
+                    "U9PAU9362",
+                    "U9PDKF5JB",
+                    "U9NQ3SVMH"
+                ],
+                "count": 4
+            },
+            {
+                "name": "joy",
+                "users": [
+                    "U9NQ3SVMH"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "Mi spiace molto",
+        "ts": "1521541591.000310",
+        "reactions": [
+            {
+                "name": "woman-facepalming::skin-tone-2",
+                "users": [
+                    "U9NDHPVRS",
+                    "U9PQX9LAZ",
+                    "U9PAU9362",
+                    "U9NG44DUJ",
+                    "U9NQ3SVMH"
+                ],
+                "count": 5
+            },
+            {
+                "name": "white_frowning_face",
+                "users": [
+                    "U9NQ3SVMH"
+                ],
+                "count": 1
+            },
+            {
+                "name": "man-gesturing-no",
+                "users": [
+                    "U9NQ3SVMH"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "Mi autoschiaffeggio",
+        "ts": "1521541636.000467",
+        "reactions": [
+            {
+                "name": "woman-facepalming::skin-tone-2",
+                "users": [
+                    "U9NDHPVRS",
+                    "U9PK8UJBA",
+                    "U9PAU9362",
+                    "U9MML6PLG",
+                    "U9NQ3SVMH"
+                ],
+                "count": 5
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U9NQ1QL72",
+                    "U9PQX9LAZ",
+                    "U9QLDMNDV",
+                    "U9PDKF5JB",
+                    "U9NQ3SVMH"
+                ],
+                "count": 5
+            },
+            {
+                "name": "star-struck",
+                "users": [
+                    "U9NQ3SVMH"
+                ],
+                "count": 1
+            },
+            {
+                "name": "face_with_hand_over_mouth",
+                "users": [
+                    "U9NQ3SVMH"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "Sono costernato. Spero che almeno abbiate la lezione successiva e che non siate venuti apposta solo per la lezione saltata",
+        "ts": "1521541718.000192",
+        "reactions": [
+            {
+                "name": "100",
+                "users": [
+                    "U9PK8UJBA",
+                    "U9NQ3SVMH"
+                ],
+                "count": 2
+            },
+            {
+                "name": "male-student",
+                "users": [
+                    "U9NQ3SVMH",
+                    "U9NCMRU8H"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U9PAU9362> uploaded a file: <https:\/\/ingsw1718.slack.com\/files\/U9PAU9362\/F9SPSMS2W\/img_20180320_113147.jpg|IMG_20180320_113147.jpg> and commented: Noi eravamo qui solo per lei :(",
+        "file": {
+            "id": "F9SPSMS2W",
+            "created": 1521541977,
+            "timestamp": 1521541977,
+            "name": "IMG_20180320_113147.jpg",
+            "title": "IMG_20180320_113147.jpg",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U9PAU9362",
+            "editable": false,
+            "size": 2399849,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-F9SPSMS2W\/img_20180320_113147.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-F9SPSMS2W\/download\/img_20180320_113147.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-F9SPSMS2W-92e9be3c63\/img_20180320_113147_64.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-F9SPSMS2W-92e9be3c63\/img_20180320_113147_80.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-F9SPSMS2W-92e9be3c63\/img_20180320_113147_360.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360_w": 360,
+            "thumb_360_h": 270,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-F9SPSMS2W-92e9be3c63\/img_20180320_113147_480.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_480_w": 480,
+            "thumb_480_h": 360,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-F9SPSMS2W-92e9be3c63\/img_20180320_113147_160.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-F9SPSMS2W-92e9be3c63\/img_20180320_113147_720.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720_w": 720,
+            "thumb_720_h": 540,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-F9SPSMS2W-92e9be3c63\/img_20180320_113147_800.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_800_w": 800,
+            "thumb_800_h": 600,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-F9SPSMS2W-92e9be3c63\/img_20180320_113147_960.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_960_w": 960,
+            "thumb_960_h": 720,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-F9SPSMS2W-92e9be3c63\/img_20180320_113147_1024.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 768,
+            "image_exif_rotation": 1,
+            "original_w": 2592,
+            "original_h": 1944,
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/U9PAU9362\/F9SPSMS2W\/img_20180320_113147.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-F9SPSMS2W-c70b805885",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 2,
+            "initial_comment": {
+                "id": "Fc9S7G07J5",
+                "created": 1521541977,
+                "timestamp": 1521541977,
+                "user": "U9PAU9362",
+                "is_intro": true,
+                "comment": "Noi eravamo qui solo per lei :("
+            },
+            "reactions": [
+                {
+                    "name": "joy",
+                    "users": [
+                        "U9CDZPXLN",
+                        "U9NCMRU8H"
+                    ],
+                    "count": 2
+                },
+                {
+                    "name": "tongue",
+                    "users": [
+                        "U9NCMRU8H",
+                        "U9SNDGH0A"
+                    ],
+                    "count": 2
+                }
+            ]
+        },
+        "user": "U9PAU9362",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "giovanni.lanotte",
+        "bot_id": null,
+        "ts": "1521541982.000160"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "30 e lode a tutti",
+        "client_msg_id": "ed80daeb-6fa0-441f-aa5b-a5fbe1448a53",
+        "ts": "1521542005.000437",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U9PAU9362",
+                    "U9PK8UJBA",
+                    "U9NDHPVRS",
+                    "U9NQ3SVMH",
+                    "U9PNDSW4R",
+                    "U9JS0QR60",
+                    "U9NRSQ859",
+                    "U9NCMRU8H",
+                    "U9NBUHYJF",
+                    "U9N7WANGG",
+                    "UA2DNR4F4"
+                ],
+                "count": 11
+            },
+            {
+                "name": "slightly_smiling_face",
+                "users": [
+                    "U9BD7NMPC",
+                    "U9NQ3SVMH"
+                ],
+                "count": 2
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U9SNDGH0A",
+                    "U9NQ3SVMH"
+                ],
+                "count": 2
+            },
+            {
+                "name": "unicorn_face",
+                "users": [
+                    "U9PDKF5JB"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@U9BD7NMPC> commented on <@U9PAU9362>’s file <https:\/\/ingsw1718.slack.com\/files\/U9PAU9362\/F9SPSMS2W\/img_20180320_113147.jpg|IMG_20180320_113147.jpg>: Sì me ne sono appena reso conto scendendo in aula",
+        "file": {
+            "id": "F9SPSMS2W",
+            "created": 1521541977,
+            "timestamp": 1521541977,
+            "name": "IMG_20180320_113147.jpg",
+            "title": "IMG_20180320_113147.jpg",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U9PAU9362",
+            "editable": false,
+            "size": 2399849,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-F9SPSMS2W\/img_20180320_113147.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-F9SPSMS2W\/download\/img_20180320_113147.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-F9SPSMS2W-92e9be3c63\/img_20180320_113147_64.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-F9SPSMS2W-92e9be3c63\/img_20180320_113147_80.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-F9SPSMS2W-92e9be3c63\/img_20180320_113147_360.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360_w": 360,
+            "thumb_360_h": 270,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-F9SPSMS2W-92e9be3c63\/img_20180320_113147_480.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_480_w": 480,
+            "thumb_480_h": 360,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-F9SPSMS2W-92e9be3c63\/img_20180320_113147_160.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-F9SPSMS2W-92e9be3c63\/img_20180320_113147_720.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720_w": 720,
+            "thumb_720_h": 540,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-F9SPSMS2W-92e9be3c63\/img_20180320_113147_800.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_800_w": 800,
+            "thumb_800_h": 600,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-F9SPSMS2W-92e9be3c63\/img_20180320_113147_960.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_960_w": 960,
+            "thumb_960_h": 720,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-F9SPSMS2W-92e9be3c63\/img_20180320_113147_1024.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 768,
+            "image_exif_rotation": 1,
+            "original_w": 2592,
+            "original_h": 1944,
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/U9PAU9362\/F9SPSMS2W\/img_20180320_113147.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-F9SPSMS2W-c70b805885",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 2,
+            "initial_comment": {
+                "id": "Fc9S7G07J5",
+                "created": 1521541977,
+                "timestamp": 1521541977,
+                "user": "U9PAU9362",
+                "is_intro": true,
+                "comment": "Noi eravamo qui solo per lei :("
+            },
+            "reactions": [
+                {
+                    "name": "joy",
+                    "users": [
+                        "U9CDZPXLN",
+                        "U9NCMRU8H"
+                    ],
+                    "count": 2
+                },
+                {
+                    "name": "tongue",
+                    "users": [
+                        "U9NCMRU8H",
+                        "U9SNDGH0A"
+                    ],
+                    "count": 2
+                }
+            ]
+        },
+        "comment": {
+            "id": "Fc9S4JS1ME",
+            "created": 1521542330,
+            "timestamp": 1521542330,
+            "user": "U9BD7NMPC",
+            "is_intro": false,
+            "comment": "Sì me ne sono appena reso conto scendendo in aula"
+        },
+        "is_intro": false,
+        "ts": "1521542330.000130"
+    },
+    {
+        "type": "message",
+        "user": "U9T6XT550",
+        "text": "Salve a tutti",
+        "ts": "1521578234.000364",
+        "reactions": [
+            {
+                "name": "wave",
+                "users": [
+                    "U9PNDSW4R",
+                    "U9MML6PLG"
+                ],
+                "count": 2
+            }
+        ]
+    }
+]

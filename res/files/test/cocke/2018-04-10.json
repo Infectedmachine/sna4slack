@@ -1,0 +1,52 @@
+[
+    {
+        "user": "U9NS5BECU",
+        "text": "<@U9NS5BECU> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1523347476.000110"
+    },
+    {
+        "user": "U9Q0RC3E2",
+        "text": "<@U9Q0RC3E2> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1523347476.000403"
+    },
+    {
+        "type": "message",
+        "user": "U9NS5BECU",
+        "text": "cosimo non abbandonare questo gruppo per ora",
+        "edited": {
+            "user": "U9NS5BECU",
+            "ts": "1523354232.000000"
+        },
+        "ts": "1523354219.000379"
+    },
+    {
+        "type": "message",
+        "user": "U9NS5BECU",
+        "text": "inoltre ha detto il prof che su github bisogna avere il nome reale o nell'user name o nella stringa sotto",
+        "ts": "1523355159.000267"
+    },
+    {
+        "user": "U9BD7NMPC",
+        "text": "<@U9BD7NMPC> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1523373998.000975"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<!channel> avete creato un nuovo gruppo e quindi procedo a rimuovere il channel",
+        "ts": "1523374024.000788"
+    },
+    {
+        "user": "U9BD7NMPC",
+        "text": "<@U9BD7NMPC> archived the channel",
+        "type": "message",
+        "subtype": "channel_archive",
+        "ts": "1523374085.000638"
+    }
+]

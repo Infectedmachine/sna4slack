@@ -1,0 +1,711 @@
+[
+    {
+        "type": "message",
+        "user": "U9NAWS8CR",
+        "text": "<@U9BD7NMPC> sono del gruppo knuth la repository ora c'è ma quando provo a fare la configurazione di travis-ci non compare il bottone settings, provando ad andare su setting tramite url mi dice \"There was an error while loading data.\"  cosa posso fare per risolvere?",
+        "ts": "1523520787.000329"
+    },
+    {
+        "type": "message",
+        "user": "U9CDZPXLN",
+        "text": "<@U9NAWS8CR> fixed. <@U9BD7NMPC> ho sistemato io — c’era solo permesso Read al repo, non Write",
+        "ts": "1523523577.000441",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9BD7NMPC"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9NAWS8CR",
+        "text": "grazie",
+        "ts": "1523523587.000233",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9CDZPXLN"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U9PBHQU3H> uploaded a file: <https:\/\/ingsw1718.slack.com\/files\/U9PBHQU3H\/FA5GZTD8A\/cattura.jpg|Cattura.JPG> and commented: Errore nel Grandle built",
+        "file": {
+            "id": "FA5GZTD8A",
+            "created": 1523527214,
+            "timestamp": 1523527214,
+            "name": "Cattura.JPG",
+            "title": "Cattura.JPG",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U9PBHQU3H",
+            "editable": false,
+            "size": 30280,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA5GZTD8A\/cattura.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA5GZTD8A\/download\/cattura.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5GZTD8A-1657a254a2\/cattura_64.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5GZTD8A-1657a254a2\/cattura_80.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5GZTD8A-1657a254a2\/cattura_360.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360_w": 360,
+            "thumb_360_h": 150,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5GZTD8A-1657a254a2\/cattura_480.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_480_w": 480,
+            "thumb_480_h": 200,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5GZTD8A-1657a254a2\/cattura_160.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "image_exif_rotation": 1,
+            "original_w": 544,
+            "original_h": 227,
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/U9PBHQU3H\/FA5GZTD8A\/cattura.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-FA5GZTD8A-39793f5302",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 3,
+            "initial_comment": {
+                "id": "FcA50Y1QF3",
+                "created": 1523527214,
+                "timestamp": 1523527214,
+                "user": "U9PBHQU3H",
+                "is_intro": true,
+                "comment": "Errore nel Grandle built"
+            }
+        },
+        "user": "U9PBHQU3H",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "ambra.leila",
+        "bot_id": null,
+        "ts": "1523527216.000080"
+    },
+    {
+        "type": "message",
+        "user": "U9NDPBTNF",
+        "text": "Non devi farlo nel workspace principale di eclipse",
+        "ts": "1523527272.000082"
+    },
+    {
+        "type": "message",
+        "user": "U9NDPBTNF",
+        "text": "<@U9PBHQU3H> prova a spostare la cartella del progetto che hai scaricato sul desktop e riprova a fare l'import",
+        "edited": {
+            "user": "U9NDPBTNF",
+            "ts": "1523527309.000000"
+        },
+        "thread_ts": "1523527292.000203",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U9PBHQU3H",
+                "ts": "1523527482.000360"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1523527292.000203"
+    },
+    {
+        "type": "message",
+        "user": "U9PBHQU3H",
+        "text": "Mi da lo stesso errore",
+        "client_msg_id": "51395ff4-9782-4e05-8c16-c6604ef88164",
+        "thread_ts": "1523527292.000203",
+        "parent_user_id": "U9NDPBTNF",
+        "ts": "1523527482.000360"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U9QMPRZAT> uploaded a file: <https:\/\/ingsw1718.slack.com\/files\/U9QMPRZAT\/FA5MUQPRB\/img_20180412_125757.jpg|IMG_20180412_125757.jpg> and commented: <@U9CDZPXLN>  <#C9QR7R4J2|sutherland> ho copiato il link nel browser con il nome del nostro team ma compare questo",
+        "file": {
+            "id": "FA5MUQPRB",
+            "created": 1523530790,
+            "timestamp": 1523530790,
+            "name": "IMG_20180412_125757.jpg",
+            "title": "IMG_20180412_125757.jpg",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U9QMPRZAT",
+            "editable": false,
+            "size": 2478893,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA5MUQPRB\/img_20180412_125757.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA5MUQPRB\/download\/img_20180412_125757.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5MUQPRB-55f8622ae8\/img_20180412_125757_64.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5MUQPRB-55f8622ae8\/img_20180412_125757_80.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5MUQPRB-55f8622ae8\/img_20180412_125757_360.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360_w": 202,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5MUQPRB-55f8622ae8\/img_20180412_125757_480.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5MUQPRB-55f8622ae8\/img_20180412_125757_160.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5MUQPRB-55f8622ae8\/img_20180412_125757_720.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720_w": 404,
+            "thumb_720_h": 720,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5MUQPRB-55f8622ae8\/img_20180412_125757_800.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_800_w": 800,
+            "thumb_800_h": 1425,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5MUQPRB-55f8622ae8\/img_20180412_125757_960.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_960_w": 539,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5MUQPRB-55f8622ae8\/img_20180412_125757_1024.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_1024_w": 575,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 2336,
+            "original_h": 4160,
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/U9QMPRZAT\/FA5MUQPRB\/img_20180412_125757.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-FA5MUQPRB-c2f623bdf6",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 3,
+            "initial_comment": {
+                "id": "FcA6K9V9AB",
+                "created": 1523530790,
+                "timestamp": 1523530790,
+                "user": "U9QMPRZAT",
+                "is_intro": true,
+                "comment": "<@U9CDZPXLN>  <#C9QR7R4J2|sutherland> ho copiato il link nel browser con il nome del nostro team ma compare questo"
+            }
+        },
+        "user": "U9QMPRZAT",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "marco_zeno",
+        "bot_id": null,
+        "ts": "1523530797.000051"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "quando scrivete su questo channel specificate *sempre* il vostro team",
+        "ts": "1523535479.000062"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@U9PBHQU3H> commented on <@U9PBHQU3H>’s file <https:\/\/ingsw1718.slack.com\/files\/U9PBHQU3H\/FA5GZTD8A\/cattura.jpg|Cattura.JPG>: <#C9NEL4BRA|micali>",
+        "file": {
+            "id": "FA5GZTD8A",
+            "created": 1523527214,
+            "timestamp": 1523527214,
+            "name": "Cattura.JPG",
+            "title": "Cattura.JPG",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U9PBHQU3H",
+            "editable": false,
+            "size": 30280,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA5GZTD8A\/cattura.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA5GZTD8A\/download\/cattura.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5GZTD8A-1657a254a2\/cattura_64.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5GZTD8A-1657a254a2\/cattura_80.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5GZTD8A-1657a254a2\/cattura_360.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360_w": 360,
+            "thumb_360_h": 150,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5GZTD8A-1657a254a2\/cattura_480.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_480_w": 480,
+            "thumb_480_h": 200,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5GZTD8A-1657a254a2\/cattura_160.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "image_exif_rotation": 1,
+            "original_w": 544,
+            "original_h": 227,
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/U9PBHQU3H\/FA5GZTD8A\/cattura.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-FA5GZTD8A-39793f5302",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 3,
+            "initial_comment": {
+                "id": "FcA50Y1QF3",
+                "created": 1523527214,
+                "timestamp": 1523527214,
+                "user": "U9PBHQU3H",
+                "is_intro": true,
+                "comment": "Errore nel Grandle built"
+            }
+        },
+        "comment": {
+            "id": "FcA5G0A4G3",
+            "created": 1523535584,
+            "timestamp": 1523535584,
+            "user": "U9PBHQU3H",
+            "is_intro": false,
+            "comment": "<#C9NEL4BRA|micali>"
+        },
+        "is_intro": false,
+        "ts": "1523535584.000388"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<@U9QMPRZAT> Non riesce ad accedere a <https:\/\/github.com\/softeng-inf-uniba\/progetto1718-sutherland> ?",
+        "ts": "1523535760.000517"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "Ha fatto il sign in?",
+        "ts": "1523535789.000536"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@U9SUDJ8J2> commented on <@U9QMPRZAT>’s file <https:\/\/ingsw1718.slack.com\/files\/U9QMPRZAT\/FA5MUQPRB\/img_20180412_125757.jpg|IMG_20180412_125757.jpg>: Prova a togliere gli angolari dal nome del gruppo",
+        "file": {
+            "id": "FA5MUQPRB",
+            "created": 1523530790,
+            "timestamp": 1523530790,
+            "name": "IMG_20180412_125757.jpg",
+            "title": "IMG_20180412_125757.jpg",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U9QMPRZAT",
+            "editable": false,
+            "size": 2478893,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA5MUQPRB\/img_20180412_125757.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA5MUQPRB\/download\/img_20180412_125757.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5MUQPRB-55f8622ae8\/img_20180412_125757_64.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5MUQPRB-55f8622ae8\/img_20180412_125757_80.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5MUQPRB-55f8622ae8\/img_20180412_125757_360.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360_w": 202,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5MUQPRB-55f8622ae8\/img_20180412_125757_480.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5MUQPRB-55f8622ae8\/img_20180412_125757_160.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5MUQPRB-55f8622ae8\/img_20180412_125757_720.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720_w": 404,
+            "thumb_720_h": 720,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5MUQPRB-55f8622ae8\/img_20180412_125757_800.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_800_w": 800,
+            "thumb_800_h": 1425,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5MUQPRB-55f8622ae8\/img_20180412_125757_960.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_960_w": 539,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5MUQPRB-55f8622ae8\/img_20180412_125757_1024.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_1024_w": 575,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 2336,
+            "original_h": 4160,
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/U9QMPRZAT\/FA5MUQPRB\/img_20180412_125757.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-FA5MUQPRB-c2f623bdf6",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 3,
+            "initial_comment": {
+                "id": "FcA6K9V9AB",
+                "created": 1523530790,
+                "timestamp": 1523530790,
+                "user": "U9QMPRZAT",
+                "is_intro": true,
+                "comment": "<@U9CDZPXLN>  <#C9QR7R4J2|sutherland> ho copiato il link nel browser con il nome del nostro team ma compare questo"
+            }
+        },
+        "comment": {
+            "id": "FcA6FW2B0W",
+            "created": 1523536279,
+            "timestamp": 1523536279,
+            "user": "U9SUDJ8J2",
+            "is_intro": false,
+            "comment": "Prova a togliere gli angolari dal nome del gruppo",
+            "reactions": [
+                {
+                    "name": "+1",
+                    "users": [
+                        "U9QMPRZAT"
+                    ],
+                    "count": 1
+                }
+            ]
+        },
+        "is_intro": false,
+        "ts": "1523536279.000343"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "Complimenti ad <@U9SUDJ8J2>",
+        "ts": "1523536417.000044"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<@U9QMPRZAT> Mi rendo conto che quello che ho detto a lezione non è stato ben recepito",
+        "ts": "1523536558.000453"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@U9CDZPXLN> commented on <@U9PBHQU3H>’s file <https:\/\/ingsw1718.slack.com\/files\/U9PBHQU3H\/FA5GZTD8A\/cattura.jpg|Cattura.JPG>: <@U9PBHQU3H> hai provato le soluzioni raccomandate in questo thread? <https:\/\/stackoverflow.com\/questions\/42591546\/gradle-sync-failed-cause-error-in-opening-zip-file-corrupt-dependency-cache\/42600670>",
+        "file": {
+            "id": "FA5GZTD8A",
+            "created": 1523527214,
+            "timestamp": 1523527214,
+            "name": "Cattura.JPG",
+            "title": "Cattura.JPG",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U9PBHQU3H",
+            "editable": false,
+            "size": 30280,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA5GZTD8A\/cattura.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA5GZTD8A\/download\/cattura.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5GZTD8A-1657a254a2\/cattura_64.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5GZTD8A-1657a254a2\/cattura_80.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5GZTD8A-1657a254a2\/cattura_360.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360_w": 360,
+            "thumb_360_h": 150,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5GZTD8A-1657a254a2\/cattura_480.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_480_w": 480,
+            "thumb_480_h": 200,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5GZTD8A-1657a254a2\/cattura_160.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "image_exif_rotation": 1,
+            "original_w": 544,
+            "original_h": 227,
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/U9PBHQU3H\/FA5GZTD8A\/cattura.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-FA5GZTD8A-39793f5302",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 3,
+            "initial_comment": {
+                "id": "FcA50Y1QF3",
+                "created": 1523527214,
+                "timestamp": 1523527214,
+                "user": "U9PBHQU3H",
+                "is_intro": true,
+                "comment": "Errore nel Grandle built"
+            }
+        },
+        "comment": {
+            "id": "FcA5EUU0AY",
+            "created": 1523543281,
+            "timestamp": 1523543281,
+            "user": "U9CDZPXLN",
+            "is_intro": false,
+            "comment": "<@U9PBHQU3H> hai provato le soluzioni raccomandate in questo thread? <https:\/\/stackoverflow.com\/questions\/42591546\/gradle-sync-failed-cause-error-in-opening-zip-file-corrupt-dependency-cache\/42600670>"
+        },
+        "is_intro": false,
+        "ts": "1523543281.000086"
+    },
+    {
+        "type": "message",
+        "user": "U9PBHQU3H",
+        "text": "<@U9CDZPXLN> la ringrazio, avevo cercato delle soluzioni, ma non avevo trovato questo. Si è risolto.",
+        "client_msg_id": "a5718852-c535-4fab-9e61-1733acc27efe",
+        "ts": "1523543949.000220"
+    },
+    {
+        "type": "message",
+        "user": "U9CDZPXLN",
+        "text": "ottimo",
+        "ts": "1523544673.000951",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9PBHQU3H"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U9NJ3PL4D> uploaded a file: <https:\/\/ingsw1718.slack.com\/files\/U9NJ3PL4D\/FA6QNDDPZ\/buildfix.sh|buildfix.sh> and commented: fix build error gradle",
+        "file": {
+            "id": "FA6QNDDPZ",
+            "created": 1523546999,
+            "timestamp": 1523546999,
+            "name": "buildfix.sh",
+            "title": "buildfix.sh",
+            "mimetype": "text\/plain",
+            "filetype": "shell",
+            "pretty_type": "Shell",
+            "user": "U9NJ3PL4D",
+            "editable": true,
+            "size": 419,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA6QNDDPZ\/buildfix.sh?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA6QNDDPZ\/download\/buildfix.sh?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/U9NJ3PL4D\/FA6QNDDPZ\/buildfix.sh",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-FA6QNDDPZ-422aa7852e",
+            "edit_link": "https:\/\/ingsw1718.slack.com\/files\/U9NJ3PL4D\/FA6QNDDPZ\/buildfix.sh\/edit",
+            "preview": "#!\/bin\/sh\ncd gradle\/wrapper\necho \"*****creando la cartella dists...\"\nmkdir dists\necho \"*****cambiando i permessi della cartella dists...\"",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-meta\">#!\/bin\/sh<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">cd<\/span> gradle\/wrapper<\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">echo<\/span> <span class=\"cm-string\">&quot;*****creando la cartella dists...&quot;<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">mkdir<\/span> dists<\/pre><\/div>\n<div><pre><span class=\"cm-builtin\">echo<\/span> <span class=\"cm-string\">&quot;*****cambiando i permessi della cartella dists...&quot;<\/span><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 14,
+            "lines_more": 9,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "FcA6KXD886",
+                "created": 1523546999,
+                "timestamp": 1523546999,
+                "user": "U9NJ3PL4D",
+                "is_intro": true,
+                "comment": "fix build error gradle"
+            },
+            "reactions": [
+                {
+                    "name": "+1",
+                    "users": [
+                        "U9N6Y2L9W"
+                    ],
+                    "count": 1
+                }
+            ]
+        },
+        "user": "U9NJ3PL4D",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "giacinto1996",
+        "bot_id": null,
+        "ts": "1523546999.000822"
+    },
+    {
+        "type": "message",
+        "user": "U9NJ3PL4D",
+        "text": "ho creato uno script per chi ha linux che fa tutto in automatico",
+        "ts": "1523547025.000410"
+    },
+    {
+        "type": "message",
+        "user": "U9Q9CDE0P",
+        "text": "Cosa farebbe questo script?",
+        "client_msg_id": "91474639-0f13-40ea-8bdc-567e703cc5aa",
+        "ts": "1523547049.000355"
+    },
+    {
+        "type": "message",
+        "user": "U9NJ3PL4D",
+        "text": "basta copiarlo nella cartella di progetto ed eseguirlo con permessi di root",
+        "ts": "1523547052.000404"
+    },
+    {
+        "type": "message",
+        "user": "U9NJ3PL4D",
+        "text": "per fixare il bug gradle",
+        "ts": "1523547078.000018"
+    },
+    {
+        "type": "message",
+        "user": "U9Q9CDE0P",
+        "text": "Ahhh ok va bene :blush:",
+        "client_msg_id": "d0c3af5d-2eeb-4021-8e0f-e4e797c34aef",
+        "ts": "1523547107.000097"
+    },
+    {
+        "type": "message",
+        "user": "U9NJ3PL4D",
+        "text": "l'ho fatto per me ma perchè non condividere :slightly_smiling_face:",
+        "ts": "1523547136.000528",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9BD7NMPC"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9Q9CDE0P",
+        "text": "Certo, però io ho Windows e non capivo a che errore ti riferissi, per questo ho chiesto",
+        "client_msg_id": "68c382e2-f25d-4bee-9851-b8a21aef1c23",
+        "ts": "1523547180.000451"
+    },
+    {
+        "type": "message",
+        "user": "U9NJ3PL4D",
+        "text": "ah okok, ho visto che a lezione qualcuno usa linux e ho voluto aiutare",
+        "ts": "1523547282.000083"
+    },
+    {
+        "type": "message",
+        "user": "U9NJ3PL4D",
+        "text": "tutto qui",
+        "ts": "1523547287.000406"
+    },
+    {
+        "type": "message",
+        "user": "U9Q9CDE0P",
+        "text": "Nono infatti hai fatto bene, solo che appena ho letto \"errore\" mi è salito il panico, tutto qua",
+        "client_msg_id": "71d23f99-051d-433f-9cc8-a9438cc2bffc",
+        "ts": "1523547391.000108",
+        "reactions": [
+            {
+                "name": "joy",
+                "users": [
+                    "U9NJ3PL4D"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@U9QMPRZAT> commented on <@U9QMPRZAT>’s file <https:\/\/ingsw1718.slack.com\/files\/U9QMPRZAT\/FA5MUQPRB\/img_20180412_125757.jpg|IMG_20180412_125757.jpg>: Grazie",
+        "file": {
+            "id": "FA5MUQPRB",
+            "created": 1523530790,
+            "timestamp": 1523530790,
+            "name": "IMG_20180412_125757.jpg",
+            "title": "IMG_20180412_125757.jpg",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U9QMPRZAT",
+            "editable": false,
+            "size": 2478893,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA5MUQPRB\/img_20180412_125757.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA5MUQPRB\/download\/img_20180412_125757.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5MUQPRB-55f8622ae8\/img_20180412_125757_64.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5MUQPRB-55f8622ae8\/img_20180412_125757_80.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5MUQPRB-55f8622ae8\/img_20180412_125757_360.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360_w": 202,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5MUQPRB-55f8622ae8\/img_20180412_125757_480.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5MUQPRB-55f8622ae8\/img_20180412_125757_160.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5MUQPRB-55f8622ae8\/img_20180412_125757_720.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720_w": 404,
+            "thumb_720_h": 720,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5MUQPRB-55f8622ae8\/img_20180412_125757_800.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_800_w": 800,
+            "thumb_800_h": 1425,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5MUQPRB-55f8622ae8\/img_20180412_125757_960.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_960_w": 539,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5MUQPRB-55f8622ae8\/img_20180412_125757_1024.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_1024_w": 575,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 2336,
+            "original_h": 4160,
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/U9QMPRZAT\/FA5MUQPRB\/img_20180412_125757.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-FA5MUQPRB-c2f623bdf6",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 3,
+            "initial_comment": {
+                "id": "FcA6K9V9AB",
+                "created": 1523530790,
+                "timestamp": 1523530790,
+                "user": "U9QMPRZAT",
+                "is_intro": true,
+                "comment": "<@U9CDZPXLN>  <#C9QR7R4J2|sutherland> ho copiato il link nel browser con il nome del nostro team ma compare questo"
+            }
+        },
+        "comment": {
+            "id": "FcA5AZCG9F",
+            "created": 1523557396,
+            "timestamp": 1523557396,
+            "user": "U9QMPRZAT",
+            "is_intro": false,
+            "comment": "Grazie"
+        },
+        "is_intro": false,
+        "ts": "1523557396.000456"
+    },
+    {
+        "type": "message",
+        "user": "U9QMPRZAT",
+        "text": "Ho risolto professore",
+        "attachments": [
+            {
+                "fallback": "[April 12th, 2018 5:22 AM] filippo.lanubile: <@U9QMPRZAT> Non riesce ad accedere a <https:\/\/github.com\/softeng-inf-uniba\/progetto1718-sutherland> ?",
+                "ts": "1523535760.000517",
+                "author_id": "U9BD7NMPC",
+                "author_subname": "Filippo",
+                "channel_id": "CA3EZFFGR",
+                "channel_name": "assistenza",
+                "is_msg_unfurl": true,
+                "text": "<@U9QMPRZAT> Non riesce ad accedere a <https:\/\/github.com\/softeng-inf-uniba\/progetto1718-sutherland> ?",
+                "author_name": "Filippo",
+                "author_link": "https:\/\/ingsw1718.slack.com\/team\/U9BD7NMPC",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2018-03-12\/328399380067_c21cc81494b19032a666_48.jpg",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "color": "D0D0D0",
+                "from_url": "https:\/\/ingsw1718.slack.com\/archives\/CA3EZFFGR\/p1523535760000517",
+                "is_share": true,
+                "footer": "Posted in #assistenza"
+            }
+        ],
+        "ts": "1523557624.000266"
+    }
+]

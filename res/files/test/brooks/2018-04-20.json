@@ -1,0 +1,47 @@
+[
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U9Q9B1ELX> uploaded a file: <https:\/\/ingsw1718.slack.com\/files\/U9Q9B1ELX\/FABK3531D\/src.zip|src.zip>",
+        "file": {
+            "id": "FABK3531D",
+            "created": 1524246370,
+            "timestamp": 1524246370,
+            "name": "src.zip",
+            "title": "src.zip",
+            "mimetype": "application\/zip",
+            "filetype": "zip",
+            "pretty_type": "Zip",
+            "user": "U9Q9B1ELX",
+            "editable": false,
+            "size": 4246,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FABK3531D\/src.zip?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FABK3531D\/download\/src.zip?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/U9Q9B1ELX\/FABK3531D\/src.zip",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-FABK3531D-418712f43d",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U9Q9B1ELX",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "tommasodecillis1",
+        "bot_id": null,
+        "ts": "1524246371.000525"
+    },
+    {
+        "type": "message",
+        "user": "U9Q9B1ELX",
+        "text": "just to keep up to date",
+        "ts": "1524246389.000095"
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "type": "message",
+        "user": "U9NG44DUJ",
+        "text": "raga faccio io la configurazione che ha detto il prof",
+        "ts": "1523435343.000148"
+    },
+    {
+        "type": "message",
+        "user": "U9NG44DUJ",
+        "text": "ID DOCKER: rivest1718",
+        "ts": "1523453385.000036",
+        "reactions": [
+            {
+                "name": "hugging_face",
+                "users": [
+                    "U9PNBSH0E"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

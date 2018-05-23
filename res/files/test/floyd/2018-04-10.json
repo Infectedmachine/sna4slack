@@ -1,0 +1,37 @@
+[
+    {
+        "type": "message",
+        "user": "U9PDKF5JB",
+        "text": "<https:\/\/github.com\/softeng-inf-uniba>",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "Ingegneria del Software, Cdl Informatica, UNIBA",
+                "title_link": "https:\/\/github.com\/softeng-inf-uniba",
+                "text": "GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.",
+                "fallback": "GitHub: Ingegneria del Software, Cdl Informatica, UNIBA",
+                "from_url": "https:\/\/github.com\/softeng-inf-uniba",
+                "thumb_url": "https:\/\/avatars2.githubusercontent.com\/u\/32246946?s=280&v=4",
+                "thumb_width": 250,
+                "thumb_height": 250,
+                "service_icon": "https:\/\/a.slack-edge.com\/bfaba\/img\/unfurl_icons\/github.png",
+                "id": 1
+            }
+        ],
+        "ts": "1523345360.000278"
+    },
+    {
+        "type": "message",
+        "user": "U9PDKF5JB",
+        "text": "Ok ragazzi il nostro gruppo è  apposto per ora",
+        "client_msg_id": "d285322f-3e2f-4e43-9bfa-c5332c7a62ab",
+        "ts": "1523368932.000690"
+    },
+    {
+        "type": "message",
+        "user": "U9PDKF5JB",
+        "text": "Se potete mettete le foto che avete su slack anche su github",
+        "client_msg_id": "a68fa12b-dee7-40a9-a8f8-088989e4cdcf",
+        "ts": "1523368989.000192"
+    }
+]

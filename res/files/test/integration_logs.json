@@ -1,0 +1,66 @@
+[
+    {
+        "user_id": "U9BD7NMPC",
+        "user_name": "filippo.lanubile",
+        "date": "1524246695",
+        "change_type": "expanded",
+        "service_id": "350373546468",
+        "service_type": "App",
+        "scope": null,
+        "app_type": "GitHub",
+        "app_id": "A8GBNUWU8"
+    },
+    {
+        "user_id": "U9BD7NMPC",
+        "user_name": "filippo.lanubile",
+        "date": "1524246695",
+        "change_type": "expanded",
+        "service_id": "350373546468",
+        "service_type": "App",
+        "scope": null,
+        "app_type": "GitHub",
+        "app_id": "A8GBNUWU8"
+    },
+    {
+        "user_id": "U9BD7NMPC",
+        "user_name": "filippo.lanubile",
+        "date": "1524246695",
+        "change_type": "added",
+        "app_type": "GitHub",
+        "app_id": "A8GBNUWU8"
+    },
+    {
+        "user_id": "U9BD7NMPC",
+        "user_name": "filippo.lanubile",
+        "date": "1524246658",
+        "change_type": "app_whitelist_added",
+        "app_type": "GitHub",
+        "app_id": "A8GBNUWU8"
+    },
+    {
+        "user_id": "U9BD7NMPC",
+        "user_name": "filippo.lanubile",
+        "date": "1524246635",
+        "change_type": "app_whitelist_added",
+        "app_type": "GitHub",
+        "app_id": "A8GBNUWU8"
+    },
+    {
+        "user_id": "U9BD7NMPC",
+        "user_name": "filippo.lanubile",
+        "date": "1520878407",
+        "change_type": "whitelist_requests_require_comment_enabled"
+    },
+    {
+        "user_id": "U9BD7NMPC",
+        "user_name": "filippo.lanubile",
+        "date": "1520878370",
+        "change_type": "whitelist_enabled"
+    },
+    {
+        "user_id": "U9BD7NMPC",
+        "user_name": "filippo.lanubile",
+        "date": "1520878370",
+        "change_type": "whitelist_permissions_updated"
+    }
+]

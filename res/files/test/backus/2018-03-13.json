@@ -1,0 +1,33 @@
+[
+    {
+        "user": "U9NV9614K",
+        "text": "<@U9NV9614K> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520951016.000061"
+    },
+    {
+        "user": "U9P0DMXGD",
+        "inviter": "U9NV9614K",
+        "text": "<@U9P0DMXGD> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520951016.000583"
+    },
+    {
+        "user": "U9P60ACP7",
+        "inviter": "U9NV9614K",
+        "text": "<@U9P60ACP7> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520951016.000782"
+    },
+    {
+        "user": "U9NV9614K",
+        "purpose": "Lomuscio, Bellarosa, Dongiovanni",
+        "text": "<@U9NV9614K> set the channel purpose: Lomuscio, Bellarosa, Dongiovanni",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520951016.000859"
+    }
+]

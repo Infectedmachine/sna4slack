@@ -1,0 +1,260 @@
+[
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<!everyone> ho completato l'aggiornamento della guida studente per l'esonero. \nDovete aggiornare il vostro repository GitHub di gruppo con il file markdown che vi sto per allegare. Poichè abbiamo dovuto levare CodeCov c'è anche una nuova figura da caricare nella directory delle immagini. \/res\/img\/guida-studente\/ \nAggiungo anche lo script file di travis-ci che Fabio Calefato vi aveva detto di modificare. Se avete già aggiornato la copia sul repository allora ignoratelo altrimenti  caricate questa copia del file. \nMi aspetto che i file siano aggiunti mediante git e quindi devo poter vedere commit separati. Per questo task non occorre creare branch e fare pull request come invece sarà richiesto per il lavoro di sviluppo che inizierà la prossima settimana. \nI commit devono essere fatti entro questa settimana lavorativa ovvero venerdì 20\/4. Non dovete avvisarmi di averlo fatto perché controllerò io nel weekend. I gruppi che non avranno svolto in tempo e correttamente questo primo task non potranno proseguire nella prova di esonero.  \nPrima di farmi domande, nell'ordine: \n- Leggete con attenzione il messaggio  \n- Parlate con i colleghi del vostro gruppo \n- Chiedete sul channel <#CA3EZFFGR|assistenza> ma senza \"mention\"",
+        "thread_ts": "1524066914.000876",
+        "reply_count": 5,
+        "replies": [
+            {
+                "user": "U9NRSQ859",
+                "ts": "1524069272.000609"
+            },
+            {
+                "user": "U9PPY2L5B",
+                "ts": "1524072483.000517"
+            },
+            {
+                "user": "U9Q9CDE0P",
+                "ts": "1524073288.000281"
+            },
+            {
+                "user": "U9PPY2L5B",
+                "ts": "1524125427.000018"
+            },
+            {
+                "user": "U9Q9CDE0P",
+                "ts": "1524134176.000010"
+            }
+        ],
+        "unread_count": 5,
+        "ts": "1524066914.000876"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U9BD7NMPC> uploaded a file: <https:\/\/ingsw1718.slack.com\/files\/U9BD7NMPC\/FA9UKH2F8\/guida_per_lo_studente.md|Guida per lo studente.md>",
+        "file": {
+            "id": "FA9UKH2F8",
+            "created": 1524066940,
+            "timestamp": 1524066940,
+            "name": "Guida per lo studente.md",
+            "title": "Guida per lo studente.md",
+            "mimetype": "text\/plain",
+            "filetype": "markdown",
+            "pretty_type": "Markdown (raw)",
+            "user": "U9BD7NMPC",
+            "editable": true,
+            "size": 14354,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA9UKH2F8\/guida_per_lo_studente.md?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA9UKH2F8\/download\/guida_per_lo_studente.md?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/U9BD7NMPC\/FA9UKH2F8\/guida_per_lo_studente.md",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-FA9UKH2F8-9214533894",
+            "edit_link": "https:\/\/ingsw1718.slack.com\/files\/U9BD7NMPC\/FA9UKH2F8\/guida_per_lo_studente.md\/edit",
+            "preview": "# Guida allo studente\r\n\r\n## Indice\r\n- Pipeline di progetto\r\n- Passi preliminari\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-header cm-header-1\"># <\/span><span class=\"cm-header cm-header-1\">Guida<\/span><span class=\"cm-header cm-header-1\"> <\/span><span class=\"cm-header cm-header-1\">allo<\/span><span class=\"cm-header cm-header-1\"> <\/span><span class=\"cm-header cm-header-1\">studente<\/span><\/pre><\/div>\n<div><pre>&#8203;<\/pre><\/div>\n<div><pre><span class=\"cm-header cm-header-2\">## <\/span><span class=\"cm-header cm-header-2\">Indice<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-variable-2\">- <\/span><span class=\"cm-variable-2\">Pipeline<\/span><span class=\"cm-variable-2\"><\/span><span class=\"cm-variable-2\"> <\/span><span class=\"cm-variable-2\">di<\/span><span class=\"cm-variable-2\"> <\/span><span class=\"cm-variable-2\">progetto<\/span><\/pre><\/div>\n<div><pre><span class=\"cm-variable-2\">- <\/span><span class=\"cm-variable-2\">Passi<\/span><span class=\"cm-variable-2\"><\/span><span class=\"cm-variable-2\"> <\/span><span class=\"cm-variable-2\">preliminari<\/span><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 199,
+            "lines_more": 194,
+            "preview_is_truncated": true,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U9BD7NMPC",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "filippo.lanubile",
+        "bot_id": null,
+        "ts": "1524066940.000927"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U9BD7NMPC> uploaded a file: <https:\/\/ingsw1718.slack.com\/files\/U9BD7NMPC\/FA929MNE6\/badge.png|Badge.png>",
+        "file": {
+            "id": "FA929MNE6",
+            "created": 1524066959,
+            "timestamp": 1524066959,
+            "name": "Badge.png",
+            "title": "Badge.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U9BD7NMPC",
+            "editable": false,
+            "size": 25082,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": true,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA929MNE6\/badge.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA929MNE6\/download\/badge.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA929MNE6-98c6140843\/badge_64.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA929MNE6-98c6140843\/badge_80.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA929MNE6-98c6140843\/badge_360.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360_w": 360,
+            "thumb_360_h": 50,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA929MNE6-98c6140843\/badge_480.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_480_w": 480,
+            "thumb_480_h": 66,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA929MNE6-98c6140843\/badge_160.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "image_exif_rotation": 1,
+            "original_w": 720,
+            "original_h": 99,
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/U9BD7NMPC\/FA929MNE6\/badge.png",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-FA929MNE6-ee5bf09734",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U9BD7NMPC",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "filippo.lanubile",
+        "bot_id": null,
+        "ts": "1524066960.000710"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U9BD7NMPC> uploaded a file: <https:\/\/ingsw1718.slack.com\/files\/U9BD7NMPC\/FA9UL2UVC\/.travis.yml|.travis.yml>",
+        "file": {
+            "id": "FA9UL2UVC",
+            "created": 1524066977,
+            "timestamp": 1524066977,
+            "name": ".travis.yml",
+            "title": ".travis.yml",
+            "mimetype": "text\/plain",
+            "filetype": "yaml",
+            "pretty_type": "YAML",
+            "user": "U9BD7NMPC",
+            "editable": true,
+            "size": 481,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA9UL2UVC\/.travis.yml?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA9UL2UVC\/download\/.travis.yml?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/U9BD7NMPC\/FA9UL2UVC\/.travis.yml",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-FA9UL2UVC-20608cb81a",
+            "edit_link": "https:\/\/ingsw1718.slack.com\/files\/U9BD7NMPC\/FA9UL2UVC\/.travis.yml\/edit",
+            "preview": "sudo: required\r\n\r\nlanguage: java\r\n\r\njdk:\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-atom\">sudo<\/span><span class=\"cm-meta\">: <\/span>required<\/pre><\/div>\n<div><pre>&#8203;<\/pre><\/div>\n<div><pre><span class=\"cm-atom\">language<\/span><span class=\"cm-meta\">: <\/span>java<\/pre><\/div>\n<div><pre>&#8203;<\/pre><\/div>\n<div><pre><span class=\"cm-atom\">jdk<\/span><span class=\"cm-meta\">:<\/span><\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 23,
+            "lines_more": 18,
+            "preview_is_truncated": false,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U9BD7NMPC",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "filippo.lanubile",
+        "bot_id": null,
+        "ts": "1524066978.000019"
+    },
+    {
+        "type": "message",
+        "user": "U9NRSQ859",
+        "text": "Sarebbe opportuno eliminare il badge di CodeCov anche dal ReadMe.md ?",
+        "thread_ts": "1524066914.000876",
+        "parent_user_id": "U9BD7NMPC",
+        "ts": "1524069272.000609",
+        "reactions": [
+            {
+                "name": "question",
+                "users": [
+                    "U9L0877K5"
+                ],
+                "count": 1
+            },
+            {
+                "name": "tired_face",
+                "users": [
+                    "U9BD7NMPC"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "text": "Con \"commit separati\" si riferisce ai singoli membri del gruppo oppure ai file?",
+        "unfurl_links": true,
+        "client_msg_id": "4b57351c-a7ed-4047-b68c-944defb3614e",
+        "unfurl_media": true,
+        "thread_ts": "1524066914.000876",
+        "is_thread_broadcast": true,
+        "channel_id": 316797273120,
+        "type": "message",
+        "subtype": "thread_broadcast",
+        "user": "U9PPY2L5B",
+        "root": {
+            "type": "message",
+            "user": "U9BD7NMPC",
+            "text": "<!everyone> ho completato l'aggiornamento della guida studente per l'esonero. \nDovete aggiornare il vostro repository GitHub di gruppo con il file markdown che vi sto per allegare. Poichè abbiamo dovuto levare CodeCov c'è anche una nuova figura da caricare nella directory delle immagini. \/res\/img\/guida-studente\/ \nAggiungo anche lo script file di travis-ci che Fabio Calefato vi aveva detto di modificare. Se avete già aggiornato la copia sul repository allora ignoratelo altrimenti  caricate questa copia del file. \nMi aspetto che i file siano aggiunti mediante git e quindi devo poter vedere commit separati. Per questo task non occorre creare branch e fare pull request come invece sarà richiesto per il lavoro di sviluppo che inizierà la prossima settimana. \nI commit devono essere fatti entro questa settimana lavorativa ovvero venerdì 20\/4. Non dovete avvisarmi di averlo fatto perché controllerò io nel weekend. I gruppi che non avranno svolto in tempo e correttamente questo primo task non potranno proseguire nella prova di esonero.  \nPrima di farmi domande, nell'ordine: \n- Leggete con attenzione il messaggio  \n- Parlate con i colleghi del vostro gruppo \n- Chiedete sul channel <#CA3EZFFGR|assistenza> ma senza \"mention\"",
+            "thread_ts": "1524066914.000876",
+            "reply_count": 5,
+            "replies": [
+                {
+                    "user": "U9NRSQ859",
+                    "ts": "1524069272.000609"
+                },
+                {
+                    "user": "U9PPY2L5B",
+                    "ts": "1524072483.000517"
+                },
+                {
+                    "user": "U9Q9CDE0P",
+                    "ts": "1524073288.000281"
+                },
+                {
+                    "user": "U9PPY2L5B",
+                    "ts": "1524125427.000018"
+                },
+                {
+                    "user": "U9Q9CDE0P",
+                    "ts": "1524134176.000010"
+                }
+            ],
+            "unread_count": 5,
+            "ts": "1524066914.000876"
+        },
+        "ts": "1524072483.000517"
+    },
+    {
+        "type": "message",
+        "user": "U9Q9CDE0P",
+        "text": "<@U9PPY2L5B> la modifica del repository github va fatta una sola volta ovviamente perché il repository è uno, credo intenda un commit per ogni file",
+        "client_msg_id": "3372f495-efbf-4ee8-a226-f5db44442c1d",
+        "thread_ts": "1524066914.000876",
+        "parent_user_id": "U9BD7NMPC",
+        "ts": "1524073288.000281",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9BD7NMPC"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

@@ -1,0 +1,145 @@
+[
+    {
+        "type": "message",
+        "user": "U9P3A065A",
+        "text": "Canale <#C9QL2FWAK|kay> creato",
+        "client_msg_id": "99696ce0-4154-4a27-98ac-95b70c07e333",
+        "ts": "1521018250.000311"
+    },
+    {
+        "type": "message",
+        "user": "U9NG44DUJ",
+        "text": "Canale <#C9NVCLHRN|rivest>  creato",
+        "ts": "1521020880.000058"
+    },
+    {
+        "type": "message",
+        "user": "U9QLDMNDV",
+        "text": "Canale <#C9P0BD724|ritchie> creato",
+        "ts": "1521022512.000184"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<!everyone> domani faremo lezione e anche esercitazione con GitHub. Portate i computer",
+        "ts": "1521028638.000309",
+        "reactions": [
+            {
+                "name": "+1::skin-tone-2",
+                "users": [
+                    "U9PBHQU3H",
+                    "U9NDPBTNF",
+                    "U9NDHPVRS",
+                    "U9N7WANGG",
+                    "U9NQRSU7M",
+                    "U9N7VA3NC",
+                    "U9NAWQD7B",
+                    "U9NAWS8CR",
+                    "U9NJ8R37E",
+                    "U9P60ACP7",
+                    "U9PDKF5JB",
+                    "U9N84AWTA",
+                    "U9PQX9LAZ",
+                    "U9MML6PLG",
+                    "U9PUPKP39",
+                    "U9MQSS657",
+                    "U9PAU9362",
+                    "U9NREC5DJ",
+                    "U9PUAUSRM",
+                    "U9PK8UJBA"
+                ],
+                "count": 20
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U9NQ7HF27",
+                    "U9NQRSU7M"
+                ],
+                "count": 2
+            },
+            {
+                "name": "white_frowning_face",
+                "users": [
+                    "U9NQ3SVMH"
+                ],
+                "count": 1
+            },
+            {
+                "name": "unicorn_face",
+                "users": [
+                    "U9N6Y2L9W",
+                    "U9NCMRU8H"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "e siate puntuali. Chi arriverà dopo il via all'esercitazione rischierà di non essere ammesso in aula",
+        "ts": "1521029901.000351",
+        "reactions": [
+            {
+                "name": "clock1130",
+                "users": [
+                    "U9PNBSH0E",
+                    "U9L0877K5",
+                    "U9NCMRU8H",
+                    "U9PUAUSRM",
+                    "U9NS9S2NQ"
+                ],
+                "count": 5
+            },
+            {
+                "name": "wink",
+                "users": [
+                    "U9NQ3SVMH",
+                    "U9NDHPVRS"
+                ],
+                "count": 2
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U9JS0QR60",
+                    "U9QN7HEBY",
+                    "U9NREC5DJ",
+                    "U9PJQ7YP6"
+                ],
+                "count": 4
+            },
+            {
+                "name": "unicorn_face",
+                "users": [
+                    "U9PDKF5JB",
+                    "U9NCMRU8H",
+                    "U9NRSQ859"
+                ],
+                "count": 3
+            },
+            {
+                "name": "rocket",
+                "users": [
+                    "U9NQ1QL72",
+                    "U9PQX9LAZ",
+                    "U9P373ASV"
+                ],
+                "count": 3
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9PQX9LAZ",
+        "text": "canale <#C9P6BD3KK|feigenbaum> creato",
+        "ts": "1521034767.000079"
+    },
+    {
+        "type": "message",
+        "user": "U9NA5GDFU",
+        "text": "canale <#C9QR7R4J2|sutherland> creato",
+        "ts": "1521053016.000483"
+    }
+]

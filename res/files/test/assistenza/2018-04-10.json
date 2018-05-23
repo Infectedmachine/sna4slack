@@ -1,0 +1,436 @@
+[
+    {
+        "user": "U9BD7NMPC",
+        "text": "<@U9BD7NMPC> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1523347390.000326"
+    },
+    {
+        "user": "U9PK8UJBA",
+        "text": "<@U9PK8UJBA> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1523347405.000509"
+    },
+    {
+        "user": "U9P60ACP7",
+        "text": "<@U9P60ACP7> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1523347411.000248"
+    },
+    {
+        "user": "U9NSX31U2",
+        "text": "<@U9NSX31U2> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1523347413.000305"
+    },
+    {
+        "user": "U9P3A065A",
+        "text": "<@U9P3A065A> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1523347420.000269"
+    },
+    {
+        "user": "U9T55R65D",
+        "text": "<@U9T55R65D> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1523347423.000510"
+    },
+    {
+        "user": "U9JS0QR60",
+        "text": "<@U9JS0QR60> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1523347427.000381"
+    },
+    {
+        "user": "U9MQSS657",
+        "text": "<@U9MQSS657> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1523347430.000193"
+    },
+    {
+        "user": "U9PAU9362",
+        "text": "<@U9PAU9362> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1523347437.000246"
+    },
+    {
+        "user": "U9NUJDF7A",
+        "text": "<@U9NUJDF7A> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1523347441.000545"
+    },
+    {
+        "user": "U9NS5BECU",
+        "text": "<@U9NS5BECU> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1523347454.000470"
+    },
+    {
+        "user": "U9NTC20N6",
+        "text": "<@U9NTC20N6> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1523347463.000169"
+    },
+    {
+        "user": "U9NSLHZAQ",
+        "text": "<@U9NSLHZAQ> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1523347470.000002"
+    },
+    {
+        "user": "U9N7VA3NC",
+        "text": "<@U9N7VA3NC> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1523347514.000030"
+    },
+    {
+        "user": "U9PJQ7YP6",
+        "text": "<@U9PJQ7YP6> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1523347516.000396"
+    },
+    {
+        "user": "U9NAWQD7B",
+        "text": "<@U9NAWQD7B> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1523347581.000131"
+    },
+    {
+        "user": "U9N82V6JC",
+        "text": "<@U9N82V6JC> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1523347684.000025"
+    },
+    {
+        "user": "U9P12DFBK",
+        "text": "<@U9P12DFBK> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1523347695.000417"
+    },
+    {
+        "user": "U9P61MA7Q",
+        "text": "<@U9P61MA7Q> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1523347703.000276"
+    },
+    {
+        "user": "U9PBHQU3H",
+        "text": "<@U9PBHQU3H> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1523347765.000424"
+    },
+    {
+        "type": "message",
+        "user": "U9NSX31U2",
+        "text": "<@U9N8CNHK2> l'email che dovremmo attendere come da istruzioni sul channel general viene mandata solo all'unico membro che è stato inserito da voi manualmente o sarà inviata a tutti quanti singolarmente? per esempio io faccio parte del team hamming e un membro del nostro gruppo ha già ricevuto l'email e risulta come unico membro del team... noi restanti membri dobbiamo attendere l'email o possiamo andare a fare il join?",
+        "ts": "1523367918.000050"
+    },
+    {
+        "type": "message",
+        "user": "U9N8CNHK2",
+        "text": "<@U9NSX31U2> è corretto. Il membro del gruppo che ha già ricevuto l'email non deve fare niente. Voi dovete fare join.",
+        "ts": "1523368532.000345",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9MML6PLG",
+                    "U9PK8UJBA"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9NSX31U2",
+        "text": "perfetto grazie",
+        "ts": "1523368554.000803"
+    },
+    {
+        "type": "message",
+        "user": "U9NS5BECU",
+        "text": "<@U9BD7NMPC> buonasera prof, sono membro del gruppo <#CA47B3L9K|hopcroft>. Mi scuso per la questione dell'username (a lezione avevo capito bastasse avere la stringa al di sotto dell'user con il proprio nome e cognome, errore mio), ho provveduto a modificarlo e a comunicare ai miei compagni di controllare. Ad ogni modo nessuno di noi ha ricevuto la mail di notifica, di conseguenza il nostro gruppo è vuoto. Inoltre non possiamo ripetere il procedimento di ieri perchè andrebbe a creare un duplicato della repository cocke, come procediamo?",
+        "ts": "1523368840.000565"
+    },
+    {
+        "type": "message",
+        "user": "U9N8CNHK2",
+        "text": "<@U9NS5BECU> ho aggiunto il suo account al gruppo hopcroft",
+        "ts": "1523369104.000807"
+    },
+    {
+        "type": "message",
+        "user": "U9N8CNHK2",
+        "text": "ora dovete procedere esattamente come avete fatto per l'altro gruppo e cioè: 1) accettare l'assegnazione di gruppo e 2) fare JOIN del grupo hopcroft. Lei nello specifico non deve fare nulla perchè fa già parte del gruppo",
+        "ts": "1523369154.000750"
+    },
+    {
+        "type": "message",
+        "user": "U9Q9CDE0P",
+        "text": "Prof <@U9N8CNHK2> per chi è già entrato nel gruppo dovrebbe vedere la repository o è impostata in qualche modo a non visibile?",
+        "client_msg_id": "2ad336b4-ce9f-4062-a5ec-f49a25a26bde",
+        "ts": "1523369188.000161"
+    },
+    {
+        "type": "message",
+        "user": "U9NS5BECU",
+        "text": "<@U9N8CNHK2> la ringrazio, quindi i miei colleghi cliccando sul link di ieri (<https:\/\/classroom.github.com\/g\/-uc4UzW->) parteciperanno al gruppo hopcroft e non creeranno un duplicato di cocke, esatto? Scusi il disturbo, ma è per evitare ulteriori complicazioni",
+        "ts": "1523369381.000447"
+    },
+    {
+        "type": "message",
+        "user": "U9N8CNHK2",
+        "text": "<@U9NS5BECU> se vogliamo essere certi di non creare duplicati, devo cancellare il grupo cocke. Se mi confermate che non è più in uso allora lo elimino.",
+        "ts": "1523369492.000620"
+    },
+    {
+        "type": "message",
+        "user": "U9N8CNHK2",
+        "text": "a quel punto potrete procedere con hopcroft",
+        "ts": "1523369503.000670"
+    },
+    {
+        "type": "message",
+        "user": "U9N8CNHK2",
+        "text": "selezionandolo al momento dell'accettazione dell'assegnazione",
+        "ts": "1523369518.000675"
+    },
+    {
+        "type": "message",
+        "user": "U9N8CNHK2",
+        "text": "posso cancellare cocke?",
+        "ts": "1523369526.000019"
+    },
+    {
+        "type": "message",
+        "user": "U9NS5BECU",
+        "text": "<@U9N8CNHK2> il professor Lanubile ci ha detto di non eliminarlo al termine della lezione, perchè non era certo che sarebbe andato tutto liscio con un nuovo team, però a questo punto (con un nuovo repository su hopcroft) penso possa essere eliminato, tuttavia non so con certezza se vi possano essere ulteriori complicazioni",
+        "edited": {
+            "user": "U9NS5BECU",
+            "ts": "1523369689.000000"
+        },
+        "ts": "1523369669.000545"
+    },
+    {
+        "type": "message",
+        "user": "U9N8CNHK2",
+        "text": "ok lo cancello",
+        "ts": "1523369730.000358"
+    },
+    {
+        "type": "message",
+        "user": "U9NS5BECU",
+        "text": "va bene, una volta notato che il gruppo non esiste più dirò ai miei colleghi di joinare",
+        "ts": "1523369791.000883"
+    },
+    {
+        "type": "message",
+        "user": "U9N8CNHK2",
+        "text": "<@U9NS5BECU> potete procedere",
+        "ts": "1523369793.000365"
+    },
+    {
+        "type": "message",
+        "user": "U9NS5BECU",
+        "text": "<@U9N8CNHK2> perfetto, la ringrazio per l'attenzione",
+        "ts": "1523369815.000146"
+    },
+    {
+        "type": "message",
+        "user": "U9NGE229G",
+        "text": "<@U9N8CNHK2> Buonasera professoressa, sono un membro del team <#C9PCTK26A|shamir>, un mio collega ha ricevuto la mail per la creazione del team, ma noi altri 4 non riusciamo a fare il join dal link <https:\/\/classroom.github.com\/g\/-uc4UzW-> perché il nostro team non è presente tra quelli che permettono di fare il join. Come possiamo procedere? La ringrazio",
+        "client_msg_id": "b801000c-5d1a-4cf2-ad74-a946f3d3b1fa",
+        "thread_ts": "1523369968.000350",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "U9N8CNHK2",
+                "ts": "1523375798.000080"
+            },
+            {
+                "user": "U9NGE229G",
+                "ts": "1523377280.000405"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1523369968.000350"
+    },
+    {
+        "type": "message",
+        "user": "U9JS0QR60",
+        "text": "<@U9NGE229G> il link dovrebbe essere questo <https:\/\/github.com\/orgs\/softeng-inf-uniba\/teams>    o sbaglio professoressa?",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "Build software better, together",
+                "title_link": "https:\/\/github.com\/orgs\/softeng-inf-uniba\/teams",
+                "text": "GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.",
+                "fallback": "GitHub: Build software better, together",
+                "image_width": 1200,
+                "image_height": 620,
+                "from_url": "https:\/\/github.com\/orgs\/softeng-inf-uniba\/teams",
+                "service_icon": "https:\/\/a.slack-edge.com\/bfaba\/img\/unfurl_icons\/github.png",
+                "id": 1
+            }
+        ],
+        "ts": "1523370702.000051"
+    },
+    {
+        "type": "message",
+        "user": "U9MU4674H",
+        "text": "risulto come unico membro del gruppo <#C9NDCM4R1|engelbart> e non ho ricevuto nessuna mail di creazione e non vedo nessun repositories, è normale?",
+        "ts": "1523375262.000343"
+    },
+    {
+        "type": "message",
+        "user": "U9N8CNHK2",
+        "text": "<@U9NGE229G> non capisco quale sia il vostro problema dal momento che ho ricevuto richieste di iscrizione al team. Al momento nel team vedo tre membri: cicerello, fina e forleo. Chi manca?",
+        "thread_ts": "1523369968.000350",
+        "parent_user_id": "U9NGE229G",
+        "ts": "1523375798.000080"
+    },
+    {
+        "type": "message",
+        "user": "U9N8CNHK2",
+        "text": "<@U9MU4674H> il repository è questo: <https:\/\/github.com\/softeng-inf-uniba\/progetto1718-engelbart>",
+        "ts": "1523375878.000803"
+    },
+    {
+        "type": "message",
+        "user": "U9N8CNHK2",
+        "text": "lei risulta membro del team. Come mai i suoi colleghi non hanno fatto richiesta di partecipare?",
+        "thread_ts": "1523375895.000738",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U9PK3NZ8F",
+                "ts": "1523378128.000179"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1523375895.000738"
+    },
+    {
+        "type": "message",
+        "user": "U9MU4674H",
+        "text": "<@U9N8CNHK2> mi da error 404",
+        "ts": "1523376141.000456"
+    },
+    {
+        "type": "message",
+        "user": "U9W4FCFEH",
+        "text": "<@U9N8CNHK2> Professoressa, io non riesco a visualizzare nessuna repository sul mio profilo GitHub, di conseguenza non posso fare il join. Sono del gruppo <#C9VV4Q74J|kahn> ",
+        "client_msg_id": "9E62F202-9EB8-4CB6-8311-48080093DEAC",
+        "ts": "1523376457.000047"
+    },
+    {
+        "type": "message",
+        "user": "U9NGE229G",
+        "text": "Ok perfetto ora le ho mandato la richiesta e anche un mio collega la manderà a momenti. Grazie",
+        "client_msg_id": "6083a571-52ec-4b32-870f-0eb266813142",
+        "thread_ts": "1523369968.000350",
+        "parent_user_id": "U9NGE229G",
+        "ts": "1523377280.000405"
+    },
+    {
+        "text": "salve professoressa, faccio parte del gruppo engelbart. Aspettavamo che il team di github fosse completo di repository prima di fare la richiesta per entrare nel team ed evitare ulteriori problemi. Provvediamo subito",
+        "thread_ts": "1523375895.000738",
+        "edited": {
+            "user": "U9PK3NZ8F",
+            "ts": "1523379121.000000"
+        },
+        "type": "message",
+        "subtype": "thread_broadcast",
+        "user": "U9PK3NZ8F",
+        "root": {
+            "type": "message",
+            "user": "U9N8CNHK2",
+            "text": "lei risulta membro del team. Come mai i suoi colleghi non hanno fatto richiesta di partecipare?",
+            "thread_ts": "1523375895.000738",
+            "reply_count": 1,
+            "replies": [
+                {
+                    "user": "U9PK3NZ8F",
+                    "ts": "1523378128.000179"
+                }
+            ],
+            "unread_count": 1,
+            "ts": "1523375895.000738"
+        },
+        "ts": "1523378128.000179"
+    },
+    {
+        "type": "message",
+        "user": "U9P61MA7Q",
+        "text": "Buonasera professoressa, faccio parte del gruppo Micali, la mail di invito non mi é giunta.\nI miei dati sono:\nNome utente: Bassman3051(Gianluca Colaianni)\nMail.: <mailto:g.colaianni@studenti.uniba.it|g.colaianni@studenti.uniba.it>",
+        "client_msg_id": "a44b0c09-be77-462f-b3ac-3f618a9c2bb8",
+        "ts": "1523378486.000307",
+        "reactions": [
+            {
+                "name": "heavy_check_mark",
+                "users": [
+                    "U9BD7NMPC"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9PQNB3DF",
+        "text": "Buonasera, anche io non ho ricevuto l'email di invito al gruppo.\nNome utente:fabrizio97 (Fabrizio Frasca)\nNome Team: lampson",
+        "ts": "1523386830.000096",
+        "reactions": [
+            {
+                "name": "heavy_check_mark",
+                "users": [
+                    "U9BD7NMPC"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9PK8UJBA",
+        "text": "Buonasera, anche io non ho ricevuto l'email di invito al gruppo. \nNome utente: Perla Catucci \nNome team: lampson",
+        "client_msg_id": "ac82cf7e-e2b6-4664-8c08-61c6392dde79",
+        "ts": "1523387203.000141",
+        "reactions": [
+            {
+                "name": "heavy_check_mark",
+                "users": [
+                    "U9BD7NMPC"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<!channel> vado a cenare. Interrompo le comunicazioni per un po'",
+        "ts": "1523387734.000507"
+    }
+]

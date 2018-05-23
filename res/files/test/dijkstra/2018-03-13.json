@@ -1,0 +1,10 @@
+[
+    {
+        "user": "U9P5NTBML",
+        "purpose": "Chekalin,Lapenta,Ferra",
+        "text": "<@U9P5NTBML> set the channel purpose: Chekalin,Lapenta,Ferra",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520930035.000073"
+    }
+]

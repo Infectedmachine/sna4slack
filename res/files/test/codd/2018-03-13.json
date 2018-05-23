@@ -1,0 +1,10 @@
+[
+    {
+        "user": "U9NCNLL83",
+        "purpose": "Difonzo, Ferrulli, Di Terlizzi, De Ruvo",
+        "text": "<@U9NCNLL83> set the channel purpose: Difonzo, Ferrulli, Di Terlizzi, De Ruvo",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520930296.000459"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "user": "U9NQ1QL72",
+        "text": "<@U9NQ1QL72> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520984786.000252"
+    },
+    {
+        "user": "U9NQ1QL72",
+        "purpose": "Iaia,Fino,Colucci,De Tommaso",
+        "text": "<@U9NQ1QL72> set the channel purpose: Iaia,Fino,Colucci,De Tommaso",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520984787.000011"
+    }
+]

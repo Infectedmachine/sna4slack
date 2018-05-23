@@ -1,0 +1,127 @@
+[
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "Non c'è nessuno del gruppo cook di sole due persone. Sarà cancellato a breve",
+        "ts": "1521719088.000117"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "Non c'è nessuno del gruppo hoare sebbene sia di tre persone. Sarà cancellato a breve",
+        "ts": "1521719311.000071"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "Non c'è nessuno del gruppo cocke sebbene sia di tre persone. Sarà cancellato a breve",
+        "ts": "1521719479.000189"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "Non c'è nessuno del gruppo knuth sebbene sia di quattro persone. Sarà cancellato a breve",
+        "ts": "1521720177.000353"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "Non c'è nessuno del gruppo feigenbaum sebbene sia di cinque persone. Sarà cancellato a breve",
+        "ts": "1521720614.000343"
+    },
+    {
+        "type": "message",
+        "user": "U9PQX9LAZ",
+        "text": "Professore, parlo a nome del gruppo feigenbaum. Siamo sempre, o quasi, stati presenti. Oggi alcuni sono stati impossibilitati a venire a causa del maltempo, altri da condizioni fisiche, altri, come me, impossibilitati da altri fattori.",
+        "ts": "1521720817.000439"
+    },
+    {
+        "type": "message",
+        "user": "U9NAWS8CR",
+        "text": "Professore, sono del gruppo knuth, oggi siamo stati impossibilitati a venire, siamo sempre venuti a lezione. É possibile non cancellare il gruppo?",
+        "client_msg_id": "60faea7f-bdd9-40dc-9fb9-44772de8b55a",
+        "ts": "1521721593.000173"
+    },
+    {
+        "type": "message",
+        "user": "U9T55R65D",
+        "text": "Noi del gruppo cook siamo sempre stati presenti a lezione e stiamo cercando un altra persona",
+        "ts": "1521721853.000117"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<!everyone> La prova di esonero non è obbligatoria e richiede di essere studenti frequentanti. Non sono in grado di verificare le presenze precedenti. So solo che la prima volta che faccio un appello mancano *tutti* i componenti dei team cook, hoare, cocke, knuth e feigenbaum. Per ora cancello i channel ma vi lascio la possibilità di ricostituirli  o di unirvi a gruppi già esistenti. D'ora in poi farò l'appello a lezione, soprattutto alla *fine*, e cancellerò i canali dei gruppi i cui componenti risulteranno tutti assenti.",
+        "ts": "1521722796.000068",
+        "reactions": [
+            {
+                "name": "clap",
+                "users": [
+                    "U9NDPBTNF",
+                    "U9NJ8R37E",
+                    "U9N6Y2L9W",
+                    "U9N9XTY8H",
+                    "U9NBUHYJF",
+                    "U9PAU9362"
+                ],
+                "count": 6
+            },
+            {
+                "name": "100",
+                "users": [
+                    "U9RTC8JSE"
+                ],
+                "count": 1
+            },
+            {
+                "name": "call_me_hand",
+                "users": [
+                    "U9MML6PLG"
+                ],
+                "count": 1
+            },
+            {
+                "name": "+1",
+                "users": [
+                    "U9MNETCD6",
+                    "U9NREC5DJ",
+                    "U9N9XTY8H",
+                    "U9NCNLL83",
+                    "U9NDHPVRS"
+                ],
+                "count": 5
+            },
+            {
+                "name": "sob",
+                "users": [
+                    "U9N7WANGG",
+                    "U9NDHPVRS",
+                    "U9PK8UJBA"
+                ],
+                "count": 3
+            },
+            {
+                "name": "book",
+                "users": [
+                    "U9PUAUSRM",
+                    "U9P1B28NM"
+                ],
+                "count": 2
+            },
+            {
+                "name": "unicorn_face",
+                "users": [
+                    "U9PDKF5JB"
+                ],
+                "count": 1
+            },
+            {
+                "name": "rocket",
+                "users": [
+                    "U9NQ1QL72"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

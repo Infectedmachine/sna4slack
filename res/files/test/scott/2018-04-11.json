@@ -1,0 +1,35 @@
+[
+    {
+        "type": "message",
+        "user": "U9P18U17X",
+        "text": "DockerID: scott1718",
+        "ts": "1523449792.000251"
+    },
+    {
+        "type": "message",
+        "user": "U9P18U17X",
+        "text": "ragazzi ho provveduto a completare le configurazioni richieste fino ad ora.",
+        "ts": "1523484545.000365"
+    },
+    {
+        "type": "message",
+        "user": "U9NJ4EYM7",
+        "text": "Grazie Manlio",
+        "client_msg_id": "4d5f5552-419a-4619-91d9-106980cdbe52",
+        "ts": "1523484580.000203"
+    },
+    {
+        "type": "message",
+        "user": "U9NJ4EYM7",
+        "text": "Hai risolto con docker?",
+        "client_msg_id": "b613801c-c3ff-47a8-a77b-8e258faa5e4c",
+        "ts": "1523484593.000148"
+    },
+    {
+        "type": "message",
+        "user": "U9P18U17X",
+        "text": "No chiederò domani",
+        "client_msg_id": "0556E488-1603-4AB5-99C1-5F38983FE470",
+        "ts": "1523485047.000215"
+    }
+]

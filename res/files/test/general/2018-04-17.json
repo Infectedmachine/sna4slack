@@ -1,0 +1,132 @@
+[
+    {
+        "type": "message",
+        "user": "U9PBHQU3H",
+        "text": "Ci darà istruzioni precise su come aggiornare le repository di gruppo? A lezione c'era caos e non si è capito molto",
+        "client_msg_id": "98fae393-7692-4709-b668-19dde261e60f",
+        "thread_ts": "1523902468.000311",
+        "parent_user_id": "U9BD7NMPC",
+        "ts": "1523952194.000597"
+    },
+    {
+        "type": "message",
+        "user": "U9CDZPXLN",
+        "text": "<!everyone> Dovete fare una semplice modifica per rimuovere il supporto a CodeCov, per il quale non siamo riusciti a ottenere una licenza accademica. \n\nIn Eclipse, dal pannello Navigator sulla sinistra, aprite il file `.travis.yml` e cancellate  *solo* l’ultima riga (la 22):\n`- bash &lt;(curl -s <https:\/\/codecov.io\/bash>) -t b4ecca35-ed02-4e87-9b34-fc8d814c2d5b `\n\nNel dubbio, potete sostituire l’intero contenuto del file copiando e incollando il blocco seguente:\n```\nsudo: required\n\nlanguage: java\n\njdk:\n  - oraclejdk8\n\nservices:\n  - docker\n\nbefore_script:\n  - chmod +x gradlew\n  \nscript:\n  - .\/gradlew check &amp;&amp; .\/gradlew dockerDistTar &amp;&amp; docker build -t $DOCKER_ORGANIZATION\/$DOCKER_REPO .\/build\/docker\/\n\nafter_success:\n  - if [ \"$TRAVIS_BRANCH\" == \"master\" ] &amp;&amp; [ \"$TRAVIS_TEST_RESULT\" == 0 ]; then \n      docker login -u \"$DOCKER_USERNAME\" -p \"$DOCKER_PASSWORD\";\n      docker push $DOCKER_ORGANIZATION\/$DOCKER_REPO;\n    fi\n```",
+        "edited": {
+            "user": "U9CDZPXLN",
+            "ts": "1523964509.000000"
+        },
+        "thread_ts": "1523964368.000014",
+        "reply_count": 5,
+        "replies": [
+            {
+                "user": "U9NRSQ859",
+                "ts": "1523964594.000419"
+            },
+            {
+                "user": "U9CDZPXLN",
+                "ts": "1523964681.000023"
+            },
+            {
+                "user": "U9P61MA7Q",
+                "ts": "1523978276.000778"
+            },
+            {
+                "user": "U9CDZPXLN",
+                "ts": "1523978905.000912"
+            },
+            {
+                "user": "U9P61MA7Q",
+                "ts": "1523979480.000445"
+            }
+        ],
+        "unread_count": 5,
+        "ts": "1523964368.000014"
+    },
+    {
+        "type": "message",
+        "user": "U9NRSQ859",
+        "text": "Conviene quindi anche fare un commit per eliminare il badge di codecov dal progetto ?",
+        "thread_ts": "1523964368.000014",
+        "parent_user_id": "U9CDZPXLN",
+        "ts": "1523964594.000419"
+    },
+    {
+        "text": "Seguiranno istruzioni a riguardo, come parte della personalizzazione del README.md",
+        "thread_ts": "1523964368.000014",
+        "type": "message",
+        "subtype": "thread_broadcast",
+        "user": "U9CDZPXLN",
+        "root": {
+            "type": "message",
+            "user": "U9CDZPXLN",
+            "text": "<!everyone> Dovete fare una semplice modifica per rimuovere il supporto a CodeCov, per il quale non siamo riusciti a ottenere una licenza accademica. \n\nIn Eclipse, dal pannello Navigator sulla sinistra, aprite il file `.travis.yml` e cancellate  *solo* l’ultima riga (la 22):\n`- bash &lt;(curl -s <https:\/\/codecov.io\/bash>) -t b4ecca35-ed02-4e87-9b34-fc8d814c2d5b `\n\nNel dubbio, potete sostituire l’intero contenuto del file copiando e incollando il blocco seguente:\n```\nsudo: required\n\nlanguage: java\n\njdk:\n  - oraclejdk8\n\nservices:\n  - docker\n\nbefore_script:\n  - chmod +x gradlew\n  \nscript:\n  - .\/gradlew check &amp;&amp; .\/gradlew dockerDistTar &amp;&amp; docker build -t $DOCKER_ORGANIZATION\/$DOCKER_REPO .\/build\/docker\/\n\nafter_success:\n  - if [ \"$TRAVIS_BRANCH\" == \"master\" ] &amp;&amp; [ \"$TRAVIS_TEST_RESULT\" == 0 ]; then \n      docker login -u \"$DOCKER_USERNAME\" -p \"$DOCKER_PASSWORD\";\n      docker push $DOCKER_ORGANIZATION\/$DOCKER_REPO;\n    fi\n```",
+            "edited": {
+                "user": "U9CDZPXLN",
+                "ts": "1523964509.000000"
+            },
+            "thread_ts": "1523964368.000014",
+            "reply_count": 5,
+            "replies": [
+                {
+                    "user": "U9NRSQ859",
+                    "ts": "1523964594.000419"
+                },
+                {
+                    "user": "U9CDZPXLN",
+                    "ts": "1523964681.000023"
+                },
+                {
+                    "user": "U9P61MA7Q",
+                    "ts": "1523978276.000778"
+                },
+                {
+                    "user": "U9CDZPXLN",
+                    "ts": "1523978905.000912"
+                },
+                {
+                    "user": "U9P61MA7Q",
+                    "ts": "1523979480.000445"
+                }
+            ],
+            "unread_count": 5,
+            "ts": "1523964368.000014"
+        },
+        "ts": "1523964681.000023",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9JS0QR60"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9P61MA7Q",
+        "text": "Buonasera professore, la modifica é da sincronizzare immediatamente sul repository del proprio gruppo su git hub?",
+        "client_msg_id": "5fb8367f-a59a-46bf-baaa-737b628d4939",
+        "thread_ts": "1523964368.000014",
+        "parent_user_id": "U9CDZPXLN",
+        "ts": "1523978276.000778"
+    },
+    {
+        "type": "message",
+        "user": "U9CDZPXLN",
+        "text": "Non è strettamente necessario",
+        "client_msg_id": "2f381530-a884-4ddb-9e1f-99c80ee1e939",
+        "thread_ts": "1523964368.000014",
+        "parent_user_id": "U9CDZPXLN",
+        "ts": "1523978905.000912"
+    },
+    {
+        "type": "message",
+        "user": "U9P61MA7Q",
+        "text": "Ok, grazie Prof",
+        "thread_ts": "1523964368.000014",
+        "parent_user_id": "U9CDZPXLN",
+        "ts": "1523979480.000445"
+    }
+]

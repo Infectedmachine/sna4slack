@@ -1,0 +1,17 @@
+[
+    {
+        "user": "U9BD7NMPC",
+        "text": "<@U9BD7NMPC> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1519069615.000448"
+    },
+    {
+        "user": "U9BD7NMPC",
+        "purpose": "Notifiche di completamento del lavoro assegnato",
+        "text": "<@U9BD7NMPC> set the channel purpose: Notifiche di completamento del lavoro assegnato",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1519069616.000181"
+    }
+]

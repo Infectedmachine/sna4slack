@@ -1,0 +1,46 @@
+[
+    {
+        "type": "message",
+        "user": "U9L0877K5",
+        "text": "<https:\/\/elearning.di.uniba.it\/pluginfile.php\/29174\/mod_resource\/content\/2\/Guida%20studente%20per%20esonero.pdf>",
+        "ts": "1523269606.000288"
+    },
+    {
+        "type": "message",
+        "user": "U9L0877K5",
+        "text": "Docker\nusername: dijktra90\npassword: AlgoritmoDijktra90",
+        "ts": "1523270639.000020"
+    },
+    {
+        "type": "message",
+        "user": "U9L0877K5",
+        "text": "Requisiti per fare esonero:\n\n1. Slack per desktop\n<https:\/\/slack.com\/>\n\n2. Git su PC\n<https:\/\/git-scm.com\/downloads>\n\n3.Docker su pc (username e psw sono quelle sopra)\n<https:\/\/www.docker.com\/community-edition#\/download>",
+        "edited": {
+            "user": "U9L0877K5",
+            "ts": "1523270994.000000"
+        },
+        "ts": "1523270978.000137"
+    },
+    {
+        "type": "message",
+        "user": "U9L0877K5",
+        "text": "4.Eclipse con ultima versione di Java JDK",
+        "ts": "1523271010.000237"
+    },
+    {
+        "type": "message",
+        "user": "U9L0877K5",
+        "text": "5.Account su <http:\/\/github.com|github.com>\n\n6.Iscrizione a <http:\/\/education.travis-ci.com|education.travis-ci.com> (tramite account GitHub)\n\n7.Iscrizione a <http:\/\/codecov.io|codecov.io> (tramite account GitHub)",
+        "ts": "1523271076.000275"
+    },
+    {
+        "type": "message",
+        "user": "U9L0877K5",
+        "text": "con windows Home ci sono problemi con Docker, quindi va installata la versione toolbox <https:\/\/docs.docker.com\/toolbox\/toolbox_install_windows\/>",
+        "edited": {
+            "user": "U9L0877K5",
+            "ts": "1523276049.000000"
+        },
+        "ts": "1523276044.000348"
+    }
+]

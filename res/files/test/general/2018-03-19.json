@@ -1,0 +1,26 @@
+[
+    {
+        "type": "message",
+        "user": "U9SUDJ8J2",
+        "text": "channel <#C9S3SJPJN|cook> creato",
+        "ts": "1521458800.000128"
+    },
+    {
+        "type": "message",
+        "user": "U9JS0QR60",
+        "text": "<@U9BD7NMPC> prof mi scusi, anche domani dobbiamo portare i computer?",
+        "ts": "1521478746.000017"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "C'è 'ultima parte dell'esercitazione da completare",
+        "ts": "1521479148.000210"
+    },
+    {
+        "type": "message",
+        "user": "U9JS0QR60",
+        "text": "ok, grazie",
+        "ts": "1521479175.000467"
+    }
+]

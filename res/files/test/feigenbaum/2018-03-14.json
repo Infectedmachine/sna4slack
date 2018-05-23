@@ -1,0 +1,55 @@
+[
+    {
+        "user": "U9PQX9LAZ",
+        "text": "<@U9PQX9LAZ> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1521034723.000108"
+    },
+    {
+        "user": "U9PQX9LAZ",
+        "purpose": "Ianuzziello, Hoxha, Ferrone, Di Luzio, Defino",
+        "text": "<@U9PQX9LAZ> set the channel purpose: Ianuzziello, Hoxha, Ferrone, Di Luzio, Defino",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1521034723.000667"
+    },
+    {
+        "user": "U9P3321UY",
+        "inviter": "U9PQX9LAZ",
+        "text": "<@U9P3321UY> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1521034723.000776"
+    },
+    {
+        "user": "U9PKEG3UK",
+        "inviter": "U9PQX9LAZ",
+        "text": "<@U9PKEG3UK> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1521034723.000793"
+    },
+    {
+        "user": "U9PQUEFAQ",
+        "inviter": "U9PQX9LAZ",
+        "text": "<@U9PQUEFAQ> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1521043165.000880"
+    },
+    {
+        "user": "U9QN7HEBY",
+        "inviter": "U9PQX9LAZ",
+        "text": "<@U9QN7HEBY> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1521045213.000344"
+    },
+    {
+        "type": "message",
+        "user": "U9PQX9LAZ",
+        "text": "we",
+        "ts": "1521045301.000320"
+    }
+]

@@ -1,0 +1,1220 @@
+[
+    {
+        "type": "message",
+        "user": "U9QAFJUR5",
+        "text": "<@U9BD7NMPC> buongiorno professore io e il mio gruppo ci troviamo in difficoltà, io ho problemi con il lavoro e non posso venire, un altro ragazzo è malato, il ragazzo che rappresenta il gruppo e verrà a lezione deve lasciare la lezione alle 13.45 per problemi di trasporto siamo sempre stati a lezione e ci dispiacerebbe perdere il progetto proprio oggi spero ci possa aiutare cordiali saluti",
+        "client_msg_id": "cb407e10-9f82-426d-b1bc-7e2a5a800502",
+        "ts": "1523259988.000049"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "chi deve lasciare la lezione prima? Lo nomini come ha fatto con me.",
+        "ts": "1523260705.000277"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "Avete provato a cercare qualcun altro che voglia unirsi al vostro gruppo? In 3 siete soggetti a situazioni di criticità come questa",
+        "ts": "1523260763.000019"
+    },
+    {
+        "type": "message",
+        "user": "U9QAFJUR5",
+        "text": "<@U9QLDMNDV>",
+        "client_msg_id": "b6a68295-4139-48e1-ac6d-587fbda69130",
+        "ts": "1523261103.000530"
+    },
+    {
+        "type": "message",
+        "user": "U9QLDMNDV",
+        "text": "<@U9BD7NMPC> prof abbiamo risolto, rimane un componente fino a fine lezione",
+        "client_msg_id": "A08D6AFB-ED40-482E-9C51-E9B665FC00BB",
+        "ts": "1523268175.000437"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<!everyone> Link di invito per creare il repository privato su GitHub. Cliccate e leggete le istruzioni sull'email con cui vi siete registrati su GitHub",
+        "ts": "1523272568.000229"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<https:\/\/classroom.github.com\/g\/-uc4UzW->",
+        "ts": "1523272603.000189"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "SOLO UNO PER GRUPPO",
+        "ts": "1523272663.000122"
+    },
+    {
+        "type": "message",
+        "user": "U9MU4674H",
+        "text": "su github classroom manca il gruppo engelbart",
+        "ts": "1523273392.000036"
+    },
+    {
+        "type": "message",
+        "user": "U9NQ80ZDH",
+        "text": "Manca il team <#C9NSD86DA|gray>",
+        "ts": "1523273400.000140"
+    },
+    {
+        "type": "message",
+        "user": "U9L0877K5",
+        "text": "<@U9BD7NMPC> Manca il team <#C9NEK87RQ|dijkstra>",
+        "ts": "1523273419.000176"
+    },
+    {
+        "type": "message",
+        "user": "U9N8GRK3J",
+        "text": "C'è un doppione del gruppo Goldwasser. Può cancellare \"Goldwasser1718\"",
+        "ts": "1523273480.000323"
+    },
+    {
+        "type": "message",
+        "user": "U9PJQ7YP6",
+        "text": "professore manca il gruppo <#C9Q9H3R7Y|tarjan> .",
+        "ts": "1523273483.000259"
+    },
+    {
+        "type": "message",
+        "user": "UA2DNR4F4",
+        "text": "Prof, manca il gruppo #reddy\nEdit: ora ci siamo",
+        "client_msg_id": "e031349c-97e9-4b52-b14b-c58f4b07c5be",
+        "edited": {
+            "user": "UA2DNR4F4",
+            "ts": "1523275615.000000"
+        },
+        "ts": "1523273514.000343"
+    },
+    {
+        "type": "message",
+        "user": "UA1JDS15Z",
+        "text": "<@U9BD7NMPC> manca il team <#C9PUZRZCP|hoare>",
+        "client_msg_id": "FF3D7FC1-EA21-461E-827F-3293AD0FD66F",
+        "ts": "1523273541.000359"
+    },
+    {
+        "type": "message",
+        "user": "U9PQX9LAZ",
+        "text": "Manca il team <#C9P6BD3KK|feigenbaum>",
+        "ts": "1523273656.000297"
+    },
+    {
+        "type": "message",
+        "user": "U9JS0QR60",
+        "text": "A third-party OAuth application (GitHub Classroom) with admin:org, repo:invite, and user:email scopes was recently authorized to access your account. Visit <https:\/\/github.com\/settings\/connections\/applications\/64a051cf1598b9f0658f> for more information.",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "Build software better, together",
+                "title_link": "https:\/\/github.com\/settings\/connections\/applications\/64a051cf1598b9f0658f",
+                "text": "GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.",
+                "fallback": "GitHub: Build software better, together",
+                "image_width": 1200,
+                "image_height": 620,
+                "from_url": "https:\/\/github.com\/settings\/connections\/applications\/64a051cf1598b9f0658f",
+                "service_icon": "https:\/\/a.slack-edge.com\/bfaba\/img\/unfurl_icons\/github.png",
+                "id": 1
+            }
+        ],
+        "ts": "1523273879.000132"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "Hi Tiziana Di Pierro!\n\nlanubile has invited you to join the Ingegneria del Software, Cdl Informatica, UNIBA organization on GitHub. Head over to <https:\/\/github.com\/softeng-inf-uniba> to check out Ingegneria del Software, Cdl Informatica, UNIBA's profile.\n\nJoin Ingegneria del Software, Cdl Informatica, UNIBA\nNote: If you get a 404 page, make sure you’re signed in as dipierroTiz. You can also accept the invitation by visiting the organization page directly at <https:\/\/github.com\/softeng-inf-uniba>.",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "Ingegneria del Software, Cdl Informatica, UNIBA",
+                "title_link": "https:\/\/github.com\/softeng-inf-uniba",
+                "text": "GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.",
+                "fallback": "GitHub: Ingegneria del Software, Cdl Informatica, UNIBA",
+                "from_url": "https:\/\/github.com\/softeng-inf-uniba",
+                "thumb_url": "https:\/\/avatars2.githubusercontent.com\/u\/32246946?s=280&v=4",
+                "thumb_width": 250,
+                "thumb_height": 250,
+                "service_icon": "https:\/\/a.slack-edge.com\/bfaba\/img\/unfurl_icons\/github.png",
+                "id": 1
+            }
+        ],
+        "ts": "1523273911.000135",
+        "reactions": [
+            {
+                "name": "email",
+                "users": [
+                    "U9N9XTY8H"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<!everyone> i nomi dei team su GitHub Classroom devono seguire le indicazioni della guida ovvero tutto in minuscolo (e senza hashtag) come nei channel di slack",
+        "ts": "1523277623.000065",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9PK8UJBA"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "tutti i che non rispettano le linee guida saranno cancellati",
+        "ts": "1523277653.000037"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "clccando di nuovo sull'invito potere ricreare il team secondo le regole",
+        "ts": "1523277673.000346"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "stiamo rendendo i team visibili a tutti in modo che possiate vederli e fare il join al team",
+        "ts": "1523277712.000074"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "In questo momento sono 19 i team che abbiamo reso visibili.",
+        "ts": "1523277793.000012"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "Andando su <https:\/\/github.com\/orgs\/softeng-inf-uniba\/teams> dovreste vedere tutti e scegliere di associarvi al vostro team",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "Build software better, together",
+                "title_link": "https:\/\/github.com\/orgs\/softeng-inf-uniba\/teams",
+                "text": "GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.",
+                "fallback": "GitHub: Build software better, together",
+                "image_width": 1200,
+                "image_height": 620,
+                "from_url": "https:\/\/github.com\/orgs\/softeng-inf-uniba\/teams",
+                "service_icon": "https:\/\/a.slack-edge.com\/bfaba\/img\/unfurl_icons\/github.png",
+                "id": 1
+            }
+        ],
+        "thread_ts": "1523277851.000480",
+        "reply_count": 3,
+        "replies": [
+            {
+                "user": "U9PBHQU3H",
+                "ts": "1523303720.000730"
+            },
+            {
+                "user": "U9NSNMBMG",
+                "ts": "1523303927.000585"
+            },
+            {
+                "user": "U9PBHQU3H",
+                "ts": "1523304046.000332"
+            }
+        ],
+        "unread_count": 3,
+        "ts": "1523277851.000480"
+    },
+    {
+        "type": "message",
+        "user": "U9PQX9LAZ",
+        "text": "<@U9BD7NMPC> può gentilmente cancellare il canale feigenbaum che ho creato dal vecchio link che aveva inviato? Il canale risulta segreto. Provvederò a ricrearlo dal nuovo link",
+        "thread_ts": "1523278252.000329",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "U9BD7NMPC",
+                "ts": "1523294290.000386"
+            },
+            {
+                "user": "U9PQX9LAZ",
+                "ts": "1523294356.000214"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1523278252.000329"
+    },
+    {
+        "type": "message",
+        "user": "U9Q9CDE0P",
+        "text": "<@U9BD7NMPC> per quanto riguarda il nome del gruppo su Docker nel nostro caso il nome era già occupato, va bene il nome \"ritchieingsw1718\"?",
+        "client_msg_id": "14a52aab-5e1e-4987-8609-b1df3ceffdc9",
+        "thread_ts": "1523279398.000336",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U9BD7NMPC",
+                "ts": "1523294357.000176"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1523279398.000336"
+    },
+    {
+        "type": "message",
+        "user": "U9N7WANGG",
+        "text": "<@U9BD7NMPC> prof, lo steso per il team hoare, risulta segreto. Può cancellarlo per poter ricrearlo?",
+        "client_msg_id": "4c53038b-e8b7-4fc9-bc68-4bdd9f73812e",
+        "edited": {
+            "user": "U9N7WANGG",
+            "ts": "1523286220.000000"
+        },
+        "ts": "1523279790.000396",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9BD7NMPC"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9NDHPVRS",
+        "text": "<@U9BD7NMPC> prof,ho ricreato il gruppo ma dice che è segreto provvede lei a renderlo visibile,giusto?",
+        "client_msg_id": "9440b132-367b-438f-b5f0-b718ba90df46",
+        "ts": "1523280154.000015",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9BD7NMPC"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@UA2A3DUPN> uploaded a file: <https:\/\/ingsw1718.slack.com\/files\/UA2A3DUPN\/FA4C5JJ14\/cattura.png|Cattura.PNG> and commented: Scusate, qualcuno è riuscito ad unirsi al proprio team? A me risulta questo...",
+        "file": {
+            "id": "FA4C5JJ14",
+            "created": 1523281412,
+            "timestamp": 1523281412,
+            "name": "Cattura.PNG",
+            "title": "Cattura.PNG",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "UA2A3DUPN",
+            "editable": false,
+            "size": 65055,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA4C5JJ14\/cattura.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA4C5JJ14\/download\/cattura.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA4C5JJ14-cf89fceb96\/cattura_64.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA4C5JJ14-cf89fceb96\/cattura_80.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA4C5JJ14-cf89fceb96\/cattura_360.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360_w": 360,
+            "thumb_360_h": 160,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA4C5JJ14-cf89fceb96\/cattura_480.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_480_w": 480,
+            "thumb_480_h": 213,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA4C5JJ14-cf89fceb96\/cattura_160.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA4C5JJ14-cf89fceb96\/cattura_720.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720_w": 720,
+            "thumb_720_h": 319,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA4C5JJ14-cf89fceb96\/cattura_800.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_800_w": 800,
+            "thumb_800_h": 355,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA4C5JJ14-cf89fceb96\/cattura_960.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_960_w": 960,
+            "thumb_960_h": 426,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA4C5JJ14-cf89fceb96\/cattura_1024.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 454,
+            "image_exif_rotation": 1,
+            "original_w": 1193,
+            "original_h": 529,
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/UA2A3DUPN\/FA4C5JJ14\/cattura.png",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-FA4C5JJ14-077a5a470d",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 2,
+            "initial_comment": {
+                "id": "FcA4GYJJKH",
+                "created": 1523281412,
+                "timestamp": 1523281412,
+                "user": "UA2A3DUPN",
+                "is_intro": true,
+                "comment": "Scusate, qualcuno è riuscito ad unirsi al proprio team? A me risulta questo..."
+            }
+        },
+        "user": "UA2A3DUPN",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "e.dajcaj",
+        "bot_id": null,
+        "ts": "1523281415.000279"
+    },
+    {
+        "type": "message",
+        "user": "U9NDPBTNF",
+        "text": "Io ho creato un team di appoggio per poter partecipare e poi sono uscito",
+        "ts": "1523281469.000137"
+    },
+    {
+        "type": "message",
+        "user": "U9PNL8V9U",
+        "text": "<!everyone> ma la conferma di partecipazione a un team è fatta dal professore?",
+        "ts": "1523282187.000582"
+    },
+    {
+        "type": "message",
+        "user": "U9Q9CDE0P",
+        "text": "<@U9PNL8V9U> credo di si, perchè io che sono l'unico nel gruppo non posso approvare nessuno nè vedo alcuna richiesta",
+        "ts": "1523282436.000572"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "prof anche se è visibile il mio gruppo non mi risulta possibile joinarci",
+        "thread_ts": "1523288291.000662",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U9PBHQU3H",
+                "ts": "1523288807.000555"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1523288291.000662"
+    },
+    {
+        "text": "Entra nel team -&gt; members-&gt; in alto a destra 'request to join'",
+        "unfurl_links": true,
+        "client_msg_id": "6271212a-baec-4ab6-b9fb-7c24befa757b",
+        "unfurl_media": true,
+        "thread_ts": "1523288291.000662",
+        "is_thread_broadcast": true,
+        "channel_id": 316797273120,
+        "type": "message",
+        "subtype": "thread_broadcast",
+        "user": "U9PBHQU3H",
+        "root": {
+            "type": "message",
+            "user": "U9MML6PLG",
+            "text": "prof anche se è visibile il mio gruppo non mi risulta possibile joinarci",
+            "thread_ts": "1523288291.000662",
+            "reply_count": 1,
+            "replies": [
+                {
+                    "user": "U9PBHQU3H",
+                    "ts": "1523288807.000555"
+                }
+            ],
+            "unread_count": 1,
+            "ts": "1523288291.000662"
+        },
+        "ts": "1523288807.000555"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "ah perfetto grazie",
+        "ts": "1523288898.000500"
+    },
+    {
+        "type": "message",
+        "subtype": "file_comment",
+        "text": "<@UA2DNR4F4> commented on <@UA2A3DUPN>’s file <https:\/\/ingsw1718.slack.com\/files\/UA2A3DUPN\/FA4C5JJ14\/cattura.png|Cattura.PNG>: Hai risolto?",
+        "file": {
+            "id": "FA4C5JJ14",
+            "created": 1523281412,
+            "timestamp": 1523281412,
+            "name": "Cattura.PNG",
+            "title": "Cattura.PNG",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "UA2A3DUPN",
+            "editable": false,
+            "size": 65055,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA4C5JJ14\/cattura.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA4C5JJ14\/download\/cattura.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA4C5JJ14-cf89fceb96\/cattura_64.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA4C5JJ14-cf89fceb96\/cattura_80.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA4C5JJ14-cf89fceb96\/cattura_360.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360_w": 360,
+            "thumb_360_h": 160,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA4C5JJ14-cf89fceb96\/cattura_480.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_480_w": 480,
+            "thumb_480_h": 213,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA4C5JJ14-cf89fceb96\/cattura_160.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA4C5JJ14-cf89fceb96\/cattura_720.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720_w": 720,
+            "thumb_720_h": 319,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA4C5JJ14-cf89fceb96\/cattura_800.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_800_w": 800,
+            "thumb_800_h": 355,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA4C5JJ14-cf89fceb96\/cattura_960.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_960_w": 960,
+            "thumb_960_h": 426,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA4C5JJ14-cf89fceb96\/cattura_1024.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 454,
+            "image_exif_rotation": 1,
+            "original_w": 1193,
+            "original_h": 529,
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/UA2A3DUPN\/FA4C5JJ14\/cattura.png",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-FA4C5JJ14-077a5a470d",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 2,
+            "initial_comment": {
+                "id": "FcA4GYJJKH",
+                "created": 1523281412,
+                "timestamp": 1523281412,
+                "user": "UA2A3DUPN",
+                "is_intro": true,
+                "comment": "Scusate, qualcuno è riuscito ad unirsi al proprio team? A me risulta questo..."
+            }
+        },
+        "comment": {
+            "id": "FcA3NNH4QM",
+            "created": 1523289671,
+            "timestamp": 1523289671,
+            "user": "UA2DNR4F4",
+            "is_intro": false,
+            "comment": "Hai risolto?"
+        },
+        "is_intro": false,
+        "ts": "1523289671.000946"
+    },
+    {
+        "type": "message",
+        "user": "UA2A3DUPN",
+        "text": "No, mi risulta sempre la stessa schermata",
+        "thread_ts": "1523289744.000348",
+        "reply_count": 7,
+        "replies": [
+            {
+                "user": "UA2DNR4F4",
+                "ts": "1523290030.000623"
+            },
+            {
+                "user": "UA2DNR4F4",
+                "ts": "1523290132.000226"
+            },
+            {
+                "user": "UA2A3DUPN",
+                "ts": "1523291882.000444"
+            },
+            {
+                "user": "U9BD7NMPC",
+                "ts": "1523295156.000585"
+            },
+            {
+                "user": "UA2P4MQ23",
+                "ts": "1523295990.000297"
+            },
+            {
+                "user": "U9BD7NMPC",
+                "ts": "1523297411.000541"
+            },
+            {
+                "user": "U9PK3NZ8F",
+                "ts": "1523302969.000199"
+            }
+        ],
+        "unread_count": 7,
+        "ts": "1523289744.000348",
+        "reactions": [
+            {
+                "name": "handshake",
+                "users": [
+                    "UA2DNR4F4"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "UA2DNR4F4",
+        "text": "Deduco che il problema sia riconducibile al fatto che siamo entrambi entrati nel canale venerdì, quando l'invito era già scaduto. Ho la tua stessa schermata.",
+        "client_msg_id": "4efb7f23-5803-4d01-bb4f-7d80ac42f570",
+        "thread_ts": "1523289744.000348",
+        "parent_user_id": "UA2A3DUPN",
+        "ts": "1523290030.000623"
+    },
+    {
+        "type": "message",
+        "user": "UA2DNR4F4",
+        "text": "Prof, abbiamo un problemino :arrow_up: <@U9BD7NMPC>",
+        "client_msg_id": "5cc6fdc5-7261-4a90-a37f-ce57efd581f8",
+        "thread_ts": "1523289744.000348",
+        "parent_user_id": "UA2A3DUPN",
+        "ts": "1523290132.000226"
+    },
+    {
+        "type": "message",
+        "user": "UA2A3DUPN",
+        "text": "Non saprei.. cmq ci sono anche altre persone, che sono entrate prima del venerdì che hanno lo stesso problema..",
+        "thread_ts": "1523289744.000348",
+        "parent_user_id": "UA2A3DUPN",
+        "ts": "1523291882.000444"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<@U9PQX9LAZ> ma sta parlando di un channel slack o di un team GitHub Classroom? Sia preciso",
+        "thread_ts": "1523278252.000329",
+        "parent_user_id": "U9PQX9LAZ",
+        "ts": "1523294290.000386"
+    },
+    {
+        "type": "message",
+        "user": "U9PQX9LAZ",
+        "text": "<@U9BD7NMPC> Ha ragione, mi scusi. Parlo di un team su GitHub Classroom",
+        "thread_ts": "1523278252.000329",
+        "parent_user_id": "U9PQX9LAZ",
+        "ts": "1523294356.000214"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<@U9Q9CDE0P> Non va bene e lo cancellerò. Lo vede ora il team ritchie?",
+        "thread_ts": "1523279398.000336",
+        "parent_user_id": "U9Q9CDE0P",
+        "ts": "1523294357.000176"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<!everyone> Ho reso visibile alcuni nuovi team e ora dovreste vederli anche voi. Iscrivetevi entro domani mattina in modo da non bloccarci.",
+        "ts": "1523294727.000263",
+        "reactions": [
+            {
+                "name": "pray",
+                "users": [
+                    "U9N7WANGG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "Al momento risultano vuoti i team allen, brooks, dijkstra, floyd, hamming, hoare, kahn, stearns, sutherland",
+        "ts": "1523294778.000366"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "gli altri team hanno almeno un iscritto che già e meglio ma devono essere completati",
+        "ts": "1523294815.000697"
+    },
+    {
+        "type": "message",
+        "user": "U9PBHQU3H",
+        "text": "Provate a creare un nuovo canale con il nome del vostro team. Dovrebbe darvi l'errore \"nome già esistente\" e ricaricando la pagina dovrebbero uscirvi i team già esistenti.",
+        "client_msg_id": "c8808286-07af-491a-aa38-a1b76fc6efe9",
+        "thread_ts": "1523294823.000536",
+        "reply_count": 5,
+        "replies": [
+            {
+                "user": "U9PBHQU3H",
+                "ts": "1523300070.000129"
+            },
+            {
+                "user": "U9PBHQU3H",
+                "ts": "1523300100.000501"
+            },
+            {
+                "user": "UA2P4MQ23",
+                "ts": "1523304245.000528"
+            },
+            {
+                "user": "U9NSNMBMG",
+                "ts": "1523304681.000386"
+            },
+            {
+                "user": "U9PBHQU3H",
+                "ts": "1523306487.000332"
+            }
+        ],
+        "unread_count": 5,
+        "ts": "1523294823.000536"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "<@U9BD7NMPC> Prof a me risulta di dover attendere la sua conferma per l'effettivo inserimento nel gruppo",
+        "ts": "1523294826.000507"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "Spero che non sia il solo a lavorare di sera",
+        "ts": "1523294831.000272"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "sono del gruppo Hamming",
+        "ts": "1523294834.000380"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "ora passo alle conferme",
+        "ts": "1523294838.000356"
+    },
+    {
+        "type": "message",
+        "user": "U9MML6PLG",
+        "text": "perfetto",
+        "ts": "1523294842.000567"
+    },
+    {
+        "type": "message",
+        "user": "U9NS5BECU",
+        "text": "<@U9BD7NMPC> Prof, noi del gruppo Cocke siamo riusciti a popolare il gruppo pur essendo “segreto”, tuttavia ha creato due duplicati della repository e non siamo riusciti a trovare un modo per eliminare questi duplicati",
+        "client_msg_id": "1E494D29-0182-4D02-B761-B02F19C5E4A5",
+        "thread_ts": "1523295001.000231",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "U9BD7NMPC",
+                "ts": "1523295088.000569"
+            },
+            {
+                "user": "U9NS5BECU",
+                "ts": "1523295117.000131"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1523295001.000231"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<@U9NS5BECU> io vedo solo un team cocke \"visible\" con tre componenti. Dovrebbe essere a posto",
+        "thread_ts": "1523295001.000231",
+        "parent_user_id": "U9NS5BECU",
+        "ts": "1523295088.000569"
+    },
+    {
+        "type": "message",
+        "user": "U9NS5BECU",
+        "text": "Perfetto, meglio così, la ringrazio! ",
+        "client_msg_id": "EC48E9E0-E76E-4C7F-BF66-3C910C294A6A",
+        "thread_ts": "1523295001.000231",
+        "parent_user_id": "U9NS5BECU",
+        "ts": "1523295117.000131"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<@UA2A3DUPN> ma sta parlando di slack o di github classroom? E qual è il team?",
+        "thread_ts": "1523289744.000348",
+        "parent_user_id": "UA2A3DUPN",
+        "ts": "1523295156.000585"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<!everyone> Se volete avere una risposta citate in modo esplicito il nome del team.",
+        "ts": "1523295256.000466"
+    },
+    {
+        "type": "message",
+        "user": "U9NSNMBMG",
+        "text": "<@U9BD7NMPC> il gruppo <#C9PCTK26A|shamir> risulta non presente a noi",
+        "ts": "1523295278.000761"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "Che vuol dire \"non presente a noi\"? Esprimetevi per bene se volete che io capisca",
+        "ts": "1523295368.000806"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "In ogni caso <@U9NSNMBMG> non risulta nessun team shamir e quindi uno di voi deve cercare di crearlo usando il link di invito che ho pubblicato stamattina",
+        "ts": "1523295442.000486"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@UA2P4MQ23> uploaded a file: <https:\/\/ingsw1718.slack.com\/files\/UA2P4MQ23\/FA305PN9W\/cattura.png|Cattura.PNG> and commented: <@U9BD7NMPC>  Team <#CA26BD085|thacker>",
+        "file": {
+            "id": "FA305PN9W",
+            "created": 1523295485,
+            "timestamp": 1523295485,
+            "name": "Cattura.PNG",
+            "title": "Cattura.PNG",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "UA2P4MQ23",
+            "editable": false,
+            "size": 65055,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA305PN9W\/cattura.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA305PN9W\/download\/cattura.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA305PN9W-0c1c7598fd\/cattura_64.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA305PN9W-0c1c7598fd\/cattura_80.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA305PN9W-0c1c7598fd\/cattura_360.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360_w": 360,
+            "thumb_360_h": 160,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA305PN9W-0c1c7598fd\/cattura_480.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_480_w": 480,
+            "thumb_480_h": 213,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA305PN9W-0c1c7598fd\/cattura_160.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA305PN9W-0c1c7598fd\/cattura_720.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720_w": 720,
+            "thumb_720_h": 319,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA305PN9W-0c1c7598fd\/cattura_800.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_800_w": 800,
+            "thumb_800_h": 355,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA305PN9W-0c1c7598fd\/cattura_960.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_960_w": 960,
+            "thumb_960_h": 426,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA305PN9W-0c1c7598fd\/cattura_1024.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 454,
+            "image_exif_rotation": 1,
+            "original_w": 1193,
+            "original_h": 529,
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/UA2P4MQ23\/FA305PN9W\/cattura.png",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-FA305PN9W-ed207e274a",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "FcA3HPRKMH",
+                "created": 1523295485,
+                "timestamp": 1523295485,
+                "user": "UA2P4MQ23",
+                "is_intro": true,
+                "comment": "<@U9BD7NMPC>  Team <#CA26BD085|thacker>"
+            }
+        },
+        "user": "UA2P4MQ23",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "g.caka",
+        "bot_id": null,
+        "ts": "1523295487.000768"
+    },
+    {
+        "type": "message",
+        "user": "U9NSNMBMG",
+        "text": "ah ecco, visto che non ha citato il nostro gruppo nel messaggio sopra, pensavamo esistesse (creato nelle varie prove stamattina), procediamo",
+        "ts": "1523295493.000428"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<@UA2P4MQ23> devo leggere nel pensiero?",
+        "ts": "1523295763.000544"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "ho reso visibile il team tarjan",
+        "ts": "1523295819.000661"
+    },
+    {
+        "type": "message",
+        "user": "U9NGE229G",
+        "text": "<@U9BD7NMPC> Professore il team <#C9PCTK26A|shamir> è stato appena creato",
+        "client_msg_id": "08f87c24-96fd-4df7-b593-fe7147da831a",
+        "ts": "1523295894.000081"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "Il team thacker è già visibile e c'è un iscritto",
+        "ts": "1523295913.000319"
+    },
+    {
+        "type": "message",
+        "user": "UA2P4MQ23",
+        "text": "<@U9BD7NMPC>  Team <#CA26BD085|thacker> github, è riuscito ad entrare solo la persona che ha creato il Team, seguendo il link non ci possiamo unire.",
+        "client_msg_id": "f170d37e-186e-4043-aabb-909a8e4a9101",
+        "thread_ts": "1523289744.000348",
+        "parent_user_id": "UA2A3DUPN",
+        "ts": "1523295990.000297"
+    },
+    {
+        "type": "message",
+        "user": "U9NV9614K",
+        "text": "<@U9BD7NMPC> il nome del gruppo <#C9NCZSP88|backus> su Docker era già occupato. Il nome che abbiamo utilizzato \"backus1718\", leggendo i messaggi precedenti, non va bene. Aspettiamo la sua cancellazione per creare un gruppo con il nome corretto?",
+        "thread_ts": "1523296286.000504",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "U9BD7NMPC",
+                "ts": "1523306213.000011"
+            },
+            {
+                "user": "U9NV9614K",
+                "ts": "1523306419.000369"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1523296286.000504"
+    },
+    {
+        "type": "message",
+        "user": "U9MNETCD6",
+        "text": "<@U9BD7NMPC> Prof ,nonostante il gruppo <#C9P7FFX4N|codd> sia già visibile e abbia un iscritto,  gli altri componenti del gruppo non riescono ad iscriversi perchè non risultano nell'organizzazione anche se hanno cliccato sull'invito.  Come si può risolvere questa cosa? Non ci è neanche pervenuta la mail di conferma della partecipazione all'organizzazione.",
+        "edited": {
+            "user": "U9MNETCD6",
+            "ts": "1523297941.000000"
+        },
+        "thread_ts": "1523296693.000366",
+        "reply_count": 13,
+        "replies": [
+            {
+                "user": "U9NSNMBMG",
+                "ts": "1523297206.000193"
+            },
+            {
+                "user": "UA2P4MQ23",
+                "ts": "1523297354.000696"
+            },
+            {
+                "user": "U9PBHQU3H",
+                "ts": "1523300030.000094"
+            },
+            {
+                "user": "U9NSNMBMG",
+                "ts": "1523303325.000535"
+            },
+            {
+                "user": "U9PBHQU3H",
+                "ts": "1523303375.000519"
+            },
+            {
+                "user": "U9PUAUSRM",
+                "ts": "1523303377.000453"
+            },
+            {
+                "user": "U9PBHQU3H",
+                "ts": "1523303402.000033"
+            },
+            {
+                "user": "U9PUAUSRM",
+                "ts": "1523303409.000461"
+            },
+            {
+                "user": "U9NSNMBMG",
+                "ts": "1523303452.000286"
+            },
+            {
+                "user": "U9NSNMBMG",
+                "ts": "1523303479.000363"
+            },
+            {
+                "user": "U9PUAUSRM",
+                "ts": "1523303516.000430"
+            },
+            {
+                "user": "U9MNETCD6",
+                "ts": "1523303974.000415"
+            },
+            {
+                "user": "U9NSNMBMG",
+                "ts": "1523304037.000470"
+            }
+        ],
+        "unread_count": 13,
+        "ts": "1523296693.000366"
+    },
+    {
+        "type": "message",
+        "user": "U9NSNMBMG",
+        "text": "seguo, stesso problema!",
+        "thread_ts": "1523296693.000366",
+        "parent_user_id": "U9MNETCD6",
+        "ts": "1523297206.000193"
+    },
+    {
+        "type": "message",
+        "user": "UA2P4MQ23",
+        "text": "Stesso Problema!",
+        "client_msg_id": "cceab57e-51e0-4e7e-8031-f853fba17d1a",
+        "thread_ts": "1523296693.000366",
+        "parent_user_id": "U9MNETCD6",
+        "ts": "1523297354.000696"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "molti team sono riusciti a registrarsi al completo. che vi devo dire? chiedete agli altri",
+        "thread_ts": "1523289744.000348",
+        "parent_user_id": "UA2A3DUPN",
+        "ts": "1523297411.000541"
+    },
+    {
+        "type": "message",
+        "user": "U9PBHQU3H",
+        "text": "Ho proposto una soluzione poco sopra, che ha funzionato con i membri del mio gruppo.",
+        "client_msg_id": "9ed88909-5d84-4bb0-89b8-e851e2a1c38c",
+        "thread_ts": "1523296693.000366",
+        "parent_user_id": "U9MNETCD6",
+        "ts": "1523300030.000094"
+    },
+    {
+        "type": "message",
+        "user": "U9PBHQU3H",
+        "text": "<@U9NSNMBMG>  <@UA2P4MQ23>",
+        "client_msg_id": "dd15fbeb-75a3-4ff2-8361-a0e95ad6edde",
+        "thread_ts": "1523294823.000536",
+        "parent_user_id": "U9PBHQU3H",
+        "ts": "1523300070.000129"
+    },
+    {
+        "type": "message",
+        "user": "U9PBHQU3H",
+        "text": "<@U9MNETCD6>",
+        "client_msg_id": "907e557a-50a9-494c-9ab3-2c890f82c382",
+        "thread_ts": "1523294823.000536",
+        "parent_user_id": "U9PBHQU3H",
+        "ts": "1523300100.000501"
+    },
+    {
+        "type": "message",
+        "user": "U9PK3NZ8F",
+        "text": "io avevo il vostro stesso problema, ho risolto aprendo il link che avevo messo stamattina il professore (<https:\/\/classroom.github.com\/g\/-uc4UzW->) e autorizzando github classroom a collegarsi al mio account github. dopo un po' ti tempo sono riuscito a vedere i vari gruppi al link <https:\/\/github.com\/orgs\/softeng-inf-uniba\/teams>",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "Build software better, together",
+                "title_link": "https:\/\/github.com\/orgs\/softeng-inf-uniba\/teams",
+                "text": "GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.",
+                "fallback": "GitHub: Build software better, together",
+                "image_width": 1200,
+                "image_height": 620,
+                "from_url": "https:\/\/github.com\/orgs\/softeng-inf-uniba\/teams",
+                "service_icon": "https:\/\/a.slack-edge.com\/bfaba\/img\/unfurl_icons\/github.png",
+                "id": 1
+            }
+        ],
+        "thread_ts": "1523289744.000348",
+        "parent_user_id": "UA2A3DUPN",
+        "ts": "1523302969.000199"
+    },
+    {
+        "type": "message",
+        "user": "U9NSNMBMG",
+        "text": "<@U9PBHQU3H> grazie, ma questo url <https:\/\/github.com\/softeng-inf-uniba\/teams> mi da 404, quindi penso sia legato all'invito il problema",
+        "edited": {
+            "user": "U9NSNMBMG",
+            "ts": "1523303348.000000"
+        },
+        "thread_ts": "1523296693.000366",
+        "parent_user_id": "U9MNETCD6",
+        "ts": "1523303325.000535"
+    },
+    {
+        "type": "message",
+        "user": "U9PBHQU3H",
+        "text": "Prima non dava quell'errore, quindi forse il prof ci sta mettendo mano",
+        "client_msg_id": "b81c01bb-6e34-48ee-b406-4cd26d802b54",
+        "thread_ts": "1523296693.000366",
+        "parent_user_id": "U9MNETCD6",
+        "ts": "1523303375.000519"
+    },
+    {
+        "type": "message",
+        "user": "U9PUAUSRM",
+        "text": "<https:\/\/github.com\/orgs\/softeng-inf-uniba\/teams>",
+        "thread_ts": "1523296693.000366",
+        "parent_user_id": "U9MNETCD6",
+        "ts": "1523303377.000453"
+    },
+    {
+        "type": "message",
+        "user": "U9PBHQU3H",
+        "text": "Ah ecco, questo funziona",
+        "client_msg_id": "e5ba426d-c216-447a-8369-4ee126d11c34",
+        "thread_ts": "1523296693.000366",
+        "parent_user_id": "U9MNETCD6",
+        "ts": "1523303402.000033"
+    },
+    {
+        "type": "message",
+        "user": "U9PUAUSRM",
+        "text": "Ti manca un orgs al link",
+        "thread_ts": "1523296693.000366",
+        "parent_user_id": "U9MNETCD6",
+        "ts": "1523303409.000461"
+    },
+    {
+        "type": "message",
+        "user": "U9NSNMBMG",
+        "text": "l'orgs lo toglie",
+        "thread_ts": "1523296693.000366",
+        "parent_user_id": "U9MNETCD6",
+        "ts": "1523303452.000286"
+    },
+    {
+        "type": "message",
+        "user": "U9NSNMBMG",
+        "text": "penso che stiamo parlando di url diversi a secondo dei permessi (quindi invito) che si hanno",
+        "thread_ts": "1523296693.000366",
+        "parent_user_id": "U9MNETCD6",
+        "ts": "1523303479.000363"
+    },
+    {
+        "type": "message",
+        "user": "U9PUAUSRM",
+        "text": "Capisco ^^",
+        "thread_ts": "1523296693.000366",
+        "parent_user_id": "U9MNETCD6",
+        "ts": "1523303516.000430"
+    },
+    {
+        "type": "message",
+        "user": "U9PBHQU3H",
+        "text": "<@U9NSNMBMG> l'url è questo. Con \/orgs in mezzo",
+        "client_msg_id": "0728053c-fa7d-467e-84a6-b1da5c1c7ef0",
+        "thread_ts": "1523277851.000480",
+        "parent_user_id": "U9BD7NMPC",
+        "ts": "1523303720.000730"
+    },
+    {
+        "type": "message",
+        "user": "U9NSNMBMG",
+        "text": "non credo sia quello il problema :slightly_smiling_face:",
+        "thread_ts": "1523277851.000480",
+        "parent_user_id": "U9BD7NMPC",
+        "ts": "1523303927.000585"
+    },
+    {
+        "type": "message",
+        "user": "U9MNETCD6",
+        "text": "<@U9PBHQU3H> grazie risolto:+1:",
+        "thread_ts": "1523296693.000366",
+        "parent_user_id": "U9MNETCD6",
+        "ts": "1523303974.000415"
+    },
+    {
+        "type": "message",
+        "user": "U9NSNMBMG",
+        "text": "<@U9MNETCD6> in che modo? grazie",
+        "thread_ts": "1523296693.000366",
+        "parent_user_id": "U9MNETCD6",
+        "ts": "1523304037.000470"
+    },
+    {
+        "type": "message",
+        "user": "U9PBHQU3H",
+        "text": "Tentar non nuoce :wink:",
+        "client_msg_id": "31a922b1-ba9f-484c-8ace-79d39969e7a4",
+        "thread_ts": "1523277851.000480",
+        "parent_user_id": "U9BD7NMPC",
+        "ts": "1523304046.000332"
+    },
+    {
+        "type": "message",
+        "user": "UA2P4MQ23",
+        "text": "Grazie",
+        "client_msg_id": "85ce2048-7616-46fe-b883-ee3b1ba13477",
+        "thread_ts": "1523294823.000536",
+        "parent_user_id": "U9PBHQU3H",
+        "ts": "1523304245.000528"
+    },
+    {
+        "type": "message",
+        "user": "U9NSNMBMG",
+        "text": "risolto, grazie!",
+        "thread_ts": "1523294823.000536",
+        "parent_user_id": "U9PBHQU3H",
+        "ts": "1523304681.000386"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<@U9NV9614K> Per ora tenetevi quel nome con 1718",
+        "thread_ts": "1523296286.000504",
+        "parent_user_id": "U9NV9614K",
+        "ts": "1523306213.000011"
+    },
+    {
+        "type": "message",
+        "user": "U9NV9614K",
+        "text": "Perfetto, grazie mille.",
+        "thread_ts": "1523296286.000504",
+        "parent_user_id": "U9NV9614K",
+        "ts": "1523306419.000369"
+    },
+    {
+        "type": "message",
+        "user": "U9PBHQU3H",
+        "text": "Prego",
+        "client_msg_id": "4bd39c25-7ba1-46a5-acfc-d95a727fa93e",
+        "thread_ts": "1523294823.000536",
+        "parent_user_id": "U9PBHQU3H",
+        "ts": "1523306487.000332"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "Le richieste di iscrizione ai team creati devono essere autorizzate da me su GitHub Classroom. Per questo passa un po' di tempo prima che vediate l'accesso.",
+        "ts": "1523307703.000363"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "Ho reso visibile altri due team ma uno, *Hellman*, ha l'iniziale maiuscola e quindi lo cancello. Chi l'ha creato deve crearlo nuovamente con tutte le lettere minuscole. Spero che sia l'ultima volta che devo ripeterlo",
+        "ts": "1523307785.000689"
+    },
+    {
+        "type": "message",
+        "user": "U9PK3NZ8F",
+        "text": "<@U9BD7NMPC> professore puo' rendere pubblico anche il gruppo engelbart?",
+        "edited": {
+            "user": "U9PK3NZ8F",
+            "ts": "1523309091.000000"
+        },
+        "ts": "1523309071.000354"
+    }
+]

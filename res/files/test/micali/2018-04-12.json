@@ -1,0 +1,60 @@
+[
+    {
+        "type": "message",
+        "user": "U9PBHQU3H",
+        "text": "Reunion aula studio ore 15.30, perchi se ne fosse dimenticato",
+        "client_msg_id": "fc0d4105-7a13-4652-b019-74bafac61954",
+        "ts": "1523538374.000470"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U9PBHQU3H> uploaded a file: <https:\/\/ingsw1718.slack.com\/files\/U9PBHQU3H\/FA5HMSHS7\/credenziali.doc|Credenziali.doc>",
+        "file": {
+            "id": "FA5HMSHS7",
+            "created": 1523540705,
+            "timestamp": 1523540705,
+            "name": "Credenziali.doc",
+            "title": "Credenziali.doc",
+            "mimetype": "application\/msword",
+            "filetype": "doc",
+            "pretty_type": "Word Document",
+            "user": "U9PBHQU3H",
+            "editable": false,
+            "size": 27648,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA5HMSHS7\/credenziali.doc?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA5HMSHS7\/download\/credenziali.doc?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/U9PBHQU3H\/FA5HMSHS7\/credenziali.doc",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-FA5HMSHS7-4165b2279c",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U9PBHQU3H",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "ambra.leila",
+        "bot_id": null,
+        "ts": "1523540706.000207"
+    },
+    {
+        "type": "message",
+        "user": "U9PBHQU3H",
+        "text": "Problemi con i build RISOLTI",
+        "ts": "1523540989.000522"
+    },
+    {
+        "type": "message",
+        "user": "U9N82V6JC",
+        "text": "Ok attendiamo direttive dal prof per la consegna di lunedì",
+        "ts": "1523544622.000441"
+    }
+]

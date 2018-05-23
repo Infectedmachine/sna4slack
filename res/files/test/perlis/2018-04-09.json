@@ -1,0 +1,22 @@
+[
+    {
+        "type": "message",
+        "user": "U9NJ3PL4D",
+        "text": "Ho creato il team perlis su GitHub Classroom, andate su <https:\/\/github.com\/orgs\/softeng-inf-uniba\/teams> trovate il nostro team ed entrateci, spostatevi sulla scheda Members e cliccate su Request to Join",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "Build software better, together",
+                "title_link": "https:\/\/github.com\/orgs\/softeng-inf-uniba\/teams",
+                "text": "GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.",
+                "fallback": "GitHub: Build software better, together",
+                "image_width": 1200,
+                "image_height": 620,
+                "from_url": "https:\/\/github.com\/orgs\/softeng-inf-uniba\/teams",
+                "service_icon": "https:\/\/a.slack-edge.com\/bfaba\/img\/unfurl_icons\/github.png",
+                "id": 1
+            }
+        ],
+        "ts": "1523279725.000040"
+    }
+]

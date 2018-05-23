@@ -1,0 +1,29 @@
+[
+    {
+        "type": "message",
+        "user": "U9NBNJFB3",
+        "text": "Chi si iscrive a docker?",
+        "client_msg_id": "4e37c7a4-d2b8-47e6-af6b-d80261e568a3",
+        "ts": "1523271106.000361"
+    },
+    {
+        "type": "message",
+        "user": "U9P18U17X",
+        "text": "ho fatto io",
+        "ts": "1523272466.000400"
+    },
+    {
+        "type": "message",
+        "user": "U9NBNJFB3",
+        "text": "Dopo condividi le credenziali",
+        "client_msg_id": "ee258032-92af-4d34-9e39-b0772fa07547",
+        "ts": "1523272660.000140"
+    },
+    {
+        "type": "message",
+        "user": "U9P18U17X",
+        "text": "Raga io sono stato aggiunto al team",
+        "client_msg_id": "948B7777-A6F5-4ECE-AA69-429FC5A93846",
+        "ts": "1523291632.000189"
+    }
+]

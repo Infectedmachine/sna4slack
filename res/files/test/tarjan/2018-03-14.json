@@ -1,0 +1,30 @@
+[
+    {
+        "user": "U9P33EZ5F",
+        "text": "<@U9P33EZ5F> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1521021571.000556"
+    },
+    {
+        "user": "U9P373ASV",
+        "text": "<@U9P373ASV> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1521022026.000051"
+    },
+    {
+        "type": "message",
+        "user": "U9P373ASV",
+        "text": "Salve",
+        "client_msg_id": "a1ac903a-7261-498d-8d36-e444f7875026",
+        "ts": "1521022038.000393"
+    },
+    {
+        "user": "U9PJQ7YP6",
+        "text": "<@U9PJQ7YP6> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1521022241.000268"
+    }
+]

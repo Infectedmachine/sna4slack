@@ -1,0 +1,145 @@
+[
+    {
+        "type": "message",
+        "user": "U9N9XTY8H",
+        "text": "Channel <#C9N72MJGY|nygaard> creato.",
+        "ts": "1520927312.000360"
+    },
+    {
+        "type": "message",
+        "user": "U9L0877K5",
+        "text": "canale <#C9NEK87RQ|dijkstra> creato.",
+        "ts": "1520930067.000076"
+    },
+    {
+        "type": "message",
+        "user": "U9NQ3SVMH",
+        "text": "Canale <#C9NQ5BM5Z|allen> creato",
+        "ts": "1520931096.000257"
+    },
+    {
+        "type": "message",
+        "user": "U9PNL8V9U",
+        "text": "Canale <#C9PNPP91U|reddy> creato",
+        "ts": "1520931736.000066"
+    },
+    {
+        "type": "message",
+        "user": "U9NFLSSBW",
+        "text": "Canale <#C9PUSNJTZ|brooks> creato",
+        "client_msg_id": "EBF6E397-DD96-498E-BC5A-88A2EC04FB92",
+        "ts": "1520931962.000011"
+    },
+    {
+        "type": "message",
+        "user": "U9NQ80ZDH",
+        "text": "Canale <#C9NSD86DA|gray> creato",
+        "ts": "1520932284.000013"
+    },
+    {
+        "type": "message",
+        "user": "U9N7WANGG",
+        "text": "canale <#C9PUZRZCP|hoare> creato",
+        "ts": "1520932921.000267",
+        "reactions": [
+            {
+                "name": "face_with_cowboy_hat",
+                "users": [
+                    "U9NSLHZAQ"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9NAWS8CR",
+        "text": "canale <#C9NQWH24T|knuth>  creato",
+        "ts": "1520934375.000459"
+    },
+    {
+        "type": "message",
+        "user": "U9NQ7HF27",
+        "text": "Canale <#C9NTX4F34|goldwasser> creato",
+        "ts": "1520934899.000134"
+    },
+    {
+        "type": "message",
+        "user": "U9MQ541S4",
+        "text": "Canale <#C9NCAD40H|wilkinson> creato",
+        "client_msg_id": "94ec7174-28b8-4789-92aa-eb07c1e48c16",
+        "ts": "1520937801.000493"
+    },
+    {
+        "type": "message",
+        "user": "U9NCMRU8H",
+        "text": "Canale <#C9NUSE6TC|berners-lee> creato",
+        "client_msg_id": "4a04bfec-f005-4036-a5fb-de6a047834ca",
+        "ts": "1520939766.000083"
+    },
+    {
+        "type": "message",
+        "user": "U9NV9614K",
+        "text": "Canale <#C9NCZSP88|backus> creato",
+        "ts": "1520951059.000109"
+    },
+    {
+        "type": "message",
+        "user": "U9NDHPVRS",
+        "text": "<@U9BD7NMPC> prof giovedì faremo teoria o laboratorio di git?",
+        "thread_ts": "1520954613.000066",
+        "reply_count": 1,
+        "replies": [
+            {
+                "user": "U9BD7NMPC",
+                "ts": "1520957335.000294"
+            }
+        ],
+        "unread_count": 1,
+        "ts": "1520954613.000066"
+    },
+    {
+        "type": "message",
+        "user": "U9NS5BECU",
+        "text": "Canale <#C9Q0XF7F0|cocke> creato",
+        "ts": "1520957245.000672"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "al 90% teoria. Se no, vi avviso",
+        "thread_ts": "1520954613.000066",
+        "parent_user_id": "U9NDHPVRS",
+        "ts": "1520957335.000294",
+        "reactions": [
+            {
+                "name": "+1::skin-tone-2",
+                "users": [
+                    "U9NDHPVRS"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9P18U17X",
+        "text": "Canale <#C9NJF3133|scott> creato",
+        "client_msg_id": "A90B8945-2AF9-4B8C-B904-0B129DDEC7F7",
+        "ts": "1520958691.000138"
+    },
+    {
+        "type": "message",
+        "user": "U9N84AWTA",
+        "text": "Ho modificato la descrizione di <#C9NUSE6TC|berners-lee> come da lei richiesto prof <@U9BD7NMPC>",
+        "client_msg_id": "09c9d4f5-455d-41c2-bd41-95223b205a5f",
+        "ts": "1520967742.000327"
+    },
+    {
+        "type": "message",
+        "user": "U9NQ1QL72",
+        "text": "Canale <#C9Q9H3R7Y|tarjan> creato",
+        "client_msg_id": "c1aa59b9-9e62-4fed-8186-db7e5e9dde58",
+        "ts": "1520984847.000275"
+    }
+]

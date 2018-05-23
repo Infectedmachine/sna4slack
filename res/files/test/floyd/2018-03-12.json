@@ -1,0 +1,79 @@
+[
+    {
+        "user": "U9PDKF5JB",
+        "text": "<@U9PDKF5JB> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520870206.000311"
+    },
+    {
+        "user": "U9PDKF5JB",
+        "purpose": "Gruppo di lavoro",
+        "text": "<@U9PDKF5JB> set the channel purpose: Gruppo di lavoro",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520870206.000636"
+    },
+    {
+        "user": "U9MTNTYSD",
+        "inviter": "U9PDKF5JB",
+        "text": "<@U9MTNTYSD> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520871219.000527"
+    },
+    {
+        "user": "U9PDKF5JB",
+        "topic": "",
+        "text": "<@U9PDKF5JB> cleared channel topic",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1520871643.000244"
+    },
+    {
+        "user": "U9PDKF5JB",
+        "purpose": "Gruppo di lavoro: Lacetera, Didio, Bitondo",
+        "text": "<@U9PDKF5JB> set the channel purpose: Gruppo di lavoro: Lacetera, Didio, Bitondo",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520871643.000352"
+    },
+    {
+        "type": "message",
+        "user": "U9PDKF5JB",
+        "text": "Robert W. Floyd, vincitore del turing nel 1978\nmetodologie per la costruzione di software efficiente e affidabile",
+        "client_msg_id": "662627e6-b7c9-4463-8ca7-6f9e2eee7412",
+        "ts": "1520873816.000258"
+    },
+    {
+        "user": "U9PBQ382J",
+        "inviter": "U9PDKF5JB",
+        "text": "<@U9PBQ382J> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520880251.000098"
+    },
+    {
+        "user": "U9PDKF5JB",
+        "purpose": "Lacetera - Didio - Bitondo",
+        "text": "<@U9PDKF5JB> set the channel purpose: Lacetera - Didio - Bitondo",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520898843.000245"
+    },
+    {
+        "user": "U9PDKF5JB",
+        "topic": "",
+        "text": "<@U9PDKF5JB> cleared channel topic",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1520898843.000292"
+    },
+    {
+        "type": "message",
+        "user": "U9PDKF5JB",
+        "text": "Wagnu mettetevi delle photo del porfilo",
+        "client_msg_id": "6555004d-b803-4836-8a3a-5a74d229e4c8",
+        "ts": "1520898867.000242"
+    }
+]

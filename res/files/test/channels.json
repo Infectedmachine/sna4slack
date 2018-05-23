@@ -1,0 +1,1400 @@
+[
+    {
+        "id": "C9NQ5BM5Z",
+        "name": "allen",
+        "created": "1520931052",
+        "creator": "U9NQ3SVMH",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U9N7VA3NC",
+            "U9NAWQD7B",
+            "U9NQ3SVMH",
+            "U9NTC20N6",
+            "U9PC1QR2R"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "U9NQ3SVMH",
+            "last_set": "1520959813"
+        },
+        "purpose": {
+            "value": "Ancler, Bruno, Caputo, Casafina e Losito ",
+            "creator": "U9NQ3SVMH",
+            "last_set": "1520959813"
+        }
+    },
+    {
+        "id": "CA3EZFFGR",
+        "name": "assistenza",
+        "created": "1523347390",
+        "creator": "U9BD7NMPC",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U9BD7NMPC",
+            "U9CDZPXLN",
+            "U9JS0QR60",
+            "U9L4K57T6",
+            "U9MML6PLG",
+            "U9MNETCD6",
+            "U9MQSS657",
+            "U9MR5LH25",
+            "U9MU4674H",
+            "U9MUU9N57",
+            "U9N6Y2L9W",
+            "U9N7VA3NC",
+            "U9N82V6JC",
+            "U9N8CNHK2",
+            "U9N8K4Z24",
+            "U9NAK1VB5",
+            "U9NAWQD7B",
+            "U9NAWRB2Q",
+            "U9NAWS8CR",
+            "U9NBB7P4K",
+            "U9NBDU7B4",
+            "U9NBXPRDH",
+            "U9NCNLL83",
+            "U9NDHPVRS",
+            "U9NDPBTNF",
+            "U9NEW0602",
+            "U9NF6NSU8",
+            "U9NG44DUJ",
+            "U9NGE229G",
+            "U9NJ3PL4D",
+            "U9NQ7HF27",
+            "U9NQ80ZDH",
+            "U9NQ8RQ67",
+            "U9NQRSU7M",
+            "U9NS5BECU",
+            "U9NS9S2NQ",
+            "U9NSLHZAQ",
+            "U9NSNMBMG",
+            "U9NSRGFQU",
+            "U9NSX31U2",
+            "U9NSYMBB5",
+            "U9NTC20N6",
+            "U9NUJDF7A",
+            "U9P0XUJ4D",
+            "U9P12DFBK",
+            "U9P18U17X",
+            "U9P1B28NM",
+            "U9P1HQEA1",
+            "U9P3A065A",
+            "U9P3D2S8Z",
+            "U9P54QYLA",
+            "U9P5NTBML",
+            "U9P60ACP7",
+            "U9P61MA7Q",
+            "U9P6VLG6A",
+            "U9PAU9362",
+            "U9PBCG946",
+            "U9PBHQU3H",
+            "U9PBQ382J",
+            "U9PC1QR2R",
+            "U9PC8DR8W",
+            "U9PDKF5JB",
+            "U9PJQ7YP6",
+            "U9PK3NZ8F",
+            "U9PK8UJBA",
+            "U9PNDSW4R",
+            "U9PNL8V9U",
+            "U9PP54E4D",
+            "U9PQNB3DF",
+            "U9PUAUSRM",
+            "U9Q0RC3E2",
+            "U9Q3DHX0V",
+            "U9Q9CDE0P",
+            "U9QMPRZAT",
+            "U9RE08815",
+            "U9RF0QCFJ",
+            "U9RH3L2HJ",
+            "U9RTC8JSE",
+            "U9SUDJ8J2",
+            "U9T55R65D",
+            "U9W4FCFEH",
+            "U9XU0HF0W",
+            "UA2A3DUPN",
+            "UA2DNR4F4",
+            "UA2P4MQ23"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        }
+    },
+    {
+        "id": "C9NCZSP88",
+        "name": "backus",
+        "created": "1520951015",
+        "creator": "U9NV9614K",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U9NV9614K",
+            "U9P0DMXGD",
+            "U9P60ACP7"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "Lomuscio, Bellarosa, Dongiovanni",
+            "creator": "U9NV9614K",
+            "last_set": "1520951016"
+        }
+    },
+    {
+        "id": "C9NUSE6TC",
+        "name": "bernerslee",
+        "created": "1520938583",
+        "creator": "U9N84AWTA",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U9N84AWTA",
+            "U9NCMRU8H",
+            "U9NRSQ859",
+            "U9Q8J1MNF"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "U9N84AWTA",
+            "last_set": "1523448720"
+        },
+        "purpose": {
+            "value": "Diaferio, Leone, Cancellaro, Liberti",
+            "creator": "U9N84AWTA",
+            "last_set": "1520967570"
+        }
+    },
+    {
+        "id": "C9PUSNJTZ",
+        "name": "brooks",
+        "created": "1520931934",
+        "creator": "U9NFLSSBW",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U9N8K4Z24",
+            "U9NFLSSBW",
+            "U9Q9B1ELX"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "Intini, D’Oria, De cillis",
+            "creator": "U9N8K4Z24",
+            "last_set": "1521108728"
+        }
+    },
+    {
+        "id": "C9Q0XF7F0",
+        "name": "cocke",
+        "created": "1520957215",
+        "creator": "U9NS5BECU",
+        "is_archived": true,
+        "is_general": false,
+        "members": [],
+        "topic": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "Liantonio, Cozzoli, Ardito",
+            "creator": "U9NS5BECU",
+            "last_set": "1520957216"
+        }
+    },
+    {
+        "id": "C9P7FFX4N",
+        "name": "codd",
+        "created": "1520864359",
+        "creator": "U9NAWRB2Q",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U9MNETCD6",
+            "U9MR5LH25",
+            "U9NAWRB2Q",
+            "U9NCNLL83"
+        ],
+        "topic": {
+            "value": "Difonzo, Ferrulli, Di Terlizzi, De Ruvo",
+            "creator": "U9NAWRB2Q",
+            "last_set": "1520883302"
+        },
+        "purpose": {
+            "value": "Difonzo, Ferrulli, Di Terlizzi, De Ruvo",
+            "creator": "U9NCNLL83",
+            "last_set": "1520930296"
+        }
+    },
+    {
+        "id": "C9BD9G3AN",
+        "name": "consegne",
+        "created": "1519069615",
+        "creator": "U9BD7NMPC",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U9BD7NMPC",
+            "U9N8CNHK2"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "Notifiche di completamento del lavoro assegnato",
+            "creator": "U9BD7NMPC",
+            "last_set": "1519069616"
+        }
+    },
+    {
+        "id": "C9NEK87RQ",
+        "name": "dijkstra",
+        "created": "1520871001",
+        "creator": "U9P5NTBML",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U9L0877K5",
+            "U9P5NTBML",
+            "U9PK7T62Y",
+            "U9PPY2L5B",
+            "U9RSNNJBG"
+        ],
+        "topic": {
+            "value": "Nazar Chekalin , Davide Lapenta, Fabrizio Ferrara, Giuseppe Angelini, Piera Amendola",
+            "creator": "U9L0877K5",
+            "last_set": "1521111303"
+        },
+        "purpose": {
+            "value": "Chekalin,Lapenta,Ferrara,Angelini,Amendola",
+            "creator": "U9P5NTBML",
+            "last_set": "1521111309"
+        }
+    },
+    {
+        "id": "C9NDCM4R1",
+        "name": "engelbart",
+        "created": "1520875475",
+        "creator": "U9MU4674H",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U9MU4674H",
+            "U9NS88ZU4",
+            "U9PBCG946",
+            "U9PK3NZ8F"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "U9MU4674H",
+            "last_set": "1520924419"
+        },
+        "purpose": {
+            "value": "Cinquepalmi, La Gala, De Stradis, Andreucci.",
+            "creator": "U9MU4674H",
+            "last_set": "1521111332"
+        }
+    },
+    {
+        "id": "C9P6BD3KK",
+        "name": "feigenbaum",
+        "created": "1521034722",
+        "creator": "U9PQX9LAZ",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U9P3321UY",
+            "U9PKEG3UK",
+            "U9PQUEFAQ",
+            "U9PQX9LAZ"
+        ],
+        "pins": [
+            {
+                "id": "1521226344.000415",
+                "type": "C",
+                "user": "U9PQX9LAZ",
+                "owner": "U9PQX9LAZ",
+                "created": 1521226354
+            }
+        ],
+        "topic": {
+            "value": "",
+            "creator": "U9PQX9LAZ",
+            "last_set": "1523377545"
+        },
+        "purpose": {
+            "value": "Ianuzziello, Hoxha, Ferrone, Di Luzio",
+            "creator": "U9PQX9LAZ",
+            "last_set": "1523377545"
+        }
+    },
+    {
+        "id": "C9NDE1PK6",
+        "name": "floyd",
+        "created": "1520870206",
+        "creator": "U9PDKF5JB",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U9MTNTYSD",
+            "U9PBQ382J",
+            "U9PDKF5JB",
+            "U9SUDJ8J2",
+            "U9T55R65D"
+        ],
+        "pins": [
+            {
+                "id": "1523457029.000820",
+                "type": "C",
+                "user": "U9PDKF5JB",
+                "owner": "U9T55R65D",
+                "created": 1523459980
+            }
+        ],
+        "topic": {
+            "value": "",
+            "creator": "U9PDKF5JB",
+            "last_set": "1520898843"
+        },
+        "purpose": {
+            "value": "Lacetera - Didio - Bitondo - Greco - Eliotropio",
+            "creator": "U9PBQ382J",
+            "last_set": "1523101691"
+        }
+    },
+    {
+        "id": "C9APF813J",
+        "name": "general",
+        "created": "1519069375",
+        "creator": "U9BD7NMPC",
+        "is_archived": false,
+        "is_general": true,
+        "members": [
+            "U9B126ZME",
+            "U9BD7NMPC",
+            "U9C1H5QLS",
+            "U9CDZPXLN",
+            "U9DEKNNLV",
+            "U9JS0QR60",
+            "U9L0877K5",
+            "U9L4K57T6",
+            "U9MML6PLG",
+            "U9MNETCD6",
+            "U9MQ541S4",
+            "U9MQSS657",
+            "U9MR5LH25",
+            "U9MTNTYSD",
+            "U9MU4674H",
+            "U9MUU9N57",
+            "U9N6Y2L9W",
+            "U9N7VA3NC",
+            "U9N7WANGG",
+            "U9N82V6JC",
+            "U9N84AWTA",
+            "U9N84FF9R",
+            "U9N8CNHK2",
+            "U9N8GRK3J",
+            "U9N8K4Z24",
+            "U9N9XTY8H",
+            "U9NA5GDFU",
+            "U9NAK1VB5",
+            "U9NAWQD7B",
+            "U9NAWRB2Q",
+            "U9NAWS8CR",
+            "U9NBB7P4K",
+            "U9NBDU7B4",
+            "U9NBGBT5F",
+            "U9NBNJFB3",
+            "U9NBUHYJF",
+            "U9NBXPRDH",
+            "U9NC7BF1R",
+            "U9NCCC059",
+            "U9NCMRU8H",
+            "U9NCNLL83",
+            "U9NDHPVRS",
+            "U9NDPBTNF",
+            "U9NEW0602",
+            "U9NF6NSU8",
+            "U9NFLSSBW",
+            "U9NG44DUJ",
+            "U9NGE229G",
+            "U9NGME9QC",
+            "U9NJ3PL4D",
+            "U9NJ4EYM7",
+            "U9NJ8R37E",
+            "U9NM7AYPN",
+            "U9NMMRZ09",
+            "U9NQ1QL72",
+            "U9NQ3SVMH",
+            "U9NQ6MMFV",
+            "U9NQ7HF27",
+            "U9NQ7UWBD",
+            "U9NQ80ZDH",
+            "U9NQ8RQ67",
+            "U9NQRSU7M",
+            "U9NREC5DJ",
+            "U9NRSQ859",
+            "U9NS5BECU",
+            "U9NS88ZU4",
+            "U9NS9S2NQ",
+            "U9NSLHZAQ",
+            "U9NSNMBMG",
+            "U9NSRGFQU",
+            "U9NSX31U2",
+            "U9NSYMBB5",
+            "U9NTC20N6",
+            "U9NUJDF7A",
+            "U9NV9614K",
+            "U9P0DMXGD",
+            "U9P0XUJ4D",
+            "U9P12DFBK",
+            "U9P18U17X",
+            "U9P1B28NM",
+            "U9P1HQEA1",
+            "U9P21SKA6",
+            "U9P2CG284",
+            "U9P3321UY",
+            "U9P33EZ5F",
+            "U9P373ASV",
+            "U9P3A065A",
+            "U9P3D2S8Z",
+            "U9P54QYLA",
+            "U9P5NKA7P",
+            "U9P5NTBML",
+            "U9P60ACP7",
+            "U9P61MA7Q",
+            "U9P6VLG6A",
+            "U9P9BGKU2",
+            "U9PAU9362",
+            "U9PBCG946",
+            "U9PBHQU3H",
+            "U9PBQ382J",
+            "U9PC1QR2R",
+            "U9PC8DR8W",
+            "U9PDKF5JB",
+            "U9PGALKRR",
+            "U9PGLDHV5",
+            "U9PHQJ3HV",
+            "U9PJQ7YP6",
+            "U9PK3NZ8F",
+            "U9PK7T62Y",
+            "U9PK8UJBA",
+            "U9PKEG3UK",
+            "U9PLQ0F47",
+            "U9PNBSH0E",
+            "U9PNDSW4R",
+            "U9PNL8V9U",
+            "U9PNMN1HC",
+            "U9PP54E4D",
+            "U9PPY2L5B",
+            "U9PQNB3DF",
+            "U9PQUEFAQ",
+            "U9PQX9LAZ",
+            "U9PTV79DM",
+            "U9PUAUSRM",
+            "U9PUPKP39",
+            "U9PUTB10X",
+            "U9PVD2REK",
+            "U9Q0RC3E2",
+            "U9Q3DHX0V",
+            "U9Q8J1MNF",
+            "U9Q9B1ELX",
+            "U9Q9CDE0P",
+            "U9QAFJUR5",
+            "U9QLDMNDV",
+            "U9QMPRZAT",
+            "U9QN7HEBY",
+            "U9QSZKZ8B",
+            "U9RE08815",
+            "U9RF0QCFJ",
+            "U9RH3L2HJ",
+            "U9RSNNJBG",
+            "U9RTC8JSE",
+            "U9SN6LG10",
+            "U9SNDGH0A",
+            "U9SUDJ8J2",
+            "U9T55R65D",
+            "U9T6XT550",
+            "U9VUKMBU4",
+            "U9W4FCFEH",
+            "U9XU0HF0W",
+            "UA11Q07AL",
+            "UA1JDS15Z",
+            "UA1PBUVC4",
+            "UA2A3DUPN",
+            "UA2DNR4F4",
+            "UA2GU3SBX",
+            "UA2P4MQ23"
+        ],
+        "topic": {
+            "value": "Company-wide announcements and work-based matters",
+            "creator": "U9BD7NMPC",
+            "last_set": "1519069375"
+        },
+        "purpose": {
+            "value": "This channel is for workspace-wide communication and announcements. All members are in this channel.",
+            "creator": "U9BD7NMPC",
+            "last_set": "1519069375"
+        }
+    },
+    {
+        "id": "CAAHQ56P4",
+        "name": "github",
+        "created": "1524246576",
+        "creator": "U9BD7NMPC",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U9BD7NMPC"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "Mostra le attività sul repository base gestito dal docente",
+            "creator": "U9BD7NMPC",
+            "last_set": "1524246577"
+        }
+    },
+    {
+        "id": "C9NTX4F34",
+        "name": "goldwasser",
+        "created": "1520934783",
+        "creator": "U9NQ7HF27",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U9N8GRK3J",
+            "U9NBGBT5F",
+            "U9NQ7HF27",
+            "U9NQRSU7M",
+            "U9SN6LG10"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "Lenti, Caputo, Festa, Lorusso, D'Orsi",
+            "creator": "U9NQ7HF27",
+            "last_set": "1520934784"
+        }
+    },
+    {
+        "id": "C9NSD86DA",
+        "name": "gray",
+        "created": "1520931731",
+        "creator": "U9NQ80ZDH",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U9NQ6MMFV",
+            "U9NQ80ZDH",
+            "U9PUPKP39"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "de Gennaro, Farinola, Cervone",
+            "creator": "U9NQ80ZDH",
+            "last_set": "1520932332"
+        }
+    },
+    {
+        "id": "C9MMVQVL0",
+        "name": "hamming",
+        "created": "1520863788",
+        "creator": "U9P6VLG6A",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U9MML6PLG",
+            "U9MQSS657",
+            "U9NAK1VB5",
+            "U9NSX31U2",
+            "U9P6VLG6A"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "U9P6VLG6A",
+            "last_set": "1520930369"
+        },
+        "purpose": {
+            "value": "Acciaro, Corsini, Di Pierro, Elia, Giovine",
+            "creator": "U9P6VLG6A",
+            "last_set": "1520930369"
+        }
+    },
+    {
+        "id": "C9NENP6LD",
+        "name": "hellman",
+        "created": "1520862065",
+        "creator": "U9N84FF9R",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U9N84FF9R",
+            "U9NGME9QC",
+            "U9PC8DR8W",
+            "U9PNMN1HC"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "U9N84FF9R",
+            "last_set": "1520872237"
+        },
+        "purpose": {
+            "value": "Chirico, Ignomeriello, Didonna, Brunetta",
+            "creator": "U9N84FF9R",
+            "last_set": "1520872237"
+        }
+    },
+    {
+        "id": "C9PUZRZCP",
+        "name": "hoare",
+        "created": "1520932878",
+        "creator": "U9N7WANGG",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U9N7WANGG",
+            "U9NSLHZAQ",
+            "U9P1HQEA1",
+            "UA1JDS15Z"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "U9N7WANGG",
+            "last_set": "1522930186"
+        },
+        "purpose": {
+            "value": "Cristea, de Filippo, Cassiano, Angelelli",
+            "creator": "U9N7WANGG",
+            "last_set": "1522930186"
+        }
+    },
+    {
+        "id": "CA47B3L9K",
+        "name": "hopcroft",
+        "created": "1523353974",
+        "creator": "U9NS5BECU",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U9NS5BECU",
+            "U9P54QYLA",
+            "U9Q0RC3E2"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "Ardito, Cozzoli, Liantonio",
+            "creator": "U9NS5BECU",
+            "last_set": "1523353975"
+        }
+    },
+    {
+        "id": "C9VV4Q74J",
+        "name": "kahn",
+        "created": "1522054454",
+        "creator": "U9PUTB10X",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U9PUTB10X",
+            "U9VUKMBU4",
+            "U9W4FCFEH",
+            "U9XU0HF0W"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "Andrisani , Lovino , Cassano , Ferrara",
+            "creator": "U9PUTB10X",
+            "last_set": "1522054455"
+        }
+    },
+    {
+        "id": "C9QL2FWAK",
+        "name": "kay",
+        "created": "1521017938",
+        "creator": "U9P3A065A",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U9NSYMBB5",
+            "U9NUJDF7A",
+            "U9P3A065A",
+            "U9RH3L2HJ"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "U9P3A065A",
+            "last_set": "1521720295"
+        },
+        "purpose": {
+            "value": "Iannotta, Diomede, Allamprese, Loperfido ",
+            "creator": "U9P3A065A",
+            "last_set": "1521720295"
+        }
+    },
+    {
+        "id": "C9NQWH24T",
+        "name": "knuth",
+        "created": "1520934343",
+        "creator": "U9NAWS8CR",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U9L4K57T6",
+            "U9NAWS8CR",
+            "U9P5NKA7P",
+            "U9PVD2REK"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "U9NAWS8CR",
+            "last_set": "1520957630"
+        },
+        "purpose": {
+            "value": "Cormio, Dagnello,  Amoruso,  Di Lella",
+            "creator": "U9NAWS8CR",
+            "last_set": "1520957630"
+        }
+    },
+    {
+        "id": "C9SLGMULF",
+        "name": "lampson",
+        "created": "1521295549",
+        "creator": "U9PNDSW4R",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U9PK8UJBA",
+            "U9PNDSW4R",
+            "U9PQNB3DF",
+            "U9RE08815"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "Componenti: Figliuolo - Frasca - Catucci - Borace",
+            "creator": "U9PNDSW4R",
+            "last_set": "1523449529"
+        }
+    },
+    {
+        "id": "C9NK7QADT",
+        "name": "liskov",
+        "created": "1520873863",
+        "creator": "U9PAU9362",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U9JS0QR60",
+            "U9MUU9N57",
+            "U9PAU9362",
+            "U9RF0QCFJ",
+            "U9RTC8JSE"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "U9MUU9N57",
+            "last_set": "1523532674"
+        },
+        "purpose": {
+            "value": "Comes, Alessandra Dagnello, Depalo, Lanotte, Lorusso",
+            "creator": "U9MUU9N57",
+            "last_set": "1523532674"
+        }
+    },
+    {
+        "id": "C9NEL4BRA",
+        "name": "micali",
+        "created": "1520873198",
+        "creator": "U9PBHQU3H",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U9N82V6JC",
+            "U9P12DFBK",
+            "U9P1B28NM",
+            "U9P61MA7Q",
+            "U9PBHQU3H"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "U9PBHQU3H",
+            "last_set": "1520946663"
+        },
+        "purpose": {
+            "value": "Colaianni, Console Anna, Console Antonio, Leo, Lorusso",
+            "creator": "U9PBHQU3H",
+            "last_set": "1520946662"
+        }
+    },
+    {
+        "id": "C9N72MJGY",
+        "name": "nygaard",
+        "created": "1520927111",
+        "creator": "U9N9XTY8H",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U9N6Y2L9W",
+            "U9N9XTY8H",
+            "U9NREC5DJ",
+            "U9PTV79DM"
+        ],
+        "pins": [
+            {
+                "id": "1520927843.000204",
+                "type": "C",
+                "user": "U9PTV79DM",
+                "owner": "U9PTV79DM",
+                "created": 1520930766
+            },
+            {
+                "id": "F9Q026LMV",
+                "type": "F",
+                "user": "U9PTV79DM",
+                "owner": "U9N6Y2L9W",
+                "created": 1520935192
+            }
+        ],
+        "topic": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "Lischio, Lagatta, Dimeo, Curci",
+            "creator": "U9N9XTY8H",
+            "last_set": "1520927111"
+        }
+    },
+    {
+        "id": "C9NCNQ21H",
+        "name": "perlis",
+        "created": "1520873636",
+        "creator": "U9NJ3PL4D",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U9NJ3PL4D",
+            "U9NSRGFQU",
+            "U9P21SKA6",
+            "U9PGALKRR",
+            "U9QSZKZ8B"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "Carlucci, Di Nanni, Dileo, Lorusso, Castellano.",
+            "creator": "U9NJ3PL4D",
+            "last_set": "1521188577"
+        }
+    },
+    {
+        "id": "C9BGS7N3F",
+        "name": "random",
+        "created": "1519069375",
+        "creator": "U9BD7NMPC",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U9B126ZME",
+            "U9BD7NMPC",
+            "U9C1H5QLS",
+            "U9CDZPXLN",
+            "U9DEKNNLV",
+            "U9JS0QR60",
+            "U9L0877K5",
+            "U9L4K57T6",
+            "U9MML6PLG",
+            "U9MNETCD6",
+            "U9MQ541S4",
+            "U9MQSS657",
+            "U9MR5LH25",
+            "U9MTNTYSD",
+            "U9MU4674H",
+            "U9MUU9N57",
+            "U9N6Y2L9W",
+            "U9N7VA3NC",
+            "U9N7WANGG",
+            "U9N82V6JC",
+            "U9N84AWTA",
+            "U9N84FF9R",
+            "U9N8CNHK2",
+            "U9N8GRK3J",
+            "U9N8K4Z24",
+            "U9N9XTY8H",
+            "U9NA5GDFU",
+            "U9NAK1VB5",
+            "U9NAWQD7B",
+            "U9NAWRB2Q",
+            "U9NAWS8CR",
+            "U9NBB7P4K",
+            "U9NBDU7B4",
+            "U9NBGBT5F",
+            "U9NBNJFB3",
+            "U9NBUHYJF",
+            "U9NBXPRDH",
+            "U9NC7BF1R",
+            "U9NCCC059",
+            "U9NCMRU8H",
+            "U9NCNLL83",
+            "U9NDHPVRS",
+            "U9NDPBTNF",
+            "U9NEW0602",
+            "U9NF6NSU8",
+            "U9NFLSSBW",
+            "U9NG44DUJ",
+            "U9NGE229G",
+            "U9NGME9QC",
+            "U9NJ3PL4D",
+            "U9NJ4EYM7",
+            "U9NJ8R37E",
+            "U9NM7AYPN",
+            "U9NMMRZ09",
+            "U9NQ1QL72",
+            "U9NQ3SVMH",
+            "U9NQ6MMFV",
+            "U9NQ7HF27",
+            "U9NQ7UWBD",
+            "U9NQ80ZDH",
+            "U9NQ8RQ67",
+            "U9NQRSU7M",
+            "U9NREC5DJ",
+            "U9NRSQ859",
+            "U9NS5BECU",
+            "U9NS88ZU4",
+            "U9NS9S2NQ",
+            "U9NSLHZAQ",
+            "U9NSNMBMG",
+            "U9NSRGFQU",
+            "U9NSX31U2",
+            "U9NSYMBB5",
+            "U9NTC20N6",
+            "U9NUJDF7A",
+            "U9NV9614K",
+            "U9P0DMXGD",
+            "U9P0XUJ4D",
+            "U9P12DFBK",
+            "U9P18U17X",
+            "U9P1B28NM",
+            "U9P1HQEA1",
+            "U9P21SKA6",
+            "U9P2CG284",
+            "U9P3321UY",
+            "U9P33EZ5F",
+            "U9P373ASV",
+            "U9P3A065A",
+            "U9P3D2S8Z",
+            "U9P54QYLA",
+            "U9P5NKA7P",
+            "U9P5NTBML",
+            "U9P60ACP7",
+            "U9P61MA7Q",
+            "U9P6VLG6A",
+            "U9P9BGKU2",
+            "U9PAU9362",
+            "U9PBCG946",
+            "U9PBHQU3H",
+            "U9PBQ382J",
+            "U9PC1QR2R",
+            "U9PC8DR8W",
+            "U9PDKF5JB",
+            "U9PGALKRR",
+            "U9PGLDHV5",
+            "U9PHQJ3HV",
+            "U9PJQ7YP6",
+            "U9PK3NZ8F",
+            "U9PK7T62Y",
+            "U9PK8UJBA",
+            "U9PKEG3UK",
+            "U9PLQ0F47",
+            "U9PNBSH0E",
+            "U9PNDSW4R",
+            "U9PNL8V9U",
+            "U9PNMN1HC",
+            "U9PP54E4D",
+            "U9PPY2L5B",
+            "U9PQNB3DF",
+            "U9PQUEFAQ",
+            "U9PQX9LAZ",
+            "U9PTV79DM",
+            "U9PUAUSRM",
+            "U9PUPKP39",
+            "U9PUTB10X",
+            "U9PVD2REK",
+            "U9Q0RC3E2",
+            "U9Q3DHX0V",
+            "U9Q8J1MNF",
+            "U9Q9B1ELX",
+            "U9Q9CDE0P",
+            "U9QAFJUR5",
+            "U9QLDMNDV",
+            "U9QMPRZAT",
+            "U9QN7HEBY",
+            "U9QSZKZ8B",
+            "U9RE08815",
+            "U9RF0QCFJ",
+            "U9RH3L2HJ",
+            "U9RSNNJBG",
+            "U9RTC8JSE",
+            "U9SN6LG10",
+            "U9SNDGH0A",
+            "U9SUDJ8J2",
+            "U9T55R65D",
+            "U9T6XT550",
+            "U9VUKMBU4",
+            "U9W4FCFEH",
+            "U9XU0HF0W",
+            "UA11Q07AL",
+            "UA1JDS15Z",
+            "UA1PBUVC4",
+            "UA2A3DUPN",
+            "UA2DNR4F4",
+            "UA2GU3SBX",
+            "UA2P4MQ23"
+        ],
+        "topic": {
+            "value": "Non-work banter and water cooler conversation",
+            "creator": "U9BD7NMPC",
+            "last_set": "1519069375"
+        },
+        "purpose": {
+            "value": "A place for non-work-related flimflam, faffing, hodge-podge or jibber-jabber you'd prefer to keep out of more focused work-related channels.",
+            "creator": "U9BD7NMPC",
+            "last_set": "1519069375"
+        }
+    },
+    {
+        "id": "C9PNPP91U",
+        "name": "reddy",
+        "created": "1520931561",
+        "creator": "U9PNL8V9U",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U9NQ7UWBD",
+            "U9NQ8RQ67",
+            "U9PNL8V9U",
+            "UA2DNR4F4"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "Ferrante, Ingletto, Loi, Clemente",
+            "creator": "U9PNL8V9U",
+            "last_set": "1523039948"
+        }
+    },
+    {
+        "id": "C9P0BD724",
+        "name": "ritchie",
+        "created": "1521022468",
+        "creator": "U9QLDMNDV",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U9NMMRZ09",
+            "U9PP54E4D",
+            "U9Q9CDE0P",
+            "U9QAFJUR5",
+            "U9QLDMNDV"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "Bruno, Lupoli, Andrulli, Colagrande, Debellis",
+            "creator": "U9QLDMNDV",
+            "last_set": "1521023170"
+        }
+    },
+    {
+        "id": "C9NVCLHRN",
+        "name": "rivest",
+        "created": "1521020869",
+        "creator": "U9NG44DUJ",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U9NG44DUJ",
+            "U9NS9S2NQ",
+            "U9P0XUJ4D",
+            "U9PNBSH0E"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "Lanotte - La Gioia - Bove - Balestrucci",
+            "creator": "U9NG44DUJ",
+            "last_set": "1521101119"
+        }
+    },
+    {
+        "id": "C9NJF3133",
+        "name": "scott",
+        "created": "1520956997",
+        "creator": "U9P18U17X",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U9NBNJFB3",
+            "U9NF6NSU8",
+            "U9NJ4EYM7",
+            "U9P18U17X"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "Amato Calò Digiovanni Dibitonto",
+            "creator": "U9P18U17X",
+            "last_set": "1521110098"
+        }
+    },
+    {
+        "id": "C9PCTK26A",
+        "name": "shamir",
+        "created": "1520878224",
+        "creator": "U9NBDU7B4",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U9NBDU7B4",
+            "U9NGE229G",
+            "U9NSNMBMG",
+            "U9PUAUSRM",
+            "U9Q3DHX0V"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "U9PUAUSRM",
+            "last_set": "1520936904"
+        },
+        "purpose": {
+            "value": "Forleo, Cafaro, Cicerello, Lippolis, Fina",
+            "creator": "U9Q3DHX0V",
+            "last_set": "1521051668"
+        }
+    },
+    {
+        "id": "CA314S0EP",
+        "name": "stearns",
+        "created": "1523192455",
+        "creator": "U9SNDGH0A",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U9SNDGH0A",
+            "UA11Q07AL",
+            "UA2GU3SBX"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "Cicala, D'Errico, Lopes",
+            "creator": "U9SNDGH0A",
+            "last_set": "1523533298"
+        }
+    },
+    {
+        "id": "C9NF85V1Q",
+        "name": "stonebraker",
+        "created": "1520872742",
+        "creator": "U9NDHPVRS",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U9NBUHYJF",
+            "U9NBXPRDH",
+            "U9NC7BF1R",
+            "U9NDHPVRS",
+            "U9NEW0602"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "U9NDHPVRS",
+            "last_set": "1520878544"
+        },
+        "purpose": {
+            "value": " Abbattista, Altamura,   Lillo,  Fantasia, Bufalo",
+            "creator": "U9NDHPVRS",
+            "last_set": "1520878544"
+        }
+    },
+    {
+        "id": "C9QR7R4J2",
+        "name": "sutherland",
+        "created": "1521052768",
+        "creator": "U9NA5GDFU",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U9NA5GDFU",
+            "U9NQ7UWBD",
+            "U9PGLDHV5",
+            "U9PHQJ3HV",
+            "U9QMPRZAT"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "U9NA5GDFU",
+            "last_set": "1521052964"
+        },
+        "purpose": {
+            "value": "Ancona, Gianfelice, Calabrese, Distante",
+            "creator": "U9NA5GDFU",
+            "last_set": "1521110950"
+        }
+    },
+    {
+        "id": "C9Q9H3R7Y",
+        "name": "tarjan",
+        "created": "1520984786",
+        "creator": "U9NQ1QL72",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U9NQ1QL72",
+            "U9P33EZ5F",
+            "U9P373ASV",
+            "U9P3D2S8Z",
+            "U9PJQ7YP6"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "Iaia,Fino,Colucci,De Tommaso",
+            "creator": "U9NQ1QL72",
+            "last_set": "1520984787"
+        }
+    },
+    {
+        "id": "CA26BD085",
+        "name": "thacker",
+        "created": "1522958653",
+        "creator": "UA1PBUVC4",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "UA1PBUVC4",
+            "UA2A3DUPN",
+            "UA2P4MQ23"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        }
+    },
+    {
+        "id": "C9N2WQ89X",
+        "name": "thompson",
+        "created": "1520883968",
+        "creator": "U9NDPBTNF",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U9NBB7P4K",
+            "U9NDPBTNF",
+            "U9NJ8R37E",
+            "U9P2CG284",
+            "U9PLQ0F47"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "U9NDPBTNF",
+            "last_set": "1520938505"
+        },
+        "purpose": {
+            "value": "Campaniello - Capocchiano - Gallone - Granato - Greco",
+            "creator": "U9NDPBTNF",
+            "last_set": "1520938505"
+        }
+    },
+    {
+        "id": "C9NCAD40H",
+        "name": "wilkinson",
+        "created": "1520937752",
+        "creator": "U9MQ541S4",
+        "is_archived": false,
+        "is_general": false,
+        "members": [
+            "U9MQ541S4",
+            "U9NM7AYPN",
+            "U9P9BGKU2"
+        ],
+        "topic": {
+            "value": "",
+            "creator": "",
+            "last_set": "0"
+        },
+        "purpose": {
+            "value": "Guerra , Brescia , Carrasso ",
+            "creator": "U9MQ541S4",
+            "last_set": "1520937753"
+        }
+    }
+]

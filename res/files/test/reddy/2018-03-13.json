@@ -1,0 +1,33 @@
+[
+    {
+        "user": "U9PNL8V9U",
+        "text": "<@U9PNL8V9U> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520931561.000225"
+    },
+    {
+        "user": "U9NQ7UWBD",
+        "inviter": "U9PNL8V9U",
+        "text": "<@U9NQ7UWBD> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520931562.000373"
+    },
+    {
+        "user": "U9NQ8RQ67",
+        "inviter": "U9PNL8V9U",
+        "text": "<@U9NQ8RQ67> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520931562.000479"
+    },
+    {
+        "user": "U9PNL8V9U",
+        "purpose": "Ferrante, Ingletto, Loi",
+        "text": "<@U9PNL8V9U> set the channel purpose: Ferrante, Ingletto, Loi",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520931652.000035"
+    }
+]

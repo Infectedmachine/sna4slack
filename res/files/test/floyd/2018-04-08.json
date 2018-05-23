@@ -1,0 +1,144 @@
+[
+    {
+        "type": "message",
+        "user": "U9PDKF5JB",
+        "text": "Bravi",
+        "client_msg_id": "5f684918-2d17-4b2e-8c42-4cf45d623a5c",
+        "ts": "1523182398.000053"
+    },
+    {
+        "type": "message",
+        "user": "U9PDKF5JB",
+        "text": "Confermo al prof",
+        "client_msg_id": "b45f092c-016e-4bc8-981c-0e81b91c82b8",
+        "ts": "1523188714.000061"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U9PDKF5JB> uploaded a file: <https:\/\/ingsw1718.slack.com\/files\/U9PDKF5JB\/FA2SR8XEG\/img_20180408_150125_295.jpg|IMG_20180408_150125_295.jpg> and commented: <@U9T55R65D> e <@U9SUDJ8J2> mi raccomando assicuratevi di aver fatto tutte le iscrizioni della slide tranne l'ultima (che farò io per il gruppo) entro oggi!",
+        "file": {
+            "id": "FA2SR8XEG",
+            "created": 1523192630,
+            "timestamp": 1523192630,
+            "name": "IMG_20180408_150125_295.jpg",
+            "title": "IMG_20180408_150125_295.jpg",
+            "mimetype": "image\/jpeg",
+            "filetype": "jpg",
+            "pretty_type": "JPEG",
+            "user": "U9PDKF5JB",
+            "editable": false,
+            "size": 109878,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA2SR8XEG\/img_20180408_150125_295.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA2SR8XEG\/download\/img_20180408_150125_295.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA2SR8XEG-a3a94958ce\/img_20180408_150125_295_64.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA2SR8XEG-a3a94958ce\/img_20180408_150125_295_80.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA2SR8XEG-a3a94958ce\/img_20180408_150125_295_360.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360_w": 203,
+            "thumb_360_h": 360,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA2SR8XEG-a3a94958ce\/img_20180408_150125_295_480.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_480_w": 270,
+            "thumb_480_h": 480,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA2SR8XEG-a3a94958ce\/img_20180408_150125_295_160.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA2SR8XEG-a3a94958ce\/img_20180408_150125_295_720.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720_w": 405,
+            "thumb_720_h": 720,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA2SR8XEG-a3a94958ce\/img_20180408_150125_295_800.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_800_w": 450,
+            "thumb_800_h": 800,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA2SR8XEG-a3a94958ce\/img_20180408_150125_295_960.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_960_w": 540,
+            "thumb_960_h": 960,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA2SR8XEG-a3a94958ce\/img_20180408_150125_295_1024.jpg?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_1024_w": 576,
+            "thumb_1024_h": 1024,
+            "image_exif_rotation": 1,
+            "original_w": 720,
+            "original_h": 1280,
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/U9PDKF5JB\/FA2SR8XEG\/img_20180408_150125_295.jpg",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-FA2SR8XEG-b38be10b45",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "FcA2HGHC4R",
+                "created": 1523192630,
+                "timestamp": 1523192630,
+                "user": "U9PDKF5JB",
+                "is_intro": true,
+                "comment": "<@U9T55R65D> e <@U9SUDJ8J2> mi raccomando assicuratevi di aver fatto tutte le iscrizioni della slide tranne l'ultima (che farò io per il gruppo) entro oggi!"
+            }
+        },
+        "user": "U9PDKF5JB",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "stefano.lacetera",
+        "bot_id": null,
+        "ts": "1523192632.000066"
+    },
+    {
+        "type": "message",
+        "user": "U9SUDJ8J2",
+        "text": "Entro oggi provvedo",
+        "ts": "1523192697.000069",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9PDKF5JB"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9T55R65D",
+        "text": "Ok...quindi domani serve il pc?",
+        "client_msg_id": "0a622da7-9321-4016-b6c9-9ec3f5385bd4",
+        "ts": "1523192970.000063"
+    },
+    {
+        "type": "message",
+        "user": "U9PDKF5JB",
+        "text": "Non si sa ancora, ma suppongo di sì",
+        "client_msg_id": "8d7b566c-1196-4743-b122-7bc014ea37da",
+        "ts": "1523192989.000104"
+    },
+    {
+        "type": "message",
+        "user": "U9PDKF5JB",
+        "text": "Mi raccomando wagnoni",
+        "client_msg_id": "6d4645a9-fd89-45b4-b8f9-3983472fc805",
+        "ts": "1523220488.000038"
+    },
+    {
+        "type": "message",
+        "user": "U9PDKF5JB",
+        "text": "<@U9T55R65D> <@U9SUDJ8J2> seguite statistica?",
+        "client_msg_id": "78595649-4c00-4880-a2c6-b358a1cd10d3",
+        "ts": "1523253679.000017"
+    },
+    {
+        "type": "message",
+        "user": "U9SUDJ8J2",
+        "text": "No",
+        "client_msg_id": "cf6ed469-4f51-458a-9cae-8a15c517cf22",
+        "ts": "1523253703.000006"
+    },
+    {
+        "type": "message",
+        "user": "U9PDKF5JB",
+        "text": "Ok",
+        "client_msg_id": "b0ae10b6-4a3d-4abb-bb47-439d9d385cc1",
+        "ts": "1523253809.000035"
+    }
+]

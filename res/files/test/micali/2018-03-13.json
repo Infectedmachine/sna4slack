@@ -1,0 +1,42 @@
+[
+    {
+        "user": "U9PBHQU3H",
+        "topic": "",
+        "text": "<@U9PBHQU3H> cleared channel topic",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1520930407.000400"
+    },
+    {
+        "user": "U9PBHQU3H",
+        "purpose": "Colaianni, Console, Console, Leo, Lorusso",
+        "text": "<@U9PBHQU3H> set the channel purpose: Colaianni, Console, Console, Leo, Lorusso",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520930407.000462"
+    },
+    {
+        "user": "U9N82V6JC",
+        "inviter": "U9PBHQU3H",
+        "text": "<@U9N82V6JC> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520932691.000072"
+    },
+    {
+        "user": "U9PBHQU3H",
+        "purpose": "Colaianni, Console Anna, Console Antonio, Leo, Lorusso",
+        "text": "<@U9PBHQU3H> set the channel purpose: Colaianni, Console Anna, Console Antonio, Leo, Lorusso",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520946662.000726"
+    },
+    {
+        "user": "U9PBHQU3H",
+        "topic": "",
+        "text": "<@U9PBHQU3H> cleared channel topic",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1520946663.000050"
+    }
+]

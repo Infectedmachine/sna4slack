@@ -1,0 +1,25 @@
+[
+    {
+        "user": "U9NJ3PL4D",
+        "text": "<@U9NJ3PL4D> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520873636.000759"
+    },
+    {
+        "user": "U9NJ3PL4D",
+        "purpose": "Gruppo di lavoro: Giacinto Carlucci, Michele Di Nanni, Angela Dileo, Claudia Lorusso.",
+        "text": "<@U9NJ3PL4D> set the channel purpose: Gruppo di lavoro: Giacinto Carlucci, Michele Di Nanni, Angela Dileo, Claudia Lorusso.",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520873637.000252"
+    },
+    {
+        "user": "U9NJ3PL4D",
+        "purpose": "Gruppo di lavoro: Carlucci, Di Nanni, Dileo, Lorusso.",
+        "text": "<@U9NJ3PL4D> set the channel purpose: Gruppo di lavoro: Carlucci, Di Nanni, Dileo, Lorusso.",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520876197.000028"
+    }
+]

@@ -1,0 +1,17 @@
+[
+    {
+        "user": "U9QSZKZ8B",
+        "text": "<@U9QSZKZ8B> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1521188496.000327"
+    },
+    {
+        "user": "U9NJ3PL4D",
+        "purpose": "Carlucci, Di Nanni, Dileo, Lorusso, Castellano.",
+        "text": "<@U9NJ3PL4D> set the channel purpose: Carlucci, Di Nanni, Dileo, Lorusso, Castellano.",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1521188577.000060"
+    }
+]

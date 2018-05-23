@@ -1,0 +1,23 @@
+[
+    {
+        "type": "message",
+        "user": "U9P1HQEA1",
+        "text": "Ragazzi ho effettuato 3 commit relativi alle modifiche e aggiunta dei file dati dal professore. Potete verificare su github",
+        "ts": "1524148738.000875"
+    },
+    {
+        "type": "message",
+        "user": "U9P1HQEA1",
+        "text": "non credo ci sia altro da fare per adesso.. confermate?",
+        "ts": "1524148768.000499",
+        "reactions": [
+            {
+                "name": "star-struck",
+                "users": [
+                    "U9N7WANGG"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

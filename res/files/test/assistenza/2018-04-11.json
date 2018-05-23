@@ -1,0 +1,1112 @@
+[
+    {
+        "type": "message",
+        "user": "U9NAWRB2Q",
+        "text": "Buongiorno Prof <@U9BD7NMPC>, sono fermo nella configurazione di TravisCI perche' quando mi chiede il nome della repo su Docker non so cosa mettere, in quanto non abbiamo nessuna repository su Docker. Come proseguo?",
+        "ts": "1523438083.000339",
+        "reactions": [
+            {
+                "name": "+1::skin-tone-2",
+                "users": [
+                    "U9MNETCD6",
+                    "U9NCNLL83"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9NAWRB2Q",
+        "text": "Ci sarebbe un'opzione per creare automaticamente una repo collegando l'account Github e cliccando su \"Automated Build\" sull'Hub di Docker.\nSe lei mi da il via libera posso provare a crearla automaticamente, altrimenti attendero' una soluzione.",
+        "ts": "1523438208.000511"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "aspetti",
+        "ts": "1523438255.000322",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9NAWRB2Q"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "Attenda. La parte di personalizzazione delle Environment Variables della Configurazione Travi CI richiede un'operazione da parte nostra relativa a Docker. Avviso io quando ho completato la nostra parte.",
+        "ts": "1523439073.000419",
+        "reactions": [
+            {
+                "name": "white_check_mark",
+                "users": [
+                    "U9NCNLL83"
+                ],
+                "count": 1
+            },
+            {
+                "name": "+1::skin-tone-2",
+                "users": [
+                    "U9MNETCD6",
+                    "U9NAWRB2Q"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9MQSS657",
+        "text": "<@U9BD7NMPC> ho inserito ieri pomeriggio le variabili su travis ci. Procedo con l'eliminazione delle variabili create?",
+        "ts": "1523442745.000291"
+    },
+    {
+        "type": "message",
+        "user": "U9PK3NZ8F",
+        "text": "Buongiorno, noi del gruppo engelbart non abbiamo ancora ricevuto la repository",
+        "ts": "1523443303.000284"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U9PNL8V9U> uploaded a file: <https:\/\/ingsw1718.slack.com\/files\/U9PNL8V9U\/FA5459VHB\/cattura.png|Git error> and commented: <@U9BD7NMPC> <@U9N8CNHK2> <@U9CDZPXLN> Ho provato a clonare la repo di git seguendo tutti i passaggi. Su un pc va bene, sul mio da questo errore \"Repository not found\". Non si apre neanche la schermata di login per poter andare avanti. (Prompt già come amministratore, presente all'interno del team su git e vedo la repo online). Potrei scaricare la repo dal sito o da github desktop ma mi piacerebbe capire da dove deriva l'errore.",
+        "file": {
+            "id": "FA5459VHB",
+            "created": 1523457276,
+            "timestamp": 1523457276,
+            "name": "Cattura.PNG",
+            "title": "Git error",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U9PNL8V9U",
+            "editable": false,
+            "size": 9376,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA5459VHB\/cattura.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA5459VHB\/download\/cattura.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5459VHB-1c0022bc74\/cattura_64.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5459VHB-1c0022bc74\/cattura_80.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5459VHB-1c0022bc74\/cattura_360.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360_w": 360,
+            "thumb_360_h": 44,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5459VHB-1c0022bc74\/cattura_480.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_480_w": 480,
+            "thumb_480_h": 59,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5459VHB-1c0022bc74\/cattura_160.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5459VHB-1c0022bc74\/cattura_720.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720_w": 720,
+            "thumb_720_h": 89,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5459VHB-1c0022bc74\/cattura_800.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_800_w": 800,
+            "thumb_800_h": 99,
+            "image_exif_rotation": 1,
+            "original_w": 842,
+            "original_h": 104,
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/U9PNL8V9U\/FA5459VHB\/cattura.png",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-FA5459VHB-62921abdc7",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "FcA5S79MM4",
+                "created": 1523457276,
+                "timestamp": 1523457276,
+                "user": "U9PNL8V9U",
+                "is_intro": true,
+                "comment": "<@U9BD7NMPC> <@U9N8CNHK2> <@U9CDZPXLN> Ho provato a clonare la repo di git seguendo tutti i passaggi. Su un pc va bene, sul mio da questo errore \"Repository not found\". Non si apre neanche la schermata di login per poter andare avanti. (Prompt già come amministratore, presente all'interno del team su git e vedo la repo online). Potrei scaricare la repo dal sito o da github desktop ma mi piacerebbe capire da dove deriva l'errore."
+            }
+        },
+        "user": "U9PNL8V9U",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "f.ferrante22",
+        "bot_id": null,
+        "ts": "1523457279.000716"
+    },
+    {
+        "user": "U9CDZPXLN",
+        "inviter": "U9PNL8V9U",
+        "text": "<@U9CDZPXLN> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1523457296.000014"
+    },
+    {
+        "type": "message",
+        "user": "U9CDZPXLN",
+        "text": "<@U9PNL8V9U> puoi incollare l’url di git qua per favore?",
+        "ts": "1523457365.000504"
+    },
+    {
+        "type": "message",
+        "user": "U9PNL8V9U",
+        "text": "<https:\/\/github.com\/softeng-inf-uniba\/progetto1718-reddy.git>",
+        "ts": "1523457438.000684"
+    },
+    {
+        "type": "message",
+        "user": "U9CDZPXLN",
+        "text": "l’url funziona, appena clonato.",
+        "ts": "1523457500.000719"
+    },
+    {
+        "type": "message",
+        "user": "U9CDZPXLN",
+        "text": "il nome intero del tuo gruppo?",
+        "ts": "1523457510.000368"
+    },
+    {
+        "type": "message",
+        "user": "U9CDZPXLN",
+        "text": "*corretto",
+        "ts": "1523457515.000604"
+    },
+    {
+        "type": "message",
+        "user": "U9PNL8V9U",
+        "text": "reddy",
+        "ts": "1523457519.000353"
+    },
+    {
+        "type": "message",
+        "user": "U9CDZPXLN",
+        "text": "risulti membro del team",
+        "ts": "1523457656.000116"
+    },
+    {
+        "type": "message",
+        "user": "U9CDZPXLN",
+        "text": "puoi riprovare?",
+        "ts": "1523457666.000657"
+    },
+    {
+        "type": "message",
+        "user": "U9PNL8V9U",
+        "text": "Sempre lo stesso errore ",
+        "client_msg_id": "C10F7875-B6D0-4052-A88B-126AE2965651",
+        "ts": "1523457946.000660"
+    },
+    {
+        "type": "message",
+        "user": "U9CDZPXLN",
+        "text": "che vuol dire con “su un pc va bene?” era di un altro componente del gruppo?",
+        "ts": "1523457985.000379"
+    },
+    {
+        "type": "message",
+        "user": "U9PNL8V9U",
+        "text": "Sisi ",
+        "client_msg_id": "9A5677BE-67EA-45D8-AD1D-C041BA4124B2",
+        "ts": "1523457992.000263"
+    },
+    {
+        "type": "message",
+        "user": "U9CDZPXLN",
+        "text": "agli altri chiede l’autenticazione? essendo un repo privato…",
+        "ts": "1523458010.000592"
+    },
+    {
+        "type": "message",
+        "user": "U9PNL8V9U",
+        "text": "Si ha chiesto i dati di accesso di GitHub ",
+        "client_msg_id": "FE48228C-CA97-4F12-9518-7180BFA8E837",
+        "ts": "1523458025.000253"
+    },
+    {
+        "type": "message",
+        "user": "U9CDZPXLN",
+        "text": "e a te?",
+        "ts": "1523458031.000520"
+    },
+    {
+        "type": "message",
+        "user": "U9PNL8V9U",
+        "text": "No",
+        "client_msg_id": "E8DAE1E0-3BBD-4B6E-B02C-774D66BF3DD7",
+        "ts": "1523458036.000145"
+    },
+    {
+        "type": "message",
+        "user": "U9PNL8V9U",
+        "text": "Non succede neanche quello ",
+        "client_msg_id": "09AB511D-7699-4B29-B8F8-C1CB94530139",
+        "ts": "1523458042.000797"
+    },
+    {
+        "type": "message",
+        "user": "U9CDZPXLN",
+        "text": "allora e’ un problema di git",
+        "ts": "1523458048.000449"
+    },
+    {
+        "type": "message",
+        "user": "U9CDZPXLN",
+        "text": "disinstalla riavvia e reinstalla daccapo",
+        "ts": "1523458104.000756"
+    },
+    {
+        "type": "message",
+        "user": "U9CDZPXLN",
+        "text": "se dopo di cio’ hai ancora problemi — non ti chiede la password — installati questo",
+        "ts": "1523458150.000487"
+    },
+    {
+        "type": "message",
+        "user": "U9CDZPXLN",
+        "text": "<https:\/\/github.com\/Microsoft\/Git-Credential-Manager-for-Windows>",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "Microsoft\/Git-Credential-Manager-for-Windows",
+                "title_link": "https:\/\/github.com\/Microsoft\/Git-Credential-Manager-for-Windows",
+                "text": "Git-Credential-Manager-for-Windows - Secure Git credential storage for Windows with support for Visual Studio Team Services, GitHub, and Bitbucket multi-factor authentication.",
+                "fallback": "GitHub: Microsoft\/Git-Credential-Manager-for-Windows",
+                "from_url": "https:\/\/github.com\/Microsoft\/Git-Credential-Manager-for-Windows",
+                "thumb_url": "https:\/\/avatars2.githubusercontent.com\/u\/6154722?s=400&v=4",
+                "thumb_width": 250,
+                "thumb_height": 250,
+                "service_icon": "https:\/\/a.slack-edge.com\/bfaba\/img\/unfurl_icons\/github.png",
+                "id": 1
+            }
+        ],
+        "ts": "1523458151.000481"
+    },
+    {
+        "type": "message",
+        "user": "U9PNL8V9U",
+        "text": "Provo",
+        "client_msg_id": "FE6B8829-025D-4946-AEE3-C0FED6835A2C",
+        "ts": "1523458246.000043"
+    },
+    {
+        "type": "message",
+        "user": "U9CDZPXLN",
+        "text": "di preciso cosa stai installando, github client or git-for-windows ?",
+        "ts": "1523458683.000215"
+    },
+    {
+        "type": "message",
+        "user": "U9PNL8V9U",
+        "text": "Git for windows. GitHub desktop ce l’avevo già per altri motivi ",
+        "client_msg_id": "96607D68-87F4-4CDA-B698-FF67A29508E0",
+        "ts": "1523458761.000119"
+    },
+    {
+        "type": "message",
+        "user": "U9PNL8V9U",
+        "text": "Ma non ho provato a clonare da  GitHub desktop",
+        "client_msg_id": "C25AA563-5135-4328-AC0A-387F2D580B91",
+        "ts": "1523458774.000368"
+    },
+    {
+        "type": "message",
+        "user": "U9CDZPXLN",
+        "text": "puoi aprire la shell a linea di comando anche da GitHub desktop, non c’e’ bisogno di isntallarli entrambi, che io ricordi",
+        "edited": {
+            "user": "U9CDZPXLN",
+            "ts": "1523458842.000000"
+        },
+        "ts": "1523458835.000395"
+    },
+    {
+        "type": "message",
+        "user": "U9PNL8V9U",
+        "text": "Se provo a farlo mi chiede di installare git (visto che non ho ancora terminato l’installazione)",
+        "client_msg_id": "93B6B991-5265-4B05-A16F-92AF233ABC6B",
+        "ts": "1523458928.000360"
+    },
+    {
+        "type": "message",
+        "user": "U9PNL8V9U",
+        "text": "Disinstallato e reinstallato ma niente ",
+        "client_msg_id": "595ABDC0-E9AD-484C-9B26-98A73E80F7BA",
+        "ts": "1523459151.000813"
+    },
+    {
+        "type": "message",
+        "user": "U9PNL8V9U",
+        "text": "Ora provo con credential manager ",
+        "client_msg_id": "1F1201DB-19F9-4F85-BD0A-1F4C025E7CA6",
+        "ts": "1523459162.000303"
+    },
+    {
+        "type": "message",
+        "user": "U9PNL8V9U",
+        "text": "Testato anche con quello. Niente...",
+        "ts": "1523459541.000092"
+    },
+    {
+        "type": "message",
+        "user": "U9PNL8V9U",
+        "text": "Penso che manterrò la repository aggiornata tramite GItHub Desktop",
+        "ts": "1523459567.000870"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<@U9PNL8V9U> Le esercitazioni con git le abbiamo fatte usando la versione base CLI. Usi quella.",
+        "ts": "1523459819.000153"
+    },
+    {
+        "type": "message",
+        "user": "U9PNL8V9U",
+        "text": "<@U9BD7NMPC> ma se non funziona devo trovare un’alternativa per lavorare comunque...",
+        "client_msg_id": "A43982C6-4293-4781-90D3-F4FAE4FAC1EF",
+        "ts": "1523459874.000505"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "mi sta dicendo che non funziona git da linea di comando? Se ne accorge solo ora dopo che abbiamo fatto le esercitazioni inclusa quella del clone di un repository? Faccio finta di non aver letto",
+        "ts": "1523459936.000132"
+    },
+    {
+        "type": "message",
+        "user": "U9PNL8V9U",
+        "text": "No",
+        "client_msg_id": "A145BB14-A082-4423-891E-78F858D91B75",
+        "ts": "1523459949.000016"
+    },
+    {
+        "type": "message",
+        "user": "U9PNL8V9U",
+        "text": "È la repository del nostro team che non clona ",
+        "client_msg_id": "47F38A72-6E2A-486F-B287-2651A89A2E5D",
+        "ts": "1523459960.000755"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "Spero si sia confrontato con il suo gruppo prima discrivere",
+        "ts": "1523459977.000827"
+    },
+    {
+        "type": "message",
+        "user": "U9PNL8V9U",
+        "text": "Durante le esercitazioni ha funzionato sempre tutto ",
+        "client_msg_id": "443FA111-2F2C-4AEA-8583-4526C978E4FE",
+        "ts": "1523459984.000807"
+    },
+    {
+        "type": "message",
+        "user": "U9PNL8V9U",
+        "text": "Si abbiamo confrontato e effettuato gli stessi passaggi ",
+        "client_msg_id": "A14FC291-07B2-4FC3-B635-4299ED5D1B66",
+        "ts": "1523460002.000262"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "se mi dice qual è il suo gruppo mi fa una cortesia",
+        "ts": "1523460043.000336"
+    },
+    {
+        "type": "message",
+        "user": "U9PNL8V9U",
+        "text": "<#C9PNPP91U|reddy> ",
+        "client_msg_id": "AFC65129-0A6A-4B15-A9F4-41F3A1DB68F7",
+        "ts": "1523460056.000499"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<@U9PNL8V9U> se agli altri del suo gruppo funziona e a lei no il problema non è del repository ma del suo computer. Deve risolverlo senza scrivere su questo channel",
+        "ts": "1523460375.000653"
+    },
+    {
+        "type": "message",
+        "user": "U9PNL8V9U",
+        "text": "L’ho scritto sperando che fosse un problema comune e ci fosse già una soluzione",
+        "client_msg_id": "8185F3A5-8852-4824-BB8A-04C20584E46F",
+        "ts": "1523460411.000758"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "Per questo ho chiesto se si era confrontato con il gruppo!",
+        "ts": "1523460432.000425"
+    },
+    {
+        "type": "message",
+        "user": "U9PNL8V9U",
+        "text": "Se qualcun altro, all’infuori del mio gruppo, avesse avuto quel problema mi avrebbe potuto aiutare ",
+        "client_msg_id": "9BCE99A7-3655-47ED-A4BB-779E15F1259D",
+        "ts": "1523460478.000119"
+    },
+    {
+        "type": "message",
+        "user": "U9PNL8V9U",
+        "text": "Per questo ho scritto qui ",
+        "client_msg_id": "9A93C246-B553-4BE7-8AD0-2282F1BF0AD5",
+        "ts": "1523460483.000029"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "Lei ha usato il mention chiedendo a me, novielli e calefato. Non è un messaggio broadcast ma voleva l'aiuto personalizzato",
+        "ts": "1523460536.000476"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "da tre docenti nemmeno uno solo",
+        "ts": "1523460543.000818"
+    },
+    {
+        "type": "message",
+        "user": "U9PNL8V9U",
+        "text": "Non l’ho fatto con quella intenzione",
+        "client_msg_id": "DE4F25D9-3DC1-48E0-94D2-F803B275F92E",
+        "ts": "1523460560.000309"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<!channel> Messaggio: non abusate del nostro tempo e della nostra pazienza",
+        "ts": "1523460566.000082"
+    },
+    {
+        "type": "message",
+        "user": "U9N8CNHK2",
+        "text": "<@U9PK3NZ8F> non capisco il problema. Il repository esiste, lo trovate qui:  <https:\/\/github.com\/softeng-inf-uniba\/progetto1718-engelbart>",
+        "attachments": [
+            {
+                "fallback": "[April 11th, 2018 12:41 PM] andrea.de.stradis: Buongiorno, noi del gruppo engelbart non abbiamo ancora ricevuto la repository",
+                "ts": "1523443303.000284",
+                "author_id": "U9PK3NZ8F",
+                "author_subname": "Andrea De Stradis",
+                "channel_id": "CA3EZFFGR",
+                "channel_name": "assistenza",
+                "is_msg_unfurl": true,
+                "text": "Buongiorno, noi del gruppo engelbart non abbiamo ancora ricevuto la repository",
+                "author_name": "Andrea De Stradis",
+                "author_link": "https:\/\/ingsw1718.slack.com\/team\/U9PK3NZ8F",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2018-03-12\/327945628224_02a2e1ea9c12fe2b6d21_48.jpg",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "color": "D0D0D0",
+                "from_url": "https:\/\/ingsw1718.slack.com\/archives\/CA3EZFFGR\/p1523443303000284",
+                "is_share": true,
+                "footer": "Posted in #assistenza"
+            }
+        ],
+        "thread_ts": "1523464782.000199",
+        "reply_count": 20,
+        "replies": [
+            {
+                "user": "U9PK3NZ8F",
+                "ts": "1523464861.000497"
+            },
+            {
+                "user": "U9N8CNHK2",
+                "ts": "1523464952.000679"
+            },
+            {
+                "user": "U9N8CNHK2",
+                "ts": "1523465016.000700"
+            },
+            {
+                "user": "U9PK3NZ8F",
+                "ts": "1523465044.000180"
+            },
+            {
+                "user": "U9N8CNHK2",
+                "ts": "1523465067.000339"
+            },
+            {
+                "user": "U9N8CNHK2",
+                "ts": "1523465074.000301"
+            },
+            {
+                "user": "U9PK3NZ8F",
+                "ts": "1523465229.000308"
+            },
+            {
+                "user": "U9N8CNHK2",
+                "ts": "1523465298.000691"
+            },
+            {
+                "user": "U9PK3NZ8F",
+                "ts": "1523465309.000303"
+            },
+            {
+                "user": "U9N8CNHK2",
+                "ts": "1523465348.000583"
+            },
+            {
+                "user": "U9PK3NZ8F",
+                "ts": "1523465409.000432"
+            },
+            {
+                "user": "U9N8CNHK2",
+                "ts": "1523465411.000272"
+            },
+            {
+                "user": "U9PK3NZ8F",
+                "ts": "1523465470.000371"
+            },
+            {
+                "user": "U9CDZPXLN",
+                "ts": "1523465756.000085"
+            },
+            {
+                "user": "U9CDZPXLN",
+                "ts": "1523465886.000802"
+            },
+            {
+                "user": "U9PK3NZ8F",
+                "ts": "1523465916.000586"
+            },
+            {
+                "user": "U9PK3NZ8F",
+                "ts": "1523466159.000452"
+            },
+            {
+                "user": "U9CDZPXLN",
+                "ts": "1523466180.000352"
+            },
+            {
+                "user": "U9PK3NZ8F",
+                "ts": "1523466203.000427"
+            },
+            {
+                "user": "U9CDZPXLN",
+                "ts": "1523466300.000656"
+            }
+        ],
+        "unread_count": 20,
+        "ts": "1523464782.000199"
+    },
+    {
+        "type": "message",
+        "user": "U9PK3NZ8F",
+        "text": "Il link che lei ci ha dato non funziona.. ci da error 404",
+        "client_msg_id": "dddd95a1-1fbe-4406-9267-5d29d11c1c0a",
+        "thread_ts": "1523464782.000199",
+        "parent_user_id": "U9N8CNHK2",
+        "ts": "1523464861.000497"
+    },
+    {
+        "type": "message",
+        "user": "U9N8CNHK2",
+        "text": "<https:\/\/github.com\/softeng-inf-uniba\/progetto1718-engelbart>",
+        "thread_ts": "1523464782.000199",
+        "parent_user_id": "U9N8CNHK2",
+        "ts": "1523464952.000679"
+    },
+    {
+        "type": "message",
+        "user": "U9N8CNHK2",
+        "text": "E' solo lei ad avere questo problema?",
+        "thread_ts": "1523464782.000199",
+        "parent_user_id": "U9N8CNHK2",
+        "ts": "1523465016.000700"
+    },
+    {
+        "type": "message",
+        "user": "U9PK3NZ8F",
+        "text": "anche gli altri ragazzi del gruppo",
+        "thread_ts": "1523464782.000199",
+        "parent_user_id": "U9N8CNHK2",
+        "ts": "1523465044.000180"
+    },
+    {
+        "type": "message",
+        "user": "U9N8CNHK2",
+        "text": "autenticatevi su github",
+        "thread_ts": "1523464782.000199",
+        "parent_user_id": "U9N8CNHK2",
+        "ts": "1523465067.000339"
+    },
+    {
+        "type": "message",
+        "user": "U9N8CNHK2",
+        "text": "e riprovate",
+        "thread_ts": "1523464782.000199",
+        "parent_user_id": "U9N8CNHK2",
+        "ts": "1523465074.000301"
+    },
+    {
+        "type": "message",
+        "user": "U9PK3NZ8F",
+        "text": "niente, il problema persiste",
+        "thread_ts": "1523464782.000199",
+        "parent_user_id": "U9N8CNHK2",
+        "ts": "1523465229.000308"
+    },
+    {
+        "type": "message",
+        "user": "U9N8CNHK2",
+        "text": "Scusate ma abbiamo appena provato sia io che <@U9CDZPXLN>: se non si è autenticati (login su github, intendo) si verifica l'errore. Diversamente il repository risulta accessibile. Provate tutti, per favore.",
+        "thread_ts": "1523464782.000199",
+        "parent_user_id": "U9N8CNHK2",
+        "ts": "1523465298.000691"
+    },
+    {
+        "type": "message",
+        "user": "U9PK3NZ8F",
+        "text": "tra l'altro al primo ragazzo che è stato aggiunto nel gruppo non è arrivata la mail che notificava la creazione del gruppo",
+        "thread_ts": "1523464782.000199",
+        "parent_user_id": "U9N8CNHK2",
+        "ts": "1523465309.000303"
+    },
+    {
+        "type": "message",
+        "user": "U9N8CNHK2",
+        "text": "E chi è il primo ragazzo?",
+        "thread_ts": "1523464782.000199",
+        "parent_user_id": "U9N8CNHK2",
+        "ts": "1523465348.000583"
+    },
+    {
+        "type": "message",
+        "user": "U9PK3NZ8F",
+        "text": "Ivano Cinquepalmi",
+        "thread_ts": "1523464782.000199",
+        "parent_user_id": "U9N8CNHK2",
+        "ts": "1523465409.000432"
+    },
+    {
+        "type": "message",
+        "user": "U9N8CNHK2",
+        "text": "io vedo tre membri nel team, Cinquepalmi, De Stradis e Andreucci e vedo il repository",
+        "thread_ts": "1523464782.000199",
+        "parent_user_id": "U9N8CNHK2",
+        "ts": "1523465411.000272"
+    },
+    {
+        "type": "message",
+        "user": "U9PK3NZ8F",
+        "text": "Ho provato anche a cambiare browser ma non cambia niente",
+        "thread_ts": "1523464782.000199",
+        "parent_user_id": "U9N8CNHK2",
+        "ts": "1523465470.000371"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U9PK3NZ8F> uploaded a file: <https:\/\/ingsw1718.slack.com\/files\/U9PK3NZ8F\/FA57H8D8V\/404.png|404.PNG> and commented: <@U9N8CNHK2> le allego gli screenshot di quello che vediamo",
+        "file": {
+            "id": "FA57H8D8V",
+            "created": 1523465613,
+            "timestamp": 1523465613,
+            "name": "404.PNG",
+            "title": "404.PNG",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U9PK3NZ8F",
+            "editable": false,
+            "size": 425297,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA57H8D8V\/404.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA57H8D8V\/download\/404.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA57H8D8V-e65047c8c6\/404_64.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA57H8D8V-e65047c8c6\/404_80.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA57H8D8V-e65047c8c6\/404_360.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360_w": 360,
+            "thumb_360_h": 96,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA57H8D8V-e65047c8c6\/404_480.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_480_w": 480,
+            "thumb_480_h": 128,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA57H8D8V-e65047c8c6\/404_160.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA57H8D8V-e65047c8c6\/404_720.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720_w": 720,
+            "thumb_720_h": 192,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA57H8D8V-e65047c8c6\/404_800.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_800_w": 800,
+            "thumb_800_h": 213,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA57H8D8V-e65047c8c6\/404_960.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_960_w": 960,
+            "thumb_960_h": 256,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA57H8D8V-e65047c8c6\/404_1024.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 273,
+            "image_exif_rotation": 1,
+            "original_w": 1920,
+            "original_h": 511,
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/U9PK3NZ8F\/FA57H8D8V\/404.png",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-FA57H8D8V-7a6217462f",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "FcA60566MC",
+                "created": 1523465613,
+                "timestamp": 1523465613,
+                "user": "U9PK3NZ8F",
+                "is_intro": true,
+                "comment": "<@U9N8CNHK2> le allego gli screenshot di quello che vediamo"
+            }
+        },
+        "user": "U9PK3NZ8F",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "andrea.de.stradis",
+        "bot_id": null,
+        "ts": "1523465616.000190"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U9PK3NZ8F> uploaded a file: <https:\/\/ingsw1718.slack.com\/files\/U9PK3NZ8F\/FA6056MKQ\/team.png|Team.PNG>",
+        "file": {
+            "id": "FA6056MKQ",
+            "created": 1523465617,
+            "timestamp": 1523465617,
+            "name": "Team.PNG",
+            "title": "Team.PNG",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U9PK3NZ8F",
+            "editable": false,
+            "size": 49415,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA6056MKQ\/team.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA6056MKQ\/download\/team.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA6056MKQ-8c4fc99d97\/team_64.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA6056MKQ-8c4fc99d97\/team_80.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA6056MKQ-8c4fc99d97\/team_360.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360_w": 360,
+            "thumb_360_h": 143,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA6056MKQ-8c4fc99d97\/team_480.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_480_w": 480,
+            "thumb_480_h": 190,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA6056MKQ-8c4fc99d97\/team_160.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA6056MKQ-8c4fc99d97\/team_720.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720_w": 720,
+            "thumb_720_h": 285,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA6056MKQ-8c4fc99d97\/team_800.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_800_w": 800,
+            "thumb_800_h": 317,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA6056MKQ-8c4fc99d97\/team_960.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_960_w": 960,
+            "thumb_960_h": 380,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA6056MKQ-8c4fc99d97\/team_1024.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 405,
+            "image_exif_rotation": 1,
+            "original_w": 1920,
+            "original_h": 760,
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/U9PK3NZ8F\/FA6056MKQ\/team.png",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-FA6056MKQ-e245a19090",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U9PK3NZ8F",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "andrea.de.stradis",
+        "bot_id": null,
+        "ts": "1523465620.000164"
+    },
+    {
+        "type": "message",
+        "user": "U9Q9CDE0P",
+        "text": "Prof <@U9N8CNHK2>, anche il nostro team non vede la repository, anche se siamo loggati. È un problema che le segnalai già ieri pomeriggio. Inoltre, confrontandomi con altri ragazzi di altri gruppi, anche loro mon vedono la propria repository.",
+        "client_msg_id": "10530f9b-f980-4b69-9095-481443f903c6",
+        "ts": "1523465733.000345"
+    },
+    {
+        "type": "message",
+        "user": "U9CDZPXLN",
+        "text": "1. su github sei autenticato quando clicki sul link del repo?\n2. non è che avete piu’ identità su github e vi abbiamo invitato con quella che non state usando ora?",
+        "thread_ts": "1523464782.000199",
+        "parent_user_id": "U9N8CNHK2",
+        "ts": "1523465756.000085"
+    },
+    {
+        "type": "message",
+        "user": "U9Q9CDE0P",
+        "text": "E anche ciò che vediamo noi corrisponde esattamente agli screenshot allegati da <@U9PK3NZ8F>",
+        "client_msg_id": "91fae6f7-a620-412d-be42-223d5895a978",
+        "ts": "1523465774.000703"
+    },
+    {
+        "type": "message",
+        "user": "U9CDZPXLN",
+        "text": "<@U9PK3NZ8F> una prova. dammo il tuo nome utente github",
+        "thread_ts": "1523464782.000199",
+        "parent_user_id": "U9N8CNHK2",
+        "ts": "1523465886.000802"
+    },
+    {
+        "type": "message",
+        "user": "U9PK3NZ8F",
+        "text": "1. Si\n2. non ho nessun altro account su github, anche perchè l'username contenuto nel team corrisponde a quello con cui sono loggato ora",
+        "thread_ts": "1523464782.000199",
+        "parent_user_id": "U9N8CNHK2",
+        "ts": "1523465916.000586"
+    },
+    {
+        "type": "message",
+        "user": "U9CDZPXLN",
+        "text": "<@U9Q9CDE0P> qual e’ il vostro team?",
+        "ts": "1523465932.000008"
+    },
+    {
+        "type": "message",
+        "user": "U9Q9CDE0P",
+        "text": "Ritchie",
+        "client_msg_id": "68da89a1-51af-4baa-a738-76d7d9305d40",
+        "ts": "1523465939.000402"
+    },
+    {
+        "type": "message",
+        "user": "U9CDZPXLN",
+        "text": "link diretto per favore",
+        "ts": "1523465948.000300"
+    },
+    {
+        "type": "message",
+        "user": "U9Q9CDE0P",
+        "text": "<https:\/\/github.com\/orgs\/softeng-inf-uniba\/teams\/ritchie>",
+        "client_msg_id": "be0d3a16-4ead-4a31-8ed5-82f55286fc3b",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "Build software better, together",
+                "title_link": "https:\/\/github.com\/orgs\/softeng-inf-uniba\/teams\/ritchie",
+                "text": "GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.",
+                "fallback": "GitHub: Build software better, together",
+                "image_width": 1200,
+                "image_height": 620,
+                "from_url": "https:\/\/github.com\/orgs\/softeng-inf-uniba\/teams\/ritchie",
+                "service_icon": "https:\/\/a.slack-edge.com\/bfaba\/img\/unfurl_icons\/github.png",
+                "id": 1
+            }
+        ],
+        "ts": "1523465975.000281"
+    },
+    {
+        "type": "message",
+        "user": "U9Q9CDE0P",
+        "text": "Ho provato a sloggarmi e ri-loggarmi, cambiato browser e provato anche su altri dispositivi, ma resta lo stesso problema. Anche per gli altri miei compagni del team vale lo stesso",
+        "client_msg_id": "d32d1558-a027-4e30-944b-0cdf9580b488",
+        "ts": "1523466049.000401"
+    },
+    {
+        "type": "message",
+        "user": "U9CDZPXLN",
+        "text": "prova ora",
+        "ts": "1523466098.000265"
+    },
+    {
+        "type": "message",
+        "user": "U9CDZPXLN",
+        "text": "<@U9PK3NZ8F> riprova ora",
+        "ts": "1523466128.000362"
+    },
+    {
+        "type": "message",
+        "user": "U9Q9CDE0P",
+        "text": "Le faccio sapere subito",
+        "client_msg_id": "d69bc810-6dd0-426e-a9ff-3f5c207b818e",
+        "ts": "1523466132.000569"
+    },
+    {
+        "type": "message",
+        "user": "U9PK3NZ8F",
+        "text": "username : AndreaDeStadis",
+        "thread_ts": "1523464782.000199",
+        "parent_user_id": "U9N8CNHK2",
+        "ts": "1523466159.000452"
+    },
+    {
+        "type": "message",
+        "user": "U9CDZPXLN",
+        "text": "prova",
+        "thread_ts": "1523464782.000199",
+        "parent_user_id": "U9N8CNHK2",
+        "ts": "1523466180.000352"
+    },
+    {
+        "type": "message",
+        "user": "U9PK3NZ8F",
+        "text": "Perfetto! Ora funziona!!!!:+1:",
+        "thread_ts": "1523464782.000199",
+        "parent_user_id": "U9N8CNHK2",
+        "ts": "1523466203.000427"
+    },
+    {
+        "type": "message",
+        "user": "U9CDZPXLN",
+        "text": "github classroom ha creato team e repo ma ha dimenticato di assegnare la repo al team.",
+        "thread_ts": "1523464782.000199",
+        "parent_user_id": "U9N8CNHK2",
+        "ts": "1523466300.000656"
+    },
+    {
+        "type": "message",
+        "user": "U9CDZPXLN",
+        "text": "dovrebbe andare",
+        "ts": "1523466386.000757",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9PP54E4D",
+                    "U9MU4674H"
+                ],
+                "count": 2
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9Q9CDE0P",
+        "text": "Ora va, si",
+        "ts": "1523466555.000251"
+    },
+    {
+        "type": "message",
+        "user": "U9Q9CDE0P",
+        "text": "Chiedo agli altri membri del gruppo di verificare ma penso che sia risolto, grazie",
+        "ts": "1523466574.000496",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9PP54E4D"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9PBCG946",
+        "text": "Buonasera, non riesco a fare il join del canale di github, il canale è \"engelbart\" e il mio nick di github è alelagala",
+        "edited": {
+            "user": "U9PBCG946",
+            "ts": "1523470240.000000"
+        },
+        "ts": "1523469716.000186"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<@U9PBCG946> E la foto?",
+        "ts": "1523471671.000305"
+    },
+    {
+        "type": "message",
+        "user": "U9RE08815",
+        "text": "<@U9BD7NMPC> buonasera professore. Sono stato aggiunto ieri <#C9SLGMULF|lampson>. Vorrei ricevere l’email di invito per entrare git classroom del mio gruppo",
+        "client_msg_id": "43B193E5-8440-4311-A3E4-54EBEB5FE50F",
+        "ts": "1523473192.000184"
+    },
+    {
+        "type": "message",
+        "user": "U9Q9CDE0P",
+        "text": "<@U9RE08815>non c'è bisogno della mail, vai su <https:\/\/github.com\/orgs\/softeng-inf-uniba\/teams\/> entra nel tuo team, vai nella sezione Members e in alto a destra c'è il tasto per richiedere l'iscrizione al team",
+        "attachments": [
+            {
+                "service_name": "GitHub",
+                "title": "Build software better, together",
+                "title_link": "https:\/\/github.com\/orgs\/softeng-inf-uniba\/teams\/",
+                "text": "GitHub is where people build software. More than 27 million people use GitHub to discover, fork, and contribute to over 80 million projects.",
+                "fallback": "GitHub: Build software better, together",
+                "image_width": 1200,
+                "image_height": 620,
+                "from_url": "https:\/\/github.com\/orgs\/softeng-inf-uniba\/teams\/",
+                "service_icon": "https:\/\/a.slack-edge.com\/bfaba\/img\/unfurl_icons\/github.png",
+                "id": 1
+            }
+        ],
+        "ts": "1523473269.000523"
+    },
+    {
+        "type": "message",
+        "user": "U9PK8UJBA",
+        "text": "<@U9RE08815>",
+        "ts": "1523473336.000322"
+    },
+    {
+        "type": "message",
+        "user": "U9RE08815",
+        "text": "Ho seguito le tue istruzioni solo che non trovò alcuna repository e nessun team quindi non riesco ad entrare nel mio team",
+        "client_msg_id": "6560FED8-FA82-4490-8E73-442799729C0C",
+        "ts": "1523473693.000140"
+    },
+    {
+        "type": "message",
+        "user": "U9Q9CDE0P",
+        "text": "Scrivimi in privato, non intasiamo questo canale",
+        "client_msg_id": "0dbc8def-9661-42cd-9060-3037732b8597",
+        "ts": "1523473789.000745"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<@U9RE08815> non compare nel team. senza sapere il suo id github posso fare ben poco. Se si fosse preso la briga di leggere i miei messaggi precedenti sarebbe stato apprezzato",
+        "ts": "1523474371.000626"
+    },
+    {
+        "type": "message",
+        "user": "U9RE08815",
+        "text": "<@U9BD7NMPC> Chiedo scusa professore. Il mio ID github è danieleborace",
+        "client_msg_id": "0FA72EC0-5751-424F-A13E-EDA87D67D212",
+        "edited": {
+            "user": "U9RE08815",
+            "ts": "1523475239.000000"
+        },
+        "ts": "1523475221.000577"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<@U9RE08815> controlli l'email",
+        "ts": "1523475326.000084"
+    },
+    {
+        "type": "message",
+        "user": "U9RE08815",
+        "text": "<@U9BD7NMPC> ok ho risolto professore. La ringrazio",
+        "client_msg_id": "72AA17AB-6AE4-44D2-8312-B87E63DC45A8",
+        "ts": "1523475564.000487"
+    },
+    {
+        "type": "message",
+        "user": "U9L4K57T6",
+        "text": "<@U9BD7NMPC>  al gruppo knuth non risulta alcuna repository",
+        "client_msg_id": "b7cb897d-b8d3-4cef-9596-1d4020df200e",
+        "ts": "1523477677.000213"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<@U9MUU9N57> controlli di nuovo",
+        "ts": "1523479624.000102"
+    }
+]

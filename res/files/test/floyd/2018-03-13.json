@@ -1,0 +1,22 @@
+[
+    {
+        "type": "message",
+        "user": "U9MTNTYSD",
+        "text": "no",
+        "ts": "1520930030.000321"
+    },
+    {
+        "type": "message",
+        "user": "U9PDKF5JB",
+        "text": "Movitv",
+        "client_msg_id": "f6a60c52-7ca8-4c35-a03f-19073a53bc9c",
+        "ts": "1520943468.000328"
+    },
+    {
+        "type": "message",
+        "user": "U9PDKF5JB",
+        "text": "Brava marica",
+        "client_msg_id": "3b7b5b4f-91a5-4c3a-94c2-fbb4db694ca5",
+        "ts": "1520989668.000114"
+    }
+]

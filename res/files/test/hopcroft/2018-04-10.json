@@ -1,0 +1,33 @@
+[
+    {
+        "user": "U9NS5BECU",
+        "text": "<@U9NS5BECU> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1523353975.000061"
+    },
+    {
+        "user": "U9NS5BECU",
+        "purpose": "Ardito, Cozzoli, Liantonio",
+        "text": "<@U9NS5BECU> set the channel purpose: Ardito, Cozzoli, Liantonio",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1523353975.000346"
+    },
+    {
+        "user": "U9Q0RC3E2",
+        "inviter": "U9NS5BECU",
+        "text": "<@U9Q0RC3E2> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1523353975.000430"
+    },
+    {
+        "user": "U9P54QYLA",
+        "inviter": "U9NS5BECU",
+        "text": "<@U9P54QYLA> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1523353975.000456"
+    }
+]

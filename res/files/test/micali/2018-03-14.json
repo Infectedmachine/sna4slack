@@ -1,0 +1,25 @@
+[
+    {
+        "user": "U9P12DFBK",
+        "inviter": "U9PBHQU3H",
+        "text": "<@U9P12DFBK> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1521012031.000067"
+    },
+    {
+        "user": "U9P1B28NM",
+        "inviter": "U9PBHQU3H",
+        "text": "<@U9P1B28NM> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1521013543.000186"
+    },
+    {
+        "type": "message",
+        "user": "U9PBHQU3H",
+        "text": "Perfetto, ci siamo tutti :+1:",
+        "client_msg_id": "5ae5a314-a842-4e32-8db8-f13fd60d1164",
+        "ts": "1521013570.000184"
+    }
+]

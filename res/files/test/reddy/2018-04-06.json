@@ -1,0 +1,17 @@
+[
+    {
+        "user": "UA2DNR4F4",
+        "text": "<@UA2DNR4F4> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1523039802.000099"
+    },
+    {
+        "user": "U9PNL8V9U",
+        "purpose": "Ferrante, Ingletto, Loi, Clemente",
+        "text": "<@U9PNL8V9U> set the channel purpose: Ferrante, Ingletto, Loi, Clemente",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1523039948.000111"
+    }
+]

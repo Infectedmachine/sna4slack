@@ -1,0 +1,47 @@
+[
+    {
+        "user": "U9NQ7HF27",
+        "text": "<@U9NQ7HF27> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520934783.000270"
+    },
+    {
+        "user": "U9NQ7HF27",
+        "purpose": "Lenti, Caputo, Festa, Lorusso, D'Orsi",
+        "text": "<@U9NQ7HF27> set the channel purpose: Lenti, Caputo, Festa, Lorusso, D'Orsi",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520934784.000152"
+    },
+    {
+        "user": "U9NQRSU7M",
+        "inviter": "U9NQ7HF27",
+        "text": "<@U9NQRSU7M> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520934784.000238"
+    },
+    {
+        "user": "U9N8GRK3J",
+        "inviter": "U9NQ7HF27",
+        "text": "<@U9N8GRK3J> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520934784.000262"
+    },
+    {
+        "user": "U9NBGBT5F",
+        "inviter": "U9NQ7HF27",
+        "text": "<@U9NBGBT5F> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520934784.000285"
+    },
+    {
+        "type": "message",
+        "user": "U9NQ7HF27",
+        "text": "we",
+        "ts": "1520934816.000319"
+    }
+]

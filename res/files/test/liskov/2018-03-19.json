@@ -1,0 +1,10 @@
+[
+    {
+        "user": "U9JS0QR60",
+        "purpose": "Dagnello, Depalo, Lanotte, Lorusso",
+        "text": "<@U9JS0QR60> set the channel purpose: Dagnello, Depalo, Lanotte, Lorusso",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1521457489.000105"
+    }
+]

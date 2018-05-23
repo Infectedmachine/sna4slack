@@ -1,0 +1,83 @@
+[
+    {
+        "user": "U9NJ3PL4D",
+        "purpose": "Carlucci, Di Nanni, Dileo, Lorusso.",
+        "text": "<@U9NJ3PL4D> set the channel purpose: Carlucci, Di Nanni, Dileo, Lorusso.",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520928501.000240"
+    },
+    {
+        "user": "U9NSRGFQU",
+        "inviter": "U9NJ3PL4D",
+        "text": "<@U9NSRGFQU> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520934358.000087"
+    },
+    {
+        "user": "U9P21SKA6",
+        "text": "<@U9P21SKA6> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520949557.000416"
+    },
+    {
+        "type": "message",
+        "user": "U9P21SKA6",
+        "text": "ragazzi",
+        "ts": "1520949564.000475"
+    },
+    {
+        "type": "message",
+        "user": "U9P21SKA6",
+        "text": "sono nel nostro gruppo?",
+        "ts": "1520949572.000732"
+    },
+    {
+        "type": "message",
+        "user": "U9P21SKA6",
+        "text": "ahahah",
+        "ts": "1520949574.000195"
+    },
+    {
+        "type": "message",
+        "user": "U9P21SKA6",
+        "text": "non ci sto capendo più niente",
+        "ts": "1520949585.000737"
+    },
+    {
+        "type": "message",
+        "user": "U9NJ3PL4D",
+        "text": "Si si ahahahahah",
+        "client_msg_id": "9dac9cc0-9766-4920-9ec1-be57ecc95b9c",
+        "ts": "1520952050.000480"
+    },
+    {
+        "type": "message",
+        "user": "U9P21SKA6",
+        "text": ":slightly_smiling_face:",
+        "ts": "1520956242.000615"
+    },
+    {
+        "type": "message",
+        "user": "U9P21SKA6",
+        "text": "bellissima sta app",
+        "ts": "1520956249.000804"
+    },
+    {
+        "type": "message",
+        "user": "U9P21SKA6",
+        "text": "è una figata pazzesca",
+        "ts": "1520956254.000764",
+        "reactions": [
+            {
+                "name": "sparkles",
+                "users": [
+                    "U9PGALKRR"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

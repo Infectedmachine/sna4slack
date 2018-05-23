@@ -1,0 +1,40 @@
+[
+    {
+        "user": "U9MU4674H",
+        "text": "<@U9MU4674H> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520875475.000287"
+    },
+    {
+        "user": "U9MU4674H",
+        "purpose": "Gruppo di lavoro: Ivano Cinquepalmi, Alessandro La Gala, Andrea De Stradis.",
+        "text": "<@U9MU4674H> set the channel purpose: Gruppo di lavoro: Ivano Cinquepalmi, Alessandro La Gala, Andrea De Stradis.",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520875475.000594"
+    },
+    {
+        "user": "U9PBCG946",
+        "inviter": "U9MU4674H",
+        "text": "<@U9PBCG946> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520875476.000092"
+    },
+    {
+        "user": "U9MU4674H",
+        "purpose": "Gruppo di lavoro: Cinquepalmi, La Gala, De Stradis.",
+        "text": "<@U9MU4674H> set the channel purpose: Gruppo di lavoro: Cinquepalmi, La Gala, De Stradis.",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520876084.000741"
+    },
+    {
+        "user": "U9PK3NZ8F",
+        "text": "<@U9PK3NZ8F> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520879187.000343"
+    }
+]

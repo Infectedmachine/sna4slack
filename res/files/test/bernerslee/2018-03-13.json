@@ -1,0 +1,124 @@
+[
+    {
+        "user": "U9N84AWTA",
+        "text": "<@U9N84AWTA> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520938583.000374"
+    },
+    {
+        "user": "U9N84AWTA",
+        "purpose": "ingegneria",
+        "text": "<@U9N84AWTA> set the channel purpose: ingegneria",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520938584.000104"
+    },
+    {
+        "user": "U9NRSQ859",
+        "inviter": "U9N84AWTA",
+        "text": "<@U9NRSQ859> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520938584.000191"
+    },
+    {
+        "user": "U9N84AWTA",
+        "purpose": "Giacomo Diaferio, Donato Leone, Simone Cancellaro, Lorenzo Liberti",
+        "text": "<@U9N84AWTA> set the channel purpose: Giacomo Diaferio, Donato Leone, Simone Cancellaro, Lorenzo Liberti",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520938813.000209"
+    },
+    {
+        "user": "U9NCMRU8H",
+        "inviter": "U9N84AWTA",
+        "text": "<@U9NCMRU8H> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520939311.000241"
+    },
+    {
+        "type": "message",
+        "user": "U9NCMRU8H",
+        "text": "Salve",
+        "client_msg_id": "c7620445-8c1f-4e5a-bb3c-15dc6d6f1eb5",
+        "ts": "1520939346.000477"
+    },
+    {
+        "type": "message",
+        "user": "U9NCMRU8H",
+        "text": "Sono simpatico",
+        "client_msg_id": "cb88179a-cf97-499c-b8d4-2091426ff969",
+        "ts": "1520939349.000108",
+        "reactions": [
+            {
+                "name": "peach",
+                "users": [
+                    "U9Q8J1MNF"
+                ],
+                "count": 1
+            },
+            {
+                "name": "banana",
+                "users": [
+                    "U9Q8J1MNF"
+                ],
+                "count": 1
+            },
+            {
+                "name": "grapes",
+                "users": [
+                    "U9Q8J1MNF"
+                ],
+                "count": 1
+            },
+            {
+                "name": "melon",
+                "users": [
+                    "U9Q8J1MNF"
+                ],
+                "count": 1
+            },
+            {
+                "name": "watermelon",
+                "users": [
+                    "U9Q8J1MNF"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9NCMRU8H",
+        "text": ":)",
+        "client_msg_id": "70ac489e-3f5d-4957-94a4-999a0971d1bb",
+        "ts": "1520939351.000089"
+    },
+    {
+        "user": "U9N84AWTA",
+        "purpose": "Diaferio, Leone, Cancellaro, Liberti",
+        "text": "<@U9N84AWTA> set the channel purpose: Diaferio, Leone, Cancellaro, Liberti",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520967570.000630",
+        "reactions": [
+            {
+                "name": "unicorn_face",
+                "users": [
+                    "U9NCMRU8H"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "user": "U9N84AWTA",
+        "topic": "",
+        "text": "<@U9N84AWTA> cleared channel topic",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1520967570.000690"
+    }
+]

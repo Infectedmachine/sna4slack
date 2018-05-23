@@ -1,0 +1,37 @@
+[
+    {
+        "type": "message",
+        "user": "U9PBHQU3H",
+        "text": "Cercate il nostro team -&gt; members -&gt; request to join",
+        "attachments": [
+            {
+                "fallback": "[April 9th, 2018 2:44 PM] filippo.lanubile: Andando su <https:\/\/github.com\/orgs\/softeng-inf-uniba\/teams> dovreste vedere tutti e scegliere di associarvi al vostro team",
+                "ts": "1523277851.000480",
+                "author_id": "U9BD7NMPC",
+                "author_subname": "Filippo",
+                "channel_id": "C9APF813J",
+                "channel_name": "general",
+                "is_msg_unfurl": true,
+                "text": "Andando su <https:\/\/github.com\/orgs\/softeng-inf-uniba\/teams> dovreste vedere tutti e scegliere di associarvi al vostro team",
+                "author_name": "Filippo",
+                "author_link": "https:\/\/ingsw1718.slack.com\/team\/U9BD7NMPC",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2018-03-12\/328399380067_c21cc81494b19032a666_48.jpg",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "color": "D0D0D0",
+                "from_url": "https:\/\/ingsw1718.slack.com\/archives\/C9APF813J\/p1523277851000480",
+                "is_share": true,
+                "footer": "Posted in #general"
+            }
+        ],
+        "ts": "1523278128.000331"
+    },
+    {
+        "type": "message",
+        "user": "U9PBHQU3H",
+        "text": "Se avete difficoltà scrivetemi",
+        "client_msg_id": "227f4121-1069-4eb1-9d57-1c70edabccfc",
+        "ts": "1523279112.000109"
+    }
+]

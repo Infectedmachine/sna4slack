@@ -1,0 +1,90 @@
+[
+    {
+        "type": "message",
+        "user": "U9MQ541S4",
+        "text": "Caricare la nuova guida studente (file .md)",
+        "client_msg_id": "c71e25bf-2da5-40e5-8bb3-6d1267c6c2dd",
+        "ts": "1524121785.000144"
+    },
+    {
+        "type": "message",
+        "user": "U9MQ541S4",
+        "text": "Caricare immagine Badge.png nella cartella res",
+        "client_msg_id": "f9b37481-b242-4185-8a34-cce82d8738fa",
+        "ts": "1524121810.000129"
+    },
+    {
+        "type": "message",
+        "user": "U9MQ541S4",
+        "text": "Eliminare la riga 22 del file travis.yml",
+        "client_msg_id": "7831652c-142a-4cd4-806c-1f843c9a0211",
+        "ts": "1524121852.000247"
+    },
+    {
+        "type": "message",
+        "user": "U9P9BGKU2",
+        "text": "Aggiunto Markdown Guida per lo studente.md",
+        "ts": "1524129513.000232"
+    },
+    {
+        "type": "message",
+        "user": "U9P9BGKU2",
+        "text": "Caricato immagine Badge.png nella cartella res",
+        "edited": {
+            "user": "U9P9BGKU2",
+            "ts": "1524129596.000000"
+        },
+        "ts": "1524129573.000293"
+    },
+    {
+        "type": "message",
+        "user": "U9P9BGKU2",
+        "text": "Eliminato la riga 22 del file .travis.yml",
+        "ts": "1524129764.000021"
+    },
+    {
+        "type": "message",
+        "user": "U9MQ541S4",
+        "text": "Ho cancellato il badge per codecov",
+        "ts": "1524132560.000042"
+    },
+    {
+        "type": "message",
+        "user": "U9P9BGKU2",
+        "text": "L'ho fatto anche io",
+        "ts": "1524132740.000092"
+    },
+    {
+        "type": "message",
+        "user": "U9P9BGKU2",
+        "text": "Poi mi è arrivato il messaggio che mi diceva che lo avevi fatto anche tu",
+        "ts": "1524132759.000381"
+    },
+    {
+        "type": "message",
+        "user": "U9P9BGKU2",
+        "text": "Comunque ho appena finito tutto quello che richiedeva il professore",
+        "ts": "1524132979.000215"
+    },
+    {
+        "type": "message",
+        "user": "U9MQ541S4",
+        "text": "ho cancellato il badge codecov nel readme.md",
+        "ts": "1524133083.000044"
+    },
+    {
+        "type": "message",
+        "user": "U9MQ541S4",
+        "text": "si ho visto",
+        "ts": "1524133089.000524",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9P9BGKU2"
+                ],
+                "count": 1
+            }
+        ]
+    }
+]

@@ -1,0 +1,57 @@
+[
+    {
+        "user": "U9NAWS8CR",
+        "text": "<@U9NAWS8CR> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520934343.000408"
+    },
+    {
+        "user": "U9L4K57T6",
+        "inviter": "U9NAWS8CR",
+        "text": "<@U9L4K57T6> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520934344.000318"
+    },
+    {
+        "user": "U9NAWS8CR",
+        "purpose": "Cormio Matteo, Angelo Dagnello, Giuseppe Amoruso, Gianmarco Di Lella",
+        "text": "<@U9NAWS8CR> set the channel purpose: Cormio Matteo, Angelo Dagnello, Giuseppe Amoruso, Gianmarco Di Lella",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520934344.000383"
+    },
+    {
+        "user": "U9PVD2REK",
+        "inviter": "U9NAWS8CR",
+        "text": "<@U9PVD2REK> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520934663.000129"
+    },
+    {
+        "user": "U9P5NKA7P",
+        "inviter": "U9NAWS8CR",
+        "text": "<@U9P5NKA7P> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520950591.000379"
+    },
+    {
+        "user": "U9NAWS8CR",
+        "purpose": "Cormio, Dagnello,  Amoruso,  Di Lella",
+        "text": "<@U9NAWS8CR> set the channel purpose: Cormio, Dagnello,  Amoruso,  Di Lella",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520957630.000876"
+    },
+    {
+        "user": "U9NAWS8CR",
+        "topic": "",
+        "text": "<@U9NAWS8CR> cleared channel topic",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1520957630.000948"
+    }
+]

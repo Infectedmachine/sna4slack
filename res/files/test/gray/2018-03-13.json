@@ -1,0 +1,42 @@
+[
+    {
+        "user": "U9NQ80ZDH",
+        "text": "<@U9NQ80ZDH> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520931731.000472"
+    },
+    {
+        "user": "U9PUPKP39",
+        "inviter": "U9NQ80ZDH",
+        "text": "<@U9PUPKP39> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520931735.000506"
+    },
+    {
+        "user": "U9NQ6MMFV",
+        "inviter": "U9NQ80ZDH",
+        "text": "<@U9NQ6MMFV> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520931736.000041"
+    },
+    {
+        "user": "U9NQ80ZDH",
+        "old_name": "ken-thompson",
+        "name": "gray",
+        "text": "<@U9NQ80ZDH> has renamed the channel from \"ken-thompson\" to \"gray\"",
+        "type": "message",
+        "subtype": "channel_name",
+        "ts": "1520932230.000523"
+    },
+    {
+        "user": "U9NQ80ZDH",
+        "purpose": "de Gennaro, Farinola, Cervone",
+        "text": "<@U9NQ80ZDH> set the channel purpose: de Gennaro, Farinola, Cervone",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520932332.000378"
+    }
+]

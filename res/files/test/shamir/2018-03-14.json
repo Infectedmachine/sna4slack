@@ -1,0 +1,17 @@
+[
+    {
+        "user": "U9Q3DHX0V",
+        "text": "<@U9Q3DHX0V> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1521051644.000672"
+    },
+    {
+        "user": "U9Q3DHX0V",
+        "purpose": "Forleo, Cafaro, Cicerello, Lippolis, Fina",
+        "text": "<@U9Q3DHX0V> set the channel purpose: Forleo, Cafaro, Cicerello, Lippolis, Fina",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1521051668.000499"
+    }
+]

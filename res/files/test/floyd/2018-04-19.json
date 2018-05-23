@@ -1,0 +1,127 @@
+[
+    {
+        "text": "Per me a bene, ditemi voi, oppure decidiamo chi fa le modifiche, tanto basta che le fa uno",
+        "unfurl_links": true,
+        "client_msg_id": "73968e2d-6a41-41ba-8773-9648280d3a05",
+        "unfurl_media": true,
+        "thread_ts": "1524070647.000757",
+        "is_thread_broadcast": true,
+        "channel_id": 328456057652,
+        "type": "message",
+        "subtype": "thread_broadcast",
+        "user": "U9SUDJ8J2",
+        "root": {
+            "type": "message",
+            "user": "U9PBQ382J",
+            "text": "potremmo anche incontrarci tutti nel caso",
+            "thread_ts": "1524070647.000757",
+            "reply_count": 1,
+            "replies": [
+                {
+                    "user": "U9SUDJ8J2",
+                    "ts": "1524125032.000174"
+                }
+            ],
+            "unread_count": 1,
+            "ts": "1524070647.000757"
+        },
+        "ts": "1524125032.000174"
+    },
+    {
+        "type": "message",
+        "user": "U9PBQ382J",
+        "text": "come volete",
+        "ts": "1524125872.000182"
+    },
+    {
+        "type": "message",
+        "user": "U9PBQ382J",
+        "text": "io e francesco nel pomeriggio ci siamo",
+        "ts": "1524125889.000525"
+    },
+    {
+        "type": "message",
+        "user": "U9PBQ382J",
+        "text": "se poi qualcuno non può decidiamo a chi farlo fare",
+        "ts": "1524125924.000309"
+    },
+    {
+        "type": "message",
+        "user": "U9SUDJ8J2",
+        "text": "Ok, fino a che ora rimanete?",
+        "client_msg_id": "c7ec4acf-6fba-404a-af64-730c11349c7c",
+        "ts": "1524126647.000170"
+    },
+    {
+        "type": "message",
+        "user": "U9PBQ382J",
+        "text": "siamo a bari quindi fino a quando volete",
+        "ts": "1524131906.000450"
+    },
+    {
+        "type": "message",
+        "user": "U9SUDJ8J2",
+        "text": "Se non ci sono imprevisti per le tre sto in dipartimento",
+        "client_msg_id": "e88e5a17-6ad4-4c28-8d06-b410a84acffe",
+        "ts": "1524136241.000080"
+    },
+    {
+        "type": "message",
+        "user": "U9PBQ382J",
+        "text": "e gli altri ci sono?",
+        "ts": "1524140270.000366"
+    },
+    {
+        "type": "message",
+        "user": "U9SUDJ8J2",
+        "text": "Non lo so",
+        "client_msg_id": "9041cbd8-6665-4f96-a576-94be399f19eb",
+        "ts": "1524140312.000260"
+    },
+    {
+        "type": "message",
+        "user": "U9PBQ382J",
+        "text": "<@U9PDKF5JB> <@U9T55R65D>",
+        "ts": "1524140344.000032"
+    },
+    {
+        "type": "message",
+        "user": "U9PDKF5JB",
+        "text": "Io sarò lì per le 15.45",
+        "client_msg_id": "98dbd3b4-9526-4a59-8360-a24b8164adbf",
+        "ts": "1524142030.000257"
+    },
+    {
+        "type": "message",
+        "user": "U9PDKF5JB",
+        "text": "Marica e anna dove siete?",
+        "client_msg_id": "b80d5651-ef68-4ece-adae-90e645530726",
+        "ts": "1524144346.000455"
+    },
+    {
+        "type": "message",
+        "user": "U9SUDJ8J2",
+        "text": "Aula studio del dipartimento",
+        "ts": "1524144364.000688"
+    },
+    {
+        "type": "message",
+        "user": "U9PDKF5JB",
+        "text": "Ok",
+        "client_msg_id": "1b3aedea-d377-4f1d-8fe7-2a9f5774985b",
+        "ts": "1524144387.000423"
+    },
+    {
+        "type": "message",
+        "user": "U9T55R65D",
+        "text": "Scusate ragazzi io ora ho visto i messaggi nn stava con il cel vicino",
+        "client_msg_id": "ede5e717-271c-4e99-a4da-8c998fd83bb8",
+        "ts": "1524147064.000353"
+    },
+    {
+        "type": "message",
+        "user": "U9PDKF5JB",
+        "text": "np, abbiamo già finito",
+        "ts": "1524147091.000135"
+    }
+]

@@ -1,0 +1,34 @@
+[
+    {
+        "type": "message",
+        "user": "U9NDHPVRS",
+        "text": "<@U9BD7NMPC> prof domani laboratorio o spiega?",
+        "client_msg_id": "8458a4cc-de6c-4c1a-a819-c36c1eb29816",
+        "ts": "1521391130.000069"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "tutti e due",
+        "ts": "1521395787.000103",
+        "reactions": [
+            {
+                "name": "+1",
+                "users": [
+                    "U9JS0QR60",
+                    "U9PDKF5JB"
+                ],
+                "count": 2
+            },
+            {
+                "name": "computer",
+                "users": [
+                    "U9NDHPVRS",
+                    "U9NREC5DJ",
+                    "U9NG44DUJ"
+                ],
+                "count": 3
+            }
+        ]
+    }
+]

@@ -1,0 +1,8 @@
+[
+    {
+        "type": "message",
+        "user": "U9L0877K5",
+        "text": "git init\ntouch README.md\ngit add README.md\ngit commit -m \"PrimaModifica\"\nnotepad README.md\ngit add README.md\ngit commit -m \"SecondaModifica\"\n\ngit log --oneline\ngit revert HEAD\n\ngit reset &lt;#commit&gt;",
+        "ts": "1521719106.000445"
+    }
+]

@@ -1,0 +1,28 @@
+[
+    {
+        "type": "message",
+        "user": "U9P18U17X",
+        "text": "<@U9NF6NSU8> non risulti ancora sul team di github... ricontrolla il join",
+        "ts": "1523526252.000546"
+    },
+    {
+        "type": "message",
+        "user": "U9P18U17X",
+        "text": "<@U9NBNJFB3> metti una foto sul profilo github",
+        "ts": "1523526273.000286"
+    },
+    {
+        "type": "message",
+        "user": "U9NJ4EYM7",
+        "text": "<@U9NF6NSU8> ha effettuato il join, <@U9NBNJFB3> metti una foto al profilo personale di github e siamo ok",
+        "client_msg_id": "8d4b97ce-4446-40be-b117-d8462d5d42f8",
+        "ts": "1523549956.000726"
+    },
+    {
+        "type": "message",
+        "user": "U9NBNJFB3",
+        "text": "Fatto",
+        "client_msg_id": "a49c3dc9-6b65-44f8-a0df-c98c90b0070c",
+        "ts": "1523550746.000319"
+    }
+]

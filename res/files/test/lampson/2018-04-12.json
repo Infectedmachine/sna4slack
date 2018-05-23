@@ -1,0 +1,189 @@
+[
+    {
+        "type": "message",
+        "user": "U9PNDSW4R",
+        "text": "Tutto perfetto. Ho eseguito tutti i passi della guida pubblicata su ADA\n1. Inserite e convalidate le Variabili di Ambiente su Trevis CI.\n2. aggiunto il badge _build | passing_ al file README.MD",
+        "ts": "1523517878.000469"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U9PNDSW4R> uploaded a file: <https:\/\/ingsw1718.slack.com\/files\/U9PNDSW4R\/FA4PHTGHE\/image.png|build_slack.png> and commented: Il badge compare correttamente",
+        "file": {
+            "id": "FA4PHTGHE",
+            "created": 1523517958,
+            "timestamp": 1523517958,
+            "name": "image.png",
+            "title": "build_slack.png",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U9PNDSW4R",
+            "editable": false,
+            "size": 38097,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA4PHTGHE\/image.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA4PHTGHE\/download\/image.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA4PHTGHE-c81db42688\/image_64.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA4PHTGHE-c81db42688\/image_80.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA4PHTGHE-c81db42688\/image_360.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360_w": 360,
+            "thumb_360_h": 193,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA4PHTGHE-c81db42688\/image_480.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_480_w": 480,
+            "thumb_480_h": 257,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA4PHTGHE-c81db42688\/image_160.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA4PHTGHE-c81db42688\/image_720.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720_w": 720,
+            "thumb_720_h": 386,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA4PHTGHE-c81db42688\/image_800.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_800_w": 800,
+            "thumb_800_h": 429,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA4PHTGHE-c81db42688\/image_960.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_960_w": 960,
+            "thumb_960_h": 514,
+            "image_exif_rotation": 1,
+            "original_w": 1004,
+            "original_h": 538,
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/U9PNDSW4R\/FA4PHTGHE\/image.png",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-FA4PHTGHE-183f67cdf2",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 1,
+            "initial_comment": {
+                "id": "FcA5BN1T9R",
+                "created": 1523517958,
+                "timestamp": 1523517958,
+                "user": "U9PNDSW4R",
+                "is_intro": true,
+                "comment": "Il badge compare correttamente"
+            }
+        },
+        "user": "U9PNDSW4R",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "giovanni.barese",
+        "bot_id": null,
+        "ts": "1523517960.000164"
+    },
+    {
+        "type": "message",
+        "user": "U9PNDSW4R",
+        "text": "*Risultiamo tutti e 4 iscritti al team su Classroom*",
+        "ts": "1523518040.000482"
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U9PNDSW4R> uploaded a file: <https:\/\/ingsw1718.slack.com\/files\/U9PNDSW4R\/FA5JN86A1\/image.png|classroom>",
+        "file": {
+            "id": "FA5JN86A1",
+            "created": 1523518048,
+            "timestamp": 1523518048,
+            "name": "image.png",
+            "title": "classroom",
+            "mimetype": "image\/png",
+            "filetype": "png",
+            "pretty_type": "PNG",
+            "user": "U9PNDSW4R",
+            "editable": false,
+            "size": 76673,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA5JN86A1\/image.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA5JN86A1\/download\/image.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_64": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5JN86A1-e8afb0b5bf\/image_64.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_80": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5JN86A1-e8afb0b5bf\/image_80.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5JN86A1-e8afb0b5bf\/image_360.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_360_w": 360,
+            "thumb_360_h": 165,
+            "thumb_480": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5JN86A1-e8afb0b5bf\/image_480.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_480_w": 480,
+            "thumb_480_h": 220,
+            "thumb_160": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5JN86A1-e8afb0b5bf\/image_160.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5JN86A1-e8afb0b5bf\/image_720.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_720_w": 720,
+            "thumb_720_h": 330,
+            "thumb_800": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5JN86A1-e8afb0b5bf\/image_800.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_800_w": 800,
+            "thumb_800_h": 367,
+            "thumb_960": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5JN86A1-e8afb0b5bf\/image_960.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_960_w": 960,
+            "thumb_960_h": 441,
+            "thumb_1024": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-FA5JN86A1-e8afb0b5bf\/image_1024.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_1024_w": 1024,
+            "thumb_1024_h": 470,
+            "image_exif_rotation": 1,
+            "original_w": 1366,
+            "original_h": 627,
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/U9PNDSW4R\/FA5JN86A1\/image.png",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-FA5JN86A1-a2c4629061",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0,
+            "reactions": [
+                {
+                    "name": "+1",
+                    "users": [
+                        "U9PK8UJBA",
+                        "U9RE08815"
+                    ],
+                    "count": 2
+                },
+                {
+                    "name": "heart",
+                    "users": [
+                        "U9PK8UJBA"
+                    ],
+                    "count": 1
+                },
+                {
+                    "name": "100",
+                    "users": [
+                        "U9PK8UJBA"
+                    ],
+                    "count": 1
+                },
+                {
+                    "name": "rocket",
+                    "users": [
+                        "U9PK8UJBA"
+                    ],
+                    "count": 1
+                },
+                {
+                    "name": "heavy_check_mark",
+                    "users": [
+                        "U9PK8UJBA"
+                    ],
+                    "count": 1
+                }
+            ]
+        },
+        "user": "U9PNDSW4R",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "giovanni.barese",
+        "bot_id": null,
+        "ts": "1523518051.000133"
+    },
+    {
+        "type": "message",
+        "user": "U9PQNB3DF",
+        "text": "Ho controllato, tutto ok.",
+        "ts": "1523518075.000481"
+    }
+]

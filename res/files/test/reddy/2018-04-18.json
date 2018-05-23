@@ -1,0 +1,22 @@
+[
+    {
+        "type": "message",
+        "user": "U9NQ8RQ67",
+        "text": "Nono tranquillo poi lunedi in aula faccio il pull",
+        "thread_ts": "1523998532.000259",
+        "parent_user_id": "U9NQ8RQ67",
+        "ts": "1524037537.000446"
+    },
+    {
+        "type": "message",
+        "user": "U9NQ8RQ67",
+        "text": "Raga io e Francesco abbiamo fatto le commit dei file che messo il prof appena potete aggiornate la repository locale",
+        "ts": "1524090467.000115"
+    },
+    {
+        "type": "message",
+        "user": "U9NQ8RQ67",
+        "text": "Abbiamo avuto un problema con le mie credenziali salvate in Windows, ed è uscita una commit a nome di ProvaVerifica:joy: Abbiamo fatto il revert e ora è tutto funzionante",
+        "ts": "1524090578.000437"
+    }
+]

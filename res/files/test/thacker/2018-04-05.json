@@ -1,0 +1,17 @@
+[
+    {
+        "user": "UA1PBUVC4",
+        "text": "<@UA1PBUVC4> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1522958653.000449"
+    },
+    {
+        "user": "UA2P4MQ23",
+        "inviter": "UA1PBUVC4",
+        "text": "<@UA2P4MQ23> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1522958654.000341"
+    }
+]

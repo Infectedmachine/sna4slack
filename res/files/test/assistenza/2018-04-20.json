@@ -1,0 +1,136 @@
+[
+    {
+        "type": "message",
+        "user": "U9P61MA7Q",
+        "text": "Buongiorno, volevo domandarvi se per l'assegnazione di oggi richiedete necessariamente la creazione di una issue, nonché di un branch separato dal master, oppure agiamo modificando direttamente il master branch",
+        "ts": "1524224940.000013"
+    },
+    {
+        "type": "message",
+        "user": "U9NAWRB2Q",
+        "text": "",
+        "attachments": [
+            {
+                "fallback": "[April 20th, 2018 1:51 PM] filippo.lanubile: <!everyone> Anche per questa assegnazione non c'è bisogno di creare un branch e di fare una pull request. Questi verranno fatti per le attività di sviluppo a partire dalla prossima settimana",
+                "ts": "1524225115.000245",
+                "author_id": "U9BD7NMPC",
+                "author_subname": "Filippo",
+                "channel_id": "C9APF813J",
+                "channel_name": "general",
+                "is_msg_unfurl": true,
+                "text": "<!everyone> Anche per questa assegnazione non c'è bisogno di creare un branch e di fare una pull request. Questi verranno fatti per le attività di sviluppo a partire dalla prossima settimana",
+                "author_name": "Filippo",
+                "author_link": "https:\/\/ingsw1718.slack.com\/team\/U9BD7NMPC",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2018-03-12\/328399380067_c21cc81494b19032a666_48.jpg",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "color": "D0D0D0",
+                "from_url": "https:\/\/ingsw1718.slack.com\/archives\/C9APF813J\/p1524225115000245",
+                "is_share": true,
+                "footer": "Posted in #general"
+            }
+        ],
+        "ts": "1524227914.000363"
+    },
+    {
+        "type": "message",
+        "user": "U9P61MA7Q",
+        "text": "buonasera, volevo chiedervi aiuto per un problema: l'app desktop di slack non mi permette di visualizzare il file README.md caricato dal prof. Lanubile nel messaggio di oggi. Come posso risolvere?",
+        "thread_ts": "1524229260.000003",
+        "reply_count": 2,
+        "replies": [
+            {
+                "user": "U9PNDSW4R",
+                "ts": "1524229581.000077"
+            },
+            {
+                "user": "U9BD7NMPC",
+                "ts": "1524239213.000450"
+            }
+        ],
+        "unread_count": 2,
+        "ts": "1524229260.000003"
+    },
+    {
+        "type": "message",
+        "user": "U9PNDSW4R",
+        "text": "Te lo mando in privato, ok?",
+        "thread_ts": "1524229260.000003",
+        "parent_user_id": "U9P61MA7Q",
+        "ts": "1524229581.000077"
+    },
+    {
+        "type": "message",
+        "user": "U9NDHPVRS",
+        "text": "Salve volevo capire, le modifiche al file README.md è possibile farle direttamente dall'editor di github o dobbiamo fare la git?",
+        "thread_ts": "1524230048.000140",
+        "reply_count": 3,
+        "replies": [
+            {
+                "user": "U9NSNMBMG",
+                "ts": "1524230880.000621"
+            },
+            {
+                "user": "U9NDHPVRS",
+                "ts": "1524231360.000168"
+            },
+            {
+                "user": "U9BD7NMPC",
+                "ts": "1524239163.000483"
+            }
+        ],
+        "unread_count": 3,
+        "ts": "1524230048.000140"
+    },
+    {
+        "type": "message",
+        "user": "U9NSNMBMG",
+        "text": "penso che github automatizzi semplicemente il flow (staging area-&gt;commit-&gt;push), producendo lo stesso risultato!",
+        "thread_ts": "1524230048.000140",
+        "parent_user_id": "U9NDHPVRS",
+        "ts": "1524230880.000621"
+    },
+    {
+        "type": "message",
+        "user": "U9NDHPVRS",
+        "text": "ma infatti abbiamo fatto cosi,solo che poi è sorto il dubbio",
+        "thread_ts": "1524230048.000140",
+        "parent_user_id": "U9NDHPVRS",
+        "ts": "1524231360.000168"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "Va bene così. Ha ragione <@U9NSNMBMG>",
+        "thread_ts": "1524230048.000140",
+        "parent_user_id": "U9NDHPVRS",
+        "ts": "1524239163.000483"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "Invece di visualizzarlo può fare il download e poi aprirlo con un editor qualsiasi",
+        "thread_ts": "1524229260.000003",
+        "parent_user_id": "U9P61MA7Q",
+        "ts": "1524239213.000450"
+    },
+    {
+        "type": "message",
+        "user": "U9P3A065A",
+        "text": "Buonasera, qualcuno ha riscontrato (e risolto) il seguente errore durante il download dell'immagine da <http:\/\/docker.com|docker.com>? \"Error response from daemon: manifest for nome-account\/repository:latest not found\"",
+        "ts": "1524248868.000225"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<@U9P3A065A> Premetto che non sarò io ad aiutarti. Tuttavia, se vuoi aumentare le probabilità che qualcuno ti aiuti, prova a essere più preciso e chiaro.",
+        "ts": "1524250040.000566"
+    },
+    {
+        "type": "message",
+        "user": "U9P3A065A",
+        "text": "Dopo aver avviato Docker localmente e digitato da terminale il comando docker pull con il nome dell'account di gruppo e del repository, compare il messaggio di errore trascritto in precedenza, non permettendo quindi di scaricare l'immagine dell'applicazione",
+        "ts": "1524251308.000246"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "type": "message",
+        "user": "U9PPY2L5B",
+        "text": "<@U9Q9CDE0P> e si, anche noi l'abbiamo fatto così. Era solo per conferma, grazie mille :wink:",
+        "client_msg_id": "a02fab27-f1b0-4273-8869-f9e6836aae53",
+        "thread_ts": "1524066914.000876",
+        "parent_user_id": "U9BD7NMPC",
+        "ts": "1524125427.000018"
+    },
+    {
+        "type": "message",
+        "user": "U9Q9CDE0P",
+        "text": "Figurati :grin:",
+        "client_msg_id": "93dee035-6255-4f70-b1f7-4f42863222d4",
+        "thread_ts": "1524066914.000876",
+        "parent_user_id": "U9BD7NMPC",
+        "ts": "1524134176.000010"
+    },
+    {
+        "type": "message",
+        "user": "U9BD7NMPC",
+        "text": "<!everyone> Evitate di mandare messaggi diretti come alternativa al channel <#CA3EZFFGR|assistenza>. Sappiate che non risponderò più e se dovessero continuare disabiliterò la feature \"Direct Messages\"",
+        "ts": "1524152432.000764"
+    }
+]

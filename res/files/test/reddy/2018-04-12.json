@@ -1,0 +1,21 @@
+[
+    {
+        "type": "message",
+        "user": "U9NQ8RQ67",
+        "text": "Avete configurato tutto?",
+        "ts": "1523565982.000384"
+    },
+    {
+        "type": "message",
+        "user": "UA2DNR4F4",
+        "text": "Sembra andare tutto bene.. ma non voglio cantare vittoria dopo gli scherzetti di stamattina della sincronizzazione con travis",
+        "client_msg_id": "36c21d9b-59b5-459b-9699-bae8ed92b08e",
+        "ts": "1523567380.000161"
+    },
+    {
+        "type": "message",
+        "user": "U9NQ8RQ67",
+        "text": ":joy:",
+        "ts": "1523570912.000407"
+    }
+]

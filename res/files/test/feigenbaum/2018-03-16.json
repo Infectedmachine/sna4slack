@@ -1,0 +1,42 @@
+[
+    {
+        "type": "message",
+        "user": "U9PKEG3UK",
+        "text": "Ciao ",
+        "client_msg_id": "48AA2C5F-FA59-43A9-B392-667F0556E400",
+        "ts": "1521189987.000366"
+    },
+    {
+        "type": "message",
+        "user": "U9PQX9LAZ",
+        "text": "Edward Albert \"Ed\" Feigenbaum (nato il 20 gennaio 1936) è un informatico che lavora nel campo dell'intelligenza artificiale e vincitore congiunto del 1994 ACM Turing Award. Viene spesso definito il \"padre di sistemi esperti\".\n\nHa vinto il premio ACM Turing Award insieme a Raj Reddy per \"aver aperto la strada alla progettazione e alla costruzione di sistemi di intelligenza artificiale su larga scala, dimostrando l'importanza pratica e il potenziale impatto commerciale della tecnologia di intelligenza artificiale\"",
+        "ts": "1521226344.000415"
+    },
+    {
+        "type": "message",
+        "subtype": "pinned_item",
+        "user": "U9PQX9LAZ",
+        "item_type": "C",
+        "attachments": [
+            {
+                "fallback": "[March 16th, 2018 11:52 AM] francesco.ianuzziello: Edward Albert \"Ed\" Feigenbaum (nato il 20 gennaio 1936) è un informatico che lavora nel campo dell'intelligenza artificiale e vincitore congiunto del 1994 ACM Turing Award. Viene spesso definito il \"padre di sistemi esperti\".\n\nHa vinto il premio ACM Turing Award insieme a Raj Reddy per \"aver aperto la strada alla progettazione e alla costruzione di sistemi di intelligenza artificiale su larga scala, dimostrando l'importanza pratica e il potenziale impatto commerciale della tecnologia di intelligenza artificiale\"",
+                "ts": "1521226344.000415",
+                "author_id": "U9PQX9LAZ",
+                "author_subname": "Francesco Pio Ianuzziello",
+                "channel_id": "C9P6BD3KK",
+                "channel_name": "feigenbaum",
+                "is_msg_unfurl": true,
+                "text": "Edward Albert \"Ed\" Feigenbaum (nato il 20 gennaio 1936) è un informatico che lavora nel campo dell'intelligenza artificiale e vincitore congiunto del 1994 ACM Turing Award. Viene spesso definito il \"padre di sistemi esperti\".\n\nHa vinto il premio ACM Turing Award insieme a Raj Reddy per \"aver aperto la strada alla progettazione e alla costruzione di sistemi di intelligenza artificiale su larga scala, dimostrando l'importanza pratica e il potenziale impatto commerciale della tecnologia di intelligenza artificiale\"",
+                "author_name": "Francesco Pio Ianuzziello",
+                "author_link": "https:\/\/ingsw1718.slack.com\/team\/U9PQX9LAZ",
+                "author_icon": "https:\/\/avatars.slack-edge.com\/2018-03-14\/329636533363_dcdaf7477bbc058fb431_48.jpg",
+                "mrkdwn_in": [
+                    "text"
+                ],
+                "from_hidden_wksp": false
+            }
+        ],
+        "text": "<@U9PQX9LAZ> pinned a message to this channel.",
+        "ts": "1521226354.000206"
+    }
+]

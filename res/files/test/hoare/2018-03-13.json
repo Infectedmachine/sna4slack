@@ -1,0 +1,125 @@
+[
+    {
+        "user": "U9N7WANGG",
+        "text": "<@U9N7WANGG> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520932879.000001"
+    },
+    {
+        "user": "U9NSLHZAQ",
+        "inviter": "U9N7WANGG",
+        "text": "<@U9NSLHZAQ> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520932881.000029"
+    },
+    {
+        "user": "U9P1HQEA1",
+        "inviter": "U9N7WANGG",
+        "text": "<@U9P1HQEA1> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520932881.000155"
+    },
+    {
+        "type": "message",
+        "user": "U9NSLHZAQ",
+        "text": ":muscle:",
+        "ts": "1520933826.000085"
+    },
+    {
+        "type": "message",
+        "user": "U9NSLHZAQ",
+        "text": "prova tag <@U9P1HQEA1>",
+        "ts": "1520934181.000431"
+    },
+    {
+        "type": "message",
+        "user": "U9P1HQEA1",
+        "text": "<@U9NSLHZAQ> prova tag ricevuta",
+        "client_msg_id": "4c7fc6f2-e878-4617-adc1-a716b832e2c4",
+        "ts": "1520934216.000496"
+    },
+    {
+        "type": "message",
+        "user": "U9NSLHZAQ",
+        "text": "<@U9P1HQEA1> perché abbiamo fatto scegliere il nome a <@U9N7WANGG> ? :joy:",
+        "ts": "1520934234.000467",
+        "reactions": [
+            {
+                "name": "face_with_cowboy_hat",
+                "users": [
+                    "U9N7WANGG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "user": "U9P1HQEA1",
+        "text": "Hahah non so neanche pronunciarlo :joy:",
+        "client_msg_id": "3213c465-8a4f-49b3-bda5-79629ce7df89",
+        "ts": "1520934257.000339",
+        "reactions": [
+            {
+                "name": "hankey",
+                "users": [
+                    "U9N7WANGG"
+                ],
+                "count": 1
+            }
+        ]
+    },
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U9N7WANGG> uploaded a file: <https:\/\/ingsw1718.slack.com\/files\/U9N7WANGG\/F9P253HU5\/tower_cheatsheet_white_en_0.pdf|tower_cheatsheet_white_EN_0.pdf>",
+        "file": {
+            "id": "F9P253HU5",
+            "created": 1520935187,
+            "timestamp": 1520935187,
+            "name": "tower_cheatsheet_white_EN_0.pdf",
+            "title": "tower_cheatsheet_white_EN_0.pdf",
+            "mimetype": "application\/pdf",
+            "filetype": "pdf",
+            "pretty_type": "PDF",
+            "user": "U9N7WANGG",
+            "editable": false,
+            "size": 237474,
+            "mode": "hosted",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-F9P253HU5\/tower_cheatsheet_white_en_0.pdf?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-F9P253HU5\/download\/tower_cheatsheet_white_en_0.pdf?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_pdf": "https:\/\/files.slack.com\/files-tmb\/T9BAB138B-F9P253HU5-00be625cc8\/tower_cheatsheet_white_en_0_thumb_pdf.png?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "thumb_pdf_w": 909,
+            "thumb_pdf_h": 1286,
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/U9N7WANGG\/F9P253HU5\/tower_cheatsheet_white_en_0.pdf",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-F9P253HU5-0a7b77848f",
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U9N7WANGG",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "g.cristea",
+        "bot_id": null,
+        "ts": "1520935188.000163"
+    },
+    {
+        "user": "U9N7WANGG",
+        "purpose": "Cristea, de Filippo, Cassiano",
+        "text": "<@U9N7WANGG> set the channel purpose: Cristea, de Filippo, Cassiano",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520959982.000185"
+    }
+]

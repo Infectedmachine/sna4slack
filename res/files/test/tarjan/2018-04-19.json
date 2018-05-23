@@ -1,0 +1,50 @@
+[
+    {
+        "type": "message",
+        "user": "U9P3D2S8Z",
+        "text": "raga per l'aggiunta dei file richiesti dal prof me la vedo io",
+        "ts": "1524168515.000438"
+    },
+    {
+        "type": "message",
+        "user": "U9PJQ7YP6",
+        "text": "Ale domani ci vediamo tutti insieme e lo facciamo",
+        "client_msg_id": "8efafe07-ceb9-4509-973f-e26dcc72b3a3",
+        "ts": "1524171517.000057"
+    },
+    {
+        "type": "message",
+        "user": "U9PJQ7YP6",
+        "text": "Che dici ?@",
+        "client_msg_id": "f93314c4-b896-4e6d-9220-4c4e9ff672fd",
+        "ts": "1524171521.000476"
+    },
+    {
+        "type": "message",
+        "user": "U9P373ASV",
+        "text": "Domani mattina per esempio sarebbe perfetto",
+        "client_msg_id": "9593c467-39d2-4898-9bc2-dad803199e46",
+        "ts": "1524171535.000026"
+    },
+    {
+        "type": "message",
+        "user": "U9P3D2S8Z",
+        "text": "Ho già fatto :sweat_smile: :sweat_smile:",
+        "client_msg_id": "561f31c5-aa95-430a-bd4c-1cdfd000f507",
+        "ts": "1524175146.000424"
+    },
+    {
+        "type": "message",
+        "user": "U9P3D2S8Z",
+        "text": "Date un occhiata in caso giusto per sicurezza",
+        "client_msg_id": "a069dc20-16f4-4886-b676-7645ad558ab5",
+        "ts": "1524175187.000341"
+    },
+    {
+        "type": "message",
+        "user": "U9P3D2S8Z",
+        "text": "Non ho capito se è necessario aggiornare anche il file Readme con il badge modificato",
+        "client_msg_id": "29efb4a1-c7a5-4ce1-ac2c-74bf760caf82",
+        "ts": "1524175234.000375"
+    }
+]

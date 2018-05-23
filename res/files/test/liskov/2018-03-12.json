@@ -1,0 +1,47 @@
+[
+    {
+        "user": "U9PAU9362",
+        "text": "<@U9PAU9362> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520873863.000690"
+    },
+    {
+        "user": "U9JS0QR60",
+        "inviter": "U9PAU9362",
+        "text": "<@U9JS0QR60> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520873864.000469"
+    },
+    {
+        "user": "U9MUU9N57",
+        "inviter": "U9PAU9362",
+        "text": "<@U9MUU9N57> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520873983.000515"
+    },
+    {
+        "type": "message",
+        "user": "U9JS0QR60",
+        "text": "Barbara Liskov è una scienziata statunitense nel campo dell'informatica. Nel 2008 ha vinto il Premio Turing per aver contribuito allo sviluppo dei linguaggi di programmazione e progettazione di sistemi, specialmente nel campo di astrazione dati, tolleranza degli errori e algoritmi di computazione distribuita.",
+        "ts": "1520874390.000640"
+    },
+    {
+        "user": "U9MUU9N57",
+        "purpose": "Dagnello, Lanotte, Lorusso",
+        "text": "<@U9MUU9N57> set the channel purpose: Dagnello, Lanotte, Lorusso",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520875711.000598"
+    },
+    {
+        "user": "U9JS0QR60",
+        "purpose": "Alessandra Dagnello, Giovanni Lanotte, Silvia Lorusso",
+        "text": "<@U9JS0QR60> set the channel purpose: Alessandra Dagnello, Giovanni Lanotte, Silvia Lorusso",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520876224.000025"
+    }
+]

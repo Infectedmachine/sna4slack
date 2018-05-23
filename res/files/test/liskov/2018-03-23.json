@@ -1,0 +1,18 @@
+[
+    {
+        "user": "U9MUU9N57",
+        "purpose": "Comes, Dagnello, Depalo, Lanotte, Lorusso",
+        "text": "<@U9MUU9N57> set the channel purpose: Comes, Dagnello, Depalo, Lanotte, Lorusso",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1521792649.000032"
+    },
+    {
+        "user": "U9MUU9N57",
+        "topic": "",
+        "text": "<@U9MUU9N57> cleared channel topic",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1521792649.000043"
+    }
+]

@@ -1,0 +1,53 @@
+[
+    {
+        "type": "message",
+        "subtype": "file_share",
+        "text": "<@U9P60ACP7> uploaded a file: <https:\/\/ingsw1718.slack.com\/files\/U9P60ACP7\/FA29PSKN0\/6_aprile.java|6 aprile>",
+        "file": {
+            "id": "FA29PSKN0",
+            "created": 1523028793,
+            "timestamp": 1523028793,
+            "name": "6_aprile.java",
+            "title": "6 aprile",
+            "mimetype": "text\/plain",
+            "filetype": "java",
+            "pretty_type": "Java",
+            "user": "U9P60ACP7",
+            "editable": true,
+            "size": 3892,
+            "mode": "snippet",
+            "is_external": false,
+            "external_type": "",
+            "is_public": true,
+            "public_url_shared": false,
+            "display_as_bot": false,
+            "username": "",
+            "url_private": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA29PSKN0\/6_aprile.java?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "url_private_download": "https:\/\/files.slack.com\/files-pri\/T9BAB138B-FA29PSKN0\/download\/6_aprile.java?t=xoxe-317351037283-349956658208-350423399492-cdb4ff182314343f41741a9e491e8d97",
+            "permalink": "https:\/\/ingsw1718.slack.com\/files\/U9P60ACP7\/FA29PSKN0\/6_aprile.java",
+            "permalink_public": "https:\/\/slack-files.com\/T9BAB138B-FA29PSKN0-cf51d13e29",
+            "edit_link": "https:\/\/ingsw1718.slack.com\/files\/U9P60ACP7\/FA29PSKN0\/6_aprile.java\/edit",
+            "preview": "package data;\r\n\r\nclass Data {\r\n\tprivate Object data[][];\r\n\tprivate int numberOfExamples;\r",
+            "preview_highlight": "<div class=\"CodeMirror cm-s-default CodeMirrorServer\" oncopy=\"if(event.clipboardData){event.clipboardData.setData('text\/plain',window.getSelection().toString().replace(\/\\u200b\/g,''));event.preventDefault();event.stopPropagation();}\">\n<div class=\"CodeMirror-code\">\n<div><pre><span class=\"cm-keyword\">package<\/span> <span class=\"cm-def\">data<\/span>;<\/pre><\/div>\n<div><pre>&#8203;<\/pre><\/div>\n<div><pre><span class=\"cm-keyword\">class<\/span> <span class=\"cm-def\">Data<\/span> {<\/pre><\/div>\n<div><pre>\t<span class=\"cm-keyword\">private<\/span> <span class=\"cm-variable-3\">Object<\/span> <span class=\"cm-variable\">data<\/span>[][];<\/pre><\/div>\n<div><pre>\t<span class=\"cm-keyword\">private<\/span> <span class=\"cm-variable-3\">int<\/span> <span class=\"cm-variable\">numberOfExamples<\/span>;<\/pre><\/div>\n<\/div>\n<\/div>\n",
+            "lines": 158,
+            "lines_more": 153,
+            "preview_is_truncated": true,
+            "channels": [],
+            "groups": [],
+            "ims": [],
+            "comments_count": 0
+        },
+        "user": "U9P60ACP7",
+        "upload": true,
+        "display_as_bot": false,
+        "username": "dongiovannidavide",
+        "bot_id": null,
+        "ts": "1523028793.000611"
+    },
+    {
+        "type": "message",
+        "user": "U9P60ACP7",
+        "text": "e ci eh usiamolo almeno na volta",
+        "ts": "1523028880.000004"
+    }
+]

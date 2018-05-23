@@ -1,0 +1,55 @@
+[
+    {
+        "type": "message",
+        "user": "U9NGE229G",
+        "text": "<@U9BD7NMPC> Il Docker ID del gruppo <#C9PCTK26A|shamir> è: shamir2018",
+        "client_msg_id": "97760dce-64ed-45b0-af54-a3e22ebd830f",
+        "edited": {
+            "user": "U9NGE229G",
+            "ts": "1523453348.000000"
+        },
+        "ts": "1523452947.000733"
+    },
+    {
+        "type": "message",
+        "user": "U9PUAUSRM",
+        "text": "Hey ragazzi, io ho appena finito di seguire la lezione di calcolabilità e sto andando a prendere il pullman, aggiornatemi sullo stato del repository per piacere così sono operativo appena arrivato a casa, se necessario.",
+        "client_msg_id": "9dfb4f21-e365-4b5b-834d-4834bd30eca4",
+        "ts": "1523464655.000341"
+    },
+    {
+        "type": "message",
+        "user": "U9NBDU7B4",
+        "text": "Sono fuori anch'io. Appena rientro ti dico subito",
+        "client_msg_id": "7485422c-acc8-4c8b-b3e0-fe46a723ba72",
+        "ts": "1523466711.000161"
+    },
+    {
+        "type": "message",
+        "user": "U9NBDU7B4",
+        "text": "Vedo il repo. Il prof Calefato ha appena scritto come controllare",
+        "ts": "1523467236.000765"
+    },
+    {
+        "type": "message",
+        "user": "U9NSNMBMG",
+        "text": "perfetto lo vedo anche io",
+        "ts": "1523467524.000591"
+    },
+    {
+        "type": "message",
+        "user": "U9PUAUSRM",
+        "text": "<!channel> AVVISO AL TEAM: ho configurato Travis CI, le variabili di Docker e aggiornato la badge di Travis CI. NON HO fatto nulla riguardo a codecov in attesa di ulteriori informazioni da parte del docente.\nDato che ho modificato il README, ricordatevi di fare un pull in modo da riportare i cambiamenti in locale se avete già clonato il repository.",
+        "ts": "1523480920.000256"
+    },
+    {
+        "type": "message",
+        "user": "U9PUAUSRM",
+        "text": "Il badge di Travis è diventato verde dopo aver verificato la build\nNon so se questo vuol dire che è tutto a posto ma è certamente una buona notizia",
+        "edited": {
+            "user": "U9PUAUSRM",
+            "ts": "1523484231.000000"
+        },
+        "ts": "1523484212.000176"
+    }
+]

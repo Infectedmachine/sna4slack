@@ -1,0 +1,70 @@
+[
+    {
+        "user": "U9NAWRB2Q",
+        "text": "<@U9NAWRB2Q> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520864359.000376"
+    },
+    {
+        "user": "U9NAWRB2Q",
+        "purpose": "Gruppo progetto Ingegneria del software",
+        "text": "<@U9NAWRB2Q> set the channel purpose: Gruppo progetto Ingegneria del software",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520864360.000063"
+    },
+    {
+        "user": "U9MR5LH25",
+        "text": "<@U9MR5LH25> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520864881.000268"
+    },
+    {
+        "user": "U9MNETCD6",
+        "text": "<@U9MNETCD6> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520865347.000381"
+    },
+    {
+        "user": "U9NAWRB2Q",
+        "topic": "Difonzo,Ferulli,Di Terlizzi, De Ruvo",
+        "text": "<@U9NAWRB2Q> set the channel topic: Difonzo,Ferulli,Di Terlizzi, De Ruvo",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1520871986.000874"
+    },
+    {
+        "user": "U9NAWRB2Q",
+        "topic": "Difonzo,Ferrulli,Di Terlizzi, De Ruvo",
+        "text": "<@U9NAWRB2Q> set the channel topic: Difonzo,Ferrulli,Di Terlizzi, De Ruvo",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1520871996.000415"
+    },
+    {
+        "user": "U9NCNLL83",
+        "text": "<@U9NCNLL83> has joined the channel",
+        "type": "message",
+        "subtype": "channel_join",
+        "ts": "1520874759.000757"
+    },
+    {
+        "user": "U9NAWRB2Q",
+        "purpose": "Difonzo,Ferrulli,Di Terlizzi, De Ruvo",
+        "text": "<@U9NAWRB2Q> set the channel purpose: Difonzo,Ferrulli,Di Terlizzi, De Ruvo",
+        "type": "message",
+        "subtype": "channel_purpose",
+        "ts": "1520883252.000517"
+    },
+    {
+        "user": "U9NAWRB2Q",
+        "topic": "Difonzo, Ferrulli, Di Terlizzi, De Ruvo",
+        "text": "<@U9NAWRB2Q> set the channel topic: Difonzo, Ferrulli, Di Terlizzi, De Ruvo",
+        "type": "message",
+        "subtype": "channel_topic",
+        "ts": "1520883302.000279"
+    }
+]
