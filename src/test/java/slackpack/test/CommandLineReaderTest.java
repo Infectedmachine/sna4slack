@@ -7,10 +7,8 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
-import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
@@ -25,27 +23,19 @@ public class CommandLineReaderTest {
 
 	@BeforeAll
 	static void setUpAll() {
-		String[] commandsfour = { "path", "-m", "Lanubile", "general" };
-		String[] commandsthree = { "path", "-cm", "general" };
-		String[] commandsthreebis = { "path", "@mt", "Novielli" };
+		final String[] commandsfour = { "path", "-m", "Lanubile", "general" };
+		final String[] commandsthree = { "path", "-cm", "general" };
+		final String[] commandsthreebis = { "path", "@mt", "Novielli" };
 		try {
 			clr4.fillCommandsSetFromArgs(commandsfour);
 			clr3.fillCommandsSetFromArgs(commandsthree);
 			clr3b.fillCommandsSetFromArgs(commandsthreebis);
 		} catch (Exception e) {
-			e.printStackTrace();
+			System.out.println("Wrong Commands");;
 		}
 	}
 
-	@AfterAll
-	static void tearDownAll() {
 
-	}
-
-	@BeforeEach
-	void setUp() {
-
-	}
 
 	@AfterEach
 	void tearDown() {

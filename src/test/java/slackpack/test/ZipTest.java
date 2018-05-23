@@ -1,3 +1,6 @@
+/**
+ * Test Zip class from slackpack package.
+ **/
 package slackpack.test;
 
 import static org.junit.Assert.assertEquals;
@@ -5,35 +8,24 @@ import static org.junit.Assert.assertTrue;
 
 import java.io.File;
 
-import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
 import slackpack.Zip;
 
+@Tag("zip")
 public class ZipTest {
 
-	private static Zip z1 = new Zip();
-	private static Zip z2 = new Zip();
+	private static Zip zip1 = new Zip();
+	private static Zip zip2 = new Zip();
 	private static File testFile = new File("res/files/test");
-
 
 	@BeforeAll
 	static void setUpAll() {
-		z1.setDirPath("res/files/test.zip");
-		z2.extractZip("res/files/test.zip");
-	}
-
-	@AfterAll
-	static void tearDownAll(){
-
-	}
-
-	@BeforeEach
-	void setUp() {
-
+		zip1.setDirPath("res/files/test.zip");
+		zip2.extractZip("res/files/test.zip");
 	}
 
 	@AfterEach
@@ -43,7 +35,7 @@ public class ZipTest {
 
 	@Test
 	public void getDirPathTest() {
-		assertEquals("res/files/test.zip", z1.getDirPath());
+		assertEquals("res/files/test.zip", zip1.getDirPath());
 	}
 
 	@Test
