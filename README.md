@@ -1,4 +1,4 @@
-﻿# sna4slack [![Build Status](https://travis-ci.com/softeng-inf-uniba/progetto1718-dijkstra.svg?token=mh8tmD3vdjv9iRRBL5pB&branch=master)](https://travis-ci.com/softeng-inf-uniba/progetto1718-dijkstra) [![Coverage Status](https://coveralls.io/repos/github/softeng-inf-uniba/progetto1718-dijkstra/badge.svg?t=EBFePN&service=github)](https://coveralls.io/github/softeng-inf-uniba/progetto1718-dijkstra)
+﻿# sna4slack [![Build Status](https://travis-ci.com/softeng-inf-uniba/progetto1718-dijkstra.svg?token=mh8tmD3vdjv9iRRBL5pB&branch=master)](https://travis-ci.com/softeng-inf-uniba/progetto1718-dijkstra) [![Coverage Status](https://coveralls.io/repos/github/softeng-inf-uniba/progetto1718-dijkstra/badge.svg?branch=master&t=EBFePN)](https://coveralls.io/github/softeng-inf-uniba/progetto1718-dijkstra?branch=master)
 La struttura della repository si presenta nel seguente modo:
 ```
 |–– build
