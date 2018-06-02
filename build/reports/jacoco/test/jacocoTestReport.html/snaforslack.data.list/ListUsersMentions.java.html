@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="it"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>ListUsersMentions.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">SNA4Slack</a> &gt; <a href="index.source.html" class="el_package">snaforslack.data.list</a> &gt; <span class="el_source">ListUsersMentions.java</span></div><h1>ListUsersMentions.java</h1><pre class="source lang-java linenums">package snaforslack.data.list;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import snaforslack.data.structures.SlackUserMentions;
+import snaforslack.interfaces.list.IntListUserMentions;
+import snaforslack.interfaces.structures.IntUserMentions;
+
+/**
+ * List Mentions class for a List of mentions.
+ **/
+public class ListUsersMentions implements IntListUserMentions {
+	/**
+	 * Constant NOTFOUND as a default UserMention.
+	 **/
+<span class="nc" id="L17">	private static final IntUserMentions NOTFOUND = new SlackUserMentions(null, null);</span>
+	/**
+	 * List of mentions.
+	 **/
+	private final List&lt;IntUserMentions&gt; mentionsList;
+
+	/**
+	 * Public constructor.
+	 **/
+<span class="nc" id="L26">	public ListUsersMentions() {</span>
+<span class="nc" id="L27">		this.mentionsList = new ArrayList&lt;IntUserMentions&gt;();</span>
+<span class="nc" id="L28">	}</span>
+
+	/**
+	 * Gets the list of mentions.
+	 *
+	 * @return List&lt;IntUserMentions&gt;
+	 **/
+	@Override
+	public List&lt;IntUserMentions&gt; getMentionsList() {
+<span class="nc" id="L37">		return this.mentionsList;</span>
+	}
+
+	/**
+	 * Adds a mention given in input.
+	 *
+	 * @param mentions
+	 *            The mentions to add.
+	 **/
+	public void addMentions(final IntUserMentions mentions) {
+<span class="nc" id="L47">		this.mentionsList.add(mentions);</span>
+<span class="nc" id="L48">	}</span>
+
+	/**
+	 * Returns true is the list is empty.
+	 * 
+	 * @return boolean value.
+	 */
+	public boolean isEmpty() {
+<span class="nc" id="L56">		return this.mentionsList.isEmpty();</span>
+	}
+
+	/**
+	 * Checks if the users mentioned someone.
+	 *
+	 * @param value
+	 *            String
+	 *
+	 * @return Boolean
+	 **/
+	@Override
+	public boolean checkSender(final String value) {
+<span class="nc" id="L69">		final IntUserMentions mentions = this.getSenderMentions(value);</span>
+<span class="nc bnc" id="L70" title="All 2 branches missed.">		return mentions != ListUsersMentions.NOTFOUND;</span>
+	}
+
+	/**
+	 * Gets the mentions from a User.
+	 *
+	 * @param value
+	 *            String
+	 *
+	 * @return IntUserMentions
+	 **/
+	@Override
+	public IntUserMentions getSenderMentions(final String value) {
+<span class="nc" id="L83">		final List&lt;IntUserMentions&gt; list = this.getMentionsList();</span>
+
+<span class="nc bnc" id="L85" title="All 2 branches missed.">		for (final IntUserMentions mentions : list) {</span>
+<span class="nc bnc" id="L86" title="All 2 branches missed.">			if (mentions.checkSender(value)) {</span>
+<span class="nc" id="L87">				return mentions;</span>
+			}
+<span class="nc" id="L89">		}</span>
+<span class="nc" id="L90">		return NOTFOUND;</span>
+	}
+
+	/**
+	 * Checks for sender and adds missed users to the receivers list.
+	 * 
+	 * @param userMentions
+	 *            sender's mentions object
+	 */
+	public void addMissingReceivers(final IntUserMentions userMentions) {
+<span class="nc" id="L100">		final String senderId = userMentions.getSenderId();</span>
+<span class="nc" id="L101">		final List&lt;IntUserMentions&gt; list = this.getMentionsList();</span>
+
+<span class="nc bnc" id="L103" title="All 2 branches missed.">		for (final IntUserMentions mentions : list) {</span>
+<span class="nc bnc" id="L104" title="All 2 branches missed.">			if (mentions.checkSender(senderId)) {</span>
+<span class="nc" id="L105">				mentions.addMissingReceivers(userMentions.getListReceiver());</span>
+			}
+<span class="nc" id="L107">		}</span>
+<span class="nc" id="L108">	}</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.0.201801022044</span></div></body></html>

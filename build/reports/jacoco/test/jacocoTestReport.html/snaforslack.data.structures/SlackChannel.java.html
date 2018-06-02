@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="it"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>SlackChannel.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">SNA4Slack</a> &gt; <a href="index.source.html" class="el_package">snaforslack.data.structures</a> &gt; <span class="el_source">SlackChannel.java</span></div><h1>SlackChannel.java</h1><pre class="source lang-java linenums">package snaforslack.data.structures;
+
+import snaforslack.data.list.ListUsers;
+import snaforslack.interfaces.list.IntListUsers;
+import snaforslack.interfaces.structures.IntChannel;
+
+/**
+ * Contains and manages all of the informations inside a slack channel.
+ */
+public class SlackChannel implements IntChannel {
+	/**
+	 * the code that identifies the channel.
+	 */
+	private final String channelId;
+
+	/**
+	 * the name that identifies the channel.
+	 */
+	private final String channelName;
+
+	/**
+	 * Indicates if the channel is archived.
+	 */
+	private boolean archived;
+
+	/**
+	 * Lists the channel users.
+	 */
+	private IntListUsers listUsers;
+
+	/**
+	 * Initializes the class attributes to the given parameters.
+	 *
+	 * @param channelid
+	 *            a String that indicates the channel id.
+	 * @param name
+	 *            a string that indicate the channel name.
+	 */
+<span class="fc" id="L39">	public SlackChannel(final String channelid, final String name) {</span>
+<span class="fc" id="L40">		this.channelId = channelid;</span>
+<span class="fc" id="L41">		this.channelName = name;</span>
+<span class="fc" id="L42">		this.listUsers = new ListUsers();</span>
+<span class="fc" id="L43">	}</span>
+
+	/**
+	 * Sets the channel users to the given paramter.
+	 * 
+	 * @param list
+	 *            a ListUsers object.
+	 */
+	@Override
+	public final void setListUsers(final IntListUsers list) {
+<span class="fc" id="L53">		this.listUsers = list;</span>
+<span class="fc" id="L54">	}</span>
+
+	/**
+	 * Sets the class attribute archived.
+	 * 
+	 * @param state
+	 *            a boolean value.
+	 */
+	@Override
+	public final void setArchived(final boolean state) {
+<span class="fc" id="L64">		this.archived = state;</span>
+<span class="fc" id="L65">	}</span>
+
+	/**
+	 * @return a ListUsers object containing the channel users.
+	 */
+	@Override
+	public IntListUsers getListUsers() {
+<span class="pc bpc" id="L72" title="1 of 2 branches missed.">		if (this.listUsers == null) {</span>
+<span class="nc" id="L73">			this.listUsers = new ListUsers();</span>
+<span class="nc" id="L74">			return this.listUsers;</span>
+		} else {
+<span class="fc" id="L76">			return this.listUsers;</span>
+		}
+	}
+
+	/**
+	 * Checks if the user specified in the given parameter matches any channel user.
+	 * 
+	 * @param value
+	 *            a String indicating the user to check.
+	 * @return a boolean value.
+	 */
+	@Override
+	public boolean checkUser(final String value) {
+<span class="fc" id="L89">		return this.listUsers.checkUser(value);</span>
+	}
+
+	/**
+	 * @return class attribute channelId.
+	 */
+	@Override
+	public String getChannelId() {
+<span class="fc" id="L97">		return this.channelId;</span>
+	}
+
+	/**
+	 * @return class attribute channelName.
+	 */
+	@Override
+	public String getChannelName() {
+<span class="fc" id="L105">		return this.channelName;</span>
+	}
+
+	/**
+	 * @return class attribute archived.
+	 */
+	@Override
+	public boolean isArchived() {
+<span class="fc" id="L113">		return this.archived;</span>
+	}
+
+	/**
+	 * Checks if the List of users is empty.
+	 * 
+	 * @return boolean value
+	 */
+	public boolean isUsersListEmpty() {
+<span class="nc" id="L122">		return this.listUsers.listIsEmpty();</span>
+	}
+
+	/**
+	 * Prints all the users by the name from the list.
+	 */
+	public void printMembers() {
+<span class="nc" id="L129">		this.getListUsers().printList();</span>
+<span class="nc" id="L130">	}</span>
+
+	/**
+	 * Checks if the channel has the same name of the parameter.
+	 * 
+	 * @param name
+	 *            channel's name.
+	 * @return boolean value.
+	 */
+	public boolean checkName(final String name) {
+<span class="nc" id="L140">		return channelName.equals(name);</span>
+	}
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.0.201801022044</span></div></body></html>

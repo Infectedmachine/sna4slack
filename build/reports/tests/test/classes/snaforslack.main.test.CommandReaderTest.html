@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class snaforslack.main.test.CommandReaderTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class snaforslack.main.test.CommandReaderTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/snaforslack.main.test.html">snaforslack.main.test</a> &gt; CommandReaderTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">9</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.020s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testFillChannel()</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFillCommand()</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFillCommandLessThanFour()</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFillCommandLessThanFourBis()</td>
+<td>0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFillPath()</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testFillUsername()</td>
+<td>0s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInvalidCommand()</td>
+<td>0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testInvalidCommandLenght()</td>
+<td>0.007s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">testValidCommand()</td>
+<td>0.003s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>INVALID COMMAND, Please type a valid one.
+                      ___       _               _ 
+                     /   |     | |             | | 
+ ___  _ __    __ _  / /| | ___ | |  __ _   ___ | | __ 
+/ __|| '_ \  / _` |/ /_| |/ __|| | / _` | / __|| |/ / 
+\__ \| | | || (_| |\___  |\__ \| || (_| || (__ |   &lt; 
+|___/|_| |_| \__,_|    |_/|___/|_| \__,_| \___||_|\_\ 
+Gruppo Dijkstra
+
+PLEASE TYPE COMMANDS LIKE THIS: &lt;directory&gt; &lt;command&gt;
+
+ns/path/file.zip	Percorso locale del file, deve essere il primo parametro
+-m			Visualizza tutti i membri del workspace
+-c			Visualizza tutti i canali del workspace
+-mc			Visualizza tutti i canali e i rispettivi membri
+-cm &lt;canale&gt;		Visualizza tutti i membri di &lt;canale&gt;
+@m			Visualizza tutti i mention del workspace
+@m  &lt;canale&gt;		Visualizza tutti i mention del canale
+@mf &lt;membro&gt;		Visualizza tutti i mention del workspace fatti da un membro
+@mf &lt;membro&gt; &lt;canale&gt;	Visualizza tutti i mention del canale fatti da un membro
+@mt &lt;membro&gt;		Visualizza tutti i mention del workspace arrivati a un membro
+@mt &lt;membro&gt; &lt;canale&gt;	Visualizza tutti i mention del canale arrivati a un membro
+@mw			Visualizza tutti i mention pesati del workspace
+@mw &lt;canale&gt;		Visualizza tutti i mention pesati del canale
+@mfw &lt;membro&gt;		Visualizza tutti i mention pesati del workspace fatti da un membro
+@mfw &lt;membro&gt; &lt;canale&gt;	Visualizza tutti i mention pesati del canale fatti da un membro
+@mtw &lt;membro&gt;		Visualizza tutti i mention pesati del workspace arrivati a un membro
+@mtw &lt;membro&gt; &lt;canale&gt;	Visualizza tutti i mention pesati del canale arrivati a un membro
+help			Visualizza lista comandi
+ns/path/file.zip -cm dijkstra (Es. per visualizzare i membri del gruppo dijkstra)
+
+&lt;N.B. Docker: Creare una directory virtuale all'interno del conteiner&gt;
+Windows:	docker run -v /c:/ns softenginfuniba/dijkstra ns/path/file.zip
+Linux:		docker run -v /:/ns softenginfuniba/dijkstra ns//path/file.zip
+Test Fill Commands - Success
+Test Fill Commands - Success
+Test Fill Commands - Success
+Test Fill Commands - Success
+Test Fill Commands - Success
+Test Fill Commands - Success
+Test Fill Commands - Success
+Test Fill Commands - Success
+Test Fill Commands - Success
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.6</a> at 2-giu-2018 3.15.25</p>
+</div>
+</div>
+</body>
+</html>

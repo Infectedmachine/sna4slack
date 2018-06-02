@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="it"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>JsonArray.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">SNA4Slack</a> &gt; <a href="index.source.html" class="el_package">snaforslack.utility.json</a> &gt; <span class="el_source">JsonArray.java</span></div><h1>JsonArray.java</h1><pre class="source lang-java linenums">package snaforslack.utility.json;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
+
+import snaforslack.interfaces.json.IntJsonArray;
+import snaforslack.interfaces.json.IntJsonObject;
+
+/**
+ * This class consists of the attributes and methods to crate a JsonArray. Using
+ * org.json.simple API.
+ **/
+public class JsonArray implements IntJsonArray {
+	/**
+	 * Contains a list of jsonarray.
+	 */
+	private final List&lt;IntJsonObject&gt; jArray;
+
+	/**
+	 * Creates a JSONArray.
+	 *
+	 * @param jarray a JSONArray to create.
+	 */
+<span class="nc" id="L27">	public JsonArray(final JSONArray jarray) {</span>
+<span class="nc" id="L28">		this.jArray = new ArrayList&lt;IntJsonObject&gt;();</span>
+<span class="nc bnc" id="L29" title="All 2 branches missed.">		if (jarray != null) {</span>
+<span class="nc" id="L30">			this.createArray(jarray);</span>
+		}
+<span class="nc" id="L32">	}</span>
+
+	/**
+	 * Initializes a JSONArray.
+	 *
+	 * @param jarray a JSONArray to initialize.
+	 */
+	private void createArray(final JSONArray jarray) {
+<span class="nc bnc" id="L40" title="All 2 branches missed.">		for (final Object o : jarray) {</span>
+<span class="nc" id="L41">			final JSONObject jobj = (JSONObject) o;</span>
+<span class="nc" id="L42">			final IntJsonObject json = new JsonObject(jobj);</span>
+<span class="nc" id="L43">			this.jArray.add(json);</span>
+<span class="nc" id="L44">		}</span>
+<span class="nc" id="L45">	}</span>
+
+	/**
+	 * Gets a list of json objects.
+	 *
+	 * @return List&lt;IntJsonObject&gt;
+	 */
+	@Override
+	public List&lt;IntJsonObject&gt; getList() {
+<span class="nc" id="L54">		return this.jArray;</span>
+	}
+
+	/**
+	 * Checks if the array is empty.
+	 *
+	 * @return Boolean
+	 */
+	@Override
+	public boolean isEmpty() {
+<span class="nc" id="L64">		return this.jArray.isEmpty();</span>
+	}
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.0.201801022044</span></div></body></html>

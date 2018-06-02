@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="it"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>SlackUser.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">SNA4Slack</a> &gt; <a href="index.source.html" class="el_package">snaforslack.data.structures</a> &gt; <span class="el_source">SlackUser.java</span></div><h1>SlackUser.java</h1><pre class="source lang-java linenums">package snaforslack.data.structures;
+
+import snaforslack.interfaces.structures.IntUser;
+
+/**
+ * Slackuser class for a User.
+ **/
+public class SlackUser implements IntUser {
+	/**
+	 * User Id.
+	 **/
+	private final String userId;
+	/**
+	 * User Name.
+	 **/
+	private final String userName;
+
+	/**
+	 * Public constructor.
+	 *
+	 * @param userid
+	 *            String User id
+	 *
+	 * @param name
+	 *            String User name
+	 **/
+<span class="fc" id="L27">	public SlackUser(final String userid, final String name) {</span>
+<span class="fc" id="L28">		this.userId = userid;</span>
+<span class="fc" id="L29">		this.userName = name;</span>
+<span class="fc" id="L30">	}</span>
+
+	/**
+	 * Gets the user id.
+	 *
+	 * @return userId
+	 **/
+	@Override
+	public String getUserId() {
+<span class="fc" id="L39">		return this.userId;</span>
+	}
+
+	/**
+	 * Gets the user name.
+	 *
+	 * @return userName
+	 **/
+	@Override
+	public String getUserName() {
+<span class="fc" id="L49">		return this.userName;</span>
+	}
+
+	/**
+	 * Checks if there is a user's name that matches the given parameter.
+	 * 
+	 * @param value
+	 *            a String.
+	 * @return a boolean value.
+	 */
+	public boolean checkUser(final String value) {
+<span class="fc bfc" id="L60" title="All 4 branches covered.">		return userId.equals(value) || userName.equals(value);</span>
+	}
+
+	/**
+	 * Checks if the user is an empty type object.
+	 * 
+	 * @return a boolean value.
+	 */
+	public boolean isEmpty() {
+<span class="nc bnc" id="L69" title="All 4 branches missed.">		return this.userId == null &amp;&amp; this.userName.equals(&quot;USER NOT FOUND&quot;);</span>
+	}
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.0.201801022044</span></div></body></html>

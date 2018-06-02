@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="it"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>Users.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">SNA4Slack</a> &gt; <a href="index.source.html" class="el_package">snaforslack.obj.global</a> &gt; <span class="el_source">Users.java</span></div><h1>Users.java</h1><pre class="source lang-java linenums">package snaforslack.obj.global;
+
+import snaforslack.data.list.ListUsers;
+import snaforslack.data.structures.SlackUser;
+import snaforslack.interfaces.json.IntJsonArray;
+import snaforslack.interfaces.json.IntJsonObject;
+import snaforslack.interfaces.list.IntListUsers;
+import snaforslack.interfaces.obj.IntObjUsers;
+import snaforslack.interfaces.structures.IntUser;
+
+/**
+ * Contains and manages the informations of all of the workspace users.
+ *
+ */
+public class Users implements IntObjUsers {
+	/**
+	 * Class attribute instance of a not found user.
+	 */
+<span class="nc" id="L19">	public static final IntUser NOTFOUND = new SlackUser(null, &quot;USER NOT FOUND&quot;);</span>
+
+	/**
+	 * Class attribute, a List of users.
+	 */
+	private final IntListUsers globalUsers;
+
+	/**
+	 * Allocates the space for the class attribute globalUsers.
+	 */
+<span class="nc" id="L29">	public Users() {</span>
+<span class="nc" id="L30">		this.globalUsers = new ListUsers();</span>
+<span class="nc" id="L31">	}</span>
+
+	/**
+	 * Initializes the class attribute globalUsers with the information contained in
+	 * the given parameter.
+	 * 
+	 * @param jarray
+	 *            a JsonArray.
+	 */
+	@Override
+	public final void initializeFromJsonArray(final IntJsonArray jarray) {
+<span class="nc bnc" id="L42" title="All 2 branches missed.">		if (!jarray.isEmpty()) {</span>
+<span class="nc bnc" id="L43" title="All 2 branches missed.">			for (final IntJsonObject json : jarray.getList()) {</span>
+<span class="nc" id="L44">				final String userId = json.getId();</span>
+<span class="nc" id="L45">				final String userName = json.getName();</span>
+<span class="nc" id="L46">				this.globalUsers.addUser(this.createNewUser(userId, userName));</span>
+<span class="nc" id="L47">			}</span>
+		}
+<span class="nc" id="L49">	}</span>
+
+	/**
+	 * Returns a new class of type SlackUser.
+	 * 
+	 * @param userId
+	 *            a string object
+	 * @param userName
+	 *            a string object
+	 * @return returns a SlackUser class
+	 */
+	private SlackUser createNewUser(final String userId, final String userName) {
+<span class="nc" id="L61">		return new SlackUser(userId, userName);</span>
+	}
+
+	/**
+	 * Prints all of the workspace users.
+	 */
+	@Override
+	public void printList() {
+<span class="nc bnc" id="L69" title="All 2 branches missed.">		if (!this.globalUsers.listIsEmpty()) {</span>
+<span class="nc bnc" id="L70" title="All 2 branches missed.">			for (final IntUser user : this.globalUsers.getUsersList()) {</span>
+<span class="nc" id="L71">				System.out.println(user.getUserName());</span>
+<span class="nc" id="L72">			}</span>
+		}
+<span class="nc" id="L74">	}</span>
+
+	/**
+	 * Returns a SlackUser object which name matches the given parameter.
+	 * 
+	 * @param value
+	 *            a String object.
+	 * @return a SlackUser object.
+	 */
+	@Override
+	public IntUser getUser(final String value) {
+<span class="nc" id="L85">		return this.globalUsers.getUser(value);</span>
+	}
+
+	/**
+	 * Checks if there is a user's name that matches the given parameter.
+	 * 
+	 * @param value
+	 *            a String.
+	 * @return a boolean value.
+	 */
+	@Override
+	public boolean checkUser(final String value) {
+<span class="nc" id="L97">		return this.globalUsers.checkUser(value);</span>
+	}
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.0.201801022044</span></div></body></html>

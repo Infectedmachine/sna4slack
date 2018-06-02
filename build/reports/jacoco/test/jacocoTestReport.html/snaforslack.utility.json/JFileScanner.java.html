@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="it"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>JFileScanner.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">SNA4Slack</a> &gt; <a href="index.source.html" class="el_package">snaforslack.utility.json</a> &gt; <span class="el_source">JFileScanner.java</span></div><h1>JFileScanner.java</h1><pre class="source lang-java linenums">package snaforslack.utility.json;
+
+import java.io.File;
+import java.util.ArrayList;
+import java.util.List;
+
+import snaforslack.interfaces.json.IntJFileScanner;
+
+/**
+ * This class consists of the attributes and methods to Scan a JSON. Using
+ * org.json.simple API.
+ **/
+public class JFileScanner implements IntJFileScanner {
+	/**
+	 * Contains all of the JSON files paths extracted from the specidied directory.
+	 */
+	private List&lt;File&gt; jfiles;
+
+	/**
+	 * Allocates the space for the only attribute of the class, an array of files.
+	 */
+<span class="nc" id="L22">	public JFileScanner() {</span>
+<span class="nc" id="L23">		this.setArray(new ArrayList&lt;File&gt;());</span>
+<span class="nc" id="L24">	}</span>
+
+	/**
+	 * Allocates the space for the only attribute of the class and initializes it.
+	 *
+	 * @param dir
+	 *            path of directory.
+	 */
+<span class="nc" id="L32">	public JFileScanner(final String dir) {</span>
+<span class="nc" id="L33">		jfiles = new ArrayList&lt;File&gt;();</span>
+<span class="nc bnc" id="L34" title="All 2 branches missed.">		if (dir != null) {</span>
+<span class="nc" id="L35">			final File file = new File(dir);</span>
+<span class="nc bnc" id="L36" title="All 2 branches missed.">			if (file.exists()) {</span>
+<span class="nc" id="L37">				scanDirectory(file);</span>
+			}
+		}
+<span class="nc" id="L40">	}</span>
+
+	/**
+	 * Scans the directory for JSON files and adds them to jfiles.
+	 *
+	 * @param dir
+	 *            directory to work with.
+	 */
+	private void scanDirectory(final File dir) {
+<span class="nc" id="L49">		final File[] files = dir.listFiles();</span>
+<span class="nc bnc" id="L50" title="All 2 branches missed.">		if (files != null) {</span>
+<span class="nc bnc" id="L51" title="All 2 branches missed.">			for (final File file : files) {</span>
+<span class="nc bnc" id="L52" title="All 2 branches missed.">				if (file.isDirectory()) {</span>
+<span class="nc" id="L53">					scanDirectory(file);</span>
+<span class="nc bnc" id="L54" title="All 2 branches missed.">				} else if (!this.checkMatch(file.getName())) {</span>
+<span class="nc" id="L55">					jfiles.add(file);</span>
+				}
+			}
+		}
+<span class="nc" id="L59">	}</span>
+
+	/**
+	 * Returns a boolean value if the check matches base json files (Base json files
+	 * are: users, channels and integration).
+	 * 
+	 * @param name
+	 *            a String type.
+	 * @return a boolean type.
+	 */
+	private boolean checkMatch(final String name) {
+<span class="nc" id="L70">		return name.matches(&quot;users.json|integration_logs.json|channels.json&quot;);</span>
+	}
+
+	/**
+	 * Sets the class attribute to the specified parameter.
+	 *
+	 * @param jsonfiles
+	 *            list of files
+	 */
+	private void setArray(final List&lt;File&gt; jsonfiles) {
+<span class="nc" id="L80">		this.jfiles = jsonfiles;</span>
+<span class="nc" id="L81">	}</span>
+
+	/**
+	 * Returns the class attribute.
+	 *
+	 * @return List&lt;File&gt;
+	 */
+	@Override
+	public List&lt;File&gt; getList() {
+<span class="nc" id="L90">		return this.jfiles;</span>
+	}
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.0.201801022044</span></div></body></html>
