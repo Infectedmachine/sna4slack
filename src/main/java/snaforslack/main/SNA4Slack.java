@@ -379,6 +379,12 @@ public class SNA4Slack implements IntSNA4Slack {
 				initializeMentions(WEIGHED);
 				printReceiverMentions();
 			}
+		});this.commandsTable.put("help", new Command() {
+			@Override
+			public void runCommand() {
+				Helper.stampaLogo();
+				Helper.stampaHelp();
+			}
 		});
 	}
 

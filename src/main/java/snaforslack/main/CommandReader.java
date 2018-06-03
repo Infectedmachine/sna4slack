@@ -104,6 +104,7 @@ public class CommandReader implements IntCommandReader {
 	 * Fills the commandTable with the software default commands.
 	 */
 	private void setDefaultCommandTable() {
+		this.commandTable.put("help", "PRINT_HELPER");
 		this.commandTable.put("-m", "PRINT_MEMBERS");
 		this.commandTable.put("-c", "PRINT_CHANNELS");
 		this.commandTable.put("-mc", "ALL_CHANNELS_MEMBERS");
@@ -211,7 +212,9 @@ public class CommandReader implements IntCommandReader {
 			valid = this.isValidCommand(commands[COMMAND]);
 		}
 		if (size < 2 || !valid) {
-			System.out.println("INVALID COMMAND, Please type a valid one.");
+			if (!commands[0].equals("help")) {
+				System.out.println("INVALID COMMAND, Please type a valid one.");
+			}
 			Helper.stampaLogo();
 			Helper.stampaHelp();
 			return -1;
