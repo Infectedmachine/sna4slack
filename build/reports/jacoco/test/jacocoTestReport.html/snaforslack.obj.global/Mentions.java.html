@@ -19,7 +19,10 @@ import snaforslack.interfaces.structures.IntUserMentions;
  * Contains and manages all of the mentions in the workspace.
  */
 public class Mentions implements IntObjMentions {
+<<<<<<< HEAD
 
+=======
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 	/**
 	 * List of globalUsers.
 	 */
@@ -41,12 +44,21 @@ public class Mentions implements IntObjMentions {
 	 * @param weight
 	 *            a boolean value.
 	 */
+<<<<<<< HEAD
 <span class="nc" id="L44">	public Mentions(final IntObjUsers users, final boolean weight) {</span>
 <span class="nc" id="L45">		this.globalUsers = users;</span>
 
 <span class="nc" id="L47">		this.globalMentions = new ListUsersMentions();</span>
 <span class="nc" id="L48">		this.weighed = weight;</span>
 <span class="nc" id="L49">	}</span>
+=======
+<span class="fc" id="L43">	public Mentions(final IntObjUsers users, final boolean weight) {</span>
+<span class="fc" id="L44">		this.globalUsers = users;</span>
+
+<span class="fc" id="L46">		this.globalMentions = new ListUsersMentions();</span>
+<span class="fc" id="L47">		this.weighed = weight;</span>
+<span class="fc" id="L48">	}</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 
 	@Override
 	/**
@@ -58,6 +70,7 @@ public class Mentions implements IntObjMentions {
 	 *            a specified channel name.
 	 */
 	public final void initializeFromJsonArray(final IntJsonArray jarray, final IntChannel channel) {
+<<<<<<< HEAD
 <span class="nc bnc" id="L61" title="All 2 branches missed.">		if (jarray != null) {</span>
 <span class="nc bnc" id="L62" title="All 2 branches missed.">			for (final IntJsonObject json : jarray.getList()) {</span>
 <span class="nc" id="L63">				final String sender = json.getSender();</span>
@@ -77,6 +90,27 @@ public class Mentions implements IntObjMentions {
 <span class="nc" id="L77">			}</span>
 		}
 <span class="nc" id="L79">	}</span>
+=======
+<span class="pc bpc" id="L60" title="1 of 2 branches missed.">		if (jarray != null) {</span>
+<span class="fc bfc" id="L61" title="All 2 branches covered.">			for (final IntJsonObject json : jarray.getList()) {</span>
+<span class="fc" id="L62">				final String sender = json.getSender();</span>
+<span class="fc" id="L63">				final List&lt;String&gt; receivers = json.getReceivers();</span>
+<span class="fc" id="L64">				final IntUser user = this.globalUsers.getUser(sender);</span>
+<span class="fc" id="L65">				final IntListUsers usersList = new ListUsers();</span>
+
+<span class="fc bfc" id="L67" title="All 2 branches covered.">				for (final String receiver : receivers) {</span>
+<span class="pc bpc" id="L68" title="1 of 4 branches missed.">					if (this.globalUsers.checkUser(receiver) &amp;&amp; channel.checkUser(receiver)) {</span>
+<span class="fc" id="L69">						usersList.addUser(globalUsers.getUser(receiver));</span>
+					}
+<span class="fc" id="L71">				}</span>
+<span class="fc bfc" id="L72" title="All 2 branches covered.">				if (!usersList.listIsEmpty()) {</span>
+<span class="fc" id="L73">					final IntUserMentions userMentions = new SlackUserMentions(user, usersList.getUsersList());</span>
+<span class="fc" id="L74">					this.mergeMentions(userMentions);</span>
+				}
+<span class="fc" id="L76">			}</span>
+		}
+<span class="fc" id="L78">	}</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 
 	/**
 	 * Merges two mentions if the are equals.
@@ -85,6 +119,7 @@ public class Mentions implements IntObjMentions {
 	 *            The mentions to merge.
 	 **/
 	private void mergeMentions(final IntUserMentions userMentions) {
+<<<<<<< HEAD
 <span class="nc bnc" id="L88" title="All 2 branches missed.">		if (this.globalMentions.isEmpty()) {</span>
 <span class="nc" id="L89">			this.globalMentions.addMentions(userMentions);</span>
 		} else {
@@ -95,12 +130,25 @@ public class Mentions implements IntObjMentions {
 			}
 		}
 <span class="nc" id="L97">	}</span>
+=======
+<span class="fc bfc" id="L87" title="All 2 branches covered.">		if (this.globalMentions.isEmpty()) {</span>
+<span class="fc" id="L88">			this.globalMentions.addMentions(userMentions);</span>
+		} else {
+<span class="fc bfc" id="L90" title="All 2 branches covered.">			if (globalMentions.checkSender(userMentions.getSenderId())) {</span>
+<span class="fc" id="L91">				globalMentions.addMissingReceivers(userMentions);</span>
+			} else {
+<span class="fc" id="L93">				this.globalMentions.addMentions(userMentions);</span>
+			}
+		}
+<span class="fc" id="L96">	}</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 
 	@Override
 	/**
 	 * prints all of the mentions.
 	 */
 	public void printList() {
+<<<<<<< HEAD
 <span class="nc bnc" id="L104" title="All 2 branches missed.">		if (this.globalMentions.getMentionsList().isEmpty()) {</span>
 <span class="nc" id="L105">			System.out.println(&quot;NONE MENTIONS&quot;);</span>
 		} else {
@@ -120,5 +168,83 @@ public class Mentions implements IntObjMentions {
 <span class="nc" id="L120">			}</span>
 		}
 <span class="nc" id="L122">	}</span>
+=======
+<span class="fc bfc" id="L103" title="All 2 branches covered.">		if (this.globalMentions.getMentionsList().isEmpty()) {</span>
+<span class="fc" id="L104">			System.out.println(&quot;NONE MENTIONS&quot;);</span>
+		} else {
+<span class="fc bfc" id="L106" title="All 2 branches covered.">			for (final IntUserMentions userMentions : this.globalMentions.getMentionsList()) {</span>
+<span class="fc" id="L107">				this.printUserMentions(userMentions);</span>
+<span class="fc" id="L108">			}</span>
+		}
+<span class="fc" id="L110">	}</span>
+
+	/**
+	 * Prints on video mentions of a certain Sender.
+	 * 
+	 * @param sender
+	 *            a String value, name of a sender (user).
+	 */
+	public void printSenderMentions(final String sender) {
+<span class="pc bpc" id="L119" title="1 of 2 branches missed.">		if (globalMentions.checkSender(sender)) {</span>
+<span class="fc" id="L120">			final IntUserMentions senderMentions = this.globalMentions.getSenderMentions(sender);</span>
+<span class="fc" id="L121">			this.printUserMentions(senderMentions);</span>
+<span class="fc" id="L122">		} else {</span>
+<span class="nc" id="L123">			System.out.println(&quot;NONE MENTIONS BY THIS USER&quot;);</span>
+		}
+<span class="fc" id="L125">	}</span>
+
+	/**
+	 * Prints on video mentions to a certain User.
+	 * 
+	 * @param receiver
+	 *            a String value, name of a receiver (user).
+	 */
+	public void printReceiverMentions(final String receiver) {
+<span class="fc" id="L134">		final IntUser user = globalUsers.getUser(receiver);</span>
+<span class="pc bpc" id="L135" title="1 of 2 branches missed.">		if (globalMentions.checkReceiver(user)) {</span>
+<span class="fc bfc" id="L136" title="All 2 branches covered.">			for (final IntUserMentions userMentions : this.globalMentions.getMentionsList()) {</span>
+<span class="fc bfc" id="L137" title="All 2 branches covered.">				if (userMentions.checkReceiver(user)) {</span>
+<span class="fc" id="L138">					this.printLine(user, userMentions);</span>
+				}
+<span class="fc" id="L140">			}</span>
+		} else {
+<span class="nc" id="L142">			System.out.println(&quot;NONE MENTIONS TO THIS USER&quot;);</span>
+		}
+<span class="fc" id="L144">	}</span>
+
+	/**
+	 * Prints on video mentions of specific user.
+	 * 
+	 * @param userMentions
+	 *            a IntUserMentions value.
+	 */
+	private void printUserMentions(final IntUserMentions userMentions) {
+<span class="pc bpc" id="L153" title="1 of 2 branches missed.">		if (userMentions != null) {</span>
+<span class="fc bfc" id="L154" title="All 2 branches covered.">			for (final IntUser user : userMentions.getListReceiver()) {</span>
+<span class="fc" id="L155">				this.printLine(user, userMentions);</span>
+<span class="fc" id="L156">			}</span>
+<span class="fc" id="L157">			System.out.println(&quot;&quot;);</span>
+		}
+<span class="fc" id="L159">	}</span>
+
+	/**
+	 * Prints line FROM: name TO: name on video from UserMentions.
+	 * 
+	 * @param user
+	 *            IntUser value.
+	 * @param userMentions
+	 *            IntUserMentions value.
+	 */
+	private void printLine(final IntUser user, final IntUserMentions userMentions) {
+<span class="fc" id="L170">		final String senderName = userMentions.getSenderName();</span>
+<span class="fc" id="L171">		final String receiverName = user.getUserName();</span>
+<span class="fc bfc" id="L172" title="All 2 branches covered.">		if (this.weighed) {</span>
+<span class="fc" id="L173">			System.out.println(&quot;FROM: &quot; + senderName + &quot; TO: &quot; + receiverName + &quot; WEIGHT: &quot;</span>
+<span class="fc" id="L174">					+ userMentions.getWeight(user.getUserId()));</span>
+		} else {
+<span class="fc" id="L176">			System.out.println(&quot;FROM: &quot; + senderName + &quot; TO: &quot; + receiverName);</span>
+		}
+<span class="fc" id="L178">	}</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.0.201801022044</span></div></body></html>

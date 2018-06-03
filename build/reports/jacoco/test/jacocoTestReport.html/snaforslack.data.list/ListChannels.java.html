@@ -75,6 +75,7 @@ public class ListChannels implements IntListChannels {
 	 *            channel's name.
 	 */
 	public void printUsersOfChannels(final String name) {
+<<<<<<< HEAD
 <span class="nc bnc" id="L78" title="All 2 branches missed.">		if (name != null) {</span>
 <span class="nc bnc" id="L79" title="All 2 branches missed.">			for (final IntChannel channel : this.channelList) {</span>
 <span class="nc bnc" id="L80" title="All 2 branches missed.">				if (channel.checkName(name)) {</span>
@@ -83,6 +84,16 @@ public class ListChannels implements IntListChannels {
 <span class="nc" id="L83">			}</span>
 		}
 <span class="nc" id="L85">	}</span>
+=======
+<span class="pc bpc" id="L78" title="1 of 2 branches missed.">		if (name != null) {</span>
+<span class="fc bfc" id="L79" title="All 2 branches covered.">			for (final IntChannel channel : this.channelList) {</span>
+<span class="fc bfc" id="L80" title="All 2 branches covered.">				if (channel.checkName(name)) {</span>
+<span class="fc" id="L81">					channel.printMembers();</span>
+				}
+<span class="fc" id="L83">			}</span>
+		}
+<span class="fc" id="L85">	}</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 
 	/**
 	 * Check if there is any channel by this name.
@@ -92,12 +103,21 @@ public class ListChannels implements IntListChannels {
 	 * @return boolean value.
 	 */
 	public boolean checkChannel(final String name) {
+<<<<<<< HEAD
 <span class="nc bnc" id="L95" title="All 2 branches missed.">		for (final IntChannel channel : this.channelList) {</span>
 <span class="nc bnc" id="L96" title="All 2 branches missed.">			if (channel.checkName(name)) {</span>
 <span class="nc" id="L97">				return true;</span>
 			}
 <span class="nc" id="L99">		}</span>
 <span class="nc" id="L100">		return false;</span>
+=======
+<span class="fc bfc" id="L95" title="All 2 branches covered.">		for (final IntChannel channel : this.channelList) {</span>
+<span class="fc bfc" id="L96" title="All 2 branches covered.">			if (channel.checkName(name)) {</span>
+<span class="fc" id="L97">				return true;</span>
+			}
+<span class="fc" id="L99">		}</span>
+<span class="fc" id="L100">		return false;</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 	}
 
 	/**
@@ -108,11 +128,19 @@ public class ListChannels implements IntListChannels {
 	 * @return IntChannel object.
 	 */
 	public IntChannel getChannel(final String name) {
+<<<<<<< HEAD
 <span class="nc bnc" id="L111" title="All 2 branches missed.">		for (final IntChannel channel : this.channelList) {</span>
 <span class="nc bnc" id="L112" title="All 2 branches missed.">			if (channel.checkName(name)) {</span>
 <span class="nc" id="L113">				return channel;</span>
 			}
 <span class="nc" id="L115">		}</span>
+=======
+<span class="pc bpc" id="L111" title="1 of 2 branches missed.">		for (final IntChannel channel : this.channelList) {</span>
+<span class="fc bfc" id="L112" title="All 2 branches covered.">			if (channel.checkName(name)) {</span>
+<span class="fc" id="L113">				return channel;</span>
+			}
+<span class="fc" id="L115">		}</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 <span class="nc" id="L116">		return NOTFOUND;</span>
 	}
 }

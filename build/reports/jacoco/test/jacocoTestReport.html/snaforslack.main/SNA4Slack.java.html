@@ -94,15 +94,23 @@ public class SNA4Slack implements IntSNA4Slack {
 	 * @param command
 	 *            a CommandReader object.
 	 */
+<<<<<<< HEAD
 <span class="nc" id="L97">	public SNA4Slack(final IntCommandReader command) {</span>
 <span class="nc" id="L98">		this.commands = command;</span>
 <span class="nc" id="L99">		this.commandsTable = new HashMap&lt;String, Command&gt;();</span>
 <span class="nc" id="L100">	}</span>
+=======
+<span class="fc" id="L97">	public SNA4Slack(final IntCommandReader command) {</span>
+<span class="fc" id="L98">		this.commands = command;</span>
+<span class="fc" id="L99">		this.commandsTable = new HashMap&lt;String, Command&gt;();</span>
+<span class="fc" id="L100">	}</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 
 	/**
 	 * Runs the command specified in the input command.
 	 */
 	public final void run() {
+<<<<<<< HEAD
 <span class="nc" id="L106">		this.loadDefaultSet();</span>
 <span class="nc" id="L107">		initializeZip();</span>
 <span class="nc bnc" id="L108" title="All 2 branches missed.">		if (this.checkStatus()) {</span>
@@ -112,24 +120,48 @@ public class SNA4Slack implements IntSNA4Slack {
 <span class="nc" id="L112">			initializeChannels();</span>
 <span class="nc bnc" id="L113" title="All 2 branches missed.">			if (this.commandsTable.get(this.commands.getInputCommand()) != null) {</span>
 <span class="nc" id="L114">				this.commandsTable.get(this.commands.getInputCommand()).runCommand();</span>
+=======
+<span class="fc" id="L106">		this.loadDefaultSet();</span>
+<span class="fc" id="L107">		initializeZip();</span>
+<span class="pc bpc" id="L108" title="1 of 2 branches missed.">		if (this.checkStatus()) {</span>
+<span class="fc" id="L109">			initializeParser(USERSFILE);</span>
+<span class="fc" id="L110">			initializeUsers();</span>
+<span class="fc" id="L111">			initializeParser(CHANNELSFILE);</span>
+<span class="fc" id="L112">			initializeChannels();</span>
+<span class="pc bpc" id="L113" title="1 of 2 branches missed.">			if (this.commandsTable.get(this.commands.getInputCommand()) != null) {</span>
+<span class="fc" id="L114">				this.commandsTable.get(this.commands.getInputCommand()).runCommand();</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 			}
 		} else {
 <span class="nc" id="L117">			System.out.println(&quot;WRONG WORKSPACE. Please type a valid one!&quot;);</span>
 <span class="nc" id="L118">			Helper.stampaLogo();</span>
 <span class="nc" id="L119">			Helper.stampaHelp();</span>
 		}
+<<<<<<< HEAD
 <span class="nc" id="L121">	}</span>
+=======
+<span class="fc" id="L121">	}</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 
 	/**
 	 * Initializes the dir and workspaceZip attribute.
 	 */
 	private void initializeZip() {
+<<<<<<< HEAD
 <span class="nc" id="L127">		dir = commands.getWorkspaceDir();</span>
 <span class="nc" id="L128">		final IntZip workspaceZip = new WorkspaceZip(dir);</span>
 <span class="nc" id="L129">		final int zipStatus = workspaceZip.extractZip();</span>
 <span class="nc" id="L130">		dir = workspaceZip.getDirPath();</span>
 <span class="nc" id="L131">		this.status = zipStatus;</span>
 <span class="nc" id="L132">	}</span>
+=======
+<span class="fc" id="L127">		dir = commands.getWorkspaceDir();</span>
+<span class="fc" id="L128">		final IntZip workspaceZip = new WorkspaceZip(dir);</span>
+<span class="fc" id="L129">		final int zipStatus = workspaceZip.extractZip();</span>
+<span class="fc" id="L130">		dir = workspaceZip.getDirPath();</span>
+<span class="fc" id="L131">		this.status = zipStatus;</span>
+<span class="fc" id="L132">	}</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 
 	/**
 	 * Initializes the jsonParser attribute.
@@ -138,65 +170,110 @@ public class SNA4Slack implements IntSNA4Slack {
 	 *            a String indicating the path of the JSON file.
 	 */
 	private void initializeParser(final String filetype) {
+<<<<<<< HEAD
 <span class="nc" id="L141">		jsonParser = new JsonFileParser();</span>
 <span class="nc" id="L142">		jsonParser.initializeFromJSONFileDir(dir.concat(filetype));</span>
 <span class="nc" id="L143">	}</span>
+=======
+<span class="fc" id="L141">		jsonParser = new JsonFileParser();</span>
+<span class="fc" id="L142">		jsonParser.initializeFromJSONFileDir(dir.concat(filetype));</span>
+<span class="fc" id="L143">	}</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 
 	/**
 	 * Initializes the users attribute.
 	 * 
 	 */
 	private void initializeUsers() {
+<<<<<<< HEAD
 <span class="nc" id="L150">		final IntJsonArray array = jsonParser.getArray();</span>
 <span class="nc" id="L151">		users = new Users();</span>
 <span class="nc" id="L152">		users.initializeFromJsonArray(array);</span>
 <span class="nc" id="L153">	}</span>
+=======
+<span class="fc" id="L150">		final IntJsonArray array = jsonParser.getArray();</span>
+<span class="fc" id="L151">		users = new Users();</span>
+<span class="fc" id="L152">		users.initializeFromJsonArray(array);</span>
+<span class="fc" id="L153">	}</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 
 	/**
 	 * Initializes the channels attribute.
 	 * 
 	 */
 	private void initializeChannels() {
+<<<<<<< HEAD
 <span class="nc" id="L160">		final IntJsonArray array = jsonParser.getArray();</span>
 <span class="nc" id="L161">		channels = new Channels(this.users);</span>
 <span class="nc" id="L162">		channels.initializeFromJsonArray(array);</span>
 <span class="nc" id="L163">	}</span>
+=======
+<span class="fc" id="L160">		final IntJsonArray array = jsonParser.getArray();</span>
+<span class="fc" id="L161">		channels = new Channels(this.users);</span>
+<span class="fc" id="L162">		channels.initializeFromJsonArray(array);</span>
+<span class="fc" id="L163">	}</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 
 	/**
 	 * Prints users list.
 	 */
 	protected void printUsers() {
+<<<<<<< HEAD
 <span class="nc" id="L169">		this.users.printList();</span>
 <span class="nc" id="L170">	}</span>
+=======
+<span class="fc" id="L169">		this.users.printList();</span>
+<span class="fc" id="L170">	}</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 
 	/**
 	 * Prints channels list.
 	 */
 	protected void printChannels() {
+<<<<<<< HEAD
 <span class="nc" id="L176">		this.channels.printList();</span>
 <span class="nc" id="L177">	}</span>
+=======
+<span class="fc" id="L176">		this.channels.printList();</span>
+<span class="fc" id="L177">	}</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 
 	/**
 	 * Prints channels list with channel's members.
 	 */
 	protected void printChannelsDetailed() {
+<<<<<<< HEAD
 <span class="nc" id="L183">		this.channels.printListDetailed();</span>
 <span class="nc" id="L184">	}</span>
+=======
+<span class="fc" id="L183">		this.channels.printListDetailed();</span>
+<span class="fc" id="L184">	}</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 
 	/**
 	 * Prints all members of a Channel.
 	 */
 	protected void printChannelMembers() {
+<<<<<<< HEAD
 <span class="nc" id="L190">		final String channel = commands.getChannelName();</span>
 <span class="nc bnc" id="L191" title="All 2 branches missed.">		if (this.channels.checkChannel(channel)) {</span>
 <span class="nc" id="L192">			this.channels.printUsersOfChannel(channel);</span>
+=======
+<span class="fc" id="L190">		final String channel = commands.getChannelName();</span>
+<span class="pc bpc" id="L191" title="1 of 2 branches missed.">		if (this.channels.checkChannel(channel)) {</span>
+<span class="fc" id="L192">			this.channels.printUsersOfChannel(channel);</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 		} else {
 <span class="nc" id="L194">			System.out.println(&quot;NO CHANNEL BY THIS NAME&quot;);</span>
 <span class="nc" id="L195">			Helper.stampaLogo();</span>
 <span class="nc" id="L196">			Helper.stampaHelp();</span>
 <span class="nc" id="L197">			this.status = ERROR;</span>
 		}
+<<<<<<< HEAD
 <span class="nc" id="L199">	}</span>
+=======
+<span class="fc" id="L199">	}</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 
 	/**
 	 * Initialize mentions.
@@ -205,6 +282,7 @@ public class SNA4Slack implements IntSNA4Slack {
 	 *            boolean value.
 	 */
 	protected void initializeMentions(final boolean weighed) {
+<<<<<<< HEAD
 <span class="nc" id="L208">		this.mentions = new Mentions(this.users, weighed);</span>
 <span class="nc bnc" id="L209" title="All 2 branches missed.">		if (this.commands.isChannelSet()) {</span>
 <span class="nc" id="L210">			this.initializeMentionsFromChannel();</span>
@@ -212,11 +290,21 @@ public class SNA4Slack implements IntSNA4Slack {
 <span class="nc" id="L212">			this.initializeMentionsFromWorkspace();</span>
 		}
 <span class="nc" id="L214">	}</span>
+=======
+<span class="fc" id="L208">		this.mentions = new Mentions(this.users, weighed);</span>
+<span class="fc bfc" id="L209" title="All 2 branches covered.">		if (this.commands.isChannelSet()) {</span>
+<span class="fc" id="L210">			this.initializeMentionsFromChannel();</span>
+		} else {
+<span class="fc" id="L212">			this.initializeMentionsFromWorkspace();</span>
+		}
+<span class="fc" id="L214">	}</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 
 	/**
 	 * Initialize mentions from specific channel got from commands.
 	 */
 	private void initializeMentionsFromChannel() {
+<<<<<<< HEAD
 <span class="nc" id="L220">		final String channel = this.commands.getChannelName();</span>
 <span class="nc bnc" id="L221" title="All 2 branches missed.">		if (this.checkChannel()) {</span>
 <span class="nc" id="L222">			final IntJFileScanner scanner = new JFileScanner(dir.concat(&quot;/&quot; + channel));</span>
@@ -229,17 +317,36 @@ public class SNA4Slack implements IntSNA4Slack {
 				}
 <span class="nc" id="L230">			}</span>
 <span class="nc" id="L231">		} else {</span>
+=======
+<span class="fc" id="L220">		final String channel = this.commands.getChannelName();</span>
+<span class="pc bpc" id="L221" title="1 of 2 branches missed.">		if (this.checkChannel()) {</span>
+<span class="fc" id="L222">			final IntJFileScanner scanner = new JFileScanner(dir.concat(&quot;/&quot; + channel));</span>
+<span class="fc" id="L223">			jsonParser = new JsonFileParser();</span>
+<span class="fc bfc" id="L224" title="All 2 branches covered.">			for (final File file : scanner.getList()) {</span>
+<span class="fc" id="L225">				final String path = file.getAbsolutePath();</span>
+<span class="pc bpc" id="L226" title="1 of 2 branches missed.">				if (file.exists()) {</span>
+<span class="fc" id="L227">					jsonParser.initializeFromJSONFileDir(path);</span>
+<span class="fc" id="L228">					mentions.initializeFromJsonArray(jsonParser.getArray(), channels.getChannel(channel));</span>
+				}
+<span class="fc" id="L230">			}</span>
+<span class="fc" id="L231">		} else {</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 <span class="nc" id="L232">			System.out.println(&quot;NONE CHANNEL BY THIS NAME. Please retry with valid channel name&quot;);</span>
 <span class="nc" id="L233">			Helper.stampaLogo();</span>
 <span class="nc" id="L234">			Helper.stampaHelp();</span>
 <span class="nc" id="L235">			this.status = ERROR;</span>
 		}
+<<<<<<< HEAD
 <span class="nc" id="L237">	}</span>
+=======
+<span class="fc" id="L237">	}</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 
 	/**
 	 * Initialize mentions from workspace.
 	 */
 	private void initializeMentionsFromWorkspace() {
+<<<<<<< HEAD
 <span class="nc bnc" id="L243" title="All 2 branches missed.">		for (final String channel : channels.getAllChannelsName()) {</span>
 <span class="nc" id="L244">			final IntJFileScanner scanner = new JFileScanner(dir.concat(&quot;/&quot; + channel));</span>
 <span class="nc" id="L245">			jsonParser = new JsonFileParser();</span>
@@ -252,6 +359,20 @@ public class SNA4Slack implements IntSNA4Slack {
 <span class="nc" id="L252">			}</span>
 <span class="nc" id="L253">		}</span>
 <span class="nc" id="L254">	}</span>
+=======
+<span class="fc bfc" id="L243" title="All 2 branches covered.">		for (final String channel : channels.getAllChannelsName()) {</span>
+<span class="fc" id="L244">			final IntJFileScanner scanner = new JFileScanner(dir.concat(&quot;/&quot; + channel));</span>
+<span class="fc" id="L245">			jsonParser = new JsonFileParser();</span>
+<span class="fc bfc" id="L246" title="All 2 branches covered.">			for (final File file : scanner.getList()) {</span>
+<span class="fc" id="L247">				final String path = file.getAbsolutePath();</span>
+<span class="pc bpc" id="L248" title="1 of 2 branches missed.">				if (file.exists()) {</span>
+<span class="fc" id="L249">					jsonParser.initializeFromJSONFileDir(path);</span>
+<span class="fc" id="L250">					mentions.initializeFromJsonArray(jsonParser.getArray(), channels.getChannel(channel));</span>
+				}
+<span class="fc" id="L252">			}</span>
+<span class="fc" id="L253">		}</span>
+<span class="fc" id="L254">	}</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 
 	/**
 	 * Check if the channel's name from commands is an actual channel from the
@@ -260,17 +381,57 @@ public class SNA4Slack implements IntSNA4Slack {
 	 * @return a boolean value.
 	 */
 	private boolean checkChannel() {
+<<<<<<< HEAD
 <span class="nc" id="L263">		return this.channels.checkChannel(this.commands.getChannelName());</span>
+=======
+<span class="fc" id="L263">		return this.channels.checkChannel(this.commands.getChannelName());</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 	}
 
 	/**
 	 * Print mentions list.
 	 */
 	protected void printMentions() {
+<<<<<<< HEAD
 <span class="nc bnc" id="L270" title="All 2 branches missed.">		if (this.checkStatus()) {</span>
 <span class="nc" id="L271">			this.mentions.printList();</span>
 		}
 <span class="nc" id="L273">	}</span>
+=======
+<span class="pc bpc" id="L270" title="1 of 2 branches missed.">		if (this.checkStatus()) {</span>
+<span class="fc" id="L271">			this.mentions.printList();</span>
+		}
+<span class="fc" id="L273">	}</span>
+
+	/**
+	 * Prints every mention from certain User.
+	 * 
+	 */
+	protected void printSenderMentions() {
+<span class="fc" id="L280">		final String sender = this.commands.getUsername();</span>
+<span class="pc bpc" id="L281" title="1 of 2 branches missed.">		if (this.users.checkUser(sender)) {</span>
+<span class="fc" id="L282">			this.mentions.printSenderMentions(sender);</span>
+		} else {
+<span class="nc" id="L284">			System.out.println(&quot;NONE USERS BY THIS NAME IN THE WORKSPACE. Please type a valid one!&quot;);</span>
+<span class="nc" id="L285">			Helper.stampaLogo();</span>
+<span class="nc" id="L286">			Helper.stampaHelp();</span>
+		}
+<span class="fc" id="L288">	}</span>
+
+	/**
+	 * Prints every mention to certain User.
+	 */
+	protected void printReceiverMentions() {
+<span class="fc" id="L294">		final String sender = this.commands.getUsername();</span>
+<span class="pc bpc" id="L295" title="1 of 2 branches missed.">		if (this.users.checkUser(sender)) {</span>
+<span class="fc" id="L296">			this.mentions.printReceiverMentions(sender);</span>
+		} else {
+<span class="nc" id="L298">			System.out.println(&quot;NONE USERS BY THIS NAME IN THE WORKSPACE. Please type a valid one!&quot;);</span>
+<span class="nc" id="L299">			Helper.stampaLogo();</span>
+<span class="nc" id="L300">			Helper.stampaHelp();</span>
+		}
+<span class="fc" id="L302">	}</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 
 	/**
 	 * Checks the status of execution.
@@ -278,13 +439,18 @@ public class SNA4Slack implements IntSNA4Slack {
 	 * @return a boolean type.
 	 */
 	private boolean checkStatus() {
+<<<<<<< HEAD
 <span class="nc bnc" id="L281" title="All 2 branches missed.">		return this.status == 1;</span>
+=======
+<span class="pc bpc" id="L310" title="1 of 2 branches missed.">		return this.status == 1;</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 	}
 
 	/**
 	 * Loads all the needed interpretations for the possibles input commands.
 	 */
 	private void loadDefaultSet() {
+<<<<<<< HEAD
 <span class="nc" id="L288">		this.commandsTable.put(&quot;-m&quot;, new Command() {</span>
 			@Override
 			public void runCommand() {
@@ -324,6 +490,75 @@ public class SNA4Slack implements IntSNA4Slack {
 <span class="nc" id="L324">			}</span>
 		});
 <span class="nc" id="L326">	}</span>
+=======
+<span class="fc" id="L317">		this.commandsTable.put(&quot;-m&quot;, new Command() {</span>
+			@Override
+			public void runCommand() {
+<span class="fc" id="L320">				printUsers();</span>
+<span class="fc" id="L321">			}</span>
+		});
+<span class="fc" id="L323">		this.commandsTable.put(&quot;-c&quot;, new Command() {</span>
+			@Override
+			public void runCommand() {
+<span class="fc" id="L326">				printChannels();</span>
+<span class="fc" id="L327">			}</span>
+		});
+<span class="fc" id="L329">		this.commandsTable.put(&quot;-mc&quot;, new Command() {</span>
+			@Override
+			public void runCommand() {
+<span class="fc" id="L332">				printChannelsDetailed();</span>
+<span class="fc" id="L333">			}</span>
+		});
+<span class="fc" id="L335">		this.commandsTable.put(&quot;-cm&quot;, new Command() {</span>
+			@Override
+			public void runCommand() {
+<span class="fc" id="L338">				printChannelMembers();</span>
+<span class="fc" id="L339">			}</span>
+		});
+<span class="fc" id="L341">		this.commandsTable.put(&quot;@m&quot;, new Command() {</span>
+			@Override
+			public void runCommand() {
+<span class="fc" id="L344">				initializeMentions(NOTWEIGHED);</span>
+<span class="fc" id="L345">				printMentions();</span>
+<span class="fc" id="L346">			}</span>
+		});
+<span class="fc" id="L348">		this.commandsTable.put(&quot;@mw&quot;, new Command() {</span>
+			@Override
+			public void runCommand() {
+<span class="fc" id="L351">				initializeMentions(WEIGHED);</span>
+<span class="fc" id="L352">				printMentions();</span>
+<span class="fc" id="L353">			}</span>
+		});
+<span class="fc" id="L355">		this.commandsTable.put(&quot;@mf&quot;, new Command() {</span>
+			@Override
+			public void runCommand() {
+<span class="fc" id="L358">				initializeMentions(NOTWEIGHED);</span>
+<span class="fc" id="L359">				printSenderMentions();</span>
+<span class="fc" id="L360">			}</span>
+		});
+<span class="fc" id="L362">		this.commandsTable.put(&quot;@mfw&quot;, new Command() {</span>
+			@Override
+			public void runCommand() {
+<span class="fc" id="L365">				initializeMentions(WEIGHED);</span>
+<span class="fc" id="L366">				printSenderMentions();</span>
+<span class="fc" id="L367">			}</span>
+		});
+<span class="fc" id="L369">		this.commandsTable.put(&quot;@mt&quot;, new Command() {</span>
+			@Override
+			public void runCommand() {
+<span class="fc" id="L372">				initializeMentions(NOTWEIGHED);</span>
+<span class="fc" id="L373">				printReceiverMentions();</span>
+<span class="fc" id="L374">			}</span>
+		});
+<span class="fc" id="L376">		this.commandsTable.put(&quot;@mtw&quot;, new Command() {</span>
+			@Override
+			public void runCommand() {
+<span class="fc" id="L379">				initializeMentions(WEIGHED);</span>
+<span class="fc" id="L380">				printReceiverMentions();</span>
+<span class="fc" id="L381">			}</span>
+		});
+<span class="fc" id="L383">	}</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 
 	/**
 	 * Interface for the runCommand function.

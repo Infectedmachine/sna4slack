@@ -24,12 +24,21 @@ public class JsonArray implements IntJsonArray {
 	 *
 	 * @param jarray a JSONArray to create.
 	 */
+<<<<<<< HEAD
 <span class="nc" id="L27">	public JsonArray(final JSONArray jarray) {</span>
 <span class="nc" id="L28">		this.jArray = new ArrayList&lt;IntJsonObject&gt;();</span>
 <span class="nc bnc" id="L29" title="All 2 branches missed.">		if (jarray != null) {</span>
 <span class="nc" id="L30">			this.createArray(jarray);</span>
 		}
 <span class="nc" id="L32">	}</span>
+=======
+<span class="fc" id="L27">	public JsonArray(final JSONArray jarray) {</span>
+<span class="fc" id="L28">		this.jArray = new ArrayList&lt;IntJsonObject&gt;();</span>
+<span class="fc bfc" id="L29" title="All 2 branches covered.">		if (jarray != null) {</span>
+<span class="fc" id="L30">			this.createArray(jarray);</span>
+		}
+<span class="fc" id="L32">	}</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 
 	/**
 	 * Initializes a JSONArray.
@@ -37,12 +46,21 @@ public class JsonArray implements IntJsonArray {
 	 * @param jarray a JSONArray to initialize.
 	 */
 	private void createArray(final JSONArray jarray) {
+<<<<<<< HEAD
 <span class="nc bnc" id="L40" title="All 2 branches missed.">		for (final Object o : jarray) {</span>
 <span class="nc" id="L41">			final JSONObject jobj = (JSONObject) o;</span>
 <span class="nc" id="L42">			final IntJsonObject json = new JsonObject(jobj);</span>
 <span class="nc" id="L43">			this.jArray.add(json);</span>
 <span class="nc" id="L44">		}</span>
 <span class="nc" id="L45">	}</span>
+=======
+<span class="fc bfc" id="L40" title="All 2 branches covered.">		for (final Object o : jarray) {</span>
+<span class="fc" id="L41">			final JSONObject jobj = (JSONObject) o;</span>
+<span class="fc" id="L42">			final IntJsonObject json = new JsonObject(jobj);</span>
+<span class="fc" id="L43">			this.jArray.add(json);</span>
+<span class="fc" id="L44">		}</span>
+<span class="fc" id="L45">	}</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 
 	/**
 	 * Gets a list of json objects.
@@ -51,7 +69,11 @@ public class JsonArray implements IntJsonArray {
 	 */
 	@Override
 	public List&lt;IntJsonObject&gt; getList() {
+<<<<<<< HEAD
 <span class="nc" id="L54">		return this.jArray;</span>
+=======
+<span class="fc" id="L54">		return this.jArray;</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 	}
 
 	/**
@@ -61,7 +83,11 @@ public class JsonArray implements IntJsonArray {
 	 */
 	@Override
 	public boolean isEmpty() {
+<<<<<<< HEAD
 <span class="nc" id="L64">		return this.jArray.isEmpty();</span>
+=======
+<span class="fc" id="L64">		return this.jArray.isEmpty();</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 	}
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.0.201801022044</span></div></body></html>

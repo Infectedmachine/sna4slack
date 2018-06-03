@@ -221,7 +221,11 @@ public class CommandReader implements IntCommandReader {
 <span class="fc bfc" id="L221" title="All 2 branches covered.">			if (size == FULL) {</span>
 <span class="fc" id="L222">				this.setUsername(commands[USERNAME]);</span>
 <span class="fc" id="L223">				this.setChannelName(commands[CHANNEL]);</span>
+<<<<<<< HEAD
 <span class="pc bpc" id="L224" title="1 of 2 branches missed.">			} else if (size == SPECIFIC) {</span>
+=======
+<span class="fc bfc" id="L224" title="All 2 branches covered.">			} else if (size == SPECIFIC) {</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 <span class="fc bfc" id="L225" title="All 2 branches covered.">				if (this.getInputCommand().matches(&quot;-cm|@m|@mw&quot;)) {</span>
 <span class="fc" id="L226">					this.setChannelName(commands[SPECIALCASE]);</span>
 				} else {
@@ -260,7 +264,11 @@ public class CommandReader implements IntCommandReader {
 	 * @return a boolean value.
 	 */
 	public boolean isChannelSet() {
+<<<<<<< HEAD
 <span class="nc bnc" id="L263" title="All 2 branches missed.">		return !this.channelname.isEmpty();</span>
+=======
+<span class="fc bfc" id="L263" title="All 2 branches covered.">		return !this.channelname.isEmpty();</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 	}
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.0.201801022044</span></div></body></html>

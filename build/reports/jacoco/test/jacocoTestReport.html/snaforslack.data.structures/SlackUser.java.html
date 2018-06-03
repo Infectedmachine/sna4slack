@@ -57,7 +57,15 @@ public class SlackUser implements IntUser {
 	 * @return a boolean value.
 	 */
 	public boolean checkUser(final String value) {
+<<<<<<< HEAD
 <span class="fc bfc" id="L60" title="All 4 branches covered.">		return userId.equals(value) || userName.equals(value);</span>
+=======
+<span class="fc bfc" id="L60" title="All 2 branches covered.">		if (value == null) {</span>
+<span class="fc" id="L61">			return false;</span>
+		} else {
+<span class="fc bfc" id="L63" title="All 4 branches covered.">			return userId.equals(value) || userName.equals(value);</span>
+		}
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 	}
 
 	/**
@@ -66,7 +74,11 @@ public class SlackUser implements IntUser {
 	 * @return a boolean value.
 	 */
 	public boolean isEmpty() {
+<<<<<<< HEAD
 <span class="nc bnc" id="L69" title="All 4 branches missed.">		return this.userId == null &amp;&amp; this.userName.equals(&quot;USER NOT FOUND&quot;);</span>
+=======
+<span class="nc bnc" id="L73" title="All 4 branches missed.">		return this.userId == null &amp;&amp; this.userName.equals(&quot;USER NOT FOUND&quot;);</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 	}
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.0.201801022044</span></div></body></html>

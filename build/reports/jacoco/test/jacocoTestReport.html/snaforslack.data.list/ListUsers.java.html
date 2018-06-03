@@ -72,12 +72,21 @@ public class ListUsers implements IntListUsers {
 	 * @return a SlackUser object.
 	 */
 	public IntUser getUser(final String value) {
+<<<<<<< HEAD
 <span class="pc bpc" id="L75" title="1 of 2 branches missed.">		for (final IntUser user : this.usersList) {</span>
 <span class="pc bpc" id="L76" title="1 of 2 branches missed.">			if (user.checkUser(value)) {</span>
 <span class="fc" id="L77">				return user;</span>
 			}
 <span class="nc" id="L79">		}</span>
 <span class="nc" id="L80">		return new SlackUser(null, &quot;USER NOT FOUND&quot;);</span>
+=======
+<span class="fc bfc" id="L75" title="All 2 branches covered.">		for (final IntUser user : this.usersList) {</span>
+<span class="fc bfc" id="L76" title="All 2 branches covered.">			if (user.checkUser(value)) {</span>
+<span class="fc" id="L77">				return user;</span>
+			}
+<span class="fc" id="L79">		}</span>
+<span class="fc" id="L80">		return new SlackUser(null, &quot;USER NOT FOUND&quot;);</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 	}
 
 	/**
@@ -100,6 +109,7 @@ public class ListUsers implements IntListUsers {
 	 * Prints all the users by the name from the list.
 	 */
 	public void printList() {
+<<<<<<< HEAD
 <span class="nc bnc" id="L103" title="All 2 branches missed.">		if (this.usersList.isEmpty()) {</span>
 <span class="nc" id="L104">			System.out.println(&quot;NONE MEMBERS&quot;);</span>
 		} else {
@@ -108,5 +118,15 @@ public class ListUsers implements IntListUsers {
 <span class="nc" id="L108">			}</span>
 		}
 <span class="nc" id="L110">	}</span>
+=======
+<span class="fc bfc" id="L103" title="All 2 branches covered.">		if (this.usersList.isEmpty()) {</span>
+<span class="fc" id="L104">			System.out.println(&quot;NONE MEMBERS&quot;);</span>
+		} else {
+<span class="fc bfc" id="L106" title="All 2 branches covered.">			for (final IntUser user : this.usersList) {</span>
+<span class="fc" id="L107">				System.out.println(user.getUserName());</span>
+<span class="fc" id="L108">			}</span>
+		}
+<span class="fc" id="L110">	}</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.0.201801022044</span></div></body></html>

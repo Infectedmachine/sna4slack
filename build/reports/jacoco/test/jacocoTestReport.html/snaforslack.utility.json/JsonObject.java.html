@@ -50,6 +50,7 @@ public class JsonObject implements IntJsonObject {
 	 * @param jobj
 	 *            JSONObject to be allocated
 	 */
+<<<<<<< HEAD
 <span class="nc" id="L53">	public JsonObject(final JSONObject jobj) {</span>
 <span class="nc" id="L54">		this.initializeAll();</span>
 <span class="nc bnc" id="L55" title="All 2 branches missed.">		if (jobj != null) {</span>
@@ -67,11 +68,31 @@ public class JsonObject implements IntJsonObject {
 			}
 		}
 <span class="nc" id="L69">	}</span>
+=======
+<span class="fc" id="L53">	public JsonObject(final JSONObject jobj) {</span>
+<span class="fc" id="L54">		this.initializeAll();</span>
+<span class="pc bpc" id="L55" title="1 of 2 branches missed.">		if (jobj != null) {</span>
+<span class="fc bfc" id="L56" title="All 2 branches covered.">			if (this.isMessage(jobj)) {</span>
+<span class="fc" id="L57">				this.sender = this.getSender(jobj);</span>
+<span class="fc" id="L58">				this.receivers = this.getQuotes(jobj);</span>
+<span class="fc bfc" id="L59" title="All 2 branches covered.">			} else if (this.isChannel(jobj)) {</span>
+<span class="fc" id="L60">				this.objId = this.getId(jobj);</span>
+<span class="fc" id="L61">				this.name = this.getName(jobj);</span>
+<span class="fc" id="L62">				this.archived = this.getArchived(jobj);</span>
+<span class="fc" id="L63">				this.idmembers = this.getMembers(jobj);</span>
+			} else {
+<span class="fc" id="L65">				this.objId = this.getId(jobj);</span>
+<span class="fc" id="L66">				this.name = this.getName(jobj);</span>
+			}
+		}
+<span class="fc" id="L69">	}</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 
 	/**
 	 * Initializes all the attributes of JsonObject to default.
 	 **/
 	private void initializeAll() {
+<<<<<<< HEAD
 <span class="nc" id="L75">		this.objId = &quot;&quot;;</span>
 <span class="nc" id="L76">		this.name = &quot;&quot;;</span>
 <span class="nc" id="L77">		this.archived = false;</span>
@@ -79,6 +100,15 @@ public class JsonObject implements IntJsonObject {
 <span class="nc" id="L79">		this.sender = &quot;&quot;;</span>
 <span class="nc" id="L80">		this.receivers = new ArrayList&lt;String&gt;();</span>
 <span class="nc" id="L81">	}</span>
+=======
+<span class="fc" id="L75">		this.objId = &quot;&quot;;</span>
+<span class="fc" id="L76">		this.name = &quot;&quot;;</span>
+<span class="fc" id="L77">		this.archived = false;</span>
+<span class="fc" id="L78">		this.idmembers = new ArrayList&lt;String&gt;();</span>
+<span class="fc" id="L79">		this.sender = &quot;&quot;;</span>
+<span class="fc" id="L80">		this.receivers = new ArrayList&lt;String&gt;();</span>
+<span class="fc" id="L81">	}</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 
 	/**
 	 * Gets the id inside of the JsonObect.
@@ -87,7 +117,11 @@ public class JsonObject implements IntJsonObject {
 	 **/
 	@Override
 	public String getId() {
+<<<<<<< HEAD
 <span class="nc" id="L90">		return this.objId;</span>
+=======
+<span class="fc" id="L90">		return this.objId;</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 	}
 
 	/**
@@ -97,7 +131,11 @@ public class JsonObject implements IntJsonObject {
 	 **/
 	@Override
 	public String getName() {
+<<<<<<< HEAD
 <span class="nc" id="L100">		return this.name;</span>
+=======
+<span class="fc" id="L100">		return this.name;</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 	}
 
 	/**
@@ -107,7 +145,11 @@ public class JsonObject implements IntJsonObject {
 	 **/
 	@Override
 	public boolean isArchived() {
+<<<<<<< HEAD
 <span class="nc" id="L110">		return this.archived;</span>
+=======
+<span class="fc" id="L110">		return this.archived;</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 	}
 
 	/**
@@ -117,7 +159,11 @@ public class JsonObject implements IntJsonObject {
 	 **/
 	@Override
 	public List&lt;String&gt; getMembers() {
+<<<<<<< HEAD
 <span class="nc" id="L120">		return this.idmembers;</span>
+=======
+<span class="fc" id="L120">		return this.idmembers;</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 	}
 
 	/**
@@ -127,7 +173,11 @@ public class JsonObject implements IntJsonObject {
 	 **/
 	@Override
 	public String getSender() {
+<<<<<<< HEAD
 <span class="nc" id="L130">		return this.sender;</span>
+=======
+<span class="fc" id="L130">		return this.sender;</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 	}
 
 	/**
@@ -137,7 +187,11 @@ public class JsonObject implements IntJsonObject {
 	 **/
 	@Override
 	public List&lt;String&gt; getReceivers() {
+<<<<<<< HEAD
 <span class="nc" id="L140">		return this.receivers;</span>
+=======
+<span class="fc" id="L140">		return this.receivers;</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 	}
 
 	/**
@@ -149,6 +203,7 @@ public class JsonObject implements IntJsonObject {
 	 * @return quotted A list of mentions.
 	 **/
 	private List&lt;String&gt; getQuotes(final JSONObject jobj) {
+<<<<<<< HEAD
 <span class="nc" id="L152">		final List&lt;String&gt; quotted = new ArrayList&lt;String&gt;();</span>
 <span class="nc bnc" id="L153" title="All 2 branches missed.">		if ((String) jobj.get(&quot;subtype&quot;) == null) {</span>
 <span class="nc" id="L154">			final String text = (String) jobj.get(&quot;text&quot;);</span>
@@ -162,6 +217,21 @@ public class JsonObject implements IntJsonObject {
 <span class="nc" id="L162">			}</span>
 		}
 <span class="nc" id="L164">		return quotted;</span>
+=======
+<span class="fc" id="L152">		final List&lt;String&gt; quotted = new ArrayList&lt;String&gt;();</span>
+<span class="fc bfc" id="L153" title="All 2 branches covered.">		if ((String) jobj.get(&quot;subtype&quot;) == null) {</span>
+<span class="fc" id="L154">			final String text = (String) jobj.get(&quot;text&quot;);</span>
+<span class="fc" id="L155">			final Pattern quotes = Pattern.compile(&quot;&lt;@.+?&gt;&quot;);</span>
+<span class="fc" id="L156">			final Matcher match = this.getMatcherFromPattern(quotes, text);</span>
+<span class="fc bfc" id="L157" title="All 2 branches covered.">			while (this.checkFind(match)) {</span>
+<span class="fc" id="L158">				final String mentionId = this.getCleanStringFromMatch(match);</span>
+<span class="pc bpc" id="L159" title="1 of 2 branches missed.">				if (!this.checkQuote(mentionId)) {</span>
+<span class="fc" id="L160">					quotted.add(mentionId);</span>
+				}
+<span class="fc" id="L162">			}</span>
+		}
+<span class="fc" id="L164">		return quotted;</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 	}
 
 	/**
@@ -172,7 +242,11 @@ public class JsonObject implements IntJsonObject {
 	 * @return a boolean value.
 	 */
 	private boolean checkFind(final Matcher match) {
+<<<<<<< HEAD
 <span class="nc" id="L175">		return match.find();</span>
+=======
+<span class="fc" id="L175">		return match.find();</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 	}
 
 	/**
@@ -185,7 +259,11 @@ public class JsonObject implements IntJsonObject {
 	 * @return a Matcher object.
 	 */
 	private Matcher getMatcherFromPattern(final Pattern pattern, final String text) {
+<<<<<<< HEAD
 <span class="nc" id="L188">		return pattern.matcher(text);</span>
+=======
+<span class="fc" id="L188">		return pattern.matcher(text);</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 	}
 
 	/**
@@ -196,7 +274,11 @@ public class JsonObject implements IntJsonObject {
 	 * @return a String parameter.
 	 */
 	private String getCleanStringFromMatch(final Matcher match) {
+<<<<<<< HEAD
 <span class="nc" id="L199">		return match.group().subSequence(2, match.group().length() - 1).toString();</span>
+=======
+<span class="fc" id="L199">		return match.group().subSequence(2, match.group().length() - 1).toString();</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 	}
 
 	/**
@@ -208,16 +290,27 @@ public class JsonObject implements IntJsonObject {
 	 * @return True if there are mentions.
 	 **/
 	private boolean checkQuote(final String msgId) {
+<<<<<<< HEAD
 <span class="nc bnc" id="L211" title="All 2 branches missed.">		if (this.sender.equals(msgId)) {</span>
 <span class="nc" id="L212">			return true;</span>
 		} else {
 <span class="nc bnc" id="L214" title="All 2 branches missed.">			for (final String receiverId : this.receivers) {</span>
+=======
+<span class="pc bpc" id="L211" title="1 of 2 branches missed.">		if (this.sender.equals(msgId)) {</span>
+<span class="nc" id="L212">			return true;</span>
+		} else {
+<span class="pc bpc" id="L214" title="1 of 2 branches missed.">			for (final String receiverId : this.receivers) {</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 <span class="nc bnc" id="L215" title="All 2 branches missed.">				if (receiverId.equals(msgId)) {</span>
 <span class="nc" id="L216">					return true;</span>
 				}
 <span class="nc" id="L218">			}</span>
 		}
+<<<<<<< HEAD
 <span class="nc" id="L220">		return false;</span>
+=======
+<span class="fc" id="L220">		return false;</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 	}
 
 	/**
@@ -230,11 +323,19 @@ public class JsonObject implements IntJsonObject {
 	 **/
 	private List&lt;String&gt; getMembers(final JSONObject channel) {
 		@SuppressWarnings(&quot;unchecked&quot;)
+<<<<<<< HEAD
 <span class="nc" id="L233">		final List&lt;String&gt; list = (List&lt;String&gt;) channel.get(&quot;members&quot;);</span>
 <span class="nc bnc" id="L234" title="All 2 branches missed.">		if (list == null) {</span>
 <span class="nc" id="L235">			return Collections.emptyList();</span>
 		} else {
 <span class="nc" id="L237">			return list;</span>
+=======
+<span class="fc" id="L233">		final List&lt;String&gt; list = (List&lt;String&gt;) channel.get(&quot;members&quot;);</span>
+<span class="pc bpc" id="L234" title="1 of 2 branches missed.">		if (list == null) {</span>
+<span class="nc" id="L235">			return Collections.emptyList();</span>
+		} else {
+<span class="fc" id="L237">			return list;</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 		}
 	}
 
@@ -248,7 +349,11 @@ public class JsonObject implements IntJsonObject {
 	 *
 	 **/
 	private boolean getArchived(final JSONObject jobj) {
+<<<<<<< HEAD
 <span class="nc" id="L251">		return (boolean) jobj.get(&quot;is_archived&quot;);</span>
+=======
+<span class="fc" id="L251">		return (boolean) jobj.get(&quot;is_archived&quot;);</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 	}
 
 	/**
@@ -261,7 +366,11 @@ public class JsonObject implements IntJsonObject {
 	 *
 	 **/
 	private String getId(final JSONObject jobj) {
+<<<<<<< HEAD
 <span class="nc" id="L264">		return (String) jobj.get(&quot;id&quot;);</span>
+=======
+<span class="fc" id="L264">		return (String) jobj.get(&quot;id&quot;);</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 	}
 
 	/**
@@ -273,11 +382,19 @@ public class JsonObject implements IntJsonObject {
 	 * @return name Channel's name.
 	 **/
 	private String getName(final JSONObject jobj) {
+<<<<<<< HEAD
 <span class="nc bnc" id="L276" title="All 2 branches missed.">		if (isChannel(jobj)) {</span>
 <span class="nc" id="L277">			return this.getChannelName(jobj);</span>
 		} else {
 <span class="nc" id="L279">			final JSONObject userprofile = (JSONObject) jobj.get(&quot;profile&quot;);</span>
 <span class="nc" id="L280">			return this.getUserName(userprofile);</span>
+=======
+<span class="fc bfc" id="L276" title="All 2 branches covered.">		if (isChannel(jobj)) {</span>
+<span class="fc" id="L277">			return this.getChannelName(jobj);</span>
+		} else {
+<span class="fc" id="L279">			final JSONObject userprofile = (JSONObject) jobj.get(&quot;profile&quot;);</span>
+<span class="fc" id="L280">			return this.getUserName(userprofile);</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 		}
 	}
 
@@ -290,7 +407,11 @@ public class JsonObject implements IntJsonObject {
 	 * @return usersender Name of the sender.
 	 **/
 	private String getSender(final JSONObject jobj) {
+<<<<<<< HEAD
 <span class="nc" id="L293">		return (String) jobj.get(&quot;user&quot;);</span>
+=======
+<span class="fc" id="L293">		return (String) jobj.get(&quot;user&quot;);</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 	}
 
 	/**
@@ -302,6 +423,7 @@ public class JsonObject implements IntJsonObject {
 	 * @return username The username of a member.
 	 **/
 	private String getUserName(final JSONObject userprofile) {
+<<<<<<< HEAD
 <span class="nc" id="L305">		final String displayname = (String) userprofile.get(&quot;display_name&quot;);</span>
 <span class="nc" id="L306">		final String realname = (String) userprofile.get(&quot;real_name&quot;);</span>
 <span class="nc" id="L307">		final String username = (String) userprofile.get(&quot;name&quot;);</span>
@@ -309,6 +431,15 @@ public class JsonObject implements IntJsonObject {
 <span class="nc" id="L309">			return displayname;</span>
 <span class="nc bnc" id="L310" title="All 2 branches missed.">		} else if (this.getSize(realname) &gt; 0) {</span>
 <span class="nc" id="L311">			return realname;</span>
+=======
+<span class="fc" id="L305">		final String displayname = (String) userprofile.get(&quot;display_name&quot;);</span>
+<span class="fc" id="L306">		final String realname = (String) userprofile.get(&quot;real_name&quot;);</span>
+<span class="fc" id="L307">		final String username = (String) userprofile.get(&quot;name&quot;);</span>
+<span class="fc bfc" id="L308" title="All 2 branches covered.">		if (this.getSize(displayname) &gt; 0) {</span>
+<span class="fc" id="L309">			return displayname;</span>
+<span class="pc bpc" id="L310" title="1 of 2 branches missed.">		} else if (this.getSize(realname) &gt; 0) {</span>
+<span class="fc" id="L311">			return realname;</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 		} else {
 <span class="nc" id="L313">			return username;</span>
 		}
@@ -322,7 +453,11 @@ public class JsonObject implements IntJsonObject {
 	 * @return size of string as int type.
 	 */
 	private int getSize(final String string) {
+<<<<<<< HEAD
 <span class="nc" id="L325">		return string.length();</span>
+=======
+<span class="fc" id="L325">		return string.length();</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 	}
 
 	/**
@@ -334,7 +469,11 @@ public class JsonObject implements IntJsonObject {
 	 * @return channelname The channel name.
 	 **/
 	private String getChannelName(final JSONObject channel) {
+<<<<<<< HEAD
 <span class="nc" id="L337">		return (String) channel.get(&quot;name&quot;);</span>
+=======
+<span class="fc" id="L337">		return (String) channel.get(&quot;name&quot;);</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 	}
 
 	/**
@@ -346,8 +485,13 @@ public class JsonObject implements IntJsonObject {
 	 * @return True If there is a channel.
 	 **/
 	private boolean isChannel(final JSONObject jobj) {
+<<<<<<< HEAD
 <span class="nc" id="L349">		final String value = (String) jobj.get(&quot;creator&quot;);</span>
 <span class="nc bnc" id="L350" title="All 2 branches missed.">		return value != null;</span>
+=======
+<span class="fc" id="L349">		final String value = (String) jobj.get(&quot;creator&quot;);</span>
+<span class="fc bfc" id="L350" title="All 2 branches covered.">		return value != null;</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 	}
 
 	/**
@@ -359,11 +503,19 @@ public class JsonObject implements IntJsonObject {
 	 * @return True If there is a message.
 	 **/
 	private boolean isMessage(final JSONObject jobj) {
+<<<<<<< HEAD
 <span class="nc" id="L362">		final String message = (String) jobj.get(&quot;type&quot;);</span>
 <span class="nc bnc" id="L363" title="All 2 branches missed.">		if (message == null) {</span>
 <span class="nc" id="L364">			return false;</span>
 		} else {
 <span class="nc" id="L366">			return this.checkMessageType(message);</span>
+=======
+<span class="fc" id="L362">		final String message = (String) jobj.get(&quot;type&quot;);</span>
+<span class="fc bfc" id="L363" title="All 2 branches covered.">		if (message == null) {</span>
+<span class="fc" id="L364">			return false;</span>
+		} else {
+<span class="fc" id="L366">			return this.checkMessageType(message);</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 		}
 	}
 
@@ -375,7 +527,11 @@ public class JsonObject implements IntJsonObject {
 	 * @return boolean value.
 	 */
 	private boolean checkMessageType(final String type) {
+<<<<<<< HEAD
 <span class="nc" id="L378">		return type.equals(MESSAGETYPE);</span>
+=======
+<span class="fc" id="L378">		return type.equals(MESSAGETYPE);</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 	}
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.0.201801022044</span></div></body></html>

@@ -6,6 +6,10 @@ import java.util.List;
 import snaforslack.data.structures.SlackUserMentions;
 import snaforslack.interfaces.list.IntListUserMentions;
 import snaforslack.interfaces.structures.IntUserMentions;
+<<<<<<< HEAD
+=======
+import snaforslack.interfaces.structures.IntUser;
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 
 /**
  * List Mentions class for a List of mentions.
@@ -14,7 +18,11 @@ public class ListUsersMentions implements IntListUserMentions {
 	/**
 	 * Constant NOTFOUND as a default UserMention.
 	 **/
+<<<<<<< HEAD
 <span class="nc" id="L17">	private static final IntUserMentions NOTFOUND = new SlackUserMentions(null, null);</span>
+=======
+<span class="fc" id="L18">	private static final IntUserMentions NOTFOUND = new SlackUserMentions(null, null);</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 	/**
 	 * List of mentions.
 	 **/
@@ -23,9 +31,15 @@ public class ListUsersMentions implements IntListUserMentions {
 	/**
 	 * Public constructor.
 	 **/
+<<<<<<< HEAD
 <span class="nc" id="L26">	public ListUsersMentions() {</span>
 <span class="nc" id="L27">		this.mentionsList = new ArrayList&lt;IntUserMentions&gt;();</span>
 <span class="nc" id="L28">	}</span>
+=======
+<span class="fc" id="L27">	public ListUsersMentions() {</span>
+<span class="fc" id="L28">		this.mentionsList = new ArrayList&lt;IntUserMentions&gt;();</span>
+<span class="fc" id="L29">	}</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 
 	/**
 	 * Gets the list of mentions.
@@ -34,7 +48,11 @@ public class ListUsersMentions implements IntListUserMentions {
 	 **/
 	@Override
 	public List&lt;IntUserMentions&gt; getMentionsList() {
+<<<<<<< HEAD
 <span class="nc" id="L37">		return this.mentionsList;</span>
+=======
+<span class="fc" id="L38">		return this.mentionsList;</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 	}
 
 	/**
@@ -44,8 +62,13 @@ public class ListUsersMentions implements IntListUserMentions {
 	 *            The mentions to add.
 	 **/
 	public void addMentions(final IntUserMentions mentions) {
+<<<<<<< HEAD
 <span class="nc" id="L47">		this.mentionsList.add(mentions);</span>
 <span class="nc" id="L48">	}</span>
+=======
+<span class="fc" id="L48">		this.mentionsList.add(mentions);</span>
+<span class="fc" id="L49">	}</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 
 	/**
 	 * Returns true is the list is empty.
@@ -53,7 +76,11 @@ public class ListUsersMentions implements IntListUserMentions {
 	 * @return boolean value.
 	 */
 	public boolean isEmpty() {
+<<<<<<< HEAD
 <span class="nc" id="L56">		return this.mentionsList.isEmpty();</span>
+=======
+<span class="fc" id="L57">		return this.mentionsList.isEmpty();</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 	}
 
 	/**
@@ -66,8 +93,13 @@ public class ListUsersMentions implements IntListUserMentions {
 	 **/
 	@Override
 	public boolean checkSender(final String value) {
+<<<<<<< HEAD
 <span class="nc" id="L69">		final IntUserMentions mentions = this.getSenderMentions(value);</span>
 <span class="nc bnc" id="L70" title="All 2 branches missed.">		return mentions != ListUsersMentions.NOTFOUND;</span>
+=======
+<span class="fc" id="L70">		final IntUserMentions mentions = this.getSenderMentions(value);</span>
+<span class="fc bfc" id="L71" title="All 2 branches covered.">		return mentions != ListUsersMentions.NOTFOUND;</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 	}
 
 	/**
@@ -80,6 +112,7 @@ public class ListUsersMentions implements IntListUserMentions {
 	 **/
 	@Override
 	public IntUserMentions getSenderMentions(final String value) {
+<<<<<<< HEAD
 <span class="nc" id="L83">		final List&lt;IntUserMentions&gt; list = this.getMentionsList();</span>
 
 <span class="nc bnc" id="L85" title="All 2 branches missed.">		for (final IntUserMentions mentions : list) {</span>
@@ -88,6 +121,40 @@ public class ListUsersMentions implements IntListUserMentions {
 			}
 <span class="nc" id="L89">		}</span>
 <span class="nc" id="L90">		return NOTFOUND;</span>
+=======
+<span class="pc bpc" id="L84" title="2 of 4 branches missed.">		if (value == null || value.isEmpty()) {</span>
+<span class="nc" id="L85">			return ListUsersMentions.NOTFOUND;</span>
+		} else {
+<span class="fc" id="L87">			final List&lt;IntUserMentions&gt; list = this.getMentionsList();</span>
+<span class="fc bfc" id="L88" title="All 2 branches covered.">			for (final IntUserMentions mentions : list) {</span>
+<span class="fc bfc" id="L89" title="All 2 branches covered.">				if (mentions.checkSender(value)) {</span>
+<span class="fc" id="L90">					return mentions;</span>
+				}
+<span class="fc" id="L92">			}</span>
+<span class="fc" id="L93">			return ListUsersMentions.NOTFOUND;</span>
+		}
+	}
+
+	/**
+	 * Checks if the User is ever mentioned.
+	 * 
+	 * @param user
+	 *            a IntUser value.
+	 * @return a boolean value.
+	 */
+	public boolean checkReceiver(final IntUser user) {
+<span class="pc bpc" id="L105" title="1 of 2 branches missed.">		if (user == null) {</span>
+<span class="nc" id="L106">			return false;</span>
+		} else {
+<span class="fc" id="L108">			final List&lt;IntUserMentions&gt; list = this.getMentionsList();</span>
+<span class="pc bpc" id="L109" title="1 of 2 branches missed.">			for (final IntUserMentions mentions : list) {</span>
+<span class="fc bfc" id="L110" title="All 2 branches covered.">				if (mentions.checkReceiver(user)) {</span>
+<span class="fc" id="L111">					return true;</span>
+				}
+<span class="fc" id="L113">			}</span>
+<span class="nc" id="L114">			return false;</span>
+		}
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 	}
 
 	/**
@@ -97,6 +164,7 @@ public class ListUsersMentions implements IntListUserMentions {
 	 *            sender's mentions object
 	 */
 	public void addMissingReceivers(final IntUserMentions userMentions) {
+<<<<<<< HEAD
 <span class="nc" id="L100">		final String senderId = userMentions.getSenderId();</span>
 <span class="nc" id="L101">		final List&lt;IntUserMentions&gt; list = this.getMentionsList();</span>
 
@@ -106,5 +174,18 @@ public class ListUsersMentions implements IntListUserMentions {
 			}
 <span class="nc" id="L107">		}</span>
 <span class="nc" id="L108">	}</span>
+=======
+<span class="pc bpc" id="L125" title="1 of 2 branches missed.">		if (userMentions != null) {</span>
+<span class="fc" id="L126">			final String senderId = userMentions.getSenderId();</span>
+<span class="fc" id="L127">			final List&lt;IntUserMentions&gt; list = this.getMentionsList();</span>
+
+<span class="fc bfc" id="L129" title="All 2 branches covered.">			for (final IntUserMentions mentions : list) {</span>
+<span class="fc bfc" id="L130" title="All 2 branches covered.">				if (mentions.checkSender(senderId)) {</span>
+<span class="fc" id="L131">					mentions.addMissingReceivers(userMentions.getListReceiver());</span>
+				}
+<span class="fc" id="L133">			}</span>
+		}
+<span class="fc" id="L135">	}</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.0.201801022044</span></div></body></html>

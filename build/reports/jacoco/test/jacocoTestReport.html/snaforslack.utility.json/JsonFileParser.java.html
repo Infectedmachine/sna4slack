@@ -27,9 +27,15 @@ public class JsonFileParser implements IntJsonFileParser {
 	/**
 	 * Public constructor.
 	 **/
+<<<<<<< HEAD
 <span class="nc" id="L30">	public JsonFileParser() {</span>
 <span class="nc" id="L31">		this.setArray(new JsonArray(null));</span>
 <span class="nc" id="L32">	}</span>
+=======
+<span class="fc" id="L30">	public JsonFileParser() {</span>
+<span class="fc" id="L31">		this.setArray(new JsonArray(null));</span>
+<span class="fc" id="L32">	}</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 
 	/**
 	 * This method opens and parse JSON file in the path given in input.
@@ -43,6 +49,7 @@ public class JsonFileParser implements IntJsonFileParser {
 	@Override
 	public final void initializeFromJSONFileDir(final String filedir) {
 
+<<<<<<< HEAD
 <span class="nc" id="L46">		final JSONParser parser = new JSONParser();</span>
 
 		try {
@@ -50,6 +57,15 @@ public class JsonFileParser implements IntJsonFileParser {
 <span class="nc" id="L50">			final Reader fileReader = new InputStreamReader(inputStream, &quot;UTF-8&quot;);</span>
 <span class="nc" id="L51">			final IntJsonArray jarray = new JsonArray((JSONArray) parser.parse(fileReader));</span>
 <span class="nc" id="L52">			this.setArray(jarray);</span>
+=======
+<span class="fc" id="L46">		final JSONParser parser = new JSONParser();</span>
+
+		try {
+<span class="fc" id="L49">			final InputStream inputStream = new FileInputStream(filedir);</span>
+<span class="fc" id="L50">			final Reader fileReader = new InputStreamReader(inputStream, &quot;UTF-8&quot;);</span>
+<span class="fc" id="L51">			final IntJsonArray jarray = new JsonArray((JSONArray) parser.parse(fileReader));</span>
+<span class="fc" id="L52">			this.setArray(jarray);</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 
 <span class="nc" id="L54">		} catch (FileNotFoundException e) {</span>
 <span class="nc" id="L55">			System.out.println(&quot;JSON File not found&quot;);</span>
@@ -57,17 +73,28 @@ public class JsonFileParser implements IntJsonFileParser {
 <span class="nc" id="L57">			System.out.println(&quot;PARSE IOEXCEPTION&quot;);</span>
 <span class="nc" id="L58">		} catch (ParseException e) {</span>
 <span class="nc" id="L59">			System.out.println(&quot;PARSE EXCEPTION&quot;);</span>
+<<<<<<< HEAD
 <span class="nc" id="L60">		}</span>
 
 <span class="nc" id="L62">	}</span>
+=======
+<span class="pc" id="L60">		}</span>
+
+<span class="fc" id="L62">	}</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 
 	/**
 	 * Sets the class contentsarray to the specified parameter.
 	 * @param jsonarray a IntJsonArray.
 	 */
 	private void setArray(final IntJsonArray jsonarray) {
+<<<<<<< HEAD
 <span class="nc" id="L69">		this.contentsarray = jsonarray;</span>
 <span class="nc" id="L70">	}</span>
+=======
+<span class="fc" id="L69">		this.contentsarray = jsonarray;</span>
+<span class="fc" id="L70">	}</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 
 	/**
 	 * Returns the class contentsarray.
@@ -75,7 +102,11 @@ public class JsonFileParser implements IntJsonFileParser {
 	 */
 	@Override
 	public IntJsonArray getArray() {
+<<<<<<< HEAD
 <span class="nc" id="L78">		return this.contentsarray;</span>
+=======
+<span class="fc" id="L78">		return this.contentsarray;</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 	}
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.0.201801022044</span></div></body></html>

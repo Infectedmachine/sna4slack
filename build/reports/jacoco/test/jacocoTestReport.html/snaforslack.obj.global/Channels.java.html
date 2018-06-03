@@ -36,10 +36,17 @@ public class Channels implements IntObjChannels {
 	 * @param users
 	 *            an Array of Users.
 	 */
+<<<<<<< HEAD
 <span class="nc" id="L39">	public Channels(final IntObjUsers users) {</span>
 <span class="nc" id="L40">		this.globalChannels = new ListChannels();</span>
 <span class="nc" id="L41">		this.globalUsers = users;</span>
 <span class="nc" id="L42">	}</span>
+=======
+<span class="fc" id="L39">	public Channels(final IntObjUsers users) {</span>
+<span class="fc" id="L40">		this.globalChannels = new ListChannels();</span>
+<span class="fc" id="L41">		this.globalUsers = users;</span>
+<span class="fc" id="L42">	}</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 
 	/**
 	 * Initializes the class attributes with the content of the given parameter.
@@ -49,6 +56,7 @@ public class Channels implements IntObjChannels {
 	 */
 	@Override
 	public final void initializeFromJsonArray(final IntJsonArray jarray) {
+<<<<<<< HEAD
 <span class="nc bnc" id="L52" title="All 2 branches missed.">		if (!jarray.isEmpty()) {</span>
 <span class="nc bnc" id="L53" title="All 2 branches missed.">			for (final IntJsonObject json : jarray.getList()) {</span>
 <span class="nc" id="L54">				final String channelId = json.getId();</span>
@@ -64,6 +72,23 @@ public class Channels implements IntObjChannels {
 <span class="nc" id="L64">			}</span>
 		}
 <span class="nc" id="L66">	}</span>
+=======
+<span class="pc bpc" id="L52" title="1 of 2 branches missed.">		if (!jarray.isEmpty()) {</span>
+<span class="fc bfc" id="L53" title="All 2 branches covered.">			for (final IntJsonObject json : jarray.getList()) {</span>
+<span class="fc" id="L54">				final String channelId = json.getId();</span>
+<span class="fc" id="L55">				final String channelName = json.getName();</span>
+<span class="fc" id="L56">				final boolean archived = json.isArchived();</span>
+<span class="fc" id="L57">				final List&lt;String&gt; idmembers = json.getMembers();</span>
+
+<span class="fc" id="L59">				final IntChannel channel = new SlackChannel(channelId, channelName);</span>
+<span class="fc" id="L60">				channel.setArchived(archived);</span>
+<span class="fc" id="L61">				final IntListUsers usersList = this.createUsersList(idmembers);</span>
+<span class="fc" id="L62">				channel.setListUsers(usersList);</span>
+<span class="fc" id="L63">				this.globalChannels.addChannel(channel);</span>
+<span class="fc" id="L64">			}</span>
+		}
+<span class="fc" id="L66">	}</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 
 	/**
 	 * Creates a UsersList with the content of the given parameter.
@@ -73,6 +98,7 @@ public class Channels implements IntObjChannels {
 	 * @return the UsersList created.
 	 */
 	private IntListUsers createUsersList(final List&lt;String&gt; idmembers) {
+<<<<<<< HEAD
 <span class="nc" id="L76">		final IntListUsers usersList = new ListUsers();</span>
 <span class="nc bnc" id="L77" title="All 2 branches missed.">		if (idmembers != null) {</span>
 <span class="nc bnc" id="L78" title="All 2 branches missed.">			for (final String memberid : idmembers) {</span>
@@ -83,6 +109,18 @@ public class Channels implements IntObjChannels {
 <span class="nc" id="L83">			}</span>
 		}
 <span class="nc" id="L85">		return usersList;</span>
+=======
+<span class="fc" id="L76">		final IntListUsers usersList = new ListUsers();</span>
+<span class="pc bpc" id="L77" title="1 of 2 branches missed.">		if (idmembers != null) {</span>
+<span class="fc bfc" id="L78" title="All 2 branches covered.">			for (final String memberid : idmembers) {</span>
+<span class="fc" id="L79">				final IntUser tempUser = this.globalUsers.getUser(memberid);</span>
+<span class="pc bpc" id="L80" title="1 of 2 branches missed.">				if (tempUser != Users.NOTFOUND) {</span>
+<span class="fc" id="L81">					usersList.addUser(tempUser);</span>
+				}
+<span class="fc" id="L83">			}</span>
+		}
+<span class="fc" id="L85">		return usersList;</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 	}
 
 	/**
@@ -90,18 +128,28 @@ public class Channels implements IntObjChannels {
 	 */
 	@Override
 	public void printList() {
+<<<<<<< HEAD
 <span class="nc bnc" id="L93" title="All 2 branches missed.">		if (!this.globalChannels.listIsEmpty()) {</span>
 <span class="nc bnc" id="L94" title="All 2 branches missed.">			for (final IntChannel channel : this.globalChannels.getChannelsList()) {</span>
 <span class="nc" id="L95">				System.out.println(channel.getChannelName());</span>
 <span class="nc" id="L96">			}</span>
 		}
 <span class="nc" id="L98">	}</span>
+=======
+<span class="pc bpc" id="L93" title="1 of 2 branches missed.">		if (!this.globalChannels.listIsEmpty()) {</span>
+<span class="fc bfc" id="L94" title="All 2 branches covered.">			for (final IntChannel channel : this.globalChannels.getChannelsList()) {</span>
+<span class="fc" id="L95">				System.out.println(channel.getChannelName());</span>
+<span class="fc" id="L96">			}</span>
+		}
+<span class="fc" id="L98">	}</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 
 	/**
 	 * Prints all of the channels and for each its users.
 	 */
 	@Override
 	public void printListDetailed() {
+<<<<<<< HEAD
 <span class="nc bnc" id="L105" title="All 2 branches missed.">		if (!this.globalChannels.listIsEmpty()) {</span>
 <span class="nc bnc" id="L106" title="All 2 branches missed.">			for (final IntChannel channel : this.globalChannels.getChannelsList()) {</span>
 <span class="nc" id="L107">				System.out.println(channel.getChannelName() + &quot;:\n&quot;);</span>
@@ -110,6 +158,16 @@ public class Channels implements IntObjChannels {
 <span class="nc" id="L110">			}</span>
 		}
 <span class="nc" id="L112">	}</span>
+=======
+<span class="pc bpc" id="L105" title="1 of 2 branches missed.">		if (!this.globalChannels.listIsEmpty()) {</span>
+<span class="fc bfc" id="L106" title="All 2 branches covered.">			for (final IntChannel channel : this.globalChannels.getChannelsList()) {</span>
+<span class="fc" id="L107">				System.out.println(channel.getChannelName() + &quot;:\n&quot;);</span>
+<span class="fc" id="L108">				channel.printMembers();</span>
+<span class="fc" id="L109">				System.out.println(&quot;\n&quot;);</span>
+<span class="fc" id="L110">			}</span>
+		}
+<span class="fc" id="L112">	}</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 
 	/**
 	 * Prints the users of the specified channel.
@@ -119,8 +177,13 @@ public class Channels implements IntObjChannels {
 	 */
 	@Override
 	public void printUsersOfChannel(final String channelName) {
+<<<<<<< HEAD
 <span class="nc" id="L122">		this.globalChannels.printUsersOfChannels(channelName);</span>
 <span class="nc" id="L123">	}</span>
+=======
+<span class="fc" id="L122">		this.globalChannels.printUsersOfChannels(channelName);</span>
+<span class="fc" id="L123">	}</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 
 	/**
 	 * Controls if the specified channel is present in the class.
@@ -129,7 +192,11 @@ public class Channels implements IntObjChannels {
 	 */
 	@Override
 	public boolean checkChannel(final String name) {
+<<<<<<< HEAD
 <span class="nc" id="L132">		return this.globalChannels.checkChannel(name);</span>
+=======
+<span class="fc" id="L132">		return this.globalChannels.checkChannel(name);</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 	}
 
 	/**
@@ -139,7 +206,11 @@ public class Channels implements IntObjChannels {
 	 */
 	@Override
 	public IntChannel getChannel(final String channelName) {
+<<<<<<< HEAD
 <span class="nc" id="L142">		return this.globalChannels.getChannel(channelName);</span>
+=======
+<span class="fc" id="L142">		return this.globalChannels.getChannel(channelName);</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 	}
 
 	/**
@@ -149,11 +220,19 @@ public class Channels implements IntObjChannels {
 	 */
 	@Override
 	public List&lt;String&gt; getAllChannelsName() {
+<<<<<<< HEAD
 <span class="nc" id="L152">		final List&lt;String&gt; channelsName = new ArrayList&lt;String&gt;();</span>
 <span class="nc bnc" id="L153" title="All 2 branches missed.">		for (final IntChannel channel : this.globalChannels.getChannelsList()) {</span>
 <span class="nc" id="L154">			channelsName.add(channel.getChannelName());</span>
 <span class="nc" id="L155">		}</span>
 <span class="nc" id="L156">		return channelsName;</span>
+=======
+<span class="fc" id="L152">		final List&lt;String&gt; channelsName = new ArrayList&lt;String&gt;();</span>
+<span class="fc bfc" id="L153" title="All 2 branches covered.">		for (final IntChannel channel : this.globalChannels.getChannelsList()) {</span>
+<span class="fc" id="L154">			channelsName.add(channel.getChannelName());</span>
+<span class="fc" id="L155">		}</span>
+<span class="fc" id="L156">		return channelsName;</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 	}
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.0.201801022044</span></div></body></html>

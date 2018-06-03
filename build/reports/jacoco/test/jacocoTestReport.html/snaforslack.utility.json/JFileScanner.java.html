@@ -19,9 +19,15 @@ public class JFileScanner implements IntJFileScanner {
 	/**
 	 * Allocates the space for the only attribute of the class, an array of files.
 	 */
+<<<<<<< HEAD
 <span class="nc" id="L22">	public JFileScanner() {</span>
 <span class="nc" id="L23">		this.setArray(new ArrayList&lt;File&gt;());</span>
 <span class="nc" id="L24">	}</span>
+=======
+<span class="fc" id="L22">	public JFileScanner() {</span>
+<span class="fc" id="L23">		this.setArray(new ArrayList&lt;File&gt;());</span>
+<span class="fc" id="L24">	}</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 
 	/**
 	 * Allocates the space for the only attribute of the class and initializes it.
@@ -29,6 +35,7 @@ public class JFileScanner implements IntJFileScanner {
 	 * @param dir
 	 *            path of directory.
 	 */
+<<<<<<< HEAD
 <span class="nc" id="L32">	public JFileScanner(final String dir) {</span>
 <span class="nc" id="L33">		jfiles = new ArrayList&lt;File&gt;();</span>
 <span class="nc bnc" id="L34" title="All 2 branches missed.">		if (dir != null) {</span>
@@ -38,6 +45,17 @@ public class JFileScanner implements IntJFileScanner {
 			}
 		}
 <span class="nc" id="L40">	}</span>
+=======
+<span class="fc" id="L32">	public JFileScanner(final String dir) {</span>
+<span class="fc" id="L33">		jfiles = new ArrayList&lt;File&gt;();</span>
+<span class="pc bpc" id="L34" title="1 of 2 branches missed.">		if (dir != null) {</span>
+<span class="fc" id="L35">			final File file = new File(dir);</span>
+<span class="pc bpc" id="L36" title="1 of 2 branches missed.">			if (file.exists()) {</span>
+<span class="fc" id="L37">				scanDirectory(file);</span>
+			}
+		}
+<span class="fc" id="L40">	}</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 
 	/**
 	 * Scans the directory for JSON files and adds them to jfiles.
@@ -46,6 +64,7 @@ public class JFileScanner implements IntJFileScanner {
 	 *            directory to work with.
 	 */
 	private void scanDirectory(final File dir) {
+<<<<<<< HEAD
 <span class="nc" id="L49">		final File[] files = dir.listFiles();</span>
 <span class="nc bnc" id="L50" title="All 2 branches missed.">		if (files != null) {</span>
 <span class="nc bnc" id="L51" title="All 2 branches missed.">			for (final File file : files) {</span>
@@ -57,6 +76,19 @@ public class JFileScanner implements IntJFileScanner {
 			}
 		}
 <span class="nc" id="L59">	}</span>
+=======
+<span class="fc" id="L49">		final File[] files = dir.listFiles();</span>
+<span class="pc bpc" id="L50" title="1 of 2 branches missed.">		if (files != null) {</span>
+<span class="fc bfc" id="L51" title="All 2 branches covered.">			for (final File file : files) {</span>
+<span class="fc bfc" id="L52" title="All 2 branches covered.">				if (file.isDirectory()) {</span>
+<span class="fc" id="L53">					scanDirectory(file);</span>
+<span class="fc bfc" id="L54" title="All 2 branches covered.">				} else if (!this.checkMatch(file.getName())) {</span>
+<span class="fc" id="L55">					jfiles.add(file);</span>
+				}
+			}
+		}
+<span class="fc" id="L59">	}</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 
 	/**
 	 * Returns a boolean value if the check matches base json files (Base json files
@@ -67,7 +99,11 @@ public class JFileScanner implements IntJFileScanner {
 	 * @return a boolean type.
 	 */
 	private boolean checkMatch(final String name) {
+<<<<<<< HEAD
 <span class="nc" id="L70">		return name.matches(&quot;users.json|integration_logs.json|channels.json&quot;);</span>
+=======
+<span class="fc" id="L70">		return name.matches(&quot;users.json|integration_logs.json|channels.json&quot;);</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 	}
 
 	/**
@@ -77,8 +113,13 @@ public class JFileScanner implements IntJFileScanner {
 	 *            list of files
 	 */
 	private void setArray(final List&lt;File&gt; jsonfiles) {
+<<<<<<< HEAD
 <span class="nc" id="L80">		this.jfiles = jsonfiles;</span>
 <span class="nc" id="L81">	}</span>
+=======
+<span class="fc" id="L80">		this.jfiles = jsonfiles;</span>
+<span class="fc" id="L81">	}</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 
 	/**
 	 * Returns the class attribute.
@@ -87,7 +128,11 @@ public class JFileScanner implements IntJFileScanner {
 	 */
 	@Override
 	public List&lt;File&gt; getList() {
+<<<<<<< HEAD
 <span class="nc" id="L90">		return this.jfiles;</span>
+=======
+<span class="fc" id="L90">		return this.jfiles;</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 	}
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.0.201801022044</span></div></body></html>

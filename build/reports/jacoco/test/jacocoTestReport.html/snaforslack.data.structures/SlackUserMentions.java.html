@@ -52,7 +52,11 @@ public class SlackUserMentions implements IntUserMentions {
 	private void fillMapWithDefaultWeight() {
 <span class="fc" id="L53">		final List&lt;IntUser&gt; listreceiver = this.listReceiver;</span>
 <span class="fc" id="L54">		final Map&lt;String, Integer&gt; map = new HashMap&lt;String, Integer&gt;();</span>
+<<<<<<< HEAD
 <span class="pc bpc" id="L55" title="1 of 2 branches missed.">		if (listreceiver != null) {</span>
+=======
+<span class="fc bfc" id="L55" title="All 2 branches covered.">		if (listreceiver != null) {</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 <span class="fc bfc" id="L56" title="All 2 branches covered.">			for (final IntUser receiver : listreceiver) {</span>
 <span class="fc" id="L57">				map.put(receiver.getUserId(), DEFAULTWEIGHT);</span>
 <span class="fc" id="L58">			}</span>
@@ -88,8 +92,13 @@ public class SlackUserMentions implements IntUserMentions {
 	 *            user to add to the list.
 	 */
 	private void addReceiver(final IntUser receiver) {
+<<<<<<< HEAD
 <span class="nc" id="L91">		this.listReceiver.add(receiver);</span>
 <span class="nc" id="L92">	}</span>
+=======
+<span class="fc" id="L91">		this.listReceiver.add(receiver);</span>
+<span class="fc" id="L92">	}</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 
 	/**
 	 * @return a Map containing the mentioned users an the mentions weights.
@@ -161,6 +170,7 @@ public class SlackUserMentions implements IntUserMentions {
 	 */
 	@Override
 	public void addMissingReceivers(final List&lt;IntUser&gt; list) {
+<<<<<<< HEAD
 <span class="nc bnc" id="L164" title="All 2 branches missed.">		for (final IntUser user : list) {</span>
 <span class="nc bnc" id="L165" title="All 2 branches missed.">			if (this.checkReceiver(user)) {</span>
 <span class="nc" id="L166">				final Integer value = this.getMentionWeightMap().get(user.getUserId());</span>
@@ -171,5 +181,17 @@ public class SlackUserMentions implements IntUserMentions {
 			}
 <span class="nc" id="L172">		}</span>
 <span class="nc" id="L173">	}</span>
+=======
+<span class="fc bfc" id="L164" title="All 2 branches covered.">		for (final IntUser user : list) {</span>
+<span class="fc bfc" id="L165" title="All 2 branches covered.">			if (this.checkReceiver(user)) {</span>
+<span class="fc" id="L166">				final Integer value = this.getMentionWeightMap().get(user.getUserId());</span>
+<span class="fc" id="L167">				this.mentionWeightMap.put(user.getUserId(), value + 1);</span>
+<span class="fc" id="L168">			} else {</span>
+<span class="fc" id="L169">				this.addReceiver(user);</span>
+<span class="fc" id="L170">				this.mentionWeightMap.put(user.getUserId(), DEFAULTWEIGHT);</span>
+			}
+<span class="fc" id="L172">		}</span>
+<span class="fc" id="L173">	}</span>
+>>>>>>> 9fe1b22e907d700c9a309eb1164aa24bc3c286b7
 }
 </pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.0.201801022044</span></div></body></html>
