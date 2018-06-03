@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="it"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>JsonObject.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">SNA4Slack</a> &gt; <a href="index.source.html" class="el_package">snaforslack.utility.json</a> &gt; <span class="el_source">JsonObject.java</span></div><h1>JsonObject.java</h1><pre class="source lang-java linenums">package snaforslack.utility.json;
+
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
+import org.json.simple.JSONObject;
+
+import snaforslack.interfaces.json.IntJsonObject;
+
+/**
+ * Consists in initializing the values taken from a JSON file.
+ **/
+public class JsonObject implements IntJsonObject {
+
+	/**
+	 * Constant string message.
+	 **/
+	private static final String MESSAGETYPE = &quot;message&quot;;
+	/**
+	 * The id of a channel.
+	 **/
+	private String objId;
+	/**
+	 * The name of a channel.
+	 **/
+	private String name;
+	/**
+	 * True if the channel is archived.
+	 **/
+	private boolean archived;
+	/**
+	 * Contains all the ids of the members.
+	 **/
+	private List&lt;String&gt; idmembers;
+	/**
+	 * The id of the message sender.
+	 **/
+	private String sender;
+	/**
+	 * Contains all the ids of the receivers of the message.
+	 **/
+	private List&lt;String&gt; receivers;
+
+	/**
+	 * Allocates the values of a JSONObject.
+	 *
+	 * @param jobj
+	 *            JSONObject to be allocated
+	 */
+<span class="fc" id="L53">	public JsonObject(final JSONObject jobj) {</span>
+<span class="fc" id="L54">		this.initializeAll();</span>
+<span class="pc bpc" id="L55" title="1 of 2 branches missed.">		if (jobj != null) {</span>
+<span class="fc bfc" id="L56" title="All 2 branches covered.">			if (this.isMessage(jobj)) {</span>
+<span class="fc" id="L57">				this.sender = this.getSender(jobj);</span>
+<span class="fc" id="L58">				this.receivers = this.getQuotes(jobj);</span>
+<span class="fc bfc" id="L59" title="All 2 branches covered.">			} else if (this.isChannel(jobj)) {</span>
+<span class="fc" id="L60">				this.objId = this.getId(jobj);</span>
+<span class="fc" id="L61">				this.name = this.getName(jobj);</span>
+<span class="fc" id="L62">				this.archived = this.getArchived(jobj);</span>
+<span class="fc" id="L63">				this.idmembers = this.getMembers(jobj);</span>
+			} else {
+<span class="fc" id="L65">				this.objId = this.getId(jobj);</span>
+<span class="fc" id="L66">				this.name = this.getName(jobj);</span>
+			}
+		}
+<span class="fc" id="L69">	}</span>
+
+	/**
+	 * Initializes all the attributes of JsonObject to default.
+	 **/
+	private void initializeAll() {
+<span class="fc" id="L75">		this.objId = &quot;&quot;;</span>
+<span class="fc" id="L76">		this.name = &quot;&quot;;</span>
+<span class="fc" id="L77">		this.archived = false;</span>
+<span class="fc" id="L78">		this.idmembers = new ArrayList&lt;String&gt;();</span>
+<span class="fc" id="L79">		this.sender = &quot;&quot;;</span>
+<span class="fc" id="L80">		this.receivers = new ArrayList&lt;String&gt;();</span>
+<span class="fc" id="L81">	}</span>
+
+	/**
+	 * Gets the id inside of the JsonObect.
+	 *
+	 * @return id Channel's id.
+	 **/
+	@Override
+	public String getId() {
+<span class="fc" id="L90">		return this.objId;</span>
+	}
+
+	/**
+	 * Gets the name inside of the JsonObect.
+	 *
+	 * @return name Channel's name.
+	 **/
+	@Override
+	public String getName() {
+<span class="fc" id="L100">		return this.name;</span>
+	}
+
+	/**
+	 * Gets the boolean archived inside of the JsonObect.
+	 *
+	 * @return archived True if channel is archived.
+	 **/
+	@Override
+	public boolean isArchived() {
+<span class="fc" id="L110">		return this.archived;</span>
+	}
+
+	/**
+	 * Gets the members list inside of the JsonObect.
+	 *
+	 * @return idmembers List of a channel's members.
+	 **/
+	@Override
+	public List&lt;String&gt; getMembers() {
+<span class="fc" id="L120">		return this.idmembers;</span>
+	}
+
+	/**
+	 * Gets the sender inside of the JsonObect.
+	 *
+	 * @return sender The sender of the message.
+	 **/
+	@Override
+	public String getSender() {
+<span class="fc" id="L130">		return this.sender;</span>
+	}
+
+	/**
+	 * Gets the list of the receivers inside of the JsonObect.
+	 *
+	 * @return receivers The list of message's receiver.
+	 **/
+	@Override
+	public List&lt;String&gt; getReceivers() {
+<span class="fc" id="L140">		return this.receivers;</span>
+	}
+
+	/**
+	 * Gets the a list of mentions inside a JSONObject.
+	 *
+	 * @param jobj
+	 *            The JSONObject to be examined.
+	 *
+	 * @return quotted A list of mentions.
+	 **/
+	private List&lt;String&gt; getQuotes(final JSONObject jobj) {
+<span class="fc" id="L152">		final List&lt;String&gt; quotted = new ArrayList&lt;String&gt;();</span>
+<span class="fc bfc" id="L153" title="All 2 branches covered.">		if ((String) jobj.get(&quot;subtype&quot;) == null) {</span>
+<span class="fc" id="L154">			final String text = (String) jobj.get(&quot;text&quot;);</span>
+<span class="fc" id="L155">			final Pattern quotes = Pattern.compile(&quot;&lt;@.+?&gt;&quot;);</span>
+<span class="fc" id="L156">			final Matcher match = this.getMatcherFromPattern(quotes, text);</span>
+<span class="fc bfc" id="L157" title="All 2 branches covered.">			while (this.checkFind(match)) {</span>
+<span class="fc" id="L158">				final String mentionId = this.getCleanStringFromMatch(match);</span>
+<span class="pc bpc" id="L159" title="1 of 2 branches missed.">				if (!this.checkQuote(mentionId)) {</span>
+<span class="fc" id="L160">					quotted.add(mentionId);</span>
+				}
+<span class="fc" id="L162">			}</span>
+		}
+<span class="fc" id="L164">		return quotted;</span>
+	}
+
+	/**
+	 * Returns true if find a pattern.
+	 * 
+	 * @param match
+	 *            a Match value.
+	 * @return a boolean value.
+	 */
+	private boolean checkFind(final Matcher match) {
+<span class="fc" id="L175">		return match.find();</span>
+	}
+
+	/**
+	 * Returns a match object from a Pattern.
+	 * 
+	 * @param pattern
+	 *            Pattern object.
+	 * @param text
+	 *            text to match.
+	 * @return a Matcher object.
+	 */
+	private Matcher getMatcherFromPattern(final Pattern pattern, final String text) {
+<span class="fc" id="L188">		return pattern.matcher(text);</span>
+	}
+
+	/**
+	 * Returns a String with the id of a user.
+	 * 
+	 * @param match
+	 *            a Match type parameter.
+	 * @return a String parameter.
+	 */
+	private String getCleanStringFromMatch(final Matcher match) {
+<span class="fc" id="L199">		return match.group().subSequence(2, match.group().length() - 1).toString();</span>
+	}
+
+	/**
+	 * Checks if a member mentioned someone.
+	 *
+	 * @param msgId
+	 *            The id of the sender of a message.
+	 *
+	 * @return True if there are mentions.
+	 **/
+	private boolean checkQuote(final String msgId) {
+<span class="pc bpc" id="L211" title="1 of 2 branches missed.">		if (this.sender.equals(msgId)) {</span>
+<span class="nc" id="L212">			return true;</span>
+		} else {
+<span class="pc bpc" id="L214" title="1 of 2 branches missed.">			for (final String receiverId : this.receivers) {</span>
+<span class="nc bnc" id="L215" title="All 2 branches missed.">				if (receiverId.equals(msgId)) {</span>
+<span class="nc" id="L216">					return true;</span>
+				}
+<span class="nc" id="L218">			}</span>
+		}
+<span class="fc" id="L220">		return false;</span>
+	}
+
+	/**
+	 * Gets the list of members in the channel given in input.
+	 *
+	 * @param channel
+	 *            The id of the channel.
+	 *
+	 * @return list A List of members.
+	 **/
+	private List&lt;String&gt; getMembers(final JSONObject channel) {
+		@SuppressWarnings(&quot;unchecked&quot;)
+<span class="fc" id="L233">		final List&lt;String&gt; list = (List&lt;String&gt;) channel.get(&quot;members&quot;);</span>
+<span class="pc bpc" id="L234" title="1 of 2 branches missed.">		if (list == null) {</span>
+<span class="nc" id="L235">			return Collections.emptyList();</span>
+		} else {
+<span class="fc" id="L237">			return list;</span>
+		}
+	}
+
+	/**
+	 * Checks if a channel is archived.
+	 *
+	 * @param jobj
+	 *            JSONObject to check the archiviation.
+	 *
+	 * @return isarchived True if it is.
+	 *
+	 **/
+	private boolean getArchived(final JSONObject jobj) {
+<span class="fc" id="L251">		return (boolean) jobj.get(&quot;is_archived&quot;);</span>
+	}
+
+	/**
+	 * Gets the id from a JSONObject.
+	 *
+	 * @param jobj
+	 *            JSONObject to get the id.
+	 *
+	 * @return sid The id of a channel.
+	 *
+	 **/
+	private String getId(final JSONObject jobj) {
+<span class="fc" id="L264">		return (String) jobj.get(&quot;id&quot;);</span>
+	}
+
+	/**
+	 * Gets the name inside of the JsonObect.
+	 *
+	 * @param jobj
+	 *            JSONObject to get the name.
+	 *
+	 * @return name Channel's name.
+	 **/
+	private String getName(final JSONObject jobj) {
+<span class="fc bfc" id="L276" title="All 2 branches covered.">		if (isChannel(jobj)) {</span>
+<span class="fc" id="L277">			return this.getChannelName(jobj);</span>
+		} else {
+<span class="fc" id="L279">			final JSONObject userprofile = (JSONObject) jobj.get(&quot;profile&quot;);</span>
+<span class="fc" id="L280">			return this.getUserName(userprofile);</span>
+		}
+	}
+
+	/**
+	 * Gets the name of the sender inside of the JsonObect.
+	 *
+	 * @param jobj
+	 *            JSONObject to get the name.
+	 *
+	 * @return usersender Name of the sender.
+	 **/
+	private String getSender(final JSONObject jobj) {
+<span class="fc" id="L293">		return (String) jobj.get(&quot;user&quot;);</span>
+	}
+
+	/**
+	 * Gets the UserName of the sender inside of the JsonObect.
+	 *
+	 * @param userprofile
+	 *            JSONObject to get the name.
+	 *
+	 * @return username The username of a member.
+	 **/
+	private String getUserName(final JSONObject userprofile) {
+<span class="fc" id="L305">		final String displayname = (String) userprofile.get(&quot;display_name&quot;);</span>
+<span class="fc" id="L306">		final String realname = (String) userprofile.get(&quot;real_name&quot;);</span>
+<span class="fc" id="L307">		final String username = (String) userprofile.get(&quot;name&quot;);</span>
+<span class="fc bfc" id="L308" title="All 2 branches covered.">		if (this.getSize(displayname) &gt; 0) {</span>
+<span class="fc" id="L309">			return displayname;</span>
+<span class="pc bpc" id="L310" title="1 of 2 branches missed.">		} else if (this.getSize(realname) &gt; 0) {</span>
+<span class="fc" id="L311">			return realname;</span>
+		} else {
+<span class="nc" id="L313">			return username;</span>
+		}
+	}
+
+	/**
+	 * Return size of a String.
+	 * 
+	 * @param string
+	 *            a String value.
+	 * @return size of string as int type.
+	 */
+	private int getSize(final String string) {
+<span class="fc" id="L325">		return string.length();</span>
+	}
+
+	/**
+	 * Gets the channel name inside of the JsonObect.
+	 *
+	 * @param channel
+	 *            JSONObject to get the channel name.
+	 *
+	 * @return channelname The channel name.
+	 **/
+	private String getChannelName(final JSONObject channel) {
+<span class="fc" id="L337">		return (String) channel.get(&quot;name&quot;);</span>
+	}
+
+	/**
+	 * Checks if there is a creator inside of the JsonObect.
+	 *
+	 * @param jobj
+	 *            JSONObject to check the creator.
+	 *
+	 * @return True If there is a channel.
+	 **/
+	private boolean isChannel(final JSONObject jobj) {
+<span class="fc" id="L349">		final String value = (String) jobj.get(&quot;creator&quot;);</span>
+<span class="fc bfc" id="L350" title="All 2 branches covered.">		return value != null;</span>
+	}
+
+	/**
+	 * Checks if there is a message inside of the JsonObect.
+	 *
+	 * @param jobj
+	 *            JSONObject to check the creator.
+	 *
+	 * @return True If there is a message.
+	 **/
+	private boolean isMessage(final JSONObject jobj) {
+<span class="fc" id="L362">		final String message = (String) jobj.get(&quot;type&quot;);</span>
+<span class="fc bfc" id="L363" title="All 2 branches covered.">		if (message == null) {</span>
+<span class="fc" id="L364">			return false;</span>
+		} else {
+<span class="fc" id="L366">			return this.checkMessageType(message);</span>
+		}
+	}
+
+	/**
+	 * Check if the string is equals to MESSAGETYPE.
+	 * 
+	 * @param type
+	 *            a String value.
+	 * @return boolean value.
+	 */
+	private boolean checkMessageType(final String type) {
+<span class="fc" id="L378">		return type.equals(MESSAGETYPE);</span>
+	}
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.0.201801022044</span></div></body></html>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="it"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>JsonFileParser.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">SNA4Slack</a> &gt; <a href="index.source.html" class="el_package">snaforslack.utility.json</a> &gt; <span class="el_source">JsonFileParser.java</span></div><h1>JsonFileParser.java</h1><pre class="source lang-java linenums">package snaforslack.utility.json;
+
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.io.Reader;
+
+import org.json.simple.JSONArray;
+import org.json.simple.parser.JSONParser;
+import org.json.simple.parser.ParseException;
+
+import snaforslack.interfaces.json.IntJsonArray;
+import snaforslack.interfaces.json.IntJsonFileParser;
+
+/**
+ * This class consists of the attributes and methods to parse a JSON file.
+ * Using org.json.simple API.
+ **/
+public class JsonFileParser implements IntJsonFileParser {
+	/**
+	 * Private attribute contentsarray, an IntJsonArray that hold the content of a JSON file.
+	 **/
+	private IntJsonArray contentsarray;
+
+	/**
+	 * Public constructor.
+	 **/
+<span class="fc" id="L30">	public JsonFileParser() {</span>
+<span class="fc" id="L31">		this.setArray(new JsonArray(null));</span>
+<span class="fc" id="L32">	}</span>
+
+	/**
+	 * This method opens and parse JSON file in the path given in input.
+	 *
+	 * @param filedir the path of a JSON file.
+	 *
+	 * @exception FileNotFoundException
+	 * @exception IOException
+	 * @exception ParseException
+	 **/
+	@Override
+	public final void initializeFromJSONFileDir(final String filedir) {
+
+<span class="fc" id="L46">		final JSONParser parser = new JSONParser();</span>
+
+		try {
+<span class="fc" id="L49">			final InputStream inputStream = new FileInputStream(filedir);</span>
+<span class="fc" id="L50">			final Reader fileReader = new InputStreamReader(inputStream, &quot;UTF-8&quot;);</span>
+<span class="fc" id="L51">			final IntJsonArray jarray = new JsonArray((JSONArray) parser.parse(fileReader));</span>
+<span class="fc" id="L52">			this.setArray(jarray);</span>
+
+<span class="nc" id="L54">		} catch (FileNotFoundException e) {</span>
+<span class="nc" id="L55">			System.out.println(&quot;JSON File not found&quot;);</span>
+<span class="nc" id="L56">		} catch (IOException e) {</span>
+<span class="nc" id="L57">			System.out.println(&quot;PARSE IOEXCEPTION&quot;);</span>
+<span class="nc" id="L58">		} catch (ParseException e) {</span>
+<span class="nc" id="L59">			System.out.println(&quot;PARSE EXCEPTION&quot;);</span>
+<span class="pc" id="L60">		}</span>
+
+<span class="fc" id="L62">	}</span>
+
+	/**
+	 * Sets the class contentsarray to the specified parameter.
+	 * @param jsonarray a IntJsonArray.
+	 */
+	private void setArray(final IntJsonArray jsonarray) {
+<span class="fc" id="L69">		this.contentsarray = jsonarray;</span>
+<span class="fc" id="L70">	}</span>
+
+	/**
+	 * Returns the class contentsarray.
+	 * @return contentsarray a IntJsonArray.
+	 */
+	@Override
+	public IntJsonArray getArray() {
+<span class="fc" id="L78">		return this.contentsarray;</span>
+	}
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.0.201801022044</span></div></body></html>

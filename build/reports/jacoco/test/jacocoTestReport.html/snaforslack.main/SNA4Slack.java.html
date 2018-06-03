@@ -1,0 +1,400 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="it"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>SNA4Slack.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">SNA4Slack</a> &gt; <a href="index.source.html" class="el_package">snaforslack.main</a> &gt; <span class="el_source">SNA4Slack.java</span></div><h1>SNA4Slack.java</h1><pre class="source lang-java linenums">package snaforslack.main;
+
+import java.io.File;
+import java.util.HashMap;
+import java.util.Map;
+import snaforslack.interfaces.json.IntJFileScanner;
+import snaforslack.interfaces.json.IntJsonArray;
+import snaforslack.interfaces.json.IntJsonFileParser;
+import snaforslack.interfaces.main.Helper;
+import snaforslack.interfaces.main.IntCommandReader;
+import snaforslack.interfaces.obj.IntObjChannels;
+import snaforslack.interfaces.obj.IntObjMentions;
+import snaforslack.interfaces.obj.IntObjUsers;
+import snaforslack.interfaces.zip.IntZip;
+import snaforslack.obj.global.Channels;
+import snaforslack.obj.global.Mentions;
+import snaforslack.obj.global.Users;
+import snaforslack.utility.json.JFileScanner;
+import snaforslack.utility.json.JsonFileParser;
+import snaforslack.utility.zip.WorkspaceZip;
+import snaforslack.interfaces.main.IntSNA4Slack;
+
+/**
+ * Manages all the objects needed by the software.
+ *
+ */
+public class SNA4Slack implements IntSNA4Slack {
+
+	/**
+	 * Path of JSON users file.
+	 */
+	private static final String USERSFILE = &quot;/users.json&quot;;
+	/**
+	 * Path of JSON channels file.
+	 */
+	private static final String CHANNELSFILE = &quot;/channels.json&quot;;
+
+	/**
+	 * boolean value for weighed mentions.
+	 */
+	protected static final boolean WEIGHED = true;
+	/**
+	 * boolean value for weighed mentions.
+	 */
+	protected static final boolean NOTWEIGHED = false;
+	/**
+	 * Int value meaning the status of execution.
+	 */
+	private static final int ERROR = -1;
+
+	/**
+	 * Class attribute Users object contains all users.
+	 */
+	private IntObjUsers users;
+
+	/**
+	 * Class attribute Channels object contains all channels.
+	 */
+	private IntObjChannels channels;
+
+	/**
+	 * Class attribute Mentions object contains all mentions.
+	 */
+	private IntObjMentions mentions;
+
+	/**
+	 * Class attribute JsonFileParser object parses the JSON object.
+	 */
+	private IntJsonFileParser jsonParser;
+
+	/**
+	 * Class attribute CommandReader object manages the input commands.
+	 */
+	private final IntCommandReader commands;
+
+	/**
+	 * Class attribute commandsTabel object interprets the input command.
+	 */
+	private final Map&lt;String, Command&gt; commandsTable;
+
+	/**
+	 * Class attribute String object contains the workspace directory.
+	 */
+	private String dir;
+
+	/**
+	 * Status of execution. 1 no errors. -1 an error occured.
+	 */
+	private int status;
+
+	/**
+	 * Allocates the space for the commands and commandsTable attributes.
+	 * 
+	 * @param command
+	 *            a CommandReader object.
+	 */
+<span class="fc" id="L97">	public SNA4Slack(final IntCommandReader command) {</span>
+<span class="fc" id="L98">		this.commands = command;</span>
+<span class="fc" id="L99">		this.commandsTable = new HashMap&lt;String, Command&gt;();</span>
+<span class="fc" id="L100">	}</span>
+
+	/**
+	 * Runs the command specified in the input command.
+	 */
+	public final void run() {
+<span class="fc" id="L106">		this.loadDefaultSet();</span>
+<span class="fc" id="L107">		initializeZip();</span>
+<span class="pc bpc" id="L108" title="1 of 2 branches missed.">		if (this.checkStatus()) {</span>
+<span class="fc" id="L109">			initializeParser(USERSFILE);</span>
+<span class="fc" id="L110">			initializeUsers();</span>
+<span class="fc" id="L111">			initializeParser(CHANNELSFILE);</span>
+<span class="fc" id="L112">			initializeChannels();</span>
+<span class="pc bpc" id="L113" title="1 of 2 branches missed.">			if (this.commandsTable.get(this.commands.getInputCommand()) != null) {</span>
+<span class="fc" id="L114">				this.commandsTable.get(this.commands.getInputCommand()).runCommand();</span>
+			}
+		} else {
+<span class="nc" id="L117">			System.out.println(&quot;WRONG WORKSPACE. Please type a valid one!&quot;);</span>
+<span class="nc" id="L118">			Helper.stampaLogo();</span>
+<span class="nc" id="L119">			Helper.stampaHelp();</span>
+		}
+<span class="fc" id="L121">	}</span>
+
+	/**
+	 * Initializes the dir and workspaceZip attribute.
+	 */
+	private void initializeZip() {
+<span class="fc" id="L127">		dir = commands.getWorkspaceDir();</span>
+<span class="fc" id="L128">		final IntZip workspaceZip = new WorkspaceZip(dir);</span>
+<span class="fc" id="L129">		final int zipStatus = workspaceZip.extractZip();</span>
+<span class="fc" id="L130">		dir = workspaceZip.getDirPath();</span>
+<span class="fc" id="L131">		this.status = zipStatus;</span>
+<span class="fc" id="L132">	}</span>
+
+	/**
+	 * Initializes the jsonParser attribute.
+	 * 
+	 * @param filetype
+	 *            a String indicating the path of the JSON file.
+	 */
+	private void initializeParser(final String filetype) {
+<span class="fc" id="L141">		jsonParser = new JsonFileParser();</span>
+<span class="fc" id="L142">		jsonParser.initializeFromJSONFileDir(dir.concat(filetype));</span>
+<span class="fc" id="L143">	}</span>
+
+	/**
+	 * Initializes the users attribute.
+	 * 
+	 */
+	private void initializeUsers() {
+<span class="fc" id="L150">		final IntJsonArray array = jsonParser.getArray();</span>
+<span class="fc" id="L151">		users = new Users();</span>
+<span class="fc" id="L152">		users.initializeFromJsonArray(array);</span>
+<span class="fc" id="L153">	}</span>
+
+	/**
+	 * Initializes the channels attribute.
+	 * 
+	 */
+	private void initializeChannels() {
+<span class="fc" id="L160">		final IntJsonArray array = jsonParser.getArray();</span>
+<span class="fc" id="L161">		channels = new Channels(this.users);</span>
+<span class="fc" id="L162">		channels.initializeFromJsonArray(array);</span>
+<span class="fc" id="L163">	}</span>
+
+	/**
+	 * Prints users list.
+	 */
+	protected void printUsers() {
+<span class="fc" id="L169">		this.users.printList();</span>
+<span class="fc" id="L170">	}</span>
+
+	/**
+	 * Prints channels list.
+	 */
+	protected void printChannels() {
+<span class="fc" id="L176">		this.channels.printList();</span>
+<span class="fc" id="L177">	}</span>
+
+	/**
+	 * Prints channels list with channel's members.
+	 */
+	protected void printChannelsDetailed() {
+<span class="fc" id="L183">		this.channels.printListDetailed();</span>
+<span class="fc" id="L184">	}</span>
+
+	/**
+	 * Prints all members of a Channel.
+	 */
+	protected void printChannelMembers() {
+<span class="fc" id="L190">		final String channel = commands.getChannelName();</span>
+<span class="pc bpc" id="L191" title="1 of 2 branches missed.">		if (this.channels.checkChannel(channel)) {</span>
+<span class="fc" id="L192">			this.channels.printUsersOfChannel(channel);</span>
+		} else {
+<span class="nc" id="L194">			System.out.println(&quot;NO CHANNEL BY THIS NAME&quot;);</span>
+<span class="nc" id="L195">			Helper.stampaLogo();</span>
+<span class="nc" id="L196">			Helper.stampaHelp();</span>
+<span class="nc" id="L197">			this.status = ERROR;</span>
+		}
+<span class="fc" id="L199">	}</span>
+
+	/**
+	 * Initialize mentions.
+	 * 
+	 * @param weighed
+	 *            boolean value.
+	 */
+	protected void initializeMentions(final boolean weighed) {
+<span class="fc" id="L208">		this.mentions = new Mentions(this.users, weighed);</span>
+<span class="fc bfc" id="L209" title="All 2 branches covered.">		if (this.commands.isChannelSet()) {</span>
+<span class="fc" id="L210">			this.initializeMentionsFromChannel();</span>
+		} else {
+<span class="fc" id="L212">			this.initializeMentionsFromWorkspace();</span>
+		}
+<span class="fc" id="L214">	}</span>
+
+	/**
+	 * Initialize mentions from specific channel got from commands.
+	 */
+	private void initializeMentionsFromChannel() {
+<span class="fc" id="L220">		final String channel = this.commands.getChannelName();</span>
+<span class="pc bpc" id="L221" title="1 of 2 branches missed.">		if (this.checkChannel()) {</span>
+<span class="fc" id="L222">			final IntJFileScanner scanner = new JFileScanner(dir.concat(&quot;/&quot; + channel));</span>
+<span class="fc" id="L223">			jsonParser = new JsonFileParser();</span>
+<span class="fc bfc" id="L224" title="All 2 branches covered.">			for (final File file : scanner.getList()) {</span>
+<span class="fc" id="L225">				final String path = file.getAbsolutePath();</span>
+<span class="pc bpc" id="L226" title="1 of 2 branches missed.">				if (file.exists()) {</span>
+<span class="fc" id="L227">					jsonParser.initializeFromJSONFileDir(path);</span>
+<span class="fc" id="L228">					mentions.initializeFromJsonArray(jsonParser.getArray(), channels.getChannel(channel));</span>
+				}
+<span class="fc" id="L230">			}</span>
+<span class="fc" id="L231">		} else {</span>
+<span class="nc" id="L232">			System.out.println(&quot;NONE CHANNEL BY THIS NAME. Please retry with valid channel name&quot;);</span>
+<span class="nc" id="L233">			Helper.stampaLogo();</span>
+<span class="nc" id="L234">			Helper.stampaHelp();</span>
+<span class="nc" id="L235">			this.status = ERROR;</span>
+		}
+<span class="fc" id="L237">	}</span>
+
+	/**
+	 * Initialize mentions from workspace.
+	 */
+	private void initializeMentionsFromWorkspace() {
+<span class="fc bfc" id="L243" title="All 2 branches covered.">		for (final String channel : channels.getAllChannelsName()) {</span>
+<span class="fc" id="L244">			final IntJFileScanner scanner = new JFileScanner(dir.concat(&quot;/&quot; + channel));</span>
+<span class="fc" id="L245">			jsonParser = new JsonFileParser();</span>
+<span class="fc bfc" id="L246" title="All 2 branches covered.">			for (final File file : scanner.getList()) {</span>
+<span class="fc" id="L247">				final String path = file.getAbsolutePath();</span>
+<span class="pc bpc" id="L248" title="1 of 2 branches missed.">				if (file.exists()) {</span>
+<span class="fc" id="L249">					jsonParser.initializeFromJSONFileDir(path);</span>
+<span class="fc" id="L250">					mentions.initializeFromJsonArray(jsonParser.getArray(), channels.getChannel(channel));</span>
+				}
+<span class="fc" id="L252">			}</span>
+<span class="fc" id="L253">		}</span>
+<span class="fc" id="L254">	}</span>
+
+	/**
+	 * Check if the channel's name from commands is an actual channel from the
+	 * workspace.
+	 * 
+	 * @return a boolean value.
+	 */
+	private boolean checkChannel() {
+<span class="fc" id="L263">		return this.channels.checkChannel(this.commands.getChannelName());</span>
+	}
+
+	/**
+	 * Print mentions list.
+	 */
+	protected void printMentions() {
+<span class="pc bpc" id="L270" title="1 of 2 branches missed.">		if (this.checkStatus()) {</span>
+<span class="fc" id="L271">			this.mentions.printList();</span>
+		}
+<span class="fc" id="L273">	}</span>
+
+	/**
+	 * Prints every mention from certain User.
+	 * 
+	 */
+	protected void printSenderMentions() {
+<span class="fc" id="L280">		final String sender = this.commands.getUsername();</span>
+<span class="pc bpc" id="L281" title="1 of 2 branches missed.">		if (this.users.checkUser(sender)) {</span>
+<span class="fc" id="L282">			this.mentions.printSenderMentions(sender);</span>
+		} else {
+<span class="nc" id="L284">			System.out.println(&quot;NONE USERS BY THIS NAME IN THE WORKSPACE. Please type a valid one!&quot;);</span>
+<span class="nc" id="L285">			Helper.stampaLogo();</span>
+<span class="nc" id="L286">			Helper.stampaHelp();</span>
+		}
+<span class="fc" id="L288">	}</span>
+
+	/**
+	 * Prints every mention to certain User.
+	 */
+	protected void printReceiverMentions() {
+<span class="fc" id="L294">		final String sender = this.commands.getUsername();</span>
+<span class="pc bpc" id="L295" title="1 of 2 branches missed.">		if (this.users.checkUser(sender)) {</span>
+<span class="fc" id="L296">			this.mentions.printReceiverMentions(sender);</span>
+		} else {
+<span class="nc" id="L298">			System.out.println(&quot;NONE USERS BY THIS NAME IN THE WORKSPACE. Please type a valid one!&quot;);</span>
+<span class="nc" id="L299">			Helper.stampaLogo();</span>
+<span class="nc" id="L300">			Helper.stampaHelp();</span>
+		}
+<span class="fc" id="L302">	}</span>
+
+	/**
+	 * Checks the status of execution.
+	 * 
+	 * @return a boolean type.
+	 */
+	private boolean checkStatus() {
+<span class="pc bpc" id="L310" title="1 of 2 branches missed.">		return this.status == 1;</span>
+	}
+
+	/**
+	 * Loads all the needed interpretations for the possibles input commands.
+	 */
+	private void loadDefaultSet() {
+<span class="fc" id="L317">		this.commandsTable.put(&quot;-m&quot;, new Command() {</span>
+			@Override
+			public void runCommand() {
+<span class="fc" id="L320">				printUsers();</span>
+<span class="fc" id="L321">			}</span>
+		});
+<span class="fc" id="L323">		this.commandsTable.put(&quot;-c&quot;, new Command() {</span>
+			@Override
+			public void runCommand() {
+<span class="fc" id="L326">				printChannels();</span>
+<span class="fc" id="L327">			}</span>
+		});
+<span class="fc" id="L329">		this.commandsTable.put(&quot;-mc&quot;, new Command() {</span>
+			@Override
+			public void runCommand() {
+<span class="fc" id="L332">				printChannelsDetailed();</span>
+<span class="fc" id="L333">			}</span>
+		});
+<span class="fc" id="L335">		this.commandsTable.put(&quot;-cm&quot;, new Command() {</span>
+			@Override
+			public void runCommand() {
+<span class="fc" id="L338">				printChannelMembers();</span>
+<span class="fc" id="L339">			}</span>
+		});
+<span class="fc" id="L341">		this.commandsTable.put(&quot;@m&quot;, new Command() {</span>
+			@Override
+			public void runCommand() {
+<span class="fc" id="L344">				initializeMentions(NOTWEIGHED);</span>
+<span class="fc" id="L345">				printMentions();</span>
+<span class="fc" id="L346">			}</span>
+		});
+<span class="fc" id="L348">		this.commandsTable.put(&quot;@mw&quot;, new Command() {</span>
+			@Override
+			public void runCommand() {
+<span class="fc" id="L351">				initializeMentions(WEIGHED);</span>
+<span class="fc" id="L352">				printMentions();</span>
+<span class="fc" id="L353">			}</span>
+		});
+<span class="fc" id="L355">		this.commandsTable.put(&quot;@mf&quot;, new Command() {</span>
+			@Override
+			public void runCommand() {
+<span class="fc" id="L358">				initializeMentions(NOTWEIGHED);</span>
+<span class="fc" id="L359">				printSenderMentions();</span>
+<span class="fc" id="L360">			}</span>
+		});
+<span class="fc" id="L362">		this.commandsTable.put(&quot;@mfw&quot;, new Command() {</span>
+			@Override
+			public void runCommand() {
+<span class="fc" id="L365">				initializeMentions(WEIGHED);</span>
+<span class="fc" id="L366">				printSenderMentions();</span>
+<span class="fc" id="L367">			}</span>
+		});
+<span class="fc" id="L369">		this.commandsTable.put(&quot;@mt&quot;, new Command() {</span>
+			@Override
+			public void runCommand() {
+<span class="fc" id="L372">				initializeMentions(NOTWEIGHED);</span>
+<span class="fc" id="L373">				printReceiverMentions();</span>
+<span class="fc" id="L374">			}</span>
+		});
+<span class="fc" id="L376">		this.commandsTable.put(&quot;@mtw&quot;, new Command() {</span>
+			@Override
+			public void runCommand() {
+<span class="fc" id="L379">				initializeMentions(WEIGHED);</span>
+<span class="fc" id="L380">				printReceiverMentions();</span>
+<span class="fc" id="L381">			}</span>
+		});
+<span class="fc" id="L383">	}</span>
+
+	/**
+	 * Interface for the runCommand function.
+	 *
+	 */
+	private interface Command {
+
+		/**
+		 * Class member function to manage.
+		 * 
+		 * @throws Exception
+		 *             standard exception.
+		 */
+		void runCommand();
+	}
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.0.201801022044</span></div></body></html>

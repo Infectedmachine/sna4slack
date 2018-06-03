@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="it"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../jacoco-resources/report.css" type="text/css"/><link rel="shortcut icon" href="../jacoco-resources/report.gif" type="image/gif"/><title>ListUsers.java</title><link rel="stylesheet" href="../jacoco-resources/prettify.css" type="text/css"/><script type="text/javascript" src="../jacoco-resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../jacoco-sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">SNA4Slack</a> &gt; <a href="index.source.html" class="el_package">snaforslack.data.list</a> &gt; <span class="el_source">ListUsers.java</span></div><h1>ListUsers.java</h1><pre class="source lang-java linenums">package snaforslack.data.list;
+
+import java.util.ArrayList;
+import java.util.List;
+
+import snaforslack.data.structures.SlackUser;
+import snaforslack.interfaces.list.IntListUsers;
+import snaforslack.interfaces.structures.IntUser;
+
+/**
+ * List User class for a List of Users.
+ **/
+public class ListUsers implements IntListUsers {
+	/**
+	 * Private list of users.
+	 **/
+	private final List&lt;IntUser&gt; usersList;
+
+	/**
+	 * Public constructor.
+	 **/
+<span class="fc" id="L22">	public ListUsers() {</span>
+<span class="fc" id="L23">		this.usersList = new ArrayList&lt;IntUser&gt;();</span>
+<span class="fc" id="L24">	}</span>
+
+	/**
+	 * Gets the list of users.
+	 *
+	 * @return List&lt;IntUser&gt;
+	 **/
+	@Override
+	public List&lt;IntUser&gt; getUsersList() {
+<span class="fc" id="L33">		return this.usersList;</span>
+	}
+
+	/**
+	 * Adds a user given in input.
+	 *
+	 * @param user
+	 *            The user to add.
+	 **/
+	@Override
+	public void addUser(final IntUser user) {
+<span class="fc" id="L44">		this.usersList.add(user);</span>
+<span class="fc" id="L45">	}</span>
+
+	/**
+	 * Gets the numbers of members.
+	 *
+	 * @return int
+	 **/
+	@Override
+	public int listSize() {
+<span class="fc" id="L54">		return this.usersList.size();</span>
+	}
+
+	/**
+	 * Checks if there are no Users.
+	 *
+	 * @return Boolean
+	 **/
+	@Override
+	public boolean listIsEmpty() {
+<span class="fc" id="L64">		return this.usersList.isEmpty();</span>
+	}
+
+	/**
+	 * Returns a SlackUser object which name matches the given parameter.
+	 * 
+	 * @param value
+	 *            a String object.
+	 * @return a SlackUser object.
+	 */
+	public IntUser getUser(final String value) {
+<span class="fc bfc" id="L75" title="All 2 branches covered.">		for (final IntUser user : this.usersList) {</span>
+<span class="fc bfc" id="L76" title="All 2 branches covered.">			if (user.checkUser(value)) {</span>
+<span class="fc" id="L77">				return user;</span>
+			}
+<span class="fc" id="L79">		}</span>
+<span class="fc" id="L80">		return new SlackUser(null, &quot;USER NOT FOUND&quot;);</span>
+	}
+
+	/**
+	 * Checks if there is a user's name that matches the given parameter.
+	 * 
+	 * @param value
+	 *            a String.
+	 * @return a boolean value.
+	 */
+	public boolean checkUser(final String value) {
+<span class="fc bfc" id="L91" title="All 2 branches covered.">		for (final IntUser user : this.usersList) {</span>
+<span class="fc bfc" id="L92" title="All 2 branches covered.">			if (user.checkUser(value)) {</span>
+<span class="fc" id="L93">				return true;</span>
+			}
+<span class="fc" id="L95">		}</span>
+<span class="fc" id="L96">		return false;</span>
+	}
+
+	/**
+	 * Prints all the users by the name from the list.
+	 */
+	public void printList() {
+<span class="fc bfc" id="L103" title="All 2 branches covered.">		if (this.usersList.isEmpty()) {</span>
+<span class="fc" id="L104">			System.out.println(&quot;NONE MEMBERS&quot;);</span>
+		} else {
+<span class="fc bfc" id="L106" title="All 2 branches covered.">			for (final IntUser user : this.usersList) {</span>
+<span class="fc" id="L107">				System.out.println(user.getUserName());</span>
+<span class="fc" id="L108">			}</span>
+		}
+<span class="fc" id="L110">	}</span>
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.jacoco.org/jacoco">JaCoCo</a> 0.8.0.201801022044</span></div></body></html>

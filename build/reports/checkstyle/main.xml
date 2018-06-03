@@ -1,31 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <checkstyle version="8.8">
-<file name="C:\Users\Davide\ing\progetto1718-dijkstra\src\main\java\it\uniba\main\AppMain.java">
+<file name="C:\Users\Psycho\git\progetto1718-dijkstra\src\main\java\it\uniba\main\AppMain.java">
 </file>
-<file name="C:\Users\Davide\ing\progetto1718-dijkstra\src\main\java\slackpack\ArrayChannel.java">
+<file name="C:\Users\Psycho\git\progetto1718-dijkstra\src\main\java\snaforslack\data\list\ListChannels.java">
 </file>
-<file name="C:\Users\Davide\ing\progetto1718-dijkstra\src\main\java\slackpack\ArrayMember.java">
+<file name="C:\Users\Psycho\git\progetto1718-dijkstra\src\main\java\snaforslack\data\list\ListUsers.java">
 </file>
-<file name="C:\Users\Davide\ing\progetto1718-dijkstra\src\main\java\slackpack\ArrayMentions.java">
+<file name="C:\Users\Psycho\git\progetto1718-dijkstra\src\main\java\snaforslack\data\list\ListUsersMentions.java">
 </file>
-<file name="C:\Users\Davide\ing\progetto1718-dijkstra\src\main\java\slackpack\Channel.java">
+<file name="C:\Users\Psycho\git\progetto1718-dijkstra\src\main\java\snaforslack\data\structures\SlackChannel.java">
 </file>
-<file name="C:\Users\Davide\ing\progetto1718-dijkstra\src\main\java\slackpack\CommandLineReader.java">
+<file name="C:\Users\Psycho\git\progetto1718-dijkstra\src\main\java\snaforslack\data\structures\SlackUser.java">
 </file>
-<file name="C:\Users\Davide\ing\progetto1718-dijkstra\src\main\java\slackpack\Helper.java">
+<file name="C:\Users\Psycho\git\progetto1718-dijkstra\src\main\java\snaforslack\data\structures\SlackUserMentions.java">
 </file>
-<file name="C:\Users\Davide\ing\progetto1718-dijkstra\src\main\java\slackpack\JFileScanner.java">
+<file name="C:\Users\Psycho\git\progetto1718-dijkstra\src\main\java\snaforslack\interfaces\json\IntJFileScanner.java">
 </file>
-<file name="C:\Users\Davide\ing\progetto1718-dijkstra\src\main\java\slackpack\JsonFileParser.java">
+<file name="C:\Users\Psycho\git\progetto1718-dijkstra\src\main\java\snaforslack\interfaces\json\IntJsonArray.java">
 </file>
-<file name="C:\Users\Davide\ing\progetto1718-dijkstra\src\main\java\slackpack\Member.java">
+<file name="C:\Users\Psycho\git\progetto1718-dijkstra\src\main\java\snaforslack\interfaces\json\IntJsonFileParser.java">
 </file>
-<file name="C:\Users\Davide\ing\progetto1718-dijkstra\src\main\java\slackpack\Mention.java">
+<file name="C:\Users\Psycho\git\progetto1718-dijkstra\src\main\java\snaforslack\interfaces\json\IntJsonObject.java">
 </file>
-<file name="C:\Users\Davide\ing\progetto1718-dijkstra\src\main\java\slackpack\SNA4Slack.java">
+<file name="C:\Users\Psycho\git\progetto1718-dijkstra\src\main\java\snaforslack\interfaces\list\IntListChannels.java">
 </file>
-<file name="C:\Users\Davide\ing\progetto1718-dijkstra\src\main\java\slackpack\SlackMentionsFinder.java">
+<file name="C:\Users\Psycho\git\progetto1718-dijkstra\src\main\java\snaforslack\interfaces\list\IntListUserMentions.java">
 </file>
-<file name="C:\Users\Davide\ing\progetto1718-dijkstra\src\main\java\slackpack\Zip.java">
+<file name="C:\Users\Psycho\git\progetto1718-dijkstra\src\main\java\snaforslack\interfaces\list\IntListUsers.java">
+</file>
+<file name="C:\Users\Psycho\git\progetto1718-dijkstra\src\main\java\snaforslack\interfaces\main\Helper.java">
+</file>
+<file name="C:\Users\Psycho\git\progetto1718-dijkstra\src\main\java\snaforslack\interfaces\main\IntCommandReader.java">
+</file>
+<file name="C:\Users\Psycho\git\progetto1718-dijkstra\src\main\java\snaforslack\interfaces\main\IntSNA4Slack.java">
+</file>
+<file name="C:\Users\Psycho\git\progetto1718-dijkstra\src\main\java\snaforslack\interfaces\obj\IntObjChannels.java">
+</file>
+<file name="C:\Users\Psycho\git\progetto1718-dijkstra\src\main\java\snaforslack\interfaces\obj\IntObjMentions.java">
+</file>
+<file name="C:\Users\Psycho\git\progetto1718-dijkstra\src\main\java\snaforslack\interfaces\obj\IntObjUsers.java">
+</file>
+<file name="C:\Users\Psycho\git\progetto1718-dijkstra\src\main\java\snaforslack\interfaces\structures\IntChannel.java">
+</file>
+<file name="C:\Users\Psycho\git\progetto1718-dijkstra\src\main\java\snaforslack\interfaces\structures\IntUser.java">
+</file>
+<file name="C:\Users\Psycho\git\progetto1718-dijkstra\src\main\java\snaforslack\interfaces\structures\IntUserMentions.java">
+</file>
+<file name="C:\Users\Psycho\git\progetto1718-dijkstra\src\main\java\snaforslack\interfaces\zip\IntZip.java">
+</file>
+<file name="C:\Users\Psycho\git\progetto1718-dijkstra\src\main\java\snaforslack\main\CommandReader.java">
+</file>
+<file name="C:\Users\Psycho\git\progetto1718-dijkstra\src\main\java\snaforslack\main\SNA4Slack.java">
+</file>
+<file name="C:\Users\Psycho\git\progetto1718-dijkstra\src\main\java\snaforslack\obj\global\Channels.java">
+</file>
+<file name="C:\Users\Psycho\git\progetto1718-dijkstra\src\main\java\snaforslack\obj\global\Mentions.java">
+</file>
+<file name="C:\Users\Psycho\git\progetto1718-dijkstra\src\main\java\snaforslack\obj\global\Users.java">
+</file>
+<file name="C:\Users\Psycho\git\progetto1718-dijkstra\src\main\java\snaforslack\utility\json\JFileScanner.java">
+</file>
+<file name="C:\Users\Psycho\git\progetto1718-dijkstra\src\main\java\snaforslack\utility\json\JsonArray.java">
+</file>
+<file name="C:\Users\Psycho\git\progetto1718-dijkstra\src\main\java\snaforslack\utility\json\JsonFileParser.java">
+</file>
+<file name="C:\Users\Psycho\git\progetto1718-dijkstra\src\main\java\snaforslack\utility\json\JsonObject.java">
+</file>
+<file name="C:\Users\Psycho\git\progetto1718-dijkstra\src\main\java\snaforslack\utility\zip\WorkspaceZip.java">
 </file>
 </checkstyle>
